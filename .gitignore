@@ -9,3 +9,6 @@ models/*
 !models/README.md
 .env
 .DS_Store
+
+# WSL/NTFS ADS metadata artifacts
+**\:Zone.Identifier
