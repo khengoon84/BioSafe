@@ -2,7 +2,7 @@
 
 BioSafe is a local, evidence-grounded biosafety and biosecurity decision-support assistant. It is not a regulator, approving authority, legal adviser, medical provider, or substitute for institutional review.
 
-Read `BioSafe_Project_Handover_and_Technical_Baseline_v1.0.md` when project history, architecture, versions, test evidence, known failures, or roadmap context is needed. Do not duplicate that material here.
+Read `Project_Baseline.md` (the "BioSafe Project Handover and Technical Baseline") when project history, architecture, versions, test evidence, known failures, or roadmap context is needed. Do not duplicate that material here.
 
 ## Before editing
 
