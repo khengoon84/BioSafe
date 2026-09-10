@@ -1,0 +1,32 @@
+{
+  "applied_date": "2026-09-10",
+  "batch_id": "FORME-PILOT-02",
+  "changed_claim_count": 4,
+  "changed_claim_ids": [
+    "CLM-020",
+    "CLM-021",
+    "CLM-022",
+    "CLM-023"
+  ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "curated_claim_ids": [
+    "CLM-021",
+    "CLM-022",
+    "CLM-023",
+    "CLM-024",
+    "CLM-025"
+  ],
+  "decision_report_version": "BioSafe_Claim_Review_Decision_Report_v0.1",
+  "disposition_counts": {
+    "INSUFFICIENT_EVIDENCE": 1,
+    "SUPPORTED_EXACTLY": 3
+  },
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "result_review_map_sha256": "092842c6f32d51ee4740e656099209a22637ea993a44d9c71c52bb41fc612e5b",
+  "snapshot_sha256": "e5e8cd1c56ee8cadbbd33a277b451255a6e6d2a0e74ff4185c4f46012f8410ab",
+  "source_decision_packet_sha256": "4e991521b960163bedc865905203a56c182667785760c9f91f5080b3fc01174f",
+  "source_review_map_sha256": "e5e8cd1c56ee8cadbbd33a277b451255a6e6d2a0e74ff4185c4f46012f8410ab",
+  "total_completed_review_count": 17,
+  "total_curated_claim_count": 5,
+  "total_pending_review_count": 28
+}

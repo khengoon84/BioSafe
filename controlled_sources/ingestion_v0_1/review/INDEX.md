@@ -2,17 +2,16 @@
 
 Version: `BioSafe_Pending_Claim_Review_Briefs_v0.1`.
 
-Generated 2026-09-10 from `controlled_sources/ingestion_v0_1/reports/claim_reconciliation_review_aid_v0_1.json` (SHA-256 `9bf05f8edd507a911a9c90a76f9cfd5b64e5250f38a62891f1882e50b8748d10`).
-Canonical map: `controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json` (SHA-256 `e5e8cd1c56ee8cadbbd33a277b451255a6e6d2a0e74ff4185c4f46012f8410ab`).
+Generated 2026-09-10 from `controlled_sources/ingestion_v0_1/reports/claim_reconciliation_review_aid_v0_1.json` (SHA-256 `a6d12fe1a183e127dad816dd3ec9e6fec0f67f061a7413d55d16b316d59df441`).
+Canonical map: `controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json` (SHA-256 `092842c6f32d51ee4740e656099209a22637ea993a44d9c71c52bb41fc612e5b`).
 
-**32 pending claims across 9 controlled documents.**
+**28 pending claims across 8 controlled documents.**
 
 These are navigation-only aids. They create no disposition, atomic proposition, reviewer identity, attestation, regulatory conclusion, or activation decision.
 
 | Brief | Pending claims |
 |---|---:|
 | [ `KB-MY-CU` ](review_brief_KB-MY-CU.md) | 4 |
-| [ `KB-MY-FORME` ](review_brief_KB-MY-FORME.md) | 4 |
 | [ `KB-MY-GMMRA` ](review_brief_KB-MY-GMMRA.md) | 3 |
 | [ `KB-MY-IBC` ](review_brief_KB-MY-IBC.md) | 3 |
 | [ `KB-MY-TRANSPORT2023` ](review_brief_KB-MY-TRANSPORT2023.md) | 3 |

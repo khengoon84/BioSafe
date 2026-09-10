@@ -2,8 +2,230 @@
   "artifact_scope": "ADDITIVE_OFFLINE_CURATED_CANDIDATE_REFERENCE_ONLY",
   "artifact_version": "BioSafe_Curated_Candidate_KB_v0.1",
   "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "curated_claim_count": 2,
+  "curated_claim_count": 5,
   "curated_claims": [
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Form E asks for activity-related human-health risks, hazards, likelihood/consequence and risks from unintentional release to human health and environment."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 2",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-021",
+      "controlled_document_id": "KB-MY-FORME",
+      "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
+      "disposition": "SUPPORTED_EXACTLY",
+      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
+        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
+        "Do not infer project-specific facts that were not provided and reviewed."
+      ],
+      "findings": [
+        "Page 213 contains Section A4.1 Risk Assessment (Basic information) with questions 15-18.",
+        "Question 15 asks about risk to health and safety of humans from the proposed activity.",
+        "Question 16 asks about possible hazard(s) and likelihood/consequence from genetic modification.",
+        "Questions 17-18 ask about risks from unintentional release to human health and environment.",
+        "This directly supports the claim."
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-FORME",
+      "limitations": [
+        "This claim establishes that Form E asks for risk information, but does not determine the adequacy of any specific risk assessment.",
+        "This claim does not determine legal applicability, compliance, or whether work may begin."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-021",
+        "claim_type": "risk_assessment",
+        "document_id": "KB-MY-FORME",
+        "maps_to": "PROP-01",
+        "page": "Form E p.203 area",
+        "priority": "critical",
+        "section": "A4.1",
+        "text": "Form E asks for activity-related human-health risks, hazards, likelihood/consequence and risks from unintentional release to human health/environment.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 213,
+          "pdf_page_start": 213,
+          "quoted_support": "Risk Assessment (Basic information)\n\n15.                                                                          Is        there        any        risk        to        health        and        safety        of        humans        occurring        from        the        proposed\n             activity over and above those posed by the donor/parent organism?\n\n                                                                          No known hazard                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Not relevant                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Yes\n\n                                                                          If yes, please provide information in question below.\n\n16.                                                                          What           are           the           possible           hazard(s)           and           the           likelihood           and           consequence           of           the\n             hazard(s) occurring (i.e. the risk) from the proposed genetic modification(s)?\n\n17.                                                                          In regard to the health and safety of humans, what are the possible hazard(s) and\n             the    likelihood    and    consequence    of    the    hazard(s)    occurring    (i.e.    the    risk)    from    an\n             unintentional release of the LMO into the environment?\n\n18.                                                                          In    regard    to    the    environment,    what    are    the    possible    hazard(s)    and    the    likelihood\n             and     consequence     of     the     hazard(s)     occurring     (i.e.     the     risk)     from     an     unintentional\n             release of the LMO into the environment?\n\nA4.2",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "support_type": "DIRECT"
+        }
+      ]
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 2",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-022",
+      "controlled_document_id": "KB-MY-FORME",
+      "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
+      "disposition": "SUPPORTED_EXACTLY",
+      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
+        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
+        "Do not infer project-specific facts that were not provided and reviewed."
+      ],
+      "findings": [
+        "Page 213 contains A4.2 Risk Management question 19 asking about transport outside premises and precautions.",
+        "Page 214 contains questions 20-21 on disposal and decontamination procedures.",
+        "Page 214 contains A4.3 Emergency Response Plan (questions 22-26) covering protection, removal of LMO, disposal of exposed organisms, isolation, and contingency measures.",
+        "This directly supports the claim across pages 213-214."
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-FORME",
+      "limitations": [
+        "This claim establishes that Form E covers these topics, but does not determine the adequacy of any specific measures.",
+        "This claim does not determine legal applicability, compliance, or whether work may begin."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-022",
+        "claim_type": "risk_management",
+        "document_id": "KB-MY-FORME",
+        "maps_to": "PROP-01",
+        "page": "Form E pp.203\u2013204 area",
+        "priority": "major",
+        "section": "A4.2\u2013A4.3",
+        "text": "Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 214,
+          "pdf_page_start": 214,
+          "quoted_support": "20.                                                                          How will the LMO be disposed of?\n\n21.                                                                          What               are               the               procedures               for               decontaminating               equipments               used               during               the\n                proposed activities in order to render any LMO unviable?\n\nA4.3                                                                          Emergency Response Plan\n\n22.                                                                          Plans  for  protecting  human  health  and  the  environment  in  case  of  the  occurrence\n                of an undesirable effect observed during contained use activities.\n\n23.                                                                          Methods for removal of the LMO in the affected areas in the case of an unintentional\n                release.\n\n24.                                                                           Methods    for    disposal    of    other    plants,    animals    and    any    other    organisms    exposed\n                during the unintentional release.\n\n25.                                                                          Methods for isolation of the area affected by the unintentional release.\n\n26.                                                                           Details          of          any          other          contingency          measure          that          will          be          in          place          to          rectify          any\n                unintended              consequences              if              an              adverse              effect              becomes              evident              during              the\n                contained use activities or when an unintentional release occurs.\n\n\n                                                                                                                                2  1  3",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "support_type": "DIRECT"
+        }
+      ]
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Form E includes premises/facility details such as name/type/BSL and relevant inspection/certification/contact/BSO information."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 2",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-023",
+      "controlled_document_id": "KB-MY-FORME",
+      "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
+      "disposition": "SUPPORTED_EXACTLY",
+      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
+        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
+        "Do not infer project-specific facts that were not provided and reviewed."
+      ],
+      "findings": [
+        "Page 215 contains Section A3 The Premises with Table 1 requesting premises/facility details.",
+        "The table requests: name of premises, premises type, biosafety level (BSL), who undertook inspection, date of inspection, certification details (for BSL 3/4), premises address, Biosafety Officer name, and contact details.",
+        "This directly supports the claim."
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-FORME",
+      "limitations": [
+        "This claim establishes that Form E requests premises/facility information, but does not determine the adequacy of any specific facility.",
+        "This claim does not determine legal applicability, compliance, or whether work may begin."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-023",
+        "claim_type": "facility",
+        "document_id": "KB-MY-FORME",
+        "maps_to": "PROP-01",
+        "page": "Form E p.204 area",
+        "priority": "major",
+        "section": "Premises/facility",
+        "text": "Form E includes premises/facility details such as name/type/BSL and relevant inspection/certification/contact/BSO information.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 215,
+          "pdf_page_start": 215,
+          "quoted_support": "A3\t               ThePremises\nPlease provide information for all of the facilities being used for the confined activities in\nthe table below.\n\nTable 1 Description of the LMO for contained use activities\n\n               Information required                                                                                                                                                                        Premise 1                                                                                                Premise 2*                                                                       Premise 3*\n 1. Name of premises:\n 2. Premises type:\n (e.g. animal containment premise,\n laboratory, insect containment\n premise, etc)\n 3. Biosafety level (BSL):\n 4.Who undertook the inspection:\n (indicate whether it was NBB, IBC\n or its representative)\n 5. Date of most-recent inspection:\n 6. Fill the following if the BSL level\n     is 3 or 4:\n\n     Date of certification by competent\n     authority (If any)\n\n     Certificate reference no:\n 7. Premises address:\n 8. Premises contact person details/\n     Biosafety Officer Name:\n 9. Business phone number:\n 10. Mobile phone number:\n 11. Fax number:\n 12. Email address:\n\nNote:\n\n* For notifications with more than one premise; use additional columns if necessary.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "support_type": "DIRECT"
+        }
+      ]
+    },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],

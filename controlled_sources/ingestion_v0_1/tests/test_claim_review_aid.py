@@ -76,8 +76,8 @@ class ClaimReviewAidTests(unittest.TestCase):
         self.assertEqual(self.aid["completed_identity_review_count"], 4)
         self.assertEqual(self.aid["pending_identity_review_count"], 0)
         self.assertEqual(self.aid["claim_review_item_count"], 45)
-        self.assertEqual(self.aid["completed_claim_review_count"], len(LEGAL_CLAIM_IDS) + 4)
-        self.assertEqual(self.aid["pending_claim_review_count"], 45 - len(LEGAL_CLAIM_IDS) - 4)
+        self.assertEqual(self.aid["completed_claim_review_count"], len(LEGAL_CLAIM_IDS) + 8)
+        self.assertEqual(self.aid["pending_claim_review_count"], 45 - len(LEGAL_CLAIM_IDS) - 8)
         self.assertEqual(self.aid["claim_use_status"], CLAIM_REVIEW_REQUIRED)
         self.assertEqual(self.aid["live_activation_status"], ACTIVATION_PROHIBITED)
         for item in self.aid["identity_mapping_items"]:

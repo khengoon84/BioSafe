@@ -48,15 +48,15 @@ should be updated to point to `Project_Baseline.md` (owner decision).
 
 What does exist and is hash-attested in `controlled_sources/ingestion_v0_1/README.md`:
 
-- Canonical claim map `config/claim_reconciliation_map_v0_1.json` (SHA-256 `e5e8cd1c…`):
-  45 claims, 13 completed (9 `CURRENTNESS_UNRESOLVED` + 4 Form E pilot), 32 pending;
+- Canonical claim map `config/claim_reconciliation_map_v0_1.json` (SHA-256 `092842c6…`):
+  45 claims, 17 completed (9 `CURRENTNESS_UNRESOLVED` + 8 Form E pilot), 28 pending;
   all-pending baseline preserved byte-identically at `reports/claim_reconciliation_map_v0_1_pre_legal_review.json`
   (`1edf2c9a…`).
-- `reports/claim_reconciliation_packet_v0_1.json` (`9f782d00…`): 45 required / 13 completed /
-  2 curated (CLM-024, CLM-025), `PROHIBITED_PENDING_PHASE_C_GATES`.
-- `reports/curated_candidate_kb_v0_1.json` (`fe011769…`): 2 curated claims from Form E pilot.
-- `reports/claim_reconciliation_review_aid_v0_1.json` (`9bf05f8e…`): navigation aid,
-  13 complete / 32 pending.
+- `reports/claim_reconciliation_packet_v0_1.json` (`160911e0…`): 45 required / 17 completed /
+  5 curated (CLM-021, CLM-022, CLM-023, CLM-024, CLM-025), `PROHIBITED_PENDING_PHASE_C_GATES`.
+- `reports/curated_candidate_kb_v0_1.json` (`65e854ab…`): 5 curated claims from Form E pilot.
+- `reports/claim_reconciliation_review_aid_v0_1.json` (`a6d12fe1…`): navigation aid,
+  17 complete / 28 pending.
 - All deterministic test suites in `controlled_sources/ingestion_v0_1/tests/` pass
   after the Form E pilot review application (run 10 September 2026).
 
