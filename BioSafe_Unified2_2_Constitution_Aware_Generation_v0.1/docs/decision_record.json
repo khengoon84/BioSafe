@@ -1,0 +1,15 @@
+{
+  "stage": "Unified-2.2",
+  "version": "0.1",
+  "design": "constitution-aware generation adapter",
+  "frozen_core_modified": false,
+  "baseline_port": 8768,
+  "experimental_port": 8769,
+  "retrieval_query_policy": "original user query remains unchanged",
+  "constitution_location": "system role",
+  "acceptance_requires": [
+    "deterministic message contract",
+    "A/B hard assertions",
+    "human wording review"
+  ]
+}

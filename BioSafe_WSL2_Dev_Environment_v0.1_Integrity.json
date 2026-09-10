@@ -1,0 +1,199 @@
+{
+  "package": "BioSafe WSL2 Development Environment v0.1",
+  "recommended_install_path": "~/projects/biosafe",
+  "primary_dev_os": "WSL2 Ubuntu",
+  "ollama_location": "Windows initially",
+  "default_model": "qwen3:0.6b",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "45a501e3fd234f3872547f232b9336c937cff79c5dc5f108fc4024d5704572b0",
+      "bytes": 120
+    },
+    {
+      "path": ".vscode/extensions.json",
+      "sha256": "61c572accbdbb157be01b8b65636a71c6c841c37b32a0a4931f34f95babced10",
+      "bytes": 88
+    },
+    {
+      "path": ".vscode/settings.json",
+      "sha256": "b19557c6c431422421f61aad440e3814db99d5c2b05d9211ac2e3f082e09d2fb",
+      "bytes": 313
+    },
+    {
+      "path": "README.md",
+      "sha256": "4fb5fa5d9ae34213bea9106787fd7dc3e661dfe006f72c4d6b85b9726acd07dd",
+      "bytes": 2584
+    },
+    {
+      "path": "benchmarks/BioSafe_Benchmark_Dataset_v0.1.jsonl",
+      "sha256": "69676c58e0549c21597b2b0757dd85fb8290b03f0a587c16ed7fc61eaa8258aa",
+      "bytes": 43896
+    },
+    {
+      "path": "config/biosafe.env.example",
+      "sha256": "2c649ffa32457594fa11bc878931545f5073a51ade07b8917e5ab71254b61220",
+      "bytes": 116
+    },
+    {
+      "path": "data/BioSafe_Benchmark_Dataset_v0.1.jsonl",
+      "sha256": "69676c58e0549c21597b2b0757dd85fb8290b03f0a587c16ed7fc61eaa8258aa",
+      "bytes": 43896
+    },
+    {
+      "path": "data/BioSafe_Formal_Evaluator_Schema_v0.1.json",
+      "sha256": "dff050d48b661ffcf8975a71cbc17865979557a277e6aa147abac37fcf3dc55b",
+      "bytes": 43844
+    },
+    {
+      "path": "data/BioSafe_Knowledge_Base_v0.1.1.json",
+      "sha256": "5319ca6652d904c5692ab42c2d27855049ead751a14bfd6dd438ed95d801fef3",
+      "bytes": 28711
+    },
+    {
+      "path": "data/BioSafe_Knowledge_Pack_Manifest_v0.1.json",
+      "sha256": "199145afd64b1fb41f38921aba90ac214193f199dda4eb29f649c10eadf11031",
+      "bytes": 11424
+    },
+    {
+      "path": "data/Model_Candidate_Manifest_v0.1.json",
+      "sha256": "94847f750d210d9dd80241897a3a770227ac4f82aa1491bd1b1e07575e202ddf",
+      "bytes": 1289
+    },
+    {
+      "path": "data/README_and_Scoring_Rubric.md",
+      "sha256": "aa5898c2b8eedc9e2500f0daf27d0be214aabc706c0984957997ff2309dd5b09",
+      "bytes": 1478
+    },
+    {
+      "path": "logs/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "models/README.md",
+      "sha256": "dae00236350883e02d4cdc95c3efd70fb3b4feaa7510f5db93b582cc4938de88",
+      "bytes": 153
+    },
+    {
+      "path": "output/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "output/benchmark_pipeline_manifest_v0.1.csv",
+      "sha256": "351e8f0e7f941fbfb9c15415ece519b1b51ebd932868dac8a00fc18d7bf292d6",
+      "bytes": 6278
+    },
+    {
+      "path": "output/benchmark_prompt_bundles_v0.1.json",
+      "sha256": "1ff9ffaf193497fed7a3bea3f307ab4652ad317e2cea6bf48e04793aacbde993",
+      "bytes": 603871
+    },
+    {
+      "path": "output/pipeline_validation_summary_v0.1.json",
+      "sha256": "7996ce17e5f052cf18a915a1321c05464dedacd4bd151e11d8e4d77a0e02dbab",
+      "bytes": 708
+    },
+    {
+      "path": "prompts/response_schema_v0.1.json",
+      "sha256": "ff92746661dd0faf13478b0d652c751b399d04d75e6dbbd94c439ee5ebb49add",
+      "bytes": 1558
+    },
+    {
+      "path": "prompts/system_prompt_v0.1.txt",
+      "sha256": "03d3d07986470efb8ce7fc208bd2e9b66778c8d6f323fc8d5fc72e5664827c36",
+      "bytes": 1750
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "17868166cdf2699927e85613bcf88ce6e645faae52b2e34e6a861a0426331ef9",
+      "bytes": 51
+    },
+    {
+      "path": "scripts/detect_ollama.py",
+      "sha256": "f19058723f4d38d0b02e740f6aecd0e1f61bb23c9c372989f937524b6b0747a3",
+      "bytes": 1376
+    },
+    {
+      "path": "scripts/init_git.sh",
+      "sha256": "e1190112340908e571ed7c3cf915522aeb4814578ec1a24a41ade77666602fd9",
+      "bytes": 314
+    },
+    {
+      "path": "scripts/preflight.sh",
+      "sha256": "b48c070fa38e8760e26425f7c83c133782725f27fb77aa5e9e8e62129b4821fe",
+      "bytes": 512
+    },
+    {
+      "path": "scripts/run_wsl2_smoke.py",
+      "sha256": "9788952a347dd897aafb95f2be2cb8c4d2b340ba6e50e5cda441c6120bb0fe22",
+      "bytes": 4022
+    },
+    {
+      "path": "scripts/setup_wsl2.sh",
+      "sha256": "3bfef014d128a16528fc1c8a3f34b2721d37f78087aa48fa1510354d5ef7932f",
+      "bytes": 831
+    },
+    {
+      "path": "src/biosafe_pipeline_v0_1.py",
+      "sha256": "35503b6a2efefc47bdc62f96a752cb6998465377cdf06d83872aaff4fd00b004",
+      "bytes": 4042
+    },
+    {
+      "path": "src/integration_safety_gate_v0_1.py",
+      "sha256": "b945fb893357db3d2e0d0d08ad48f99dab6e4fbba6c96ed5ed8873da4c6528b3",
+      "bytes": 1299
+    },
+    {
+      "path": "src/model_adapters.py",
+      "sha256": "d9b31ed9e1c674acc6eda6bebdfc978b33ad0d4d9089f71a3df201d49e315dd3",
+      "bytes": 2569
+    },
+    {
+      "path": "src/preflight_check.py",
+      "sha256": "d2513e7335204bb18b7d8d5e7daf80c5a604122d2e142a45a63e7fb5167868de",
+      "bytes": 577
+    },
+    {
+      "path": "src/retriever_base.py",
+      "sha256": "1fb66971c1db9d851645906ea7f7a1f8d02e120d575e894575e265977cce246e",
+      "bytes": 11538
+    },
+    {
+      "path": "src/retriever_cfg02_base.py",
+      "sha256": "5ca5ffee481ded645ec304ab602dc76878e77fde69eabf48e9318a8e9aa260c9",
+      "bytes": 4571
+    },
+    {
+      "path": "src/retrievers_router02.py",
+      "sha256": "aff42a2822c42cb9a4bb83bbc88d8957b569df886181d3e244d53ffffd299cb8",
+      "bytes": 6006
+    },
+    {
+      "path": "src/router_v02.py",
+      "sha256": "1bb3ae4f92abf8114b036e3cb1f46d8f901c85725a96d50af6946c726167ebb3",
+      "bytes": 15211
+    },
+    {
+      "path": "src/run_biosafe_ollama.py",
+      "sha256": "3756d33d71340a43201ae4358fe9f10fceb3bc98c8c0be664b00f2f7ccf3f73d",
+      "bytes": 5755
+    },
+    {
+      "path": "src/run_local_llm_benchmark.py",
+      "sha256": "3565a4f504b120bcd25bad68632da01cae09bd879cb2d8206dee2525d00dfc69",
+      "bytes": 2118
+    },
+    {
+      "path": "src/scope_gate_v0_2_1.py",
+      "sha256": "1686a7e53257e79887120f23890b7ddf78508d00e098ab6066fa37b50fe28a03",
+      "bytes": 1448
+    },
+    {
+      "path": "src/validate_model_outputs.py",
+      "sha256": "2bedfc6a27ac9a2ffd81787ee500a5387279175d59ed70ad0c8b750618b63bde",
+      "bytes": 1508
+    }
+  ]
+}

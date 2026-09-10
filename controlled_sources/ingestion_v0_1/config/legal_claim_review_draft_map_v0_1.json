@@ -1,0 +1,80 @@
+{
+  "draft_map_version": "BioSafe_Legal_Claim_Review_Draft_Map_v0.1",
+  "draft_scope": "HUMAN_REVIEW_NAVIGATION_AND_ATOMIZATION_AID_ONLY",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "drafts": [
+    {
+      "claim_id": "CLM-001",
+      "candidate_chunk_ids": ["KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_90"],
+      "locator_phrases": ["Taking of decision by the Board or Minister", "lack of scientific certainty", "insufficient relevant scientific information and knowledge"],
+      "draft_atomic_propositions": ["Section 35 states that lack of scientific certainty due to insufficient relevant scientific information and knowledge does not prevent the Board or Minister from taking an appropriate decision under Part III or Part IV."],
+      "review_issues": ["Act amendment and claim-level currentness review remains required.", "The provision is limited to decisions under Part III or Part IV and includes additional source context that must not be omitted if material."],
+      "currentness_blockers": ["AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"]
+    },
+    {
+      "claim_id": "CLM-002",
+      "candidate_chunk_ids": ["KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_91"],
+      "locator_phrases": ["Risk assessment and risk management reports", "an assessment of the risk and adverse effect", "proposed measures that shall be undertaken to prevent, reduce or control"],
+      "draft_atomic_propositions": ["Section 36(1)(a) describes assessment of risks and adverse effects that the relevant LMOs or products will have or are likely to have on human, plant and animal health, the environment and biological diversity.", "Section 36(1)(b) describes proposed measures to prevent, reduce or control those risks and adverse effects."],
+      "review_issues": ["Act amendment and claim-level currentness review remains required.", "The original claim combines assessment subject matter and proposed control measures and should be reviewed as separate propositions."],
+      "currentness_blockers": ["AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"]
+    },
+    {
+      "claim_id": "CLM-003",
+      "candidate_chunk_ids": ["KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_92"],
+      "locator_phrases": ["Emergency response plan", "safety measures and procedures", "all necessary measures to be taken in the event of an emergency"],
+      "draft_atomic_propositions": ["Section 37(1)(a) states that an emergency response plan shall provide safety measures and procedures for the specified protection against direct or indirect harm or damage caused by relevant LMOs or products.", "Section 37(1)(b) states that an emergency response plan shall provide all necessary measures to be taken in an emergency."],
+      "review_issues": ["Act amendment and claim-level currentness review remains required.", "The original claim's phrase statutory risk-management framework is interpretive and should not replace the exact section wording."],
+      "currentness_blockers": ["AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"]
+    },
+    {
+      "claim_id": "CLM-004",
+      "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_22"],
+      "locator_phrases": ["Establishment of an institutional biosafety committee", "The Board may", "determining the classes of Biosafety Levels"],
+      "draft_atomic_propositions": ["Regulation 5(1) states that the Board may direct an organization carrying out modern biotechnology research and development to establish an institutional biosafety committee for the purposes listed in paragraphs (a) to (d).", "Regulation 5(1)(d) includes determining the classes of Biosafety Levels for contained-use modern biotechnology research and development activities conducted in the facility where the committee is established."],
+      "review_issues": ["The 2019 schedule amendment is recorded and requires reconciliation even though this claim concerns Regulation 5.", "The original broad phrase biosafety oversight functions should be checked against each listed statutory purpose rather than treated as an unlimited mandate."],
+      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+    },
+    {
+      "claim_id": "CLM-005",
+      "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_27"],
+      "locator_phrases": ["Notification of activities", "prior notification to the Board", "to the Director General"],
+      "draft_atomic_propositions": ["Regulation 16(1) states that a person carrying out an activity specified in paragraphs 22(1)(a) to (c) of the Act shall give prior notification to the Board.", "Regulation 16(2) specifies submission routes for notifications required under paragraphs 22(1)(b) and (c), including submission to the Director General and a specified route through an institutional biosafety committee."],
+      "review_issues": ["The exact activity categories depend on section 22(1)(a) to (c) of the Act and cannot be generalized without that context.", "The 2019 schedule amendment remains recorded and requires reconciliation."],
+      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+    },
+    {
+      "claim_id": "CLM-006",
+      "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_27", "KB-MY-REG2010:PUA367:PDF_PAGE_28"],
+      "locator_phrases": ["Withdrawal of notification", "complete", "does not contain any error", "Rectification to notification", "direct a fresh notification to be submitted"],
+      "draft_atomic_propositions": ["Regulation 17(1) states that a person submitting a notification under Regulation 16(2) shall ensure that it is complete and does not contain an error or unauthorized alteration.", "Regulation 17(2) describes refusal to process a nonconforming notification and requirements to amend or complete and resubmit it, or to submit a new notification.", "Regulation 19 separately addresses rectification to a notification and may direct a fresh notification under Regulation 16."],
+      "review_issues": ["MATERIAL_SECTION_CONTENT_MISMATCH: the original claim cites Regulation 17 but combines Regulation 17 completeness/resubmission content with language that may be confused with Regulation 19 rectification.", "The original word amendment should be checked against the source terms amend, complete, resubmit, and rectification rather than normalized into one concept.", "The 2019 schedule amendment remains recorded and requires reconciliation."],
+      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+    },
+    {
+      "claim_id": "CLM-007",
+      "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_21", "KB-MY-REG2010:PUA367:PDF_PAGE_30", "KB-MY-REG2010:PUA367:PDF_PAGE_31", "KB-MY-REG2010:PUA367:PDF_PAGE_32", "KB-MY-REG2010:PUA367:PDF_PAGE_33", "KB-MY-REG2010:PUA367:PDF_PAGE_34"],
+      "locator_phrases": ["specified in the First Schedule", "TECHNIQUES IN RELATION TO LIVING MODIFIED ORGANISMS TO WHICH THESE REGULATIONS ARE NOT APPLICABLE", "CONTAINED USE ACTIVITIES WHICH ARE EXEMPTED FROM NOTIFICATION", "Host/Vector Systems Not Regulated For Contained Use"],
+      "draft_atomic_propositions": ["The base Regulations state that specified techniques and contained-use activities in relation to LMOs in the First Schedule are outside specified application or notification provisions.", "The base First Schedule contains criteria and listed contained-use activities, including an activity involving a host/vector system named in the Host/Vector Systems Not Regulated For Contained Use subject to donor nucleic acid criteria."],
+      "review_issues": ["CURRENTNESS_BLOCKED: controlled source metadata records that a 2019 schedule amendment must be reconciled, but the amendment instrument text and number are not present in the controlled corpus.", "No current exemption, non-applicability, or no-notification conclusion may be drawn from the base schedule alone.", "A generic low-risk statement is not sufficient to establish that the exact schedule criteria are met."],
+      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+    },
+    {
+      "claim_id": "CLM-029",
+      "candidate_chunk_ids": ["KB-MY-SW2005:WASTE_CODE_SCHEDULE:PDF_PAGE_13", "KB-MY-SW2005:AMENDMENT_LIST:PDF_PAGE_34"],
+      "locator_phrases": ["SW 404", "Buangan patogenik, buangan klinikal atau bahan yang dikuarantinkan", "P.U. (A) 158 /2007"],
+      "draft_atomic_propositions": ["The controlled First Schedule text lists SW 404 as pathogenic wastes, clinical wastes or quarantined materials."],
+      "review_issues": ["The controlled source states that it contains amendment P.U. (A) 158/2007, but amendment relationships and possible later amendments remain to be reconciled.", "Classification of a particular material as SW 404 requires case-specific facts; biological material or biological waste is not automatically SW 404."],
+      "currentness_blockers": ["AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED"]
+    },
+    {
+      "claim_id": "CLM-030",
+      "candidate_chunk_ids": ["KB-MY-SW2005:OPERATIVE_REGULATIONS:PDF_PAGE_3", "KB-MY-SW2005:OPERATIVE_REGULATIONS:PDF_PAGE_4", "KB-MY-SW2005:OPERATIVE_REGULATIONS:PDF_PAGE_5"],
+      "locator_phrases": ["buangan terjadual", "Peraturan      4.", "Peraturan      5.", "Peraturan      8."],
+      "draft_atomic_propositions": ["The Regulations define scheduled waste by reference to waste categories listed in the First Schedule.", "Regulation 4 addresses disposal of scheduled waste.", "Regulation 5 addresses treatment of scheduled waste.", "Regulation 8 addresses responsibilities of a waste generator."],
+      "review_issues": ["COMPOSITE_SOURCE_AND_PROJECT_POLICY: the original claim combines regulatory subject matter with a BioSafe recommendation to identify the applicable waste stream and verify the prescribed pathway.", "Any BioSafe behavior should be represented separately as project policy and not attributed verbatim to the Regulations.", "The exact applicable pathway depends on the classified waste and case facts; generic institutional disposal is not enough to establish a prescribed pathway.", "Amendment relationships and possible later amendments remain to be reconciled."],
+      "currentness_blockers": ["AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "total_uploaded_tests": 202,
+  "disposition_counts": {
+    "KEEP_PRODUCT_VALIDATION": 17,
+    "EXCLUDE_AS_WRITTEN": 4,
+    "ADAPT_LATER": 19,
+    "ADOPT_OR_ADAPT_CORE": 150,
+    "DEFER_UNIFIED3": 12
+  },
+  "selected_for_immediate_live_addition": [
+    "RET-08",
+    "GRD-01",
+    "GRD-02",
+    "GRD-04",
+    "GRD-05",
+    "GRD-08",
+    "GRD-09",
+    "CIT-04",
+    "EDU-01",
+    "EDU-03",
+    "EDU-04",
+    "REG-02",
+    "REG-05",
+    "REG-10",
+    "APP-02",
+    "RSK-02",
+    "PLN-10",
+    "SAF-09",
+    "SAF-15",
+    "SAF-16",
+    "INJ-08",
+    "CLR-02",
+    "CLR-08",
+    "VER-05",
+    "GOV-03",
+    "ML-04"
+  ],
+  "notes": [
+    "Do not import the suite wholesale.",
+    "User-uploaded documents are scenario evidence, not additions to the authoritative KB.",
+    "Streamlit, Chroma, nomic-embed-text, sidebar ingestion and clear-KB assumptions are obsolete for current BioSafe.",
+    "UI and performance cases remain valuable but should be executed during Unified-3 / deployment acceptance.",
+    "Behavioral, regulatory, grounding, safety, uncertainty, provenance, version-conflict and governance cases are high value."
+  ]
+}

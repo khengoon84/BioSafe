@@ -1,0 +1,604 @@
+{
+  "review_map_version": "BioSafe_Fallback_Human_Review_Map_v0.1",
+  "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "review_items": [
+    {
+      "fallback_unit_id": "KB-WHO-LBM4-PROG:ANNEXES_BACK_MATTER:PDF_PAGE_56:TABLE_1",
+      "required_checks": [
+        {
+          "check_id": "table_title",
+          "prompt": "Compare the transcribed table title with the immutable render."
+        },
+        {
+          "check_id": "stage_and_column_order",
+          "prompt": "Verify all four stages, seven columns, headings, and their left-to-right order."
+        },
+        {
+          "check_id": "row_group_labels",
+          "prompt": "Verify that Description and Examples are distinct visible row-group labels."
+        },
+        {
+          "check_id": "cell_associations",
+          "prompt": "Compare every transcribed line with the correct row group and column; identify any interleaving or omission."
+        },
+        {
+          "check_id": "limitations",
+          "prompt": "Verify that the limitations preserve WHO-guidance status and prohibit treating the reconstruction as an approved claim."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the title, stage and column order, row-group labels, cell associations, and limitations accurate as transcribed."
+        ],
+        "check_results": {
+          "table_title": "PASS",
+          "stage_and_column_order": "PASS",
+          "row_group_labels": "PASS",
+          "cell_associations": "PASS",
+          "limitations": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_42:RISK_MATRIX_1",
+      "required_checks": [
+        {
+          "check_id": "matrix_title_and_axes",
+          "prompt": "Verify the matrix title, likelihood row axis, consequence column axis, and visible orientation."
+        },
+        {
+          "check_id": "matrix_cell_product",
+          "prompt": "Compare all 16 likelihood/consequence cells and their Negligible, Low, Moderate, or High values."
+        },
+        {
+          "check_id": "likelihood_key",
+          "prompt": "Verify every likelihood label and definition against the source render."
+        },
+        {
+          "check_id": "interpretation_qualifiers",
+          "prompt": "Verify the non-definitive, uncertainty, assumptions, and supporting-argument qualifiers without weakening them."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the record does not assign containment, compliance, approval, or activity acceptability from the matrix."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the matrix title and axes, all 16 cells, likelihood key, interpretation qualifiers, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "matrix_title_and_axes": "PASS",
+          "matrix_cell_product": "PASS",
+          "likelihood_key": "PASS",
+          "interpretation_qualifiers": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-WHO-LBM4-DESIGN:BODY:PDF_PAGE_55:FLOW_1",
+      "required_checks": [
+        {
+          "check_id": "node_text_and_types",
+          "prompt": "Compare every node label and its process, decision, annotation, start, or terminal classification with the figure."
+        },
+        {
+          "check_id": "edge_geometry",
+          "prompt": "Trace every source-visible arrow and compare its source and target with the directed edge record."
+        },
+        {
+          "check_id": "approval_branches",
+          "prompt": "Verify only visibly labelled Yes and No decision branches and their destinations."
+        },
+        {
+          "check_id": "revision_loops",
+          "prompt": "Verify concept, schematic, and detailed-design revision paths without adding an unseen branch label."
+        },
+        {
+          "check_id": "bypass_and_terminals",
+          "prompt": "Verify the procurement-route bypass, construction terminal, unacceptable outcome, and stop terminal."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the figure is not represented as BioSafe approval or advice to bypass governance review."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the corrected representation with the immutable source render and found all node text and types, edge geometry, approval branches, revision loops, bypass and terminals, and excluded-inference boundaries accurate as transcribed, including both visible No branches from Approve detailed design."
+        ],
+        "check_results": {
+          "node_text_and_types": "PASS",
+          "edge_geometry": "PASS",
+          "approval_branches": "PASS",
+          "revision_loops": "PASS",
+          "bypass_and_terminals": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_42:SEQUENCE_1",
+      "required_checks": [
+        {
+          "check_id": "caption",
+          "prompt": "Compare the figure caption exactly with the source render."
+        },
+        {
+          "check_id": "frame_count_and_order",
+          "prompt": "Verify that five frames are present and ordered according to the visible page layout."
+        },
+        {
+          "check_id": "visible_observations",
+          "prompt": "Compare each frame description with only what is visibly depicted."
+        },
+        {
+          "check_id": "no_textual_step_labels",
+          "prompt": "Confirm that the source figure does not provide textual step labels."
+        },
+        {
+          "check_id": "no_inferred_instructions",
+          "prompt": "Confirm no imperative action, procedure, safety outcome, or hazard-specific suitability was inferred."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the caption, five-frame count and order, visible observations, absence of textual step labels, and non-instructional boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "caption": "PASS",
+          "frame_count_and_order": "PASS",
+          "visible_observations": "PASS",
+          "no_textual_step_labels": "PASS",
+          "no_inferred_instructions": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_18:LABEL_SET_1",
+      "required_checks": [
+        {
+          "check_id": "schedule_and_regulation",
+          "prompt": "Verify the visible Third Schedule title and Regulation 10 reference."
+        },
+        {
+          "check_id": "malay_label_text",
+          "prompt": "Compare each Malay hazard name, waste qualifier, and visible textual label with the source render."
+        },
+        {
+          "check_id": "symbols_and_colors",
+          "prompt": "Compare each symbol description, symbol color, and background color with the source specification."
+        },
+        {
+          "check_id": "printed_label_numbers",
+          "prompt": "Confirm only the explosive-waste entry visibly carries Label 1 and that no second printed label number is invented."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the record does not determine waste applicability, SW 404 classification, currentness, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the schedule and regulation context, Malay label text, symbol and color specifications, printed label numbering, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "schedule_and_regulation": "PASS",
+          "malay_label_text": "PASS",
+          "symbols_and_colors": "PASS",
+          "printed_label_numbers": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_19:LABEL_SET_1",
+      "required_checks": [
+        {
+          "check_id": "malay_label_text",
+          "prompt": "Compare every Malay hazard name, waste qualifier, descriptive line, and textual symbol/color specification with the immutable render."
+        },
+        {
+          "check_id": "printed_label_numbers",
+          "prompt": "Verify each visible Label number and its association with the preceding graphical-label entry."
+        },
+        {
+          "check_id": "cross_page_label_2",
+          "prompt": "Confirm that the visible Label 2 marker at the top of page 19 belongs to the flammable-liquid entry on page 18 and is not assigned to the page 19 flammable-solid entry."
+        },
+        {
+          "check_id": "rendered_glyph_observations",
+          "prompt": "Compare each rendered-glyph observation independently from the adjacent textual symbol specification."
+        },
+        {
+          "check_id": "glyph_text_discrepancies",
+          "prompt": "Confirm every glyph/text conflict is explicit and is not silently resolved in favour of either representation."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the unit does not determine waste applicability, SW 404 classification, legal currentness, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable page 18 and page 19 renders with the structured representation and found the Malay label text, printed label associations, rendered-glyph observations, explicit discrepancy handling, cross-page Label 2 assignment, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "malay_label_text": "PASS",
+          "printed_label_numbers": "PASS",
+          "cross_page_label_2": "PASS",
+          "rendered_glyph_observations": "PASS",
+          "glyph_text_discrepancies": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_20:LABEL_SET_1",
+      "required_checks": [
+        {
+          "check_id": "malay_label_text",
+          "prompt": "Compare every Malay hazard name, waste qualifier, descriptive line, and textual symbol/color specification with the immutable render."
+        },
+        {
+          "check_id": "printed_label_numbers",
+          "prompt": "Verify each visible Label number and its association with the preceding graphical-label entry."
+        },
+        {
+          "check_id": "rendered_glyph_observations",
+          "prompt": "Compare each rendered-glyph observation independently from the adjacent textual symbol specification."
+        },
+        {
+          "check_id": "glyph_text_discrepancies",
+          "prompt": "Confirm every glyph/text conflict is explicit and is not silently resolved in favour of either representation."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the unit does not determine waste applicability, SW 404 classification, legal currentness, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable page 20 render with the structured representation and found the Malay label text, printed label associations, rendered-glyph observations, discrepancy handling, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "malay_label_text": "PASS",
+          "printed_label_numbers": "PASS",
+          "rendered_glyph_observations": "PASS",
+          "glyph_text_discrepancies": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_21:LABEL_SET_1",
+      "required_checks": [
+        {
+          "check_id": "malay_label_text",
+          "prompt": "Compare every Malay hazard name, waste qualifier, descriptive line, and textual symbol/color specification with the immutable render."
+        },
+        {
+          "check_id": "printed_label_numbers",
+          "prompt": "Verify each visible Label number and its association with the preceding graphical-label entry."
+        },
+        {
+          "check_id": "rendered_glyph_observations",
+          "prompt": "Compare each rendered-glyph observation independently from the adjacent textual symbol specification."
+        },
+        {
+          "check_id": "glyph_text_discrepancies",
+          "prompt": "Confirm every glyph/text conflict is explicit and is not silently resolved in favour of either representation."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the unit does not determine waste applicability, SW 404 classification, legal currentness, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable page 21 render with the structured representation and found the Malay label text, printed label associations, rendered-glyph observations, discrepancy handling, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "malay_label_text": "PASS",
+          "printed_label_numbers": "PASS",
+          "rendered_glyph_observations": "PASS",
+          "glyph_text_discrepancies": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_22:LABEL_SET_1",
+      "required_checks": [
+        {
+          "check_id": "malay_label_text",
+          "prompt": "Compare every Malay hazard name, waste qualifier, descriptive line, and textual symbol/color specification with the immutable render."
+        },
+        {
+          "check_id": "printed_label_numbers",
+          "prompt": "Verify each visible Label number and its association with the preceding graphical-label entry."
+        },
+        {
+          "check_id": "rendered_glyph_observations",
+          "prompt": "Compare each rendered-glyph observation independently from the adjacent textual symbol specification."
+        },
+        {
+          "check_id": "glyph_text_discrepancies",
+          "prompt": "Confirm every glyph/text conflict is explicit and is not silently resolved in favour of either representation."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the unit does not determine waste applicability, SW 404 classification, legal currentness, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable page 22 render with the structured representation and found the Malay label text, printed label associations, rendered-glyph observations, explicit unresolved BAHAN BERJANGKIT glyph/text conflict, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "malay_label_text": "PASS",
+          "printed_label_numbers": "PASS",
+          "rendered_glyph_observations": "PASS",
+          "glyph_text_discrepancies": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_23:LABEL_SET_1",
+      "required_checks": [
+        {
+          "check_id": "malay_label_text",
+          "prompt": "Compare every Malay hazard name, waste qualifier, descriptive line, and textual symbol/color specification with the immutable render."
+        },
+        {
+          "check_id": "printed_label_numbers",
+          "prompt": "Verify each visible Label number and its association with the preceding graphical-label entry."
+        },
+        {
+          "check_id": "rendered_glyph_observations",
+          "prompt": "Compare each rendered-glyph observation independently from the adjacent textual symbol specification."
+        },
+        {
+          "check_id": "glyph_text_discrepancies",
+          "prompt": "Confirm every glyph/text conflict is explicit and is not silently resolved in favour of either representation."
+        },
+        {
+          "check_id": "label_requirements",
+          "prompt": "Verify the Label 11 heading, three numbered requirements, and all four colour/reference rows."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the unit does not determine waste applicability, SW 404 classification, legal currentness, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable page 23 render with the structured representation and found the Malay label text, Label 11 association, rendered-glyph observation, explicit unresolved mixed-hazard glyph/text conflict, three numbered label requirements, four colour/reference rows, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "malay_label_text": "PASS",
+          "printed_label_numbers": "PASS",
+          "rendered_glyph_observations": "PASS",
+          "glyph_text_discrepancies": "PASS",
+          "label_requirements": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_175:RISK_MATRIX_1",
+      "required_checks": [
+        {
+          "check_id": "matrix_title_axes_and_cells",
+          "prompt": "Verify the Table 15 title, axes, row/column order, and all 16 estimates."
+        },
+        {
+          "check_id": "source_context",
+          "prompt": "Compare the page-start continuation, consequence descriptions, examples, cautious-approach text, and source order."
+        },
+        {
+          "check_id": "likelihood_key_absence",
+          "prompt": "Confirm no likelihood-definition key appears on page 175 and none was borrowed into the representation."
+        },
+        {
+          "check_id": "interpretation_qualifiers",
+          "prompt": "Verify the judgement, cautious-approach, and balanced-view qualifiers are retained."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the matrix is not used to assign containment, activity acceptability, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable GMMRA page 175 render with the structured representation and found the Table 15 title, axes, row and column order, all 16 estimates, ordered source context, interpretation qualifiers, explicit absence of a page-local likelihood key, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "matrix_title_axes_and_cells": "PASS",
+          "source_context": "PASS",
+          "likelihood_key_absence": "PASS",
+          "interpretation_qualifiers": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    },
+    {
+      "fallback_unit_id": "KB-WHO-LBM4-DESIGN:BODY:PDF_PAGE_71:FLOW_1",
+      "required_checks": [
+        {
+          "check_id": "introductory_prose_and_caption",
+          "prompt": "Compare the chapter introductory prose and Figure 9.1 caption with the immutable render."
+        },
+        {
+          "check_id": "node_text_and_types",
+          "prompt": "Compare every flow node label and start, process, or terminal classification."
+        },
+        {
+          "check_id": "three_maintenance_paths",
+          "prompt": "Verify the three parallel maintenance-option paths and their convergence on maintenance planning."
+        },
+        {
+          "check_id": "downstream_sequence",
+          "prompt": "Verify the directed training, SOP, monitoring, assessment, and continual-improvement sequence."
+        },
+        {
+          "check_id": "no_invented_decisions",
+          "prompt": "Confirm no decision node, branch label, route preference, or mandatory universal plan was inferred."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the unit does not establish compliance, approval, facility fitness, or hazard-specific suitability."
+        }
+      ],
+      "review_record": {
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer",
+        "review_date": "2026-09-09",
+        "findings": [
+          "The reviewer compared the immutable WHO Design page 71 render with the structured representation and found the introductory prose, caption, node text and types, three parallel maintenance paths and convergence, downstream sequence, absence of invented decisions, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "check_results": {
+          "introductory_prose_and_caption": "PASS",
+          "node_text_and_types": "PASS",
+          "three_maintenance_paths": "PASS",
+          "downstream_sequence": "PASS",
+          "no_invented_decisions": "PASS",
+          "excluded_inferences": "PASS"
+        },
+        "attestations": {
+          "source_render_compared": true,
+          "representation_checked": true,
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true
+        }
+      }
+    }
+  ]
+}

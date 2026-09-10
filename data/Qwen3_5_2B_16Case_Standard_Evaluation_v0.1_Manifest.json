@@ -1,0 +1,37 @@
+{
+  "evaluation": "BioSafe Qwen3.5-2B 16-case Standard Evaluation",
+  "version": "v0.1",
+  "model": "qwen3.5:2b",
+  "benchmark": "BioSafe Context-Aware Document Benchmark v0.2",
+  "cases": 16,
+  "architecture": {
+    "structured_document_layer": "v1.0 ARCHITECTURE_FROZEN",
+    "knowledge_base": "BioSafe KB v0.2",
+    "retrieval": "CFG-02",
+    "authority_router": "Integration Authority Router v0.1",
+    "query_router": "Query Router v0.2",
+    "scope_gate": "Scope Gate v0.2.1",
+    "policy_guard": "Policy & Decision Guard v0.3.2",
+    "context_budget_manager": "v0.2",
+    "response_assembler": "Deterministic Response Assembler v0.1"
+  },
+  "standard_profile": {
+    "target_prompt_tokens": 32000,
+    "hard_prompt_tokens": 64000,
+    "generation_budget": 900,
+    "temperature": 0.0,
+    "think": false,
+    "max_rag_claims": 5,
+    "max_document_evidence": 10
+  },
+  "success_gate": {
+    "required": [
+      "No HARD_FAIL",
+      "No systematic JSON truncation",
+      "No architecture boundary regression",
+      "Document-dependent cases engage supplied document evidence",
+      "Canonical authority/evidence remain deterministic"
+    ],
+    "comparison_after_run": "Compare against Qwen3.5-0.8B Lite and prior Qwen3-1.7B reference."
+  }
+}

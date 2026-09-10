@@ -1,0 +1,14 @@
+{
+  "artifact_scope": "ADDITIVE_OFFLINE_CURATED_CANDIDATE_REFERENCE_ONLY",
+  "artifact_version": "BioSafe_Curated_Candidate_KB_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "curated_claim_count": 0,
+  "curated_claims": [],
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
+  "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
+  "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",
+  "source_fallback_review_packet_sha256": "0747d1795a08eacda0d06fc0698ad2992758e99b331b62947e24c80f8052cfb5",
+  "source_knowledge_base_sha256": "3d68f8154f6952a33395b253925ee44c2842a046c3c11d55f8c12ee9eb386bb4",
+  "source_reconciliation_packet_version": "BioSafe_Claim_Reconciliation_Packet_v0.1"
+}

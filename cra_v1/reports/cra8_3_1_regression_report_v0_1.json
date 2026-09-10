@@ -1,0 +1,555 @@
+{
+  "benchmark": "BioSafe CRA-8.3.1 Integration Quality Correction v0.1",
+  "generated_at_utc": "2026-09-06T09:42:27.154373+00:00",
+  "cases_total": 3,
+  "cases_passed": 3,
+  "assertions_total": 16,
+  "assertions_passed": 16,
+  "results": [
+    {
+      "case_id": "F01",
+      "name": "referential_followup_continuity",
+      "passed": true,
+      "assertions": {
+        "same_session": true,
+        "classified_followup": true,
+        "continuity_repaired": true,
+        "transport_inherited": true,
+        "reference_or_domain_preserved": true,
+        "not_placeholder": true
+      },
+      "failures": [],
+      "details": {
+        "_cra_bridge": {
+          "continuity_repaired": true,
+          "excluded_domains": [
+            "biosecurity",
+            "clinical_specimen",
+            "containment",
+            "form_e",
+            "lmo_modern_biotechnology",
+            "waste"
+          ],
+          "inherited_domains": [
+            "transport"
+          ],
+          "required_domains": [
+            "transport"
+          ],
+          "resolved_clarification_field": null,
+          "resolved_reference": "transport",
+          "retrieval_skipped": false,
+          "session_count": 1,
+          "version": "CRA-8.3.1-v0.1"
+        },
+        "interaction_type": "FOLLOW_UP",
+        "response": {
+          "_cra_adapter": {
+            "active_domains": [
+              "transport"
+            ],
+            "adapter_version": "CRA-8.1-v0.1",
+            "documents_forwarded": 0,
+            "domain_leakage": [],
+            "excluded_domains": [
+              "biosecurity",
+              "clinical_specimen",
+              "containment",
+              "form_e",
+              "lmo_modern_biotechnology",
+              "waste"
+            ],
+            "frozen_service": "BioSafeFullInferenceServiceV011",
+            "output_domains_detected": [],
+            "query_rewritten": false,
+            "workflow": "ask"
+          },
+          "_cra_quality": {
+            "active_domains": [
+              "transport"
+            ],
+            "evidence_domains": [
+              "transport",
+              "waste"
+            ],
+            "excluded_domains": [
+              "biosecurity",
+              "clinical_specimen",
+              "containment",
+              "form_e",
+              "lmo_modern_biotechnology",
+              "waste"
+            ],
+            "removed": [
+              {
+                "domains": [
+                  "containment"
+                ],
+                "field": "recommended_next_step",
+                "reason": "excluded_domain_leakage",
+                "text": "Assess current IBC Assessment Report findings to determine if additional containment is required."
+              },
+              {
+                "domains": [
+                  "waste"
+                ],
+                "field": "evidence",
+                "reason": "excluded_domain_evidence",
+                "text": "CLM-028 The MOH clinical-specimen transport guideline does not serve as the clinical-waste guideline; clinical waste and chemical waste are outside its scope."
+              }
+            ],
+            "removed_count": 2
+          },
+          "_meta": {
+            "boundary_validation": {
+              "decision": "PASS",
+              "issues": [],
+              "warnings": []
+            },
+            "document_count": 0,
+            "done_reason": "stop",
+            "model": "qwen3.5:0.8b",
+            "model_called": true,
+            "output_validation": {
+              "checks": {
+                "citations_valid": true,
+                "contradiction_check_pass": true,
+                "json_valid": true,
+                "safety_valid": true,
+                "schema_valid": true
+              },
+              "decision": "PASS_WITH_WARNING",
+              "issues": [],
+              "warnings": [
+                "grounding:low_support_recommendation:1"
+              ]
+            },
+            "policy_mode": "STANDARD",
+            "route_reasons": [],
+            "valid_json_first_pass": true,
+            "workflow": "ask"
+          },
+          "applicable_authority": [
+            "Ministry of Health Malaysia"
+          ],
+          "conclusion": "The MOH clinical-specimen transport guideline does not cover infectious substances, requiring separate Category A/B packaging arrangements per the 2023 guidelines. Basic practice uses triple-packaging with the applicable packaging instruction contexts.",
+          "evidence": [
+            {
+              "evidence_id": "CLM-026",
+              "statement": "The 2023 MOH guideline covers safe transport of clinical specimens and infectious substances, including classification and packaging/labelling/marking requirements."
+            },
+            {
+              "evidence_id": "CLM-027",
+              "statement": "Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts."
+            }
+          ],
+          "limitations": [
+            "BioSafe provides an evidence-based advisory review and does not certify regulatory compliance or approval."
+          ],
+          "missing_information": [
+            "Specific infectious substance classification and packaging arrangement requirements for this context",
+            "Current IBC Assessment Report findings on specific risk groups"
+          ],
+          "recommended_next_step": [
+            "Review the 2023 MOH guidelines for infectious substance transport rules."
+          ],
+          "safety": {
+            "classification": "caution",
+            "reason": "Document review is advisory and does not certify compliance or approval.",
+            "response_mode": "answer"
+          }
+        },
+        "route": "frozen_domain_adapter",
+        "session_id": "session-2d90742fccc5",
+        "task_frame": {
+          "activated_domains": [
+            "transport"
+          ],
+          "decisions_requested": [
+            "explain_previous_concept"
+          ],
+          "inactive_domains": [
+            "biosecurity",
+            "clinical_specimen",
+            "containment",
+            "form_e",
+            "lmo_modern_biotechnology",
+            "waste"
+          ]
+        },
+        "turn_id": "session-2d90742fccc5-t2",
+        "workflow": "ask"
+      }
+    },
+    {
+      "case_id": "F02",
+      "name": "review_output_domain_enforcement",
+      "passed": true,
+      "assertions": {
+        "document_review_active": true,
+        "form_e_inactive": true,
+        "lmo_inactive": true,
+        "no_form_e_output": true,
+        "no_lmo_output": true,
+        "quality_guard_ran": true
+      },
+      "failures": [],
+      "details": {
+        "_cra_bridge": {
+          "continuity_repaired": false,
+          "excluded_domains": [
+            "biosecurity",
+            "clinical_specimen",
+            "containment",
+            "form_e",
+            "lmo_modern_biotechnology",
+            "transport",
+            "waste"
+          ],
+          "inherited_domains": [],
+          "required_domains": [
+            "document_review",
+            "general_biosafety"
+          ],
+          "resolved_clarification_field": null,
+          "resolved_reference": null,
+          "retrieval_skipped": false,
+          "session_count": 2,
+          "version": "CRA-8.3.1-v0.1"
+        },
+        "_document": {
+          "chars": 599,
+          "filename": "sample_review_sop.txt"
+        },
+        "interaction_type": "DOCUMENT_WORKFLOW",
+        "response": {
+          "_cra_adapter": {
+            "active_domains": [
+              "document_review",
+              "general_biosafety"
+            ],
+            "adapter_version": "CRA-8.1-v0.1",
+            "documents_forwarded": 1,
+            "domain_leakage": [],
+            "excluded_domains": [
+              "biosecurity",
+              "clinical_specimen",
+              "containment",
+              "form_e",
+              "lmo_modern_biotechnology",
+              "transport",
+              "waste"
+            ],
+            "frozen_service": "BioSafeFullInferenceServiceV011",
+            "output_domains_detected": [],
+            "query_rewritten": false,
+            "workflow": "review"
+          },
+          "_cra_quality": {
+            "active_domains": [
+              "document_review",
+              "general_biosafety"
+            ],
+            "evidence_domains": [
+              "form_e",
+              "lmo_modern_biotechnology"
+            ],
+            "excluded_domains": [
+              "biosecurity",
+              "clinical_specimen",
+              "containment",
+              "form_e",
+              "lmo_modern_biotechnology",
+              "transport",
+              "waste"
+            ],
+            "removed": [
+              {
+                "domains": [
+                  "form_e",
+                  "lmo_modern_biotechnology"
+                ],
+                "field": "conclusion",
+                "reason": "excluded_domain_leakage"
+              },
+              {
+                "domains": [
+                  "lmo_modern_biotechnology"
+                ],
+                "field": "missing_information",
+                "reason": "excluded_domain_leakage",
+                "text": "Host organism and vector/method details"
+              },
+              {
+                "domains": [
+                  "lmo_modern_biotechnology"
+                ],
+                "field": "missing_information",
+                "reason": "excluded_domain_leakage",
+                "text": "Trait/modified trait and gene identity/function"
+              },
+              {
+                "domains": [
+                  "form_e",
+                  "lmo_modern_biotechnology"
+                ],
+                "field": "recommended_next_step",
+                "reason": "excluded_domain_leakage",
+                "text": "Provide missing LMO description fields per Form E (NBB/N/CU/10/FORM E) requirements."
+              },
+              {
+                "domains": [
+                  "lmo_modern_biotechnology"
+                ],
+                "field": "evidence",
+                "reason": "excluded_domain_evidence",
+                "text": "CLM-020 LMO description requires donor/parent organism, vector or method, trait/modified trait, gene identity/function and target information as applicable."
+              },
+              {
+                "domains": [
+                  "form_e"
+                ],
+                "field": "evidence",
+                "reason": "excluded_domain_evidence",
+                "text": "CLM-024 Form E provides for confidential business information claims and justification where applicable."
+              }
+            ],
+            "removed_count": 6
+          },
+          "_meta": {
+            "boundary_validation": {
+              "decision": "PASS",
+              "issues": [],
+              "warnings": []
+            },
+            "document_count": 1,
+            "done_reason": "stop",
+            "model": "qwen3.5:0.8b",
+            "model_called": true,
+            "output_validation": {
+              "checks": {
+                "citations_valid": true,
+                "contradiction_check_pass": true,
+                "json_valid": true,
+                "safety_valid": true,
+                "schema_valid": true
+              },
+              "decision": "PASS",
+              "issues": [],
+              "warnings": []
+            },
+            "policy_mode": "STANDARD",
+            "route_reasons": [],
+            "valid_json_first_pass": true,
+            "workflow": "review"
+          },
+          "applicable_authority": [
+            "Department of Biosafety / Malaysia"
+          ],
+          "conclusion": "BioSafe does not have enough task-relevant evidence to support a specialized conclusion outside the currently activated domains.",
+          "evidence": [
+            {
+              "evidence_id": "CLM-014",
+              "statement": "Risk assessment should be reviewed and updated as appropriate rather than treated as a one-time unsupported conclusion."
+            }
+          ],
+          "limitations": [
+            "BioSafe provides an evidence-based advisory review and does not certify regulatory compliance or approval."
+          ],
+          "missing_information": [
+            "Risk assessment review/update status"
+          ],
+          "recommended_next_step": [
+            "Review and update the risk assessment as appropriate under CLM-014."
+          ],
+          "safety": {
+            "classification": "caution",
+            "reason": "Document review is advisory and does not certify compliance or approval.",
+            "response_mode": "answer"
+          }
+        },
+        "route": "frozen_domain_adapter",
+        "session_id": "session-b75e4e2217c6",
+        "task_frame": {
+          "activated_domains": [
+            "document_review",
+            "general_biosafety"
+          ],
+          "decisions_requested": [],
+          "inactive_domains": [
+            "biosecurity",
+            "clinical_specimen",
+            "containment",
+            "form_e",
+            "lmo_modern_biotechnology",
+            "transport",
+            "waste"
+          ]
+        },
+        "turn_id": "session-b75e4e2217c6-t1",
+        "workflow": "review"
+      }
+    },
+    {
+      "case_id": "F03",
+      "name": "form_e_recommendation_grounding",
+      "passed": true,
+      "assertions": {
+        "form_e_active": true,
+        "no_unsupported_lab_director": true,
+        "no_unsupported_clearance": true,
+        "quality_guard_ran": true
+      },
+      "failures": [],
+      "details": {
+        "_cra_bridge": {
+          "continuity_repaired": false,
+          "excluded_domains": [
+            "biosecurity",
+            "clinical_specimen",
+            "containment",
+            "transport",
+            "waste"
+          ],
+          "inherited_domains": [],
+          "required_domains": [
+            "form_e",
+            "lmo_modern_biotechnology"
+          ],
+          "resolved_clarification_field": null,
+          "resolved_reference": null,
+          "retrieval_skipped": false,
+          "session_count": 3,
+          "version": "CRA-8.3.1-v0.1"
+        },
+        "interaction_type": "NEW_TASK",
+        "response": {
+          "_cra_adapter": {
+            "active_domains": [
+              "form_e",
+              "lmo_modern_biotechnology"
+            ],
+            "adapter_version": "CRA-8.1-v0.1",
+            "documents_forwarded": 0,
+            "domain_leakage": [],
+            "excluded_domains": [
+              "biosecurity",
+              "clinical_specimen",
+              "containment",
+              "transport",
+              "waste"
+            ],
+            "frozen_service": "BioSafeFullInferenceServiceV011",
+            "output_domains_detected": [],
+            "query_rewritten": false,
+            "workflow": "form-e"
+          },
+          "_cra_quality": {
+            "active_domains": [
+              "form_e",
+              "lmo_modern_biotechnology"
+            ],
+            "evidence_domains": [
+              "form_e",
+              "lmo_modern_biotechnology"
+            ],
+            "excluded_domains": [
+              "biosecurity",
+              "clinical_specimen",
+              "containment",
+              "transport",
+              "waste"
+            ],
+            "removed": [
+              {
+                "field": "recommended_next_step",
+                "reason": "unsupported_institutional_recommendation",
+                "text": "Submit missing donor/organism details to the laboratory director for biosafety clearance."
+              }
+            ],
+            "removed_count": 1
+          },
+          "_meta": {
+            "boundary_validation": {
+              "decision": "PASS",
+              "issues": [],
+              "warnings": []
+            },
+            "document_count": 0,
+            "done_reason": "stop",
+            "model": "qwen3.5:0.8b",
+            "model_called": true,
+            "output_validation": {
+              "checks": {
+                "citations_valid": true,
+                "contradiction_check_pass": true,
+                "json_valid": true,
+                "safety_valid": true,
+                "schema_valid": true
+              },
+              "decision": "PASS",
+              "issues": [],
+              "warnings": []
+            },
+            "policy_mode": "STANDARD",
+            "route_reasons": [],
+            "valid_json_first_pass": true,
+            "workflow": "form-e"
+          },
+          "applicable_authority": [
+            "Department of Biosafety / Malaysia"
+          ],
+          "conclusion": "Form E researcher-facing information requires donor/parent organism, vector/method, trait/gene identity/function, and target information as per CLM-020. Missing: specific donor/parent organism details.",
+          "evidence": [
+            {
+              "evidence_id": "CLM-020",
+              "statement": "LMO description requires donor/parent organism, vector or method, trait/modified trait, gene identity/function and target information as applicable."
+            },
+            {
+              "evidence_id": "CLM-018",
+              "statement": "Form E researcher-facing information includes applicant and responsible scientists/personnel qualifications and experience."
+            },
+            {
+              "evidence_id": "CLM-024",
+              "statement": "Form E provides for confidential business information claims and justification where applicable."
+            }
+          ],
+          "limitations": [
+            "BioSafe provides an evidence-based advisory review and does not certify regulatory compliance or approval."
+          ],
+          "missing_information": [
+            "Specific donor or parent organism name",
+            "Vector or method used for genetic manipulation",
+            "Target gene or trait of interest"
+          ],
+          "recommended_next_step": [
+            "Provide a detailed description of the modified trait and its function in the next step."
+          ],
+          "safety": {
+            "classification": "caution",
+            "reason": "Document review is advisory and does not certify compliance or approval.",
+            "response_mode": "answer"
+          }
+        },
+        "route": "frozen_domain_adapter",
+        "session_id": "session-b602bd53f950",
+        "task_frame": {
+          "activated_domains": [
+            "form_e",
+            "lmo_modern_biotechnology"
+          ],
+          "decisions_requested": [],
+          "inactive_domains": [
+            "biosecurity",
+            "clinical_specimen",
+            "containment",
+            "transport",
+            "waste"
+          ]
+        },
+        "turn_id": "session-b602bd53f950-t1",
+        "workflow": "form-e"
+      }
+    }
+  ]
+}

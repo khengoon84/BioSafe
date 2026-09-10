@@ -1,0 +1,9 @@
+{
+  "stage": "Unified-2.2.4.2",
+  "version": "0.1",
+  "port": 8775,
+  "frozen_core_modified": false,
+  "diagnosis": "2.2.4.1 semantic repair had no relevant IBC evidence because general-guidance evidence scope excluded institutional guidance.",
+  "invariant": "Explicit named institutional/governance subjects may activate narrow subject evidence without broad jurisdiction activation.",
+  "acceptance": "contract + A/B + curated supplemental suite + human review"
+}

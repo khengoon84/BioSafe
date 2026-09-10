@@ -1,0 +1,31 @@
+{
+  "evaluation": "BioSafe Qwen3.5-0.8B 16-Case Lite Comparison",
+  "version": "v0.1",
+  "model": "qwen3.5:0.8b",
+  "benchmark": "BioSafe Context-Aware Document Benchmark v0.2",
+  "cases": 16,
+  "purpose": "Full same-suite comparison against Qwen3.5-2B Standard-Calibrated v0.2.",
+  "frozen_architecture": true,
+  "lite_profile": {
+    "target_prompt_tokens": 16000,
+    "hard_prompt_tokens": 24000,
+    "generation_budget": 420,
+    "temperature": 0.0,
+    "think": false,
+    "max_rag_claims": 3,
+    "max_document_evidence": 6,
+    "max_missing_information": 3,
+    "max_recommended_next_step": 2,
+    "max_limitations": 1
+  },
+  "comparison_criteria_0_to_4": [
+    "factual_scientific_accuracy",
+    "malaysian_regulatory_accuracy",
+    "evidence_fidelity",
+    "missing_information_discipline",
+    "absence_of_invented_requirements",
+    "usefulness",
+    "boundary_safety_adherence",
+    "concision"
+  ]
+}

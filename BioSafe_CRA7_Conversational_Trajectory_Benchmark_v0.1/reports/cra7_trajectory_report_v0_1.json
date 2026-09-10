@@ -1,0 +1,295 @@
+{
+  "benchmark": "BioSafe CRA-7 Conversational Trajectory Benchmark v0.1",
+  "trajectories_total": 30,
+  "trajectories_passed": 30,
+  "assertions_total": 79,
+  "assertions_passed": 79,
+  "families": {
+    "product_help": {
+      "passed": 3,
+      "total": 3
+    },
+    "clarification": {
+      "passed": 2,
+      "total": 2
+    },
+    "follow_up": {
+      "passed": 3,
+      "total": 3
+    },
+    "task_change": {
+      "passed": 1,
+      "total": 1
+    },
+    "domain_activation": {
+      "passed": 5,
+      "total": 5
+    },
+    "dependency": {
+      "passed": 6,
+      "total": 6
+    },
+    "verification": {
+      "passed": 4,
+      "total": 4
+    },
+    "response_composition": {
+      "passed": 3,
+      "total": 3
+    },
+    "state_integrity": {
+      "passed": 1,
+      "total": 1
+    },
+    "reformulation": {
+      "passed": 1,
+      "total": 1
+    },
+    "document_workflow": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "name": "T01_identity_product_help",
+      "family": "product_help",
+      "passed": true,
+      "assertions_passed": 4,
+      "assertions_total": 4,
+      "failures": []
+    },
+    {
+      "name": "T02_document_capability",
+      "family": "product_help",
+      "passed": true,
+      "assertions_passed": 4,
+      "assertions_total": 4,
+      "failures": []
+    },
+    {
+      "name": "T03_organism_clarification",
+      "family": "clarification",
+      "passed": true,
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "failures": []
+    },
+    {
+      "name": "T04_lmo_boolean_clarification",
+      "family": "clarification",
+      "passed": true,
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "failures": []
+    },
+    {
+      "name": "T05_followup_reference",
+      "family": "follow_up",
+      "passed": true,
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "failures": []
+    },
+    {
+      "name": "T06_followup_why",
+      "family": "follow_up",
+      "passed": true,
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "failures": []
+    },
+    {
+      "name": "T07_task_change_transport",
+      "family": "task_change",
+      "passed": true,
+      "assertions_passed": 4,
+      "assertions_total": 4,
+      "failures": []
+    },
+    {
+      "name": "T08_generic_biosafety_no_leakage",
+      "family": "domain_activation",
+      "passed": true,
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "failures": []
+    },
+    {
+      "name": "T09_species_no_lmo_activation",
+      "family": "domain_activation",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T10_transport_only",
+      "family": "domain_activation",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T11_waste_only",
+      "family": "domain_activation",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T12_lmo_prerequisite_missing",
+      "family": "dependency",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T13_inferred_lmo_not_accepted",
+      "family": "dependency",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T14_containment_needs_activity",
+      "family": "dependency",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T15_specific_containment_context",
+      "family": "dependency",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T16_transport_needs_context",
+      "family": "dependency",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T17_waste_needs_context",
+      "family": "dependency",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T18_verifier_blocks_domain_leakage",
+      "family": "verification",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T19_verifier_blocks_unknown_promotion",
+      "family": "verification",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T20_verifier_blocks_compliance",
+      "family": "verification",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T21_verifier_blocks_wrong_jurisdiction",
+      "family": "verification",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T22_composer_needs_clarification",
+      "family": "response_composition",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T23_composer_product_help_clean",
+      "family": "response_composition",
+      "passed": true,
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "failures": []
+    },
+    {
+      "name": "T24_composer_regulatory_with_sources",
+      "family": "response_composition",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T25_correction_conflict",
+      "family": "state_integrity",
+      "passed": true,
+      "assertions_passed": 3,
+      "assertions_total": 3,
+      "failures": []
+    },
+    {
+      "name": "T26_context_only_followup_skips_rag",
+      "family": "follow_up",
+      "passed": true,
+      "assertions_passed": 4,
+      "assertions_total": 4,
+      "failures": []
+    },
+    {
+      "name": "T27_reformulation_skips_rag",
+      "family": "reformulation",
+      "passed": true,
+      "assertions_passed": 4,
+      "assertions_total": 4,
+      "failures": []
+    },
+    {
+      "name": "T28_document_workflow_detected",
+      "family": "document_workflow",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T29_forme_explicit_activation",
+      "family": "domain_activation",
+      "passed": true,
+      "assertions_passed": 2,
+      "assertions_total": 2,
+      "failures": []
+    },
+    {
+      "name": "T30_no_stage_leakage_product_help",
+      "family": "product_help",
+      "passed": true,
+      "assertions_passed": 4,
+      "assertions_total": 4,
+      "failures": []
+    }
+  ]
+}

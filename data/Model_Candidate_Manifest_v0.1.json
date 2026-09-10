@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "selection_date": "2026-09-04",
+  "principle": "No fine-tuning. Benchmark local base/instruction models behind the same BioSafe RAG pipeline.",
+  "profiles": [
+    {
+      "profile": "Lite smoke test",
+      "model_id": "Qwen/Qwen3-0.6B",
+      "purpose": "Verify local generation plumbing and basic structured-output behaviour on low-resource CPU/browser targets.",
+      "status": "candidate",
+      "official_url": "https://huggingface.co/Qwen/Qwen3-0.6B"
+    },
+    {
+      "profile": "Intermediate",
+      "model_id": "Qwen/Qwen3-1.7B",
+      "purpose": "Measure whether a modest parameter increase materially improves evidence use and instruction following.",
+      "status": "candidate",
+      "official_url": "https://huggingface.co/Qwen/Qwen3-1.7B"
+    },
+    {
+      "profile": "Standard",
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "purpose": "Primary stronger local-model candidate for end-to-end BioSafe evaluation.",
+      "status": "preferred_standard_candidate",
+      "official_url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507"
+    }
+  ],
+  "runtime_status": {
+    "this_artifact_environment": "No cached local LLM and no Transformers/llama.cpp runtime available at benchmark time.",
+    "generation_benchmark": "pending"
+  }
+}

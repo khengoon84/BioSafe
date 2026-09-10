@@ -1,0 +1,52 @@
+{
+  "evaluation": "BioSafe Qwen3.5-2B Standard-Calibrated",
+  "version": "v0.2",
+  "model": "qwen3.5:2b",
+  "benchmark": "BioSafe Context-Aware Document Benchmark v0.2",
+  "cases": 16,
+  "goal": "Fair model-size comparison against accepted Qwen3.5-0.8B Lite using the same compact reasoning envelope.",
+  "frozen_architecture": {
+    "structured_document_layer": "v1.0 ARCHITECTURE_FROZEN",
+    "knowledge_base": "BioSafe KB v0.2",
+    "retrieval": "CFG-02",
+    "authority_router": "Integration Authority Router v0.1",
+    "query_router": "Query Router v0.2",
+    "scope_gate": "Scope Gate v0.2.1",
+    "policy_guard": "Policy & Decision Guard v0.3.2",
+    "context_budget_manager": "v0.2",
+    "response_assembler": "Deterministic Response Assembler v0.1"
+  },
+  "calibrated_profile": {
+    "target_prompt_tokens": 32000,
+    "hard_prompt_tokens": 64000,
+    "generation_budget": 420,
+    "temperature": 0.0,
+    "think": false,
+    "max_rag_claims": 3,
+    "max_document_evidence": 6,
+    "max_missing_information": 3,
+    "max_recommended_next_step": 2,
+    "max_limitations": 1,
+    "model_generated_fields": [
+      "conclusion",
+      "missing_information",
+      "recommended_next_step"
+    ],
+    "deterministic_fields": [
+      "applicable_authority",
+      "evidence",
+      "limitations",
+      "safety"
+    ]
+  },
+  "decision_rule": {
+    "accept_as_standard_if": [
+      "No HARD_FAIL",
+      "No systematic length exhaustion",
+      "No architecture boundary regression",
+      "Material reasoning-quality improvement over 0.8B Lite",
+      "Latency/resource cost remains acceptable for Standard tier"
+    ],
+    "otherwise": "Keep Qwen3.5-0.8B as primary BioSafe model and stop active 2B optimization."
+  }
+}

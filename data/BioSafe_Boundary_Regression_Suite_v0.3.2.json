@@ -1,0 +1,20 @@
+{
+  "suite_id": "BioSafe_Boundary_Regression_Suite_v0.3.2",
+  "version": "0.3.2",
+  "purpose": "Final stabilization check for deterministic schema repair, compliance-shell enforcement and FORM-004 validator correction.",
+  "benchmark_source": "BioSafe_Benchmark_Dataset_v0.1.jsonl",
+  "case_ids": [
+    "BS-005",
+    "BS-007",
+    "PROP-004",
+    "FORM-002",
+    "FORM-004"
+  ],
+  "expected_focus": {
+    "BS-005": "Correct PPE reasoning should pass even if conclusion is structurally misplaced and can be normalized deterministically.",
+    "BS-007": "Known response_mode enum typo may be normalized without an LLM retry.",
+    "PROP-004": "A prohibited compliance-certification conclusion is replaced by the deterministic advisory shell while preserving evidence/gaps.",
+    "FORM-002": "Source-only drafting remains conservative; missing information is explicit.",
+    "FORM-004": "Cautious 'no inconsistency can be confirmed ... but missing information prevents complete determination' wording must pass."
+  }
+}

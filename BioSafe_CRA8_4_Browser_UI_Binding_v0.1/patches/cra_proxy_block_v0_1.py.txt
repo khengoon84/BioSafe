@@ -1,0 +1,120 @@
+# === BIOSAFE CRA-8.4 PROXY BEGIN ===
+import json as _cra_json
+import uuid as _cra_uuid
+import urllib.request as _cra_urllib_request
+import urllib.error as _cra_urllib_error
+
+_CRA_BASE_URL = "http://127.0.0.1:8767"
+
+def _cra_forward_json(path, payload, timeout=900):
+    req = _cra_urllib_request.Request(
+        _CRA_BASE_URL + path,
+        data=_cra_json.dumps(payload).encode("utf-8"),
+        method="POST",
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with _cra_urllib_request.urlopen(req, timeout=timeout) as resp:
+            return resp.getcode(), _cra_json.loads(resp.read().decode("utf-8"))
+    except _cra_urllib_error.HTTPError as e:
+        raw = e.read().decode("utf-8", errors="replace")
+        try:
+            data = _cra_json.loads(raw)
+        except Exception:
+            data = {"error": raw or str(e)}
+        return e.code, data
+    except Exception as e:
+        return 502, {"error": f"CRA service unavailable: {e}", "cra_target": _CRA_BASE_URL}
+
+def _cra_forward_multipart(path, fields, file_name, file_bytes, timeout=900):
+    boundary = "----BioSafeCRA" + _cra_uuid.uuid4().hex
+    chunks = []
+    for key, value in fields.items():
+        chunks.extend([
+            f"--{boundary}\r\n".encode("utf-8"),
+            f'Content-Disposition: form-data; name="{key}"\r\n\r\n'.encode("utf-8"),
+            str(value or "").encode("utf-8"),
+            b"\r\n",
+        ])
+    chunks.extend([
+        f"--{boundary}\r\n".encode("utf-8"),
+        f'Content-Disposition: form-data; name="file"; filename="{file_name or "upload.txt"}"\r\n'.encode("utf-8"),
+        b"Content-Type: text/plain\r\n\r\n",
+        file_bytes,
+        b"\r\n",
+        f"--{boundary}--\r\n".encode("utf-8"),
+    ])
+    req = _cra_urllib_request.Request(
+        _CRA_BASE_URL + path,
+        data=b"".join(chunks),
+        method="POST",
+        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"},
+    )
+    try:
+        with _cra_urllib_request.urlopen(req, timeout=timeout) as resp:
+            return resp.getcode(), _cra_json.loads(resp.read().decode("utf-8"))
+    except _cra_urllib_error.HTTPError as e:
+        raw = e.read().decode("utf-8", errors="replace")
+        try:
+            data = _cra_json.loads(raw)
+        except Exception:
+            data = {"error": raw or str(e)}
+        return e.code, data
+    except Exception as e:
+        return 502, {"error": f"CRA service unavailable: {e}", "cra_target": _CRA_BASE_URL}
+
+@app.get("/api/cra/health")
+def cra_health_proxy():
+    try:
+        with _cra_urllib_request.urlopen(_CRA_BASE_URL + "/health", timeout=10) as resp:
+            return jsonify(_cra_json.loads(resp.read().decode("utf-8"))), resp.getcode()
+    except Exception as e:
+        return jsonify({"status": "unavailable", "error": str(e), "cra_target": _CRA_BASE_URL}), 502
+
+@app.post("/api/cra/ask")
+def cra_ask_proxy():
+    data = request.get_json(force=True, silent=True) or {}
+    query = (data.get("query") or "").strip()
+    if not query:
+        return jsonify({"error": "Query is required."}), 400
+    status, payload = _cra_forward_json("/api/ask", {
+        "query": query,
+        "session_id": data.get("session_id"),
+    })
+    return jsonify(payload), status
+
+@app.post("/api/cra/form-e")
+def cra_form_e_proxy():
+    data = request.get_json(force=True, silent=True) or {}
+    query = (data.get("query") or "").strip()
+    if not query:
+        return jsonify({"error": "Form E description is required."}), 400
+    status, payload = _cra_forward_json("/api/form-e", {
+        "query": query,
+        "session_id": data.get("session_id"),
+    })
+    return jsonify(payload), status
+
+@app.post("/api/cra/review")
+def cra_review_proxy():
+    query = (request.form.get("query") or "Review this document for biosafety and regulatory gaps.").strip()
+    f = request.files.get("file")
+    if not f:
+        return jsonify({"error": "Document file is required."}), 400
+    status, payload = _cra_forward_multipart(
+        "/api/review",
+        {"query": query, "session_id": request.form.get("session_id") or ""},
+        f.filename or "upload.txt",
+        f.read(),
+    )
+    return jsonify(payload), status
+
+@app.post("/api/cra/session/reset")
+def cra_session_reset_proxy():
+    data = request.get_json(force=True, silent=True) or {}
+    sid = (data.get("session_id") or "").strip()
+    if not sid:
+        return jsonify({"session_id": "", "reset": False}), 200
+    status, payload = _cra_forward_json("/api/session/reset", {"session_id": sid}, timeout=30)
+    return jsonify(payload), status
+# === BIOSAFE CRA-8.4 PROXY END ===

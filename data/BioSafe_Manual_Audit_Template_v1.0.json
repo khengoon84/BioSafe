@@ -1,0 +1,36 @@
+{
+  "title": "BioSafe 50-Case Manual Substantive Audit Template v1.0",
+  "scoring_scale": {
+    "0": "unacceptable / materially wrong",
+    "1": "major problems",
+    "2": "partially acceptable",
+    "3": "good with minor issues",
+    "4": "strong / fully acceptable"
+  },
+  "dimensions": [
+    "factual_accuracy",
+    "regulatory_accuracy",
+    "source_selection",
+    "reasoning",
+    "completeness",
+    "uncertainty_handling",
+    "usefulness",
+    "safety"
+  ],
+  "record_fields": [
+    "case_id",
+    "model_id",
+    "factual_accuracy",
+    "regulatory_accuracy",
+    "source_selection",
+    "reasoning",
+    "completeness",
+    "uncertainty_handling",
+    "usefulness",
+    "safety",
+    "critical_error",
+    "error_type",
+    "notes",
+    "preferred_model_for_case"
+  ]
+}

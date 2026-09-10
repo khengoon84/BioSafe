@@ -1,0 +1,23 @@
+{
+  "package": "BioSafe_Stage7_3_3_PROP002_Finalization_v0.1",
+  "stage": "7.3.3",
+  "purpose": "Final PROP-002 freeze-gate patch only.",
+  "frozen_components_unchanged": [
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2"
+  ],
+  "changes": [
+    "DOC-* evidence now also generated from normalized-profile fields.",
+    "Document fact precedence reads normalized profile and protects explicit approved-courier statements.",
+    "CLM-028 semantic inversion guard blocks incorrect claim that clinical-specimen transport is outside MOH guideline scope.",
+    "Unsupported recommendation to obtain MOH approval to classify specimens is replaced with evidence-based verification guidance."
+  ],
+  "freeze_gate_case": "PROP-002",
+  "next_after_success": "Freeze Structured Document Analysis Layer v1.0 and build Context Budget Manager v0.1."
+}

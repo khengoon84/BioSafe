@@ -1,0 +1,35 @@
+{
+  "suite": "BioSafe Structured Document Model Comparison v0.1",
+  "models": [
+    {
+      "model": "qwen3:0.6b",
+      "role": "original lightweight baseline"
+    },
+    {
+      "model": "qwen3.5:0.8b",
+      "role": "lightweight challenger"
+    },
+    {
+      "model": "qwen3:1.7b",
+      "role": "existing stronger baseline"
+    },
+    {
+      "model": "qwen3.5:2b",
+      "role": "planned higher-capability challenger"
+    }
+  ],
+  "principle": "All models receive identical structured-document packets and identical frozen RAG/policy context.",
+  "evaluation_dimensions": [
+    "substantive correctness",
+    "regulatory restraint",
+    "document grounding",
+    "missing-information discipline",
+    "contradiction handling",
+    "safety",
+    "repairs",
+    "latency",
+    "memory/CPU requirements",
+    "browser deployment feasibility"
+  ],
+  "promotion_rule": "Do not promote a model based only on validator PASS counts."
+}

@@ -1,0 +1,143 @@
+{
+  "crosswalk_version": "BioSafe_Document_Identity_Crosswalk_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "document_mappings": [
+    {
+      "legacy_document_id": "KB-MY-ACT678",
+      "controlled_document_id": "KB-MY-ACT678",
+      "source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-MY-CU",
+      "controlled_document_id": "KB-MY-CU",
+      "source_sha256": "164839a62dd6a875b8590307db4f74a4dcebdb4ffbd2e4f34179e8d3279242bf",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-MY-DOE2005",
+      "controlled_document_id": "KB-MY-SW2005",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "relationship": "SAME_SOURCE_IDENTITY_DIFFERENT_PROJECT_IDENTIFIER",
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "rationale": "The titles identify the Environmental Quality (Scheduled Wastes) Regulations 2005, but the legacy publisher-based and controlled instrument-based identifiers differ; human confirmation is required.",
+      "identity_review_record": {
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Document identity reviewer",
+        "review_date": "2026-09-10",
+        "findings": [
+          "Accepted as the same publication under different project identifiers. The legacy and controlled records identify the Environmental Quality (Scheduled Wastes) Regulations 2005; controlled front matter identifies P.U. (A) 294/2005 and the controlled source is hash-bound at 3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0. This identity decision does not resolve amendment, currentness, applicability, or claim support."
+        ]
+      }
+    },
+    {
+      "legacy_document_id": "KB-MY-FORME",
+      "controlled_document_id": "KB-MY-FORME",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-MY-GMMRA",
+      "controlled_document_id": "KB-MY-GMMRA",
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-MY-IBC",
+      "controlled_document_id": "KB-MY-IBC",
+      "source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-MY-MOH2023",
+      "controlled_document_id": "KB-MY-TRANSPORT2023",
+      "source_sha256": "5556604a5812a2f1a2b7a30600bf097c9d40d588e449b46ef643ff8aad727088",
+      "relationship": "SAME_SOURCE_IDENTITY_DIFFERENT_PROJECT_IDENTIFIER",
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "rationale": "The titles identify the 2023 Malaysian clinical-specimen and infectious-substance transport guideline, but the legacy publisher-based and controlled subject-based identifiers differ; human confirmation is required.",
+      "identity_review_record": {
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Document identity reviewer",
+        "review_date": "2026-09-10",
+        "findings": [
+          "Accepted as the same publication under different project identifiers. The legacy and controlled records identify the Guidelines for the Safe Transport of Clinical Specimens and Infectious Substances in Malaysia 2023; controlled front matter identifies the Ministry of Health Malaysia and November 2023, and the controlled source is hash-bound at 5556604a5812a2f1a2b7a30600bf097c9d40d588e449b46ef643ff8aad727088. This identity decision does not determine transport applicability, containment, waste requirements, or claim support."
+        ]
+      }
+    },
+    {
+      "legacy_document_id": "KB-MY-REG2010",
+      "controlled_document_id": "KB-MY-REG2010",
+      "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-WHO-BIOSEC",
+      "controlled_document_id": "KB-WHO-BIOSEC",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-WHO-LBM4",
+      "controlled_document_id": "KB-WHO-LBM4",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba",
+      "relationship": "SAME_PROJECT_IDENTIFIER",
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "rationale": "The existing KB and controlled source use the same project document identifier.",
+      "identity_review_record": {"reviewer_identity": null, "reviewer_role": null, "review_date": null, "findings": []}
+    },
+    {
+      "legacy_document_id": "KB-WHO-PPE",
+      "controlled_document_id": "KB-WHO-LBM4-PPE",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "relationship": "SAME_SOURCE_IDENTITY_DIFFERENT_PROJECT_IDENTIFIER",
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "rationale": "The titles identify the WHO LBM4 personal protective equipment monograph, but the legacy abbreviated and controlled series identifiers differ; human confirmation is required.",
+      "identity_review_record": {
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Document identity reviewer",
+        "review_date": "2026-09-10",
+        "findings": [
+          "Accepted as the same publication under different project identifiers. The legacy and controlled records identify the WHO Laboratory Biosafety Manual, fourth edition, Personal Protective Equipment monograph; the controlled record identifies ISBN 978-92-4-001141-0 and is hash-bound at 016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55. This identity decision does not make WHO guidance Malaysian law or approve any claim."
+        ]
+      }
+    },
+    {
+      "legacy_document_id": "KB-WHO-RA",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "relationship": "SAME_SOURCE_IDENTITY_DIFFERENT_PROJECT_IDENTIFIER",
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "rationale": "The titles identify the WHO LBM4 risk assessment monograph, but the legacy abbreviated and controlled series identifiers differ; human confirmation is required.",
+      "identity_review_record": {
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Document identity reviewer",
+        "review_date": "2026-09-10",
+        "findings": [
+          "Accepted as the same publication under different project identifiers. The legacy and controlled records identify the WHO Laboratory Biosafety Manual, fourth edition, Risk Assessment monograph; the controlled record identifies ISBN 978-92-4-001145-8 and is hash-bound at 2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198. This identity decision does not make WHO guidance Malaysian law or approve any claim."
+        ]
+      }
+    }
+  ]
+}

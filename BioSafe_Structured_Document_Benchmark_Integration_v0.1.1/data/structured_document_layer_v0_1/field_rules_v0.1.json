@@ -1,0 +1,271 @@
+{
+  "lmo_gmm_proposal": [
+    {
+      "field": "host_organism",
+      "patterns": [
+        "host organism",
+        "host species",
+        "host:",
+        "recipient organism"
+      ],
+      "severity": "critical"
+    },
+    {
+      "field": "insert_or_construct",
+      "patterns": [
+        "inserted construct",
+        "inserted sequence",
+        "transgene",
+        "expression cassette"
+      ],
+      "severity": "critical"
+    },
+    {
+      "field": "vector_backbone",
+      "patterns": [
+        "vector",
+        "plasmid backbone",
+        "backbone"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "intended_modification",
+      "patterns": [
+        "modification",
+        "genetic modification",
+        "engineered to"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "containment_or_facility",
+      "patterns": [
+        "containment",
+        "facility",
+        "biosafety level",
+        "bsl"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "waste_decontamination",
+      "patterns": [
+        "waste",
+        "decontamination",
+        "autoclave"
+      ],
+      "severity": "medium"
+    }
+  ],
+  "lmo_gmm_sop": [
+    {
+      "field": "scope",
+      "patterns": [
+        "scope",
+        "applies to"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "organism_or_material",
+      "patterns": [
+        "lmo",
+        "gmm",
+        "organism",
+        "material"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "containment",
+      "patterns": [
+        "containment",
+        "biosafety level",
+        "bsl"
+      ],
+      "severity": "critical"
+    },
+    {
+      "field": "ppe",
+      "patterns": [
+        "ppe",
+        "personal protective"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "transport",
+      "patterns": [
+        "transport",
+        "transfer",
+        "movement"
+      ],
+      "severity": "medium"
+    },
+    {
+      "field": "labelling",
+      "patterns": [
+        "label",
+        "labelling",
+        "labeling"
+      ],
+      "severity": "medium"
+    },
+    {
+      "field": "waste_decontamination",
+      "patterns": [
+        "waste",
+        "decontamination",
+        "autoclave"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "spill_response",
+      "patterns": [
+        "spill",
+        "incident"
+      ],
+      "severity": "medium"
+    }
+  ],
+  "clinical_specimen_sop": [
+    {
+      "field": "specimen_types",
+      "patterns": [
+        "specimen",
+        "sample"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "packaging",
+      "patterns": [
+        "packaging",
+        "triple packaging",
+        "primary receptacle"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "classification",
+      "patterns": [
+        "category a",
+        "category b",
+        "un3373",
+        "classification"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "labelling",
+      "patterns": [
+        "label",
+        "marking"
+      ],
+      "severity": "medium"
+    },
+    {
+      "field": "transport_mode",
+      "patterns": [
+        "road",
+        "air",
+        "courier",
+        "transport"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "spill_or_leak",
+      "patterns": [
+        "spill",
+        "leak"
+      ],
+      "severity": "medium"
+    }
+  ],
+  "biological_waste_sop": [
+    {
+      "field": "waste_types",
+      "patterns": [
+        "waste",
+        "sw404",
+        "clinical waste"
+      ],
+      "severity": "critical"
+    },
+    {
+      "field": "segregation",
+      "patterns": [
+        "segregation",
+        "separate"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "container",
+      "patterns": [
+        "container",
+        "bag",
+        "sharps"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "treatment",
+      "patterns": [
+        "autoclave",
+        "treatment",
+        "disinfection"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "disposal_route",
+      "patterns": [
+        "disposal",
+        "licensed contractor",
+        "scheduled waste"
+      ],
+      "severity": "high"
+    }
+  ],
+  "form_e_completed": [
+    {
+      "field": "organism_identity",
+      "patterns": [
+        "organism",
+        "host"
+      ],
+      "severity": "critical"
+    },
+    {
+      "field": "construct_or_insert",
+      "patterns": [
+        "construct",
+        "insert",
+        "transgene"
+      ],
+      "severity": "critical"
+    },
+    {
+      "field": "facility_or_containment",
+      "patterns": [
+        "facility",
+        "containment",
+        "biosafety level",
+        "bsl"
+      ],
+      "severity": "high"
+    },
+    {
+      "field": "risk_information",
+      "patterns": [
+        "risk",
+        "hazard"
+      ],
+      "severity": "high"
+    }
+  ]
+}

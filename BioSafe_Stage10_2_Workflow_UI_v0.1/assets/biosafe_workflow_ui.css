@@ -1,0 +1,176 @@
+/* BioSafe Stage 10.2 — workflow UI polish */
+:root {
+  --bs2-panel: #ffffff;
+  --bs2-border: #dce3e9;
+  --bs2-muted: #66727d;
+  --bs2-soft: #f6f8fa;
+  --bs2-focus: #8fb6cf;
+  --bs2-warning-bg: #fff9ea;
+  --bs2-warning-border: #e8d9a7;
+  --bs2-error-bg: #fff2f2;
+  --bs2-error-border: #dfb7b7;
+  --bs2-success-bg: #f0f8f2;
+  --bs2-success-border: #bfd7c5;
+  --bs2-radius: 12px;
+}
+
+.biosafe-workflow-shell {
+  display: grid;
+  gap: 16px;
+}
+
+.biosafe-workflow-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  gap: 8px;
+  padding: 6px;
+  border: 1px solid var(--bs2-border);
+  border-radius: 14px;
+  background: var(--bs2-soft);
+}
+
+.biosafe-workflow-tab {
+  appearance: none;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background: transparent;
+  padding: 11px 12px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 700;
+  color: var(--bs2-muted);
+  text-align: center;
+}
+
+.biosafe-workflow-tab:hover {
+  background: rgba(255,255,255,.75);
+}
+
+.biosafe-workflow-tab[aria-selected="true"] {
+  background: var(--bs2-panel);
+  color: inherit;
+  border-color: var(--bs2-border);
+  box-shadow: 0 1px 4px rgba(17,31,44,.06);
+}
+
+.biosafe-workflow-panel {
+  display: none;
+}
+
+.biosafe-workflow-panel[data-active="true"] {
+  display: block;
+}
+
+.biosafe-workflow-intro {
+  margin: 0 0 14px;
+  color: var(--bs2-muted);
+  line-height: 1.5;
+}
+
+.biosafe-field-note {
+  display: block;
+  margin-top: 6px;
+  color: var(--bs2-muted);
+  font-size: .84rem;
+  line-height: 1.4;
+}
+
+.biosafe-submit-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.biosafe-workflow-status {
+  min-height: 1.4em;
+  font-size: .88rem;
+  color: var(--bs2-muted);
+}
+
+.biosafe-workflow-status[data-state="loading"] {
+  color: inherit;
+}
+
+.biosafe-workflow-status[data-state="error"] {
+  color: #7e2d2d;
+}
+
+.biosafe-workflow-status[data-state="success"] {
+  color: #315f3a;
+}
+
+.biosafe-state-card {
+  display: none;
+  margin-top: 12px;
+  border: 1px solid var(--bs2-border);
+  border-radius: var(--bs2-radius);
+  padding: 11px 13px;
+  line-height: 1.45;
+}
+
+.biosafe-state-card[data-visible="true"] {
+  display: block;
+}
+
+.biosafe-state-card[data-state="loading"] {
+  background: var(--bs2-soft);
+}
+
+.biosafe-state-card[data-state="warning"] {
+  background: var(--bs2-warning-bg);
+  border-color: var(--bs2-warning-border);
+}
+
+.biosafe-state-card[data-state="error"] {
+  background: var(--bs2-error-bg);
+  border-color: var(--bs2-error-border);
+}
+
+.biosafe-state-card[data-state="success"] {
+  background: var(--bs2-success-bg);
+  border-color: var(--bs2-success-border);
+}
+
+.biosafe-spinner {
+  display: inline-block;
+  width: .9em;
+  height: .9em;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  margin-right: 7px;
+  vertical-align: -0.1em;
+  animation: biosafe-spin .8s linear infinite;
+}
+
+@keyframes biosafe-spin {
+  to { transform: rotate(360deg); }
+}
+
+.biosafe-workflow-shell :is(button,input,textarea,select):focus-visible {
+  outline: 3px solid var(--bs2-focus);
+  outline-offset: 2px;
+}
+
+.biosafe-file-summary {
+  margin-top: 8px;
+  font-size: .88rem;
+  color: var(--bs2-muted);
+}
+
+.biosafe-forme-helper {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  border-left: 3px solid var(--bs2-warning-border);
+  background: var(--bs2-warning-bg);
+  border-radius: 8px;
+  color: #5f532f;
+  font-size: .88rem;
+}
+
+@media (max-width: 720px) {
+  .biosafe-workflow-tabs {
+    grid-template-columns: 1fr;
+  }
+}

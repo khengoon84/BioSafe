@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "required": [
+    "conclusion",
+    "applicable_authority",
+    "evidence",
+    "missing_information",
+    "recommended_next_step",
+    "limitations",
+    "safety"
+  ],
+  "properties": {
+    "conclusion": {
+      "type": "string"
+    },
+    "applicable_authority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_id",
+          "statement"
+        ],
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "missing_information": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommended_next_step": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "classification",
+        "response_mode"
+      ],
+      "properties": {
+        "classification": {
+          "enum": [
+            "normal",
+            "caution",
+            "refusal"
+          ]
+        },
+        "response_mode": {
+          "enum": [
+            "answer",
+            "ask_before_concluding",
+            "refuse_and_redirect"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

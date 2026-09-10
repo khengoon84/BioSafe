@@ -1,0 +1,270 @@
+[
+  {
+    "id": "RLG-001",
+    "type": "regulatory_guard",
+    "input": {
+      "response": {
+        "conclusion": "This requires Tier 1+2 classification under Malaysian law.",
+        "missing_information": [],
+        "recommended_next_step": [],
+        "limitations": []
+      },
+      "evidence": [
+        {
+          "record_type": "claim",
+          "text": "Authoritative Malaysian biosafety guidance applies."
+        }
+      ]
+    },
+    "expect": {
+      "not_contains": [
+        "Tier 1+2"
+      ],
+      "repair_contains": [
+        "REG_LANG_INTERNAL_TIER_REMOVED"
+      ]
+    }
+  },
+  {
+    "id": "RLG-002",
+    "type": "regulatory_guard",
+    "input": {
+      "response": {
+        "conclusion": "The SOP violates Malaysian law.",
+        "missing_information": [],
+        "recommended_next_step": [],
+        "limitations": []
+      },
+      "evidence": [
+        {
+          "record_type": "claim",
+          "text": "Risk assessment should determine appropriate controls."
+        }
+      ]
+    },
+    "expect": {
+      "not_contains": [
+        "violates Malaysian law"
+      ],
+      "repair_contains": [
+        "REG_LANG_UNSUPPORTED_VIOLATION_SOFTENED"
+      ]
+    }
+  },
+  {
+    "id": "RLG-003",
+    "type": "regulatory_guard",
+    "input": {
+      "response": {
+        "conclusion": "The transport category is P620/P650.",
+        "missing_information": [
+          "Transport category P620/P650 is missing."
+        ],
+        "recommended_next_step": [],
+        "limitations": []
+      },
+      "evidence": [
+        {
+          "record_type": "claim",
+          "text": "Packaging instructions depend on infectious-substance classification."
+        }
+      ]
+    },
+    "expect": {
+      "not_contains": [
+        "P620/P650"
+      ],
+      "repair_contains": [
+        "REG_LANG_PACKAGING_NOT_CLASSIFICATION"
+      ]
+    }
+  },
+  {
+    "id": "RLG-004",
+    "type": "regulatory_guard",
+    "input": {
+      "response": {
+        "conclusion": "Regulatory approval is required before proceeding.",
+        "missing_information": [],
+        "recommended_next_step": [],
+        "limitations": []
+      },
+      "evidence": [
+        {
+          "record_type": "claim",
+          "text": "The applicable pathway should be identified based on activity and jurisdiction."
+        }
+      ]
+    },
+    "expect": {
+      "not_contains": [
+        "approval is required"
+      ],
+      "repair_contains": [
+        "REG_LANG_UNSUPPORTED_APPROVAL_SOFTENED"
+      ]
+    }
+  },
+  {
+    "id": "RLG-005",
+    "type": "regulatory_guard",
+    "input": {
+      "response": {
+        "conclusion": "The activity may contravene the stated prohibition.",
+        "missing_information": [],
+        "recommended_next_step": [],
+        "limitations": []
+      },
+      "evidence": [
+        {
+          "record_type": "claim",
+          "text": "The regulation states that the activity shall not be performed without approval."
+        }
+      ]
+    },
+    "expect": {
+      "contains": [
+        "contravene"
+      ],
+      "repair_not_contains": [
+        "REG_LANG_UNSUPPORTED_VIOLATION_SOFTENED"
+      ]
+    }
+  },
+  {
+    "id": "ESC-001",
+    "type": "escalation",
+    "input": {
+      "packet": {
+        "documents": [
+          {
+            "id": "doc1"
+          }
+        ],
+        "missing_fields": [],
+        "contradictions": []
+      }
+    },
+    "expect": {
+      "model": "qwen3.5:0.8b"
+    }
+  },
+  {
+    "id": "ESC-002",
+    "type": "escalation",
+    "input": {
+      "packet": {
+        "documents": [
+          {
+            "id": "doc1"
+          },
+          {
+            "id": "doc2"
+          }
+        ],
+        "missing_fields": [],
+        "contradictions": []
+      }
+    },
+    "expect": {
+      "model": "qwen3.5:2b",
+      "reason": "MULTI_DOCUMENT"
+    }
+  },
+  {
+    "id": "ESC-003",
+    "type": "escalation",
+    "input": {
+      "packet": {
+        "documents": [
+          {
+            "id": "doc1"
+          }
+        ],
+        "missing_fields": [],
+        "contradictions": [
+          {
+            "field": "timeline"
+          }
+        ]
+      }
+    },
+    "expect": {
+      "model": "qwen3.5:2b",
+      "reason": "CROSS_DOCUMENT_CONTRADICTION"
+    }
+  },
+  {
+    "id": "ESC-004",
+    "type": "escalation",
+    "input": {
+      "packet": {
+        "documents": [
+          {
+            "id": "doc1"
+          }
+        ],
+        "missing_fields": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "contradictions": []
+      }
+    },
+    "expect": {
+      "model": "qwen3.5:2b",
+      "reason": "HIGH_MISSING_INFORMATION_LOAD"
+    }
+  },
+  {
+    "id": "ESC-005",
+    "type": "escalation",
+    "input": {
+      "packet": {
+        "documents": [
+          {
+            "id": "doc1"
+          }
+        ],
+        "missing_fields": [],
+        "contradictions": []
+      },
+      "lite_result": {
+        "decision": "RETRY",
+        "valid_json": false,
+        "done_reason": "length"
+      }
+    },
+    "expect": {
+      "model": "qwen3.5:2b",
+      "reason": "LITE_GENERATION_FAILURE"
+    }
+  },
+  {
+    "id": "ESC-006",
+    "type": "escalation",
+    "input": {
+      "packet": {
+        "documents": [
+          {
+            "id": "doc1"
+          }
+        ],
+        "missing_fields": [],
+        "contradictions": []
+      },
+      "lite_result": {
+        "decision": "PASS",
+        "valid_json": true,
+        "done_reason": "stop"
+      }
+    },
+    "expect": {
+      "model": "qwen3.5:0.8b"
+    }
+  }
+]

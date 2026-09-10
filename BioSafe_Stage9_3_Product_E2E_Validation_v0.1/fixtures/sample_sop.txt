@@ -1,0 +1,13 @@
+Sample Laboratory SOP
+
+Purpose:
+This SOP describes handling of research biological material in a laboratory.
+
+Procedure:
+Samples are received and opened on an open bench.
+Personnel wear gloves and a laboratory coat.
+Waste is collected in a labelled container.
+
+Missing from this SOP:
+No spill or leak response is described.
+No transport labelling requirements are specified.

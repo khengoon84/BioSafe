@@ -1,0 +1,13 @@
+{
+  "stage": "Unified-2.2.2",
+  "version": "0.1",
+  "frozen_core_modified": false,
+  "port": 8771,
+  "invariants": [
+    "self-contained conversational intent is normalized before planning",
+    "retrieved evidence is filtered to the evidence plan before generation",
+    "regulatory evidence remains available for regulatory assessment",
+    "clean retrieval query and frozen retriever remain unchanged"
+  ],
+  "acceptance": "contract + A/B + human wording review"
+}

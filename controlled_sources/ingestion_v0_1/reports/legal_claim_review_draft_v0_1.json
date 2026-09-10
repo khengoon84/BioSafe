@@ -1,0 +1,518 @@
+{
+  "artifact_scope": "HUMAN_REVIEW_NAVIGATION_AND_ATOMIZATION_AID_ONLY",
+  "artifact_version": "BioSafe_Legal_Claim_Review_Draft_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "draft_dispositions_present": 0,
+  "legal_claim_count": 9,
+  "legal_claim_drafts": [
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_90",
+          "pdf_page_end": 90,
+          "pdf_page_start": 90,
+          "source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+          "text": "2 8                                                                                                                                                                                                                                                                                                                                                              Laws of                         Malaysia                                                                                                                                                                                                                                                                                                                                                              ACT   678\n\n      (2)                       Where          the        Board         makes         a         cessation        order,         the       approved\nperson shall cease all activities involving living modified organisms\nimmediately         and          shall,           within           seven         days      from       the        date        of              the\nnotification            of              the       cessation,        surrender        the      acknowledgement          of\nthe          submission              of                notification             issued               under            section           25               to             the\nBoard.\n\n      (3)         Any                approved              person               who            contravenes          any            order            made\nby      the    Board         under     subsection     (1)    or contravenes       subsection     (2)\ncommits       an       offence        and        shall,       on        conviction,         be                                      liable-\n             (a) where such person is an individual,  to a fine not exceeding\n                        one       hundred         thousand      ringgit      or     to       imprisonment        for        a\n                        term  not exceeding  four   years or to     both and, in     the case\n                        of         a     continuing     offence,     to    a   further      fine       not     exceeding\n                        ten               thousand                 ringgit              for           each            day            during            which             the\n                        offence      continues        after     conviction;\n              (h) where         such            person              is         a           body            corporate,            to        a         fine           not\n                        exceeding          two        hundred        and      fifty        thousand         ringgit      and,\n                        in   the   case   of        a   continuing     offence,    to  a  further    fine     not\n                        exceeding         twenty          thousand        ringgit        for    each      day       during\n                        which         the      offence       continues        after      conviction.\n\nAppeal           to        Minister       relating      to      notification\n\n34.             (1)          Any  person  or approved  person aggrieved with any decision\nof       the      Board        relating         to      the       notification      may       appeal      against   such\ndecision       to     the       Minister.\n\n      (2)       The     Minister      shall      have         the        power      to       confirm,    reverse        or\nvary            the      decision        of             the      Board.\n\nTaking       of        decision         by        the                     Board               or       Minister\n\n35.                   The Board       or   Minister     shall      not      be       prevented         from     taking       a\ndecision,    as     appropriate,     under     Part                                             111 or     Part        IV,        where     there   is\nlack        of            scientific      certainty      due    to      insufficient      relevant      scientific\ninformation       and        knowledge       regarding      the     extent   of         the        potential\nadverse     effects  of       living     modified   organisms     or    products   of      such\norganisms       on       human,        plant          and         animal          health,        the        environment\nand            biological             diversity            and           may             also             take           into          account\nsocio-economic       considerations."
+        }
+      ],
+      "claim_id": "CLM-001",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-ACT678",
+      "controlled_source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "controlled_supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "currentness_blockers": [
+        "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"
+      ],
+      "draft_atomic_propositions": [
+        "Section 35 states that lack of scientific certainty due to insufficient relevant scientific information and knowledge does not prevent the Board or Minister from taking an appropriate decision under Part III or Part IV."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "Taking of decision by the Board or Minister",
+        "lack of scientific certainty",
+        "insufficient relevant scientific information and knowledge"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-001",
+        "claim_type": "regulatory_uncertainty",
+        "document_id": "KB-MY-ACT678",
+        "maps_to": "PROP-01; PROP-03",
+        "page": "90\u201391",
+        "priority": "critical",
+        "section": "s.35",
+        "text": "The Act permits decisions to be made despite lack of scientific certainty where relevant scientific information or knowledge is insufficient.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "Act amendment and claim-level currentness review remains required.",
+        "The provision is limited to decisions under Part III or Part IV and includes additional source context that must not be omitted if material."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_91",
+          "pdf_page_end": 91,
+          "pdf_page_start": 91,
+          "source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+          "text": "Biosafety\n\n\n       RISK     ASSESSMENT      AND      RISK        MANAGEMENT    REPORTS      AND\n                                       EMERGENCY       RESPONSE          PLAN\n\nRisk          assessment       and        risk         management      reports\n\n36.            (1)       The      risk          assessment         and           risk          management          reports        shall\nbe          in         a     form        prescribed             by           the      Minister       and     shall contain-\n          (a) an         assessment        of             the          risk          and         adverse       effect         that          such\n                    living  modified organisms and products of   such organisms\n                    will      have    or  are    likely      to     have    on     the      human,     plant    and\n                    animal   health,   the   environment and     biological   diversity;\n                    and\n           (b)            the proposed  measures that shall be  undertaken to prevent,\n                    reduce           or           control               the           risks           and           adverse            effect             that\n                    such            living           modified         organisms             and             products            of               such\n                    organisms              will             have          or        are          likely              to              have          on           human,\n                    plant     and    animal   health,    the   environment      and        biological\n                    diversity.\n\n     (2)            Notwithstanding   any     risk    assessment     and      risk     management\nreports         submitted             by                an             approved            person,          the         approved            person\nshall          comply             with            the            minimum          risk           management            measures           as\nmay              be          determined            by             the            Board,            after          consultation                 with               the\nAdvisory      Committee.\n\n     (3)        Upon obtaining an approval or an acknowledgement from the\nBoard, the approved  person    shall,  in     the course of         undertaking   the\nrelease,    import     or   contained      use     activity      relating      to      the     approval\nor    acknowledgement,          as         the       case       may          be,-\n           (a) incorporate     into     the    design,     construction      and      operation,\n                    whichever            is           applicable,            of              the           release,          import             or\n                    contained     use  activity      the   proposed    measures    in        the    risk\n                    management       reports      of            the      approved       person;    and\n           (b)        carry           out           and          comply               with,             to            the          satisfaction              of                 the\n                    Board, the minimum risk   management measures   referred\n                    to     in        subsection       (2)."
+        }
+      ],
+      "claim_id": "CLM-002",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-ACT678",
+      "controlled_source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "controlled_supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "currentness_blockers": [
+        "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"
+      ],
+      "draft_atomic_propositions": [
+        "Section 36(1)(a) describes assessment of risks and adverse effects that the relevant LMOs or products will have or are likely to have on human, plant and animal health, the environment and biological diversity.",
+        "Section 36(1)(b) describes proposed measures to prevent, reduce or control those risks and adverse effects."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "Risk assessment and risk management reports",
+        "an assessment of the risk and adverse effect",
+        "proposed measures that shall be undertaken to prevent, reduce or control"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-002",
+        "claim_type": "risk_assessment",
+        "document_id": "KB-MY-ACT678",
+        "maps_to": "SOP-01; SOP-03; PROP-01; PROP-03",
+        "page": "90\u201391",
+        "priority": "critical",
+        "section": "s.36",
+        "text": "Risk assessment/risk management reporting addresses risks and adverse effects to human, plant and animal health, the environment and biodiversity, together with measures to prevent, reduce or control them.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "Act amendment and claim-level currentness review remains required.",
+        "The original claim combines assessment subject matter and proposed control measures and should be reviewed as separate propositions."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_92",
+          "pdf_page_end": 92,
+          "pdf_page_start": 92,
+          "source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+          "text": "3 0                                                                                                                                                                                                                                                                                                                                                                               Laws of            Malaysia                                                                                                                                                                                                                                                                                                                                                             ACT       678\n\n      (4)                            Any                 approved               person              who           contravenes         subsection                        (3)\ncommits        an         offence        and        shall,       on          conviction,          be          liable-\n              (a) where such person   is an   individual, to a fine not exceeding\n                         two hundred and fifty   thousand ringgit or to   imprisonment\n                         for       a        term         not        exceeding       five        years        or     to       both           and,         in\n                         the       case         of            a         continuing        offence,        to       a        further        fine        not\n                         exceeding ten thousand ringgit for each day during  which\n                         the       offence     continues    after     conviction;\n              (b) where         such           person          is          a            body            corporate,             to           a          fine            not\n                         exceeding  five   hundred     thousand    ringgit and, in        the  case\n                         of       a     continuing     offence,      to      a   further     fine        not     exceeding\n                         twenty         thousand        ringgit        for   each      day       during        which         the\n                         offence      continues       after      conviction.\n\nEmergency         response           plan\n\n37.         (1)       An          emergency         response           plan         shall                              provide-\n              (a) safety               measures            and              procedures           for               the              protection                  of\n                         human,           plant            and               animal              health,        the        environment            and\n                         biological            diversity              against             harm           or        damage           caused\n                         directly         or        indirectly                  by                 living           modified             organisms         or\n                         products           of            such      organisms;        and\n              (h)           all             necessary          measures                    to              be            taken            in            the        event          of an\n                         emergency.\n\n      (2)         Any                  approved               person              who         fails             to              take              the             necessary\nmeasures         in          an         emergency       according       to     the        emergency         response\nplan         commits        an       offence       and        shall,        on           conviction,          be      liable-\n              (a) where such person  is an  individual,  to a fine not exceeding\n                         two hundred and fifty    thousand ringgit or to itnprisonment\n                         for       a       term       not       exceeding         five        years       or         to         both            and,        in\n                         the        case        of             a         continuing         offence,         to         a        further        fine         not\n                         exceeding ten   thousand   ringgit  for each day during   which\n                         the      offence       continues       after    conviction;\n              (b) where          such                person               is           a             body           corporate,            to          a           fine            not\n                         exceeding   five    hundred    thousand    ringgit   and, in     the case\n                         of       a     continuing     offence,      to     a   further  fine       not   exceeding\n                         twenty         thousand       ringgit     for   each       day       during         which            the\n                         offence      continues       after      conviction."
+        }
+      ],
+      "claim_id": "CLM-003",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-ACT678",
+      "controlled_source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "controlled_supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "currentness_blockers": [
+        "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"
+      ],
+      "draft_atomic_propositions": [
+        "Section 37(1)(a) states that an emergency response plan shall provide safety measures and procedures for the specified protection against direct or indirect harm or damage caused by relevant LMOs or products.",
+        "Section 37(1)(b) states that an emergency response plan shall provide all necessary measures to be taken in an emergency."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "Emergency response plan",
+        "safety measures and procedures",
+        "all necessary measures to be taken in the event of an emergency"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-003",
+        "claim_type": "emergency_response",
+        "document_id": "KB-MY-ACT678",
+        "maps_to": "SOP-01; SOP-03; PROP-03",
+        "page": "90\u201391",
+        "priority": "major",
+        "section": "s.37",
+        "text": "Emergency response planning is part of the statutory risk-management framework and must provide safety measures/procedures and necessary emergency measures.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "Act amendment and claim-level currentness review remains required.",
+        "The original claim's phrase statutory risk-management framework is interpretive and should not replace the exact section wording."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_22",
+          "pdf_page_end": 22,
+          "pdf_page_start": 22,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "P.U. (A) 367.                                             4386\n\n\n                                                         P ART II\n\n\n                                 INSTITUTIONAL BIOSAFETY COMMITTEE\n\n    Establishment of an institutional biosafety committee\n\n    5.    (1)         The Board may, in exercising its functions under paragraph 5(1)(b) and\n    subsection 5(2) of the Act, direct any organization that undertakes modern\n    biotechnology research and development to establish an institutional biosafety\n    committee for the purpose of\u2014\n                                                                                  (a)      providing guidance for safe use of modern biotechnology;\n                                                                                  (b)      monitoring activities relating to modern biotechnology;\n     (c) establishing and monitoring the implementation of policies and\n                  procedures for the purpose of handling living modified organisms;\n                  and\n                                                                                  (d)              determining the classes of Biosafety Levels for contained use activity\n                  for the purpose of modern biotechnology research and development\n                  undertaken within a facility where the institutional biosafety committee\n                  is established.\n\n                              (2)       The institutional biosafety committee which has been established upon\n    the direction of the Board under subregulation (1) shall be registered with the\n    Board in a manner as the Board may determine.\n\n                       (3)    Any organization who fails to comply with the direction made under\n    subregulations (1) and (2) commits an offence.\n\n\n                                                        P ART III\n\n                   APPROVAL FOR ANY RELEASE ACTIVITY AND IMPORTATION\n                                      OF LIVING MODIFIED ORGANISMS\n\n    Application for approval\n\n    6. (1)     Every application for approval of\u2014\n                                                                                  (a)         any release activity, or any importation of living modified organism\n                  shall be submitted to the Director General;\n                                                                                  (b)   any release activity for the purpose as specified under item 1 of\n                  the Second Schedule of the Act shall be submitted to the Director\n                  General through the institutional biosafety committee,\n\n    and shall be accompanied by the prescribed fee.\n\n                        (2)     An applicant shall have a place of residence, business premises or in\n    the case of an agent, with an address for service in Malaysia."
+        }
+      ],
+      "claim_id": "CLM-004",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "controlled_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "currentness_blockers": [
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "draft_atomic_propositions": [
+        "Regulation 5(1) states that the Board may direct an organization carrying out modern biotechnology research and development to establish an institutional biosafety committee for the purposes listed in paragraphs (a) to (d).",
+        "Regulation 5(1)(d) includes determining the classes of Biosafety Levels for contained-use modern biotechnology research and development activities conducted in the facility where the committee is established."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "Establishment of an institutional biosafety committee",
+        "The Board may",
+        "determining the classes of Biosafety Levels"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-004",
+        "claim_type": "ibc",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "SOP-03; PROP-01",
+        "page": "20\u201330",
+        "priority": "critical",
+        "section": "Reg. 5",
+        "text": "The Board may direct organisations conducting modern biotechnology R&D to establish an IBC; the IBC has biosafety oversight functions including procedures and BSL determination for contained-use R&D.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "The 2019 schedule amendment is recorded and requires reconciliation even though this claim concerns Regulation 5.",
+        "The original broad phrase biosafety oversight functions should be checked against each listed statutory purpose rather than treated as an unlimited mandate."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
+          "pdf_page_end": 27,
+          "pdf_page_start": 27,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "4391                                          P.U. (A) 367.\n\n\n                                          (2)               An approved person who contravenes this regulation commits an offence\nand shall, on conviction, be liable\u2014\n                                                                              (a)                                                                   where the person is an individual, to a fine not exceeding one hundred\n               thousand ringgit or to imprisonment for a term not exceeding six\n               months or to both and, in the case of a continuing offence, to a\n               further fine not exceeding ten thousand ringgit for each day during\n               which the offence continues after conviction; or\n                                                                              (b)     where the person is a body corporate, to a fine not exceeding two\n               hundred thousand ringgit and, in the case of a continuing offence,\n               to a further fine not exceeding twenty thousand ringgit for each day\n               during which the offence continues after conviction.\n\n\n                                                         P ART V\n\n                                                    NOTIFICATION\n\nNotification of activities\n\n16.                                  (1)   A person undertaking any activity as specified in paragraphs 22(1)\n(a)      to      (c) of the Act shall give prior notification to the Board.\n\n                         (2)       The notification required under paragraphs 22(1)(b)    and    (c) of the Act\nshall be submitted\u2014\n                                                                              (a)      to the Director General; or\n (b) for the purpose in accordance with the establishment of an institutional\n               biosafety committee under subregulation 5(1), to the Director General\n               through an institutional biosafety committee,\n\nand shall be accompanied by a prescribed fee.\n\n\nWithdrawal of notification\n\n17.       (1)          A person who submits the notification under subregulation 16(2) shall\nensure that the notification\u2014\n                                                                              (a)      is complete; and\n                                                                              (b)      does not contain any error or contain any unauthorized alteration.\n\n                    (2)     If the submission of the notification is being made not in accordance\nwith the requirements specified under subregulation (1), the Director General\nmay refuse to process the notification and\u2014\n (a)      shall require that it is to be amended or to be completed and to be\n               resubmitted; or\n                                                                              (b)      shall require that a fresh notification be submitted.\n\n                  (3)    If any person fails to comply with subregulation (2), the notification\nshall be treated as withdrawn but it shall not affect the right of the person to\nsubmit or make a fresh notification in accordance with regulation 16."
+        }
+      ],
+      "claim_id": "CLM-005",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "controlled_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "currentness_blockers": [
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "draft_atomic_propositions": [
+        "Regulation 16(1) states that a person carrying out an activity specified in paragraphs 22(1)(a) to (c) of the Act shall give prior notification to the Board.",
+        "Regulation 16(2) specifies submission routes for notifications required under paragraphs 22(1)(b) and (c), including submission to the Director General and a specified route through an institutional biosafety committee."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "Notification of activities",
+        "prior notification to the Board",
+        "to the Director General"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-005",
+        "claim_type": "notification",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "SOP-03; PROP-01",
+        "page": "20\u201330",
+        "priority": "critical",
+        "section": "Reg. 16",
+        "text": "Specified activities require prior notification, with submission arrangements involving the Director General and, where applicable, the IBC.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "The exact activity categories depend on section 22(1)(a) to (c) of the Act and cannot be generalized without that context.",
+        "The 2019 schedule amendment remains recorded and requires reconciliation."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
+          "pdf_page_end": 27,
+          "pdf_page_start": 27,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "4391                                          P.U. (A) 367.\n\n\n                                          (2)               An approved person who contravenes this regulation commits an offence\nand shall, on conviction, be liable\u2014\n                                                                              (a)                                                                   where the person is an individual, to a fine not exceeding one hundred\n               thousand ringgit or to imprisonment for a term not exceeding six\n               months or to both and, in the case of a continuing offence, to a\n               further fine not exceeding ten thousand ringgit for each day during\n               which the offence continues after conviction; or\n                                                                              (b)     where the person is a body corporate, to a fine not exceeding two\n               hundred thousand ringgit and, in the case of a continuing offence,\n               to a further fine not exceeding twenty thousand ringgit for each day\n               during which the offence continues after conviction.\n\n\n                                                         P ART V\n\n                                                    NOTIFICATION\n\nNotification of activities\n\n16.                                  (1)   A person undertaking any activity as specified in paragraphs 22(1)\n(a)      to      (c) of the Act shall give prior notification to the Board.\n\n                         (2)       The notification required under paragraphs 22(1)(b)    and    (c) of the Act\nshall be submitted\u2014\n                                                                              (a)      to the Director General; or\n (b) for the purpose in accordance with the establishment of an institutional\n               biosafety committee under subregulation 5(1), to the Director General\n               through an institutional biosafety committee,\n\nand shall be accompanied by a prescribed fee.\n\n\nWithdrawal of notification\n\n17.       (1)          A person who submits the notification under subregulation 16(2) shall\nensure that the notification\u2014\n                                                                              (a)      is complete; and\n                                                                              (b)      does not contain any error or contain any unauthorized alteration.\n\n                    (2)     If the submission of the notification is being made not in accordance\nwith the requirements specified under subregulation (1), the Director General\nmay refuse to process the notification and\u2014\n (a)      shall require that it is to be amended or to be completed and to be\n               resubmitted; or\n                                                                              (b)      shall require that a fresh notification be submitted.\n\n                  (3)    If any person fails to comply with subregulation (2), the notification\nshall be treated as withdrawn but it shall not affect the right of the person to\nsubmit or make a fresh notification in accordance with regulation 16."
+        },
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_28",
+          "pdf_page_end": 28,
+          "pdf_page_start": 28,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "P.U. (A) 367.                                         4392\n\n\n   Acknowledgement of receipt of notification\n\n   18.                                                                               Upon receipt of the notification under regulation 16 and after considering\n   that the person complies with regulation 17, the Director General shall send\n   to the person an acknowledgement of receipt in a manner as the Director\n   General may determine.\n\n\n   Rectification to notification\n\n   19.                                             (1)       An approved person shall, upon being ordered by the Board pursuant\n   to subsection 30(3) of the Act, notify the Board through the Director General\n   in writing of any rectification to the notification.\n\n                                      (2)       Upon receipt of the rectification under subregulation (1), the Board may\n   require the approved person to provide any additional information or other\n   documents as the Board may determine within fifteen working days from the\n   date the Board notifies the approved person of the requirement to submit such\n   additional information or other documents.\n\n    (3) If such additional information or other documents required is not provided\n   by the approved person within the time as specified in subregulation (2)\n   or any extension of time granted by the Board, the rectification shall be\n   treated as withdrawn but it shall not affect the right of the approved person\n   to make a fresh rectification.\n\n                         (4)      The extension of time referred to in subregulation (3) may be applied\n   by the approved person in writing to the Board and the Board may grant the\n   extension of time as it deems fit.\n\n                                           (5)              The Board may approve the rectification and upon such approval, rectify\n   the particulars of the original notification or direct a fresh notification to be\n   submitted in accordance with regulation 16.\n\n                              (6)        Notwithstanding subregulation (5), the approved person may undertake\n   and continue the activities as specified in the notification pending decision\n   from the Board.\n\n\n                                                    P ART VI\n\n                                                     APPEAL\n\n   Notice of appeal\n\n   20.                                                         (1)                                          Any person or approved person who is aggrieved by any decision or\n   action of the Board under section 16, 18, 19, 30, 31, 32 or 33 of the Act may,\n   within thirty working days from the date the decision was communicated to\n   the person or approved person, give notice to the Minister in writing that he\n   intends to appeal against the decision.\n\n                 (2)  The appellant may, not later than thirty working days after giving\n   the notice under subregulation (1), submit the grounds of appeal and other\n   documents as may be necessary for the purpose of the appeal."
+        }
+      ],
+      "claim_id": "CLM-006",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "controlled_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "currentness_blockers": [
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "draft_atomic_propositions": [
+        "Regulation 17(1) states that a person submitting a notification under Regulation 16(2) shall ensure that it is complete and does not contain an error or unauthorized alteration.",
+        "Regulation 17(2) describes refusal to process a nonconforming notification and requirements to amend or complete and resubmit it, or to submit a new notification.",
+        "Regulation 19 separately addresses rectification to a notification and may direct a fresh notification under Regulation 16."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "Withdrawal of notification",
+        "complete",
+        "does not contain any error",
+        "Rectification to notification",
+        "direct a fresh notification to be submitted"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-006",
+        "claim_type": "notification_quality",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "PROP-01",
+        "page": "20\u201330",
+        "priority": "major",
+        "section": "Reg. 17",
+        "text": "Notifications are expected to be complete and without errors; the Director General may require amendment, completion or resubmission.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "MATERIAL_SECTION_CONTENT_MISMATCH: the original claim cites Regulation 17 but combines Regulation 17 completeness/resubmission content with language that may be confused with Regulation 19 rectification.",
+        "The original word amendment should be checked against the source terms amend, complete, resubmit, and rectification rather than normalized into one concept.",
+        "The 2019 schedule amendment remains recorded and requires reconciliation."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_21",
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "4385                                       P.U. (A) 367.\n\n\n                                        BIOSAFETY ACT 2007\n\n              B IOSAFETY (APPROVAL      AND NOTIFICATION) REGULATIONS 2010\n\nI N  exercise of the powers conferred by paragraphs 69(a),                                                 (b),                                                 (c),                                               (g),                                                 (h) and\n(l)    of the Biosafety Act 2007 [Act 678], the Minister, upon consultation with\nthe Board, makes the following regulations:\n\n\n                                                      P ART I\n\n                                                 PRELIMINARY\n\nCitation and commencement\n\n1. (1)    These regulations may be cited as the Biosafety (Approval and\nNotification) Regulations 2010.\n\n                     (2)     These Regulations come into operation on 1 November 2010.\n\n\nNon-application\n\n2.                                        These Regulations shall not apply to\u2014\n                                                                              (a)             products of such organisms which are pharmaceuticals and addressed\n              by relevant international treaties or organizations, or regulated under\n              any other written laws relating to pharmaceuticals; and\n (b) techniques and contained use activities in relation to living modified\n              organisms as specified in the First Schedule.\n\n\nInterpretation\n\n3.                In these Regulations\u2014\n\n                  \u201ccertificate\u201d means the certificate of approval issued by the Board under\nsubsection 16(3) of the Act;\n\n                      \u201cclasses\u201d in relation to an activity involving modern biotechnology means\nfour classes of Biosafety Levels as specified in the Second Schedule.\n\n\nFees\n\n4. (1)   The fees to be paid under these Regulations shall be as specified in\nthe Third      Schedule.\n\n                             (2)         The fees shall be paid to the Secretary General of the Ministry charged\nwith the responsibility for natural resources and environment in a manner as\nthe Director General may direct."
+        },
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_30",
+          "pdf_page_end": 30,
+          "pdf_page_start": 30,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "P.U. (A) 367.                                                                              4394\n\n\n                                                                                F IRST SCHEDULE\n\n                                                                                 (regulation 2)\n                         TECHNIQUES IN RELATION TO LIVING MODIFIED ORGANISMS TO\n                                        WHICH THESE REGULATIONS ARE NOT APPLICABLE\n\n       (a) in vitro fertilization*;\n                                                                         (b)        natural processes including conjugation, transduction or transformation*;\n                                                                          (c)     cell fusion (including protoplast fusion) of prokaryotic species which can exchange\n                         genetic material through homologous recombination**;\n                                                                         (d)       cell fusion (including protoplast fusion) of cells of any eukaryotic species within its\n                         taxonomic family, including production of hybridomas and plant cell fusions**;\n                                                                          (e)                    self-cloning, where the resulting organism is unlikely to cause disease or harm to humans,\n                         animals or plants**;\n                                                                               (f) mutagenesis***.\n\n\n      Notes:\n\n                                                                            (i)              *Provided that the techniques do not involve the use of living modified organisms made\n                         by techniques other than those listed in paragraphs (c)   to   (e)  or the use of recombinant\n                         nucleic acid molecules.\n\n                                      (ii)     **Provided that the techniques do not involve the use of recombinant nucleic acid\n                         molecules or of living modified organisms other than those recombinant nucleic acid\n                         molecules or living modified organisms produced by one or more of the techniques\n                         under paragraphs (c) to (e).\n\n                                         (iii)        ***Applicable for both items (i) and (ii).\n\n       (iv) \u201cSelf-cloning\u201d\u2014\n                                                                                                                                                              (A)             means the removal of nucleic acid sequences from a cell of an organism which\n                                          may or may not be followed by reinsertion of all or part of that nucleic acid\n                                          (or a synthetic equivalent), whether or not altered by enzymic or mechanical\n                                          processes, into cells of the same species or into cells of phylogenetically\n                                          closely related species (able to hybridize naturally) which can exchange genetic\n                                          material by homologous recombination; and\n                                                                                                                                   (B)         may include the use of recombinant vectors, with an extended history of safe\n                                          use in a particular organism, to manipulate and reinsert the nucleic acid\n                                          sequences, but the vectors shall not consist of any genetic elements other than\n                                          those designed for vector structure, vector replication, vector maintenance or\n                                          marker genes.\n\n\n               CONTAINED USE ACTIVITIES WHICH ARE EXEMPTED FROM NOTIFICATION\n\n\n                  Item                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Activity\n\n                     1.                                                                                                                                                    An activity with genetically modified Caenorhabditis elegans and Arabidopsis,\n                                          unless\u2014\n                                                                                                             (a)                      an advantage is conferred on the organism by the genetic modification;\n                                                              or\n                                                                                                             (b)       as a result of the genetic modification, the animal is capable of\n                                                              secreting or producing an infectious agent, toxins or other products\n                                                              that can potentially cause adverse effects on living organisms."
+        },
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_31",
+          "pdf_page_end": 31,
+          "pdf_page_start": 31,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "4395                                                                                                  P.U. (A) 367.\n\n\n          Item                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Activity\n\n             2.                                                                                     An activity with an organism into which genetically modified somatic cells\n                                              have been introduced, if\u2014\n                                                                                                                 (a)             the somatic cells are not capable of giving rise to infectious agents\n                                                                             as a result of the genetic modification; and\n                                                                                                                 (b)                    the animal is not infected with a virus that is capable of recombining\n                                                                             with the genetically modified nucleic acid in the somatic cells.\n\n             3.                                                              An activity involving a host/vector system mentioned in the Host/Vector\n                                              Systems Not Regulated For Contained Use where the donor nucleic acid\u2014\n                                                                                                                 (a)      must be characterized and not known to alter the host range or\n                                                                             mode of transmission, or increase the virulence, pathogenicity or\n                                                                             transmissibility of the host or vector;\n                                                                                                                 (b)        must not code for a toxin; and\n                                                                                                                  (c)          must not include a viral sequence unless the donor nucleic acid\u2014\n                                                                                                                                                                                                                    (i)             is missing at least 1 gene essential for viral multiplication\n                                                                                                      that\u2014\n                                                                                                                                                                                                                                                                                                                                                                                                            (A)                  is not available in the cell into which the nucleic\n                                                                                                                                    acid is introduced; and\n                                                                                                                                                                                                                                         (B)       will not become available during the activity;\n                                                                                                                                    and\n                                                                                                                                                                                                                                                                    (ii)                    is incapable of correcting a defect in the host/vector system\n                                                                                                      leading to production of replication competent virions;\n                                                                                                      and\n                                                                                                                 (d)        must not confer an oncogenic modification.\n\n             4.                                                                                                              An activity involving shot-gun cloning, or the preparation of a cDNA library,\n                                              in a host/vector system mentioned in item 1 of the Host/Vector Systems\n                                              Not Regulated For Contained Use, if the donor nucleic acid is not derived\n                                              from either\u2014\n                                                                                                                 (a)        a pathogen; or\n                                                                                                                 (b)        a toxin-producing organism.\n\n\n HOST/VECTOR SYSTEMS NOT REGULATED FOR CONTAINED USE ACTIVITIES\n\n\nItem                                                                                           Class                                                                                                                                                                                                                                                                                              Host                                                                                                                                                                                                                                                                                                                                                                                                      Vector\n\n   1.                                                                           Bacteria                                                 Escherichia coli K12,   E. coli B or E.            1. Non-conjugative\n                                                                   coli   C \u2013 any derivative that does not                                                                                            plasmids\n                                                                   contain\u2014\n                                                                                                                (a) generalized transducing                                                 2. Bacteriophage\u2014\n                                                                                            phages; or                                                                                       (a) lambda;\n                                                                                                                (b)            genes able to complement the                                  (b) lambdoid;\n                                                                                            conjugation defect in a non-                                                                     (c)        Fd or F1 (e.g.\n                                                                                            conjugative plasmid                                                                                                       M13).\n\n\n                                                                                                                                                                                            3. Non-vector systems*"
+        },
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_32",
+          "pdf_page_end": 32,
+          "pdf_page_start": 32,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "P.U. (A) 367.                                                                                  4396\n\n\n            Item                                                                                           Class                                                                                                                                                                                                                                                                                              Host                                                                                                                                                                                                                                                                                                                                                                                                      Vector\n\n                                                         Bacillus \u2013 specified species \u2013                                                    1. Non-conjugative\n                                                         asporogenic strains with a reversion                                                     plasmids\n                                                         frequency of less than 10-7\u2014\n                                                          (a)                                                                       B. amyloliquefaciens;2.       Plasmids and phages\n                                                                                                                                                  whose host range does\n                                                          (b)                                                                       B. licheniformis;not include B. cereus,\n                                                                                                                                                  B. anthracts or any\n                                                          (c)                                                             B. punilus;             other pathogenic strain\n                                                          (d)                                                                       B. subtilis;  of     Bacillus\n\n                                                          (e)                                                                       B. thuringiensis.3. Non-vector systems*\n\n                                                         Pseudomonas putida \u2013 strain KT\n                                                         2440\n\n\n                                                         Pseudomonas putida \u2013 strain KT                                                    1. Non-conjugative\n                                                         2440                                                                                     plasmids including\n                                                                                                                                                  certified plasmids; pKT\n                                                                                                                                                  262, pKT 263, pKT\n                                                                                                                                                  264\n\n                                                                                                                                           2. Non-vector systems*\n\n\n                                                         Streptomyces   \u2013 specified species\u2014                                               1. Non-conjugative\n                                                          (a) S. aureofaciens;                                                                    plasmids\n\n                                                          (b) S. coelicolor;                                                               2. Certified plasmids:\n                                                                                                                                                  SCP2, SLP1, SLP2,\n                                                          (c) S. cyaneus;                                                                         PIJ101 and derivatives\n                                                          (d) S. griseus;                                                                  3.       Actinophage phi C31\n                                                          (e) S. lividans;                                                                        and derivatives\n\n                                                          (f) S. parvulus;                                                                 4. Non-vector systems*\n                                                          (g) S. rimosus;\n                                                          (h) S. venezuelae.\n\n\n                                                         Agrobacterium radiobacter                                                         1. Non-tumorigenic\n                                                                                                                                                  disarmed Ti plasmid\n                                                         Agrobacterium rhizogenes \u2013 disarmed                                                      vectors, or Ri plasmid\n                                                         strains                                                                                  vectors\n\n                                                         Agrobacterium tumefaciens \u2013                                                       2. Non-vector systems*\n                                                         disarmed strains\n\n\n                                                         Lactobacillus                                                                     1. Non-conjugative\n                                                                                                                                                  plasmids\n                                                         Pediococcus\n                                                                                                                                           2. Non-vector systems*\n                                                         Photobacterium angustum\n\n                                                         Pseudoalteromonas tunicate\n\n                                                         Rhizobium   (including the genus\n                                                         Allorhizobium)"
+        },
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_33",
+          "pdf_page_end": 33,
+          "pdf_page_start": 33,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "4397                                                                                          P.U. (A) 367.\n\n\nItem                                                                                           Class                                                                                                                                                                                                                                                                                              Host                                                                                                                                                                                                                                                                                                                                                                                                      Vector\n\n   2.                                                                           Fungi                                                                       Neurospora crassa \u2013 laboratory 1. All vectors\n                                                             strains\n                                                                                                                                                                              2. Non-vector systems*\n                                                             Pichia pastoris\n\n                                                             Saccharomyces cerevisiae\n\n                                                             Schizosaccharomyces pombe\n\n                                                             Trichoderma reesei\n\n\n   3.                                                                           Slime Dictyostelium species                                                                                                                                                                             1.          Dictyostelium     shuttle\n                        moulds                                                                                                                                                         vectors, including\n                                                                                                                                                                                       those based on the\n                                                                                                                                                                                       endogenous plasmids\n                                                                                                                                                                                       Ddp1 and Ddp2\n\n                                                                                                                                                                              2. Non-vector systems*\n\n\n   4.                                                                           Tissue Animal or human cell cultures                                                          1. Non-conjugative\n                        culture                              (including packaging cell lines)                                                                                          plasmids\n\n                                                                                                                                                                              2.       Non-viral vectors, or\n                                                                                                                                                                                       defective viral vectors\n                                                                                                                                                                                       unable to transducer\n                                                                                                                                                                                       human cells\n\n                                                                                                                                                                              3. Avipox vectors\n                                                                                                                                                                                       (attenuated vaccine\n                                                                                                                                                                                       strains)\n\n                                                                                                                                                                              4. Baculovirus\n                                                                                                                                                                                       (Autographa californica\n                                                                                                                                                                                       nuclear polyhedrosis\n                                                                                                                                                                                       virus), polyhedron\n                                                                                                                                                                                       minus\n\n                                                                                                                                                                              5. Non-vector systems*\n\n\n                                                             Plant cell cultures                                                                                                                                                                                                          1.       Non-tumorigenic\n                                                                                                                                                                                       disarmed Ti plasmid\n                                                                                                                                                                                       vectors, or Ri\n                                                                                                                                                                                       plasmid vectors\n                                                                                                                                                                                       in     Agrobacterium\n                                                                                                                                                                                       tumefaciens,\n                                                                                                                                                                                       Agrobacterium\n                                                                                                                                                                                       radiobacter     or\n                                                                                                                                                                                       Agrobacterium\n                                                                                                                                                                                       rhizogenes\n\n                                                                                                                                                                              2. Non-pathogenic viral\n                                                                                                                                                                                       vectors\n\n                                                                                                                                                                              3. Non-vector systems*"
+        },
+        {
+          "candidate_chunk_id": "KB-MY-REG2010:PUA367:PDF_PAGE_34",
+          "pdf_page_end": 34,
+          "pdf_page_start": 34,
+          "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+          "text": "P.U. (A) 367.                                                                                                4398\n\n\n       Note:\n\n       1.                 *In relation to non-vector systems, the approved hosts may also be used in experiments\n       where DNA is inserted into the host cell without the use of a biological vector (non-vector\n       system) (for example, by mechanical, electrical or other means), provided that the DNA\u2014\n\n        (a)            is not derived from microorganisms able to cause disease in humans, animals or plants,\n                              unless the DNA to be introduced is fully characterised and will not increase the\n                              virulence of the host or vector;\n\n                                                                          (b)        does not code for a toxin for vertebrates and is not an oncogene;\n\n                                                                           (c)        must not include a viral sequence unless the donor nucleic acid\u2014\n\n                                                                                                                                  (i)        is missing at least 1 gene essential for viral multiplication that\u2014\n\n                                                                                                                                                                                                              (A)         is not available in the cell into which the nucleic acid is introduced;\n                                                                     and\n\n                                                                                                                                                                                                     (B)        will not become available during the activity; and\n\n                                                                                                                                                                                                                               (ii)             is incapable of correcting a defect in the host/vector system leading to production\n                                                  of replication competent.\n\n       2.                                The exemption list for Notification includes any commercially available Host-Vector System\n       fulfilling the criteria as specified under item 1.\n\n\n                                                                                            S ECOND SCHEDULE\n                                                                                                 (regulation 3)\n                               CLASSES OF ACTIVITIES INVOLVING MODERN BIOTECHNOLOGY\n\n\n                     Class                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Description\n\n                    BSL1                                                                                                                 Activities of no or negligible risk, for which containment level 1 is appropriate\n                                                  to protect human health and the environment.\n\n                    BSL2                                                                                       Activities of low risk, for which containment level 2 is appropriate to protect\n                                                  human health and the environment.\n\n                    BSL3                                                                    Activities of moderate risk, for which containment level 3 is appropriate to\n                                                  protect human health and the environment.\n\n                    BSL4                                                                                               Activities of high risk, for which containment level 4 is appropriate to protect\n                                                  human health and the environment.\n\n       Note:\n\n       \u201cBSL\u201d means biosafety level as recognized by international standards."
+        }
+      ],
+      "claim_id": "CLM-007",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "controlled_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "currentness_blockers": [
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "draft_atomic_propositions": [
+        "The base Regulations state that specified techniques and contained-use activities in relation to LMOs in the First Schedule are outside specified application or notification provisions.",
+        "The base First Schedule contains criteria and listed contained-use activities, including an activity involving a host/vector system named in the Host/Vector Systems Not Regulated For Contained Use subject to donor nucleic acid criteria."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "specified in the First Schedule",
+        "TECHNIQUES IN RELATION TO LIVING MODIFIED ORGANISMS TO WHICH THESE REGULATIONS ARE NOT APPLICABLE",
+        "CONTAINED USE ACTIVITIES WHICH ARE EXEMPTED FROM NOTIFICATION",
+        "Host/Vector Systems Not Regulated For Contained Use"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-007",
+        "claim_type": "exemption",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "SOP-03; PROP-01",
+        "page": "Schedules",
+        "priority": "critical",
+        "section": "First Schedule",
+        "text": "The First Schedule contains contained-use exemptions with specified host/vector systems and criteria; exemption cannot be inferred merely from a generic 'low risk' statement.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "CURRENTNESS_BLOCKED: controlled source metadata records that a 2019 schedule amendment must be reconciled, but the amendment instrument text and number are not present in the controlled corpus.",
+        "No current exemption, non-applicability, or no-notification conclusion may be drawn from the base schedule alone.",
+        "A generic low-risk statement is not sufficient to establish that the exact schedule criteria are met."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-SW2005:WASTE_CODE_SCHEDULE:PDF_PAGE_13",
+          "pdf_page_end": 13,
+          "pdf_page_start": 13,
+          "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+          "text": "daripada  proses pemerolehan kembali        pelarut organik\n\nSW 325     Buangan    resin  tidak matang   yang   mengandungi     pelarut  organik  atau  logam   berat termasuklah\n            resin epoksi dan resin fenolik\n\nSW 326     Buangan sebatian fosforus organik\n\n\nSW 327     Buangan cecair terma      (pemindahan haba) sep      erti glikol etilena\n\nSW 4       Buangan     yang mungkin      mengandungi sama ada          juzuk tidak   organik atau    organik\n\nSW 401     Alkali terpakai yang mengandungi logam         berat\n\nSW 402     Alkali terpakai   dengan   pH   yang  lebih  daripada   atau  sama   dengan    11.5  yang  mengakis    atau\n            berbahaya\n\nSW 403     Dadah    terbuang   yang   mengandungi      bahan   psikotrofik  atau  yang   mengandungi      bahan   yang\n            bertoksik, berbahaya, karsinogenik, mutagenik atau         teratogenik\n\n\nSW 404     Buangan patogenik, buangan klinikal atau bahan yang dikuarantinkan\n\nSW 405     Buangan yang terhasil daripada       penyediaan dan pengeluaran barangan farmaseutikal\n\nSW 406     Klinker, sanga dan abu dari penunu buangan terjadual\n\nSW 407     Buangan yang mengandungi dioksin atau furan\n\n\nSW 408     Tanah,    puing  atau   bahan  tercemar     yang   terhasil  daripada   pembersihan     tumpahan     bahan\n            kimia, minyak   mineral atau buangan terjadual\n\nSW 409     Bekas,    beg  atau  kelengkapan     yang   dilupuskan    yang   dicemari   dengan   bahan    kimia,  racun\n            makhluk   perosak, minyak    mineral atau   buangan terjadual\n\n\nSW 410     Kain buruk, plastik, kertas   atau turas yang dicemari     dengan buangan terjadual\n\nSW 411     Karbon    teraktifyang   terpakai  tidak  termasuk   karbon   daripada   pengolahan    air boleh   diminum\n            dan proses industri   makanan dan     penghasilan vitamin\n\n\nSW 412     Enap cemar     yang mengandungi      sianida\n\nSW 413     Garam terpakai yang mengandungi sianida"
+        },
+        {
+          "candidate_chunk_id": "KB-MY-SW2005:AMENDMENT_LIST:PDF_PAGE_34",
+          "pdf_page_end": 34,
+          "pdf_page_start": 34,
+          "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+          "text": "SENARAI         PINDAAN\n\n\n      Undang-undang                                        Tajuk   ringkas                                     Berkuat kuasa\n       yang   meminda                                                                                                 dari\n\n\n     P.U. (A) 158    /2007                Peraturan-Peraturan          Kualiti    Alam     Sekeliling            13-04-2007\n                                          (Bua  ngan Terjadual) (Pin       daan)   2007\n\n\nCopyrights  Reserved   \uf094 \uf020\nAllrightsreserved. No  partof thispublicationmay  be reproduced,  stored in retrievalsystem or transmitted inany form or by any means\nelectronic,mechanical, photocopying,  recording and/or otherwise without the priorpermission  ofLawnet.\n_________     __________________________         ____   ______    _______     _________________      __\n           PRODUCED      BY\n           LAWNET\n           PERCETAKAN      NASIONAL    MALAYSIA    BERHAD"
+        }
+      ],
+      "claim_id": "CLM-029",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "OFFICIAL_SOURCE_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-SW2005",
+      "controlled_source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "controlled_supersession_status": "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED",
+      "currentness_blockers": [
+        "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED"
+      ],
+      "draft_atomic_propositions": [
+        "The controlled First Schedule text lists SW 404 as pathogenic wastes, clinical wastes or quarantined materials."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "SW 404",
+        "Buangan patogenik, buangan klinikal atau bahan yang dikuarantinkan",
+        "P.U. (A) 158 /2007"
+      ],
+      "original_claim": {
+        "claim_id": "CLM-029",
+        "claim_type": "waste",
+        "document_id": "KB-MY-DOE2005",
+        "maps_to": "SOP-02; PROP-02; PROP-03",
+        "page": "scheduled-waste list",
+        "priority": "critical",
+        "section": "SW 404",
+        "text": "SW 404 covers pathogenic wastes, clinical wastes or quarantined materials within the scheduled-waste framework.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "The controlled source states that it contains amendment P.U. (A) 158/2007, but amendment relationships and possible later amendments remain to be reconciled.",
+        "Classification of a particular material as SW 404 requires case-specific facts; biological material or biological waste is not automatically SW 404."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    },
+    {
+      "automated_claim_update": null,
+      "candidate_evidence": [
+        {
+          "candidate_chunk_id": "KB-MY-SW2005:OPERATIVE_REGULATIONS:PDF_PAGE_3",
+          "pdf_page_end": 3,
+          "pdf_page_start": 3,
+          "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+          "text": "Mukadimah\n\n\nPADA   menjalankan    kuasa   yang  diberikan  oleh  seksyen   21  dan  51 Akta  Kualiti Alam   Sekeliling 1974   [Akta\n127], Menteri,   selepas   berunding   dengan    Majlis  Kualiti Alam   Sekeliling,  membuat     peraturan-peraturan\nyang berikut:\n\n\nPeraturan      1. Nama     dan    permulaan       kuat   kuasa\n\n\n(1)  Peraturan-peraturan      ini  bolehlah    dinamakan      Peraturan-Peraturan        Kualiti   Alam     Sekeliling\n(Buangan Terjadual) 2     005.\n\n\n(2) Peraturan-Peraturan ini    mula berkuat kuasa pada      15 Ogos 2005.\n\n\nPeraturan      2. Tafsiran\n\n\n(1)Dalam Peraturan-Peraturan ini, melainkan jika        konteksnya menghendaki makna yang lain\u2014\n\n\n\"buangan   terjadual\"  ertinya apa-apa   buangan    yang   termasuk   dalam   kategori  buangan    yang  disenaraikan\ndalam Jadual   Pertama;\n\n\n\"buangan   terjadual  tidak serasi\"  ertinya buangan    terjadual  yang  dinyatakan   dalam   Jadual   Keempat    yang,\napabila  dicampurkan,    akan  menghasilkan     situasi yang   berbahaya    menerusi   penjanaan    haba,  kebakaran,\nletupan atau pelepasan bahan-bahan toksik;\n\n\n\"kemudahan pengolahan        ditapak\"  ertinya  sesuatu   kemudahan     yang  terletak di tapak  pengeluar   buangan,\nselain penunu    buangan    terjadual  atau  kemudahan      pengolahan     di tanah  dan   yang   digunakan    semata-\nmata untuk   menguruskan     buangan terjadual yang dikeluarkan di tapak itu;\n\n\n\"kontraktor\"  ertinya mana-mana      orang   yang  dilesenkan    oleh  Ketua  Pengarah     Kualiti Alam  Sekeliling  di\nbawah subseksyen 18(1A) Akta;\n\n\n\"pengeluar   buangan\" ertinya mana-mana orang yang          mengeluarkan buangan terjadual;"
+        },
+        {
+          "candidate_chunk_id": "KB-MY-SW2005:OPERATIVE_REGULATIONS:PDF_PAGE_4",
+          "pdf_page_end": 4,
+          "pdf_page_start": 4,
+          "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+          "text": "\"premis  yang   ditetapkan\"   ertinya premis   yang   ditetapkan  oleh  Perintah   Kualiti Alam   Sekeliling  (Prem  is\nYang   Ditetapkan)    (Ke mudahan      Pengolahan     dan   Pelupusan     Buangan     Terjadual)    1989   [P.U.   (A)\n140/1989].\n\n\n(2) Perkataan-perkataan      dan  ungkapan-ungkapan       yang   tidak ditakrifkan  dalam   Peraturan-Peraturan     ini\nhendaklah   mempunyai     pengertian   yang  sama    dengan   yang  diberikan   kepadanya    dalam   Akta  dan  dalam\nPerintah  Kualiti  Alam   Sekeliling  (Prem  is  Yang   Ditetapkan)   (K emudahan     Pengolahan     dan   Pelupusan\nBuangan Terjadual) 19    89.\n\n\nPeraturan      3. Pemberitahuan          tentang     pengeluaran        buangan       terjadual\n\n\n(1) Tiap-tiap  pengeluar    buangan     hendaklah,    dalam   masa    30  hari  dari  tarikh pengeluaran     buangan\nterjadual, memberitahu      Ketua   Pengarah    tentang   kategori   dan   kuantiti baru   buangan    terjadual  yang\ndikeluarkan.\n\n\n(2) Pemberitahuan      yang   diberikan   di bawah    subperaturan     (1) hendaklah    termasuk    maklumat     yang\ndiberikan dalam Jadual Kedua.\n\n\nPeraturan      4. Pelupusan       buangan       terjadual\n\n\n(1) Buangan terjadual hendaklah dilupuskan di        premis  yang ditetapkan    sahaja.\n\n\n(2) Buangan    terjadual  hendaklah,   setakat  yang   boleh  dilaksanakan,    dijadikan  tidak berbahaya    sebelum\ndilupuskan.\n\n\nPeraturan      5. Pengolahan        buangan       terjadual\n\n\n(1) Buangan     terjadual  hendaklah    diolah  di  premis   yang   ditetapkan   atau   di kemudahan-kemudahan\npengolahan   di tapak sahaja.\n\n\n(2) Sisa-sisa  daripada   pengolahan    buangan    terjadual  hendaklah   diolah  atau  dilupuskan   di premis   yang\nditetapkan."
+        },
+        {
+          "candidate_chunk_id": "KB-MY-SW2005:OPERATIVE_REGULATIONS:PDF_PAGE_5",
+          "pdf_page_end": 5,
+          "pdf_page_start": 5,
+          "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+          "text": "Peraturan      6. Pemerolehan         kembali     bahan     atau   hasil   daripada     buangan       terjadual\n\n\n(1)Pemerolehan     kembali   bahan   atau  hasil daripada   buangan   terjadual  hendaklah   dibuat  di premis   yang\nditetapkan atau di kemudahan-kemudahan pemerolehan kembali di               tapak sahaja.\n\n\n(2) Sisa-sisa  daripada   pemerolehan     kembali   bahan    atau  hasil daripada   buangan    terjadual  hendaklah\ndiolah atau dilupuskan di   premis yang ditetapkan.\n\n\nPeraturan      7. Permohonan         bagi   pengurusan         khas    buangan      terjadual\n\n\n(1) Seseorang     pengeluar    buangan    boleh   memohon      kepada    Ketua   Pengarah    secara   bertulis  untuk\nmembolehkan      buangan    terjadual  yang  dikeluarkan    daripada   kemudahan     atau  proses   tertentu  mereka\ndikecualikan   daripada   diolah, dilupuskan    atau  diperoleh   kembali   di premis   atau  kemudahan     selain  di\npremis yang   ditetapkan atau kemudahan pengolahan          atau pemerolahan     kembali  di tapak.\n\n\n(2) Permohonan     di bawah    subperaturan   (1)  hendaklah   dikemukakan     kepada   Ketua   Pengarah    mengikut\ngaris panduan     bagi  pengurusan     khas  buangan    terjadual   yang  ditetapkan    oleh  Ketua   Pengarah    dan\nhendaklah disertakan dengan fi sebanyak tiga ratus ringgit dan tidak boleh dikembalikan.\n\n\n(3)Jika  Ketua  Pengarah    berpuas  hati dengan   permohonan     yang  dibuat  di bawah   subperaturan    (1),Ketua\nPengarah   boleh memberikan kebenaran        bertulis sama ada dengan      syarat atau  tanpa  syarat.\n\n\nPeraturan      8. Tanggungjawab           pengeluar      buangan\n\n\n(1) Tiap-tiap  pengeluar   buangan     hendaklah   memastikan     bahawa     buangan    terjadual  yang  dikeluarkan\nolehnya  distor  dengan    baik,  diolah  di  tapak,  diperoleh  kembali  di   tapak   bahan  atau  hasil   daripada\nbuangan   terjadual  ituatau  dihantar  dan  diterima  di premis  yang  ditetapkan   untuk  pengolahan,    pelupusan\natau pemerolehan     kembali  bahan atau   hasil daripada   buangan terjadual.\n\n\n(2) Tiap-tiap  pengeluar    buangan    hendaklah    memastikan     bahawa    buangan    terjadual  yang   mengalami\npergerakan   atau  pemindahan     dibungkus,   dilabel  dan  diangkut  mengikut    garis panduan    yang   ditetapkan\noleh Ketua  Pengarah."
+        }
+      ],
+      "claim_id": "CLM-030",
+      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "controlled_currentness_status": "OFFICIAL_SOURCE_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "controlled_document_id": "KB-MY-SW2005",
+      "controlled_source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "controlled_supersession_status": "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED",
+      "currentness_blockers": [
+        "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED"
+      ],
+      "draft_atomic_propositions": [
+        "The Regulations define scheduled waste by reference to waste categories listed in the First Schedule.",
+        "Regulation 4 addresses disposal of scheduled waste.",
+        "Regulation 5 addresses treatment of scheduled waste.",
+        "Regulation 8 addresses responsibilities of a waste generator."
+      ],
+      "draft_disposition": null,
+      "locator_phrases": [
+        "buangan terjadual",
+        "Peraturan      4.",
+        "Peraturan      5.",
+        "Peraturan      8."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-030",
+        "claim_type": "waste",
+        "document_id": "KB-MY-DOE2005",
+        "maps_to": "SOP-02; PROP-01; PROP-02; PROP-03",
+        "page": "regulatory framework",
+        "priority": "critical",
+        "section": "waste management",
+        "text": "Scheduled-waste management includes generator, treatment and disposal obligations; BioSafe should identify the applicable waste stream and verify the prescribed pathway rather than accept generic 'institutional disposal'.",
+        "verification_status": "Verified"
+      },
+      "review_issues": [
+        "COMPOSITE_SOURCE_AND_PROJECT_POLICY: the original claim combines regulatory subject matter with a BioSafe recommendation to identify the applicable waste stream and verify the prescribed pathway.",
+        "Any BioSafe behavior should be represented separately as project policy and not attributed verbatim to the Regulations.",
+        "The exact applicable pathway depends on the classified waste and case facts; generic institutional disposal is not enough to establish a prescribed pathway.",
+        "Amendment relationships and possible later amendments remain to be reconciled."
+      ],
+      "reviewer_attestations": null,
+      "reviewer_identity": null
+    }
+  ],
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "source_claim_reconciliation_map_sha256": "1edf2c9ac74a121f9eeec17f75fe11ddb40bfa7c1daf41c45c62d3d77dffdf5c",
+  "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
+  "source_draft_map_sha256": "210e2eb6131d7a98dab8d53ac634b18ba37cb7d7d67e66060d0b1e727fc791af",
+  "source_policy_sha256": "930e64a121b0c256f789ea36f59d850023134ac983d668e1f2bc416137583a54"
+}

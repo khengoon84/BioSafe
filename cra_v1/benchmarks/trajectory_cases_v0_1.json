@@ -1,0 +1,751 @@
+[
+  {
+    "name": "T01_identity_product_help",
+    "family": "product_help",
+    "steps": [
+      {
+        "action": "process",
+        "text": "who are you?",
+        "expect": {
+          "interaction": "PRODUCT_HELP",
+          "pipeline": false,
+          "activated_domains": [],
+          "skip_rag": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "T02_document_capability",
+    "family": "product_help",
+    "steps": [
+      {
+        "action": "process",
+        "text": "what kind of document can you review?",
+        "expect": {
+          "interaction": "PRODUCT_HELP",
+          "pipeline": false,
+          "activated_domains": [],
+          "skip_rag": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "T03_organism_clarification",
+    "family": "clarification",
+    "steps": [
+      {
+        "action": "add_pending",
+        "field": "organism_identity",
+        "question": "Please confirm the organism name."
+      },
+      {
+        "action": "process",
+        "text": "Bacillus anthracis",
+        "expect": {
+          "interaction": "CLARIFICATION_RESPONSE",
+          "resolved_field": "organism_identity",
+          "fact": {
+            "name": "organism_identity",
+            "value": "Bacillus anthracis",
+            "status": "user_confirmed"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "T04_lmo_boolean_clarification",
+    "family": "clarification",
+    "steps": [
+      {
+        "action": "add_pending",
+        "field": "lmo_status",
+        "question": "Is it genetically modified?"
+      },
+      {
+        "action": "process",
+        "text": "no",
+        "expect": {
+          "interaction": "CLARIFICATION_RESPONSE",
+          "resolved_field": "lmo_status",
+          "fact": {
+            "name": "lmo_status",
+            "value": false,
+            "status": "user_confirmed"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "T05_followup_reference",
+    "family": "follow_up",
+    "setup": {
+      "active_domains": [
+        "general_biosafety"
+      ]
+    },
+    "steps": [
+      {
+        "action": "add_concept",
+        "concept_id": "concept.notification",
+        "label": "Malaysian notification pathway"
+      },
+      {
+        "action": "process",
+        "text": "what approval did you mean?",
+        "expect": {
+          "interaction": "FOLLOW_UP",
+          "resolved_reference": "concept.notification",
+          "activated_domains": [
+            "general_biosafety"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T06_followup_why",
+    "family": "follow_up",
+    "setup": {
+      "active_domains": [
+        "general_biosafety"
+      ]
+    },
+    "steps": [
+      {
+        "action": "add_concept",
+        "concept_id": "concept.forme",
+        "label": "Form E notification"
+      },
+      {
+        "action": "process",
+        "text": "why?",
+        "expect": {
+          "interaction": "FOLLOW_UP",
+          "resolved_reference": "concept.forme",
+          "activated_domains": [
+            "general_biosafety"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T07_task_change_transport",
+    "family": "task_change",
+    "setup": {
+      "active_domains": [
+        "general_biosafety"
+      ]
+    },
+    "steps": [
+      {
+        "action": "process",
+        "text": "Actually, I only want to know about transport.",
+        "expect": {
+          "interaction": "TASK_CHANGE",
+          "activated_domains": [
+            "transport"
+          ],
+          "skip_rag": false,
+          "excluded_contains": [
+            "form_e",
+            "waste"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T08_generic_biosafety_no_leakage",
+    "family": "domain_activation",
+    "setup": {
+      "jurisdiction": "Malaysia"
+    },
+    "steps": [
+      {
+        "action": "process",
+        "text": "What is the biosafety requirement for this work?",
+        "expect": {
+          "interaction": "NEW_TASK",
+          "activated_domains": [
+            "general_biosafety"
+          ],
+          "excluded_contains": [
+            "form_e",
+            "transport",
+            "waste"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T09_species_no_lmo_activation",
+    "family": "domain_activation",
+    "setup": {
+      "jurisdiction": "Malaysia",
+      "facts": {
+        "organism_identity": {
+          "value": "Bacillus anthracis",
+          "status": "user_confirmed"
+        }
+      }
+    },
+    "steps": [
+      {
+        "action": "process",
+        "text": "I am working with Bacillus anthracis. What is the biosafety requirement?",
+        "expect": {
+          "activated_domains": [
+            "general_biosafety"
+          ],
+          "excluded_contains": [
+            "form_e",
+            "lmo_modern_biotechnology"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T10_transport_only",
+    "family": "domain_activation",
+    "setup": {
+      "jurisdiction": "Malaysia"
+    },
+    "steps": [
+      {
+        "action": "process",
+        "text": "What are the transport requirements for this specimen?",
+        "expect": {
+          "activated_domains": [
+            "transport"
+          ],
+          "excluded_contains": [
+            "form_e",
+            "waste"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T11_waste_only",
+    "family": "domain_activation",
+    "setup": {
+      "jurisdiction": "Malaysia"
+    },
+    "steps": [
+      {
+        "action": "process",
+        "text": "How should I dispose of this biological waste?",
+        "expect": {
+          "activated_domains": [
+            "waste"
+          ],
+          "excluded_contains": [
+            "transport",
+            "form_e"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T12_lmo_prerequisite_missing",
+    "family": "dependency",
+    "setup": {
+      "jurisdiction": "Malaysia",
+      "facts": {
+        "organism_identity": {
+          "value": "Bacillus anthracis",
+          "status": "user_confirmed"
+        }
+      }
+    },
+    "steps": [
+      {
+        "action": "decision_readiness",
+        "decision_type": "malaysia_lmo_notification_applicability",
+        "expect": {
+          "status": "insufficient_information",
+          "unresolved_contains": [
+            "lmo_status",
+            "activity_type"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T13_inferred_lmo_not_accepted",
+    "family": "dependency",
+    "setup": {
+      "jurisdiction": "Malaysia",
+      "facts": {
+        "lmo_status": {
+          "value": true,
+          "status": "inferred"
+        },
+        "activity_type": {
+          "value": "contained use",
+          "status": "user_confirmed"
+        }
+      }
+    },
+    "steps": [
+      {
+        "action": "decision_readiness",
+        "decision_type": "malaysia_lmo_notification_applicability",
+        "expect": {
+          "status": "insufficient_information",
+          "unresolved_contains": [
+            "lmo_status"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T14_containment_needs_activity",
+    "family": "dependency",
+    "setup": {
+      "facts": {
+        "organism_identity": {
+          "value": "Example organism",
+          "status": "user_confirmed"
+        }
+      }
+    },
+    "steps": [
+      {
+        "action": "decision_readiness",
+        "decision_type": "containment_assessment",
+        "expect": {
+          "status": "insufficient_information",
+          "unresolved_contains": [
+            "activity_or_procedure"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T15_specific_containment_context",
+    "family": "dependency",
+    "setup": {
+      "facts": {
+        "organism_identity": {
+          "value": "Example organism",
+          "status": "user_confirmed"
+        },
+        "activity_type": {
+          "value": "routine handling",
+          "status": "user_confirmed"
+        }
+      }
+    },
+    "steps": [
+      {
+        "action": "decision_readiness",
+        "decision_type": "containment_assessment",
+        "specific": true,
+        "expect": {
+          "status": "insufficient_information",
+          "unresolved_contains": [
+            "exposure_route",
+            "scale_or_quantity",
+            "facility_context"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T16_transport_needs_context",
+    "family": "dependency",
+    "setup": {
+      "facts": {
+        "material_identity": {
+          "value": "clinical specimen",
+          "status": "user_confirmed"
+        }
+      }
+    },
+    "steps": [
+      {
+        "action": "decision_readiness",
+        "decision_type": "transport_requirement",
+        "expect": {
+          "status": "insufficient_information",
+          "unresolved_contains": [
+            "transport_context"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T17_waste_needs_context",
+    "family": "dependency",
+    "steps": [
+      {
+        "action": "decision_readiness",
+        "decision_type": "waste_requirement",
+        "expect": {
+          "status": "insufficient_information",
+          "unresolved_contains": [
+            "waste_type",
+            "disposal_context"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T18_verifier_blocks_domain_leakage",
+    "family": "verification",
+    "setup": {
+      "jurisdiction": "Malaysia"
+    },
+    "steps": [
+      {
+        "action": "verify",
+        "activated_domains": [
+          "general_biosafety"
+        ],
+        "decisions": [
+          {
+            "decision_id": "d",
+            "decision_type": "malaysia_lmo_notification_applicability",
+            "status": "supported",
+            "authority_refs": [
+              "KB"
+            ],
+            "evidence_ids": [
+              "E"
+            ]
+          }
+        ],
+        "payload": {
+          "direct_answer": "Form E applies.",
+          "domains_mentioned": [
+            "form_e"
+          ]
+        },
+        "evidence_catalog": {
+          "E": {
+            "supports_decision_types": [
+              "malaysia_lmo_notification_applicability"
+            ],
+            "jurisdiction": "Malaysia",
+            "status": "current",
+            "domains": [
+              "form_e"
+            ]
+          }
+        },
+        "expect": {
+          "decision": "FAIL",
+          "checks": {
+            "domain_activation": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "T19_verifier_blocks_unknown_promotion",
+    "family": "verification",
+    "setup": {
+      "facts": {
+        "lmo_status": {
+          "value": null,
+          "status": "unknown"
+        }
+      }
+    },
+    "steps": [
+      {
+        "action": "verify",
+        "activated_domains": [
+          "general_biosafety"
+        ],
+        "payload": {
+          "direct_answer": "The lmo status is true."
+        },
+        "expect": {
+          "decision": "FAIL",
+          "checks": {
+            "unknown_preservation": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "T20_verifier_blocks_compliance",
+    "family": "verification",
+    "steps": [
+      {
+        "action": "verify",
+        "activated_domains": [
+          "general_biosafety"
+        ],
+        "payload": {
+          "direct_answer": "You are compliant with all requirements."
+        },
+        "expect": {
+          "decision": "FAIL",
+          "checks": {
+            "no_certification": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "T21_verifier_blocks_wrong_jurisdiction",
+    "family": "verification",
+    "setup": {
+      "jurisdiction": "Malaysia"
+    },
+    "steps": [
+      {
+        "action": "verify",
+        "activated_domains": [
+          "transport"
+        ],
+        "decisions": [
+          {
+            "decision_id": "d",
+            "decision_type": "transport_requirement",
+            "status": "supported",
+            "authority_refs": [
+              "AUTH"
+            ],
+            "evidence_ids": [
+              "E"
+            ]
+          }
+        ],
+        "payload": {
+          "direct_answer": "Transport rule applies."
+        },
+        "evidence_catalog": {
+          "E": {
+            "supports_decision_types": [
+              "transport_requirement"
+            ],
+            "jurisdiction": "Singapore",
+            "status": "current",
+            "domains": [
+              "transport"
+            ]
+          }
+        },
+        "expect": {
+          "decision": "FAIL",
+          "checks": {
+            "jurisdiction_match": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "T22_composer_needs_clarification",
+    "family": "response_composition",
+    "steps": [
+      {
+        "action": "compose",
+        "decisions": [
+          {
+            "decision_id": "d",
+            "decision_type": "malaysia_lmo_notification_applicability",
+            "status": "insufficient_information",
+            "unresolved_dependencies": [
+              "lmo_status",
+              "activity_type"
+            ]
+          }
+        ],
+        "expect": {
+          "response_type": "needs_clarification",
+          "section_keys": [
+            "why_this_matters",
+            "what_i_need"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T23_composer_product_help_clean",
+    "family": "response_composition",
+    "steps": [
+      {
+        "action": "compose",
+        "product_help": true,
+        "direct_answer_hint": "I can review SOPs and research proposals.",
+        "source_refs": [
+          "KB"
+        ],
+        "expect": {
+          "response_type": "product_help",
+          "section_keys": [],
+          "source_refs_empty": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "T24_composer_regulatory_with_sources",
+    "family": "response_composition",
+    "steps": [
+      {
+        "action": "compose",
+        "decisions": [
+          {
+            "decision_id": "d",
+            "decision_type": "transport_requirement",
+            "status": "not_applicable"
+          }
+        ],
+        "source_refs": [
+          "KB-MY-MOH2023"
+        ],
+        "expect": {
+          "response_type": "regulatory_assessment",
+          "section_keys": [
+            "why_this_matters",
+            "sources"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "T25_correction_conflict",
+    "family": "state_integrity",
+    "setup": {
+      "facts": {
+        "activity_type": {
+          "value": "culture",
+          "status": "user_confirmed"
+        }
+      },
+      "open_questions": []
+    },
+    "steps": [
+      {
+        "action": "add_pending",
+        "field": "activity_type",
+        "question": "Please confirm the activity."
+      },
+      {
+        "action": "process",
+        "text": "transport",
+        "expect": {
+          "interaction": "CLARIFICATION_RESPONSE",
+          "resolved_field": "activity_type",
+          "fact": {
+            "name": "activity_type",
+            "value": null,
+            "status": "disputed"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "T26_context_only_followup_skips_rag",
+    "family": "follow_up",
+    "steps": [
+      {
+        "action": "add_concept",
+        "concept_id": "concept.x",
+        "label": "regulatory approval"
+      },
+      {
+        "action": "process",
+        "text": "why?",
+        "expect": {
+          "interaction": "FOLLOW_UP",
+          "resolved_reference": "concept.x",
+          "activated_domains": [],
+          "skip_rag": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "T27_reformulation_skips_rag",
+    "family": "reformulation",
+    "steps": [
+      {
+        "action": "process",
+        "text": "explain that more simply",
+        "expect": {
+          "interaction": "REFORMULATE",
+          "pipeline": false,
+          "activated_domains": [],
+          "skip_rag": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "T28_document_workflow_detected",
+    "family": "document_workflow",
+    "steps": [
+      {
+        "action": "process",
+        "text": "Please review this SOP for biosafety gaps.",
+        "expect": {
+          "interaction": "DOCUMENT_WORKFLOW",
+          "pipeline": true
+        }
+      }
+    ]
+  },
+  {
+    "name": "T29_forme_explicit_activation",
+    "family": "domain_activation",
+    "setup": {
+      "jurisdiction": "Malaysia"
+    },
+    "steps": [
+      {
+        "action": "process",
+        "text": "Do I need Form E for this activity?",
+        "expect": {
+          "activated_domains": [
+            "form_e"
+          ],
+          "skip_rag": false
+        }
+      }
+    ]
+  },
+  {
+    "name": "T30_no_stage_leakage_product_help",
+    "family": "product_help",
+    "steps": [
+      {
+        "action": "process",
+        "text": "how does the Form E Assistant work?",
+        "expect": {
+          "interaction": "PRODUCT_HELP",
+          "pipeline": false,
+          "activated_domains": [],
+          "skip_rag": true
+        }
+      }
+    ]
+  }
+]

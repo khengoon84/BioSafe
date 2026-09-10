@@ -1,0 +1,27 @@
+{
+  "package": "BioSafe_Stage7_3_Document_Stabilization_v0.1",
+  "stage": "7.3",
+  "purpose": "Stabilize document review before four-model comparison.",
+  "frozen_components_unchanged": [
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2"
+  ],
+  "changes": [
+    "Document-context evidence relevance filter after frozen retrieval",
+    "Researcher-versus-IBC recommendation boundary guard",
+    "Compact deterministic contradiction fallback for invalid/truncated cross-document outputs"
+  ],
+  "model_test": {
+    "model": "qwen3.5:0.8b",
+    "temperature": 0.0,
+    "think": false,
+    "num_predict": 900
+  },
+  "next_after_success": "Freeze structured document layer, then add Context Budget Manager before four-model comparison including Qwen3.5-2B."
+}

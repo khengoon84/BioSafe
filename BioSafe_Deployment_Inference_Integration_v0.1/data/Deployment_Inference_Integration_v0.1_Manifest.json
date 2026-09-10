@@ -1,0 +1,23 @@
+{
+  "package": "BioSafe Deployment Inference Integration v0.1",
+  "purpose": "Integrate validated Regulatory Language Guard v0.1 and Complexity/Escalation Router v0.1 around the frozen BioSafe core.",
+  "pipeline_order": [
+    "Hard Safety Gate",
+    "Policy & Decision Guard v0.3.2",
+    "Authority/Query/Scope routing",
+    "CFG-02 RAG",
+    "Structured Document Analysis Layer v1.0 [ARCHITECTURE_FROZEN]",
+    "Complexity/Escalation Router v0.1",
+    "Qwen3.5 runtime (0.8B primary / 2B escalation)",
+    "Deterministic Response Assembler v0.1",
+    "Regulatory Language Guard v0.1",
+    "Existing validators",
+    "Final response"
+  ],
+  "freeze_status": {
+    "structured_document_layer": "FROZEN",
+    "regulatory_language_guard": "candidate",
+    "complexity_escalation_router": "candidate"
+  },
+  "next_gate": "Pass end-to-end deployment regression before freezing new guard/router."
+}

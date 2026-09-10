@@ -1,0 +1,18 @@
+{
+  "suite": "BioSafe_Qwen3.5_0.8B_Evaluation_Pack_v0.2.2",
+  "model": "qwen3.5:0.8b",
+  "scope": "50-case harness fix only",
+  "root_cause": "v0.2.1 stream parsing was safe, but the downstream result record still accessed gen['thinking']; stream_chat intentionally did not return raw thinking.",
+  "fixes": [
+    "Replace downstream gen['thinking'] with empty raw-thinking field.",
+    "Retain thinking_chars metric.",
+    "Single transport-only retry for ConnectionResetError/URLError."
+  ],
+  "frozen_configuration": {
+    "temperature": 0.0,
+    "think": false,
+    "50_case_num_predict": 700
+  },
+  "document_runner_status": "Held at v0.2.1; do not run yet.",
+  "architecture_changes": "None"
+}

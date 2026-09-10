@@ -1,0 +1,15 @@
+{
+  "stage": "Unified-2.2.5",
+  "version": "0.1",
+  "port": 8776,
+  "frozen_core_modified": false,
+  "invariants": [
+    "Unknown != No",
+    "Regulatory conclusions require prerequisites",
+    "No positive or negative legal/compliance verdicts",
+    "Exact legal citations require exact provenance",
+    "Requested-subject coverage",
+    "Safety rationale correctness"
+  ],
+  "acceptance": "contract + focused A/B + strengthened semantic suite + human review"
+}

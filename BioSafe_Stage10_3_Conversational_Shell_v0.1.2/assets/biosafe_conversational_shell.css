@@ -1,0 +1,133 @@
+:root{
+  --bc-bg:#f7f8fa; --bc-side:#f0f3f5; --bc-surface:#fff; --bc-text:#17212b;
+  --bc-muted:#66727d; --bc-border:#dce3e9; --bc-soft:#eef4f7; --bc-accent:#234f68;
+}
+body.biosafe-chat-mode{background:var(--bc-bg)}
+.biosafe-chat-app{display:grid;grid-template-columns:250px minmax(0,1fr);min-height:100vh}
+.biosafe-chat-sidebar{background:var(--bc-side);border-right:1px solid var(--bc-border);padding:18px 14px;display:flex;flex-direction:column;gap:18px}
+.biosafe-chat-brand{padding:4px 8px}.biosafe-chat-brand strong{display:block;font-size:1.08rem}.biosafe-chat-brand span{color:var(--bc-muted);font-size:.78rem}
+.biosafe-new-chat{width:100%;border:1px solid var(--bc-border);background:#fff;border-radius:10px;padding:10px 12px;font:inherit;font-weight:700;cursor:pointer;text-align:left}
+.biosafe-side-label{padding:0 8px;color:var(--bc-muted);font-size:.75rem;font-weight:750;text-transform:uppercase;letter-spacing:.06em}
+.biosafe-side-nav{display:grid;gap:4px}
+.biosafe-side-nav button{border:0;background:transparent;border-radius:9px;padding:9px 10px;text-align:left;font:inherit;cursor:pointer}
+.biosafe-side-nav button:hover,.biosafe-side-nav button[aria-current="page"]{background:#fff}
+.biosafe-local-note{margin-top:auto;padding:10px;color:var(--bc-muted);font-size:.78rem;line-height:1.4}
+.biosafe-chat-main{min-width:0;display:flex;flex-direction:column;height:100vh}
+.biosafe-chat-topbar{height:58px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;border-bottom:1px solid var(--bc-border);background:rgba(255,255,255,.92)}
+.biosafe-runtime-pill{border:1px solid var(--bc-border);background:var(--bc-soft);border-radius:999px;padding:5px 9px;font-size:.76rem;color:var(--bc-muted)}
+.biosafe-chat-scroll{flex:1;overflow:auto;padding:28px 22px 150px}.biosafe-chat-column{width:min(820px,100%);margin:0 auto}
+.biosafe-chat-welcome{text-align:center;padding:46px 10px 30px}.biosafe-chat-welcome h1{margin:0 0 8px;font-size:1.65rem}.biosafe-chat-welcome p{margin:0 auto;color:var(--bc-muted);max-width:610px}
+.biosafe-chat-turn{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;margin-bottom:24px}
+.biosafe-avatar{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;background:var(--bc-accent);color:#fff;font-weight:800;font-size:.76rem}
+.biosafe-chat-turn[data-role="user"] .biosafe-avatar{background:#dfe7ec;color:#33434e}
+.biosafe-turn-label{font-size:.78rem;font-weight:750;margin-bottom:5px;color:var(--bc-muted)}
+.biosafe-user-bubble{display:inline-block;background:#eef2f4;border-radius:16px 16px 4px 16px;padding:11px 14px;max-width:90%;white-space:pre-wrap}
+.biosafe-assistant-mirror{min-width:0}
+.biosafe-chat-composer-wrap{position:fixed;left:250px;right:0;bottom:0;padding:18px 22px 20px;background:linear-gradient(transparent,var(--bc-bg) 24%)}
+.biosafe-chat-composer{width:min(820px,100%);margin:0 auto;background:#fff;border:1px solid var(--bc-border);border-radius:18px;box-shadow:0 8px 26px rgba(17,31,44,.09);padding:10px}
+.biosafe-chat-composer textarea{width:100%;border:0!important;outline:0!important;resize:none;min-height:58px;max-height:180px;background:transparent!important;box-shadow:none!important;padding:8px!important}
+.biosafe-composer-actions{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:3px 4px 1px}
+.biosafe-mode-label,.biosafe-mode-boundary,.biosafe-composer-feedback{font-size:.78rem;color:var(--bc-muted)}
+.biosafe-composer-feedback{padding:6px 8px 0}
+.biosafe-composer-feedback[data-state="warning"]{color:#7b5b16}
+.biosafe-chat-mode .biosafe-workflow-tabs{display:none!important}
+.biosafe-chat-mode .panel{display:none!important}
+.biosafe-stage9-hidden-host{display:none!important}
+.biosafe-mobile-menu{display:none;border:0;background:transparent;font-size:1.2rem;cursor:pointer}
+@media(max-width:760px){
+  .biosafe-chat-app{grid-template-columns:1fr}
+  .biosafe-chat-sidebar{position:fixed;z-index:30;inset:0 auto 0 0;width:260px;transform:translateX(-105%);transition:.2s;box-shadow:8px 0 30px rgba(0,0,0,.12)}
+  .biosafe-chat-sidebar[data-open="true"]{transform:translateX(0)}
+  .biosafe-chat-composer-wrap{left:0;padding:14px 12px}
+  .biosafe-chat-scroll{padding:22px 14px 140px}
+  .biosafe-mobile-menu{display:inline-block}
+}
+
+
+/* v0.1.2 fixes */
+.biosafe-stage9-hidden-host{
+  position:fixed!important;
+  width:0!important;
+  height:0!important;
+  overflow:hidden!important;
+  clip-path:inset(100%)!important;
+  pointer-events:none!important;
+  opacity:0!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+}
+.biosafe-stage9-hidden-host *{
+  position:static!important;
+  width:0!important;
+  height:0!important;
+  max-width:0!important;
+  max-height:0!important;
+  margin:0!important;
+  padding:0!important;
+  border:0!important;
+  overflow:hidden!important;
+}
+.biosafe-primary-answer{
+  background:#fff;
+  border:1px solid var(--bc-border);
+  border-radius:14px;
+  padding:14px 16px;
+}
+.biosafe-answer-kicker{
+  font-weight:750;
+  font-size:.82rem;
+  margin-bottom:8px;
+  color:#33434e;
+}
+.biosafe-answer-text{
+  line-height:1.55;
+  white-space:pre-wrap;
+}
+.biosafe-secondary-details,
+.biosafe-developer-details{
+  margin-top:10px;
+  border:1px solid var(--bc-border);
+  border-radius:10px;
+  background:#fff;
+}
+.biosafe-secondary-details>summary,
+.biosafe-developer-details>summary{
+  cursor:pointer;
+  padding:10px 12px;
+  color:var(--bc-muted);
+  font-size:.82rem;
+  font-weight:700;
+}
+.biosafe-detail-section{
+  padding:10px 12px;
+  border-top:1px solid var(--bc-border);
+}
+.biosafe-detail-section h4{
+  margin:0 0 6px;
+  font-size:.82rem;
+}
+.biosafe-detail-section ul{
+  margin:6px 0 0;
+  padding-left:20px;
+}
+.biosafe-evidence-row{
+  display:flex;
+  gap:8px;
+  align-items:flex-start;
+  margin:6px 0;
+}
+.biosafe-evidence-id{
+  flex:0 0 auto;
+  font-size:.72rem;
+  border:1px solid var(--bc-border);
+  background:var(--bc-soft);
+  border-radius:999px;
+  padding:2px 6px;
+}
+.biosafe-developer-details pre{
+  margin:0;
+  padding:10px 12px;
+  overflow:auto;
+  font-size:.75rem;
+}

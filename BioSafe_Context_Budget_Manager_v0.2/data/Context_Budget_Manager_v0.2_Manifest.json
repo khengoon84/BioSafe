@@ -1,0 +1,32 @@
+{
+  "component": "BioSafe Context Budget Manager",
+  "version": "v0.2",
+  "paired_component": "Deterministic Response Assembler v0.1",
+  "structured_layer": "BioSafe Structured Document Analysis Layer v1.0 \u2014 ARCHITECTURE_FROZEN",
+  "lite_profile": {
+    "model": "qwen3.5:0.8b",
+    "target_prompt_tokens": 16000,
+    "hard_prompt_tokens": 24000,
+    "compact_generation_token_budget": 420,
+    "qwen_generated_fields": [
+      "conclusion",
+      "missing_information",
+      "recommended_next_step"
+    ],
+    "max_missing_information": 3,
+    "max_recommended_next_step": 2
+  },
+  "deterministically_assembled_fields": [
+    "applicable_authority",
+    "evidence",
+    "limitations",
+    "safety"
+  ],
+  "standard_profile": {
+    "model": "qwen3.5:2b",
+    "target_prompt_tokens": 32000,
+    "hard_prompt_tokens": 64000,
+    "output_token_budget": 900
+  },
+  "rationale": "CBM v0.1 showed PROP-002 truncation despite a small prompt. v0.2 reduces the tiny model's task to reasoning-bearing fields and assembles evidence/authority/safety deterministically."
+}

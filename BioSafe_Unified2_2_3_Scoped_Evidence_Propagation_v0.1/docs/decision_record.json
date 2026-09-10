@@ -1,0 +1,8 @@
+{
+  "stage": "Unified-2.2.3",
+  "version": "0.1",
+  "port": 8772,
+  "frozen_core_modified": false,
+  "invariant": "Once an Evidence Plan excludes evidence, excluded evidence remains unavailable throughout reasoning, assembly and verification.",
+  "acceptance": "contract + A/B + mandatory human wording/provenance review"
+}

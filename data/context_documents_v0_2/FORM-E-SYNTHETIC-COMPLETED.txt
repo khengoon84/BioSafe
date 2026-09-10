@@ -1,0 +1,33 @@
+BIO-SAFE SYNTHETIC COMPLETED FORM E — BENCHMARK ONLY
+This is fictional and is deliberately inconsistent with PROP-01 in several places.
+
+A1 Project / activity title:
+Recombinant bacterial vaccine production platform.
+
+A2 Applicant / principal investigator and institution:
+Principal Investigator: Dr. A. Rahman
+Institution: Example University
+
+A3 Objectives:
+Generate a recombinant microorganism for vaccine antigen manufacture and conduct pilot production.
+
+A4 LMO / GMM identity and characteristics:
+Host: Escherichia coli K-12.
+Inserted construct: influenza haemagglutinin expression cassette.
+Risk classification: Low risk.
+
+A5 Activities / facility / containment:
+Work will be conducted in the Molecular Biology Laboratory.
+Culture scale: up to 20 litres.
+Containment: Biosafety Level 2.
+Biological safety cabinet available.
+
+A6 Dates / waste / transport / emergency response:
+Project duration: 36 months.
+Proposed start: January 2027.
+Waste will be autoclaved before disposal.
+Materials will not be transferred outside the laboratory.
+Spills will be reported to the PI.
+
+References:
+Biosafety Act 2007 (Act 678); Biosafety (Approval and Notification) Regulations 2010.

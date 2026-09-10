@@ -1,0 +1,39 @@
+{
+  "suite": "BioSafe_Qwen3.5_0.8B_Evaluation_Pack_v0.2",
+  "model": "qwen3.5:0.8b",
+  "status": "calibrated challenger",
+  "calibration_basis": {
+    "source": "BioSafe_Qwen3.5_0.8B_Inference_Calibration_v0.1",
+    "finding": "Default/model-native thinking exhausted both 128- and 700-token budgets without visible content.",
+    "stable_mode": "think=false",
+    "calibration_configs_that_passed": [
+      "C_no_think_700",
+      "D_no_think_400"
+    ]
+  },
+  "benchmark_configuration": {
+    "temperature": 0.0,
+    "think": false,
+    "50_case_num_predict": 700,
+    "document_16_case_num_predict": 900,
+    "reason_for_budgets": "Preserve comparability with the existing BioSafe baselines and avoid testing an artificially constrained challenger."
+  },
+  "frozen_components_unchanged": [
+    "BioSafe Knowledge Base v0.2",
+    "CFG-02 retrieval",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Schema Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2",
+    "Output Validator",
+    "Boundary Validator"
+  ],
+  "evaluation_order": [
+    "50-case end-to-end benchmark",
+    "16-case context-aware document benchmark",
+    "manual substantive comparison against Qwen3 0.6B and Qwen3 1.7B"
+  ],
+  "note": "Text-only evaluation. Qwen3.5 multimodal capability is intentionally not tested in this stage."
+}

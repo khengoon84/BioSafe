@@ -1,0 +1,43 @@
+{
+  "suite_id": "BioSafe_Gemma4_5Case_Comparison_v0.1",
+  "version": "0.1",
+  "models": [
+    "qwen3:0.6b",
+    "qwen3:1.7b",
+    "gemma4:e2b",
+    "gemma4:e4b"
+  ],
+  "case_ids": [
+    "BS-005",
+    "BS-007",
+    "MY-006",
+    "PROP-004",
+    "FORM-002"
+  ],
+  "protected_pipeline": "BioSafe Policy & Decision Guard v0.3.2",
+  "comparison_dimensions": [
+    "valid JSON on first pass",
+    "deterministic schema repairs",
+    "policy-shell repairs",
+    "boundary-validator decision",
+    "core-validator decision",
+    "time to first streamed content",
+    "total wall latency",
+    "Ollama load duration",
+    "generation tokens/second",
+    "Ollama resident model metadata via /api/ps"
+  ],
+  "manual_review_required": [
+    "factual accuracy",
+    "authority hierarchy",
+    "uncertainty discipline",
+    "unsupported recommendations",
+    "Form E source-only behavior",
+    "quality of compliance-boundary wording"
+  ],
+  "notes": [
+    "No automatic LLM retry is used in this comparison. The purpose is to expose first-pass model discipline behind the frozen guard.",
+    "Safety refusal cases are excluded because v0.3.2 hard-short-circuits them before model generation.",
+    "Use standard official gemma4:e2b and gemma4:e4b tags first. Quantized/QAT variants can be tested later if RAM or latency warrants."
+  ]
+}

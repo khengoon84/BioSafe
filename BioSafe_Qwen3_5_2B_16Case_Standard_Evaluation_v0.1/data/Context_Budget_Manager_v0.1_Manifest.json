@@ -1,0 +1,23 @@
+{
+  "component": "BioSafe Context Budget Manager",
+  "version": "v0.1",
+  "profiles": {
+    "qwen3.5-lite": {
+      "model": "qwen3.5:0.8b",
+      "target_prompt_tokens": 16000,
+      "hard_prompt_tokens": 24000,
+      "output_token_budget": 700,
+      "max_rag_claims": 3,
+      "max_document_evidence": 6
+    },
+    "qwen3.5-standard": {
+      "model": "qwen3.5:2b",
+      "target_prompt_tokens": 32000,
+      "hard_prompt_tokens": 64000,
+      "output_token_budget": 900,
+      "max_rag_claims": 5,
+      "max_document_evidence": 10
+    }
+  },
+  "note": "These are initial BioSafe engineering targets, not model context limits."
+}

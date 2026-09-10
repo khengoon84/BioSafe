@@ -1,0 +1,62 @@
+[
+  {
+    "id": "R01",
+    "name": "health_sidecar",
+    "family": "health"
+  },
+  {
+    "id": "R02",
+    "name": "identity_product_help",
+    "family": "product_help"
+  },
+  {
+    "id": "R03",
+    "name": "document_capability_help",
+    "family": "product_help"
+  },
+  {
+    "id": "R04",
+    "name": "generic_biosafety_no_specialized_leakage",
+    "family": "domain_activation"
+  },
+  {
+    "id": "R05",
+    "name": "species_identity_no_lmo_autoactivation",
+    "family": "domain_activation"
+  },
+  {
+    "id": "R06",
+    "name": "task_change_to_transport",
+    "family": "task_change"
+  },
+  {
+    "id": "R07",
+    "name": "referential_followup_same_session",
+    "family": "follow_up"
+  },
+  {
+    "id": "R08",
+    "name": "safety_refusal_path",
+    "family": "safety"
+  },
+  {
+    "id": "R09",
+    "name": "policy_no_certification",
+    "family": "policy"
+  },
+  {
+    "id": "R10",
+    "name": "review_document_workflow",
+    "family": "document_review"
+  },
+  {
+    "id": "R11",
+    "name": "form_e_workflow",
+    "family": "form_e"
+  },
+  {
+    "id": "R12",
+    "name": "session_reset",
+    "family": "state"
+  }
+]

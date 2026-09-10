@@ -1,0 +1,34 @@
+{
+  "package": "BioSafe_Stage7_3_1_Document_Stabilization_v0.1",
+  "stage": "7.3.1",
+  "purpose": "Final structured-document stabilization before freeze.",
+  "frozen_components_unchanged": [
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2"
+  ],
+  "changes": [
+    "Wrong-domain evidence filter now permits zero RAG claims instead of reintroducing suppressed evidence.",
+    "User-document source spans receive DOC-* evidence IDs distinct from regulatory CLM-* IDs.",
+    "ASSESS_NOT_CERTIFY plus critical missing fields blocks permissive 'appears aligned/compliant' conclusions.",
+    "Structured contradiction fallback now triggers for schema-invalid output as well as malformed/truncated output."
+  ],
+  "model_test": {
+    "model": "qwen3.5:0.8b",
+    "temperature": 0.0,
+    "think": false,
+    "num_predict": 900
+  },
+  "freeze_gate": [
+    "SOP-002 no wrong-domain MOH fallback",
+    "SOP-002 document citations validator-safe via DOC-*",
+    "PROP-004 no apparent-alignment compliance conclusion with critical gaps",
+    "FORM-004 contradiction findings preserved in valid BioSafe schema"
+  ],
+  "next_after_success": "Freeze Structured Document Analysis Layer v1.0, then build model-aware Context Budget Manager and evaluate Qwen3.5-2B."
+}

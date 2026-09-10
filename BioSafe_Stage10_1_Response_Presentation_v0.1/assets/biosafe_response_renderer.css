@@ -1,0 +1,46 @@
+:root {
+  --bs-bg: #f7f9fb;
+  --bs-surface: #ffffff;
+  --bs-text: #17212b;
+  --bs-muted: #5f6b76;
+  --bs-border: #dce3e9;
+  --bs-soft: #eef3f6;
+  --bs-caution-bg: #fff8e6;
+  --bs-caution-border: #ead49b;
+  --bs-danger-bg: #fff1f1;
+  --bs-danger-border: #e1b3b3;
+  --bs-success-bg: #eef8f1;
+  --bs-success-border: #bcd7c4;
+  --bs-accent-bg: #eef5fa;
+  --bs-accent-border: #bfd2df;
+  --bs-radius: 14px;
+  --bs-shadow: 0 2px 10px rgba(17, 31, 44, .05);
+}
+.biosafe-response { display:grid; gap:16px; width:100%; color:var(--bs-text); line-height:1.55; }
+.biosafe-response * { box-sizing:border-box; }
+.biosafe-card { background:var(--bs-surface); border:1px solid var(--bs-border); border-radius:var(--bs-radius); box-shadow:var(--bs-shadow); padding:18px 20px; }
+.biosafe-card h2 { margin:0 0 10px; font-size:1.08rem; font-weight:700; color:var(--bs-text); }
+.biosafe-card p { margin:0; }
+.biosafe-card ul,.biosafe-card ol { margin:8px 0 0; padding-left:1.25rem; }
+.biosafe-card li+li { margin-top:7px; }
+.biosafe-conclusion { border-left:4px solid var(--bs-accent-border); background:linear-gradient(90deg,var(--bs-accent-bg),var(--bs-surface) 42%); }
+.biosafe-caution { background:var(--bs-caution-bg); border-color:var(--bs-caution-border); }
+.biosafe-refusal { background:var(--bs-danger-bg); border-color:var(--bs-danger-border); }
+.biosafe-answer { background:var(--bs-success-bg); border-color:var(--bs-success-border); }
+.biosafe-kicker { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:10px; }
+.biosafe-badge,.biosafe-chip { display:inline-flex; align-items:center; border:1px solid var(--bs-border); border-radius:999px; padding:4px 9px; font-size:.78rem; font-weight:650; background:var(--bs-soft); color:var(--bs-text); }
+.biosafe-badge[data-state="caution"] { background:var(--bs-caution-bg); border-color:var(--bs-caution-border); }
+.biosafe-badge[data-state="refusal"] { background:var(--bs-danger-bg); border-color:var(--bs-danger-border); }
+.biosafe-badge[data-state="normal"] { background:var(--bs-success-bg); border-color:var(--bs-success-border); }
+.biosafe-authorities { display:flex; flex-wrap:wrap; gap:8px; }
+.biosafe-evidence { display:grid; gap:10px; }
+.biosafe-evidence-item { border:1px solid var(--bs-border); border-radius:10px; padding:11px 12px; background:var(--bs-bg); }
+.biosafe-evidence-id { display:inline-block; margin-bottom:4px; font-size:.76rem; font-weight:750; letter-spacing:.02em; color:var(--bs-muted); }
+.biosafe-muted { color:var(--bs-muted); }
+.biosafe-debug { margin-top:2px; border:1px dashed var(--bs-border); border-radius:10px; padding:10px 12px; background:var(--bs-bg); }
+.biosafe-debug summary { cursor:pointer; font-weight:650; color:var(--bs-muted); }
+.biosafe-debug pre { overflow:auto; max-height:420px; margin:12px 0 0; padding:12px; border-radius:8px; background:#111820; color:#e7edf2; font-size:.78rem; white-space:pre-wrap; word-break:break-word; }
+.biosafe-copy-button { appearance:none; border:1px solid var(--bs-border); background:var(--bs-surface); border-radius:8px; padding:6px 10px; cursor:pointer; font:inherit; font-size:.82rem; margin-top:10px; }
+.biosafe-copy-button:hover { background:var(--bs-soft); }
+.biosafe-empty { color:var(--bs-muted); font-style:italic; }
+@media (max-width:680px) { .biosafe-card { padding:15px 16px; border-radius:12px; } }

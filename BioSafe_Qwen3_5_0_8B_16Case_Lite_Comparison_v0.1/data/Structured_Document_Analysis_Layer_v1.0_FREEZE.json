@@ -1,0 +1,15 @@
+{
+  "component": "BioSafe Structured Document Analysis Layer",
+  "version": "v1.0",
+  "status": "ARCHITECTURE_FROZEN",
+  "freeze_basis": [
+    "Context-Aware Document Benchmark v0.2",
+    "Stage 7.2 through Stage 7.3.5 regression work",
+    "Document classification and normalized-profile extraction validated",
+    "Missing-field and cross-document contradiction handling validated",
+    "DOC-* scenario evidence and evidence-ID binding validated",
+    "Researcher-vs-IBC and non-certification boundaries validated",
+    "Remaining output truncation delegated to Context Budget Manager v0.1"
+  ],
+  "change_policy": "Do not modify the structured-document architecture during Context Budget Manager or Qwen3.5-2B evaluation unless a new benchmark demonstrates a reproducible architecture defect."
+}

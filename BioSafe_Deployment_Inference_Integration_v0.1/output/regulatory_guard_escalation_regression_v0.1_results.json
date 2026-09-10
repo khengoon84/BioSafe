@@ -1,0 +1,164 @@
+{
+  "suite": "BioSafe_Regulatory_Guard_Escalation_Regression_v0.1",
+  "cases": 11,
+  "passed": 11,
+  "failed": 0,
+  "results": [
+    {
+      "id": "RLG-001",
+      "type": "regulatory_guard",
+      "pass": true,
+      "details": {
+        "fixed_response": {
+          "conclusion": "This requires authoritative evidence classification under Malaysian law.",
+          "missing_information": [],
+          "recommended_next_step": [],
+          "limitations": []
+        },
+        "repairs": [
+          "REG_LANG_INTERNAL_TIER_REMOVED"
+        ]
+      }
+    },
+    {
+      "id": "RLG-002",
+      "type": "regulatory_guard",
+      "pass": true,
+      "details": {
+        "fixed_response": {
+          "conclusion": "The SOP may indicate a regulatory gap requiring verification Malaysian law.",
+          "missing_information": [],
+          "recommended_next_step": [],
+          "limitations": []
+        },
+        "repairs": [
+          "REG_LANG_UNSUPPORTED_VIOLATION_SOFTENED"
+        ]
+      }
+    },
+    {
+      "id": "RLG-003",
+      "type": "regulatory_guard",
+      "pass": true,
+      "details": {
+        "fixed_response": {
+          "conclusion": "The transport category is applicable packaging instruction.",
+          "missing_information": [
+            "Transport category applicable packaging instruction is missing."
+          ],
+          "recommended_next_step": [],
+          "limitations": []
+        },
+        "repairs": [
+          "REG_LANG_PACKAGING_NOT_CLASSIFICATION"
+        ]
+      }
+    },
+    {
+      "id": "RLG-004",
+      "type": "regulatory_guard",
+      "pass": true,
+      "details": {
+        "fixed_response": {
+          "conclusion": "the applicable regulatory pathway should be verified before proceeding.",
+          "missing_information": [],
+          "recommended_next_step": [],
+          "limitations": []
+        },
+        "repairs": [
+          "REG_LANG_UNSUPPORTED_APPROVAL_SOFTENED"
+        ]
+      }
+    },
+    {
+      "id": "RLG-005",
+      "type": "regulatory_guard",
+      "pass": true,
+      "details": {
+        "fixed_response": {
+          "conclusion": "The activity may contravene the stated prohibition.",
+          "missing_information": [],
+          "recommended_next_step": [],
+          "limitations": []
+        },
+        "repairs": []
+      }
+    },
+    {
+      "id": "ESC-001",
+      "type": "escalation",
+      "pass": true,
+      "details": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      }
+    },
+    {
+      "id": "ESC-002",
+      "type": "escalation",
+      "pass": true,
+      "details": {
+        "model": "qwen3.5:2b",
+        "tier": "complex_case_escalation",
+        "reasons": [
+          "MULTI_DOCUMENT"
+        ],
+        "router_version": "0.1"
+      }
+    },
+    {
+      "id": "ESC-003",
+      "type": "escalation",
+      "pass": true,
+      "details": {
+        "model": "qwen3.5:2b",
+        "tier": "complex_case_escalation",
+        "reasons": [
+          "CROSS_DOCUMENT_CONTRADICTION"
+        ],
+        "router_version": "0.1"
+      }
+    },
+    {
+      "id": "ESC-004",
+      "type": "escalation",
+      "pass": true,
+      "details": {
+        "model": "qwen3.5:2b",
+        "tier": "complex_case_escalation",
+        "reasons": [
+          "HIGH_MISSING_INFORMATION_LOAD"
+        ],
+        "router_version": "0.1"
+      }
+    },
+    {
+      "id": "ESC-005",
+      "type": "escalation",
+      "pass": true,
+      "details": {
+        "model": "qwen3.5:2b",
+        "tier": "complex_case_escalation",
+        "reasons": [
+          "LITE_GENERATION_FAILURE",
+          "LITE_LENGTH_EXHAUSTION",
+          "LITE_INVALID_OUTPUT"
+        ],
+        "router_version": "0.1"
+      }
+    },
+    {
+      "id": "ESC-006",
+      "type": "escalation",
+      "pass": true,
+      "details": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      }
+    }
+  ]
+}

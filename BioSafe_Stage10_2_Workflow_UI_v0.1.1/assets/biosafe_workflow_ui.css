@@ -1,0 +1,36 @@
+.biosafe-workflow-shell { display:grid; gap:16px; }
+.biosafe-workflow-tabs {
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px;
+  padding:6px; border:1px solid #dce3e9; border-radius:14px; background:#f6f8fa;
+}
+.biosafe-workflow-tab {
+  appearance:none; border:1px solid transparent; border-radius:10px;
+  background:transparent; padding:11px 12px; cursor:pointer; font:inherit;
+  font-weight:700; color:#66727d; text-align:center;
+}
+.biosafe-workflow-tab:hover { background:rgba(255,255,255,.8); }
+.biosafe-workflow-tab[aria-selected="true"] {
+  background:#fff; color:#17212b; border-color:#dce3e9;
+  box-shadow:0 1px 4px rgba(17,31,44,.06);
+}
+.biosafe-workflow-intro { margin:0 0 14px; color:#66727d; line-height:1.5; }
+.biosafe-file-summary { margin-top:6px; color:#66727d; font-size:.84rem; }
+.biosafe-forme-helper {
+  margin:0 0 12px; padding:10px 12px; border-left:3px solid #e8d9a7;
+  background:#fff9ea; border-radius:8px; color:#5f532f; font-size:.88rem;
+}
+.biosafe-ui-status {
+  display:inline-flex; align-items:center; gap:7px; margin-left:8px;
+  font-size:.88rem; color:#66727d;
+}
+.biosafe-ui-status[data-state="loading"] { color:#17212b; }
+.biosafe-spinner {
+  display:inline-block; width:.9em; height:.9em; border:2px solid currentColor;
+  border-right-color:transparent; border-radius:50%;
+  animation:biosafe-spin .8s linear infinite;
+}
+@keyframes biosafe-spin { to { transform:rotate(360deg); } }
+.biosafe-workflow-shell :is(button,input,textarea,select):focus-visible {
+  outline:3px solid #8fb6cf; outline-offset:2px;
+}
+@media (max-width:720px) { .biosafe-workflow-tabs { grid-template-columns:1fr; } }

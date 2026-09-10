@@ -1,0 +1,11 @@
+{
+  "stage": "Unified-2.2.4",
+  "version": "0.1",
+  "port": 8773,
+  "frozen_core_modified": false,
+  "changes": [
+    "response-type contract",
+    "semantic repair"
+  ],
+  "acceptance": "contract + live A/B + mandatory human wording/provenance review"
+}

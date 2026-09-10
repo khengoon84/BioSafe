@@ -1,0 +1,65 @@
+{
+  "suite_id": "BioSafe_Inference_Mode_Optimization_v0.1",
+  "version": "0.1",
+  "protected_pipeline": "BioSafe Policy & Decision Guard v0.3.2",
+  "case_ids": [
+    "BS-005",
+    "BS-007",
+    "MY-006",
+    "PROP-004",
+    "FORM-002"
+  ],
+  "candidates": [
+    {
+      "model": "qwen3:0.6b",
+      "mode": "current baseline",
+      "think": null,
+      "temperature": 0.0,
+      "num_predict": 350
+    },
+    {
+      "model": "gemma4:e2b",
+      "mode": "no-thinking",
+      "think": false,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "num_predict": 350
+    },
+    {
+      "model": "gemma4:e4b",
+      "mode": "no-thinking",
+      "think": false,
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 64,
+      "num_predict": 350
+    }
+  ],
+  "advancement_criteria": {
+    "must_have": [
+      "no HARD_FAIL",
+      "no RETRY",
+      "valid JSON on all first-pass model calls",
+      "no generation-budget exhaustion"
+    ],
+    "preferred_for_e2b": {
+      "mean_wall_seconds_max": 50,
+      "mean_first_content_seconds_max": 25
+    },
+    "borderline": {
+      "mean_wall_seconds_max": 60,
+      "mean_first_content_seconds_max": 30
+    },
+    "manual_review_required": true
+  },
+  "manual_review_dimensions": [
+    "factual accuracy",
+    "authority hierarchy",
+    "uncertainty discipline",
+    "Form E source-only behavior",
+    "compliance-boundary wording",
+    "unsupported recommendations",
+    "dependence on deterministic repairs"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "malaysia_lmo_notification_applicability": {
+    "jurisdiction": "Malaysia",
+    "prerequisites": [
+      {
+        "fact": "jurisdiction",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted",
+          "authority_derived"
+        ],
+        "required_value": "Malaysia"
+      },
+      {
+        "fact": "lmo_status",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      },
+      {
+        "fact": "activity_type",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      }
+    ],
+    "authority_domains": [
+      "lmo_modern_biotechnology",
+      "form_e"
+    ],
+    "rule": "LMO-specific notification applicability requires an established Malaysian jurisdiction, LMO/modern-biotechnology trigger status, and activity type."
+  },
+  "containment_assessment": {
+    "prerequisites": [
+      {
+        "fact": "agent_or_material_identity",
+        "aliases": [
+          "organism_identity",
+          "material_identity"
+        ],
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      },
+      {
+        "fact": "activity_or_procedure",
+        "aliases": [
+          "activity_type",
+          "procedure"
+        ],
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      }
+    ],
+    "contextual_prerequisites": [
+      {
+        "fact": "exposure_route",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required_when": "decision_requires_specific_containment"
+      },
+      {
+        "fact": "scale_or_quantity",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required_when": "decision_requires_specific_containment"
+      },
+      {
+        "fact": "facility_context",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required_when": "decision_requires_specific_containment"
+      }
+    ],
+    "authority_domains": [
+      "general_biosafety",
+      "containment"
+    ],
+    "rule": "Containment conclusions depend on the agent/material and the work performed; specific containment conclusions may require exposure, scale and facility context."
+  },
+  "transport_requirement": {
+    "prerequisites": [
+      {
+        "fact": "material_identity",
+        "aliases": [
+          "organism_identity",
+          "specimen_identity"
+        ],
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      },
+      {
+        "fact": "transport_context",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      }
+    ],
+    "authority_domains": [
+      "transport"
+    ],
+    "rule": "Transport requirements depend on the material and transport context; biological identity alone is insufficient."
+  },
+  "waste_requirement": {
+    "prerequisites": [
+      {
+        "fact": "waste_type",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      },
+      {
+        "fact": "disposal_context",
+        "accepted_statuses": [
+          "user_confirmed",
+          "document_extracted"
+        ],
+        "required": true
+      }
+    ],
+    "authority_domains": [
+      "waste"
+    ],
+    "rule": "Waste requirements depend on the waste type and disposal context."
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "completed_review_count": 5,
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "required_review_count": 5,
+  "review_completion_status": "HUMAN_REVIEW_COMPLETE",
+  "review_gate_status": "BLOCKED_CORRECTION_REQUIRED",
+  "review_items": [
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT",
+      "document_id": "KB-MY-GMMRA",
+      "fallback_unit_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_42:RISK_MATRIX_1",
+      "limitations": [
+        "The source states that the risk estimation matrix is a tool and should not be seen as definitive.",
+        "The source requires uncertainty and assumptions to be considered and made clear when drawing conclusions.",
+        "This matrix does not by itself assign a containment level or determine that an activity is acceptable.",
+        "This reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "pdf_page_index": 42,
+      "pdf_page_label": "42",
+      "printed_page_label": "42",
+      "render_sha256": "895251d8f4c044253cb1f3cf709fa925eabe956bb2952210ed66350cf1bbce3c",
+      "rendered_filename": "KB-MY-GMMRA_page_042.png",
+      "representation_type": "risk_matrix",
+      "required_checks": [
+        {
+          "check_id": "matrix_title_and_axes",
+          "prompt": "Verify the matrix title, likelihood row axis, consequence column axis, and visible orientation."
+        },
+        {
+          "check_id": "matrix_cell_product",
+          "prompt": "Compare all 16 likelihood/consequence cells and their Negligible, Low, Moderate, or High values."
+        },
+        {
+          "check_id": "likelihood_key",
+          "prompt": "Verify every likelihood label and definition against the source render."
+        },
+        {
+          "check_id": "interpretation_qualifiers",
+          "prompt": "Verify the non-definitive, uncertainty, assumptions, and supporting-argument qualifiers without weakening them."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the record does not assign containment, compliance, approval, or activity acceptability from the matrix."
+        }
+      ],
+      "review_record": {
+        "attestations": {
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true,
+          "representation_checked": true,
+          "source_render_compared": true
+        },
+        "check_results": {
+          "excluded_inferences": "PASS",
+          "interpretation_qualifiers": "PASS",
+          "likelihood_key": "PASS",
+          "matrix_cell_product": "PASS",
+          "matrix_title_and_axes": "PASS"
+        },
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the matrix title and axes, all 16 cells, likelihood key, interpretation qualifiers, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "review_date": "2026-09-09",
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer"
+      },
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
+      "structured_representation": {
+        "allowed_estimates": [
+          "Negligible",
+          "Low",
+          "Moderate",
+          "High"
+        ],
+        "cells": {
+          "highly_likely:intermediate": "High",
+          "highly_likely:major": "High",
+          "highly_likely:marginal": "Low",
+          "highly_likely:minor": "Moderate",
+          "highly_unlikely:intermediate": "Low",
+          "highly_unlikely:major": "Moderate",
+          "highly_unlikely:marginal": "Negligible",
+          "highly_unlikely:minor": "Negligible",
+          "likely:intermediate": "Moderate",
+          "likely:major": "High",
+          "likely:marginal": "Low",
+          "likely:minor": "Low",
+          "unlikely:intermediate": "Moderate",
+          "unlikely:major": "Moderate",
+          "unlikely:marginal": "Negligible",
+          "unlikely:minor": "Low"
+        },
+        "column_axis": "Consequence of Hazard",
+        "columns": [
+          {
+            "key": "marginal",
+            "label": "Marginal",
+            "ordinal": 1
+          },
+          {
+            "key": "minor",
+            "label": "Minor",
+            "ordinal": 2
+          },
+          {
+            "key": "intermediate",
+            "label": "Intermediate",
+            "ordinal": 3
+          },
+          {
+            "key": "major",
+            "label": "Major",
+            "ordinal": 4
+          }
+        ],
+        "interpretation_qualifiers": [
+          "The risk estimation matrix is a tool and should not be seen as definitive.",
+          "Uncertainty must be taken into consideration in the risk assessment.",
+          "Assumptions must be made clear when drawing conclusions with respect to the level of risk.",
+          "The basis of any assumption should be explained and the robustness of the supporting argument acknowledged."
+        ],
+        "likelihood_definitions": {
+          "highly_likely": "Is expected to occur in most circumstances",
+          "highly_unlikely": "May occur only in very rare circumstances",
+          "likely": "Could occur in many circumstances",
+          "unlikely": "Could occur in some circumstances"
+        },
+        "representation_type": "risk_matrix",
+        "row_axis": "Likelihood of Hazard",
+        "rows": [
+          {
+            "key": "highly_unlikely",
+            "label": "Highly unlikely",
+            "ordinal": 1
+          },
+          {
+            "key": "unlikely",
+            "label": "Unlikely",
+            "ordinal": 2
+          },
+          {
+            "key": "likely",
+            "label": "Likely",
+            "ordinal": 3
+          },
+          {
+            "key": "highly_likely",
+            "label": "Highly likely",
+            "ordinal": 4
+          }
+        ],
+        "title": "Table 1. Risk estimation matrix"
+      }
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-SW2005:LABEL_REQUIREMENTS",
+      "document_id": "KB-MY-SW2005",
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_18:LABEL_SET_1",
+      "limitations": [
+        "This record represents the visible Third Schedule label specification and does not determine which waste category applies to a material.",
+        "It does not establish that biological or clinical waste is SW 404.",
+        "Amendment and claim-level currentness review remain required.",
+        "Textual symbol descriptions do not replace the source graphics, and this reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "pdf_page_index": 18,
+      "pdf_page_label": "18",
+      "printed_page_label": "",
+      "render_sha256": "35c1d590600a1e02c993dc1f1b3ae77f605c43ee947fd10702786bf67db8c0ef",
+      "rendered_filename": "KB-MY-SW2005_page_018.png",
+      "representation_type": "graphical_label_set",
+      "required_checks": [
+        {
+          "check_id": "schedule_and_regulation",
+          "prompt": "Verify the visible Third Schedule title and Regulation 10 reference."
+        },
+        {
+          "check_id": "malay_label_text",
+          "prompt": "Compare each Malay hazard name, waste qualifier, and visible textual label with the source render."
+        },
+        {
+          "check_id": "symbols_and_colors",
+          "prompt": "Compare each symbol description, symbol color, and background color with the source specification."
+        },
+        {
+          "check_id": "printed_label_numbers",
+          "prompt": "Confirm only the explosive-waste entry visibly carries Label 1 and that no second printed label number is invented."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the record does not determine waste applicability, SW 404 classification, currentness, compliance, or approval."
+        }
+      ],
+      "review_record": {
+        "attestations": {
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true,
+          "representation_checked": true,
+          "source_render_compared": true
+        },
+        "check_results": {
+          "excluded_inferences": "PASS",
+          "malay_label_text": "PASS",
+          "printed_label_numbers": "PASS",
+          "schedule_and_regulation": "PASS",
+          "symbols_and_colors": "PASS"
+        },
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the schedule and regulation context, Malay label text, symbol and color specifications, printed label numbering, and excluded-inference boundaries accurate as transcribed."
+        ],
+        "review_date": "2026-09-09",
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer"
+      },
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "structured_representation": {
+        "labels": [
+          {
+            "background_color": "jingga lembut",
+            "hazard_name": "BAHAN LETUPAN",
+            "label_id": "page18_explosive_waste",
+            "printed_label_number": 1,
+            "symbol_color": "hitam",
+            "symbol_description": "bom meletup",
+            "waste_qualifier": "BUANGAN"
+          },
+          {
+            "background_color": "merah",
+            "hazard_name": "CECAIR MUDAH TERBAKAR",
+            "label_id": "page18_flammable_liquid_waste",
+            "printed_label_number": null,
+            "symbol_color": "hitam atau putih",
+            "symbol_description": "api",
+            "waste_qualifier": "BUANGAN"
+          }
+        ],
+        "regulation_reference": "Peraturan 10",
+        "representation_type": "graphical_label_set",
+        "schedule": "JADUAL KETIGA",
+        "title": "KEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL"
+      }
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-WHO-LBM4-DESIGN:BODY",
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "fallback_unit_id": "KB-WHO-LBM4-DESIGN:BODY:PDF_PAGE_55:FLOW_1",
+      "limitations": [
+        "The procurement-route branch is a transcription of the WHO figure and is not BioSafe approval or advice to bypass governance review.",
+        "The detailed-design area contains source-visible revision and terminal paths whose geometry must remain available for human review.",
+        "This reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "pdf_page_index": 55,
+      "pdf_page_label": "37",
+      "printed_page_label": "37",
+      "render_sha256": "4b06cf4eea2a14c1212ce6fb98e09181bd4adc29d6f0d2b5faff5387eb813951",
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_055.png",
+      "representation_type": "directed_flow",
+      "required_checks": [
+        {
+          "check_id": "node_text_and_types",
+          "prompt": "Compare every node label and its process, decision, annotation, start, or terminal classification with the figure."
+        },
+        {
+          "check_id": "edge_geometry",
+          "prompt": "Trace every source-visible arrow and compare its source and target with the directed edge record."
+        },
+        {
+          "check_id": "approval_branches",
+          "prompt": "Verify only visibly labelled Yes and No decision branches and their destinations."
+        },
+        {
+          "check_id": "revision_loops",
+          "prompt": "Verify concept, schematic, and detailed-design revision paths without adding an unseen branch label."
+        },
+        {
+          "check_id": "bypass_and_terminals",
+          "prompt": "Verify the procurement-route bypass, construction terminal, unacceptable outcome, and stop terminal."
+        },
+        {
+          "check_id": "excluded_inferences",
+          "prompt": "Confirm the figure is not represented as BioSafe approval or advice to bypass governance review."
+        }
+      ],
+      "review_record": {
+        "attestations": {
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true,
+          "representation_checked": true,
+          "source_render_compared": true
+        },
+        "check_results": {
+          "approval_branches": "FAIL",
+          "bypass_and_terminals": "PASS",
+          "edge_geometry": "PASS",
+          "excluded_inferences": "PASS",
+          "node_text_and_types": "PASS",
+          "revision_loops": "FAIL"
+        },
+        "disposition": "CORRECTION_REQUIRED",
+        "findings": [
+          "The source visibly labels both outgoing paths from Approve detailed design to Revise detailed design and to Unacceptable outcome as No, while the current representation leaves the revision branch label empty."
+        ],
+        "review_date": "2026-09-09",
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer"
+      },
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b",
+      "structured_representation": {
+        "edges": [
+          {
+            "edge_id": "e01",
+            "label": "",
+            "source": "start",
+            "target": "procurement_advice"
+          },
+          {
+            "edge_id": "e02",
+            "label": "",
+            "source": "procurement_advice",
+            "target": "choose_procurement"
+          },
+          {
+            "edge_id": "e03",
+            "label": "design-review route",
+            "source": "choose_procurement",
+            "target": "appoint_designers"
+          },
+          {
+            "edge_id": "e04",
+            "label": "",
+            "source": "appoint_designers",
+            "target": "concept_design"
+          },
+          {
+            "edge_id": "e05",
+            "label": "",
+            "source": "concept_design",
+            "target": "approve_concept"
+          },
+          {
+            "edge_id": "e06",
+            "label": "Yes",
+            "source": "approve_concept",
+            "target": "schematic_design"
+          },
+          {
+            "edge_id": "e07",
+            "label": "No",
+            "source": "approve_concept",
+            "target": "revise_concept"
+          },
+          {
+            "edge_id": "e08",
+            "label": "",
+            "source": "revise_concept",
+            "target": "concept_design"
+          },
+          {
+            "edge_id": "e09",
+            "label": "",
+            "source": "schematic_design",
+            "target": "approve_schematic"
+          },
+          {
+            "edge_id": "e10",
+            "label": "Yes",
+            "source": "approve_schematic",
+            "target": "detailed_design"
+          },
+          {
+            "edge_id": "e11",
+            "label": "No",
+            "source": "approve_schematic",
+            "target": "revise_schematic"
+          },
+          {
+            "edge_id": "e12",
+            "label": "",
+            "source": "revise_schematic",
+            "target": "schematic_design"
+          },
+          {
+            "edge_id": "e13",
+            "label": "",
+            "source": "detailed_design",
+            "target": "approve_detailed"
+          },
+          {
+            "edge_id": "e14",
+            "label": "Yes",
+            "source": "approve_detailed",
+            "target": "construction"
+          },
+          {
+            "edge_id": "e15",
+            "label": "No",
+            "source": "approve_detailed",
+            "target": "unacceptable"
+          },
+          {
+            "edge_id": "e16",
+            "label": "",
+            "review_note": "Source-visible revision path; no branch label is visible on this line.",
+            "source": "approve_detailed",
+            "target": "revise_detailed"
+          },
+          {
+            "edge_id": "e17",
+            "label": "",
+            "source": "revise_detailed",
+            "target": "detailed_design"
+          },
+          {
+            "edge_id": "e18",
+            "label": "",
+            "source": "unacceptable",
+            "target": "stop"
+          },
+          {
+            "edge_id": "e19",
+            "label": "route-dependent bypass",
+            "source": "choose_procurement",
+            "target": "procurement_note"
+          },
+          {
+            "edge_id": "e20",
+            "label": "",
+            "source": "procurement_note",
+            "target": "construction"
+          }
+        ],
+        "nodes": [
+          {
+            "label": "Approval to proceed from planning to design phase",
+            "node_id": "start",
+            "node_type": "start"
+          },
+          {
+            "label": "Seek advice on procurement routes available",
+            "node_id": "procurement_advice",
+            "node_type": "process"
+          },
+          {
+            "label": "Choose procurement route",
+            "node_id": "choose_procurement",
+            "node_type": "process"
+          },
+          {
+            "label": "Appoint additional designers or contractors",
+            "node_id": "appoint_designers",
+            "node_type": "process"
+          },
+          {
+            "label": "Concept design",
+            "node_id": "concept_design",
+            "node_type": "process"
+          },
+          {
+            "label": "Approve concept design",
+            "node_id": "approve_concept",
+            "node_type": "decision",
+            "required_branch_labels": [
+              "Yes",
+              "No"
+            ]
+          },
+          {
+            "label": "Revise concept design",
+            "node_id": "revise_concept",
+            "node_type": "process"
+          },
+          {
+            "label": "Schematic design",
+            "node_id": "schematic_design",
+            "node_type": "process"
+          },
+          {
+            "label": "Approve schematic design",
+            "node_id": "approve_schematic",
+            "node_type": "decision",
+            "required_branch_labels": [
+              "Yes",
+              "No"
+            ]
+          },
+          {
+            "label": "Revise schematic design",
+            "node_id": "revise_schematic",
+            "node_type": "process"
+          },
+          {
+            "label": "Detailed design",
+            "node_id": "detailed_design",
+            "node_type": "process"
+          },
+          {
+            "label": "Approve detailed design",
+            "node_id": "approve_detailed",
+            "node_type": "decision",
+            "required_branch_labels": [
+              "Yes",
+              "No"
+            ]
+          },
+          {
+            "label": "Revise detailed design",
+            "node_id": "revise_detailed",
+            "node_type": "process"
+          },
+          {
+            "label": "Unacceptable outcome",
+            "node_id": "unacceptable",
+            "node_type": "process"
+          },
+          {
+            "label": "Stop process",
+            "node_id": "stop",
+            "node_type": "terminal"
+          },
+          {
+            "label": "Depending on the nature of the procurement route, there may be no design review or approval stage available",
+            "node_id": "procurement_note",
+            "node_type": "annotation"
+          },
+          {
+            "label": "Proceed to construction phase",
+            "node_id": "construction",
+            "node_type": "terminal"
+          }
+        ],
+        "representation_type": "directed_flow",
+        "title": "Figure 7.1 Project flowchart, design phase"
+      }
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-WHO-LBM4-PPE:BODY",
+      "document_id": "KB-WHO-LBM4-PPE",
+      "fallback_unit_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_42:SEQUENCE_1",
+      "limitations": [
+        "The source page contains no textual step labels; frame order follows the visible page layout.",
+        "Frame descriptions are observations and are not inferred procedural commands.",
+        "This figure is not a substitute for training or a procedure selected for a particular hazard or contamination state.",
+        "This reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "pdf_page_index": 42,
+      "pdf_page_label": "26",
+      "printed_page_label": "26",
+      "render_sha256": "81135314677a86943197644dee0c87f86829d9eb1083b647cb69614cd14cf929",
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_042.png",
+      "representation_type": "illustrated_sequence",
+      "required_checks": [
+        {
+          "check_id": "caption",
+          "prompt": "Compare the figure caption exactly with the source render."
+        },
+        {
+          "check_id": "frame_count_and_order",
+          "prompt": "Verify that five frames are present and ordered according to the visible page layout."
+        },
+        {
+          "check_id": "visible_observations",
+          "prompt": "Compare each frame description with only what is visibly depicted."
+        },
+        {
+          "check_id": "no_textual_step_labels",
+          "prompt": "Confirm that the source figure does not provide textual step labels."
+        },
+        {
+          "check_id": "no_inferred_instructions",
+          "prompt": "Confirm no imperative action, procedure, safety outcome, or hazard-specific suitability was inferred."
+        }
+      ],
+      "review_record": {
+        "attestations": {
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true,
+          "representation_checked": true,
+          "source_render_compared": true
+        },
+        "check_results": {
+          "caption": "PASS",
+          "frame_count_and_order": "PASS",
+          "no_inferred_instructions": "PASS",
+          "no_textual_step_labels": "PASS",
+          "visible_observations": "PASS"
+        },
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the caption, five-frame count and order, visible observations, absence of textual step labels, and non-instructional boundaries accurate as transcribed."
+        ],
+        "review_date": "2026-09-09",
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer"
+      },
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "structured_representation": {
+        "caption": "Figure 6.2 Procedure to remove a disposable apron",
+        "frames": [
+          {
+            "frame_number": 1,
+            "visible_observation": "Standing person shown wearing eye protection and gloves and holding the upper sides of a disposable apron."
+          },
+          {
+            "frame_number": 2,
+            "visible_observation": "Standing person shown looking downward and holding the apron at the waist area."
+          },
+          {
+            "frame_number": 3,
+            "visible_observation": "Standing person shown holding apron material displaced toward one side at waist level."
+          },
+          {
+            "frame_number": 4,
+            "visible_observation": "Standing person shown holding the apron away from the front of the body with the apron opening visible."
+          },
+          {
+            "frame_number": 5,
+            "visible_observation": "Standing person shown holding the apron gathered across both hands and away from the front of the body."
+          }
+        ],
+        "observation_only": true,
+        "representation_type": "illustrated_sequence",
+        "source_has_textual_step_labels": false
+      }
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-WHO-LBM4-PROG:ANNEXES_BACK_MATTER",
+      "document_id": "KB-WHO-LBM4-PROG",
+      "fallback_unit_id": "KB-WHO-LBM4-PROG:ANNEXES_BACK_MATTER:PDF_PAGE_56:TABLE_1",
+      "limitations": [
+        "This reconstruction preserves the visible table hierarchy and cell associations but is not an approved claim or retrieval chunk.",
+        "The source is WHO technical guidance and is not Malaysian law or an institutional approval determination.",
+        "Native layout extraction remains excluded because it omits row-group labels and interleaves example columns."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "pdf_page_index": 56,
+      "pdf_page_label": "40",
+      "printed_page_label": "40",
+      "render_sha256": "3b92b204753b3dd702449b21808126f9c15879ec5329fba386921726033ea7d4",
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_056.png",
+      "representation_type": "structured_table",
+      "required_checks": [
+        {
+          "check_id": "table_title",
+          "prompt": "Compare the transcribed table title with the immutable render."
+        },
+        {
+          "check_id": "stage_and_column_order",
+          "prompt": "Verify all four stages, seven columns, headings, and their left-to-right order."
+        },
+        {
+          "check_id": "row_group_labels",
+          "prompt": "Verify that Description and Examples are distinct visible row-group labels."
+        },
+        {
+          "check_id": "cell_associations",
+          "prompt": "Compare every transcribed line with the correct row group and column; identify any interleaving or omission."
+        },
+        {
+          "check_id": "limitations",
+          "prompt": "Verify that the limitations preserve WHO-guidance status and prohibit treating the reconstruction as an approved claim."
+        }
+      ],
+      "review_record": {
+        "attestations": {
+          "not_claim_approval_acknowledged": true,
+          "not_live_activation_acknowledged": true,
+          "representation_checked": true,
+          "source_render_compared": true
+        },
+        "check_results": {
+          "cell_associations": "PASS",
+          "limitations": "PASS",
+          "row_group_labels": "PASS",
+          "stage_and_column_order": "PASS",
+          "table_title": "PASS"
+        },
+        "disposition": "ACCEPT_AS_TRANSCRIBED",
+        "findings": [
+          "The reviewer compared the immutable source render with the structured representation and found the title, stage and column order, row-group labels, cell associations, and limitations accurate as transcribed."
+        ],
+        "review_date": "2026-09-09",
+        "review_status": "HUMAN_REVIEW_COMPLETE",
+        "reviewer_identity": "BioSafe project owner",
+        "reviewer_role": "Source transcription reviewer"
+      },
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65",
+      "structured_representation": {
+        "columns": [
+          {
+            "column_key": "asset_inventory",
+            "heading": "Asset inventory",
+            "stage": "Step 1",
+            "stage_title": "Asset identification"
+          },
+          {
+            "column_key": "risk_scenarios",
+            "heading": "Risk scenarios",
+            "stage": "Step 2",
+            "stage_title": "Risk identification and assessment"
+          },
+          {
+            "column_key": "likelihood",
+            "heading": "Likelihood",
+            "stage": "Step 2",
+            "stage_title": "Risk identification and assessment"
+          },
+          {
+            "column_key": "consequences",
+            "heading": "Consequences",
+            "stage": "Step 2",
+            "stage_title": "Risk identification and assessment"
+          },
+          {
+            "column_key": "risk_control_measures",
+            "heading": "Risk control measures",
+            "stage": "Step 3",
+            "stage_title": "Risk control"
+          },
+          {
+            "column_key": "vulnerability_assessment",
+            "heading": "Vulnerability assessment",
+            "stage": "Step 3",
+            "stage_title": "Risk control"
+          },
+          {
+            "column_key": "strategy_review",
+            "heading": "Strategy review",
+            "stage": "Step 4",
+            "stage_title": "Risk acceptance and review"
+          }
+        ],
+        "representation_type": "structured_table",
+        "row_groups": [
+          {
+            "cells": {
+              "asset_inventory": [
+                "Inventory of all tangible and intangible assets."
+              ],
+              "consequences": [
+                "Indication of the consequences to relevant populations and the extent of the effects."
+              ],
+              "likelihood": [
+                "General indication of the possibility of the risk if a risk control measure is not in place.",
+                "Consider including potential adversary (for example, internal personnel, external individuals).",
+                "Consider their motivation and capability to act.",
+                "Consider the predicted or known frequency of the scenario."
+              ],
+              "risk_control_measures": [
+                "Description of the applicable risk control strategies to be implemented.",
+                "Consideration should be given to prevention and response actions."
+              ],
+              "risk_scenarios": [
+                "Description of what could happen as a result of an incident occurring with the asset as listed below."
+              ],
+              "strategy_review": [
+                "Based on the risk assessment and risk control measure, determine the overall risk associated with the asset.",
+                "Review whether the risk is acceptable.",
+                "Where the risk is unacceptable, a cost\u2013benefit analysis may help determine if additional risk control measures are necessary.",
+                "The biosecurity risk assessment should be routinely reviewed and updated when changes affect the risk."
+              ],
+              "vulnerability_assessment": [
+                "Assessment of the effectiveness of the risk control strategy on the identified weaknesses in relation to the impact of the likelihood and consequences."
+              ]
+            },
+            "label": "Description"
+          },
+          {
+            "cells": {
+              "asset_inventory": [
+                "information or organisms with dual-use potential",
+                "animals",
+                "floor plans",
+                "equipment",
+                "software",
+                "documented information",
+                "personnel",
+                "contractors"
+              ],
+              "consequences": [
+                "harm, disease or death of animals",
+                "harm, disease or death of humans",
+                "financial losses",
+                "negative effect on the reputation of the organization"
+              ],
+              "likelihood": [
+                "very low",
+                "low",
+                "moderate",
+                "high",
+                "very high"
+              ],
+              "risk_control_measures": [
+                "Personnel suitability: security screening",
+                "Personnel suitability: insider threat training",
+                "Access controls: security barriers",
+                "Access controls: access control systems",
+                "Access controls: entry and exit records",
+                "Emergency response: release recovery procedure",
+                "Emergency response: incident reporting"
+              ],
+              "risk_scenarios": [
+                "deliberate or accidental loss",
+                "unauthorized release",
+                "diversion",
+                "sabotage",
+                "theft",
+                "espionage",
+                "misuse",
+                "terrorism",
+                "extortion"
+              ],
+              "strategy_review": [
+                "acceptable",
+                "not acceptable"
+              ],
+              "vulnerability_assessment": [
+                "very low",
+                "low",
+                "moderate",
+                "high",
+                "very high"
+              ]
+            },
+            "label": "Examples"
+          }
+        ],
+        "title": "Biosecurity risk assessment process"
+      }
+    }
+  ],
+  "review_packet_version": "BioSafe_Fallback_Human_Review_Packet_v0.1",
+  "review_scope": "TRANSCRIPTION_AND_REPRESENTATION_ONLY",
+  "source_fallback_artifact_sha256": "d494bcc170cc76439d89c788c5df8d3bfb7a42b57464434f3695d152376f8802",
+  "source_fallback_artifact_version": "BioSafe_Semantic_Fallbacks_v0.1"
+}

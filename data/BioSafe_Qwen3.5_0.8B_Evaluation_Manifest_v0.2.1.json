@@ -1,0 +1,31 @@
+{
+  "suite": "BioSafe_Qwen3.5_0.8B_Evaluation_Pack_v0.2.1",
+  "model": "qwen3.5:0.8b",
+  "status": "compatibility-patched challenger",
+  "root_cause_fixed": "With think=false, Ollama may omit the message.thinking field. The previous runner accessed it as a required key, causing KeyError('thinking') before model content could be evaluated.",
+  "patch": "Use tolerant access: msg.get(\"thinking\") or \"\"",
+  "model_configuration": {
+    "temperature": 0.0,
+    "think": false,
+    "50_case_num_predict": 700,
+    "document_16_case_num_predict": 900
+  },
+  "architecture_changes": "None",
+  "frozen_components_unchanged": [
+    "BioSafe Knowledge Base v0.2",
+    "CFG-02 retrieval",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Schema Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2",
+    "Output Validator",
+    "Boundary Validator"
+  ],
+  "rerun_order": [
+    "50-case benchmark first",
+    "inspect summary and JSONL",
+    "only then run 16-case context-aware document benchmark"
+  ]
+}

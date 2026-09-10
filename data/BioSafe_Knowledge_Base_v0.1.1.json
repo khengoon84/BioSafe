@@ -1,0 +1,679 @@
+{
+  "knowledge_base_id": "BioSafe_Knowledge_Base_v0.1",
+  "version": "0.1.1-retrieval-baseline-patch",
+  "generated_date": "2026-09-03",
+  "purpose": "Implementation-ready authority-aware knowledge base seed for BioSafe RAG.",
+  "status": "Seed ingestion batch; claims are structured from the verified source pass and should be reconciled against downloaded PDFs during full ingestion.",
+  "documents": [
+    {
+      "record_id": "KB-MY-ACT678",
+      "document_id": "KB-MY-ACT678",
+      "title": "Biosafety Act 2007 (Act 678)",
+      "authority": "Department of Biosafety / Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Primary legislation",
+      "authority_tier": "Tier 1",
+      "status": "Current official source; amendment activity exists but no replacement Act identified in this verification pass.",
+      "source_url": "https://www.biosafety.gov.my/assets/document/akta-dan-peraturan/1-akta-biokeselamatan-2007-akta-678.pdf",
+      "effective_date": "2007",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-MY-REG2010",
+      "document_id": "KB-MY-REG2010",
+      "title": "Biosafety (Approval and Notification) Regulations 2010",
+      "authority": "Department of Biosafety / Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Primary regulation",
+      "authority_tier": "Tier 1",
+      "status": "Listed as current regulatory document by JBK.",
+      "source_url": "https://www.biosafety.gov.my/assets/document/akta-dan-peraturan/2-peraturan-biokeselamatan-kelulusan-dan-pemberitahuan.pdf",
+      "effective_date": "2010",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-MY-CU",
+      "document_id": "KB-MY-CU",
+      "title": "Biosafety Guidelines for Contained Use Activity of Living Modified Organism (LMO)",
+      "authority": "Department of Biosafety / Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Official guidance",
+      "authority_tier": "Tier 2",
+      "status": "Current JBK publication listing; no superseding contained-use guideline established in this pass.",
+      "source_url": "https://www.biosafety.gov.my/assets/document/garis-panduan-biokeselamatan/7-garis-panduan-aktiviti-kegunaan-terkawal-lmo.pdf",
+      "effective_date": "2010",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-MY-GMMRA",
+      "document_id": "KB-MY-GMMRA",
+      "title": "Biosafety Guidelines: Risk Assessment of Genetically Modified Microorganisms",
+      "authority": "Department of Biosafety / Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Official guidance",
+      "authority_tier": "Tier 2",
+      "status": "Current JBK publication listing; no superseding GMM RA guideline established in this pass.",
+      "source_url": "https://www.biosafety.gov.my/assets/document/garis-panduan-biokeselamatan/4-garis-panduan-penilaian-risiko-mikroorganisma-gm.pdf",
+      "effective_date": "2012",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-MY-IBC",
+      "document_id": "KB-MY-IBC",
+      "title": "Biosafety Guidelines for Institutional Biosafety Committees (IBC)",
+      "authority": "Department of Biosafety / Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Official guidance",
+      "authority_tier": "Tier 2",
+      "status": "Current JBK publication listing; detailed IBC governance guidance verified.",
+      "source_url": "https://www.biosafety.gov.my/assets/document/garis-panduan-biokeselamatan/8-garis-panduan-jawatankuasa-keinstitusian-biokeselamatan-ibc.pdf",
+      "effective_date": "2010",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-MY-FORME",
+      "document_id": "KB-MY-FORME",
+      "title": "Biosafety User's Guide / Form E (NBB/N/CU/10/FORM E)",
+      "authority": "Department of Biosafety / Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Official form/guidance",
+      "authority_tier": "Tier 2",
+      "status": "Current JBK contained-use process page confirms Form E use; historical PDF retained as explanatory/form source.",
+      "source_url": "https://www.biosafety.gov.my/assets/document/garis-panduan-biokeselamatan/9-garis-panduan-pengguna-biokeselamatan.pdf",
+      "effective_date": "2010",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-MY-MOH2023",
+      "document_id": "KB-MY-MOH2023",
+      "title": "Guidelines for the Safe Transport of Clinical Specimens and Infectious Substances in Malaysia 2023",
+      "authority": "Ministry of Health Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Official national guidance",
+      "authority_tier": "Tier 2",
+      "status": "Official MOH page; last updated 13 Feb 2026.",
+      "source_url": "https://www.moh.gov.my/en/publications-and-reports/policies-act-policies-guide-lines/garis-panduan-umum-kkm/senarai-garis-panduan-umum-awam/guidelines-for-the-safe-transport-of-clinical-specimens-and-infectious-substances-in-malaysia-2023",
+      "effective_date": "2023",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-MY-DOE2005",
+      "document_id": "KB-MY-DOE2005",
+      "title": "Environmental Quality (Scheduled Wastes) Regulations 2005",
+      "authority": "Department of Environment / Malaysia",
+      "jurisdiction": "Malaysia",
+      "document_type": "Primary regulation",
+      "authority_tier": "Tier 1",
+      "status": "Official DOE/eSWIS source; relevant to scheduled-waste pathways.",
+      "source_url": "https://www.doe.gov.my/",
+      "effective_date": "2005",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-WHO-LBM4",
+      "document_id": "KB-WHO-LBM4",
+      "title": "WHO Laboratory Biosafety Manual, 4th edition",
+      "authority": "World Health Organization",
+      "jurisdiction": "International",
+      "document_type": "Authoritative guidance",
+      "authority_tier": "Tier 3",
+      "status": "WHO publication; 2020 fourth edition.",
+      "source_url": "https://www.who.int/publications/i/item/9789240011311",
+      "effective_date": "2020",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-WHO-RA",
+      "document_id": "KB-WHO-RA",
+      "title": "WHO Laboratory Biosafety Manual, 4th edition: Risk Assessment",
+      "authority": "World Health Organization",
+      "jurisdiction": "International",
+      "document_type": "Authoritative guidance",
+      "authority_tier": "Tier 3",
+      "status": "WHO publication; 2020 risk-assessment monograph.",
+      "source_url": "https://www.who.int/publications-detail-redirect/9789240011458",
+      "effective_date": "2020",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    },
+    {
+      "record_id": "KB-WHO-BIOSEC",
+      "document_id": "KB-WHO-BIOSEC",
+      "title": "WHO Laboratory biosecurity guidance",
+      "authority": "World Health Organization",
+      "jurisdiction": "International",
+      "document_type": "Authoritative guidance",
+      "authority_tier": "Tier 3",
+      "status": "WHO publication; 2024 revision.",
+      "source_url": "https://www.who.int/publications/b/69836",
+      "effective_date": "2024",
+      "supersedes": "",
+      "verification_date": "2026-09-03"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLM-001",
+      "document_id": "KB-MY-ACT678",
+      "section": "s.35",
+      "page": "90\u201391",
+      "claim_type": "regulatory_uncertainty",
+      "text": "The Act permits decisions to be made despite lack of scientific certainty where relevant scientific information or knowledge is insufficient.",
+      "priority": "critical",
+      "maps_to": "PROP-01; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-002",
+      "document_id": "KB-MY-ACT678",
+      "section": "s.36",
+      "page": "90\u201391",
+      "claim_type": "risk_assessment",
+      "text": "Risk assessment/risk management reporting addresses risks and adverse effects to human, plant and animal health, the environment and biodiversity, together with measures to prevent, reduce or control them.",
+      "priority": "critical",
+      "maps_to": "SOP-01; SOP-03; PROP-01; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-003",
+      "document_id": "KB-MY-ACT678",
+      "section": "s.37",
+      "page": "90\u201391",
+      "claim_type": "emergency_response",
+      "text": "Emergency response planning is part of the statutory risk-management framework and must provide safety measures/procedures and necessary emergency measures.",
+      "priority": "major",
+      "maps_to": "SOP-01; SOP-03; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-004",
+      "document_id": "KB-MY-REG2010",
+      "section": "Reg. 5",
+      "page": "20\u201330",
+      "claim_type": "ibc",
+      "text": "The Board may direct organisations conducting modern biotechnology R&D to establish an IBC; the IBC has biosafety oversight functions including procedures and BSL determination for contained-use R&D.",
+      "priority": "critical",
+      "maps_to": "SOP-03; PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-005",
+      "document_id": "KB-MY-REG2010",
+      "section": "Reg. 16",
+      "page": "20\u201330",
+      "claim_type": "notification",
+      "text": "Specified activities require prior notification, with submission arrangements involving the Director General and, where applicable, the IBC.",
+      "priority": "critical",
+      "maps_to": "SOP-03; PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-006",
+      "document_id": "KB-MY-REG2010",
+      "section": "Reg. 17",
+      "page": "20\u201330",
+      "claim_type": "notification_quality",
+      "text": "Notifications are expected to be complete and without errors; the Director General may require amendment, completion or resubmission.",
+      "priority": "major",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-007",
+      "document_id": "KB-MY-REG2010",
+      "section": "First Schedule",
+      "page": "Schedules",
+      "claim_type": "exemption",
+      "text": "The First Schedule contains contained-use exemptions with specified host/vector systems and criteria; exemption cannot be inferred merely from a generic 'low risk' statement.",
+      "priority": "critical",
+      "maps_to": "SOP-03; PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-008",
+      "document_id": "KB-MY-CU",
+      "section": "GM-BSL2 / work practices",
+      "page": "16\u201323",
+      "claim_type": "containment",
+      "text": "Contained-use guidance specifies biosafety-level and work-practice expectations, including access restrictions, training, decontamination and incident controls; GM-BSL2 examples include LMO/materials associated with RG2 microorganisms.",
+      "priority": "critical",
+      "maps_to": "SOP-03; PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-009",
+      "document_id": "KB-MY-CU",
+      "section": "GM-BSL2 work practices",
+      "page": "16\u201323",
+      "claim_type": "incident",
+      "text": "Spills/accidents are to be addressed through established reporting and emergency arrangements, with relevant escalation to supervisory/IBC structures.",
+      "priority": "major",
+      "maps_to": "SOP-03; SOP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-010",
+      "document_id": "KB-MY-CU",
+      "section": "GM-BSL2 work practices",
+      "page": "16\u201323",
+      "claim_type": "equipment",
+      "text": "A Class II biological safety cabinet is identified for work presenting respiratory/aerosol risk within the applicable contained-use context.",
+      "priority": "major",
+      "maps_to": "SOP-03; PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-011",
+      "document_id": "KB-MY-CU",
+      "section": "contained-use scope",
+      "page": "related sections",
+      "claim_type": "waste",
+      "text": "Contained-use guidance covers safe handling, hazardous biological waste treatment, disposal, transfer/transport, storage and minimum facility/equipment requirements.",
+      "priority": "major",
+      "maps_to": "SOP-03; PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-012",
+      "document_id": "KB-MY-GMMRA",
+      "section": "risk-assessment framework",
+      "page": "20\u201323",
+      "claim_type": "risk_assessment",
+      "text": "GMM risk assessment considers hazards, exposure/release, risk controls and BSL assignment, and addresses relevant human, animal, plant and environmental risks.",
+      "priority": "critical",
+      "maps_to": "SOP-01; SOP-03; PROP-01; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-013",
+      "document_id": "KB-MY-GMMRA",
+      "section": "risk-assessment detail",
+      "page": "20\u201323",
+      "claim_type": "uncertainty",
+      "text": "A defensible risk assessment should contain enough background and detail for reviewers to understand hazards; potential hazards should be acknowledged and uncertainty considered.",
+      "priority": "critical",
+      "maps_to": "SOP-01; PROP-01; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-014",
+      "document_id": "KB-MY-GMMRA",
+      "section": "review/update",
+      "page": "20\u201323",
+      "claim_type": "risk_review",
+      "text": "Risk assessment should be reviewed and updated as appropriate rather than treated as a one-time unsupported conclusion.",
+      "priority": "major",
+      "maps_to": "SOP-03; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-015",
+      "document_id": "KB-MY-IBC",
+      "section": "IBC functions",
+      "page": "governance sections",
+      "claim_type": "ibc",
+      "text": "IBC functions include assessment/monitoring of facilities, procedures, practices, training and expertise, containment-level assessment, form completeness, emergency response and reporting of significant incidents/noncompliance.",
+      "priority": "critical",
+      "maps_to": "SOP-03; PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-016",
+      "document_id": "KB-MY-IBC",
+      "section": "PI responsibilities",
+      "page": "governance sections",
+      "claim_type": "pi_accountability",
+      "text": "The PI is accountable to the IBC and must comply with applicable biosafety laws and guidelines.",
+      "priority": "major",
+      "maps_to": "PROP-01; SOP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-017",
+      "document_id": "KB-MY-IBC",
+      "section": "incident reporting",
+      "page": "incident-reporting section",
+      "claim_type": "incident",
+      "text": "The IBC guidance specifies incident-reporting routes and timeframes for relevant incidents/occupational exposures; BioSafe should direct users to the applicable institutional/IBC process rather than invent a response.",
+      "priority": "major",
+      "maps_to": "SOP-03; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-018",
+      "document_id": "KB-MY-FORME",
+      "section": "A1",
+      "page": "Form E p.202 area",
+      "claim_type": "forme",
+      "text": "Form E researcher-facing information includes applicant and responsible scientists/personnel qualifications and experience.",
+      "priority": "major",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-019",
+      "document_id": "KB-MY-FORME",
+      "section": "A2",
+      "page": "Form E p.202 area",
+      "claim_type": "forme",
+      "text": "Form E project information includes title, biosafety level, rationale, objectives, schedule/dates and other project particulars specified by the form.",
+      "priority": "critical",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-020",
+      "document_id": "KB-MY-FORME",
+      "section": "A3",
+      "page": "Form E p.202 area",
+      "claim_type": "forme",
+      "text": "LMO description requires donor/parent organism, vector or method, trait/modified trait, gene identity/function and target information as applicable.",
+      "priority": "critical",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-021",
+      "document_id": "KB-MY-FORME",
+      "section": "A4.1",
+      "page": "Form E p.203 area",
+      "claim_type": "risk_assessment",
+      "text": "Form E asks for activity-related human-health risks, hazards, likelihood/consequence and risks from unintentional release to human health/environment.",
+      "priority": "critical",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-022",
+      "document_id": "KB-MY-FORME",
+      "section": "A4.2\u2013A4.3",
+      "page": "Form E pp.203\u2013204 area",
+      "claim_type": "risk_management",
+      "text": "Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures.",
+      "priority": "major",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-023",
+      "document_id": "KB-MY-FORME",
+      "section": "Premises/facility",
+      "page": "Form E p.204 area",
+      "claim_type": "facility",
+      "text": "Form E includes premises/facility details such as name/type/BSL and relevant inspection/certification/contact/BSO information.",
+      "priority": "major",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-024",
+      "document_id": "KB-MY-FORME",
+      "section": "CBI",
+      "page": "Form E p.204 area",
+      "claim_type": "forme_cbi",
+      "text": "Form E provides for confidential business information claims and justification where applicable.",
+      "priority": "minor",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-025",
+      "document_id": "KB-MY-FORME",
+      "section": "IBC Assessment Report",
+      "page": "Form E pp.207\u2013208",
+      "claim_type": "scope_boundary",
+      "text": "The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring.",
+      "priority": "critical",
+      "maps_to": "PROP-01",
+      "verification_status": "Verified / project scope"
+    },
+    {
+      "claim_id": "CLM-026",
+      "document_id": "KB-MY-MOH2023",
+      "section": "scope/classification",
+      "page": "pp.9\u201325",
+      "claim_type": "transport",
+      "text": "The 2023 MOH guideline covers safe transport of clinical specimens and infectious substances, including classification and packaging/labelling/marking requirements.",
+      "priority": "critical",
+      "maps_to": "SOP-01; PROP-02; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-027",
+      "document_id": "KB-MY-MOH2023",
+      "section": "triple packaging",
+      "page": "pp.9\u201325",
+      "claim_type": "transport",
+      "text": "Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts.",
+      "priority": "major",
+      "maps_to": "SOP-01; PROP-02; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-028",
+      "document_id": "KB-MY-MOH2023",
+      "section": "scope exclusion",
+      "page": "intro/scope",
+      "claim_type": "transport_scope",
+      "text": "The MOH clinical-specimen transport guideline does not serve as the clinical-waste guideline; clinical waste and chemical waste are outside its scope.",
+      "priority": "major",
+      "maps_to": "SOP-01; PROP-02",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-029",
+      "document_id": "KB-MY-DOE2005",
+      "section": "SW 404",
+      "page": "scheduled-waste list",
+      "claim_type": "waste",
+      "text": "SW 404 covers pathogenic wastes, clinical wastes or quarantined materials within the scheduled-waste framework.",
+      "priority": "critical",
+      "maps_to": "SOP-02; PROP-02; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-030",
+      "document_id": "KB-MY-DOE2005",
+      "section": "waste management",
+      "page": "regulatory framework",
+      "claim_type": "waste",
+      "text": "Scheduled-waste management includes generator, treatment and disposal obligations; BioSafe should identify the applicable waste stream and verify the prescribed pathway rather than accept generic 'institutional disposal'.",
+      "priority": "critical",
+      "maps_to": "SOP-02; PROP-01; PROP-02; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-031",
+      "document_id": "KB-WHO-LBM4",
+      "section": "core risk approach",
+      "page": "Section 2 / core",
+      "claim_type": "risk_assessment",
+      "text": "WHO LBM4 uses an evidence- and risk-based approach in which safety measures are balanced against the actual risk of the activity on a case-by-case basis.",
+      "priority": "major",
+      "maps_to": "All risk-assessment cases",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-032",
+      "document_id": "KB-WHO-RA",
+      "section": "information gathering",
+      "page": "Section 2.2",
+      "claim_type": "uncertainty",
+      "text": "Risk assessment requires information on biological hazards, procedures, equipment, facility and human competency; knowledge gaps negatively affect evaluation and control selection.",
+      "priority": "critical",
+      "maps_to": "PROP-01; PROP-03; SOP-01",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-033",
+      "document_id": "KB-WHO-RA",
+      "section": "risk evaluation",
+      "page": "Section 2.2",
+      "claim_type": "risk_assessment",
+      "text": "Risk evaluation considers how exposure/release could occur, likelihood, consequences and whether risks can be controlled to an acceptable level.",
+      "priority": "critical",
+      "maps_to": "SOP-01; PROP-01; PROP-03",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-034",
+      "document_id": "KB-WHO-BIOSEC",
+      "section": "2024 guidance",
+      "page": "overview",
+      "claim_type": "biosecurity",
+      "text": "WHO's 2024 laboratory biosecurity guidance applies a risk- and evidence-based approach to biosecurity, including governance, secure handling, transport/storage and high-consequence research risk management.",
+      "priority": "major",
+      "maps_to": "SOP-03; biosecurity cases",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-035",
+      "document_id": "KB-WHO-LBM4",
+      "section": "decontamination/waste",
+      "page": "LBM4 monographs",
+      "claim_type": "waste",
+      "text": "WHO LBM4 includes dedicated guidance on decontamination and waste management; BioSafe should use it as authoritative international corroboration where Malaysian requirements do not fully specify technical practice.",
+      "priority": "major",
+      "maps_to": "SOP-02; PROP-01; PROP-03",
+      "verification_status": "Verified"
+    }
+  ],
+  "retrieval_rules": [
+    {
+      "rule_id": "R-01",
+      "rule": "Authority first",
+      "implementation": "For Malaysian legal/regulatory questions, retrieve Tier 1 Malaysia sources before Tier 2/3 sources."
+    },
+    {
+      "rule_id": "R-02",
+      "rule": "Operational guidance",
+      "implementation": "Use current official Malaysian guidance for operational interpretation and Form E assistance."
+    },
+    {
+      "rule_id": "R-03",
+      "rule": "Transport domain",
+      "implementation": "Use MOH 2023 for clinical specimen/infectious-substance transport; do not use it as the clinical-waste rule."
+    },
+    {
+      "rule_id": "R-04",
+      "rule": "WHO corroboration",
+      "implementation": "Use WHO as Tier 3 corroboration or where Malaysian sources do not specify the issue."
+    },
+    {
+      "rule_id": "R-05",
+      "rule": "IBC boundary",
+      "implementation": "Flag need for IBC review; do not simulate or issue an IBC approval and do not score the IBC Assessment Report as a researcher field."
+    },
+    {
+      "rule_id": "R-06",
+      "rule": "Fees excluded",
+      "implementation": "Do not score fee omission or present fees as a BioSafe requirement."
+    },
+    {
+      "rule_id": "R-07",
+      "rule": "Annex 2 excluded",
+      "implementation": "Do not score Annex 2 / IBC Assessment Report as a researcher/PI missing field."
+    },
+    {
+      "rule_id": "R-08",
+      "rule": "Unknowns",
+      "implementation": "Missing scientific/regulatory facts trigger clarification; never infer organism, construct, BSL, risk group, facility class or transport classification."
+    },
+    {
+      "rule_id": "R-09",
+      "rule": "Evidence",
+      "implementation": "Material regulatory conclusions should cite source and section/page when available."
+    },
+    {
+      "rule_id": "R-10",
+      "rule": "Currentness",
+      "implementation": "When older procedural material conflicts with a current official operational page, flag reconciliation and prefer the current official operational statement."
+    },
+    {
+      "rule_id": "R-11",
+      "rule": "No approval claim",
+      "implementation": "BioSafe provides decision support, not an official approval/compliance determination."
+    },
+    {
+      "rule_id": "R-12",
+      "rule": "Section-aware retrieval",
+      "implementation": "Prefer Document \u2192 Part/Section \u2192 Subsection \u2192 Paragraph/claim over arbitrary fixed-size chunks."
+    },
+    {
+      "rule_id": "R-SAFETY-01",
+      "rule": "Unsafe biological assistance",
+      "implementation": "BioSafe must not provide actionable instructions that facilitate harmful biological activity. It should identify the safety concern, withhold enabling procedural details, and redirect toward safe biosafety, risk-management, containment, governance, incident-prevention, or other non-enabling institutional guidance."
+    }
+  ],
+  "scope_gates": [
+    {
+      "scope_id": "S-01",
+      "topic": "Researcher/PI workflow",
+      "decision": "IN",
+      "implementation": "Document review, risk identification, regulatory reasoning and researcher-facing Form E support."
+    },
+    {
+      "scope_id": "S-02",
+      "topic": "IBC internal assessment",
+      "decision": "OUT",
+      "implementation": "BioSafe may identify that IBC review is required but does not reproduce the IBC's assessment role."
+    },
+    {
+      "scope_id": "S-03",
+      "topic": "Fees",
+      "decision": "OUT",
+      "implementation": "Explicit project decision: ignore fee requirements."
+    },
+    {
+      "scope_id": "S-04",
+      "topic": "Annex 2 / IBC Assessment Report",
+      "decision": "OUT",
+      "implementation": "Explicit project decision: IBC completes it; not scored as researcher/PI content."
+    },
+    {
+      "scope_id": "S-05",
+      "topic": "Automatic regulatory decision",
+      "decision": "OUT",
+      "implementation": "No automatic approval/compliance determination."
+    },
+    {
+      "scope_id": "S-06",
+      "topic": "Scientific invention",
+      "decision": "OUT",
+      "implementation": "No invented organism, sequence, vector, BSL, risk group or facility classification."
+    }
+  ],
+  "schema": {
+    "document_fields": [
+      "record_id",
+      "document_id",
+      "title",
+      "authority",
+      "jurisdiction",
+      "document_type",
+      "authority_tier",
+      "status",
+      "section",
+      "page",
+      "claim_type",
+      "text",
+      "source_url",
+      "effective_date",
+      "supersedes",
+      "verification_date"
+    ],
+    "retrieval_key": "authority_tier + jurisdiction + domain + section + claim_type + text",
+    "recommended_embedding_payload": "claim text plus document title, section and authority metadata",
+    "citation_payload": "title + section + page + source_url"
+  },
+  "patch_note": "Adds R-SAFETY-01 system safety control for retrieval evaluation only; original v0.1 KB remains unchanged."
+}

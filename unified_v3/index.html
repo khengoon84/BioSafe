@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask BioSafe</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --surface: #ffffff;
+      --border: #e2e5ea;
+      --text: #1a1d23;
+      --muted: #6b7280;
+      --accent: #0f766e;
+      --accent-hover: #115e59;
+      --user-bubble: #e6f4f1;
+      --assistant-bubble: #ffffff;
+      --warning: #b45309;
+      --warning-bg: #fffbeb;
+      --radius: 10px;
+      --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header */
+    .header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-shrink: 0;
+    }
+    .header-title { font-size: 17px; font-weight: 600; color: var(--text); }
+    .header-subtitle { font-size: 12px; color: var(--muted); margin-top: 2px; }
+    .btn-new {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 7px 14px;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-new:hover { background: var(--bg); }
+
+    /* Chat stream */
+    .chat-stream {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .welcome {
+      text-align: center;
+      color: var(--muted);
+      padding: 40px 20px;
+      max-width: 520px;
+      margin: 0 auto;
+    }
+    .welcome h2 { font-size: 18px; font-weight: 600; margin-bottom: 8px; color: var(--text); }
+    .welcome p { font-size: 14px; line-height: 1.6; }
+
+    /* Turns */
+    .turn { display: flex; gap: 10px; max-width: 760px; width: 100%; }
+    .turn.user { align-self: flex-end; justify-content: flex-end; }
+    .turn.assistant { align-self: flex-start; }
+    .avatar {
+      width: 32px; height: 32px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 600;
+      flex-shrink: 0;
+    }
+    .turn.user .avatar { background: var(--accent); color: #fff; }
+    .turn.assistant .avatar { background: #e2e5ea; color: var(--muted); }
+    .bubble {
+      padding: 10px 14px;
+      border-radius: var(--radius);
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 80%;
+    }
+    .turn.user .bubble { background: var(--user-bubble); color: var(--text); }
+    .turn.assistant .bubble { background: var(--assistant-bubble); border: 1px solid var(--border); }
+
+    /* Sources toggle */
+    .sources-wrap { margin-top: 8px; }
+    .sources-toggle {
+      font-size: 12px;
+      color: var(--accent);
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px 0;
+      font-weight: 500;
+    }
+    .sources-toggle:hover { color: var(--accent-hover); }
+    .sources-content {
+      display: none;
+      margin-top: 6px;
+      padding: 10px 12px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .sources-content.open { display: block; }
+    .source-item { margin-bottom: 6px; }
+    .source-item:last-child { margin-bottom: 0; }
+    .source-id { font-weight: 600; color: var(--muted); }
+
+    /* Warning banner */
+    .warning-banner {
+      background: var(--warning-bg);
+      border: 1px solid #fcd34d;
+      color: var(--warning);
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+
+    /* Status / typing */
+    .status {
+      font-size: 12px;
+      color: var(--muted);
+      padding: 4px 0;
+      min-height: 20px;
+    }
+
+    /* Input area */
+    .input-area {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 12px 20px;
+      flex-shrink: 0;
+    }
+    .attachments {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 8px;
+      min-height: 0;
+    }
+    .attachment-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 4px 10px;
+      font-size: 12px;
+      color: var(--text);
+    }
+    .attachment-chip .remove {
+      cursor: pointer;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .attachment-chip .remove:hover { color: #dc2626; }
+    .attachment-chip.error { border-color: #fca5a5; color: #dc2626; }
+    .input-row { display: flex; gap: 8px; align-items: flex-end; }
+    .input-row textarea {
+      flex: 1;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 14px;
+      font-family: inherit;
+      resize: none;
+      min-height: 40px;
+      max-height: 120px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .input-row textarea:focus { border-color: var(--accent); }
+    .btn-attach {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      width: 40px; height: 40px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+      flex-shrink: 0;
+      transition: background 0.15s;
+    }
+    .btn-attach:hover { background: var(--bg); }
+    .btn-send {
+      background: var(--accent);
+      border: none;
+      color: #fff;
+      padding: 0 20px;
+      height: 40px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      flex-shrink: 0;
+      transition: background 0.15s;
+    }
+    .btn-send:hover { background: var(--accent-hover); }
+    .btn-send:disabled { background: #9ca3af; cursor: not-allowed; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <div class="header-title">Ask BioSafe</div>
+      <div class="header-subtitle">Evidence-grounded biosafety and biosecurity decision support</div>
+    </div>
+    <button class="btn-new" id="btnNew" title="Start a fresh conversation">New Conversation</button>
+  </header>
+
+  <main class="chat-stream" id="chatStream">
+    <div class="welcome" id="welcome">
+      <h2>Welcome to BioSafe</h2>
+      <p>I can help with biosafety questions, regulatory applicability, document review, and Form E preparation. I provide evidence-based decision support but do not grant regulatory approval or certify compliance.</p>
+    </div>
+  </main>
+
+  <div class="status" id="status"></div>
+
+  <footer class="input-area">
+    <div class="attachments" id="attachments"></div>
+    <div class="input-row">
+      <button class="btn-attach" id="btnAttach" title="Attach documents">&#128206;</button>
+      <textarea id="input" placeholder="Ask a biosafety question..." rows="1" aria-label="Your question"></textarea>
+      <button class="btn-send" id="btnSend">Send</button>
+    </div>
+  </footer>
+
+  <input type="file" id="fileInput" class="sr-only" multiple accept=".txt,.md,.csv,.json,.pdf,.doc,.docx" />
+
+  <script>
+(function() {
+  "use strict";
+
+  const API_BASE = "";  // same-origin: UI proxies /api/* to sidecar
+  const els = {
+    stream: document.getElementById("chatStream"),
+    welcome: document.getElementById("welcome"),
+    input: document.getElementById("input"),
+    send: document.getElementById("btnSend"),
+    attach: document.getElementById("btnAttach"),
+    fileInput: document.getElementById("fileInput"),
+    attachments: document.getElementById("attachments"),
+    status: document.getElementById("status"),
+    btnNew: document.getElementById("btnNew"),
+  };
+
+  let sessionId = null;
+  let attachments = [];
+  let busy = false;
+
+  // --- Helpers ---
+  function setStatus(msg) { els.status.textContent = msg || ""; }
+
+  function scrollToBottom() {
+    requestAnimationFrame(() => { els.stream.scrollTop = els.stream.scrollHeight; });
+  }
+
+  function makeTurnEl(role) {
+    const turn = document.createElement("div");
+    turn.className = "turn " + role;
+    const avatar = document.createElement("div");
+    avatar.className = "avatar";
+    avatar.textContent = role === "user" ? "You" : "BS";
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
+    turn.append(avatar, bubble);
+    return { turn, bubble };
+  }
+
+  function addUserTurn(text) {
+    if (els.welcome) els.welcome.remove();
+    const { turn, bubble } = makeTurnEl("user");
+    bubble.textContent = text;
+    els.stream.append(turn);
+    scrollToBottom();
+  }
+
+  function addAssistantTurn(html) {
+    const { turn, bubble } = makeTurnEl("assistant");
+    bubble.innerHTML = html;
+    els.stream.append(turn);
+    // Wire up sources toggle
+    const toggle = bubble.querySelector(".sources-toggle");
+    const content = bubble.querySelector(".sources-content");
+    if (toggle && content) {
+      toggle.addEventListener("click", () => {
+        const open = content.classList.toggle("open");
+        toggle.textContent = open ? "Hide sources" : "Show sources";
+      });
+    }
+    scrollToBottom();
+  }
+
+  // --- Response rendering (researcher-facing only) ---
+  function renderText(text) {
+    // Escape first, then support a deliberately small presentational subset:
+    // line breaks plus bold/italic emphasis. No raw model HTML is trusted.
+    return escapeHtml(String(text || ""))
+      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+      .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+      .replace(/\n\n+/g, "</p><p>")
+      .replace(/\n/g, "<br>");
+  }
+
+  function renderResponse(obj) {
+    const parts = [];
+    const conclusion = obj.conclusion || obj.direct_answer || "";
+    if (conclusion) parts.push("<p>" + renderText(conclusion) + "</p>");
+
+    // Recommended next steps
+    const steps = obj.recommended_next_step || obj.recommended_next_steps || [];
+    if (steps.length) {
+      parts.push("<p><strong>Next steps:</strong></p><ol>" + steps.map(s => "<li>" + escapeHtml(s) + "</li>").join("") + "</ol>");
+    }
+
+    // Missing information
+    const missing = obj.missing_information;
+    if (missing && missing.length) {
+      parts.push("<p><strong>Information needed:</strong></p><ul>" + missing.map(m => "<li>" + escapeHtml(m) + "</li>").join("") + "</ul>");
+    }
+
+    // Limitations
+    const limitations = obj.limitations;
+    if (limitations && limitations.length) {
+      parts.push("<p style='color:var(--muted);font-size:13px;'>" + limitations.map(l => escapeHtml(l)).join("<br>") + "</p>");
+    }
+
+    // Safety warning
+    if (obj.safety && obj.safety.classification && obj.safety.classification !== "normal") {
+      const reason = obj.safety.reason || "This response requires careful interpretation.";
+      parts.push('<div class="warning-banner">' + escapeHtml(reason) + "</div>");
+    }
+
+    // Sources (expandable)
+    const evidence = obj.evidence;
+    const authority = obj.applicable_authority;
+    if ((evidence && evidence.length) || (authority && authority.length)) {
+      const srcItems = [];
+      if (authority && authority.length) {
+        authority.forEach(a => srcItems.push('<div class="source-item">' + escapeHtml(a) + "</div>"));
+      }
+      if (evidence && evidence.length) {
+        evidence.forEach(e => {
+          const id = e.evidence_id ? '<span class="source-id">' + escapeHtml(e.evidence_id) + "</span> " : "";
+          const text = e.statement || e.text || "";
+          srcItems.push('<div class="source-item">' + id + escapeHtml(text) + "</div>");
+        });
+      }
+      parts.push(
+        '<div class="sources-wrap"><button class="sources-toggle">Show sources</button>' +
+        '<div class="sources-content">' + srcItems.join("") + "</div></div>"
+      );
+    }
+
+    return parts.join("") || "<p>(No answer returned)</p>";
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, c => ({"&" : "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+  }
+
+  // --- Attachments ---
+  function renderAttachments() {
+    els.attachments.innerHTML = "";
+    attachments.forEach((att, i) => {
+      const chip = document.createElement("span");
+      chip.className = "attachment-chip" + (att.error ? " error" : "");
+      const name = escapeHtml(att.name + (att.error ? " (error)" : "") + (att.isImage ? " [image]" : ""));
+      chip.innerHTML = name + ' <span class="remove" data-index="' + i + '">&times;</span>';
+      els.attachments.append(chip);
+    });
+    els.attachments.querySelectorAll(".remove").forEach(btn => {
+      btn.addEventListener("click", e => {
+        const idx = parseInt(e.target.dataset.index, 10);
+        attachments.splice(idx, 1);
+        renderAttachments();
+      });
+    });
+  }
+
+  els.attach.addEventListener("click", () => els.fileInput.click());
+  els.fileInput.addEventListener("change", async e => {
+    for (const file of e.target.files) {
+      const isImage = file.type.startsWith("image/");
+      if (isImage) {
+        // Read image as base64 for vision analysis
+        const reader = new FileReader();
+        reader.onload = () => {
+          attachments.push({ name: file.name, type: file.type, text: "", image: reader.result, isImage: true });
+          renderAttachments();
+        };
+        reader.readAsDataURL(file);
+      } else {
+        try {
+          const text = await file.text();
+          attachments.push({ name: file.name, text: text });
+        } catch (err) {
+          attachments.push({ name: file.name, text: "", error: true });
+        }
+        renderAttachments();
+      }
+    }
+    e.target.value = "";
+  });
+
+  // --- Send ---
+  async function send() {
+    const query = els.input.value.trim();
+    if (!query || busy) return;
+    busy = true;
+    els.send.disabled = true;
+    setStatus("BioSafe is thinking...");
+    addUserTurn(query);
+    els.input.value = "";
+    autoResize();
+
+    const body = { query: query };
+    if (sessionId) body.session_id = sessionId;
+    if (attachments.length) {
+      body.documents = attachments.map(a => {
+        if (a.isImage) return { filename: a.name, content_type: a.type, text: "", image: a.image, is_image: true };
+        return { filename: a.name, text: a.text };
+      });
+    }
+
+    try {
+      const resp = await fetch(API_BASE + "/api/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!resp.ok) throw new Error("HTTP " + resp.status);
+      const data = await resp.json();
+      sessionId = data.session_id || sessionId;
+      addAssistantTurn(renderResponse(data));
+      // Clear attachments after successful send
+      attachments = [];
+      renderAttachments();
+      setStatus("");
+    } catch (err) {
+      addAssistantTurn('<div class="warning-banner">Error: ' + escapeHtml(err.message) + ". Is the BioSafe sidecar running on port 8777?</div>");
+      setStatus("Error communicating with sidecar.");
+    } finally {
+      busy = false;
+      els.send.disabled = false;
+      els.input.focus();
+    }
+  }
+
+  els.send.addEventListener("click", send);
+  els.input.addEventListener("keydown", e => {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(); }
+  });
+
+  function autoResize() {
+    els.input.style.height = "auto";
+    els.input.style.height = Math.min(els.input.scrollHeight, 120) + "px";
+  }
+  els.input.addEventListener("input", autoResize);
+
+  // --- New conversation ---
+  els.btnNew.addEventListener("click", () => {
+    sessionId = null;
+    attachments = [];
+    renderAttachments();
+    els.stream.innerHTML = "";
+    els.stream.append(els.welcome);
+    els.welcome.style.display = "";
+    setStatus("");
+    els.input.focus();
+  });
+
+  // Focus input on load
+  els.input.focus();
+})();
+  </script>
+</body>
+</html>

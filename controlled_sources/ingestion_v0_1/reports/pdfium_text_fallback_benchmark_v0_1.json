@@ -1,0 +1,87 @@
+{
+  "benchmark_version": "BioSafe_Targeted_PDFium_Text_Fallback_v0.1",
+  "pages": [
+    {
+      "document_id": "KB-MY-ACT678",
+      "pdf_page_index": 64,
+      "pdfium_characters": 0,
+      "pdfium_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "pdfium_text": "",
+      "pypdf_characters": 0,
+      "pypdf_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 26,
+      "pdfium_characters": 613,
+      "pdfium_sha256": "1c15b3351a72e05151ef0b59a493a8d2c76c9cc036334db89c0ef64c51066a76",
+      "pdfium_text": "The System of Approvals for Activities Involving LMOs 25\nTraditional Biotechnology Modern Biotechnology\nProblem:\nCrop infected by pest\nSolution:\nIntroduce GM crop\nresistant to pest\nOrganism that\nhas the gene\nto resist pest\nGene that can\nresist pest\nGene inserted\ninto crop\nPest dies\nwhen feeding\non any plant\npart\nSelective \nbreeding\nFermentation\nCross \nbreeding\nSeeds for the next generation are chosen only\nfrom individuals with the most desirable traits.\nCheese, wine and beer are fermentation\nproducts \u2013 i.e. products made of yeast.\nTaking two breeds of animal and mating them\ntogether to produce a new breed.",
+      "pypdf_characters": 74,
+      "pypdf_sha256": "e34e6059609a9195c82f134f51d5e89d618269b14ba651e31b326ec7ca7126b3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 211,
+      "pdfium_characters": 963,
+      "pdfium_sha256": "98e9ca8e88e6d3fa8e1079187aebfacc4729ed96faa70dc78f45fba8a26c2230",
+      "pdfium_text": "NBB REF NO :\n(For Office Use)\nNBB/N/CU/10/FORM E\n210\nA3 Description of the LMO\nThe information requested in the following section is required to help identify any possible hazards associated with the proposed \nactivities with the LMO. Some questions in this section may also relate to risk assessment and risk management, which are \naddressed in A4.\n(If more than one LMO is involved, then the information required in A3 should be repeated for each LMO).\nPlease fill the specific information in a tabulated form as below\nTable 1 Description of the LMO for contained use activities\nLMO Common \nand scientific \nname of \ndonor \norganism\nCommon \nand scientific \nname of \nparent \norganism\nVector(s) \nor method \nof genetic \nmodification\nClass of \nmodified trait \n(Refer to Box \n1 )\nModified trait Identity and \nfunction of \ngene(s)of \ndonor organism \nresponsible for \nthe modified \ntrait\nTarget \norganism(s) \nof the LMO \nTarget \ntissues for \ngenetic \nmodification\n1.\n2.",
+      "pypdf_characters": 274,
+      "pypdf_sha256": "9f94cf8c5d9ec519a68fc248c90ea896dc8067f4f0d7bcb6733dcccf4ebaa01c"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 15,
+      "pdfium_characters": 1516,
+      "pdfium_sha256": "6ae5bc65d7f56434280a9185d9cceee921992b73f96ba8e9ae6166c17d5e14d3",
+      "pdfium_text": "3\nSECTION\n2\nFigure 2.1 Levels of decontamination \nTable 2.1 shows the methods of decontamination to control contamination with \nbiological agents described in this monograph.\nFor a chemical method, four factors must be considered when selecting a disinfectant \nto use in the decontamination process: antimicrobial efficacy, safety, environmental \nimpact and compatibility with the material of the surface and/or laboratory \nequipment being decontaminated. The ideal disinfectant does not yet exist and \nprobably never will as it would have the following specifications:\nn rapid and efficient action on biological agents,\nn broad application range,\nn effective at the lowest concentration possible,\nn active at all temperatures,\nElimination or destruction of all viable \nbiological agents and spores\nDisinfection Elimination of viable \nbiological agents\nReduction of viable \nbiological agents Cleaning\nSterilization\nMETHODS OF\nDECONTAMINATION\nDepending on the level of decontamination that needs to be achieved, processes such \nas cleaning, disinfection or sterilization can be used (Figure 2.1). The choice and use of \na decontamination method, either chemical or physical, will depend on the application: \ndecontamination of waste, surfaces, medical devices or specimens might be achieved \nwith decontamination processes such as steam exposure or treatment with chemicals. \nThe advantages and disadvantages of the different methods must be considered in \norder to select the most appropriate decontamination method.",
+      "pypdf_characters": 2020,
+      "pypdf_sha256": "b04fa998fb99bbfb886b4127d855dbe325867fe14ec99ccf08cc123517d3ec48"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 13,
+      "pdfium_characters": 1555,
+      "pdfium_sha256": "b341ee35991fcd6aeb10974536e4f2b8b637e197ee63459c5e43be9c42fdf753",
+      "pdfium_text": "daripada proses pemerolehan kembali pelarut organik\nSW 325 Buangan resin tidak matang yang mengandungi pelarut organik atau logam berat termasuklah\nresin epoksi dan resin fenolik\nSW 326 Buangan sebatian fosforus organik\nSW 327 Buangan cecair terma (pemindahan haba) seperti glikol etilena\nSW 4 Buangan yang mungkin mengandungi sama ada juzuk tidak organik atau organik\nSW 401 Alkali terpakai yang mengandungi logam berat\nSW 402 Alkali terpakai dengan pH yang lebih daripada atau sama dengan 11.5 yang mengakis atau\nberbahaya\nSW 403 Dadah terbuang yang mengandungi bahan psikotrofik atau yang mengandungi bahan yang\nbertoksik, berbahaya, karsinogenik, mutagenik atau teratogenik\nSW 404 Buangan patogenik, buangan klinikal atau bahan yang dikuarantinkan\nSW 405 Buangan yang terhasil daripada penyediaan dan pengeluaran barangan farmaseutikal\nSW 406 Klinker, sanga dan abu dari penunu buangan terjadual\nSW 407 Buangan yang mengandungi dioksin atau furan\nSW 408 Tanah, puing atau bahan tercemar yang terhasil daripada pembersihan tumpahan bahan\nkimia, minyak mineral atau buangan terjadual\nSW 409 Bekas, beg atau kelengkapan yang dilupuskan yang dicemari dengan bahan kimia, racun\nmakhluk perosak, minyak mineral atau buangan terjadual\nSW 410 Kain buruk, plastik, kertas atau turas yang dicemari dengan buangan terjadual\nSW 411 Karbon teraktif yang terpakai tidak termasuk karbon daripada pengolahan air boleh diminum\ndan proses industri makanan dan penghasilan vitamin\nSW 412 Enap cemar yang mengandungi sianida\nSW 413 Garam terpakai yang mengandungi sianida",
+      "pypdf_characters": 1941,
+      "pypdf_sha256": "2693eabc36c85155be00ddb22ce6c29dce49b92734e4dbff89a89de531cdf63a"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 18,
+      "pdfium_characters": 255,
+      "pdfium_sha256": "63324804fcfe3cc97b87a4de4785dcdb8c5807ef7972ebcf455fa0b4f9c547de",
+      "pdfium_text": "JADUAL KETIGA\n(Peraturan 10)\nKEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL\nBAHAN LETUPAN\n(BUANGAN)\nSimbol (bom meletup): hitam; Latar Belakang: jingga lembut\nLabel 1\nCECAIR MUDAH TERBAKAR\n(BUANGAN)\nSimbol (api): hitam atau putih; Latar Belakang: merah",
+      "pypdf_characters": 633,
+      "pypdf_sha256": "e5fedb4539e7431cc017c13d316fc01d5864ae4a91f54acde4aab0674e61ebe4"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 22,
+      "pdfium_characters": 298,
+      "pdfium_sha256": "91e7127e71ddde8e7556f36ff398ed0301e149ad17a4d1ab147ae6fd41799e5b",
+      "pdfium_text": "BAHAN BERJANGKIT\n(BUANGAN)\nSimbol (tiga bulan sabit disusun menindih di atas bulatan): hitam\nLatar Belakang: putih\nLabel 9\nBAHAN MENGAKIS\n(BUANGAN)\nSimbol (cecair tertumpah dari dua bekas kaca dan mengenai tangan dan logam): hitam;\nLatar Belakang: bahagian atas putih, bahagian bawah hitam\nLabel 10",
+      "pypdf_characters": 624,
+      "pypdf_sha256": "f9fe5beca272427e0bdf19deae99f7dd2fad5aae98ddeea37ea76a8619c29ded"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 24,
+      "pdfium_characters": 1234,
+      "pdfium_sha256": "60dde63e84bfa7e598a4ccbf62d6c5083716dec9f249da5b98a699108a59fd7b",
+      "pdfium_text": "4. Teks hendaklah dicetak dalam warna hitam pada semua label kecuali apabila latar belakang label\nberwarna hitam, merah atau biru, teksnya hendaklah berwarna putih.\n5. Label-label bolehlah daripada jenis-jenis yang berikut:\n(a) pelekat;\n(b) kepingan-kepingan logam; atau\n(c) distensilkan atau dicetak di atas bekas atau bungkusan.\n6. Semua label hendaklah boleh menahan pendedahan kepada cuaca terbuka tanpa banyak\nmenjejaskan keberkesanannya.\n7. Label hendaklah diletakkan pada tempat yang mempunyai latar belakang yang warnanya berbeza.\n8. Dalam hal buangan yang boleh menyebabkan dua atau lebih bahaya, segala bahaya itu hendaklah\ndikenal pasti dengan jelas dan buangan itu hendaklah dilabelkan dengan sewajarnya.\nJADUAL KEEMPAT\n(Peraturan 2)\nBUANGAN TERJADUAL DENGAN POTENSI KETAKSERASIAN\nPencampuran suatu buangan di dalam Kumpulan A dengan suatu buangan di dalam Kumpulan B\nmungkin berpotensi mengakibatkan seperti yang berikut:\nKumpulan 1-A Kumpulan 1-B\nCecair kaustik beralkali Enap cemar asid\nPencuci beralkali Pencuci kimia\nCecair mengakis beralkali Elektrolit, asid\nAir buangan kaustik Asid, cecair atau pelarut punaran\nEnap cemar kapur dan alkali-alkali mengakis lain Likuor penjerukan dan asid mengakis lain\nAsid terpakai",
+      "pypdf_characters": 1859,
+      "pypdf_sha256": "c342564a5cfc0e4789dc918d77ec07b7264ca6ea422e67714b8e8db7961e0968"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 34,
+      "pdfium_characters": 706,
+      "pdfium_sha256": "820b69a2ea2ac3875f4dbff4b396965eab1024359e9a0874d4fbe374231534be",
+      "pdfium_text": "SENARAI PINDAAN\nUndang-undang\nyang meminda\nTajuk ringkas Berkuat kuasa\ndari\nP.U. (A) 158/2007 Peraturan-Peraturan Kualiti Alam Sekeliling\n(Buangan Terjadual) (Pindaan) 2007\n13-04-2007\nCopyrights Reserved \uf094\nAll rights reserved. No part of this publication may be reproduced, stored in retrieval system or transmitted in any form or by any means\ne\n_\nl\n_\ne\n_\nc\n_\ntr\n_\no\n_\nn\n_\nic\n_\n,\n_\nme\n_\nch\n_\na\n_\nn\n_\ni\n_\nc\n_\na\n_\nl,\n_\np\n_\nh\n_\no\n_\nt\n_\no\n_\nc\n_\no\n_\np\n_\nyi\n_\nn\n_\ng\n_\n,\n_\nre\n_\nc\n_\no\n_\nr\n_\nd\n_\nin\n_\ng a\n_\nn\n_\nd\n_\n/o\n_\nr o\n_\nth\n_\ne\n_\nr\n_\nw_\nis\n_\ne w_\nit\n_\nh\n_\no\n_\nu\n_\nt\n_\nth\n_\ne p\n_\nr\n_\nio\n_\nr\n_\np\n_\ne\n_\nr\n_\nm_\ni\n_\nss\n_\ni\n_\no\n_\nn\n_\no\n_\nf\n_\nL\n_\na\n_\nwn\n_\ne\n_\nt.\nPRODUCED BY\nLAWNET\nPERCETAKAN NASIONAL MALAYSIA BERHAD",
+      "pypdf_characters": 962,
+      "pypdf_sha256": "d04b17544520bfb086696c2d1e54e09fd93978cd556bbbc83d2db35c51b8efd0"
+    }
+  ],
+  "renderer": "pypdfium2==5.13.0"
+}

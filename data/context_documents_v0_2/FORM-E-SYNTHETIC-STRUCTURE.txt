@@ -1,0 +1,20 @@
+BIO-SAFE SYNTHETIC FORM E FIELD MAP — BENCHMARK ONLY
+This is not an official Malaysian government form. It is a structured benchmark representation
+used only to test whether BioSafe transfers proposal information conservatively.
+
+Researcher-facing fields evaluated:
+A1 Project / activity title
+A2 Applicant / principal investigator and institution
+A3 Objectives / purpose of the contained-use activity
+A4 LMO / GMM identity and characteristics, including host and inserted construct where available
+A5 Proposed activities, facility / premises, containment and risk-management information
+A6 Duration / dates, waste, transport / storage, emergency response and relevant references
+
+Benchmark drafting rule:
+- Transfer only information explicitly supported by the proposal.
+- If a relevant field is absent, insert exactly:
+  [Information not provided — confirmation required]
+- Do not invent host species, inserted sequence, containment level, facility certification,
+  risk classification, regulatory determination, approval, notification status or IBC decision.
+- BioSafe may identify possible regulatory pathways, but must not simulate an official
+  institutional or regulatory determination.

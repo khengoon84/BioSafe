@@ -1,0 +1,38 @@
+PROP-02: Research Proposal — Molecular Analysis of Archived Clinical Specimens
+Synthetic benchmark document for BioSafe evaluation. This document is fictional and deliberately contains a mixture of adequate content, ambiguity, omissions and/or statements requiring verification.
+Document metadata
+Document status: Fictional benchmark document — intentionally imperfect
+Principal Investigator: Dr. B. Lim
+Institution: Example Medical Research Centre
+Project duration: 18 months
+Proposed start: March 2027
+1. Project Title
+Molecular analysis of archived clinical specimens collected from participating healthcare facilities.
+2. Background
+The study will investigate molecular markers in archived clinical specimens to support research into disease-associated biomarkers.
+3. Objectives
+The study will extract nucleic acids from archived specimens and analyse selected molecular markers.
+4. Specimens
+Approximately 500 archived human specimens will be obtained from participating healthcare facilities. The exact specimen types vary between sites.
+5. Specimen Handling
+Specimens will be received by the research laboratory and stored under appropriate conditions. Staff will process specimens using established laboratory procedures.
+6. Biosafety
+Clinical specimens will be treated as potentially infectious. Personnel will wear gloves and laboratory coats and will use a biological safety cabinet where appropriate.
+7. Transport
+Specimens will be transferred from participating facilities to the research laboratory using an approved courier. Packaging and labelling will follow applicable requirements.
+8. Waste
+Residual specimens and contaminated consumables will be disposed of as clinical waste.
+9. Personnel
+The PI, laboratory technologist and postgraduate students will conduct the work. Staff will receive training before beginning specimen handling.
+10. Risk Assessment
+The overall risk is considered manageable because specimens are archived and the project is non-culture based. A detailed activity-specific risk assessment will be completed before the study starts.
+11. Incident Management
+Any spill, exposure or transport incident will be reported to the PI and managed according to institutional procedures.
+12. Regulatory and Ethical Considerations
+The project will obtain relevant ethics approval and comply with applicable Malaysian requirements. Specific transport, waste and specimen requirements will be confirmed before commencement.
+13. Missing Project Details
+The proposal does not specify all specimen types, infectious-status information, exact transport classification, receiving-site arrangements or detailed waste-storage arrangements.
+14. References
+Malaysia Ministry of Health guidance on transport of clinical specimens and infectious substances; institutional procedures; WHO Laboratory Biosafety Manual.
+Benchmark note
+This document is intentionally imperfect. Evaluators should assess whether a BioSafe system identifies material biosafety, regulatory, uncertainty and document-quality issues without inventing facts or claiming official approval.

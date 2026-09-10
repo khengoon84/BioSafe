@@ -1,0 +1,23 @@
+{
+  "package": "BioSafe_Stage7_3_5_EvidenceBinding_Final_v0.1",
+  "stage": "7.3.5",
+  "purpose": "Final evidence-integrity patch before Structured Document Analysis Layer v1.0 freeze.",
+  "frozen_components_unchanged": [
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2"
+  ],
+  "changes": [
+    "Normalized-profile DOC evidence prioritizes objectives, transport, waste and emergency response.",
+    "Each evidence_id is deterministically bound to its canonical registered statement.",
+    "Applicable authorities are grounded to retrieved non-user evidence authorities.",
+    "Duplicate 'activity-specific activity-specific' repair wording is cleaned."
+  ],
+  "freeze_gate_case": "PROP-002",
+  "next_after_success": "Freeze Structured Document Analysis Layer v1.0; proceed to Context Budget Manager v0.1."
+}

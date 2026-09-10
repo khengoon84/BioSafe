@@ -1,0 +1,258 @@
+[
+  {
+    "id": "E2E-001",
+    "scenario": "Routine single-document case remains on 0.8B",
+    "packet": {
+      "documents": [
+        {
+          "id": "doc1"
+        }
+      ],
+      "missing_fields": [],
+      "contradictions": []
+    },
+    "lite_result": {
+      "decision": "PASS",
+      "valid_json": true,
+      "done_reason": "stop"
+    },
+    "assembled": {
+      "conclusion": "The SOP should be revised before use.",
+      "missing_information": [],
+      "recommended_next_step": [
+        "Clarify the biosafety controls."
+      ],
+      "limitations": [
+        "This is advisory only."
+      ],
+      "applicable_authority": [],
+      "evidence": [],
+      "safety": {
+        "classification": "normal",
+        "response_mode": "answer",
+        "reason": ""
+      }
+    },
+    "evidence": [
+      {
+        "record_type": "claim",
+        "text": "Risk assessment should determine controls."
+      }
+    ],
+    "expect": {
+      "initial": "qwen3.5:0.8b",
+      "after": "qwen3.5:0.8b"
+    }
+  },
+  {
+    "id": "E2E-002",
+    "scenario": "Cross-document contradiction escalates to 2B",
+    "packet": {
+      "documents": [
+        {
+          "id": "doc1"
+        },
+        {
+          "id": "doc2"
+        }
+      ],
+      "missing_fields": [],
+      "contradictions": [
+        {
+          "field": "timeline"
+        }
+      ]
+    },
+    "lite_result": null,
+    "assembled": {
+      "conclusion": "The documents contain a timeline inconsistency.",
+      "missing_information": [],
+      "recommended_next_step": [
+        "Resolve the inconsistency before concluding."
+      ],
+      "limitations": [
+        "This is advisory only."
+      ],
+      "applicable_authority": [],
+      "evidence": [],
+      "safety": {
+        "classification": "normal",
+        "response_mode": "answer",
+        "reason": ""
+      }
+    },
+    "evidence": [],
+    "expect": {
+      "initial": "qwen3.5:2b"
+    }
+  },
+  {
+    "id": "E2E-003",
+    "scenario": "Lite failure escalates to 2B",
+    "packet": {
+      "documents": [
+        {
+          "id": "doc1"
+        }
+      ],
+      "missing_fields": [],
+      "contradictions": []
+    },
+    "lite_result": {
+      "decision": "RETRY",
+      "valid_json": false,
+      "done_reason": "length"
+    },
+    "assembled": {
+      "conclusion": "Further review is needed.",
+      "missing_information": [],
+      "recommended_next_step": [
+        "Retry with the escalation model."
+      ],
+      "limitations": [
+        "This is advisory only."
+      ],
+      "applicable_authority": [],
+      "evidence": [],
+      "safety": {
+        "classification": "normal",
+        "response_mode": "answer",
+        "reason": ""
+      }
+    },
+    "evidence": [],
+    "expect": {
+      "initial": "qwen3.5:0.8b",
+      "after": "qwen3.5:2b"
+    }
+  },
+  {
+    "id": "E2E-004",
+    "scenario": "Internal Tier terminology is removed after assembly",
+    "packet": {
+      "documents": [
+        {
+          "id": "doc1"
+        }
+      ],
+      "missing_fields": [],
+      "contradictions": []
+    },
+    "lite_result": {
+      "decision": "PASS",
+      "valid_json": true,
+      "done_reason": "stop"
+    },
+    "assembled": {
+      "conclusion": "Tier 1+2 classification is required under Malaysian law.",
+      "missing_information": [],
+      "recommended_next_step": [],
+      "limitations": [],
+      "applicable_authority": [],
+      "evidence": [],
+      "safety": {
+        "classification": "normal",
+        "response_mode": "answer",
+        "reason": ""
+      }
+    },
+    "evidence": [
+      {
+        "record_type": "claim",
+        "text": "Authoritative Malaysian biosafety guidance applies."
+      }
+    ],
+    "expect": {
+      "not_contains": [
+        "Tier 1+2"
+      ],
+      "repair": "REG_LANG_INTERNAL_TIER_REMOVED"
+    }
+  },
+  {
+    "id": "E2E-005",
+    "scenario": "Unsupported violation language is softened after assembly",
+    "packet": {
+      "documents": [
+        {
+          "id": "doc1"
+        }
+      ],
+      "missing_fields": [],
+      "contradictions": []
+    },
+    "lite_result": {
+      "decision": "PASS",
+      "valid_json": true,
+      "done_reason": "stop"
+    },
+    "assembled": {
+      "conclusion": "The SOP violates Malaysian law.",
+      "missing_information": [],
+      "recommended_next_step": [],
+      "limitations": [],
+      "applicable_authority": [],
+      "evidence": [],
+      "safety": {
+        "classification": "normal",
+        "response_mode": "answer",
+        "reason": ""
+      }
+    },
+    "evidence": [
+      {
+        "record_type": "claim",
+        "text": "Risk assessment should determine appropriate controls."
+      }
+    ],
+    "expect": {
+      "not_contains": [
+        "violates Malaysian law"
+      ],
+      "repair": "REG_LANG_UNSUPPORTED_VIOLATION_SOFTENED"
+    }
+  },
+  {
+    "id": "E2E-006",
+    "scenario": "P620/P650 are not presented as transport category",
+    "packet": {
+      "documents": [
+        {
+          "id": "doc1"
+        }
+      ],
+      "missing_fields": [],
+      "contradictions": []
+    },
+    "lite_result": {
+      "decision": "PASS",
+      "valid_json": true,
+      "done_reason": "stop"
+    },
+    "assembled": {
+      "conclusion": "Transport category P620/P650 must be confirmed.",
+      "missing_information": [],
+      "recommended_next_step": [],
+      "limitations": [],
+      "applicable_authority": [],
+      "evidence": [],
+      "safety": {
+        "classification": "normal",
+        "response_mode": "answer",
+        "reason": ""
+      }
+    },
+    "evidence": [
+      {
+        "record_type": "claim",
+        "text": "Packaging instructions depend on infectious-substance classification."
+      }
+    ],
+    "expect": {
+      "not_contains": [
+        "P620/P650"
+      ],
+      "repair": "REG_LANG_PACKAGING_NOT_CLASSIFICATION"
+    }
+  }
+]

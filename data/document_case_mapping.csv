@@ -1,0 +1,17 @@
+case_id,category,primary_document,secondary_document,mapping_rationale
+CS-006,Clinical specimens,SOP-01_Clinical_Specimen_Handling_and_Transport.txt,,Clinical specimen handling/transport SOP review.
+TR-005,Transport,SOP-01_Clinical_Specimen_Handling_and_Transport.txt,,Transport SOP gap analysis.
+CW-003,Clinical/biological waste,SOP-02_Biological_Waste_Management.txt,,Waste-management SOP review.
+SOP-001,SOP review,SOP-03_LMO_Contained_Use.txt,,Intentionally incomplete LMO SOP with safety/regulatory gaps.
+SOP-002,SOP review,SOP-03_LMO_Contained_Use.txt,,"Contains vague phrases such as 'appropriate biosafety level', 'appropriate PPE' and 'performed carefully'."
+SOP-003,SOP review,SOP-03_LMO_Contained_Use.txt,,Mixes Act/Regulations/guidance with institutional recommendations.
+SOP-004,SOP review,SOP-03_LMO_Contained_Use.txt,,Suitable for conservative rewrite while preserving unknown institutional details.
+SOP-005,SOP review,SOP-03_LMO_Contained_Use.txt,,"Contains uncertain containment, regulatory, storage and approval statements."
+PROP-001,Proposal review,PROP-03_Potentially_Infectious_Biological_Material.txt,,Broad biosafety review with infectious-material uncertainty.
+PROP-002,Proposal review,PROP-02_Clinical_Specimen_Research_Proposal.txt,,Contains strengths plus multiple prioritizable weaknesses.
+PROP-003,Proposal review,PROP-01_LMO_Research_Proposal.txt,,"Intentionally omits host/construct, scale and containment details."
+PROP-004,Proposal review,PROP-01_LMO_Research_Proposal.txt,,Tests refusal to certify compliance from an incomplete LMO proposal.
+PROP-005,Proposal review,PROP-03_Potentially_Infectious_Biological_Material.txt,,Tests evidence-grounded improvement of a biosafety management section.
+FORM-001,Form E,PROP-01_LMO_Research_Proposal.txt,FORM-E-SYNTHETIC-STRUCTURE.txt,Proposal-to-Form-E field mapping with explicit Complete/Partial/Missing status.
+FORM-002,Form E,PROP-01_LMO_Research_Proposal.txt,FORM-E-SYNTHETIC-STRUCTURE.txt,Source-only drafting with exact missing-information placeholder.
+FORM-004,Form E,PROP-01_LMO_Research_Proposal.txt,FORM-E-SYNTHETIC-COMPLETED.txt,Proposal-vs-completed-form inconsistency detection.

@@ -1,0 +1,22 @@
+{
+  "suite": "BioSafe_Qwen3.5_0.8B_Evaluation_Pack_v0.2.3",
+  "purpose": "Audit-clean metadata and document benchmark runner after successful 50-case v0.2.2 run.",
+  "model": "qwen3.5:0.8b",
+  "frozen_components": {
+    "knowledge_base": "BioSafe KB v0.2",
+    "retrieval": "CFG-02",
+    "authority_router": "Integration Authority Router v0.1",
+    "query_router": "Query Router v0.2",
+    "scope_gate": "Scope Gate v0.2.1",
+    "policy_guard": "Policy & Decision Guard v0.3.2",
+    "normalizer": "Output Normalizer v0.3.2",
+    "policy_shell": "Policy Shell Enforcer v0.3.2"
+  },
+  "model_configuration": {
+    "temperature": 0.0,
+    "think": false,
+    "50_case_num_predict": 700,
+    "document_16_case_num_predict": 900
+  },
+  "note": "The completed v0.2.2 50-case results remain analytically valid. Their component version labels were accidentally rewritten by packaging, but the runner imported the same frozen BioSafePipelineV032."
+}

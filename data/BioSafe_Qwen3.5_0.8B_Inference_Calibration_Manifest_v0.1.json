@@ -1,0 +1,32 @@
+{
+  "suite": "BioSafe_Qwen3.5_0.8B_Inference_Calibration_v0.1",
+  "model": "qwen3.5:0.8b",
+  "configs": [
+    {
+      "id": "A_default_short",
+      "think": null,
+      "num_predict": 128
+    },
+    {
+      "id": "B_default_700",
+      "think": null,
+      "num_predict": 700
+    },
+    {
+      "id": "C_no_think_700",
+      "think": false,
+      "num_predict": 700
+    },
+    {
+      "id": "D_no_think_400",
+      "think": false,
+      "num_predict": 400
+    }
+  ],
+  "prompts": [
+    "P1_json_smoke",
+    "P2_biosafe_schema_smoke"
+  ],
+  "pass_rule": "Both prompts must produce non-empty visible content, valid JSON, required keys, and done_reason other than length.",
+  "architecture_change": "None. Calibration only."
+}

@@ -1,0 +1,47 @@
+{
+  "freeze_name": "BioSafe Deployment Inference Layer v1.0",
+  "status": "FROZEN",
+  "freeze_date": "2026-09-05",
+  "components": {
+    "regulatory_language_guard": {
+      "version": "v0.1.1",
+      "status": "FROZEN",
+      "validation": {
+        "semantic_regression": "5/5 PASS",
+        "component_regression": "11/11 PASS",
+        "deployment_e2e_regression": "6/6 PASS"
+      }
+    },
+    "complexity_escalation_router": {
+      "version": "v0.1",
+      "status": "FROZEN",
+      "primary_model": "qwen3.5:0.8b",
+      "escalation_model": "qwen3.5:2b"
+    }
+  },
+  "unchanged_frozen_core": [
+    "BioSafe Structured Document Analysis Layer v1.0",
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Context Budget Manager v0.2",
+    "Deterministic Response Assembler v0.1"
+  ],
+  "runtime_policy": {
+    "default": "qwen3.5:0.8b",
+    "escalate_to_2b_when": [
+      "multiple documents are present",
+      "cross-document contradictions are detected",
+      "high missing-information load is detected",
+      "Lite returns RETRY or HARD_FAIL",
+      "Lite length exhaustion occurs",
+      "Lite output is invalid"
+    ]
+  },
+  "freeze_rule": "Do not modify these frozen components unless a future benchmark shows a reproducible architecture defect.",
+  "fine_tuning": "POSTPONED",
+  "vision": "NOT ENABLED"
+}

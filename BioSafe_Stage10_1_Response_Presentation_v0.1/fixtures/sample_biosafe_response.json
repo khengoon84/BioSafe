@@ -1,0 +1,36 @@
+{
+  "conclusion": "The organism identity is not yet confirmed. Please confirm the organism name first.",
+  "applicable_authority": [
+    "Department of Biosafety / Malaysia"
+  ],
+  "evidence": [
+    {
+      "evidence_id": "CLM-006",
+      "statement": "Notifications should be complete and without errors."
+    }
+  ],
+  "missing_information": [
+    "Confirm the organism name.",
+    "Whether the activity involves an LMO."
+  ],
+  "recommended_next_step": [
+    "Confirm the organism identity.",
+    "Clarify LMO status."
+  ],
+  "limitations": [
+    "BioSafe does not certify regulatory compliance."
+  ],
+  "safety": {
+    "classification": "caution",
+    "response_mode": "ask_before_concluding",
+    "reason": "Required trigger facts are not established."
+  },
+  "_meta": {
+    "output_validation": {
+      "decision": "PASS_WITH_WARNING"
+    },
+    "boundary_validation": {
+      "decision": "PASS"
+    }
+  }
+}

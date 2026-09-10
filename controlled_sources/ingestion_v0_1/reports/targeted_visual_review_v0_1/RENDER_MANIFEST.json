@@ -1,0 +1,1678 @@
+{
+  "purpose": "LOCAL_EXTRACTION_REVIEW_ONLY",
+  "renderer": "pypdfium2==5.13.0",
+  "renders": [
+    {
+      "document_id": "KB-MY-ACT678",
+      "pdf_page_index": 62,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-ACT678_page_062.png",
+      "rendered_sha256": "5d7248b0f46a6e7903bff25fe95d1310af788f2e4604d1a52d9d327a7c8c1409",
+      "source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc"
+    },
+    {
+      "document_id": "KB-MY-ACT678",
+      "pdf_page_index": 64,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-ACT678_page_064.png",
+      "rendered_sha256": "193e3000b36ed9d9dbc206d680260eac799b72bdc0a4bc474aa97ff200a3b117",
+      "source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc"
+    },
+    {
+      "document_id": "KB-MY-REG2010",
+      "pdf_page_index": 35,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-REG2010_page_035.png",
+      "rendered_sha256": "1c41b2e9c8c0bdae7ec0dcf335cfb3c9f2aa77b2c8d9a33a4833472690d500d9",
+      "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 1,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_001.png",
+      "rendered_sha256": "e24db6a5ed90c2e01b21dfad60fef86d430be15963677fb5ac372c1dbba9549f",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_002.png",
+      "rendered_sha256": "a1dedc2d206e4e49ac8962190ece3e98abe62d41c357ba38c7ca2fb68321278f",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 3,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_003.png",
+      "rendered_sha256": "ba48b5ae85eabc058f34e3474ee07c5438c99dba7fdb215b462019a113288337",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 4,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_004.png",
+      "rendered_sha256": "b85dc6a4784baa068c49dd5483d27add160e3dd93a982fc688e592483e69d0c4",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 5,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_005.png",
+      "rendered_sha256": "e8b2056df953ed3b1fcb7ebe98ad2e4dd91c6d7fa40d109a8211859f90eb7cfa",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 6,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_006.png",
+      "rendered_sha256": "54d5539eeb51aeab2056c660419fb7956bb416054575803a624b4b414ce99539",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 7,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_007.png",
+      "rendered_sha256": "45bdf55ffcfffe7423ff6855fe6b46c84b6cec2dfcc56d16336116971aeeddd3",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 8,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_008.png",
+      "rendered_sha256": "eb3e536dd9cdf46eb10a762f56a3a42b70544aebe3b9a4035b8ab49471997d92",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 9,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_009.png",
+      "rendered_sha256": "f0b8867d1422a9ad44304c418b1e572ba135966a7312a1a043799d54f98a577b",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 10,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_010.png",
+      "rendered_sha256": "2f922898e1169e17d51f53c90635c9a1447f2e132a7a28080012740462a1c9e6",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 11,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_011.png",
+      "rendered_sha256": "e2e2f439a02b498da7f6084e43340071fc72490b220a27b508941e91f0702365",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 12,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_012.png",
+      "rendered_sha256": "0c2a096b5974707293ac9a5eae69c41cb0b2185d749646739dc388efcc59cc4e",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 13,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_013.png",
+      "rendered_sha256": "bb5c72bd4fb9d1f24b7d7109762411cbc19a5f341346f733e397f2e6e0e5d43f",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 14,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_014.png",
+      "rendered_sha256": "7acc56c37d80a3b15c60e68f6b7ea2ce0e782290fcee9be16f397c5c7f5be9f9",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 15,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_015.png",
+      "rendered_sha256": "6f7bae2ad1e6bebb60dd9577df3b48258746b5db49ab62461942e523b7cec647",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 16,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_016.png",
+      "rendered_sha256": "940afb129c8f8ff07940feff1ab9cf8a9b89fe23dcf19784b5afe8c35c1d0f12",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 17,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_017.png",
+      "rendered_sha256": "326f455e92b60e8b3b4433632697f66f8cc497b827bc35d7ed38fe5375f75406",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 18,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_018.png",
+      "rendered_sha256": "35c1d590600a1e02c993dc1f1b3ae77f605c43ee947fd10702786bf67db8c0ef",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 19,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_019.png",
+      "rendered_sha256": "5668edf302887f959a10e1cc392f78c7c07cc838c4cfabf88b7a1c2595d70199",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 20,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_020.png",
+      "rendered_sha256": "60c77dce72869d2407fd891a21f7696c82f76df56dcaca0d35a33775f64256d6",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 21,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_021.png",
+      "rendered_sha256": "f286f3a96ecb5b112b99062ebb6f73020f908ac1b6206bbcb91af71c91a4125c",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 22,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_022.png",
+      "rendered_sha256": "d8d2851f9a697048294f9ca71710693cf9d0a79bf9d87b71667b5b66778d66f1",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 23,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_023.png",
+      "rendered_sha256": "6197a0f9ab4f27371cee03864ce01c1cfa31c50929697703c6957f429fa238ef",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 24,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_024.png",
+      "rendered_sha256": "12569725914a2761ea5edfe84e8e89a77a101855609bcaae7c99e01e56f816d1",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 25,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_025.png",
+      "rendered_sha256": "d52dd6d4075809ce099f97734961ef144ea3dcec1607be8b6847c43e52b99f5b",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 26,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_026.png",
+      "rendered_sha256": "d1c381dcacdf9748d2d396e0fa9445a338c8cbe5cb0b015df9423df261cceeae",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 27,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_027.png",
+      "rendered_sha256": "cf38c6858f5be3d88a959e15c1244d7c36e097714525fba6177f4f87614c8fde",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 28,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_028.png",
+      "rendered_sha256": "8231a336da98447619efc24d6866aec2b22681b0559da8c0ee11cd79af0307c6",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 29,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_029.png",
+      "rendered_sha256": "17d640fc639c5da54d5a4ba348c2720a4a2948adad6fc1236b2948cfd510f4e2",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 30,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_030.png",
+      "rendered_sha256": "396f6d1ff21287556eeed3f4f959e8196f5216681223e81bee840ef0dc6b0c70",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 31,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_031.png",
+      "rendered_sha256": "623e60206cee8c08d42891cd0676980f9603db2e74f2d61ee0010d364d8fe399",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 32,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_032.png",
+      "rendered_sha256": "2398ef6fb9b24b927e83c69c0c9f5faedc682d986adc0e2274e7b7bc148be607",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 33,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_033.png",
+      "rendered_sha256": "ddfeb0aa23aee86e4b9420c4712e051752261621dd8c47934e6efc194c740848",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-SW2005",
+      "pdf_page_index": 34,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-SW2005_page_034.png",
+      "rendered_sha256": "0b471e1b21086c4e03ed50ace445ae799e69c76eb532a1cb48ea03359b09052a",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 1,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_001.png",
+      "rendered_sha256": "344881bbd8c0591cb175e9dd636b70e17b2c0d727f09402ca070cbb6d725a2b6",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_002.png",
+      "rendered_sha256": "b93fc1f729bf52fe17af7375bbc5bf0990d667e930aa6a4a99676ffaaf85b34b",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 9,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_009.png",
+      "rendered_sha256": "e852bb8c6e18d77d90c1ef466fa01c6e3fdba6d8a6ab979a87117ac7ee649dbd",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 26,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_026.png",
+      "rendered_sha256": "6f13775fbab335e5e9583c4d1e4a6c63b8710a7da055082dd55d51a0f4a27286",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 29,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_029.png",
+      "rendered_sha256": "f136b17658340f7c5d2c41b8c6bddffb8bf047b0e765d35d714b3ffccc24eb31",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 44,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_044.png",
+      "rendered_sha256": "a87cd5fb4b6d795c9b2503f4bcad237383eddbe3f02a9a9df16819f1aa5aee12",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 68,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_068.png",
+      "rendered_sha256": "68fd4427031a7ad16e605cc910751e6f6ccf97a1ab11b38298d074fcafd5b070",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 87,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_087.png",
+      "rendered_sha256": "afff9c64f2defbd30826c99b2eff7986a62e2421405336412292703661b083c9",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 92,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_092.png",
+      "rendered_sha256": "add0560801a2641bdda87db7b585fe9cb3cd4526ac82b5260f94474254d2d1bb",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 97,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_097.png",
+      "rendered_sha256": "791ddc49c8c6dea3364853d0fe8f2fd7a02d6020f767b1fbaa2573144ca6d473",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 102,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_102.png",
+      "rendered_sha256": "1bea35eb7fd0aab7aeb45a104457ff2a6a860449e4d1a843980f0c79fbc4dfac",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 107,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_107.png",
+      "rendered_sha256": "4b824825783d8a5ca04eeae50617699b75fe08e4fbfbdf6e2030f16fa4743fd6",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 117,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_117.png",
+      "rendered_sha256": "ea5c00e4a53adfdbe55ce8420b38f782476406e1d5b35b9817fc4d393d99e63b",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 120,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_120.png",
+      "rendered_sha256": "5e9f4d0b056be5e24b68786700f8d59d4aae16baf7f5c5b1886c1c8e8805ccd3",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 211,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-FORME_page_211.png",
+      "rendered_sha256": "4476341dafeddcfd25b2b2fd6d2c9bcf627091c817615661f7a082f648b346b4",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 12,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_012.png",
+      "rendered_sha256": "a54bed696d800524b05d8721de2fe42e67f7be835c89db4e5b4a1ed0feb90226",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 13,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_013.png",
+      "rendered_sha256": "f8be3b74d6f2e202dd0b770cc959158a2ee091672ce2470a7ea174984131eb4e",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 15,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_015.png",
+      "rendered_sha256": "b4b1edc612cc43d9dba089e46c43dbcac09729efe4dc07eca2f723bd69cc6737",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 36,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_036.png",
+      "rendered_sha256": "440500ec79226daec9457c3990d51b31ffa4131f20aaf371829344ef273d64f7",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 37,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_037.png",
+      "rendered_sha256": "269f923f50ffb253b6578b4fab1780ebb1077ca081bf21ace1156709db2d9eb4",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 48,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_048.png",
+      "rendered_sha256": "5a82d08dc7e2318f0fe2ac9a57304d182cca923bbeaf7277322ee32e518a788d",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 49,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_049.png",
+      "rendered_sha256": "42fc2dc5a04a5660e53d723db659c9988f0c2da5448811222d9e1eaeac7356be",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 59,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_059.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 60,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_060.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 61,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_061.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 62,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DECON_page_062.png",
+      "rendered_sha256": "ed3e3023e9d7a301a796ba7d6e76414967147d5c92e24e0f92bd2819babcd8fb",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2"
+    },
+    {
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 1,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-BIOSEC_page_001.png",
+      "rendered_sha256": "f6ef040708071558676956f0b0e8896aff5e43f15ea58e44a4379e06332d06c4",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f"
+    },
+    {
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-BIOSEC_page_002.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f"
+    },
+    {
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 3,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-BIOSEC_page_003.png",
+      "rendered_sha256": "06fb835abceecf2f24499359379c321bdd5789882fe721372d560ca3dd92aab6",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f"
+    },
+    {
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 20,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-BIOSEC_page_020.png",
+      "rendered_sha256": "1f8b6d47328bf397d68748b21bd44f3961ad5cee013fa202fd2191f998d83d70",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f"
+    },
+    {
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 93,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-BIOSEC_page_093.png",
+      "rendered_sha256": "f7b2461afa277e99e4cdbd6b8d53836e43c9dfd7925f128cf6e0076bab413b92",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f"
+    },
+    {
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 109,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-BIOSEC_page_109.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 20,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_020.png",
+      "rendered_sha256": "454d450ddece5509f0d0667404c4a36af753e1e9f27652f2685cb1cacba6ca3d",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 21,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_021.png",
+      "rendered_sha256": "200e58df52bb06132d4c638fc9fb9f75d2d81738b8d0f6b271fb7916a8ec8f78",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 24,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_024.png",
+      "rendered_sha256": "c2f9028ab89b88eaa4a92563589b6507b70ca26aef5096b0d31fd1d1053d55db",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 25,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_025.png",
+      "rendered_sha256": "0f160268246e849e16e22b2e34dd346f7cc25f517b3473044322ed3af5dc0895",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 43,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_043.png",
+      "rendered_sha256": "0faf71fe4b581f05a18786b71d3a487faa38ce8de42574bf44a95d2842919fe3",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 47,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_047.png",
+      "rendered_sha256": "ffe63cd058510cb38e083adf5873cad73df55fefc4fc540c5a60f123bf7dcd70",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 68,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_068.png",
+      "rendered_sha256": "7be583c01d90831ac87e39e815b2c24c1e86730e9fdbd2adec5e61ed029fe18b",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 69,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_069.png",
+      "rendered_sha256": "c8c269c4818a1537cf24ffc88feb967d0c1a2d72605cb83eb946483523de7ccc",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 78,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_078.png",
+      "rendered_sha256": "5b87b502bb7ca3985bad9937b31ba645cef10d665900f9778b3308cb4468b264",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 79,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_079.png",
+      "rendered_sha256": "624f314ba0bd1411c7bf0f8154dd42967cdec665aea9280dfa0eaa50ecec873a",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 85,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_085.png",
+      "rendered_sha256": "9d3027679861b206eea3ffa67fba456fd0765b437e1baeeed7b5ebcb8b2886c7",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 97,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_097.png",
+      "rendered_sha256": "901efa7a052db3d6dd29dd63064f2659c2038ca892d092ec73d1cf4f20fbed2d",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 103,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_103.png",
+      "rendered_sha256": "3be55b813fe8e7047e85fb400cefa299be35fcc79735e2810601cd140092c95d",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 110,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_110.png",
+      "rendered_sha256": "e6bc6deaadbec13ba5f8213a50eb7c5e525ec4955eca06f3e095cbc70456b736",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 111,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_111.png",
+      "rendered_sha256": "d3cd7be5855411faead644126918beae705b7a3cf4a1863b618fb83779ad4aa9",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 121,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_121.png",
+      "rendered_sha256": "f513cebf37bdcb7c9a16a429147bf8be548e703b80f3618702746e0c36219eec",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 122,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_122.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 123,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_123.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4",
+      "pdf_page_index": 124,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4_page_124.png",
+      "rendered_sha256": "a7cd144c220b3c8180c119fb74759261691f24796a8009c20c7c67211bee4de6",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 12,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_012.png",
+      "rendered_sha256": "9114355f0610452caaca2141d69273f87607aca9550789dfc5d286d8769a4818",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 13,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_013.png",
+      "rendered_sha256": "921f78b0477c3546988719b1ea6319a8861c2738f17803b7e4a459bebb3d58d8",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 16,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_016.png",
+      "rendered_sha256": "fc493f5d5d4a111bf0f412aeb2810d233fa33db0181618859fc9c3a0bbad6a4c",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 17,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_017.png",
+      "rendered_sha256": "48f3c489c3ecef858828b700ea93bfa07c768db490d6da02aff7a96bb3b975f5",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 20,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_020.png",
+      "rendered_sha256": "19631b4eba052cb759f65354227e3206367616c8f80047851910169fdae7d88d",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 21,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_021.png",
+      "rendered_sha256": "da4a1ac3a8fdfa94e453b585def1cac2ce2794af65ee6e912aca7a97b79adc51",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 27,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_027.png",
+      "rendered_sha256": "1bc07ab023ca884deda4f4e493f2921ef6077d7313872c4fd99408727d384778",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 47,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_047.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 48,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_048.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 49,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_049.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-BSC",
+      "pdf_page_index": 50,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-BSC_page_050.png",
+      "rendered_sha256": "b8dd0a9b2a895cda16ff6636433a329ac920043bfd5c5469dbe4ae5ee36015fb",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 17,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_017.png",
+      "rendered_sha256": "68d0d91bf310f5426677a6d1cbee5a7186491a84684b1a3ccfdb6e6cbe6d0838",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 18,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_018.png",
+      "rendered_sha256": "eb5fd2d300269696fb89a548b5cee8de07497db848f27fe9dafa23fac53a3764",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 19,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_019.png",
+      "rendered_sha256": "2f1bf1f17bf65dbdf9c347f97e8e737ea251add5c331685722442d8179c032b0",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 21,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_021.png",
+      "rendered_sha256": "fd31153a6d380603aed8aea573aab3980c9aba644ae9ce274ee9df0ff814439d",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 28,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_028.png",
+      "rendered_sha256": "ac6befd13ac92d0be8c7d5ca87698bed36b452a392b77a14e227cebb64f6541c",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 29,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_029.png",
+      "rendered_sha256": "9e7404b13a5a2fb772b30f8db9cf94e2406e814e8e23adc56a5e32468b9ded14",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 36,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_036.png",
+      "rendered_sha256": "b5f80d27c9ef091c6eeb9f57dfe8aa71e8703bd6163e31fc6019231d47ce605a",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 37,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_037.png",
+      "rendered_sha256": "f0decfdc0d81dd7a8cc4fd5b63e98eda32c6ea697004c485db7541fc67aa2fa2",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 43,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_043.png",
+      "rendered_sha256": "2d5c7f82c8987ccc208186ed57baaadab8557f40abd05065eaf0f0730037703d",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 44,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_044.png",
+      "rendered_sha256": "0e48d4dc8ac1309088b7737fce70a41ab2d16874b6440a5ab3d55af71e1c87dc",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 45,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_045.png",
+      "rendered_sha256": "723145a03bb93ade308b79fe4793137c14cfded7eb3cd9db730c03b6cbfc4019",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 55,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_055.png",
+      "rendered_sha256": "4b06cf4eea2a14c1212ce6fb98e09181bd4adc29d6f0d2b5faff5387eb813951",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 62,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_062.png",
+      "rendered_sha256": "c52db2a6301861c34e4ead3e48adab9e92ab909c3b4ae48aa0756242f2db6043",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 63,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_063.png",
+      "rendered_sha256": "bda87555e33869c56636f567558a74e9378ad0b513bb5a7da37878e660dccc99",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 70,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_070.png",
+      "rendered_sha256": "fdae938b862469ad1b7433bb48adccf6be48a164a86d91845cd2b236412a5671",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 71,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_071.png",
+      "rendered_sha256": "751e301b56f119ab2cb1913631536275b9e502b09d64fe205cafe6c83592dec3",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 78,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_078.png",
+      "rendered_sha256": "53b680071eacfd01350549a39eb364c47b6620102c2bc3fa11956d2eb0f88098",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 79,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_079.png",
+      "rendered_sha256": "9cfa5bfd2d2b357c9f11ec9184b877404fdd975b3921042a183f13307f05a0a1",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 86,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_086.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 87,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_087.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "pdf_page_index": 88,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_088.png",
+      "rendered_sha256": "814bf39b89d48c26cad20e74fef650818c787f953a2ca07bd1db2a52a7110393",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 13,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_013.png",
+      "rendered_sha256": "2be546b2557bc0c3f4ef44e86a36fa29c1bc19df503ec7532c36da109bb13686",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 14,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_014.png",
+      "rendered_sha256": "785b9e568b352935883874f0d78e64bbadb3f64254e7f820455d20fe63a19cfd",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 15,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_015.png",
+      "rendered_sha256": "dc41610b4a138ede435423cba467f6d71a6b86339eec0babb9525524901772b0",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 19,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_019.png",
+      "rendered_sha256": "507dc08c677abc79c3fc22ec43f7820e3044996fe5b166c4544d9d870183451b",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 26,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_026.png",
+      "rendered_sha256": "a8294cdf7728f053e9a2243b6300516ab007abd18209898b3315d9475efda8fc",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 27,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_027.png",
+      "rendered_sha256": "57a042c9161e8986ae3ff30c768020fd7689a0c5804b5e9dc79bbe016bf3e1dd",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 31,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_031.png",
+      "rendered_sha256": "a0a4981812b424615a121d866a6d25a81a8dceba6aae34cd86da59ea0e824e70",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 35,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_035.png",
+      "rendered_sha256": "7eb18c9eca00b8c1107018a26de3561375caa42afffef8d282ea494ef9e12aa4",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 36,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_036.png",
+      "rendered_sha256": "255ad604bc70e631ab1fd91ef0f2c97138c0d96231c94beaa4d5de6801fbee81",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 37,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_037.png",
+      "rendered_sha256": "2317ac8d0c901efccf26a01397c2fab0567580a39e31e39430853bd8100220ea",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 38,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_038.png",
+      "rendered_sha256": "9fb1ee4b0ccf0ffa39e85469c3b550af87bc3b79f232fadb73545e2b4ab59008",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 52,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_052.png",
+      "rendered_sha256": "b95fe000b372dc3f5368f59cea64ca315125316fa9763023e5721af34f0d3593",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 53,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_053.png",
+      "rendered_sha256": "7be86598e3c6a97f3aadfc9e6173a09fb07a144ebf66b94bf24c7e08c2b99b38",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 58,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_058.png",
+      "rendered_sha256": "31c7b89d729f077e327417d51b61aeebc0e4068560b3971d940d0bad69bf7231",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 59,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_059.png",
+      "rendered_sha256": "36c10e150b299151800361bcfd7b961304bae8587ab41d196709fda07e6c027a",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 61,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_061.png",
+      "rendered_sha256": "a3f8090a8ceaffe7f0d45aef32ffeadf49110bfb8fadcb73c303e4c31e8a4e98",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 67,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_067.png",
+      "rendered_sha256": "99ab1200bd58685c33bd1d02d957ec962ee2722c8ee6b2bef3f6edca6b919fcf",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 69,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_069.png",
+      "rendered_sha256": "c759428614e56206de9b88af2d25390121a69ff3d9982ace1201ea4caf9e890c",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 78,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_078.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 79,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_079.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-OUTBREAK",
+      "pdf_page_index": 80,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-OUTBREAK_page_080.png",
+      "rendered_sha256": "f1afbf52728fd998a27babd043d1f5abd1b92138985d6d60efa4ee48f7f18682",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 16,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_016.png",
+      "rendered_sha256": "9b3111e4f4f7207ebd1291bef5dda8c0ab9bf44c258873d9e96e16150ac2360c",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 17,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_017.png",
+      "rendered_sha256": "77585dcb6d299f1e7273f814ad5b32e89d05a74f5f7d0f6b5d58e54455e02d16",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 20,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_020.png",
+      "rendered_sha256": "5e9cd335ce251d778010e11065e2b2e340aa5d56f290ed1d53f6705bc74dd36d",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 21,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_021.png",
+      "rendered_sha256": "32e4619da4d27eebed7bbddd6f5fe1483eeff51b0f1ef47a84e0f67deac2a14b",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 29,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_029.png",
+      "rendered_sha256": "76ba3353af41cf4bc1d351635197211455b93000d1dad0e7999b654d920431a4",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 32,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_032.png",
+      "rendered_sha256": "b848db608e8447244db2c9d0264022fd51833336e8cf585121cc64a571a20caa",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 33,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_033.png",
+      "rendered_sha256": "8bd58c871907ea842474b7051c3915b58ca7e4bb0ca75b4d56685803be37eff0",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 36,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_036.png",
+      "rendered_sha256": "c45a1d53877e4403410754bf554fb4cdd8acb674936f951a93df45fac73dcbf2",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 37,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_037.png",
+      "rendered_sha256": "dd34935bab4b2f6fe652626b1929f0527f925390060059d95472a7ac0f17abd3",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 39,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_039.png",
+      "rendered_sha256": "5de3d2fd4384c0fb3efd16f9c1c61396ecc0cd6d2746d054c6ee6ae9829e82dc",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 42,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_042.png",
+      "rendered_sha256": "81135314677a86943197644dee0c87f86829d9eb1083b647cb69614cd14cf929",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 44,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_044.png",
+      "rendered_sha256": "81e8ae325f88b402bbd97acb71c5678cc49ac9b6f1b24a47aa6b1a07f49c03fa",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 45,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_045.png",
+      "rendered_sha256": "43546516e890350cfb7cc462096cb02cf8c346666a98fc6a8bc864d08cee949e",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 47,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_047.png",
+      "rendered_sha256": "958f1bfd8ef0b6ae6499d9301856685aa22bd1bf4f860ea155b53bc98b987f33",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 52,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_052.png",
+      "rendered_sha256": "f5f355792123158206a824639b4b6c790243d827bd14cd9137188fba48453c57",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 53,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_053.png",
+      "rendered_sha256": "05cdd9045990f3efd28d96011c9a48037290dc214453137c99ad9bae2a1550f5",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 55,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_055.png",
+      "rendered_sha256": "d19f46e54406953d22f505da4a94d4b8bb9a6fff8a32cef8de3d3a1fc4590111",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 70,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_070.png",
+      "rendered_sha256": "a5cab0301eb5c21221d422684934fe2158ce6e5646854c572bab8a3f3b121271",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 71,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_071.png",
+      "rendered_sha256": "f59a3a1e021ca46abc1c785a34adb4cc1b3d20e58a2a99126b5f670610c15f1a",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 72,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_072.png",
+      "rendered_sha256": "0063d5df3400177f867f1f029b5eb7ddd5f860e366e152b0795434c8766618fd",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 73,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_073.png",
+      "rendered_sha256": "9f11abd0906b8d8ed49fd1119f9b308cecfff6f7c4479e65176666919b61651d",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 75,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_075.png",
+      "rendered_sha256": "4e4fd64e111338be4dc08f68b8967cb8d994a738e9100d99a20117a3bc79e772",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 80,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_080.png",
+      "rendered_sha256": "1bdbda1fbf4f9c11b243c014936ad97515f9a2b28b44cd8aaa49baeb1d321c26",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 81,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_081.png",
+      "rendered_sha256": "c45a07a9c4134b42ba1ed93c96fd2b512cb84c29a128f4df27ebc95e441ed1d4",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 93,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_093.png",
+      "rendered_sha256": "c91e7d7c0d5595caac4ba07ec337aaee97f92a855a5de399f7b994c690ef7100",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 94,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_094.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 95,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_095.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PPE",
+      "pdf_page_index": 96,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_096.png",
+      "rendered_sha256": "ce04d294365acad86e7d6ff8177367a97c568fa991bedfefb3a7f9148b2fcbb8",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 15,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_015.png",
+      "rendered_sha256": "2550807f1f500c5fe5e6cedc1f2faad4c196bc3415c0bc0dcf5eb8d100b36972",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 16,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_016.png",
+      "rendered_sha256": "580a77c893ad43751b9fbbebaf5f38cf37e7a5dae191b5a562dbd9a338556f6f",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 17,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_017.png",
+      "rendered_sha256": "cd3b36df6103c8410d22266b3f56bfda106b90591f6ed80d6962213c6d7a766a",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 19,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_019.png",
+      "rendered_sha256": "2ad007fd3970a452b284a5ae4830c93f470ef74125572f6c8e2fbc394684d7a2",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 20,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_020.png",
+      "rendered_sha256": "cacc68aa3328c1661dc25ee24aa374b87b07a35825dbe128d1686303aadcee5d",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 21,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_021.png",
+      "rendered_sha256": "89dffa693530b9df0205be7ab100ee7b1c2f49a642c2175eceb3c9bab4f59df0",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 23,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_023.png",
+      "rendered_sha256": "3ca6439fae34f2ea3ec93dc21a36034ee58a9fbca4a516f13a822853e8a6faff",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 27,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_027.png",
+      "rendered_sha256": "7a1518c4a42d6b63f13ba48049043b479fb82514251f655662b501ef78afebdc",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 42,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_042.png",
+      "rendered_sha256": "e99f23808ca3a79e18666f818046d50e1f45ff20a8d00a054705c7c1bb834d49",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 56,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_056.png",
+      "rendered_sha256": "3b92b204753b3dd702449b21808126f9c15879ec5329fba386921726033ea7d4",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 58,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_058.png",
+      "rendered_sha256": "444a0826edb0e18e29a6f1a0f8ff73e6bc2cc1f0e3f5d6865c583d365853b3fe",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 68,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_068.png",
+      "rendered_sha256": "bb2e2519f87fb5718858fd612dae6f4fb5d07ba2c9775c017012083eecebdc25",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 80,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_080.png",
+      "rendered_sha256": "a9158e76875daaaa4784661371eedfd2db202591790ed6ee9d7fdea264df001a",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 96,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_096.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 97,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_097.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-PROG",
+      "pdf_page_index": 98,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_098.png",
+      "rendered_sha256": "5ed07c1f0f7183ba292d52875930dafb7baeba427114187bbc52e7791dfbd209",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 2,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_002.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 14,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_014.png",
+      "rendered_sha256": "37c172bb3274534646df5fa5d4234f948864711622f9836c9292dab4adf00b3c",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 15,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_015.png",
+      "rendered_sha256": "758f125d82e8fbae4a9d27e0d7b35dbd65b1108f8175ce7f63fa78a1e309cf2a",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 19,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_019.png",
+      "rendered_sha256": "af48f249a6cebcfeb4d31a037d12236b4ac2194c9fafe8ef3672ac05704616b1",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 27,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_027.png",
+      "rendered_sha256": "94ba44e8d2141212cad2e42bee42952d971152966c6d1723f498b91f034a8a73",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 28,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_028.png",
+      "rendered_sha256": "092207abd6ece4b1dc62a0ebcd1bd541f862997b4583aa79089209b785cb646d",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 38,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_038.png",
+      "rendered_sha256": "be668df0870b11998aba0cf6108604693d53345f486102e4c729893922a6aa0b",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 39,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_039.png",
+      "rendered_sha256": "798df2baa5de8f8e96b8656dea51af6b1b7f54415003c5f0ec55101a4095ff8c",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 129,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_129.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 130,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_130.png",
+      "rendered_sha256": "0c9adf0f0678871b4ed1a0ad8deb714b82370dd738c7e8476026232d1663488b",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 131,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_131.png",
+      "rendered_sha256": "148c16a546f6c798090cbf002da26ab32c32a8d83f2de3310720d7da91631316",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-WHO-LBM4-RA",
+      "pdf_page_index": 132,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-WHO-LBM4-RA_page_132.png",
+      "rendered_sha256": "c1bac1284e045c95a080de176e0a82e67ee36d740b544f76ef336e39c9112197",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198"
+    },
+    {
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 1,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-GMMRA_page_001.png",
+      "rendered_sha256": "19f59c93959aa384765f83156e3ddd66366da45c961c75aecb808a10f7744583",
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6"
+    },
+    {
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 42,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-GMMRA_page_042.png",
+      "rendered_sha256": "895251d8f4c044253cb1f3cf709fa925eabe956bb2952210ed66350cf1bbce3c",
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6"
+    },
+    {
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 175,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-GMMRA_page_175.png",
+      "rendered_sha256": "ff76719d19a92c247041d3361a2d7433cc8cc628759af170d55f6cbcf5b82417",
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6"
+    },
+    {
+      "document_id": "KB-MY-TRANSPORT2023",
+      "pdf_page_index": 1,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-TRANSPORT2023_page_001.png",
+      "rendered_sha256": "454565b475656946ef2d3cf3493a18cfd7b7fc30edc75922227deb587ee8efe0",
+      "source_sha256": "5556604a5812a2f1a2b7a30600bf097c9d40d588e449b46ef643ff8aad727088"
+    },
+    {
+      "document_id": "KB-MY-CU",
+      "pdf_page_index": 1,
+      "render_scale": 1.5,
+      "rendered_filename": "KB-MY-CU_page_001.png",
+      "rendered_sha256": "ccbfa70664edb04e1c2c28ede86fb5a0dcc1ac77e050cf55ec6f6dafba01c497",
+      "source_sha256": "164839a62dd6a875b8590307db4f74a4dcebdb4ffbd2e4f34179e8d3279242bf"
+    }
+  ]
+}

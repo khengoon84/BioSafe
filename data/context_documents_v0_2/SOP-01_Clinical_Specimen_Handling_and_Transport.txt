@@ -1,0 +1,32 @@
+SOP-01: Clinical Specimen Handling and Transport
+Synthetic benchmark document for BioSafe evaluation. This document is fictional and deliberately contains a mixture of adequate content, ambiguity, omissions and/or statements requiring verification.
+Document metadata
+Document status: Fictional benchmark document — intentionally imperfect
+Version: 0.9
+Effective date: To be confirmed
+Owner: Research Laboratory
+Review date: Not specified
+1. Purpose
+This SOP describes the receipt, temporary storage, handling, packaging and internal transfer of clinical specimens received by the Research Laboratory for research purposes.
+2. Scope
+This procedure applies to staff and students who handle human clinical specimens that may contain infectious agents. It covers receipt, processing and transfer to another laboratory.
+3. Responsibilities
+All personnel are responsible for handling specimens carefully and wearing appropriate PPE. The laboratory manager oversees the procedure.
+4. Specimen Receipt
+Specimens should be checked when received. If a package appears damaged, staff should handle it carefully and inform the laboratory manager.
+5. Risk Assessment
+Specimens are considered potentially infectious and should be handled at an appropriate biosafety level. The laboratory will follow relevant biosafety requirements.
+6. PPE and Work Practices
+Laboratory coats, gloves and eye protection should be used as appropriate. Personnel should follow good microbiological practice and avoid unnecessary exposure.
+7. Packaging and Internal Transfer
+Specimens transferred to another laboratory must be placed in suitable leak-proof packaging and labelled appropriately. The receiving laboratory should be informed before transfer.
+8. Spill or Exposure Incident
+Any spill or exposure should be reported immediately. The area should be cleaned and disinfected using an appropriate method.
+9. Waste
+Used materials should be disposed of as clinical waste according to laboratory practice.
+10. Training and Records
+Personnel should receive appropriate training. Records should be maintained by the laboratory manager.
+11. References
+WHO Laboratory Biosafety Manual. Malaysian guidance should be followed where applicable.
+Benchmark note
+This document is intentionally imperfect. Evaluators should assess whether a BioSafe system identifies material biosafety, regulatory, uncertainty and document-quality issues without inventing facts or claiming official approval.

@@ -1,0 +1,12 @@
+{
+  "host_organism": "organism_identity",
+  "organism_or_material": "organism_identity",
+  "organism_identity": "organism_identity",
+  "insert_or_construct": "construct_identity",
+  "construct_or_insert": "construct_identity",
+  "vector_backbone": "vector_backbone",
+  "containment_or_facility": "containment",
+  "facility_or_containment": "containment",
+  "containment": "containment",
+  "waste_decontamination": "waste_decontamination"
+}

@@ -1,0 +1,171 @@
+{
+  "benchmark_version": "BioSafe_CFF_FontTools_Comparison_v0.1",
+  "comparisons": [
+    {
+      "after_characters": 10288,
+      "after_excerpt": "95\n\n\n            infection, generating early proteins from four major regions, E1, E2,\n            E3 and E4 (see Figure 4). The E1 promoter directs expression of the\n            E1 proteins, E1A and E1B that subvert the cellular environment and\n            control transcription of the other early genes. E1A disrupts cell-\n            cycle regulation by binding to key regulators of transcription and\n            mitosis. This results in the expression of the pro-apoptotic factors,\n            in",
+      "before_characters": 10288,
+      "before_excerpt": "95\n\n\n            infection, generating early proteins from four major regions, E1, E2,\n            E3 and E4 (see Figure 4). The E1 promoter directs expression of the\n            E1 proteins, E1A and E1B that subvert the cellular environment and\n            control transcription of the other early genes. E1A disrupts cell-\n            cycle regulation by binding to key regulators of transcription and\n            mitosis. This results in the expression of the pro-apoptotic factors,\n            in",
+      "character_delta": 0,
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 95,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 13392,
+      "after_excerpt": "110\n\n\n                                                                                                                            the sensory neural ganglia associated with the infected peripheral\n                                                                                                                            nerves and following reactivation, virions are transported along the\n                                                                                                              ",
+      "before_characters": 13392,
+      "before_excerpt": "110\n\n\n                                                                                                                            the sensory neural ganglia associated with the infected peripheral\n                                                                                                                            nerves and following reactivation, virions are transported along the\n                                                                                                              ",
+      "character_delta": 0,
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 110,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 13190,
+      "after_excerpt": "132\n\n\nALPH                             ARETROV                                                                                IR       AL  PROV                                  IRUS                                                        (A       LV) LTR     U3                         U5 R \u03c8                                                                  LTR     U3                         U5 R\n                                                                                                       ",
+      "before_characters": 13190,
+      "before_excerpt": "132\n\n\nALPH                             ARETROV                                                                                IR       AL  PROV                                  IRUS                                                        (A       LV) LTR     U3                         U5 R \u03c8                                                                  LTR     U3                         U5 R\n                                                                                                       ",
+      "character_delta": 0,
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 132,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 14091,
+      "after_excerpt": "144\n\n\n                                                                 NEG                                             ATIV                             E-STRA                                          ND                         RN                       A  VIRUSE                                                                             S NON-SEGMENTED G                                                                                                                                                 ",
+      "before_characters": 14091,
+      "before_excerpt": "144\n\n\n                                                                 NEG                                             ATIV                             E-STRA                                          ND                         RN                       A  VIRUSE                                                                             S NON-SEGMENTED G                                                                                                                                                 ",
+      "character_delta": 0,
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 144,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 7606,
+      "after_excerpt": "146\n\n\n                                           virions generating viable but defective GM virus vectors that can\n                                           be used to deliver and express a therapeutic gene to a target cell\n                                           (see Figure 10).\n                              13.4                                                                                                     RISK A SSESSMENT FOR HUMAN HEALTH\n                              13.4.1          ",
+      "before_characters": 7606,
+      "before_excerpt": "146\n\n\n                                           virions generating viable but defective GM virus vectors that can\n                                           be used to deliver and express a therapeutic gene to a target cell\n                                           (see Figure 10).\n                              13.4                                                                                                     RISK A SSESSMENT FOR HUMAN HEALTH\n                              13.4.1          ",
+      "character_delta": 0,
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 146,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 6573,
+      "after_excerpt": "157\n\n\n          FLA                                     VIV         IRID                                           AE\n\n\n          GENO                    M E                                      5\u0384                                                                  Structu                                          ral                                                                                                                                         No                    n-struct                  ",
+      "before_characters": 6573,
+      "before_excerpt": "157\n\n\n          FLA                                     VIV         IRID                                           AE\n\n\n          GENO                    M E                                      5\u0384                                                                  Structu                                          ral                                                                                                                                         No                    n-struct                  ",
+      "character_delta": 0,
+      "document_id": "KB-MY-GMMRA",
+      "pdf_page_index": 157,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 74,
+      "after_excerpt": "The System of Approvals for Activities Involving LMOs                 2  5",
+      "before_characters": 74,
+      "before_excerpt": "The System of Approvals for Activities Involving LMOs                 2  5",
+      "character_delta": 0,
+      "document_id": "KB-MY-FORME",
+      "pdf_page_index": 26,
+      "text_changed": false,
+      "warnings_after": [
+        "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE"
+      ],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS",
+        "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE"
+      ]
+    },
+    {
+      "after_characters": 3590,
+      "after_excerpt": "Risk as ses sment\n                                                                          Pr og r amm e\n                                                                         manage me nt\n                            B iosafet y                               Inventor  y control                                 Biosecurit y\n             Per sonal protec tive                                    Acce s s re s tr ic tion                            Infor mation s e cur it  y\n                        ",
+      "before_characters": 3590,
+      "before_excerpt": "Risk as ses sment\n                                                                          Pr og r amm e\n                                                                         manage me nt\n                            B iosafet y                               Inventor  y control                                 Biosecurit y\n             Per sonal protec tive                                    Acce s s re s tr ic tion                            Infor mation s e cur it  y\n                        ",
+      "character_delta": 0,
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 22,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 1722,
+      "after_excerpt": "infor mationGather\n\n\n                             Review risk s and risk control measures                Evaluate the risk s\n\n\n                                    Selec t and implementrisk control measuresrisk control s trateg  yDevelop a\n\n\n                                Fig. 5.1 . Biosafet y risk assessment framework\n\n\n5 .6  Biosecurit  y risk as ses sment s teps\nBased on the above -mentioned framework (Fig 5.1), an appointed team could per  form a risk\nas ses sment for biosecurit  y-relevant ",
+      "before_characters": 1722,
+      "before_excerpt": "infor mationGather\n\n\n                             Review risk s and risk control measures                Evaluate the risk s\n\n\n                                    Selec t and implementrisk control measuresrisk control s trateg  yDevelop a\n\n\n                                Fig. 5.1 . Biosafet y risk assessment framework\n\n\n5 .6  Biosecurit  y risk as ses sment s teps\nBased on the above -mentioned framework (Fig 5.1), an appointed team could per  form a risk\nas ses sment for biosecurit  y-relevant ",
+      "character_delta": 0,
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 43,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 4624,
+      "after_excerpt": "Regulator  y level                                               K nowle dge e xchange, K nowle dge e xchange,               Ins titutional level\n   (independent regulator)                                              regular fe e dbackregular fe e dback                    (IBC , BSO, PI)\n   \u2022                           def ine                                                                                          \u2022                           review of local risk as ses sment s\n       hig h -  co",
+      "before_characters": 4624,
+      "before_excerpt": "Regulator  y level                                               K nowle dge e xchange, K nowle dge e xchange,               Ins titutional level\n   (independent regulator)                                              regular fe e dbackregular fe e dback                    (IBC , BSO, PI)\n   \u2022                           def ine                                                                                          \u2022                           review of local risk as ses sment s\n       hig h -  co",
+      "character_delta": 0,
+      "document_id": "KB-WHO-BIOSEC",
+      "pdf_page_index": 67,
+      "text_changed": false,
+      "warnings_after": [],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS"
+      ]
+    },
+    {
+      "after_characters": 2020,
+      "after_excerpt": "3\n\n\nMETHODS OF\nDECONTAMINATION2\n\n\nDepending on the level of decontamination that needs to be achieved, processes such\nas cleaning, disinfection or sterilization can be used (Figure 2.1). The choice and use of\na decontamination method, either chemical or physical, will depend on the application:\ndecontamination of waste, surfaces, medical devices or specimens might be achieved\nwith decontamination processes such as steam exposure or treatment with chemicals.\nThe advantages and disadvantages of th",
+      "before_characters": 2020,
+      "before_excerpt": "3\n\n\nMETHODS OF\nDECONTAMINATION2\n\n\nDepending on the level of decontamination that needs to be achieved, processes such\nas cleaning, disinfection or sterilization can be used (Figure 2.1). The choice and use of\na decontamination method, either chemical or physical, will depend on the application:\ndecontamination of waste, surfaces, medical devices or specimens might be achieved\nwith decontamination processes such as steam exposure or treatment with chemicals.\nThe advantages and disadvantages of th",
+      "character_delta": 0,
+      "document_id": "KB-WHO-LBM4-DECON",
+      "pdf_page_index": 15,
+      "text_changed": false,
+      "warnings_after": [
+        "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE"
+      ],
+      "warnings_before": [
+        "FONT_ENCODING_CFF_REQUIRES_FONTTOOLS",
+        "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE"
+      ]
+    }
+  ],
+  "fonttools_version": "4.64.0",
+  "pages_tested": 11,
+  "pages_with_cff_warning_after": 0,
+  "pages_with_cff_warning_before": 11,
+  "pages_with_text_changes": 0,
+  "total_character_delta": 0
+}

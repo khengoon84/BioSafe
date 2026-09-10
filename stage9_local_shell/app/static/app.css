@@ -1,0 +1,25 @@
+
+:root { font-family: Inter, ui-sans-serif, system-ui, sans-serif; color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f5f7f8; color: #17202a; }
+.shell { max-width: 1100px; margin: 0 auto; padding: 32px 20px 56px; }
+header { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:28px; }
+.eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:700; color:#607080; }
+h1 { margin:.2rem 0 .5rem; font-size:clamp(2rem,4vw,3.6rem); line-height:1; }
+.sub { margin:0; color:#5d6975; max-width:700px; }
+.badge { border:1px solid #aab4bd; border-radius:999px; padding:8px 12px; font-size:12px; font-weight:700; }
+.tabs { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:16px; }
+.tab { background:white; border:1px solid #d8dee3; }
+.tab.active { background:#17202a; color:white; border-color:#17202a; }
+.panel,.result { background:white; border:1px solid #dde3e8; border-radius:16px; padding:22px; box-shadow:0 6px 24px rgba(30,40,50,.04); }
+.panel { display:none; }
+.panel.active { display:block; }
+textarea { width:100%; min-height:150px; resize:vertical; padding:14px; border:1px solid #ccd5dc; border-radius:10px; font:inherit; margin:10px 0 14px; }
+input[type=file] { margin:10px 0 4px; }
+button { cursor:pointer; border:0; border-radius:10px; padding:11px 16px; font-weight:650; }
+.panel > button { background:#17202a; color:white; }
+.result { margin-top:18px; }
+.result-head { display:flex; justify-content:space-between; align-items:center; }
+#status { font-size:13px; color:#64717d; }
+pre { white-space:pre-wrap; overflow-wrap:anywhere; background:#f7f9fa; border-radius:12px; padding:16px; min-height:180px; }
+.hint { color:#697783; font-size:13px; }

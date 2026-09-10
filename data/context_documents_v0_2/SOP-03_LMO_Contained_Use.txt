@@ -1,0 +1,34 @@
+SOP-03: Contained-Use Activities Involving a Genetically Modified Microorganism
+Synthetic benchmark document for BioSafe evaluation. This document is fictional and deliberately contains a mixture of adequate content, ambiguity, omissions and/or statements requiring verification.
+Document metadata
+Document status: Fictional benchmark document — intentionally imperfect
+Version: 0.8 draft
+Effective date: Pending approval
+Owner: Molecular Biotechnology Laboratory
+Review date: Not specified
+1. Purpose
+This SOP describes routine laboratory work involving a genetically modified microorganism (GMM) used for research.
+2. Scope
+It applies to researchers working with the GMM in the laboratory and covers culture, experimental manipulation, storage and waste.
+3. Project Information
+The GMM contains a recombinant construct used to study protein expression. The exact inserted sequence and host characteristics are described in the research proposal.
+4. Biosafety Oversight
+The Principal Investigator is responsible for ensuring that the project complies with applicable biosafety requirements. The work will be performed at the appropriate biosafety level.
+5. Risk Assessment
+The project has been assessed as low risk because the work is contained and the microorganism is used only in small quantities.
+6. Access and Security
+Only laboratory personnel should enter the laboratory. Samples are stored in the laboratory refrigerator.
+7. Laboratory Practices
+Personnel must follow standard microbiological practices and use appropriate PPE. Procedures should be performed carefully.
+8. Waste
+GMM cultures and contaminated materials should be inactivated before disposal. Waste should then be disposed of according to institutional procedures.
+9. Transport and Storage
+The GMM may be moved between rooms in sealed containers. Storage containers should be labelled.
+10. Incidents
+Any accident, spill or loss of material should be reported to the Principal Investigator.
+11. Documentation
+Relevant approvals and records should be maintained by the laboratory.
+12. References
+Biosafety Act 2007 (Act 678); Biosafety (Approval and Notification) Regulations 2010; Malaysian contained-use biosafety guidance; WHO Laboratory Biosafety Manual.
+Benchmark note
+This document is intentionally imperfect. Evaluators should assess whether a BioSafe system identifies material biosafety, regulatory, uncertainty and document-quality issues without inventing facts or claiming official approval.

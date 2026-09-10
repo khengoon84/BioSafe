@@ -1,0 +1,46 @@
+{
+  "suite": "BioSafe_Regulatory_Language_Guard_Semantic_Regression_v0.1.1",
+  "cases": 5,
+  "passed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "id": "RLG-SEM-001",
+      "pass": true,
+      "conclusion": "The applicable regulatory requirements should be determined from the authoritative Malaysian sources relevant to this activity.",
+      "repairs": [
+        "REG_LANG_INTERNAL_TIER_REMOVED"
+      ]
+    },
+    {
+      "id": "RLG-SEM-002",
+      "pass": true,
+      "conclusion": "The SOP may have a regulatory gap that requires verification against the applicable Malaysian requirements.",
+      "repairs": [
+        "REG_LANG_UNSUPPORTED_VIOLATION_SOFTENED"
+      ]
+    },
+    {
+      "id": "RLG-SEM-003",
+      "pass": true,
+      "conclusion": "The infectious-substance classification should be determined before selecting the applicable packaging instruction.",
+      "repairs": [
+        "REG_LANG_PACKAGING_NOT_CLASSIFICATION"
+      ]
+    },
+    {
+      "id": "RLG-SEM-004",
+      "pass": true,
+      "conclusion": "The applicable regulatory pathway should be verified against the relevant authoritative Malaysian requirements before proceeding.",
+      "repairs": [
+        "REG_LANG_UNSUPPORTED_APPROVAL_SOFTENED"
+      ]
+    },
+    {
+      "id": "RLG-SEM-005",
+      "pass": true,
+      "conclusion": "The activity may contravene the stated prohibition.",
+      "repairs": []
+    }
+  ]
+}

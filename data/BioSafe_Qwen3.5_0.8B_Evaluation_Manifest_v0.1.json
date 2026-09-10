@@ -1,0 +1,27 @@
+{
+  "evaluation_id": "BioSafe_Qwen3.5_0.8B_Evaluation_v0.1",
+  "candidate_model": "qwen3.5:0.8b",
+  "role": "challenger",
+  "comparators": ["qwen3:0.6b", "qwen3:1.7b"],
+  "frozen_components": [
+    "BioSafe KB v0.2",
+    "CFG-02 retrieval",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2",
+    "Output Validator",
+    "Boundary Validator"
+  ],
+  "experiments": [
+    {"name":"50-case challenger", "num_predict":700, "temperature":0.0, "modality":"text-only"},
+    {"name":"16-case context-aware document challenger", "num_predict":900, "temperature":0.0, "modality":"text-only"}
+  ],
+  "priority_manual_review_cases": [
+    "BS-005", "BS-008", "MY-002", "MY-004", "CS-005", "TR-001", "CW-002",
+    "SOP-002", "PROP-003", "FORM-004"
+  ],
+  "decision_rule": "Do not promote or replace an existing model from automated PASS counts alone. Compare substantive manual audit, latency, JSON reliability, repairs, boundary failures and document reasoning."
+}

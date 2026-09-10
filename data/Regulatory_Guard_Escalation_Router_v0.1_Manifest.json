@@ -1,0 +1,35 @@
+{
+  "package": "BioSafe Regulatory Language Guard v0.1 + Complexity/Escalation Router v0.1",
+  "status": "deployment-oriented integration candidate",
+  "model_policy": {
+    "primary": "qwen3.5:0.8b",
+    "escalation": "qwen3.5:2b"
+  },
+  "frozen_components_unchanged": [
+    "BioSafe Structured Document Analysis Layer v1.0",
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Context Budget Manager v0.2",
+    "Deterministic Response Assembler v0.1"
+  ],
+  "regulatory_guard_rules": [
+    "Prevent internal Tier 1/Tier 2 terminology from becoming regulatory terminology",
+    "Prevent P620/P650 from being represented as transport classification",
+    "Soften unsupported legal violation/non-compliance conclusions",
+    "Soften unsupported formal regulatory approval requirements"
+  ],
+  "escalation_signals": [
+    "multiple documents",
+    "cross-document contradiction",
+    "high missing-information load",
+    "Lite RETRY/HARD_FAIL",
+    "Lite length exhaustion",
+    "Lite invalid output"
+  ],
+  "fine_tuning": "postponed",
+  "vision": "not enabled"
+}

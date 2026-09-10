@@ -1,0 +1,9 @@
+{
+  "stage": "Unified-2.2.1",
+  "version": "0.1",
+  "architectural_invariant": "Retrieve evidence according to the decision being made, not merely because a knowledge base exists.",
+  "frozen_core_modified": false,
+  "experimental_port": 8770,
+  "acceptance": "planner contract + A/B hard assertions + mandatory human wording review",
+  "note": "v0.1 defines retrieval plans and fixes no-RAG product help; source-family filtering remains subsequent increment."
+}

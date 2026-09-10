@@ -1,0 +1,38 @@
+PROP-03: Research Proposal — Laboratory Study Using Potentially Infectious Biological Material
+Synthetic benchmark document for BioSafe evaluation. This document is fictional and deliberately contains a mixture of adequate content, ambiguity, omissions and/or statements requiring verification.
+Document metadata
+Document status: Fictional benchmark document — intentionally imperfect
+Principal Investigator: Dr. C. Tan
+Institution: Example Biomedical Institute
+Project duration: 12 months
+Proposed start: February 2027
+1. Project Title
+Laboratory investigation of host responses to potentially infectious biological material.
+2. Background
+The project aims to investigate host responses to biological material obtained from diagnostic laboratory sources.
+3. Objectives
+The project will characterise selected host-response markers and compare results across specimen groups.
+4. Biological Material
+The material consists of clinical-derived samples that may contain infectious agents. The exact agents present are not known at the time of receipt.
+5. Activities
+Samples will be received, aliquoted and subjected to molecular analysis. No propagation of infectious agents is planned.
+6. Facility and Equipment
+Work will take place in the Biomedical Research Laboratory. A biological safety cabinet is available. Other facility specifications are not provided in this proposal.
+7. Risk Assessment
+The project is considered low risk because infectious agents will not intentionally be cultured. Standard PPE and careful handling will be used.
+8. Waste
+Waste will be placed in designated biological-waste containers and collected by the institution.
+9. Transport
+Samples will be transported from diagnostic laboratories to the research facility. The proposal does not specify the transport classification or packaging arrangement.
+10. Personnel
+The PI, one research officer and two students will perform the work. Training requirements are not described.
+11. Emergency Response
+Laboratory incidents will be reported to the laboratory manager. A separate emergency procedure is available but is not attached to this proposal.
+12. Biosafety Oversight
+The project will undergo institutional biosafety review before commencement.
+13. Key Missing Information
+The proposal does not specify the likely infectious hazards, specimen classification, containment determination, detailed exposure assessment, transport packaging, receiving arrangements, waste-storage conditions or training competencies.
+14. References
+WHO Laboratory Biosafety Manual; relevant Malaysian Ministry of Health transport guidance; institutional biosafety procedures.
+Benchmark note
+This document is intentionally imperfect. Evaluators should assess whether a BioSafe system identifies material biosafety, regulatory, uncertainty and document-quality issues without inventing facts or claiming official approval.

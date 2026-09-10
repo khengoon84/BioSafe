@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": {
+    "vague_statement_detection": "PASS",
+    "prop01_host_missing": "PASS",
+    "prop01_construct_missing": "PASS",
+    "form004_project_title_difference": "PASS",
+    "form004_project_duration_difference": "PASS",
+    "form004_host_value_unsupported_by_proposal": "PASS",
+    "form004_construct_value_unsupported_by_proposal": "PASS",
+    "form004_culture_scale_unsupported_by_proposal": "PASS",
+    "form004_containment_unsupported_by_proposal": "PASS",
+    "form004_transport_possible_conflict": "PASS",
+    "same_institution_not_flagged": "PASS",
+    "same_proposed_start_not_flagged": "PASS"
+  },
+  "note": "Preflight uses the unchanged BioSafe Context-Aware Document Benchmark v0.2 synthetic documents."
+}

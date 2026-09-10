@@ -1,0 +1,41 @@
+Script started on 2026-09-06 20:27:28+08:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="124" LINES="36"]
+[?2004h]0;khengoon@DESKTOP-73K09I6: ~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[00m$ [7mls scripts[27mls scripts
+[?2004linstall_cra8_4_1_v0_1.py                  run_cra8_4_1_sidecar_v0_1.py
+install_cra8_4_1_v0_1.py:Zone.Identifier  run_cra8_4_1_sidecar_v0_1.py:Zone.Identifier
+[?2004h]0;khengoon@DESKTOP-73K09I6: ~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[00m$ [7mpython scripts/insta[27m[7ml[27m[7ml_cra8_4_1_v0_1.py[27m[A]0;khengoon@DESKTOP-73K09I6: ~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[00m$ python scripts/install_cra8_4_1_v0_1.py
+[?2004lBioSafe CRA-8.4.1 Conversational Quality Integration Correction v0.1: INSTALLED
+Frozen inference/RAG modified: NO
+Port remains: 8767
+Restart corrected sidecar to activate CRA-8.4.1.
+[?2004h]0;khengoon@DESKTOP-73K09I6: ~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe/BioSafe_CRA8_4_1_Conversational_Quality_Integration_Correction_v0.1[00m$ cd ..
+[?2004l[?2004h]0;khengoon@DESKTOP-73K09I6: ~/biosafe[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe[00m$ [7mcurl http://127.0.0.1:8767/health[27mcurl http://127.0.0.1:8767/health
+[?2004l{"architecture":"CRA-v1","bridge":"CRA-8.4.1-v0.1","live_ui_modified":false,"port":8767,"sessions":0,"status":"ok"}
+[?2004h]0;khengoon@DESKTOP-73K09I6: ~/biosafe[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe[00m$ [7mls /home/khengoon/biosafe/cra_v1/tests/*8_4_1*[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /home/khengoon/biosafe/cra_v1/tests/*8_4_1*
+[?2004l/home/khengoon/biosafe/cra_v1/tests/live_regression_cra8_4_1_v0_1.py
+[?2004h]0;khengoon@DESKTOP-73K09I6: ~/biosafe[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe[00m$ [7m/home/khengoon/biosafe/.venv/bin/python \[27m
+[7m/home/khengoon/biosafe/cra_v1/tests/live_regression_cra8_4_1_v0_1.py[27m[A/home/khengoon/biosafe/.venv/bin/python \
+/home/khengoon/biosafe/cra_v1/tests/live_regression_cra8_4_1_v0_1.py
+[?2004lidentity PASS
+definitions PASS
+applicability PASS
+entity_typo PASS
+elaboration PASS
+CRA-8.4.1 live regression: 5/5 PASS
+[?2004h]0;khengoon@DESKTOP-73K09I6: ~/biosafe[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe[00m$ [7msource .venv/bin/activate[27msource .venv/bin/activate
+[?2004l[?2004h(.venv) ]0;khengoon@DESKTOP-73K09I6: ~/biosafe[01;32mkhengoon@DESKTOP-73K09I6[00m:[01;34m~/biosafe[00m$ [7mcd /home/khengoon/biosafe[27m
+[7msource .venv/bin/activate[27m
+
+[7mPYTHONPATH=/home/khengoon/biosafe/unified_v1/src \[27m
+[7mpython /home/khengoon/biosafe/cra_v1/scripts/run_unified2_sidecar_v0_1.py[27m[A[A[A[Acd /home/khengoon/biosafe
+source .venv/bin/activate
+
+PYTHONPATH=/home/khengoon/biosafe/unified_v1/src \
+python /home/khengoon/biosafe/cra_v1/scripts/run_unified2_sidecar_v0_1.py
+[?2004lStarting BioSafe Unified-2 v0.1 on http://127.0.0.1:8768
+Downstream expected: CRA-8.4.1 on http://127.0.0.1:8767
+ * Serving Flask app 'biosafe_unified2.server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8768
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [06/Sep/2026 21:17:58] "GET /h

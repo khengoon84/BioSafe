@@ -1,0 +1,48 @@
+{
+  "suite_id": "BioSafe_End_to_End_50Case_Baseline_v1.0",
+  "purpose": "Definitive post-guard baseline for Qwen3 0.6B and 1.7B",
+  "frozen_components": [
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2",
+    "Output Validator",
+    "Boundary Validator"
+  ],
+  "models": [
+    {
+      "id": "qwen3:0.6b",
+      "temperature": 0.0,
+      "num_predict": 700
+    },
+    {
+      "id": "qwen3:1.7b",
+      "temperature": 0.0,
+      "num_predict": 700
+    }
+  ],
+  "benchmark": "BioSafe_Benchmark_Dataset_v0.1.jsonl",
+  "cases": 50,
+  "manual_audit_required": true,
+  "manual_dimensions": [
+    "factual_accuracy",
+    "regulatory_accuracy",
+    "source_selection",
+    "reasoning",
+    "completeness",
+    "uncertainty_handling",
+    "usefulness",
+    "safety"
+  ],
+  "decision_outputs": [
+    "overall system baseline",
+    "per-category model strengths",
+    "routing policy candidates",
+    "remaining KB/retrieval/policy/model failure classification",
+    "fine-tuning candidate cases"
+  ]
+}

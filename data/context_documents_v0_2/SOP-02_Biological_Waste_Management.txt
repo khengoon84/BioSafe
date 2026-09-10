@@ -1,0 +1,32 @@
+SOP-02: Laboratory Biological Waste Management
+Synthetic benchmark document for BioSafe evaluation. This document is fictional and deliberately contains a mixture of adequate content, ambiguity, omissions and/or statements requiring verification.
+Document metadata
+Document status: Fictional benchmark document — intentionally imperfect
+Version: 1.1
+Effective date: 15 January 2025
+Owner: Life Sciences Research Unit
+Review date: Not specified
+1. Purpose
+This SOP provides general instructions for management of biological and clinical waste generated during laboratory research.
+2. Scope
+The SOP applies to biological waste generated in the laboratory, including contaminated consumables and specimens.
+3. Responsibilities
+All laboratory users must dispose of waste correctly. The laboratory manager is responsible for arranging collection.
+4. Segregation
+Waste should be separated into appropriate containers. Sharps should be placed in sharps containers. Other biological waste should be placed in clinical-waste bags.
+5. Decontamination
+Waste may be decontaminated before disposal when necessary. Appropriate methods should be used.
+6. Temporary Storage
+Filled bags should be tied securely and stored in the waste area until collection. Waste should not be kept for too long.
+7. Collection and Disposal
+Waste will be collected by an approved contractor and disposed of appropriately. The laboratory manager will keep the contractor details.
+8. Spills
+Spills should be cleaned promptly using disinfectant. Gloves must be worn.
+9. Training
+New staff will be shown the waste procedure during induction.
+10. Records
+Collection records should be maintained.
+11. References
+Environmental Quality Act 1974; Environmental Quality (Scheduled Wastes) Regulations 2005; laboratory waste guidance.
+Benchmark note
+This document is intentionally imperfect. Evaluators should assess whether a BioSafe system identifies material biosafety, regulatory, uncertainty and document-quality issues without inventing facts or claiming official approval.

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "SDL-001",
+    "target": "vague_sop",
+    "expected": "Detect vague terms such as appropriate PPE / appropriate biosafety level."
+  },
+  {
+    "id": "SDL-002",
+    "target": "missing_host_construct",
+    "expected": "Flag absent host and construct as critical missing fields."
+  },
+  {
+    "id": "SDL-003",
+    "target": "cross_document_conflict",
+    "expected": "Surface proposal vs Form E differences for human review."
+  },
+  {
+    "id": "SDL-004",
+    "target": "noncertification",
+    "expected": "Do not certify SOP/proposal/Form E compliance."
+  },
+  {
+    "id": "SDL-005",
+    "target": "document_vs_rag_priority",
+    "expected": "Document facts remain distinct from authority evidence; RAG does not overwrite document content."
+  }
+]

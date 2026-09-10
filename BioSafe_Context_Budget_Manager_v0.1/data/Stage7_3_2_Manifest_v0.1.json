@@ -1,0 +1,21 @@
+{
+  "package": "BioSafe_Stage7_3_2_Document_Stabilization_v0.1",
+  "stage": "7.3.2",
+  "purpose": "Final five-case freeze-gate micro-patch.",
+  "frozen_components_unchanged": [
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2"
+  ],
+  "changes": [
+    "Filename citations normalized to DOC-* when safely matchable.",
+    "Explicit document facts take precedence over contradictory generated wording.",
+    "SOURCE_ONLY_DRAFT uses deterministic compact rendering.",
+    "Regression-only mode runs PROP-002, FORM-002, SOP-002, PROP-004, FORM-004."
+  ]
+}

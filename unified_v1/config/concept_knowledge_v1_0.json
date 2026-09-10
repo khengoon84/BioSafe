@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "purpose": "Curated general-knowledge educational answers for stable biosafety/biosecurity concepts that need no case decision. Mapped by biosafe_unified226.intent_grammar.CONCEPT_ALIASES.",
+    "contract": "Each entry provides definition + elaboration (educational) + safety note. No entry asserts law, permits, approvals, or case-specific conclusions."
+  },
+  "biosafety": {
+    "definition": "Biosafety is the set of principles, technologies, and practices used to prevent unintentional exposure to biological agents or their accidental release.",
+    "elaboration": "This covers things like hand hygiene, personal protective equipment, safe injection practices, proper waste decontamination, biological safety cabinets, and containment equipment. The specific controls should always be selected through a context-specific risk assessment that considers the agent, the procedures being performed, and the laboratory setting.",
+    "safety_note": ""
+  },
+  "biosecurity": {
+    "definition": "Biosecurity is the set of practices and measures used to prevent the loss, theft, misuse, diversion, or unauthorized access to biological agents and related materials.",
+    "elaboration": "Typical measures include physical access control, inventory and chain-of-custody tracking, personnel reliability programs, incident response plans, and secure storage. Biosecurity asks how materials could be deliberately misused, in contrast to biosafety which asks how they could accidentally cause harm.",
+    "safety_note": ""
+  },
+  "biosafety_vs_biosecurity": {
+    "definition": "Biosafety prevents accidental exposure to or release of biological agents, while biosecurity prevents their loss, theft, misuse, diversion, or unauthorized access.",
+    "elaboration": "Here is how they fit together:\n\n- **Biosafety** protects people and the environment from *unintentional* exposure, spills, or releases. Think biological safety cabinets, PPE, safe injection practices, and waste decontamination.\n- **Biosecurity** protects biological materials from *intentional* theft or misuse. Think access control, inventory tracking, personnel reliability, and secure storage.\n\nBoth are parts of biorisk management and can overlap. A helpful mental model is that biosafety asks 'how could this accidentally harm people?' while biosecurity asks 'how could this deliberately be misused?'",
+    "examples": "Here are three general teaching cases:\n\n**Case 1 — a culture spills on a bench.** The main question is accidental exposure and environmental release. Spill containment, decontamination, PPE, exposure response, and reporting are biosafety controls.\n\n**Case 2 — a culture vial cannot be accounted for.** The main question is loss, theft, diversion, or unauthorized access. Inventory reconciliation, chain-of-custody records, access logs, and security escalation are biosecurity controls.\n\n**Case 3 — a locked, labelled freezer.** This can support both areas: secure storage and restricted access reduce biosecurity risk, while reliable containment and correct labelling reduce accidental handling and exposure risk.",
+    "safety_note": ""
+  },
+  "risk_group": {
+    "definition": "A biological risk group is a hazard-based category assigned to a biological agent using criteria such as its ability to cause disease, severity, transmissibility, and availability of preventive or therapeutic measures.",
+    "elaboration": "Risk groups are used to stratify agents by inherent hazard. A risk group does not by itself determine the biosafety level required for a particular activity: the actual procedure (aerosol generation, culture scale, manipulations) and facility must also be considered. Common classification schemes run from risk group 1 (unlikely to cause disease) up to risk group 4 (dangerous, easily transmissible, high consequence).",
+    "safety_note": "BioSafe does not assign a risk group or containment level to any specific agent without verified evidence for that exact classification."
+  },
+  "bsl": {
+    "definition": "Biosafety level (BSL) is a set of containment practices, equipment, and facility design features applied to laboratory work based on the hazards of the agents and procedures involved.",
+    "elaboration": "Levels are graded: BSL-1 (basic teaching/research with low-hazard agents), BSL-2 (moderate hazard, emphasis on PPE and safe practices), BSL-3 (agents with serious potential to cause disease; controlled access, specialized ventilation), and BSL-4 (dangerous and exotic agents; maximum containment). The appropriate level follows from a risk assessment of the agent, procedure, and facility, not from the agent name alone.",
+    "safety_note": "Choosing a containment level for real work requires institutional and regulatory context; BioSafe will not certify a level for a specific agent without authoritative evidence."
+  },
+  "lmo": {
+    "definition": "A living modified organism (LMO) is a living organism that possesses a novel combination of genetic material obtained through modern biotechnology.",
+    "elaboration": "LMO is the term used in the Cartagena Protocol on Biosafety and in many national biosafety frameworks. Not all genetic modification and not all modern biotechnology activity automatically triggers LMO-specific regulation: whether a project is an LMO, notification, or approval matter depends on the technology, the resulting organism, and the activity under the applicable legal framework.",
+    "safety_note": "BioSafe must not infer that a particular organism, project, or activity is an LMO or is regulated under a specific law without verified trigger facts and authoritative evidence."
+  },
+  "form_e": {
+    "definition": "Malaysia's Form E records information for an institutional biosafety assessment of certain modern-biotechnology activities when the applicable process calls for it.",
+    "elaboration": "BioSafe can explain fields or help a researcher organize project facts after the relevant context and authoritative evidence have been established. Whether Form E applies to a particular project cannot be inferred merely from an organism name or from a generic reference to genetic modification.",
+    "safety_note": "Form E is not an approval, submission, permit, or regulatory determination. BioSafe cannot infer its applicability, simulate institutional review, or certify compliance without sufficient verified facts and authoritative evidence."
+  },
+  "bwc": {
+    "definition": "The Biological Weapons Convention is an international treaty that prohibits the development, production, acquisition, transfer, stockpiling, and use of biological and toxin weapons.",
+    "elaboration": "Adopted in 1972 and in force since 1975, the BWC is the first disarmament treaty to ban an entire category of weapons. It is a general educational summary; exact obligations, review conference outcomes, and national implementation depend on the current treaty text and the state party in question.",
+    "safety_note": "Treaty obligations and national implementation must be verified against authoritative sources; this entry is general education, not legal advice."
+  },
+  "pi_ibc": {
+    "definition": "PI means Principal Investigator, the person responsible for leading a research project. IBC means Institutional Biosafety Committee, an institutional committee that reviews and oversees biosafety aspects of relevant work under its mandate.",
+    "elaboration": "The PI is accountable for day-to-day biosafety compliance in their laboratory, including training, containment, and incident reporting. The IBC provides institutional oversight and review of the biosafety and biosecurity aspects of covered work. Exact responsibilities depend on the applicable institutional and regulatory framework.",
+    "safety_note": "Exact responsibilities and mandates depend on the applicable institutional and regulatory framework; BioSafe does not simulate institutional approval."
+  }
+}

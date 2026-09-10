@@ -1,0 +1,35 @@
+{
+  "suite_id": "BioSafe_E2B_Output_Budget_Calibration_v0.1",
+  "version": "0.1",
+  "model": "gemma4:e2b",
+  "protected_pipeline": "BioSafe Policy & Decision Guard v0.3.2",
+  "cases": [
+    "BS-005",
+    "PROP-004"
+  ],
+  "budgets": [
+    450,
+    550
+  ],
+  "inference_config": {
+    "think": false,
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64
+  },
+  "logic": {
+    "run_450_first": true,
+    "run_550_only_if_needed": true,
+    "acceptable": [
+      "valid complete JSON",
+      "done_reason is not length",
+      "validator result PASS or PASS_WITH_WARNING",
+      "no LLM retry"
+    ]
+  },
+  "interpretation": {
+    "both_cases_at_450": "ADVANCE_E2B_TO_13_CASE",
+    "both_cases_by_550": "CONDITIONAL_ADVANCE_REVIEW_LATENCY",
+    "one_or_more_cases_fail_at_550": "STOP_E2B_TEXT_BRANCH"
+  }
+}

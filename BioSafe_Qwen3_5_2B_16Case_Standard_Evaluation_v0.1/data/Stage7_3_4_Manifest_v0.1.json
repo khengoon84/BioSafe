@@ -1,0 +1,23 @@
+{
+  "package": "BioSafe_Stage7_3_4_PROP002_SemanticGuard_v0.1",
+  "stage": "7.3.4",
+  "purpose": "Final semantic guard for PROP-002 before Structured Document Layer freeze.",
+  "frozen_components_unchanged": [
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Integration Authority Router v0.1",
+    "Query Router v0.2",
+    "Scope Gate v0.2.1",
+    "Policy & Decision Guard v0.3.2",
+    "Output Normalizer v0.3.2",
+    "Policy Shell Enforcer v0.3.2"
+  ],
+  "changes": [
+    "Prevents Category A/B from being asserted before classification is confirmed.",
+    "Normalizes invented 'risk assessment matrix' requirement to activity-specific risk assessment.",
+    "Downgrades unsupported compliance-severity language to documentation-gap language.",
+    "Replaces unsupported formal regulatory approval recommendation with evidence-based confirmation step."
+  ],
+  "freeze_gate_case": "PROP-002",
+  "next_after_success": "Freeze Structured Document Analysis Layer v1.0 and proceed to Context Budget Manager v0.1."
+}

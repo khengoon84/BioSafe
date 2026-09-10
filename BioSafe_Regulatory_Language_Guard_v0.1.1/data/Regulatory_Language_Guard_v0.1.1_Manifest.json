@@ -1,0 +1,21 @@
+{
+  "package": "BioSafe Regulatory Language Guard v0.1.1",
+  "scope": "narrow semantic-repair patch only",
+  "changed": [
+    "Regulatory Language Guard rendering logic",
+    "semantic regression assertions"
+  ],
+  "unchanged": [
+    "Complexity/Escalation Router v0.1",
+    "Structured Document Analysis Layer v1.0",
+    "BioSafe KB v0.2",
+    "CFG-02",
+    "Authority Router",
+    "Query Router",
+    "Scope Gate",
+    "Policy & Decision Guard v0.3.2",
+    "Context Budget Manager v0.2",
+    "Deterministic Response Assembler v0.1"
+  ],
+  "freeze_gate": "5 semantic + 11 component + 6 E2E must all pass"
+}

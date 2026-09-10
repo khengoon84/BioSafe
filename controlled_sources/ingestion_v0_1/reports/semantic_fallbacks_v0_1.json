@@ -1,0 +1,1317 @@
+{
+  "artifact_version": "BioSafe_Semantic_Fallbacks_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "fallback_units": [
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT",
+      "document_id": "KB-MY-GMMRA",
+      "fallback_type": "SOURCE_BOUND_MANUAL_RISK_MATRIX_AND_CONTEXT_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_175:RISK_MATRIX_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "The likelihood-definition key is absent from this source page and has not been borrowed from another matrix.",
+        "The page advises a cautious and balanced approach; the matrix does not by itself assign containment or determine activity acceptability.",
+        "This source-bound reconstruction is not a legal, compliance, approval, or currentness determination and is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE",
+      "native_text_sha256": "991fee4e8c196a3b243917ffc30b7866f09ca46c4a46c3ec1ca6195f9540ade3",
+      "pdf_page_index": 175,
+      "pdf_page_label": "175",
+      "printed_page_label": "175",
+      "render_sha256": "ff76719d19a92c247041d3361a2d7433cc8cc628759af170d55f6cbcf5b82417",
+      "rendered_filename": "KB-MY-GMMRA_page_175.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_MATRIX_CELL_AND_PAGE_CONTEXT_VISUAL_TRANSCRIPTION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
+      "structured_representation": {
+        "allowed_estimates": [
+          "Negligible",
+          "Low",
+          "Moderate",
+          "High"
+        ],
+        "cells": {
+          "highly_likely:intermediate": "High",
+          "highly_likely:major": "High",
+          "highly_likely:marginal": "Low",
+          "highly_likely:minor": "Moderate",
+          "highly_unlikely:intermediate": "Low",
+          "highly_unlikely:major": "Moderate",
+          "highly_unlikely:marginal": "Negligible",
+          "highly_unlikely:minor": "Negligible",
+          "likely:intermediate": "Moderate",
+          "likely:major": "High",
+          "likely:marginal": "Low",
+          "likely:minor": "Low",
+          "unlikely:intermediate": "Moderate",
+          "unlikely:major": "Moderate",
+          "unlikely:marginal": "Negligible",
+          "unlikely:minor": "Low"
+        },
+        "column_axis": "Consequence of Hazard",
+        "columns": [
+          {
+            "key": "marginal",
+            "label": "Marginal",
+            "ordinal": 1
+          },
+          {
+            "key": "minor",
+            "label": "Minor",
+            "ordinal": 2
+          },
+          {
+            "key": "intermediate",
+            "label": "Intermediate",
+            "ordinal": 3
+          },
+          {
+            "key": "major",
+            "label": "Major",
+            "ordinal": 4
+          }
+        ],
+        "interpretation_qualifiers": [
+          "Evaluation of the magnitude of potential consequence involves a degree of judgement.",
+          "Even a major consequence with a highly unlikely probability is shown as a moderate risk of harm.",
+          "A cautious approach to risk estimation is advised, and a balanced view of the risks is required."
+        ],
+        "likelihood_definitions_status": "ABSENT_FROM_SOURCE_PAGE",
+        "representation_type": "risk_matrix",
+        "row_axis": "Likelihood of Hazard",
+        "rows": [
+          {
+            "key": "highly_unlikely",
+            "label": "Highly unlikely",
+            "ordinal": 1
+          },
+          {
+            "key": "unlikely",
+            "label": "Unlikely",
+            "ordinal": 2
+          },
+          {
+            "key": "likely",
+            "label": "Likely",
+            "ordinal": 3
+          },
+          {
+            "key": "highly_likely",
+            "label": "Highly likely",
+            "ordinal": 4
+          }
+        ],
+        "source_context_blocks": [
+          {
+            "block_id": "page_start_continuation",
+            "continuation_from_previous_page": true,
+            "source_order": 1,
+            "text": "or species with which the GMM may be able to compete will be an important consideration."
+          },
+          {
+            "block_id": "consequence_evaluation",
+            "source_order": 2,
+            "text": "Evaluation of the magnitude of potential consequence is difficult since there is inevitably a degree of judgement involved, although a qualitative appraisal of the impact on other species or ecosystems should be possible. For the purposes of using the risk estimation matrix in Table 15, consequences could be described as being \u201cmajor\u201d, \u201cintermediate\u201d, \u201cminor\u201d, or \u201cmarginal\u201d."
+          },
+          {
+            "block_id": "major_consequence",
+            "heading": "Major consequence",
+            "source_order": 3,
+            "text": "A major change in the numbers of one or more species leading to negative effects on the functioning of the ecosystem and/or other connected ecosystems (e.g. significantly altering the turnover of biomass or supply of nutrients to crops). It is unlikely that the changes would be easily reversible."
+          },
+          {
+            "block_id": "marginal_consequence",
+            "heading": "Marginal consequence",
+            "source_order": 4,
+            "text": "Minimal or no measurable change in any population e.g. plant, animal or microbial, in the environment or in any ecosystem function. This does not preclude some fluctuation in indigenous populations as long as this is within the range of that which could be expected naturally."
+          },
+          {
+            "block_id": "matrix_examples",
+            "source_order": 5,
+            "text": "Even if the consequences of a hazard being realised are deemed \u201cmajor\u201d, if the probability of the hazard being manifested at all was \u201chighly unlikely\u201d then there is \u201cmoderate\u201d risk of harm. Likewise if the consequence were \u201cmarginal\u201d or \u201cminor\u201d, then even if its manifestation were \u201chighly likely\u201d the risk of harm would still be \u201cnegligible\u201d (see Table 15)."
+          },
+          {
+            "block_id": "cautious_approach",
+            "source_order": 6,
+            "text": "However, a cautious approach to risk estimation is advised. Where probability was \u201chighly unlikely\u201d but a \u201cmajor\u201d consequence could result, more stringent containment than otherwise appropriate for a \u201cnegligible\u201d risk of harm might be prudent. A balanced view of the risks is therefore required."
+          }
+        ],
+        "title": "Table 15: Risk estimation matrix"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT",
+      "document_id": "KB-MY-GMMRA",
+      "fallback_type": "SOURCE_BOUND_MANUAL_RISK_MATRIX_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_42:RISK_MATRIX_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "The source states that the risk estimation matrix is a tool and should not be seen as definitive.",
+        "The source requires uncertainty and assumptions to be considered and made clear when drawing conclusions.",
+        "This matrix does not by itself assign a containment level or determine that an activity is acceptable.",
+        "This reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE",
+      "native_text_sha256": "2bdfbe2ca1e111c43ef5563b6337450eb5a0117465b6c9f713457bee719aace0",
+      "pdf_page_index": 42,
+      "pdf_page_label": "42",
+      "printed_page_label": "42",
+      "render_sha256": "895251d8f4c044253cb1f3cf709fa925eabe956bb2952210ed66350cf1bbce3c",
+      "rendered_filename": "KB-MY-GMMRA_page_042.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_MATRIX_AND_KEY_VISUAL_TRANSCRIPTION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
+      "structured_representation": {
+        "allowed_estimates": [
+          "Negligible",
+          "Low",
+          "Moderate",
+          "High"
+        ],
+        "cells": {
+          "highly_likely:intermediate": "High",
+          "highly_likely:major": "High",
+          "highly_likely:marginal": "Low",
+          "highly_likely:minor": "Moderate",
+          "highly_unlikely:intermediate": "Low",
+          "highly_unlikely:major": "Moderate",
+          "highly_unlikely:marginal": "Negligible",
+          "highly_unlikely:minor": "Negligible",
+          "likely:intermediate": "Moderate",
+          "likely:major": "High",
+          "likely:marginal": "Low",
+          "likely:minor": "Low",
+          "unlikely:intermediate": "Moderate",
+          "unlikely:major": "Moderate",
+          "unlikely:marginal": "Negligible",
+          "unlikely:minor": "Low"
+        },
+        "column_axis": "Consequence of Hazard",
+        "columns": [
+          {
+            "key": "marginal",
+            "label": "Marginal",
+            "ordinal": 1
+          },
+          {
+            "key": "minor",
+            "label": "Minor",
+            "ordinal": 2
+          },
+          {
+            "key": "intermediate",
+            "label": "Intermediate",
+            "ordinal": 3
+          },
+          {
+            "key": "major",
+            "label": "Major",
+            "ordinal": 4
+          }
+        ],
+        "interpretation_qualifiers": [
+          "The risk estimation matrix is a tool and should not be seen as definitive.",
+          "Uncertainty must be taken into consideration in the risk assessment.",
+          "Assumptions must be made clear when drawing conclusions with respect to the level of risk.",
+          "The basis of any assumption should be explained and the robustness of the supporting argument acknowledged."
+        ],
+        "likelihood_definitions": {
+          "highly_likely": "Is expected to occur in most circumstances",
+          "highly_unlikely": "May occur only in very rare circumstances",
+          "likely": "Could occur in many circumstances",
+          "unlikely": "Could occur in some circumstances"
+        },
+        "representation_type": "risk_matrix",
+        "row_axis": "Likelihood of Hazard",
+        "rows": [
+          {
+            "key": "highly_unlikely",
+            "label": "Highly unlikely",
+            "ordinal": 1
+          },
+          {
+            "key": "unlikely",
+            "label": "Unlikely",
+            "ordinal": 2
+          },
+          {
+            "key": "likely",
+            "label": "Likely",
+            "ordinal": 3
+          },
+          {
+            "key": "highly_likely",
+            "label": "Highly likely",
+            "ordinal": 4
+          }
+        ],
+        "title": "Table 1. Risk estimation matrix"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-SW2005:LABEL_REQUIREMENTS",
+      "document_id": "KB-MY-SW2005",
+      "fallback_type": "SOURCE_BOUND_MANUAL_GRAPHICAL_LABEL_SET_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_18:LABEL_SET_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This record represents the visible Third Schedule label specification and does not determine which waste category applies to a material.",
+        "It does not establish that biological or clinical waste is SW 404.",
+        "Amendment and claim-level currentness review remain required.",
+        "Textual symbol descriptions do not replace the source graphics, and this reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "FONT_ENCODING_SYMBOLSET_UNSUPPORTED",
+      "native_text_sha256": "e5fedb4539e7431cc017c13d316fc01d5864ae4a91f54acde4aab0674e61ebe4",
+      "pdf_page_index": 18,
+      "pdf_page_label": "18",
+      "printed_page_label": "",
+      "printed_page_verification_status": "SOURCE_BOUND_RENDER_NO_PRINTED_PAGE_NUMBER_VISIBLE",
+      "render_sha256": "35c1d590600a1e02c993dc1f1b3ae77f605c43ee947fd10702786bf67db8c0ef",
+      "rendered_filename": "KB-MY-SW2005_page_018.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_LABEL_TEXT_AND_GRAPHIC_VISUAL_TRANSCRIPTION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "structured_representation": {
+        "labels": [
+          {
+            "background_color": "jingga lembut",
+            "hazard_name": "BAHAN LETUPAN",
+            "label_id": "page18_explosive_waste",
+            "printed_label_number": 1,
+            "symbol_color": "hitam",
+            "symbol_description": "bom meletup",
+            "waste_qualifier": "BUANGAN"
+          },
+          {
+            "background_color": "merah",
+            "hazard_name": "CECAIR MUDAH TERBAKAR",
+            "label_id": "page18_flammable_liquid_waste",
+            "printed_label_number": null,
+            "symbol_color": "hitam atau putih",
+            "symbol_description": "api",
+            "waste_qualifier": "BUANGAN"
+          }
+        ],
+        "regulation_reference": "Peraturan 10",
+        "representation_type": "graphical_label_set",
+        "schedule": "JADUAL KETIGA",
+        "title": "KEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-SW2005:LABEL_REQUIREMENTS",
+      "document_id": "KB-MY-SW2005",
+      "fallback_type": "SOURCE_BOUND_MANUAL_GRAPHICAL_LABEL_SET_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_19:LABEL_SET_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This record preserves visible Third Schedule text and separately records the rendered glyph; it does not determine which waste category applies to a material.",
+        "A rendered-glyph/textual-specification conflict remains unresolved evidence and is not a legal or currentness determination.",
+        "It does not establish that biological or clinical waste is SW 404, compliance, approval, or applicability.",
+        "The reconstruction does not replace the official source graphics and is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "FONT_ENCODING_SYMBOLSET_UNSUPPORTED",
+      "native_text_sha256": "f49662f2dd3b8f87ce01316114e6dd3a438816511cd56c79c6dd4f89aeaba54c",
+      "pdf_page_index": 19,
+      "pdf_page_label": "19",
+      "printed_page_label": "",
+      "printed_page_verification_status": "SOURCE_BOUND_RENDER_NO_PRINTED_PAGE_NUMBER_VISIBLE",
+      "render_sha256": "5668edf302887f959a10e1cc392f78c7c07cc838c4cfabf88b7a1c2595d70199",
+      "rendered_filename": "KB-MY-SW2005_page_019.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_LABEL_TEXT_SPECIFICATION_AND_RENDERED_GLYPH_OBSERVATION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "structured_representation": {
+        "cross_page_number_assignments": [
+          {
+            "printed_label_number": 2,
+            "target_label_id": "page18_flammable_liquid_waste",
+            "target_pdf_page_index": 18,
+            "visible_marker": "Label 2"
+          }
+        ],
+        "labels": [
+          {
+            "background_color": "putih dengan jalur-jalur merah menegak",
+            "glyph_text_alignment": "MATCH",
+            "hazard_name": "PEPEJAL MUDAH TERBAKAR",
+            "label_id": "page19_flammable_solid_waste",
+            "printed_label_number": 3,
+            "rendered_glyph_observation": "Black flame over vertical stripes is visible.",
+            "symbol_color": "hitam",
+            "symbol_description": "api",
+            "waste_qualifier": "BUANGAN"
+          },
+          {
+            "background_color": "bahagian atas putih, bahagian bawah merah",
+            "descriptive_text": "Bahan-bahan boleh terbakar secara spontan",
+            "glyph_text_alignment": "MATCH",
+            "hazard_name": "PEPEJAL: BOLEH TERBAKAR SECARA SPONTAN",
+            "label_id": "page19_spontaneously_combustible_waste",
+            "printed_label_number": 4,
+            "rendered_glyph_observation": "Black flame above a divided diamond is visible.",
+            "symbol_color": "hitam",
+            "symbol_description": "api",
+            "waste_qualifier": "BUANGAN"
+          }
+        ],
+        "regulation_reference": "Peraturan 10",
+        "representation_type": "graphical_label_set",
+        "schedule": "JADUAL KETIGA",
+        "source_page_sequence": 2,
+        "title": "KEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-SW2005:LABEL_REQUIREMENTS",
+      "document_id": "KB-MY-SW2005",
+      "fallback_type": "SOURCE_BOUND_MANUAL_GRAPHICAL_LABEL_SET_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_20:LABEL_SET_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This record preserves visible Third Schedule text and separately records the rendered glyph; it does not determine which waste category applies to a material.",
+        "A rendered-glyph/textual-specification conflict remains unresolved evidence and is not a legal or currentness determination.",
+        "It does not establish that biological or clinical waste is SW 404, compliance, approval, or applicability.",
+        "The reconstruction does not replace the official source graphics and is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "FONT_ENCODING_SYMBOLSET_UNSUPPORTED",
+      "native_text_sha256": "0e53d376fc26ac75018851f5aa19fd7b3db9c382c09e12ea1ec2537200193923",
+      "pdf_page_index": 20,
+      "pdf_page_label": "20",
+      "printed_page_label": "",
+      "printed_page_verification_status": "SOURCE_BOUND_RENDER_NO_PRINTED_PAGE_NUMBER_VISIBLE",
+      "render_sha256": "60c77dce72869d2407fd891a21f7696c82f76df56dcaca0d35a33775f64256d6",
+      "rendered_filename": "KB-MY-SW2005_page_020.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_LABEL_TEXT_SPECIFICATION_AND_RENDERED_GLYPH_OBSERVATION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "structured_representation": {
+        "labels": [
+          {
+            "background_color": "biru",
+            "descriptive_text": "Bahan-bahan yang, jika bersentuh dengan air, mengeluarkan gas-gas yang mudah terbakar",
+            "glyph_text_alignment": "MATCH",
+            "hazard_name": "PEPEJAL: BERBAHAYA APABILA BASAH",
+            "label_id": "page20_dangerous_when_wet_waste",
+            "printed_label_number": 5,
+            "rendered_glyph_observation": "Flame symbol in a solid-background diamond is visible.",
+            "symbol_color": "hitam atau putih",
+            "symbol_description": "api",
+            "waste_qualifier": "BUANGAN"
+          },
+          {
+            "background_color": "kuning",
+            "glyph_text_alignment": "MATCH",
+            "hazard_name": "BAHAN PENGOKSIDAAN",
+            "label_id": "page20_oxidizing_substance_waste",
+            "printed_label_number": 6,
+            "rendered_glyph_observation": "Flame-over-circle symbol is visible.",
+            "symbol_color": "hitam",
+            "symbol_description": "api di atas bulatan",
+            "waste_qualifier": "BUANGAN"
+          }
+        ],
+        "regulation_reference": "Peraturan 10",
+        "representation_type": "graphical_label_set",
+        "schedule": "JADUAL KETIGA",
+        "source_page_sequence": 3,
+        "title": "KEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-SW2005:LABEL_REQUIREMENTS",
+      "document_id": "KB-MY-SW2005",
+      "fallback_type": "SOURCE_BOUND_MANUAL_GRAPHICAL_LABEL_SET_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_21:LABEL_SET_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This record preserves visible Third Schedule text and separately records the rendered glyph; it does not determine which waste category applies to a material.",
+        "A rendered-glyph/textual-specification conflict remains unresolved evidence and is not a legal or currentness determination.",
+        "It does not establish that biological or clinical waste is SW 404, compliance, approval, or applicability.",
+        "The reconstruction does not replace the official source graphics and is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "FONT_ENCODING_SYMBOLSET_UNSUPPORTED",
+      "native_text_sha256": "754532a8b94959aa3c4448a69da79b94192c51f68013e4b935ad08b15c4d4eae",
+      "pdf_page_index": 21,
+      "pdf_page_label": "21",
+      "printed_page_label": "",
+      "printed_page_verification_status": "SOURCE_BOUND_RENDER_NO_PRINTED_PAGE_NUMBER_VISIBLE",
+      "render_sha256": "f286f3a96ecb5b112b99062ebb6f73020f908ac1b6206bbcb91af71c91a4125c",
+      "rendered_filename": "KB-MY-SW2005_page_021.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_LABEL_TEXT_SPECIFICATION_AND_RENDERED_GLYPH_OBSERVATION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "structured_representation": {
+        "labels": [
+          {
+            "background_color": "kuning",
+            "glyph_text_alignment": "MATCH",
+            "hazard_name": "PEROKSIDA ORGANIK",
+            "label_id": "page21_organic_peroxide_waste",
+            "printed_label_number": 7,
+            "rendered_glyph_observation": "Flame-over-circle symbol is visible.",
+            "symbol_color": "hitam",
+            "symbol_description": "api di atas bulatan",
+            "waste_qualifier": "BUANGAN"
+          },
+          {
+            "background_color": "putih",
+            "descriptive_text": "Bahan-bahan beracun (toksik)",
+            "glyph_text_alignment": "MATCH",
+            "hazard_name": "BAHAN TOKSIK",
+            "label_id": "page21_toxic_substance_waste",
+            "printed_label_number": 8,
+            "rendered_glyph_observation": "Skull-and-crossbones symbol is visible.",
+            "symbol_color": "hitam",
+            "symbol_description": "tengkorak di atas dua tulang yang bersilang",
+            "waste_qualifier": "BUANGAN"
+          }
+        ],
+        "regulation_reference": "Peraturan 10",
+        "representation_type": "graphical_label_set",
+        "schedule": "JADUAL KETIGA",
+        "source_page_sequence": 4,
+        "title": "KEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-SW2005:LABEL_REQUIREMENTS",
+      "document_id": "KB-MY-SW2005",
+      "fallback_type": "SOURCE_BOUND_MANUAL_GRAPHICAL_LABEL_SET_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_22:LABEL_SET_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This record preserves visible Third Schedule text and separately records the rendered glyph; it does not determine which waste category applies to a material.",
+        "A rendered-glyph/textual-specification conflict remains unresolved evidence and is not a legal or currentness determination.",
+        "It does not establish that biological or clinical waste is SW 404, compliance, approval, or applicability.",
+        "The reconstruction does not replace the official source graphics and is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "FONT_ENCODING_SYMBOLSET_UNSUPPORTED",
+      "native_text_sha256": "f9fe5beca272427e0bdf19deae99f7dd2fad5aae98ddeea37ea76a8619c29ded",
+      "pdf_page_index": 22,
+      "pdf_page_label": "22",
+      "printed_page_label": "",
+      "printed_page_verification_status": "SOURCE_BOUND_RENDER_NO_PRINTED_PAGE_NUMBER_VISIBLE",
+      "render_sha256": "d8d2851f9a697048294f9ca71710693cf9d0a79bf9d87b71667b5b66778d66f1",
+      "rendered_filename": "KB-MY-SW2005_page_022.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_LABEL_TEXT_SPECIFICATION_AND_RENDERED_GLYPH_OBSERVATION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "structured_representation": {
+        "labels": [
+          {
+            "background_color": "putih",
+            "glyph_text_alignment": "CONFLICT",
+            "glyph_text_alignment_explanation": "The visible rendered glyph does not match the adjacent textual three-crescent symbol specification; the SymbolSet/font warning remains unresolved.",
+            "hazard_name": "BAHAN BERJANGKIT",
+            "label_id": "page22_infectious_substance_waste",
+            "printed_label_number": 9,
+            "rendered_glyph_observation": "A flame-over-circle-like glyph is visible in the source-bound render.",
+            "symbol_color": "hitam",
+            "symbol_description": "tiga bulan sabit disusun menindih di atas bulatan",
+            "waste_qualifier": "BUANGAN"
+          },
+          {
+            "background_color": "bahagian atas putih, bahagian bawah hitam",
+            "glyph_text_alignment": "MATCH",
+            "hazard_name": "BAHAN MENGAKIS",
+            "label_id": "page22_corrosive_substance_waste",
+            "printed_label_number": 10,
+            "rendered_glyph_observation": "Liquid from two vessels contacting a hand and metal is visible above a dark lower half.",
+            "symbol_color": "hitam",
+            "symbol_description": "cecair tertumpah dari dua bekas kaca dan mengenai tangan dan logam",
+            "waste_qualifier": "BUANGAN"
+          }
+        ],
+        "regulation_reference": "Peraturan 10",
+        "representation_type": "graphical_label_set",
+        "schedule": "JADUAL KETIGA",
+        "source_page_sequence": 5,
+        "title": "KEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-MY-SW2005:LABEL_REQUIREMENTS",
+      "document_id": "KB-MY-SW2005",
+      "fallback_type": "SOURCE_BOUND_MANUAL_GRAPHICAL_LABEL_SET_TRANSCRIPTION",
+      "fallback_unit_id": "KB-MY-SW2005:LABEL_REQUIREMENTS:PDF_PAGE_23:LABEL_SET_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This record preserves visible Third Schedule text and separately records the rendered glyph; it does not determine which waste category applies to a material.",
+        "A rendered-glyph/textual-specification conflict remains unresolved evidence and is not a legal or currentness determination.",
+        "It does not establish that biological or clinical waste is SW 404, compliance, approval, or applicability.",
+        "The reconstruction does not replace the official source graphics and is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "FONT_ENCODING_SYMBOLSET_UNSUPPORTED",
+      "native_text_sha256": "e63d37310dcf6af346a16902263d6806e801cc22542807a607cbb3b68ea6aae8",
+      "pdf_page_index": 23,
+      "pdf_page_label": "23",
+      "printed_page_label": "",
+      "printed_page_verification_status": "SOURCE_BOUND_RENDER_NO_PRINTED_PAGE_NUMBER_VISIBLE",
+      "render_sha256": "6197a0f9ab4f27371cee03864ce01c1cfa31c50929697703c6957f429fa238ef",
+      "rendered_filename": "KB-MY-SW2005_page_023.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_LABEL_TEXT_SPECIFICATION_AND_RENDERED_GLYPH_OBSERVATION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "structured_representation": {
+        "label_requirements": {
+          "color_reference_rows": [
+            {
+              "color": "Biru tua",
+              "reference_number": "166"
+            },
+            {
+              "color": "Kuning burung kenari",
+              "reference_number": "309"
+            },
+            {
+              "color": "Merah isyarat",
+              "reference_number": "537"
+            },
+            {
+              "color": "Jingga lembut",
+              "reference_number": "557"
+            }
+          ],
+          "heading": "BUTIR-BUTIR MENGENAI LABEL",
+          "numbered_requirements": [
+            {
+              "number": 1,
+              "text": "Label hendaklah dalam bentuk empat segi tepat diletakkan pada sudut 45 darjah. Dimensi label tidak boleh kurang daripada 10 cm x 10 cm kecuali jika saiz bekas atau bungkusan memerlukan label yang saiznya lebih kecil."
+            },
+            {
+              "number": 2,
+              "text": "Warna yang digunakan pada label 1 hingga 11 hendaklah mengikut British Standard BS 381 C, \"Colours for specific purposes\"."
+            },
+            {
+              "number": 3,
+              "text": "Label-label hendaklah dibahagikan kepada 2 bahagian, bahagian atas label hendaklah dikhaskan untuk simbol bergambar dan bahagian bawahnya untuk teks yang dicetak dalam huruf besar."
+            }
+          ]
+        },
+        "labels": [
+          {
+            "background_color": "putih dengan bahagian atas jalur-jalur hitam menegak",
+            "glyph_text_alignment": "CONFLICT",
+            "glyph_text_alignment_explanation": "The visible rendered glyph conflicts with the adjacent textual specification \u201cSimbol (nil)\u201d and striped-background description; the SymbolSet/font warning remains unresolved.",
+            "hazard_name": "CAMPURAN PELBAGAI BAHAN BERBAHAYA",
+            "label_id": "page23_mixed_hazardous_substances_waste",
+            "printed_label_number": 11,
+            "rendered_glyph_observation": "A flame-over-circle-like glyph is visible in the source-bound render.",
+            "symbol_color": "tidak dinyatakan",
+            "symbol_description": "nil",
+            "waste_qualifier": "BUANGAN"
+          }
+        ],
+        "regulation_reference": "Peraturan 10",
+        "representation_type": "graphical_label_set",
+        "schedule": "JADUAL KETIGA",
+        "source_page_sequence": 6,
+        "title": "KEHENDAK PELABELAN BAGI BUANGAN-BUANGAN TERJADUAL"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-WHO-LBM4-DESIGN:BODY",
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "fallback_type": "SOURCE_BOUND_MANUAL_DIRECTED_FLOW_TRANSCRIPTION",
+      "fallback_unit_id": "KB-WHO-LBM4-DESIGN:BODY:PDF_PAGE_55:FLOW_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "The procurement-route branch is a transcription of the WHO figure and is not BioSafe approval or advice to bypass governance review.",
+        "The detailed-design area contains source-visible revision and terminal paths whose geometry must remain available for human review.",
+        "This reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE",
+      "native_text_sha256": "68a1eceb1d256bb5d9d2df89eba5aa25e14d3dd7fe87cef33bd375f5f88edb69",
+      "pdf_page_index": 55,
+      "pdf_page_label": "37",
+      "printed_page_label": "37",
+      "render_sha256": "4b06cf4eea2a14c1212ce6fb98e09181bd4adc29d6f0d2b5faff5387eb813951",
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_055.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_NODE_EDGE_VISUAL_TRANSCRIPTION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b",
+      "structured_representation": {
+        "edges": [
+          {
+            "edge_id": "e01",
+            "label": "",
+            "source": "start",
+            "target": "procurement_advice"
+          },
+          {
+            "edge_id": "e02",
+            "label": "",
+            "source": "procurement_advice",
+            "target": "choose_procurement"
+          },
+          {
+            "edge_id": "e03",
+            "label": "design-review route",
+            "source": "choose_procurement",
+            "target": "appoint_designers"
+          },
+          {
+            "edge_id": "e04",
+            "label": "",
+            "source": "appoint_designers",
+            "target": "concept_design"
+          },
+          {
+            "edge_id": "e05",
+            "label": "",
+            "source": "concept_design",
+            "target": "approve_concept"
+          },
+          {
+            "edge_id": "e06",
+            "label": "Yes",
+            "source": "approve_concept",
+            "target": "schematic_design"
+          },
+          {
+            "edge_id": "e07",
+            "label": "No",
+            "source": "approve_concept",
+            "target": "revise_concept"
+          },
+          {
+            "edge_id": "e08",
+            "label": "",
+            "source": "revise_concept",
+            "target": "concept_design"
+          },
+          {
+            "edge_id": "e09",
+            "label": "",
+            "source": "schematic_design",
+            "target": "approve_schematic"
+          },
+          {
+            "edge_id": "e10",
+            "label": "Yes",
+            "source": "approve_schematic",
+            "target": "detailed_design"
+          },
+          {
+            "edge_id": "e11",
+            "label": "No",
+            "source": "approve_schematic",
+            "target": "revise_schematic"
+          },
+          {
+            "edge_id": "e12",
+            "label": "",
+            "source": "revise_schematic",
+            "target": "schematic_design"
+          },
+          {
+            "edge_id": "e13",
+            "label": "",
+            "source": "detailed_design",
+            "target": "approve_detailed"
+          },
+          {
+            "edge_id": "e14",
+            "label": "Yes",
+            "source": "approve_detailed",
+            "target": "construction"
+          },
+          {
+            "edge_id": "e15",
+            "label": "No",
+            "source": "approve_detailed",
+            "target": "unacceptable"
+          },
+          {
+            "edge_id": "e16",
+            "label": "No",
+            "source": "approve_detailed",
+            "target": "revise_detailed"
+          },
+          {
+            "edge_id": "e17",
+            "label": "",
+            "source": "revise_detailed",
+            "target": "detailed_design"
+          },
+          {
+            "edge_id": "e18",
+            "label": "",
+            "source": "unacceptable",
+            "target": "stop"
+          },
+          {
+            "edge_id": "e19",
+            "label": "route-dependent bypass",
+            "source": "choose_procurement",
+            "target": "procurement_note"
+          },
+          {
+            "edge_id": "e20",
+            "label": "",
+            "source": "procurement_note",
+            "target": "construction"
+          }
+        ],
+        "nodes": [
+          {
+            "label": "Approval to proceed from planning to design phase",
+            "node_id": "start",
+            "node_type": "start"
+          },
+          {
+            "label": "Seek advice on procurement routes available",
+            "node_id": "procurement_advice",
+            "node_type": "process"
+          },
+          {
+            "label": "Choose procurement route",
+            "node_id": "choose_procurement",
+            "node_type": "process"
+          },
+          {
+            "label": "Appoint additional designers or contractors",
+            "node_id": "appoint_designers",
+            "node_type": "process"
+          },
+          {
+            "label": "Concept design",
+            "node_id": "concept_design",
+            "node_type": "process"
+          },
+          {
+            "label": "Approve concept design",
+            "node_id": "approve_concept",
+            "node_type": "decision",
+            "required_branch_labels": [
+              "Yes",
+              "No"
+            ]
+          },
+          {
+            "label": "Revise concept design",
+            "node_id": "revise_concept",
+            "node_type": "process"
+          },
+          {
+            "label": "Schematic design",
+            "node_id": "schematic_design",
+            "node_type": "process"
+          },
+          {
+            "label": "Approve schematic design",
+            "node_id": "approve_schematic",
+            "node_type": "decision",
+            "required_branch_labels": [
+              "Yes",
+              "No"
+            ]
+          },
+          {
+            "label": "Revise schematic design",
+            "node_id": "revise_schematic",
+            "node_type": "process"
+          },
+          {
+            "label": "Detailed design",
+            "node_id": "detailed_design",
+            "node_type": "process"
+          },
+          {
+            "label": "Approve detailed design",
+            "node_id": "approve_detailed",
+            "node_type": "decision",
+            "required_branch_labels": [
+              "Yes",
+              "No",
+              "No"
+            ]
+          },
+          {
+            "label": "Revise detailed design",
+            "node_id": "revise_detailed",
+            "node_type": "process"
+          },
+          {
+            "label": "Unacceptable outcome",
+            "node_id": "unacceptable",
+            "node_type": "process"
+          },
+          {
+            "label": "Stop process",
+            "node_id": "stop",
+            "node_type": "terminal"
+          },
+          {
+            "label": "Depending on the nature of the procurement route, there may be no design review or approval stage available",
+            "node_id": "procurement_note",
+            "node_type": "annotation"
+          },
+          {
+            "label": "Proceed to construction phase",
+            "node_id": "construction",
+            "node_type": "terminal"
+          }
+        ],
+        "representation_type": "directed_flow",
+        "title": "Figure 7.1 Project flowchart, design phase"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-WHO-LBM4-DESIGN:BODY",
+      "document_id": "KB-WHO-LBM4-DESIGN",
+      "fallback_type": "SOURCE_BOUND_MANUAL_DIRECTED_FLOW_AND_CONTEXT_TRANSCRIPTION",
+      "fallback_unit_id": "KB-WHO-LBM4-DESIGN:BODY:PDF_PAGE_71:FLOW_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This is a transcription of a WHO guidance figure and introductory prose, not a mandatory universal maintenance plan.",
+        "The three visible maintenance options are parallel paths that converge; no decision labels or preference among them is inferred.",
+        "This reconstruction does not establish compliance, approval, facility fitness, or hazard-specific suitability and is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE",
+      "native_text_sha256": "fab03b4ffb8c321419f97f79b4be628050f54eaeb933594095e699ef36075c68",
+      "pdf_page_index": 71,
+      "pdf_page_label": "53",
+      "printed_page_label": "53",
+      "render_sha256": "751e301b56f119ab2cb1913631536275b9e502b09d64fe205cafe6c83592dec3",
+      "rendered_filename": "KB-WHO-LBM4-DESIGN_page_071.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_NODE_EDGE_AND_PAGE_CONTEXT_VISUAL_TRANSCRIPTION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b",
+      "structured_representation": {
+        "edges": [
+          {
+            "edge_id": "e01",
+            "label": "",
+            "source": "start",
+            "target": "consider"
+          },
+          {
+            "edge_id": "e02",
+            "label": "",
+            "source": "consider",
+            "target": "in_house"
+          },
+          {
+            "edge_id": "e03",
+            "label": "",
+            "source": "consider",
+            "target": "managed"
+          },
+          {
+            "edge_id": "e04",
+            "label": "",
+            "source": "consider",
+            "target": "contractors"
+          },
+          {
+            "edge_id": "e05",
+            "label": "",
+            "source": "in_house",
+            "target": "plan"
+          },
+          {
+            "edge_id": "e06",
+            "label": "",
+            "source": "managed",
+            "target": "plan"
+          },
+          {
+            "edge_id": "e07",
+            "label": "",
+            "source": "contractors",
+            "target": "plan"
+          },
+          {
+            "edge_id": "e08",
+            "label": "",
+            "source": "plan",
+            "target": "train_operation"
+          },
+          {
+            "edge_id": "e09",
+            "label": "",
+            "source": "train_operation",
+            "target": "write_sops"
+          },
+          {
+            "edge_id": "e10",
+            "label": "",
+            "source": "write_sops",
+            "target": "practice_sops"
+          },
+          {
+            "edge_id": "e11",
+            "label": "",
+            "source": "practice_sops",
+            "target": "monitor"
+          },
+          {
+            "edge_id": "e12",
+            "label": "",
+            "source": "monitor",
+            "target": "assess"
+          },
+          {
+            "edge_id": "e13",
+            "label": "",
+            "source": "assess",
+            "target": "improve"
+          }
+        ],
+        "nodes": [
+          {
+            "label": "Start operational phase",
+            "node_id": "start",
+            "node_type": "start"
+          },
+          {
+            "label": "Consider maintenance options",
+            "node_id": "consider",
+            "node_type": "process"
+          },
+          {
+            "label": "Set up in-house maintenance team",
+            "node_id": "in_house",
+            "node_type": "process"
+          },
+          {
+            "label": "Maintenance option with core personnel maintenance management team and contractors as needed",
+            "node_id": "managed",
+            "node_type": "process"
+          },
+          {
+            "label": "Appoint competent maintenance contractor(s)",
+            "node_id": "contractors",
+            "node_type": "process"
+          },
+          {
+            "label": "Design maintenance plan and perform planned maintenance",
+            "node_id": "plan",
+            "node_type": "process"
+          },
+          {
+            "label": "Training \u2013 Train all personnel on building operation",
+            "node_id": "train_operation",
+            "node_type": "process"
+          },
+          {
+            "label": "Write standard operating procedures (SOPs)",
+            "node_id": "write_sops",
+            "node_type": "process"
+          },
+          {
+            "label": "Provide training and practice on SOPs",
+            "node_id": "practice_sops",
+            "node_type": "process"
+          },
+          {
+            "label": "Continually monitor performance - review risk control measures",
+            "node_id": "monitor",
+            "node_type": "process"
+          },
+          {
+            "label": "Conduct periodic programme assessments (for example, facility fitness, maintenance programme)",
+            "node_id": "assess",
+            "node_type": "process"
+          },
+          {
+            "label": "Continual improvement",
+            "node_id": "improve",
+            "node_type": "terminal"
+          }
+        ],
+        "representation_type": "directed_flow",
+        "source_context_blocks": [
+          {
+            "block_id": "chapter_intro",
+            "heading": "OPERATION AND MAINTENANCE",
+            "source_order": 1,
+            "text": "Well-functioning laboratory equipment and systems contribute to biosafety of the laboratory. Maintenance plays an important role in keeping the laboratory equipment and systems reliable (Figure 9.1). There are two types of maintenance: planned maintenance (predictive maintenance and preventative maintenance) and unplanned maintenance (breakdown maintenance or emergency maintenance, also called corrective maintenance) \u2013 see subsections 9.5 and 9.6."
+          }
+        ],
+        "title": "Figure 9.1 Project flowchart, operational phase"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-WHO-LBM4-PPE:BODY",
+      "document_id": "KB-WHO-LBM4-PPE",
+      "fallback_type": "SOURCE_BOUND_MANUAL_ILLUSTRATED_SEQUENCE_OBSERVATION",
+      "fallback_unit_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_42:SEQUENCE_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "The source page contains no textual step labels; frame order follows the visible page layout.",
+        "Frame descriptions are observations and are not inferred procedural commands.",
+        "This figure is not a substitute for training or a procedure selected for a particular hazard or contamination state.",
+        "This reconstruction is not an approved claim or retrieval chunk."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "PAGE_TEXT_LOW_VOLUME_REVIEW_REQUIRED",
+      "native_text_sha256": "e5516e59c3082a472d60287625d848b38129dc644e9fb08df2cd65c78120a8f0",
+      "pdf_page_index": 42,
+      "pdf_page_label": "26",
+      "printed_page_label": "26",
+      "render_sha256": "81135314677a86943197644dee0c87f86829d9eb1083b647cb69614cd14cf929",
+      "rendered_filename": "KB-WHO-LBM4-PPE_page_042.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_FRAME_ORDER_VISUAL_OBSERVATION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "structured_representation": {
+        "caption": "Figure 6.2 Procedure to remove a disposable apron",
+        "frames": [
+          {
+            "frame_number": 1,
+            "visible_observation": "Standing person shown wearing eye protection and gloves and holding the upper sides of a disposable apron."
+          },
+          {
+            "frame_number": 2,
+            "visible_observation": "Standing person shown looking downward and holding the apron at the waist area."
+          },
+          {
+            "frame_number": 3,
+            "visible_observation": "Standing person shown holding apron material displaced toward one side at waist level."
+          },
+          {
+            "frame_number": 4,
+            "visible_observation": "Standing person shown holding the apron away from the front of the body with the apron opening visible."
+          },
+          {
+            "frame_number": 5,
+            "visible_observation": "Standing person shown holding the apron gathered across both hands and away from the front of the body."
+          }
+        ],
+        "observation_only": true,
+        "representation_type": "illustrated_sequence",
+        "source_has_textual_step_labels": false
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    },
+    {
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "component_id": "KB-WHO-LBM4-PROG:ANNEXES_BACK_MATTER",
+      "document_id": "KB-WHO-LBM4-PROG",
+      "fallback_type": "SOURCE_BOUND_MANUAL_STRUCTURED_TABLE_TRANSCRIPTION",
+      "fallback_unit_id": "KB-WHO-LBM4-PROG:ANNEXES_BACK_MATTER:PDF_PAGE_56:TABLE_1",
+      "human_review_status": "HUMAN_REVIEW_REQUIRED",
+      "limitations": [
+        "This reconstruction preserves the visible table hierarchy and cell associations but is not an approved claim or retrieval chunk.",
+        "The source is WHO technical guidance and is not Malaysian law or an institutional approval determination.",
+        "Native layout extraction remains excluded because it omits row-group labels and interleaves example columns."
+      ],
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "native_candidate_status": "EXCLUDED_PENDING_REVIEWED_FALLBACK_INTEGRATION",
+      "native_extraction_method": "pypdf==6.18.0:layout",
+      "native_extraction_warning": "ROTATED_TEXT_OMITTED_BY_LAYOUT_MODE",
+      "native_text_sha256": "e3d23e2a1723e033a99014633a762716c576385d23214d4a3a770050a6514ed6",
+      "pdf_page_index": 56,
+      "pdf_page_label": "40",
+      "printed_page_label": "40",
+      "render_sha256": "3b92b204753b3dd702449b21808126f9c15879ec5329fba386921726033ea7d4",
+      "rendered_filename": "KB-WHO-LBM4-PROG_page_056.png",
+      "review_basis": "IMMUTABLE_RENDER_SHA256_BOUND_CELL_BY_CELL_VISUAL_TRANSCRIPTION",
+      "semantic_review_status": "SOURCE_BOUND_SEMANTIC_COMPARISON_COMPLETE",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65",
+      "structured_representation": {
+        "columns": [
+          {
+            "column_key": "asset_inventory",
+            "heading": "Asset inventory",
+            "stage": "Step 1",
+            "stage_title": "Asset identification"
+          },
+          {
+            "column_key": "risk_scenarios",
+            "heading": "Risk scenarios",
+            "stage": "Step 2",
+            "stage_title": "Risk identification and assessment"
+          },
+          {
+            "column_key": "likelihood",
+            "heading": "Likelihood",
+            "stage": "Step 2",
+            "stage_title": "Risk identification and assessment"
+          },
+          {
+            "column_key": "consequences",
+            "heading": "Consequences",
+            "stage": "Step 2",
+            "stage_title": "Risk identification and assessment"
+          },
+          {
+            "column_key": "risk_control_measures",
+            "heading": "Risk control measures",
+            "stage": "Step 3",
+            "stage_title": "Risk control"
+          },
+          {
+            "column_key": "vulnerability_assessment",
+            "heading": "Vulnerability assessment",
+            "stage": "Step 3",
+            "stage_title": "Risk control"
+          },
+          {
+            "column_key": "strategy_review",
+            "heading": "Strategy review",
+            "stage": "Step 4",
+            "stage_title": "Risk acceptance and review"
+          }
+        ],
+        "representation_type": "structured_table",
+        "row_groups": [
+          {
+            "cells": {
+              "asset_inventory": [
+                "Inventory of all tangible and intangible assets."
+              ],
+              "consequences": [
+                "Indication of the consequences to relevant populations and the extent of the effects."
+              ],
+              "likelihood": [
+                "General indication of the possibility of the risk if a risk control measure is not in place.",
+                "Consider including potential adversary (for example, internal personnel, external individuals).",
+                "Consider their motivation and capability to act.",
+                "Consider the predicted or known frequency of the scenario."
+              ],
+              "risk_control_measures": [
+                "Description of the applicable risk control strategies to be implemented.",
+                "Consideration should be given to prevention and response actions."
+              ],
+              "risk_scenarios": [
+                "Description of what could happen as a result of an incident occurring with the asset as listed below."
+              ],
+              "strategy_review": [
+                "Based on the risk assessment and risk control measure, determine the overall risk associated with the asset.",
+                "Review whether the risk is acceptable.",
+                "Where the risk is unacceptable, a cost\u2013benefit analysis may help determine if additional risk control measures are necessary.",
+                "The biosecurity risk assessment should be routinely reviewed and updated when changes affect the risk."
+              ],
+              "vulnerability_assessment": [
+                "Assessment of the effectiveness of the risk control strategy on the identified weaknesses in relation to the impact of the likelihood and consequences."
+              ]
+            },
+            "label": "Description"
+          },
+          {
+            "cells": {
+              "asset_inventory": [
+                "information or organisms with dual-use potential",
+                "animals",
+                "floor plans",
+                "equipment",
+                "software",
+                "documented information",
+                "personnel",
+                "contractors"
+              ],
+              "consequences": [
+                "harm, disease or death of animals",
+                "harm, disease or death of humans",
+                "financial losses",
+                "negative effect on the reputation of the organization"
+              ],
+              "likelihood": [
+                "very low",
+                "low",
+                "moderate",
+                "high",
+                "very high"
+              ],
+              "risk_control_measures": [
+                "Personnel suitability: security screening",
+                "Personnel suitability: insider threat training",
+                "Access controls: security barriers",
+                "Access controls: access control systems",
+                "Access controls: entry and exit records",
+                "Emergency response: release recovery procedure",
+                "Emergency response: incident reporting"
+              ],
+              "risk_scenarios": [
+                "deliberate or accidental loss",
+                "unauthorized release",
+                "diversion",
+                "sabotage",
+                "theft",
+                "espionage",
+                "misuse",
+                "terrorism",
+                "extortion"
+              ],
+              "strategy_review": [
+                "acceptable",
+                "not acceptable"
+              ],
+              "vulnerability_assessment": [
+                "very low",
+                "low",
+                "moderate",
+                "high",
+                "very high"
+              ]
+            },
+            "label": "Examples"
+          }
+        ],
+        "title": "Biosecurity risk assessment process"
+      },
+      "transcription_status": "SOURCE_BOUND_TRANSCRIPTION_COMPLETE"
+    }
+  ],
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "render_manifest_version": "",
+  "source_component_artifact_version": "BioSafe_Component_Candidates_v0.1",
+  "source_extraction_report_version": "BioSafe_Page_Extraction_v0.1"
+}

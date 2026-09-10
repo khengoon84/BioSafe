@@ -1,0 +1,38 @@
+PROP-01: Research Proposal — Recombinant Microorganism for Protein Expression
+Synthetic benchmark document for BioSafe evaluation. This document is fictional and deliberately contains a mixture of adequate content, ambiguity, omissions and/or statements requiring verification.
+Document metadata
+Document status: Fictional benchmark document — intentionally imperfect
+Principal Investigator: Dr. A. Rahman
+Institution: Example University
+Project duration: 24 months
+Proposed start: January 2027
+1. Project Title
+Evaluation of a genetically modified microorganism for recombinant protein expression.
+2. Background
+The project will investigate expression of a recombinant protein using a genetically modified microorganism. The work is intended to support development of a laboratory research platform.
+3. Objectives
+1. Generate the recombinant microorganism. 2. Evaluate recombinant protein expression. 3. Compare expression under selected laboratory conditions.
+4. Biological Materials
+The project will use a genetically modified microorganism derived from a laboratory strain. The host species and inserted construct are not fully described in this proposal.
+5. Experimental Activities
+Researchers will construct the recombinant strain, culture it, perform expression experiments and analyse samples. Exact culture scale and experimental parameters will depend on preliminary results.
+6. Facility
+Work will be conducted in the Molecular Biology Laboratory at Example University. The laboratory has standard microbiology equipment and a biological safety cabinet.
+7. Biosafety Assessment
+The project is expected to present low biosafety risk because it uses a laboratory strain and is performed under contained conditions. Appropriate PPE and good laboratory practice will be used.
+8. Waste Management
+Biological waste will be collected and disposed of through the university waste system.
+9. Personnel
+The PI and two research assistants will conduct the work. All personnel will receive laboratory safety training.
+10. Transport and Storage
+Materials will be stored in the laboratory and may be transferred between university laboratories when required.
+11. Emergency Response
+Spills will be managed according to laboratory procedures and reported to the PI.
+12. Regulatory Considerations
+The project will comply with Malaysian biosafety requirements and institutional procedures. The appropriate notification or approval pathway will be determined before work begins.
+13. Timeline
+Months 1–6: construct preparation and initial testing. Months 7–18: expression studies. Months 19–24: analysis and reporting.
+14. References
+Biosafety Act 2007 (Act 678); relevant Malaysian biosafety guidance; WHO Laboratory Biosafety Manual.
+Benchmark note
+This document is intentionally imperfect. Evaluators should assess whether a BioSafe system identifies material biosafety, regulatory, uncertainty and document-quality issues without inventing facts or claiming official approval.

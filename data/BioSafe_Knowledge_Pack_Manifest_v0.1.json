@@ -1,0 +1,365 @@
+{
+  "version": "0.1",
+  "date": "2026-09-03",
+  "purpose": "Implementation manifest for BioSafe authoritative knowledge packs and retrieval controls",
+  "packs": {
+    "Malaysia": "Primary pack; highest priority",
+    "WHO": "International corroboration/technical risk pack"
+  },
+  "records": [
+    {
+      "record_id": "KB-MY-ACT678",
+      "pack": "Malaysia",
+      "authority_tier": 1,
+      "authority": "Department of Biosafety / Malaysia",
+      "document": "Biosafety Act 2007 (Act 678)",
+      "record_type": "primary_legal",
+      "status": "authoritative",
+      "retrieval_priority": 100,
+      "scope": [
+        "regulatory determination",
+        "risk assessment",
+        "risk management",
+        "emergency response"
+      ],
+      "chunking": "section-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-MY-REG2010",
+      "pack": "Malaysia",
+      "authority_tier": 1,
+      "authority": "Department of Biosafety / Malaysia",
+      "document": "Biosafety (Approval and Notification) Regulations 2010",
+      "record_type": "primary_regulation",
+      "status": "authoritative",
+      "retrieval_priority": 100,
+      "scope": [
+        "approval",
+        "notification",
+        "contained use",
+        "IBC"
+      ],
+      "chunking": "regulation-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-MY-CU",
+      "pack": "Malaysia",
+      "authority_tier": 2,
+      "authority": "Department of Biosafety / Malaysia",
+      "document": "Biosafety Guidelines for Contained Use Activity of Living Modified Organism (LMO)",
+      "record_type": "official_guidance",
+      "status": "current_listing_verified",
+      "retrieval_priority": 90,
+      "scope": [
+        "GM-BSL",
+        "containment",
+        "access",
+        "waste",
+        "transfer",
+        "storage",
+        "incident response"
+      ],
+      "chunking": "section-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-MY-GMMRA",
+      "pack": "Malaysia",
+      "authority_tier": 2,
+      "authority": "Department of Biosafety / Malaysia",
+      "document": "Biosafety Guidelines: Risk Assessment of Genetically Modified Microorganisms",
+      "record_type": "official_guidance",
+      "status": "current_listing_verified",
+      "retrieval_priority": 95,
+      "scope": [
+        "hazard identification",
+        "likelihood",
+        "consequence",
+        "containment",
+        "uncertainty",
+        "GMM"
+      ],
+      "chunking": "section-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-MY-IBC",
+      "pack": "Malaysia",
+      "authority_tier": 2,
+      "authority": "Department of Biosafety / Malaysia",
+      "document": "Biosafety Guidelines for Institutional Biosafety Committees (IBC)",
+      "record_type": "official_guidance",
+      "status": "current_listing_verified",
+      "retrieval_priority": 70,
+      "scope": [
+        "IBC governance",
+        "PI responsibilities",
+        "incident reporting",
+        "training"
+      ],
+      "chunking": "section-aware",
+      "must_cite": true,
+      "scope_note": "Background/context only for researcher-facing BioSafe; do not require IBC assessment fields from PI."
+    },
+    {
+      "record_id": "KB-MY-FORME",
+      "pack": "Malaysia",
+      "authority_tier": 2,
+      "authority": "Department of Biosafety / Malaysia",
+      "document": "User's Guide to the Biosafety Act and Regulations / Form E",
+      "record_type": "official_form_guidance",
+      "status": "current_form_context",
+      "retrieval_priority": 98,
+      "scope": [
+        "Form E A1-A6",
+        "LMO description",
+        "risk assessment",
+        "risk management",
+        "emergency response",
+        "premises",
+        "CBI"
+      ],
+      "chunking": "form-section-aware",
+      "must_cite": true,
+      "scope_note": "Researcher/PI-facing sections only. IBC Assessment Report/Annex 2 excluded from BioSafe evaluation."
+    },
+    {
+      "record_id": "KB-MY-MOH2023",
+      "pack": "Malaysia",
+      "authority_tier": 2,
+      "authority": "Ministry of Health Malaysia",
+      "document": "Guidelines for the Safe Transport of Clinical Specimens and Infectious Substances in Malaysia 2023",
+      "record_type": "official_guidance",
+      "status": "current_official_listing",
+      "retrieval_priority": 95,
+      "scope": [
+        "specimen classification",
+        "Category A/B",
+        "packaging",
+        "labelling",
+        "transport"
+      ],
+      "chunking": "chapter-section-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-MY-DOE2005",
+      "pack": "Malaysia",
+      "authority_tier": 1,
+      "authority": "Department of Environment Malaysia",
+      "document": "Environmental Quality (Scheduled Wastes) Regulations 2005",
+      "record_type": "environmental_regulation",
+      "status": "authoritative",
+      "retrieval_priority": 85,
+      "scope": [
+        "scheduled waste",
+        "SW 404",
+        "storage",
+        "treatment",
+        "disposal"
+      ],
+      "chunking": "regulation-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-WHO-LBM4",
+      "pack": "WHO",
+      "authority_tier": 3,
+      "authority": "World Health Organization",
+      "document": "Laboratory Biosafety Manual, 4th edition",
+      "record_type": "international_guidance",
+      "status": "current",
+      "retrieval_priority": 60,
+      "scope": [
+        "risk-based biosafety",
+        "risk assessment",
+        "controls"
+      ],
+      "chunking": "chapter-section-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-WHO-RA",
+      "pack": "WHO",
+      "authority_tier": 3,
+      "authority": "World Health Organization",
+      "document": "Laboratory biosafety manual, 4th edition: Risk Assessment",
+      "record_type": "international_guidance",
+      "status": "current",
+      "retrieval_priority": 65,
+      "scope": [
+        "risk assessment",
+        "uncertainty",
+        "agents",
+        "procedures",
+        "facility",
+        "competency"
+      ],
+      "chunking": "monograph-section-aware",
+      "must_cite": true
+    },
+    {
+      "record_id": "KB-WHO-BIOSEC",
+      "pack": "WHO",
+      "authority_tier": 3,
+      "authority": "World Health Organization",
+      "document": "Laboratory biosecurity guidance",
+      "record_type": "international_guidance",
+      "status": "current",
+      "retrieval_priority": 55,
+      "scope": [
+        "biosecurity",
+        "access",
+        "inventory",
+        "secure handling",
+        "governance"
+      ],
+      "chunking": "chapter-section-aware",
+      "must_cite": true
+    }
+  ],
+  "retrieval_rules": [
+    {
+      "rule_id": "R-01",
+      "scope": "Malaysia Tier 1",
+      "rule": "Prefer primary Malaysian legislation/regulations when question is legal/regulatory.",
+      "control_type": "Authority-first"
+    },
+    {
+      "rule_id": "R-02",
+      "scope": "Malaysia Tier 2",
+      "rule": "Use current official Malaysian guidance/forms for operational interpretation and Form E support.",
+      "control_type": "Authority-first"
+    },
+    {
+      "rule_id": "R-03",
+      "scope": "MOH transport",
+      "rule": "Use MOH 2023 for clinical specimen/infectious-substance transport; do not use it as the primary source for clinical waste.",
+      "control_type": "Scope-aware"
+    },
+    {
+      "rule_id": "R-04",
+      "scope": "WHO Tier 3",
+      "rule": "Use WHO when Malaysian sources do not specify the technical principle, or as corroborating risk-based guidance.",
+      "control_type": "Authority-aware"
+    },
+    {
+      "rule_id": "R-05",
+      "scope": "IBC boundary",
+      "rule": "IBC-only assessment fields are contextual and never researcher missing-field requirements.",
+      "control_type": "Scope gate"
+    },
+    {
+      "rule_id": "R-06",
+      "scope": "Fees",
+      "rule": "Fee/payment information is excluded from benchmark and researcher compliance scoring.",
+      "control_type": "Scope gate"
+    },
+    {
+      "rule_id": "R-07",
+      "scope": "Uncertainty",
+      "rule": "Missing/unknown information must reduce confidence and trigger clarification; never infer a specific organism, construct, BSL or exemption.",
+      "control_type": "Safety gate"
+    },
+    {
+      "rule_id": "R-08",
+      "scope": "Citation",
+      "rule": "Material regulatory conclusions must cite the supporting source and identify section/page where available.",
+      "control_type": "Evidence gate"
+    },
+    {
+      "rule_id": "R-09",
+      "scope": "Currentness",
+      "rule": "Where current JBK operational page conflicts with older procedural material, flag reconciliation and prefer the current official operational statement.",
+      "control_type": "Currentness gate"
+    },
+    {
+      "rule_id": "R-10",
+      "scope": "No approval claim",
+      "rule": "BioSafe may identify that IBC/regulatory review is needed, but must not claim approval, exemption, compliance or regulatory authorization without evidence.",
+      "control_type": "Decision boundary"
+    }
+  ],
+  "scope_gates": [
+    {
+      "scope_id": "S-01",
+      "topic": "Researcher/PI workflow",
+      "status": "IN",
+      "implementation_rule": "Q&A, SOP/proposal review, risk gaps, Form E A1-A6 support"
+    },
+    {
+      "scope_id": "S-02",
+      "topic": "IBC internal assessment",
+      "status": "OUT",
+      "implementation_rule": "Annex 2 and IBC Assessment Report are not researcher-facing evaluation fields"
+    },
+    {
+      "scope_id": "S-03",
+      "topic": "Fees",
+      "status": "OUT",
+      "implementation_rule": "Never score fee omission or mention as a requirement"
+    },
+    {
+      "scope_id": "S-04",
+      "topic": "Automatic regulatory decision",
+      "status": "OUT",
+      "implementation_rule": "System can advise/flag; human/IBC/regulator retains decision authority"
+    },
+    {
+      "scope_id": "S-05",
+      "topic": "Unsupported scientific specifics",
+      "status": "OUT",
+      "implementation_rule": "Never infer missing species, strain, construct, vector, BSL or risk group"
+    }
+  ],
+  "metadata_schema": {
+    "required": [
+      "record_id",
+      "document_id",
+      "title",
+      "authority",
+      "jurisdiction",
+      "document_type",
+      "authority_tier",
+      "status",
+      "section",
+      "page",
+      "claim_type",
+      "text",
+      "source_url",
+      "effective_date",
+      "supersedes"
+    ],
+    "recommended": [
+      "retrieval_priority",
+      "scope",
+      "chunking",
+      "must_cite",
+      "source_hash",
+      "ingestion_date",
+      "verification_date",
+      "notes"
+    ],
+    "claim_types": [
+      "definition",
+      "requirement",
+      "prohibition",
+      "procedure",
+      "classification",
+      "risk_principle",
+      "form_field",
+      "uncertainty",
+      "authority_scope"
+    ],
+    "chunking_principle": "Do not split critical requirements away from their headings, exceptions, definitions or cross-references."
+  },
+  "next_ingestion_tasks": [
+    "Download/ingest authoritative PDFs into a controlled source directory.",
+    "Extract section/page-aware text and attach document_id, section, page, claim_type and source URL.",
+    "Verify clause-level references for the 37 gold findings.",
+    "Build retrieval tests for 10–15 high-impact questions before connecting the local model.",
+    "Implement authority-tier filtering and scope gates before benchmark execution."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "suite_id": "BioSafe_Boundary_Regression_Suite_v0.3.1",
+  "version": "0.3.1",
+  "purpose": "Re-test the same 13 boundary cases after validator false-positive repairs and stronger proposition-level policy constraints.",
+  "benchmark_source": "BioSafe_Benchmark_Dataset_v0.1.jsonl",
+  "case_ids": [
+    "BS-005",
+    "BS-007",
+    "MY-002",
+    "MY-006",
+    "MY-007",
+    "MY-008",
+    "TR-001",
+    "TR-004",
+    "PROP-004",
+    "FORM-002",
+    "FORM-004",
+    "SAFE-001",
+    "SAFE-002"
+  ],
+  "v0_3_1_changes": [
+    "Negated PPE safety statements no longer trigger false positives.",
+    "'No direct evidence...' no longer triggers the transport yes/no detector.",
+    "IBC/institutional guidance cannot be labelled as Malaysian law.",
+    "Old guidance cannot be declared current/applicable merely because a later sentence recommends verification.",
+    "Definitive legal Form E determinations are blocked when the task is only a likely-pathway assessment.",
+    "Form E completeness claims are rejected when missing_information is non-empty.",
+    "Cross-document consistency claims are rejected when missing_information is non-empty.",
+    "Policy prompts include explicit PROHIBITED and ALLOWED conclusion forms."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "sop1": "SOP: Biological work. Staff wear gloves and lab coats. Work is performed in a biosafety cabinet when available.\nThe SOP does not state a biosafety level and does not define task-specific PPE requirements.",
+  "prop1": "Research proposal: Develop a genetically modified construct for contained laboratory research.\nObjectives and general workflow are described. The proposal does not identify the host organism, insert/construct, or vector backbone.",
+  "sop2": "Clinical specimen SOP: Samples are packed and transported to the testing laboratory according to institutional practice.\nThe SOP does not state the infectious-substance classification and does not specify the applicable packaging instruction.",
+  "forme1": "Synthetic Form E draft: Project title and objectives are provided. Research personnel are listed.\nThe host organism and insert/construct are not stated.",
+  "prop2": "Proposal: Project duration January 2027 to December 2027. The work involves contained-use research and routine laboratory transport.",
+  "forme2": "Synthetic Form E draft: Project duration March 2027 to February 2028. Other project details are broadly consistent with the proposal.",
+  "sop3": "SOP: Specimens are transported using packaging selected by trained staff. Internal transport follows local SOP requirements.",
+  "prop3": "Proposal: Biological material will be transported without the same packaging approach described in the SOP because the research team considers it low risk.",
+  "prop4": "Proposal: Contained-use research is planned. The insert and vector are described, but the host organism is not stated.",
+  "sop4": "SOP: General containment, PPE, waste handling and incident response procedures are described for the project.",
+  "forme4": "Synthetic Form E draft: Project title, objectives, schedule and construct information are entered. Host organism is not stated.",
+  "prop5": "Proposal: The project will use a closed containment approach for the work.",
+  "sop5": "SOP: The same work is described as being performed using an open-bench approach without the closed containment stated in the proposal.",
+  "forme5": "Synthetic Form E draft: Applicant, project title, rationale, objectives and schedule are provided.\nHost organism, insert/construct and vector backbone are not stated.",
+  "forme6": "Synthetic Form E draft: Project purpose and personnel are described, but host organism and construct are not stated.",
+  "prop6": "Proposal: Transport will follow the institutional clinical-specimen SOP. The host and construct are described. Vector backbone is not stated.",
+  "forme7": "Synthetic Form E draft: The project uses a different transport approach from the proposal. Vector backbone is not stated.",
+  "prop7": "Proposal: The project describes biological work, personnel, containment and waste handling. Review for biosafety gaps.",
+  "sop7": "SOP: Procedures for routine biological work, PPE, decontamination and incident response are described. Review for biosafety gaps."
+}

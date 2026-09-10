@@ -1,0 +1,33 @@
+{
+  "package": "BioSafe_Structured_Document_Benchmark_Integration_v0.1",
+  "stage": "7.2",
+  "benchmark": "BioSafe_Context_Aware_Document_Benchmark_v0.2 (unchanged)",
+  "first_model": "qwen3.5:0.8b",
+  "model_config": {
+    "temperature": 0.0,
+    "think": false,
+    "num_predict": 900
+  },
+  "frozen_pipeline": {
+    "knowledge_base": "BioSafe KB v0.2",
+    "retrieval": "CFG-02",
+    "authority_router": "Integration Authority Router v0.1",
+    "query_router": "Query Router v0.2",
+    "scope_gate": "Scope Gate v0.2.1",
+    "policy_guard": "Policy & Decision Guard v0.3.2"
+  },
+  "new_structured_preprocessing": [
+    "document type mapping",
+    "rule-based fact extraction",
+    "missing-field detection",
+    "vague-statement detection",
+    "normalized document profile",
+    "cross-document contradiction detection"
+  ],
+  "planned_models_after_validation": [
+    "qwen3:0.6b",
+    "qwen3.5:0.8b",
+    "qwen3:1.7b",
+    "qwen3.5:2b"
+  ]
+}

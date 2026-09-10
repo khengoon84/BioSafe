@@ -1,0 +1,214 @@
+{
+  "suite": "BioSafe_Deployment_Inference_E2E_Regression_v0.1",
+  "cases": 6,
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "id": "E2E-001",
+      "scenario": "Routine single-document case remains on 0.8B",
+      "pass": true,
+      "initial_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "after_lite_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "integration_repairs": [],
+      "final_response": {
+        "conclusion": "The SOP should be revised before use.",
+        "missing_information": [],
+        "recommended_next_step": [
+          "Clarify the biosafety controls."
+        ],
+        "limitations": [
+          "This is advisory only."
+        ],
+        "applicable_authority": [],
+        "evidence": [],
+        "safety": {
+          "classification": "normal",
+          "response_mode": "answer",
+          "reason": ""
+        }
+      }
+    },
+    {
+      "id": "E2E-002",
+      "scenario": "Cross-document contradiction escalates to 2B",
+      "pass": true,
+      "initial_route": {
+        "model": "qwen3.5:2b",
+        "tier": "complex_case_escalation",
+        "reasons": [
+          "MULTI_DOCUMENT",
+          "CROSS_DOCUMENT_CONTRADICTION"
+        ],
+        "router_version": "0.1"
+      },
+      "after_lite_route": null,
+      "integration_repairs": [],
+      "final_response": {
+        "conclusion": "The documents contain a timeline inconsistency.",
+        "missing_information": [],
+        "recommended_next_step": [
+          "Resolve the inconsistency before concluding."
+        ],
+        "limitations": [
+          "This is advisory only."
+        ],
+        "applicable_authority": [],
+        "evidence": [],
+        "safety": {
+          "classification": "normal",
+          "response_mode": "answer",
+          "reason": ""
+        }
+      }
+    },
+    {
+      "id": "E2E-003",
+      "scenario": "Lite failure escalates to 2B",
+      "pass": true,
+      "initial_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "after_lite_route": {
+        "model": "qwen3.5:2b",
+        "tier": "complex_case_escalation",
+        "reasons": [
+          "LITE_GENERATION_FAILURE",
+          "LITE_LENGTH_EXHAUSTION",
+          "LITE_INVALID_OUTPUT"
+        ],
+        "router_version": "0.1"
+      },
+      "integration_repairs": [],
+      "final_response": {
+        "conclusion": "Further review is needed.",
+        "missing_information": [],
+        "recommended_next_step": [
+          "Retry with the escalation model."
+        ],
+        "limitations": [
+          "This is advisory only."
+        ],
+        "applicable_authority": [],
+        "evidence": [],
+        "safety": {
+          "classification": "normal",
+          "response_mode": "answer",
+          "reason": ""
+        }
+      }
+    },
+    {
+      "id": "E2E-004",
+      "scenario": "Internal Tier terminology is removed after assembly",
+      "pass": true,
+      "initial_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "after_lite_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "integration_repairs": [
+        "REG_LANG_INTERNAL_TIER_REMOVED"
+      ],
+      "final_response": {
+        "conclusion": "The applicable regulatory requirements should be determined from the authoritative Malaysian sources relevant to this activity.",
+        "missing_information": [],
+        "recommended_next_step": [],
+        "limitations": [],
+        "applicable_authority": [],
+        "evidence": [],
+        "safety": {
+          "classification": "normal",
+          "response_mode": "answer",
+          "reason": ""
+        }
+      }
+    },
+    {
+      "id": "E2E-005",
+      "scenario": "Unsupported violation language is softened after assembly",
+      "pass": true,
+      "initial_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "after_lite_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "integration_repairs": [
+        "REG_LANG_UNSUPPORTED_VIOLATION_SOFTENED"
+      ],
+      "final_response": {
+        "conclusion": "The SOP may have a regulatory gap that requires verification against the applicable Malaysian requirements.",
+        "missing_information": [],
+        "recommended_next_step": [],
+        "limitations": [],
+        "applicable_authority": [],
+        "evidence": [],
+        "safety": {
+          "classification": "normal",
+          "response_mode": "answer",
+          "reason": ""
+        }
+      }
+    },
+    {
+      "id": "E2E-006",
+      "scenario": "P620/P650 are not presented as transport category",
+      "pass": true,
+      "initial_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "after_lite_route": {
+        "model": "qwen3.5:0.8b",
+        "tier": "primary",
+        "reasons": [],
+        "router_version": "0.1"
+      },
+      "integration_repairs": [
+        "REG_LANG_PACKAGING_NOT_CLASSIFICATION"
+      ],
+      "final_response": {
+        "conclusion": "The infectious-substance classification should be determined before selecting the applicable packaging instruction.",
+        "missing_information": [],
+        "recommended_next_step": [],
+        "limitations": [],
+        "applicable_authority": [],
+        "evidence": [],
+        "safety": {
+          "classification": "normal",
+          "response_mode": "answer",
+          "reason": ""
+        }
+      }
+    }
+  ]
+}

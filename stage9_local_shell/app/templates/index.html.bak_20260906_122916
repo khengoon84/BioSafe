@@ -1,0 +1,57 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BioSafe Local</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div>
+        <p class="eyebrow">BioSafe · Stage 9 Local Product Shell</p>
+        <h1>Biosafety & Biosecurity Assistant</h1>
+        <p class="sub">Local advisory assistant using the frozen Stage 8 inference architecture.</p>
+      </div>
+      <span class="badge">LOCAL</span>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-target="ask">Ask BioSafe</button>
+      <button class="tab" data-target="review">Review a Document</button>
+      <button class="tab" data-target="forme">Form E Assistant</button>
+    </nav>
+
+    <section id="ask" class="panel active">
+      <h2>Ask BioSafe</h2>
+      <textarea id="askQuery" placeholder="Ask a biosafety, biosecurity, transport, waste, or Malaysian regulatory question..."></textarea>
+      <button onclick="runAsk()">Submit</button>
+    </section>
+
+    <section id="review" class="panel">
+      <h2>Review a Document</h2>
+      <input id="reviewFile" type="file" accept=".txt,.md">
+      <textarea id="reviewQuery">Review this document for biosafety and regulatory gaps. Identify missing information, inconsistencies, and next steps. Do not certify compliance.</textarea>
+      <button onclick="runReview()">Review</button>
+      <p class="hint">v0.1 accepts TXT/MD directly. PDF/DOCX parsing can be added in the next shell iteration without changing the frozen reasoning stack.</p>
+    </section>
+
+    <section id="forme" class="panel">
+      <h2>Form E Assistant</h2>
+      <textarea id="formEQuery" placeholder="Paste the project information you want mapped to Form E. Missing information will be flagged rather than invented."></textarea>
+      <button onclick="runFormE()">Analyse</button>
+    </section>
+
+    <section class="result">
+      <div class="result-head">
+        <h2>BioSafe Response</h2>
+        <span id="status">Ready</span>
+      </div>
+      <pre id="output">No request submitted yet.</pre>
+    </section>
+  </main>
+<script src="/static/app.js"></script>
+</body>
+</html>

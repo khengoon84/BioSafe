@@ -1,0 +1,14 @@
+{
+  "version": "v0.1.1",
+  "reason": "v0.1 integration caused Qwen3.5-0.8B to reproduce the structured packet, producing 12/16 length exhaustions and only 3/16 valid JSON outputs.",
+  "changes": [
+    "Full extraction packet is no longer injected into the LLM prompt.",
+    "Only compact missing-field, ambiguity, and contradiction findings are injected.",
+    "Raw benchmark documents remain unchanged and are still supplied.",
+    "Frozen RAG/policy architecture remains unchanged.",
+    "BioSafe output schema instruction is repeated last.",
+    "Explicitly forbids packet reproduction and extra top-level fields.",
+    "Model configuration remains temperature=0, think=false, num_predict=900."
+  ],
+  "benchmark_status": "v0.1 run is diagnostic only; do not use it for substantive model comparison."
+}

@@ -1,0 +1,19 @@
+BIOLOGICAL SAFETY SOP — TEST FIXTURE
+
+Purpose:
+This SOP describes routine handling of a non-recombinant bacterial culture in a research laboratory.
+
+Procedure summary:
+Personnel wear laboratory coats and gloves and perform routine culture handling on the bench.
+
+Known information:
+- Organism identity is provided in the study record.
+- The activity is research-only.
+- No genetic modification is described in this fixture.
+
+Information intentionally omitted:
+- exposure route assessment
+- scale/quantity
+- facility-specific containment details
+- decontamination validation
+- waste-disposal details
