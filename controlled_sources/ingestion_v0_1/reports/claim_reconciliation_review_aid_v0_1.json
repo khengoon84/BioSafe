@@ -1933,7 +1933,7 @@
         "Form E is not an approval, submission, permit, or regulatory determination."
       ],
       "claim_id": "CLM-018",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -2157,7 +2157,7 @@
         "Form E is not an approval, submission, permit, or regulatory determination."
       ],
       "claim_id": "CLM-019",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -3285,7 +3285,7 @@
         "Form E is not an approval, submission, permit, or regulatory determination."
       ],
       "claim_id": "CLM-024",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -3509,7 +3509,7 @@
         "Form E is not an approval, submission, permit, or regulatory determination."
       ],
       "claim_id": "CLM-025",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -6456,7 +6456,7 @@
     }
   ],
   "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "completed_claim_review_count": 9,
+  "completed_claim_review_count": 13,
   "completed_identity_review_count": 4,
   "identity_mapping_item_count": 4,
   "identity_mapping_items": [
@@ -6860,10 +6860,10 @@
     }
   ],
   "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
-  "pending_claim_review_count": 36,
+  "pending_claim_review_count": 32,
   "pending_identity_review_count": 0,
   "review_aid_version": "BioSafe_Claim_Reconciliation_Review_Aid_v0.1",
-  "source_claim_reconciliation_map_sha256": "a228e64397a2366072277a220d3a07778642f1b33e3a10180625c83804e67363",
+  "source_claim_reconciliation_map_sha256": "e5e8cd1c56ee8cadbbd33a277b451255a6e6d2a0e74ff4185c4f46012f8410ab",
   "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
   "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
   "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",

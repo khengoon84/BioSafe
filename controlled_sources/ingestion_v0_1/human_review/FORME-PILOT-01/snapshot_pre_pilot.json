@@ -1,11 +1,5 @@
 {
-  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "completed_review_count": 13,
-  "curated_claim_count": 2,
-  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
-  "required_review_count": 45,
-  "review_completion_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "review_items": [
+  "claim_reviews": [
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
@@ -918,45 +912,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "Form E researcher-facing information includes applicant and responsible scientists/personnel qualifications and experience."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-018",
       "controlled_document_id": "KB-MY-FORME",
       "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
-      "disposition": "INSUFFICIENT_EVIDENCE",
-      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
-        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "Page 202 contains only a page header and appendix label (NBB/N/CU/10/FORM E, NBB REF NO, APPENDIX 5).",
-        "No applicant qualifications, responsible scientist fields, or personnel experience content was found on this page."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-FORME",
-      "limitations": [
-        "Page 202 is a page header only and does not contain applicant or personnel qualification content.",
-        "This review assessed only the nominated candidate page; other pages of Form E may contain relevant content."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-018",
         "claim_type": "forme",
@@ -968,55 +950,43 @@
         "text": "Form E researcher-facing information includes applicant and responsible scientists/personnel qualifications and experience.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-10",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
       "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "Form E requires that the applicant provide the name and business address of the applicant, and the name, address and contact details of the responsible scientist."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-019",
       "controlled_document_id": "KB-MY-FORME",
       "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
-      "disposition": "INSUFFICIENT_EVIDENCE",
-      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
-        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "Page 202 contains only a page header and appendix label.",
-        "No applicant name, business address, or responsible scientist contact detail fields were found on this page."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-FORME",
-      "limitations": [
-        "Page 202 is a page header only and does not contain applicant or responsible scientist fields.",
-        "This review assessed only the nominated candidate page; other pages of Form E may contain relevant content."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-019",
         "claim_type": "forme",
@@ -1028,11 +998,11 @@
         "text": "Form E project information includes title, biosafety level, rationale, objectives, schedule/dates and other project particulars specified by the form.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-10",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
       "support_spans": []
     },
     {
@@ -1230,46 +1200,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "Form E provides for confidential business information claims and justification where applicable."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-024",
       "controlled_document_id": "KB-MY-FORME",
       "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
-      "disposition": "SUPPORTED_EXACTLY",
-      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
-        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "Page 204 contains the CBI/confidentiality section.",
-        "It states that CBI information under section 59(3) of the Biosafety Act 2007 should be clearly marked \"CBI\" and that justification for the CBI request must be provided.",
-        "This directly supports the claim that Form E provides for CBI claims and justification."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-FORME",
-      "limitations": [
-        "The CBI marking and justification requirement on page 204 supports the claim, but this does not establish whether Form E applies to a specific project.",
-        "This claim does not determine legal applicability, compliance, or whether work may begin."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-024",
         "claim_type": "forme_cbi",
@@ -1281,67 +1238,43 @@
         "text": "Form E provides for confidential business information claims and justification where applicable.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-10",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 204,
-          "pdf_page_start": 204,
-          "quoted_support": "Any information within this notification which is to be treated as CBI, as described in the\nBiosafety Act 2007 in section 59(3) should be clearly marked \u201cCBI\u201d in the relevant parts\nof      the      notification      by      providing      the      justification      for      the      request      for      CBI.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-025",
       "controlled_document_id": "KB-MY-FORME",
       "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
-      "disposition": "SUPPORTED_EXACTLY",
-      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
-        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "Page 208 contains the IBC Assessment Report section.",
-        "It explicitly states \"This must be completed by the registered IBC of the Applicant's organization\", confirming that the IBC Assessment Report is completed by the registered IBC and is not a researcher/PI field."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-FORME",
-      "limitations": [
-        "Page 208 confirms the IBC Assessment Report is completed by the registered IBC, but this does not establish whether Form E applies to a specific project.",
-        "This claim does not determine legal applicability, compliance, or whether work may begin."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-025",
         "claim_type": "scope_boundary",
@@ -1353,24 +1286,12 @@
         "text": "The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring.",
         "verification_status": "Verified / project scope"
       },
-      "review_date": "2026-09-10",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 208,
-          "pdf_page_start": 208,
-          "quoted_support": "This must be completed by the registered IBC of the Applicant\u2019s organization",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
@@ -2362,8 +2283,9 @@
       "support_spans": []
     }
   ],
-  "review_packet_version": "BioSafe_Claim_Reconciliation_Packet_v0.1",
-  "review_scope": "CLAIM_TO_CONTROLLED_SOURCE_RECONCILIATION_ONLY",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "reconciliation_map_version": "BioSafe_Claim_Reconciliation_Map_v0.1",
   "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
   "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
   "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",

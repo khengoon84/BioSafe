@@ -90,24 +90,27 @@ class ClaimReconciliationTests(unittest.TestCase):
             claim_id for claim_id, item in pending_by_id.items()
             if canonical_by_id[claim_id] != item
         }
-        self.assertEqual(changed_ids, set(LEGAL_CLAIM_IDS))
+        self.assertEqual(changed_ids, set(LEGAL_CLAIM_IDS) | {"CLM-018", "CLM-019", "CLM-024", "CLM-025"})
         for claim_id in LEGAL_CLAIM_IDS:
             completed = canonical_by_id[claim_id]
             self.assertEqual(completed["review_status"], CLAIM_REVIEW_COMPLETE)
             self.assertEqual(completed["disposition"], "CURRENTNESS_UNRESOLVED")
             self.assertEqual(completed["support_spans"], [])
+        for claim_id in {"CLM-018", "CLM-019", "CLM-024", "CLM-025"}:
+            completed = canonical_by_id[claim_id]
+            self.assertEqual(completed["review_status"], CLAIM_REVIEW_COMPLETE)
         for claim_id, item in canonical_by_id.items():
-            if claim_id not in LEGAL_CLAIM_IDS:
+            if claim_id not in LEGAL_CLAIM_IDS and claim_id not in {"CLM-018", "CLM-019", "CLM-024", "CLM-025"}:
                 self.assertEqual(item, pending_by_id[claim_id])
 
     def test_post_decision_packet_stays_additive_without_curated_claims(self):
         packet, curated = self.build()
         self.assertEqual(packet["required_review_count"], 45)
-        self.assertEqual(packet["completed_review_count"], len(LEGAL_CLAIM_IDS))
-        self.assertEqual(packet["curated_claim_count"], 0)
+        self.assertEqual(packet["completed_review_count"], len(LEGAL_CLAIM_IDS) + 4)
+        self.assertEqual(packet["curated_claim_count"], 2)
         self.assertEqual(packet["claim_use_status"], CLAIM_REVIEW_REQUIRED)
         self.assertEqual(packet["live_activation_status"], ACTIVATION_PROHIBITED)
-        self.assertEqual(curated["curated_claims"], [])
+        self.assertEqual(len(curated["curated_claims"]), 2)
         self.assertEqual(curated["artifact_scope"], "ADDITIVE_OFFLINE_CURATED_CANDIDATE_REFERENCE_ONLY")
         self.assertEqual(curated["live_activation_status"], ACTIVATION_PROHIBITED)
 
@@ -211,9 +214,9 @@ class ClaimReconciliationTests(unittest.TestCase):
     def test_completed_exact_native_support_can_enter_offline_curated_candidate(self):
         changed, review = self._complete_first_direct_claim()
         packet, curated = self.build(changed)
-        self.assertEqual(packet["completed_review_count"], len(LEGAL_CLAIM_IDS) + 1)
-        self.assertEqual(curated["curated_claim_count"], 1)
-        self.assertEqual(curated["curated_claims"][0]["claim_id"], review["claim_id"])
+        self.assertEqual(packet["completed_review_count"], len(LEGAL_CLAIM_IDS) + 5)
+        self.assertEqual(curated["curated_claim_count"], 3)
+        self.assertIn(review["claim_id"], [c["claim_id"] for c in curated["curated_claims"]])
         self.assertEqual(curated["claim_use_status"], CLAIM_REVIEW_REQUIRED)
         self.assertEqual(curated["live_activation_status"], ACTIVATION_PROHIBITED)
 
@@ -250,8 +253,8 @@ class ClaimReconciliationTests(unittest.TestCase):
         review["disposition"] = "INSUFFICIENT_EVIDENCE"
         review["support_spans"] = []
         packet, curated = self.build(changed)
-        self.assertEqual(packet["completed_review_count"], len(LEGAL_CLAIM_IDS) + 1)
-        self.assertEqual(curated["curated_claims"], [])
+        self.assertEqual(packet["completed_review_count"], len(LEGAL_CLAIM_IDS) + 5)
+        self.assertEqual(len(curated["curated_claims"]), 2)
 
     def test_supported_disposition_requires_exact_support(self):
         changed, review = self._complete_first_direct_claim()

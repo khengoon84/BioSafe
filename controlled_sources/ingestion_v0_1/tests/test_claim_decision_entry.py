@@ -125,9 +125,9 @@ class ClaimDecisionEntryTests(unittest.TestCase):
         self.assertEqual(changed["review_status"], "CLAIM_REVIEW_COMPLETE")
         self.assertEqual(unchanged, original)
         self.assertEqual(report["changed_claim_ids"], ["CLM-008"])
-        self.assertEqual(report["total_completed_review_count"], 10)
-        self.assertEqual(report["total_pending_review_count"], 35)
-        self.assertEqual(report["curated_claim_ids"], ["CLM-008"])
+        self.assertEqual(report["total_completed_review_count"], 14)
+        self.assertEqual(report["total_pending_review_count"], 31)
+        self.assertEqual(report["curated_claim_ids"], ["CLM-008", "CLM-024", "CLM-025"])
         self.assertEqual(report["live_activation_status"], "PROHIBITED_PENDING_PHASE_C_GATES")
 
     def test_result_and_report_are_deterministic(self):
@@ -212,7 +212,7 @@ class ClaimDecisionEntryTests(unittest.TestCase):
             self.assertEqual(snapshot.read_bytes(), self.raw["map"])
             self.assertEqual(output.read_bytes(), canonical_json_bytes(expected_map))
             self.assertEqual(report.read_bytes(), canonical_json_bytes(expected_report))
-            self.assertIn("changed=1 completed=10 curated=1 dry_run=False", process.stdout)
+            self.assertIn("changed=1 completed=14 curated=3 dry_run=False", process.stdout)
 
     def test_public_cli_dry_run_writes_nothing(self):
         decisions = self.decision_packet()
