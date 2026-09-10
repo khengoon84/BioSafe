@@ -216,6 +216,26 @@ PYTHONPATH=controlled_sources/ingestion_v0_1/src \
   --output controlled_sources/ingestion_v0_1/reports/claim_reconciliation_review_aid_v0_1.json
 ```
 
+Generate source-coherent, navigation-only markdown briefs for the 36 pending claims with:
+
+```bash
+cd /home/khengoon/biosafe
+PYTHONPATH=controlled_sources/ingestion_v0_1/src \
+  .venv/bin/python controlled_sources/ingestion_v0_1/scripts/generate_claim_review_briefs.py \
+  --review-aid controlled_sources/ingestion_v0_1/reports/claim_reconciliation_review_aid_v0_1.json \
+  --review-map controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json \
+  --output-dir controlled_sources/ingestion_v0_1/review \
+  --generated-date 2026-09-10
+```
+
+`review/INDEX.md` links nine briefs grouped by controlled document. The generator verifies
+that the review aid is SHA-256-bound to the supplied canonical map and that its pending count
+matches the emitted claim set. The briefs copy source-bound navigation suggestions and the
+exact reconciliation contract; they do not create dispositions, propositions, reviewer
+identity, attestations, regulatory conclusions, or activation decisions. Human decisions
+must be recorded in `config/claim_reconciliation_map_v0_1.json` and validated by the existing
+claim-reconciliation builder and tests.
+
 ## Phase C2 Malaysian legal-claim review draft
 
 `config/legal_claim_review_draft_map_v0_1.json` and `reports/legal_claim_review_draft_v0_1.json` provide a separate navigation and atomization aid for the nine existing claims tied to Act 678, the Biosafety (Approval and Notification) Regulations 2010, and the Environmental Quality (Scheduled Wastes) Regulations 2005. The artifact embeds exact controlled candidate text and source hashes, validates locator phrases, carries the controlled currentness/supersession blockers, and proposes editable atomic statements. It cannot update `config/claim_reconciliation_map_v0_1.json`, assign a disposition, provide reviewer identity, or produce attestations.
@@ -250,6 +270,30 @@ PYTHONPATH=controlled_sources/ingestion_v0_1/src \
   --review-date 2026-09-10 \
   --output controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json
 ```
+
+Generate evidence-only bundles for the three recorded legal blockers with:
+
+```bash
+cd /home/khengoon/biosafe
+PYTHONPATH=controlled_sources/ingestion_v0_1/src \
+  .venv/bin/python controlled_sources/ingestion_v0_1/scripts/generate_legal_blocker_evidence.py \
+  --legal-draft controlled_sources/ingestion_v0_1/reports/legal_claim_review_draft_v0_1.json \
+  --review-map controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json \
+  --components controlled_sources/ingestion_v0_1/reports/component_candidates_v0_1.json \
+  --source-policy controlled_sources/ingestion_v0_1/config/source_policy_v0_1.json \
+  --source-register controlled_sources/staging_v0_1/SOURCE_REGISTER.tsv \
+  --output-dir controlled_sources/ingestion_v0_1/legal_blocker_evidence \
+  --generated-date 2026-09-10
+```
+
+The generator validates source-policy/component provenance, the source-register hash and
+document identities, and the canonical `CLAIM_REVIEW_COMPLETE` /
+`CURRENTNESS_UNRESOLVED` / empty-support state for CLM-006, CLM-007, and CLM-030. It also
+fails closed if a 2019 amendment record is later added to the controlled source register,
+because the current controlled-corpus-gap statement would then require human revision.
+The outputs reproduce source-bound passages and component review gates only; they do not
+resolve currentness or establish applicability, exemption, approval, notification,
+classification, compliance, non-compliance, or a prescribed pathway.
 
 Render selected pages with:
 

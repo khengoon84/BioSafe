@@ -57,17 +57,22 @@ What does exist and is hash-attested in `controlled_sources/ingestion_v0_1/READM
 - `reports/curated_candidate_kb_v0_1.json`: intentionally empty (`6d6f70b5…`).
 - `reports/claim_reconciliation_review_aid_v0_1.json` (`0cabfdb3…`): navigation aid,
   9 complete / 36 pending.
-- All 10 deterministic test suites in `controlled_sources/ingestion_v0_1/tests/` pass
-  (run 10 September 2026).
+- All 12 deterministic test suites in `controlled_sources/ingestion_v0_1/tests/` pass
+  after the review-brief and legal-blocker evidence additions (run 10 September 2026).
 
 ## Open items
 
 1. ~~Owner decision: update `AGENTS.md` to reference `Project_Baseline.md` by its actual
    filename~~ **Applied 10 September 2026**: line 5 of `AGENTS.md` now points to
-   `Project_Baseline.md`. The 25-byte `.docx:Zone.Identifier` remnant remains on disk
-   (untracked/ignored) pending owner deletion.
-2. Per baseline "Changes since baseline v1.0": Unified-3 browser-UI work changed three files
-   covered by the Unified-2.2.5.1 promotion hashes → fresh live WSL2/Ollama and human
-   validation still required. No live validation has been run in these sessions.
-3. Human review of the 36 pending claims and the three legal-claim currentness blockers
-   (CLM-006, CLM-007, CLM-030) remains open.
+   `Project_Baseline.md`. The orphaned `.docx:Zone.Identifier` remnant and the other orphaned
+   ADS metadata files were subsequently deleted; all remaining ADS metadata is ignored.
+2. **Live revalidation attempted 10 September 2026 and failed.** Compilation and the current
+   deterministic semantic-gate suite passed (22/22), but the inspected live suite passed
+   36/37 and human review found additional unsupported permit/regulatory claims. See
+   `docs/UNIFIED2251_LIVE_REVALIDATION_2026-09-10.md`. Unified-2.2.5.1 remains an unpromoted
+   candidate; defect remediation requires a separate approved plan.
+3. Navigation-only briefs for all 36 pending claims now exist under
+   `controlled_sources/ingestion_v0_1/review/`; human review remains open.
+4. Evidence-only bundles for CLM-006, CLM-007, and CLM-030 now exist under
+   `controlled_sources/ingestion_v0_1/legal_blocker_evidence/`. The 2019 First/Third Schedule
+   amending instrument is not in the controlled source register, so CLM-007 remains blocked.
