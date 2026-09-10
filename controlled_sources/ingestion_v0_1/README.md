@@ -236,6 +236,50 @@ identity, attestations, regulatory conclusions, or activation decisions. Human d
 must be recorded in `config/claim_reconciliation_map_v0_1.json` and validated by the existing
 claim-reconciliation builder and tests.
 
+Initialize the four-claim Form E pilot worksheet and deliberately incomplete decision packet
+with:
+
+```bash
+cd /home/khengoon/biosafe
+PYTHONPATH=controlled_sources/ingestion_v0_1/src \
+  .venv/bin/python controlled_sources/ingestion_v0_1/scripts/initialize_claim_decision_template.py \
+  --review-map controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json \
+  --review-aid controlled_sources/ingestion_v0_1/reports/claim_reconciliation_review_aid_v0_1.json \
+  --claim-id CLM-018 --claim-id CLM-019 --claim-id CLM-024 --claim-id CLM-025 \
+  --batch-id FORME-PILOT-01 \
+  --packet-output controlled_sources/ingestion_v0_1/human_review/FORME-PILOT-01/decision_packet.json \
+  --worksheet-output controlled_sources/ingestion_v0_1/human_review/FORME-PILOT-01/WORKSHEET.md
+```
+
+The initialized packet is `HUMAN_REVIEW_REQUIRED`; all decision fields remain pending,
+null, empty, or false. The application CLI refuses it until the human reviewer completes
+every decision and explicitly changes the top-level status to `HUMAN_REVIEW_COMPLETE`.
+After human completion, validate without writing anything by adding `--dry-run` to:
+
+```bash
+cd /home/khengoon/biosafe
+PYTHONPATH=controlled_sources/ingestion_v0_1/src \
+  .venv/bin/python controlled_sources/ingestion_v0_1/scripts/apply_claim_review_decisions.py \
+  --review-map controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json \
+  --decision-packet controlled_sources/ingestion_v0_1/human_review/FORME-PILOT-01/decision_packet.json \
+  --crosswalk controlled_sources/ingestion_v0_1/config/document_identity_crosswalk_v0_1.json \
+  --knowledge-base data/BioSafe_Knowledge_Base_v0.2.json \
+  --components controlled_sources/ingestion_v0_1/reports/component_candidates_v0_1.json \
+  --fallbacks controlled_sources/ingestion_v0_1/reports/semantic_fallbacks_v0_1.json \
+  --fallback-reviews controlled_sources/ingestion_v0_1/reports/fallback_human_review_packet_v0_1.json \
+  --output controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json \
+  --snapshot-output controlled_sources/ingestion_v0_1/reports/claim_reconciliation_map_v0_1_pre_FORME-PILOT-01.json \
+  --report-output controlled_sources/ingestion_v0_1/reports/claim_decision_report_FORME-PILOT-01.json \
+  --applied-date 2026-09-10 \
+  --dry-run
+```
+
+Without `--dry-run`, the CLI first validates the existing map and every proposed completed
+review using the canonical reconciliation builder, verifies the exact declared changed-claim
+set, preserves the prior map bytes in a non-overwritable snapshot, atomically writes the new
+map and a hash-bound deterministic report, and refuses reapplication. The map, snapshot, and
+report paths must be distinct. No Form E pilot decision has been applied yet.
+
 ## Phase C2 Malaysian legal-claim review draft
 
 `config/legal_claim_review_draft_map_v0_1.json` and `reports/legal_claim_review_draft_v0_1.json` provide a separate navigation and atomization aid for the nine existing claims tied to Act 678, the Biosafety (Approval and Notification) Regulations 2010, and the Environmental Quality (Scheduled Wastes) Regulations 2005. The artifact embeds exact controlled candidate text and source hashes, validates locator phrases, carries the controlled currentness/supersession blockers, and proposes editable atomic statements. It cannot update `config/claim_reconciliation_map_v0_1.json`, assign a disposition, provide reviewer identity, or produce attestations.

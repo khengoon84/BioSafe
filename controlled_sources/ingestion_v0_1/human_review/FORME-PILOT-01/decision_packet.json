@@ -1,0 +1,147 @@
+{
+  "batch_id": "FORME-PILOT-01",
+  "claim_ids": [
+    "CLM-018",
+    "CLM-019",
+    "CLM-024",
+    "CLM-025"
+  ],
+  "decision_packet_version": "BioSafe_Claim_Review_Decision_Packet_v0.1",
+  "decisions": [
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-018",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "jurisdiction": null,
+      "limitations": [],
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-019",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "jurisdiction": null,
+      "limitations": [],
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-024",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "jurisdiction": null,
+      "limitations": [],
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-025",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "jurisdiction": null,
+      "limitations": [],
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    }
+  ],
+  "human_review_status": "HUMAN_REVIEW_REQUIRED",
+  "source_review_aid_sha256": "0cabfdb330b78becd2a036ebbfd9cf5e59a11fed6259b0f37e8923bf26cd8f67",
+  "source_review_map_sha256": "a228e64397a2366072277a220d3a07778642f1b33e3a10180625c83804e67363"
+}
