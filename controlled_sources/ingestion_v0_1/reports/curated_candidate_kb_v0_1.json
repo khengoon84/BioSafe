@@ -2,7 +2,7 @@
   "artifact_scope": "ADDITIVE_OFFLINE_CURATED_CANDIDATE_REFERENCE_ONLY",
   "artifact_version": "BioSafe_Curated_Candidate_KB_v0.1",
   "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "curated_claim_count": 29,
+  "curated_claim_count": 31,
   "curated_claims": [
     {
       "allowed_actions": [],
@@ -2703,6 +2703,189 @@
           "quoted_support": "Any\n                          facility that handles biological agents has an obligation to their personnel and the\n                          community to perform a risk assessment on the work they will conduct and to select\n                          and apply appropriate risk control measures to reduce those risks to an acceptable\n                          risk. The purpose of the risk assessment is to gather information, evaluate it and use it\n                          to inform and justify the implementation of processes, procedures and technologies to\n                          control the risks present.",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "support_type": "DIRECT"
+        }
+      ]
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The monograph describes core requirements as a combination of risk control measures that are foundational and integral to laboratory biosafety.",
+        "It states that GMPP is the most important requirement of a laboratory facility and describes it as a code of practice applicable to activities with biological agents.",
+        "The monograph lists laboratory coats, footwear, gloves, and eye protection as PPE core requirements."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 3",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-042",
+      "controlled_document_id": "KB-WHO-LBM4-PPE",
+      "controlled_source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "WHO_INTERNATIONAL_PERSONAL_PROTECTIVE_EQUIPMENT_TECHNICAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
+        "Do not represent this draft, PPE, or selected controls as approval, compliance, or proof an activity is safe.",
+        "Do not infer project-specific PPE, respiratory protection, control, safety, containment, facility suitability, or authorization to begin work.",
+        "Do not activate these propositions for live retrieval or claim use.",
+        "Do not represent \u201cPPE is not a complete safety determination\u201d as direct WHO wording; preserve it only as a BioSafe boundary against unsupported safety conclusions."
+      ],
+      "findings": [
+        "PDF page 29 directly supports the core-requirements, GMPP, and listed-PPE propositions.",
+        "The historical categorical phrase about PPE not being a complete safety determination is retained as a boundary, not WHO source evidence.",
+        "The historical compound claim is split into three draft propositions."
+      ],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": "International",
+      "legacy_document_id": "KB-WHO-PPE",
+      "limitations": [
+        "This WHO publication is Tier 3 international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
+        "The passages describe general risk-control concepts; they do not determine PPE or controls for a specific activity.",
+        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-042",
+        "claim_type": "ppe_role",
+        "document_id": "KB-WHO-PPE",
+        "maps_to": "BS-004; BS-005",
+        "page": "Section 3",
+        "priority": "critical",
+        "section": "Section 3 \u2013 PPE for core requirements",
+        "text": "WHO places PPE within broader laboratory biosafety core requirements rather than treating PPE as a complete safety determination. Core requirements include good microbiological practice and procedure, with PPE such as laboratory coats, footwear, gloves and eye protection used as applicable.",
+        "verification_status": "Verified against WHO PPE monograph"
+      },
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2,
+            3
+          ],
+          "pdf_page_end": 29,
+          "pdf_page_start": 29,
+          "quoted_support": "Core requirements are a combination of risk control measures that are both the foun-\ndation for and an integral part of laboratory biosafety. These requirements are defined\nin the fourth edition of the Laboratory biosafety manual (5) and should be applied\nin all laboratory facilities. They reflect international standards and best practice in\nbiosafety that are a set of minimum requirements and considerations for working\nsafely with biological agents, even where the risks are considered minimal. The most\nimportant requirement of any laboratory facility is GMPP. This term covers a code of\npractice applicable to all types of activities with biological agents. It includes general\nbehaviours, best working practices and technical procedures that should be observed\nin the laboratory. These should be carried out in a standardized way so that laboratory\npersonnel and the community are protected from infection, the environment is protect-\ned from contamination and products are protected for work with biological agents.\n\nThe Laboratory biosafety manual (5) suggests the following as PPE core requirements:\n\n\nn laboratory coats,\n\n\nn footwear,\n\n\nn gloves, and\n\n\nn eye protection.\n\nThe use of respiratory protection is not generally required for protection against\nbiological agents as a core requirement. Where a risk assessment indicates that\nrespiratory protection is needed to protect against biological agents, this is considered\na heightened control measure (see section 4 PPE for heightened control measures).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+          "support_type": "DIRECT"
+        }
+      ]
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The monograph states that respiratory protection is not generally required for protection against biological agents as a core requirement and that, where a risk assessment indicates it is needed, it is a heightened control measure.",
+        "The monograph states that risk assessment may determine additional PPE as part of risk control beyond core requirements and that local risk-assessment outcomes guide selection of risk control measures.",
+        "It states that respiratory protection only protects the wearer, so other measures may be required to protect other laboratory personnel and/or the local environment at risk of exposure or contamination.",
+        "It states that respiratory protective equipment must be selected carefully based on risk-assessment results and used only by trained personnel who know the appropriate equipment and correct use."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 3",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-043",
+      "controlled_document_id": "KB-WHO-LBM4-PPE",
+      "controlled_source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "WHO_INTERNATIONAL_PERSONAL_PROTECTIVE_EQUIPMENT_TECHNICAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
+        "Do not represent this draft, PPE, or selected controls as approval, compliance, or proof an activity is safe.",
+        "Do not infer project-specific PPE, respiratory protection, control, safety, containment, facility suitability, or authorization to begin work.",
+        "Do not activate these propositions for live retrieval or claim use.",
+        "Do not infer that respiratory protection is required or not required for a specific activity, agent, procedure, facility, or person."
+      ],
+      "findings": [
+        "PDF page 29 directly supports the core-requirement/heighened-control distinction for respiratory protection.",
+        "PDF page 33 directly supports risk-assessment-directed additional PPE and local control-selection framing.",
+        "PDF page 35 directly supports wearer-only limitation, possible need for other measures, risk-assessment selection, and training boundary.",
+        "The historical claim is split into four draft propositions."
+      ],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": "International",
+      "legacy_document_id": "KB-WHO-PPE",
+      "limitations": [
+        "This WHO publication is Tier 3 international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
+        "The passages describe general risk-control concepts; they do not determine PPE or controls for a specific activity.",
+        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-043",
+        "claim_type": "ppe_risk_based_selection",
+        "document_id": "KB-WHO-PPE",
+        "maps_to": "BS-004; BS-005",
+        "page": "Section 3",
+        "priority": "critical",
+        "section": "Section 3 \u2013 PPE for core requirements",
+        "text": "WHO indicates that some PPE needs are determined by risk assessment; for example, respiratory protection for biological agents is not a general core requirement and becomes a heightened control measure when the risk assessment indicates it is needed.",
+        "verification_status": "Verified against WHO PPE monograph"
+      },
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 29,
+          "pdf_page_start": 29,
+          "quoted_support": "Core requirements are a combination of risk control measures that are both the foun-\ndation for and an integral part of laboratory biosafety. These requirements are defined\nin the fourth edition of the Laboratory biosafety manual (5) and should be applied\nin all laboratory facilities. They reflect international standards and best practice in\nbiosafety that are a set of minimum requirements and considerations for working\nsafely with biological agents, even where the risks are considered minimal. The most\nimportant requirement of any laboratory facility is GMPP. This term covers a code of\npractice applicable to all types of activities with biological agents. It includes general\nbehaviours, best working practices and technical procedures that should be observed\nin the laboratory. These should be carried out in a standardized way so that laboratory\npersonnel and the community are protected from infection, the environment is protect-\ned from contamination and products are protected for work with biological agents.\n\nThe Laboratory biosafety manual (5) suggests the following as PPE core requirements:\n\n\nn laboratory coats,\n\n\nn footwear,\n\n\nn gloves, and\n\n\nn eye protection.\n\nThe use of respiratory protection is not generally required for protection against\nbiological agents as a core requirement. Where a risk assessment indicates that\nrespiratory protection is needed to protect against biological agents, this is considered\na heightened control measure (see section 4 PPE for heightened control measures).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 33,
+          "pdf_page_start": 33,
+          "quoted_support": "Where determined by the risk assessment, additional PPE may be required as part of\nthe risk control, over and above those defined as core requirements. These additional\nrequirements are the heightened control measures and maximum containment\nmeasures proposed to address the higher initial risks associated with the performance\nof more specialized work and/or work with more hazardous biological agents.\n\nWhere national regulations exist, there may be compulsory, pre-defined lists of risk\ncontrol measure(s) to be used. Beyond such requirements, the outcomes of the local\nrisk assessment must be used to guide the selection of risk control measures, bearing in\nmind available resources, competency of personnel and practicality of implementation.\nHeightened control measures may include specialized PPE and/or specialized\nprotocols with core requirement PPE that help further reduce identified risks.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3,
+            4
+          ],
+          "pdf_page_end": 35,
+          "pdf_page_start": 35,
+          "quoted_support": "Respiratory protective equipment is a form of PPE designed to protect the wearer\nfrom inhaling particles that contain biological agents that may be present in the air\nor generated during certain laboratory procedures. Respiratory protection can be\nused to protect personnel from aerosols as an alternative or in addition to carrying\nout work in a BSC. However, respiratory protection should only be used after careful\nconsideration of the risks as this equipment only protects the wearer. Therefore, other\nmeasures may be required to ensure that any other laboratory personnel and/or the\nlocal environment at risk of exposure/contamination are also protected.\n\nRespiratory protective equipment must be selected carefully based on the results\nof a risk assessment. It must only be used by trained personnel who know what the\nappropriate equipment for the work is and how to use it correctly.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35",
           "support_type": "DIRECT"
         }
       ]

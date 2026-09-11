@@ -40,7 +40,7 @@ COMPLETED_NONLEGAL_CLAIM_IDS = {
     "CLM-026", "CLM-027", "CLM-028",
     "CLM-031", "CLM-035",
     "CLM-032", "CLM-033", "CLM-036", "CLM-037", "CLM-038",
-    "CLM-039", "CLM-040", "CLM-041", "CLM-044", "CLM-045",
+    "CLM-039", "CLM-040", "CLM-041", "CLM-042", "CLM-043", "CLM-044", "CLM-045",
 }
 
 
@@ -115,18 +115,10 @@ class ClaimReviewAidTests(unittest.TestCase):
 
     def test_completed_alias_identity_is_visible_on_dependent_claims(self):
         by_id = {item["claim_id"]: item for item in self.aid["claim_review_items"]}
-        completed_alias_claims = (
-            LEGAL_CLAIM_IDS & {"CLM-026", "CLM-029", "CLM-042", "CLM-045"}
-        ) | {"CLM-045"}
+        completed_alias_claims = {"CLM-029", "CLM-042", "CLM-043", "CLM-045"}
         for claim_id in completed_alias_claims:
             self.assertEqual(by_id[claim_id]["identity_review_status"], "HUMAN_IDENTITY_REVIEW_COMPLETE")
             self.assertEqual(by_id[claim_id]["claim_review_status"], CLAIM_REVIEW_COMPLETE)
-        for claim_id in (
-            {"CLM-043", "CLM-029", "CLM-042", "CLM-045"}
-            - LEGAL_CLAIM_IDS - completed_alias_claims
-        ):
-            self.assertEqual(by_id[claim_id]["identity_review_status"], "HUMAN_IDENTITY_REVIEW_COMPLETE")
-            self.assertEqual(by_id[claim_id]["claim_review_status"], CLAIM_REVIEW_REQUIRED)
 
     def test_identity_items_include_hash_bound_register_and_front_matter_evidence(self):
         for item in self.aid["identity_mapping_items"]:

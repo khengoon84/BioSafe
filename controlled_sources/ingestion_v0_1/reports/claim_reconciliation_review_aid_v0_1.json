@@ -5993,7 +5993,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-042",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -6112,7 +6112,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-043",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -6456,7 +6456,7 @@
     }
   ],
   "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "completed_claim_review_count": 42,
+  "completed_claim_review_count": 44,
   "completed_identity_review_count": 4,
   "identity_mapping_item_count": 4,
   "identity_mapping_items": [
@@ -6860,10 +6860,10 @@
     }
   ],
   "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
-  "pending_claim_review_count": 3,
+  "pending_claim_review_count": 1,
   "pending_identity_review_count": 0,
   "review_aid_version": "BioSafe_Claim_Reconciliation_Review_Aid_v0.1",
-  "source_claim_reconciliation_map_sha256": "bc52b44020503b0887c192fedeefd747265fe1931601b68fe1d54c36c1753c08",
+  "source_claim_reconciliation_map_sha256": "47fc793a8f8fa4d5f05c8dcb8ac14793bb23b563a81eceffe18901f9ef099b42",
   "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
   "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
   "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",
