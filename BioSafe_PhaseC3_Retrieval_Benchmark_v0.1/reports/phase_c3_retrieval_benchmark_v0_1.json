@@ -1,0 +1,3090 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_Retrieval_Benchmark_Report_v0.1",
+  "benchmark_mode": "DESCRIPTIVE_NO_HARD_GATE",
+  "case_count": 32,
+  "cases": {
+    "CFG-01": [
+      {
+        "case_id": "C3-CLM-008",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-008",
+          "CLM-009",
+          "CLM-010",
+          "CLM-011",
+          "CLM-015",
+          "CLM-017",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-009",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-IBC",
+          "intent": "governance",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "PI responsibilities",
+            "IBC governance"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-017",
+          "CLM-016",
+          "CLM-015"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-010",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.4,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-REG",
+          "intent": "IBC/containment",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "notification",
+            "contained use",
+            "GM-BSL",
+            "containment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-010",
+          "CLM-008",
+          "CLM-009",
+          "CLM-011",
+          "CLM-015",
+          "CLM-017",
+          "CLM-016",
+          "CLM-013",
+          "CLM-012",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 3
+      },
+      {
+        "case_id": "C3-CLM-011",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.666667,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "WASTE",
+          "intent": "waste",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "scheduled waste",
+            "SW 404",
+            "storage",
+            "treatment",
+            "disposal"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-011",
+          "CLM-010",
+          "CLM-008",
+          "CLM-009",
+          "CLM-041",
+          "CLM-031"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-012",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-RA",
+          "intent": "risk_assessment",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "risk assessment",
+            "uncertainty",
+            "GMM"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-012",
+          "CLM-013",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-013",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-013",
+          "CLM-014",
+          "CLM-012",
+          "CLM-021",
+          "CLM-025",
+          "CLM-017",
+          "CLM-015",
+          "CLM-009",
+          "CLM-024",
+          "CLM-010"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 4
+      },
+      {
+        "case_id": "C3-CLM-014",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-014",
+          "CLM-013",
+          "CLM-017",
+          "CLM-012",
+          "CLM-023",
+          "CLM-028",
+          "CLM-025",
+          "CLM-015",
+          "CLM-009",
+          "CLM-010"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-015",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-015",
+          "CLM-017",
+          "CLM-009",
+          "CLM-008",
+          "CLM-016",
+          "CLM-010",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-016",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-IBC",
+          "intent": "governance",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "PI responsibilities",
+            "IBC governance"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-016",
+          "CLM-017",
+          "CLM-015"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-017",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-017",
+          "CLM-015",
+          "CLM-009",
+          "CLM-016",
+          "CLM-008",
+          "CLM-010",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-021",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-021",
+          "CLM-022",
+          "CLM-012",
+          "CLM-024",
+          "CLM-023",
+          "CLM-013",
+          "CLM-025",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-022",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-022",
+          "CLM-021",
+          "CLM-023",
+          "CLM-024",
+          "CLM-012",
+          "CLM-013",
+          "CLM-025",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-023",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-023",
+          "CLM-022",
+          "CLM-024",
+          "CLM-021",
+          "CLM-012",
+          "CLM-014",
+          "CLM-013",
+          "CLM-025"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-024",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-024",
+          "CLM-023",
+          "CLM-021",
+          "CLM-022",
+          "CLM-013",
+          "CLM-025",
+          "CLM-012",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-025",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "scope_gate",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-025",
+          "CLM-024",
+          "CLM-021",
+          "CLM-022",
+          "CLM-023",
+          "CLM-013",
+          "CLM-012",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-026",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "TRANSPORT",
+          "intent": "transport",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "specimen classification",
+            "Category A/B",
+            "packaging",
+            "labelling",
+            "transport"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [],
+        "source_diversity_at_10": 0
+      },
+      {
+        "case_id": "C3-CLM-027",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "TRANSPORT",
+          "intent": "transport",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "specimen classification",
+            "Category A/B",
+            "packaging",
+            "labelling",
+            "transport"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [],
+        "source_diversity_at_10": 0
+      },
+      {
+        "case_id": "C3-CLM-028",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "TRANSPORT",
+          "intent": "transport_scope",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "specimen classification",
+            "packaging",
+            "transport"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [],
+        "source_diversity_at_10": 0
+      },
+      {
+        "case_id": "C3-CLM-031",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-031",
+          "CLM-041",
+          "CLM-012",
+          "CLM-021",
+          "CLM-010",
+          "CLM-022",
+          "CLM-025",
+          "CLM-013",
+          "CLM-027",
+          "CLM-028"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-032",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-032",
+          "CLM-013",
+          "CLM-012",
+          "CLM-023",
+          "CLM-021",
+          "CLM-014",
+          "CLM-011",
+          "CLM-024",
+          "CLM-010",
+          "CLM-015"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-033",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-033",
+          "CLM-012",
+          "CLM-021",
+          "CLM-013",
+          "CLM-014",
+          "CLM-009",
+          "CLM-015",
+          "CLM-008",
+          "CLM-024",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-034",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "WHO-BIOSEC",
+          "intent": "biosecurity",
+          "jurisdiction": "International",
+          "preferred_tier": "Tier 3",
+          "safety_sensitive": false,
+          "scope": [
+            "biosecurity",
+            "access",
+            "inventory",
+            "secure handling",
+            "governance"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-034"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+          "KB-WHO-BIOSEC:BODY:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-036",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.4,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-036",
+          "CLM-012",
+          "CLM-014",
+          "CLM-015",
+          "CLM-013",
+          "CLM-022",
+          "CLM-021",
+          "CLM-025",
+          "CLM-026",
+          "CLM-023"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-037",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.5,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-037",
+          "CLM-021",
+          "CLM-016",
+          "CLM-023",
+          "CLM-013",
+          "CLM-024",
+          "CLM-025",
+          "CLM-022",
+          "CLM-017",
+          "CLM-028"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-038",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-015",
+          "CLM-010",
+          "CLM-017",
+          "CLM-009",
+          "CLM-008",
+          "CLM-016",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-039",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.2,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-039",
+          "CLM-010",
+          "CLM-015",
+          "CLM-026",
+          "CLM-022",
+          "CLM-011",
+          "CLM-027",
+          "CLM-025",
+          "CLM-012",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-040",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.4,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-040",
+          "CLM-012",
+          "CLM-013",
+          "CLM-014",
+          "CLM-009",
+          "CLM-021",
+          "CLM-025",
+          "CLM-022",
+          "CLM-024",
+          "CLM-028"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-041",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-041",
+          "CLM-031",
+          "CLM-013",
+          "CLM-014",
+          "CLM-012",
+          "CLM-010",
+          "CLM-009",
+          "CLM-025",
+          "CLM-022",
+          "CLM-008"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+        ],
+        "source_diversity_at_10": 4
+      },
+      {
+        "case_id": "C3-CLM-042",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-042",
+          "CLM-014",
+          "CLM-023",
+          "CLM-017",
+          "CLM-010",
+          "CLM-008",
+          "CLM-016",
+          "CLM-024",
+          "CLM-026",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-043",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-043",
+          "CLM-025",
+          "CLM-013",
+          "CLM-012",
+          "CLM-010",
+          "CLM-014",
+          "CLM-028",
+          "CLM-016",
+          "CLM-024",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-044",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-044",
+          "CLM-012",
+          "CLM-013",
+          "CLM-010",
+          "CLM-025",
+          "CLM-014",
+          "CLM-008",
+          "CLM-021",
+          "CLM-015",
+          "CLM-028"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
+          "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-045",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-045",
+          "CLM-012",
+          "CLM-010",
+          "CLM-023",
+          "CLM-013",
+          "CLM-025",
+          "CLM-014",
+          "CLM-016",
+          "CLM-009",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+        ],
+        "source_diversity_at_10": 5
+      }
+    ],
+    "CFG-02": [
+      {
+        "case_id": "C3-CLM-008",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-008",
+          "CLM-010",
+          "CLM-009",
+          "CLM-015",
+          "CLM-011",
+          "CLM-017",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-009",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-IBC",
+          "intent": "governance",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "PI responsibilities",
+            "IBC governance"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-017",
+          "CLM-015",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-010",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.4,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-REG",
+          "intent": "IBC/containment",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "notification",
+            "contained use",
+            "GM-BSL",
+            "containment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-010",
+          "CLM-008",
+          "CLM-009",
+          "CLM-011",
+          "CLM-016",
+          "CLM-015",
+          "CLM-017",
+          "CLM-013",
+          "CLM-014",
+          "CLM-012"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 3
+      },
+      {
+        "case_id": "C3-CLM-011",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.666667,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "WASTE",
+          "intent": "waste",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "scheduled waste",
+            "SW 404",
+            "storage",
+            "treatment",
+            "disposal"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-011",
+          "CLM-010",
+          "CLM-008",
+          "CLM-009",
+          "CLM-041",
+          "CLM-031"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-012",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-RA",
+          "intent": "risk_assessment",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "risk assessment",
+            "uncertainty",
+            "GMM"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-012",
+          "CLM-013",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-013",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-013",
+          "CLM-012",
+          "CLM-014",
+          "CLM-025",
+          "CLM-017",
+          "CLM-021",
+          "CLM-015",
+          "CLM-024",
+          "CLM-010",
+          "CLM-008"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 4
+      },
+      {
+        "case_id": "C3-CLM-014",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-014",
+          "CLM-013",
+          "CLM-012",
+          "CLM-017",
+          "CLM-028",
+          "CLM-023",
+          "CLM-025",
+          "CLM-021",
+          "CLM-015",
+          "CLM-010"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-015",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-015",
+          "CLM-008",
+          "CLM-017",
+          "CLM-009",
+          "CLM-016",
+          "CLM-010",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-016",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-IBC",
+          "intent": "governance",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "PI responsibilities",
+            "IBC governance"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-016",
+          "CLM-017",
+          "CLM-015"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-017",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-017",
+          "CLM-015",
+          "CLM-009",
+          "CLM-016",
+          "CLM-008",
+          "CLM-010",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-021",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-021",
+          "CLM-012",
+          "CLM-022",
+          "CLM-024",
+          "CLM-023",
+          "CLM-013",
+          "CLM-025",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-022",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-022",
+          "CLM-023",
+          "CLM-021",
+          "CLM-024",
+          "CLM-013",
+          "CLM-012",
+          "CLM-025",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-023",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-023",
+          "CLM-022",
+          "CLM-024",
+          "CLM-021",
+          "CLM-012",
+          "CLM-014",
+          "CLM-025",
+          "CLM-013"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-024",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-024",
+          "CLM-023",
+          "CLM-022",
+          "CLM-021",
+          "CLM-013",
+          "CLM-025",
+          "CLM-012",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-025",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.625,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-FORME",
+          "intent": "scope_gate",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "Form E",
+            "LMO description",
+            "IBC boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-025",
+          "CLM-021",
+          "CLM-024",
+          "CLM-023",
+          "CLM-022",
+          "CLM-013",
+          "CLM-014",
+          "CLM-012"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-026",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "TRANSPORT",
+          "intent": "transport",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "specimen classification",
+            "Category A/B",
+            "packaging",
+            "labelling",
+            "transport"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [],
+        "source_diversity_at_10": 0
+      },
+      {
+        "case_id": "C3-CLM-027",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "TRANSPORT",
+          "intent": "transport",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "specimen classification",
+            "Category A/B",
+            "packaging",
+            "labelling",
+            "transport"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [],
+        "source_diversity_at_10": 0
+      },
+      {
+        "case_id": "C3-CLM-028",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.0,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "TRANSPORT",
+          "intent": "transport_scope",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 2",
+          "safety_sensitive": false,
+          "scope": [
+            "specimen classification",
+            "packaging",
+            "transport"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [],
+        "source_diversity_at_10": 0
+      },
+      {
+        "case_id": "C3-CLM-031",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-031",
+          "CLM-041",
+          "CLM-021",
+          "CLM-012",
+          "CLM-022",
+          "CLM-013",
+          "CLM-010",
+          "CLM-025",
+          "CLM-014",
+          "CLM-028"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-032",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-032",
+          "CLM-013",
+          "CLM-023",
+          "CLM-021",
+          "CLM-012",
+          "CLM-010",
+          "CLM-011",
+          "CLM-015",
+          "CLM-024",
+          "CLM-014"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-033",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-033",
+          "CLM-012",
+          "CLM-021",
+          "CLM-013",
+          "CLM-008",
+          "CLM-014",
+          "CLM-026",
+          "CLM-017",
+          "CLM-025",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-034",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 1.0,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "WHO-BIOSEC",
+          "intent": "biosecurity",
+          "jurisdiction": "International",
+          "preferred_tier": "Tier 3",
+          "safety_sensitive": false,
+          "scope": [
+            "biosecurity",
+            "access",
+            "inventory",
+            "secure handling",
+            "governance"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-034"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+          "KB-WHO-BIOSEC:BODY:PDF_PAGE_23"
+        ],
+        "source_diversity_at_10": 1
+      },
+      {
+        "case_id": "C3-CLM-036",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-036",
+          "CLM-014",
+          "CLM-012",
+          "CLM-015",
+          "CLM-022",
+          "CLM-008",
+          "CLM-025",
+          "CLM-026",
+          "CLM-027",
+          "CLM-024"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-037",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.4,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-037",
+          "CLM-021",
+          "CLM-013",
+          "CLM-012",
+          "CLM-016",
+          "CLM-011",
+          "CLM-024",
+          "CLM-023",
+          "CLM-009",
+          "CLM-025"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-038",
+        "citation_completeness_at_10": 0.0,
+        "duplicate_domination_at_10": 0.571429,
+        "first_relevant_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "query_profile": {
+          "domain": "MY-INCIDENT",
+          "intent": "incident",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "emergency response",
+            "incident response"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-015",
+          "CLM-010",
+          "CLM-017",
+          "CLM-009",
+          "CLM-008",
+          "CLM-016",
+          "CLM-011"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+        ],
+        "source_diversity_at_10": 2
+      },
+      {
+        "case_id": "C3-CLM-039",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-039",
+          "CLM-010",
+          "CLM-026",
+          "CLM-015",
+          "CLM-027",
+          "CLM-011",
+          "CLM-022",
+          "CLM-025",
+          "CLM-017",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-040",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.4,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-040",
+          "CLM-012",
+          "CLM-013",
+          "CLM-009",
+          "CLM-014",
+          "CLM-021",
+          "CLM-022",
+          "CLM-028",
+          "CLM-024",
+          "CLM-025"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-041",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-041",
+          "CLM-031",
+          "CLM-013",
+          "CLM-014",
+          "CLM-012",
+          "CLM-010",
+          "CLM-009",
+          "CLM-022",
+          "CLM-017",
+          "CLM-008"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-042",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-042",
+          "CLM-043",
+          "CLM-014",
+          "CLM-010",
+          "CLM-023",
+          "CLM-017",
+          "CLM-008",
+          "CLM-011",
+          "CLM-026",
+          "CLM-024"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-043",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 2,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-043",
+          "CLM-042",
+          "CLM-025",
+          "CLM-012",
+          "CLM-010",
+          "CLM-013",
+          "CLM-022",
+          "CLM-014",
+          "CLM-028",
+          "CLM-026"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+          "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35"
+        ],
+        "source_diversity_at_10": 5
+      },
+      {
+        "case_id": "C3-CLM-044",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.3,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-044",
+          "CLM-012",
+          "CLM-010",
+          "CLM-008",
+          "CLM-013",
+          "CLM-025",
+          "CLM-021",
+          "CLM-014",
+          "CLM-028",
+          "CLM-015"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
+          "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11"
+        ],
+        "source_diversity_at_10": 6
+      },
+      {
+        "case_id": "C3-CLM-045",
+        "citation_completeness_at_10": 1.0,
+        "duplicate_domination_at_10": 0.2,
+        "first_relevant_rank": 1,
+        "jurisdiction_leakage_count_at_10": 1,
+        "query_profile": {
+          "domain": "GENERAL",
+          "intent": "general",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-045",
+          "CLM-012",
+          "CLM-010",
+          "CLM-023",
+          "CLM-009",
+          "CLM-025",
+          "CLM-015",
+          "CLM-014",
+          "CLM-028",
+          "CLM-016"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieved_support_span_ids_at_10": [
+          "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+        ],
+        "source_diversity_at_10": 6
+      }
+    ]
+  },
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "input_hashes": {
+    "gold": "5c01b1a09936e52c2750c410bb04459f231ce0dea19e574ef3ebc7ee1d72b21f",
+    "kb": "37d80b82fae6f49338097580d149823094f995efa8acb99d90eea8cfa591e0ce",
+    "manifest": "2647ebf447f2bbaa1f7003066a1c794101ae463c2a534d37f7f470d531dee636"
+  },
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "summary": {
+    "CFG-01": {
+      "jurisdiction_leakage_total_at_10": 16,
+      "max_duplicate_domination_at_10": 1.0,
+      "mean_citation_completeness_at_10": 0.84375,
+      "mean_source_diversity_at_10": 3.09375,
+      "recall_at_1": 0.84375,
+      "recall_at_10": 0.84375,
+      "recall_at_3": 0.84375,
+      "recall_at_5": 0.84375
+    },
+    "CFG-02": {
+      "jurisdiction_leakage_total_at_10": 18,
+      "max_duplicate_domination_at_10": 1.0,
+      "mean_citation_completeness_at_10": 0.84375,
+      "mean_source_diversity_at_10": 3.15625,
+      "recall_at_1": 0.84375,
+      "recall_at_10": 0.84375,
+      "recall_at_3": 0.84375,
+      "recall_at_5": 0.84375
+    }
+  }
+}

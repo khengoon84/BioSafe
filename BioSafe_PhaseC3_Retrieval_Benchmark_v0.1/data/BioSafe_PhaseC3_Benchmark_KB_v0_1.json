@@ -1,0 +1,1652 @@
+{
+  "artifact_scope": "ADDITIVE_OFFLINE_CURATED_CANDIDATE_REFERENCE_ONLY",
+  "artifact_version": "BioSafe_PhaseC3_Benchmark_KB_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "claims": [
+    {
+      "claim_id": "CLM-008",
+      "claim_type": "containment",
+      "document_id": "KB-MY-CU",
+      "page": "16–23",
+      "priority": "critical",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
+        "containment"
+      ],
+      "section": "GM-BSL2 / work practices",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 18,
+          "pdf_page_start": 18,
+          "quoted_support": "•                                                       Research      involving      the      introduction      of      naked      nucleic      acids      into      RG\n      2 microorganisms that has moderate potential hazard to personnel,\n      community and the environment",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 18,
+          "pdf_page_start": 18,
+          "quoted_support": "•                                                       Experiments  with  LMO  and  related  materials,  harboring  DNA  from  a\n      RG 2 microorganism.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 18,
+          "pdf_page_start": 18,
+          "quoted_support": "a)                                                          A hazard warning sign incorporating the universal biohazard symbol\n      and the level of containment together with access restrictions should\n      be displayed on the access door to the laboratory work area. The\n      hazard warning sign may also identify the agent and the name and\n      telephone number of the Laboratory Supervisor or other responsible\n      persons.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "a)              The Laboratory Supervisor establishes policies and procedures\n    whereby access is restricted to persons who have been advised of\n    the   potential   hazard   and   who   meet   specific   entry   requirements   (e.g.\n    immunisation).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "b)          Laboratory personnel should receive appropriate training on\n    the potential hazards associated with the work involved and the\n    necessary precautions to prevent exposures. Personnel should\n    receive annual updates, or additional training as necessary for\n    procedural or policy changes.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            6
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "h)                    All solid wastes from GM-BSL2 laboratories, including infectious\n    wasteshould be decontaminated by autoclaving for at least 30\n    minutes at a pressure of 15 psi and 121 o C.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            7
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "i)       Liquid wastes generated during GM-BSL2 activities are to\n    bedecontaminated immediately by mixing with a suitable\n    disinfectant (refer to Section 12).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            8
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "k)                  Spills and accidents that may cause over-exposure to LMO and\n    materials originating from these organisms should be immediately\n    reported to the Laboratory Supervisor and the IBC.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            9
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Management\n    of spills should follow biosafety procedures outlined in the\n    institutional biosafety manual. An Emergency Response Plan should\n    be documented and personnel should be trained in these procedures\n    which include, spill management as well as incident reporting\n    system. Medical evaluation, surveillance and treatment are provided\n    as appropriate.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Contained-use guidance specifies biosafety-level and work-practice expectations, including access restrictions, training, decontamination and incident controls; GM-BSL2 examples include LMO/materials associated with RG2 microorganisms. GM-BSL2 / work practices containment",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-009",
+      "claim_type": "incident",
+      "document_id": "KB-MY-CU",
+      "page": "16–23",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
+        "incident"
+      ],
+      "section": "GM-BSL2 work practices",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "k)                  Spills and accidents that may cause over-exposure to LMO and\n    materials originating from these organisms should be immediately\n    reported to the Laboratory Supervisor and the IBC.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Management\n    of spills should follow biosafety procedures outlined in the\n    institutional biosafety manual.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "An Emergency Response Plan should\n    be documented and personnel should be trained in these procedures\n    which include, spill management as well as incident reporting\n    system.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Spills/accidents are to be addressed through established reporting and emergency arrangements, with relevant escalation to supervisory/IBC structures. GM-BSL2 work practices incident",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-010",
+      "claim_type": "equipment",
+      "document_id": "KB-MY-CU",
+      "page": "16–23",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
+        "equipment"
+      ],
+      "section": "GM-BSL2 work practices",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "•                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "A Class II biological safety cabinet is identified for work presenting respiratory/aerosol risk within the applicable contained-use context. GM-BSL2 work practices equipment",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-011",
+      "claim_type": "waste",
+      "document_id": "KB-MY-CU",
+      "page": "related sections",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
+        "waste"
+      ],
+      "section": "contained-use scope",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 73,
+          "pdf_page_start": 73,
+          "quoted_support": "For disposal purposes, all GM material should be treated in the\n          same way as infectious and potentially infectious material. All\n          GM wastes should be inactivated prior to leaving the facility.\n          The preferred method is autoclaving, although incineration or\n          chemical disinfection (e.g. treatment with household bleach) may\n          be appropriate or necessary in some cases).\n\n     ii)",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 73,
+          "pdf_page_start": 73,
+          "quoted_support": "Storage of all non-inactivated waste in this category is restricted\n          to within the generating laboratory. GM waste should be held in a\n          closed/covered biowaste container and preferably should not be\n          stored longer than 24 hours prior to inactivation.\n\n     iii)",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 77,
+          "pdf_page_start": 77,
+          "quoted_support": "Biowaste Boxes\n\n                                         •                                                       Sturdy     cardboard     biowaste     boxes     displaying     the     biohazard     sign     are\n                                                used as the terminal receptacle. The boxes are lined with a biohazard\n                                                bag.\n\n                                         •                                                       Boxes should not be over-filled.\n\n                                         •                                                       All                 seams                 should                 be                 taped                 and                 labelled                 with                 date,                 Laboratory\n                                                Supervisor’s name and telephone number.\n\n                                         •                                                       Biowaste boxes should not be kept for more than 30 days.\n\n                                         b)                                                       Biohazard Bags\n\n                                         •                                                       Liquids  should   not   be   put   into  the  bags.   The  bags   should  be   labelled\n                                                with date, Laboratory Supervisor’s name and telephone number.\n\n                                         •                                                       Biohazard bags are placed in a biowaste box for disposal.\n\n                                         •                                                       The laboratory should order/supply these bags\n\n                                         c)",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 78,
+          "pdf_page_start": 78,
+          "quoted_support": "Biohazardous   waste   is   transported   outside   of   the   laboratory   (e.g.   to\n      an autoclave or incinerator) in a closed, leak-proof bag or container.\n      Bags should be placed in a leak-proof tray.\n\n•",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            6
+          ],
+          "pdf_page_end": 83,
+          "pdf_page_start": 83,
+          "quoted_support": "Adequate records of the transport of LMO as they move between\n     research          facilities,          storage          facilities          and          field          trial          sites          should          be\n     maintained by IBC to ensure an adequate system is in place for\n     tracking the movement of this material.\n\nf    )",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            7
+          ],
+          "pdf_page_end": 84,
+          "pdf_page_start": 84,
+          "quoted_support": "LMO should be stored at the destination facility in such a way that\n    there is no release of LMO and related materials into the environment\n    so as to avoid mixing with other LMO or conventional materials (e.g.\n    filing cabinet , refrigerator, office, closet , cold room).\n\nb)",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            8
+          ],
+          "pdf_page_end": 84,
+          "pdf_page_start": 84,
+          "quoted_support": "Where a storage area is used to store multiple samples of LMO, each\n    item should be stored separately in a sealed, labelled container\n    such as a primary container for shipment . LMO in storage should be\n    clearly labelled to prevent mixing of materials.\n\nc)",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            9
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Extreme caution should be observed when handling needles and\n    syringes to avoid accidental needle-stick injury and generation\n    of aerosols during use and disposal. Needles should not be bent,\n    sheared, replaced in the needle sheath,guard or removed from the\n    syringe following use. Only needle-locking syringes or disposable\n    syringe-needle units (e.g. needle is integral to the syringe) should\n    be      used      for      injection      or      aspiration      of      fluids      from      LMO      or      materials\n    originating from these organisms. The needle and syringe should be\n    promptly placed in a sharps container. Broken glassware should not\n    be handled directly by hand, but should be removed by mechanical\n    means, such as a brush and dustpan, tongs, or forceps, before\n    discarding into sharps containers.\n\nk)",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            10
+          ],
+          "pdf_page_end": 18,
+          "pdf_page_start": 18,
+          "quoted_support": "Laborator y Facility (GM-BSL2)\nIn                   addition                   to                   the                   facility                   design                   features                   specified                   for                   GM-BSL1,\nfollowing additional features are essential:\n\na)                                                          A hazard warning sign incorporating the universal biohazard symbol\n      and the level of containment together with access restrictions should\n      be displayed on the access door to the laboratory work area. The\n      hazard warning sign may also identify the agent and the name and\n      telephone number of the Laboratory Supervisor or other responsible\n      persons.\n\nb)                                                       The        ceilings,        walls        and        floors        of        the        laboratory        should        be        smooth,\n      easy to clean, impermeable to liquids, and resistant to commonly\n      used reagents and disinfectants. Floors should be coved to walls to\n      facilitate cleaning.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            11
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Containment Equipment (GM-BSL2)\n•                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .\n\n•",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Contained-use guidance covers safe handling, hazardous biological waste treatment, disposal, transfer/transport, storage and minimum facility/equipment requirements. contained-use scope waste",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-012",
+      "claim_type": "risk_assessment",
+      "document_id": "KB-MY-GMMRA",
+      "page": "20–23",
+      "priority": "critical",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_GMM_RISK_ASSESSMENT_GUIDANCE",
+        "risk_assessment"
+      ],
+      "section": "risk-assessment framework",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "The following procedures represent a\n                recommended model for risk assessments\n                of GMM, although it is not intended to be\n                prescriptive:\ni.                                 Overall nature of the intended GMM. Assessment of the risks it\n     may pose to human health and the environment .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Risk assessment for human health.               Identification               of               potential\n     mechanisms by which the GMM might pose a hazard to human\n     health; Assessment of the potential severity, likelihood of occurrence\n     and considerations of uncertainty. Establishment of a BSL that is\n     sufficient to safeguard human health.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Risk assessment for the environment. Assessment of the risks\n     it may pose to the environment (includes plant, animal health and\n     biological               diversity),               consideration               of               the               potential               severity               and\n     likelihood of occurrence. Establishment of a BSL that is necessary to\n     protect the environment .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Review of procedures and control measures. Implementation of\n     any additional control measures necessary to safeguard both human\n     health and the environment .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "Assignment of Biosafety Levels (GM-BSL) of containment LMO",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "GMM risk assessment considers hazards, exposure/release, risk controls and BSL assignment, and addresses relevant human, animal, plant and environmental risks. risk-assessment framework risk_assessment",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-013",
+      "claim_type": "uncertainty",
+      "document_id": "KB-MY-GMMRA",
+      "page": "20–23",
+      "priority": "critical",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_GMM_RISK_ASSESSMENT_GUIDANCE",
+        "uncertainty"
+      ],
+      "section": "risk-assessment detail",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 22,
+          "pdf_page_start": 22,
+          "quoted_support": "The final risk assessment must contain enough\n                 background and detail to ensure that a\n                 reviewer with a limited understanding of the\n                 precise nature of the work will not require\n                 fur ther infor mation to comprehend the nature\n                 of any hazards.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 22,
+          "pdf_page_start": 22,
+          "quoted_support": "All potential hazards should be acknowledged and information should\nbe               based               upon               established               scientific               knowledge               wherever               possible.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 22,
+          "pdf_page_start": 22,
+          "quoted_support": "The     lack      of     scientific     evidence     for     a      particular      hazard     being     legitimate",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3,
+            4
+          ],
+          "pdf_page_end": 23,
+          "pdf_page_start": 23,
+          "quoted_support": "should not be automatically taken to mean that it does not exist. Any\nuncertainty should be taken into consideration in the risk assessment .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "A defensible risk assessment should contain enough background and detail for reviewers to understand hazards; potential hazards should be acknowledged and uncertainty considered. risk-assessment detail uncertainty",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-014",
+      "claim_type": "risk_review",
+      "document_id": "KB-MY-GMMRA",
+      "page": "20–23",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_GMM_RISK_ASSESSMENT_GUIDANCE",
+        "risk_review"
+      ],
+      "section": "review/update",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2,
+            3
+          ],
+          "pdf_page_end": 23,
+          "pdf_page_start": 23,
+          "quoted_support": "All genetic modification risk assessments\n               should be reviewed regularly and be updated\n               in the light of new scientific knowledge or\n               where there has been a change in the nature\n               of the activity (including a change in scale\n               or any new procedures and containment\n               measures).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 23,
+          "pdf_page_start": 23,
+          "quoted_support": "For example, if the GMM is ultimately intended to be a therapeutic\nproduct then the assessment will require updating as the product moves\nbetween basic laboratory research, upstream development, preclinical\nand clinical phases.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Risk assessment should be reviewed and updated as appropriate rather than treated as a one-time unsupported conclusion. review/update risk_review",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-015",
+      "claim_type": "ibc",
+      "document_id": "KB-MY-IBC",
+      "page": "governance sections",
+      "priority": "critical",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
+        "ibc"
+      ],
+      "section": "IBC functions",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Assess and monitor the facilities, procedures, practices, training and\n                               expertise of personnel involved in LMO/rDNA research.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Assess and set containment levels for LMO/rDNA research and\n                               modify containment levels as necessary.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Assess                            field                            experiments                            to                            ensure                            that                            the                            proposed                            risk\n                               assessment, risk management and emergency response plan are\n                               sufficient .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Adopt and implement emergency response plan covering accidental\n                               spills and personnel contamination, resulting from LMO/rDNA\n                               research.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Review and report to the Head of the organisation and to the NBB\n                               any       significant       problems       with       non-compliance       of       the       Biosafety       Act\n                               2007         and         Biosafety         (Approval         and         Notification)         Regulations         2010\n                               and any significant research-related accidents or illnesses.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            6
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Ensure the information provided in the relevant application form\n                               (Approval/Notification) is correct and complete.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            7
+          ],
+          "pdf_page_end": 26,
+          "pdf_page_start": 26,
+          "quoted_support": "he IBC will inspect laboratories using checklists. Problems are to\n       be reported to the PI for remedial procedures and, if necessary,\nTto the higher relevant authority in the organisation. Inspection\nreports should be maintained on file in the IBC.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "IBC functions include assessment/monitoring of facilities, procedures, practices, training and expertise, containment-level assessment, form completeness, emergency response and reporting of significant incidents/noncompliance. IBC functions ibc",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-016",
+      "claim_type": "pi_accountability",
+      "document_id": "KB-MY-IBC",
+      "page": "governance sections",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
+        "pi_accountability"
+      ],
+      "section": "PI responsibilities",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 16,
+          "pdf_page_start": 16,
+          "quoted_support": "The PI is accountable to the IBC and is required to comply with the\nappropriate research guidelines and all applicable laws related to\nbiosafety.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 18,
+          "pdf_page_start": 18,
+          "quoted_support": "The      PI      involved      in      export ,      import ,      contained      use      and      field      experiment\nof LMO/rDNA materials shall comply with relevant requirements of the\nBiosafety       Act       2007,       Biosafety       (Approval       and       Notification)       Regulations\n2010 and other related regulations.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "The PI is accountable to the IBC and must comply with applicable biosafety laws and guidelines. PI responsibilities pi_accountability",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-017",
+      "claim_type": "incident",
+      "document_id": "KB-MY-IBC",
+      "page": "incident-reporting section",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
+        "incident"
+      ],
+      "section": "incident reporting",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 14,
+          "pdf_page_start": 14,
+          "quoted_support": "It is necessary that any laboratory research incident in the organisation\nbe reported by the PI/laboratory personnel to the IBC through the BSO\nusing the Incident Reporting Form (IBC/IR/10/ANNEX3)                                                    within 24\nhours.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 14,
+          "pdf_page_start": 14,
+          "quoted_support": "If there is any occupational exposure to LMO/rDNA materials, the PI/\nlaboratory personnel will use the Occupational Disease/Exposure\nInvestigation Form (IBC/OD/10/ANNEX4)                                                  to make a formal report\nwithin 24 hours to OHSC, Head of the organisation and IBC.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3,
+            4
+          ],
+          "pdf_page_end": 14,
+          "pdf_page_start": 14,
+          "quoted_support": "PI is responsible for reporting any incident by submitting the Incident\nReporting Form (IBC/IR/10/ANNEX3) to NBB within 48 hours\nfrom the incident. This form should be reviewed by BSO before\nsubmission. If there is any occupational exposure to LMO/rDNA\nmaterials, the Occupational Disease/Exposure Investigation Form (IBC/\nOD/10ANNEX4) should be submitted to NBB within 24 hours from the\nincident .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 33,
+          "pdf_page_start": 33,
+          "quoted_support": "This form is to be used by the BSO to report all incidents which did not result in injury.\nPlease complete and submit to the IBC within 24 hours and to the NBB within 48\nhours of the incident.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            6
+          ],
+          "pdf_page_end": 36,
+          "pdf_page_start": 36,
+          "quoted_support": "This form is to be used to report all occupational exposure to LMO/rDNA materials and to\ndocument the investigation by the BSO. Please complete and submit to the OHSC, IBC\nand NBB within 24 hours of the accident.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "The IBC guidance specifies incident-reporting routes and timeframes for relevant incidents/occupational exposures; BioSafe should direct users to the applicable institutional/IBC process rather than invent a response. incident reporting incident",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-021",
+      "claim_type": "risk_assessment",
+      "document_id": "KB-MY-FORME",
+      "page": "Form E p.203 area",
+      "priority": "critical",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+        "risk_assessment"
+      ],
+      "section": "A4.1",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 213,
+          "pdf_page_start": 213,
+          "quoted_support": "Risk Assessment (Basic information)\n\n15.                                                                          Is        there        any        risk        to        health        and        safety        of        humans        occurring        from        the        proposed\n             activity over and above those posed by the donor/parent organism?\n\n                                                                          No known hazard                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Not relevant                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Yes\n\n                                                                          If yes, please provide information in question below.\n\n16.                                                                          What           are           the           possible           hazard(s)           and           the           likelihood           and           consequence           of           the\n             hazard(s) occurring (i.e. the risk) from the proposed genetic modification(s)?\n\n17.                                                                          In regard to the health and safety of humans, what are the possible hazard(s) and\n             the    likelihood    and    consequence    of    the    hazard(s)    occurring    (i.e.    the    risk)    from    an\n             unintentional release of the LMO into the environment?\n\n18.                                                                          In    regard    to    the    environment,    what    are    the    possible    hazard(s)    and    the    likelihood\n             and     consequence     of     the     hazard(s)     occurring     (i.e.     the     risk)     from     an     unintentional\n             release of the LMO into the environment?\n\nA4.2",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Form E asks for activity-related human-health risks, hazards, likelihood/consequence and risks from unintentional release to human health/environment. A4.1 risk_assessment",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-022",
+      "claim_type": "risk_management",
+      "document_id": "KB-MY-FORME",
+      "page": "Form E pp.203–204 area",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+        "risk_management"
+      ],
+      "section": "A4.2–A4.3",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 214,
+          "pdf_page_start": 214,
+          "quoted_support": "20.                                                                          How will the LMO be disposed of?\n\n21.                                                                          What               are               the               procedures               for               decontaminating               equipments               used               during               the\n                proposed activities in order to render any LMO unviable?\n\nA4.3                                                                          Emergency Response Plan\n\n22.                                                                          Plans  for  protecting  human  health  and  the  environment  in  case  of  the  occurrence\n                of an undesirable effect observed during contained use activities.\n\n23.                                                                          Methods for removal of the LMO in the affected areas in the case of an unintentional\n                release.\n\n24.                                                                           Methods    for    disposal    of    other    plants,    animals    and    any    other    organisms    exposed\n                during the unintentional release.\n\n25.                                                                          Methods for isolation of the area affected by the unintentional release.\n\n26.                                                                           Details          of          any          other          contingency          measure          that          will          be          in          place          to          rectify          any\n                unintended              consequences              if              an              adverse              effect              becomes              evident              during              the\n                contained use activities or when an unintentional release occurs.\n\n\n                                                                                                                                2  1  3",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures. A4.2–A4.3 risk_management",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-023",
+      "claim_type": "facility",
+      "document_id": "KB-MY-FORME",
+      "page": "Form E p.204 area",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+        "facility"
+      ],
+      "section": "Premises/facility",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 215,
+          "pdf_page_start": 215,
+          "quoted_support": "A3\t               ThePremises\nPlease provide information for all of the facilities being used for the confined activities in\nthe table below.\n\nTable 1 Description of the LMO for contained use activities\n\n               Information required                                                                                                                                                                        Premise 1                                                                                                Premise 2*                                                                       Premise 3*\n 1. Name of premises:\n 2. Premises type:\n (e.g. animal containment premise,\n laboratory, insect containment\n premise, etc)\n 3. Biosafety level (BSL):\n 4.Who undertook the inspection:\n (indicate whether it was NBB, IBC\n or its representative)\n 5. Date of most-recent inspection:\n 6. Fill the following if the BSL level\n     is 3 or 4:\n\n     Date of certification by competent\n     authority (If any)\n\n     Certificate reference no:\n 7. Premises address:\n 8. Premises contact person details/\n     Biosafety Officer Name:\n 9. Business phone number:\n 10. Mobile phone number:\n 11. Fax number:\n 12. Email address:\n\nNote:\n\n* For notifications with more than one premise; use additional columns if necessary.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Form E includes premises/facility details such as name/type/BSL and relevant inspection/certification/contact/BSO information. Premises/facility facility",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-024",
+      "claim_type": "forme_cbi",
+      "document_id": "KB-MY-FORME",
+      "page": "Form E p.204 area",
+      "priority": "minor",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+        "forme_cbi"
+      ],
+      "section": "CBI",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 204,
+          "pdf_page_start": 204,
+          "quoted_support": "Any information within this notification which is to be treated as CBI, as described in the\nBiosafety Act 2007 in section 59(3) should be clearly marked “CBI” in the relevant parts\nof      the      notification      by      providing      the      justification      for      the      request      for      CBI.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Form E provides for confidential business information claims and justification where applicable. CBI forme_cbi",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-025",
+      "claim_type": "scope_boundary",
+      "document_id": "KB-MY-FORME",
+      "page": "Form E pp.207–208",
+      "priority": "critical",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+        "scope_boundary"
+      ],
+      "section": "IBC Assessment Report",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 208,
+          "pdf_page_start": 208,
+          "quoted_support": "This must be completed by the registered IBC of the Applicant’s organization",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring. IBC Assessment Report scope_boundary",
+      "verification_status": "Verified / project scope"
+    },
+    {
+      "claim_id": "CLM-026",
+      "claim_type": "transport",
+      "document_id": "KB-MY-TRANSPORT2023",
+      "page": "pp.9–25",
+      "priority": "critical",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_CLINICAL_SPECIMEN_TRANSPORT_GUIDELINE",
+        "transport"
+      ],
+      "section": "scope/classification",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 11,
+          "pdf_page_start": 11,
+          "quoted_support": "to ensure safe and   secure   packa                                                                       ging and transportation                         of\n          clinical specimens and infectious substances within the country and abroad.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 17,
+          "pdf_page_start": 17,
+          "quoted_support": "To determine appropriate packaging for transport, specimens need to be classified\naccording to the guide as in Appendix 1.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 17,
+          "pdf_page_start": 17,
+          "quoted_support": "Basic triple packaging can be used to transport clinical specimens by all modes                of\ntransportation.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 17,
+          "pdf_page_start": 17,
+          "quoted_support": "Additional requirement is required for transporting infectious specimens                 /                 substances\n(Classified under Category A, Category B). This is to ensure safe containment in various\nmodes of transport.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 32,
+          "pdf_page_start": 32,
+          "quoted_support": "Specimens should be marked and labelled adequately to provide essential\n                            information to convey to    all parties involved in transportation and handling\n                            of specimens.\n\n               7.1.2                              Information should include c                                                                                   ontent of package, nature of the hazar d and t he\n                            packaging standards applied.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "The 2023 MOH guideline covers safe transport of clinical specimens and infectious substances, including classification and packaging/labelling/marking requirements. scope/classification transport",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-027",
+      "claim_type": "transport",
+      "document_id": "KB-MY-TRANSPORT2023",
+      "page": "pp.9–25",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_CLINICAL_SPECIMEN_TRANSPORT_GUIDELINE",
+        "transport"
+      ],
+      "section": "triple packaging",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 18,
+          "pdf_page_start": 18,
+          "quoted_support": "6.1                                 Basic Triple Packaging\n\n         This system consists of three layers:\n         i.                                                  Primary receptacle.\n         ii.                                            Secondary receptacle to enclose and protect the primary receptacle.\n         iii.                                  Third outer layer of packaging.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 22,
+          "pdf_page_start": 22,
+          "quoted_support": "6.2.2                               Packaging for Infectious Substances\n          An infectious su                      bstance can be classified int o 2 categories:\n\n\n          6.2.2.1 Category                       A\n                     The substance belongs to Category A if it is transported in a form that, when\n                     exposure to it occurs, could cause permanent disability, or life-                  threatening or\n                     fatal illness in otherwise healthy                                             humans or animals.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 26,
+          "pdf_page_start": 26,
+          "quoted_support": "6.2.2.2 Category B\n\n                      Infectious substances are subclassified as Category B when they cont ain\n                      biological agents capable of c                                                                                ausing infection in humans or animals, but NOT\n                      meeting the criteria for Category A; that is, the consequences of an infection\n                      are not considered severely disabling or life-                      threatening.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 17,
+          "pdf_page_start": 17,
+          "quoted_support": "i.                                            P620 for Category A infectious substances.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 24,
+          "pdf_page_start": 24,
+          "quoted_support": "Packing instruction P620 outlines the requir eme                                          nts and special packaging                                                                                           provisions that\nmust be met for “approval” for use with Category A infectious substances.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 17,
+          "pdf_page_start": 17,
+          "quoted_support": "ii.                                P650 for Category B infectious substances assigned to UN 3373; and   i                                                                     f dr y ice\n                    is used as coolant, additional requirements are also needed as  in  PI                                                                                                                                                                                 954.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 26,
+          "pdf_page_start": 26,
+          "quoted_support": "Packing instruction P650 provides a slightly more detailed set of triple packaging\nrequirements than is the case for the basic trip                                                                le packaging system.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts. triple packaging transport",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-028",
+      "claim_type": "transport_scope",
+      "document_id": "KB-MY-TRANSPORT2023",
+      "page": "intro/scope",
+      "priority": "major",
+      "scope": [
+        "MALAYSIAN_OFFICIAL_CLINICAL_SPECIMEN_TRANSPORT_GUIDELINE",
+        "transport_scope"
+      ],
+      "section": "scope exclusion",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 11,
+          "pdf_page_start": 11,
+          "quoted_support": "to ensure safe and   secure   packa                                                                       ging and transportation                         of\n          clinical specimens and infectious substances within the country and abroad.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 11,
+          "pdf_page_start": 11,
+          "quoted_support": "This guideline, however, does not describe the packaging and transportation of blood\n          products,  st em  cell products, clinical waste and chemical waste.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "The MOH clinical-specimen transport guideline does not serve as the clinical-waste guideline; clinical waste and chemical waste are outside its scope. scope exclusion transport_scope",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-031",
+      "claim_type": "risk_assessment",
+      "document_id": "KB-WHO-LBM4",
+      "page": "Section 2 / core",
+      "priority": "major",
+      "scope": [
+        "WHO_INTERNATIONAL_LABORATORY_BIOSAFETY_TECHNICAL_GUIDANCE",
+        "risk_assessment"
+      ],
+      "section": "core risk approach",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 22,
+          "pdf_page_start": 22,
+          "quoted_support": "This fourth edition of the WHO Laboratory biosafety manual (LBM4) adopts a risk- and\n                          evidence-based approach to biosafety rather than a prescriptive approach in order\n                          to ensure that laboratory facilities, safety equipment and work practices are locally\n                          relevant, proportionate and sustainable.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 19,
+          "pdf_page_start": 19,
+          "quoted_support": "This fourth edition of the manual builds on the risk assessment framework introduced in\nthe third edition. A thorough, evidence-based and transparent assessment of the risks\nallows safety measures to be balanced with the actual risk of working with biological\nagents on a case-by-case basis.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO LBM4 uses an evidence- and risk-based approach in which safety measures are balanced against the actual risk of the activity on a case-by-case basis. core risk approach risk_assessment",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-032",
+      "claim_type": "uncertainty",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Section 2.2",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "uncertainty"
+      ],
+      "section": "information gathering",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            3
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "The team must gather information about the hazards\n                              associated with the biological agent and laboratory process(es) under consideration.\n                              This information should be collected from all relevant personnel through interviews,\n                              and relevant published material should be consulted as necessary. This information-\n                              gathering step is essential to the biological risk assessment because it influences all steps\n                              that follow. Missing pieces of information in this step (knowledge gaps) will negatively\n                              affect the evaluation of all the risks and the subsequent selection of risk control measures.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "1.                                Gather information                                            §\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         §\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         §\tWhat type(s) of equipment will be used?\n                                                                         §\tWhat type of laboratory facility is available?\n                                                                         §\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         §\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Risk assessment requires information on biological hazards, procedures, equipment, facility and human competency; knowledge gaps negatively affect evaluation and control selection. information gathering uncertainty",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-033",
+      "claim_type": "risk_assessment",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Section 2.2",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "risk_assessment"
+      ],
+      "section": "risk evaluation",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "2.                                Evaluate the risks§\tHow could an exposure and/or release occur?\n                                                                         §\tWhat is the likelihood of an exposure and/or release?\n                                                                         §\tWhat information gathered influences the likelihood the most?\n                                                                         §\tWhat are the consequences of an exposure and/or release?\n                                                                         §\tWhich information gathered influences the consequences\n                                                                           the most?\n                                                                         § What is the overall initial risk of the activities?\n                                                                         §\tWhat is the acceptable risk?\n                                                                         §\tWhich risks are unacceptable?\n                                                                         §\tCan the unacceptable risks be controlled, or should the\n                                                                           work not proceed at all?",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "4.                                   Select and implement risk  §\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          §\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          §\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          §\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          §\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          §\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          §\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          §\tHas approval to conduct the work been granted?\n                                          §\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          §\tHave necessary items been included in the budget and\n                                            purchased?\n                                          §\tAre operational and maintenance procedures in place?\n                                          §\tHave personnel been appropriately trained?",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "Risk evaluation considers how exposure/release could occur, likelihood, consequences and whether risks can be controlled to an acceptable level. risk evaluation risk_assessment",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-034",
+      "claim_type": "biosecurity",
+      "document_id": "KB-WHO-BIOSEC",
+      "page": "overview",
+      "priority": "major",
+      "scope": [
+        "WHO_INTERNATIONAL_LABORATORY_BIOSECURITY_TECHNICAL_GUIDANCE",
+        "biosecurity"
+      ],
+      "section": "2024 guidance",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "This edition of the\nLaborator  y biosecurit  y guidance is a complete revision of the 1s t edition published in 20 0 6. The\nmajor advancement s are the adjus tment to the LBM4 with applying the risk- and evidence -based\napproach also to laborator  y biosecurit  y, the emphasis of under s tanding laborator  y biosecurit  y\nand biosafet  y as a continuum, the inclusion of new development s in science and technolog  y\nand to addres s laborator  y biosecurit  y on all three levels: the laborator  y, the ins titution and the\nnational regulator   y body.\nLaborator  y biosecurit  y is inseparable from biosafet  y (Fig. 1.1), and both areas complement each\nother to ensure safe and secure laborator  y operations. The term biological risk management\ndescribes the continuum of biosafet  y and biosecurit  y at the ins titutional and national levels.\nIn 2020, the World Health Organization (WHO) published the four  th edition of the Laborator  y\nbiosafet  y  manual,  four  t h  edit ion  (2)               (LBM4) which promotes a r isk- and evidence  - base d approach\nto biosafet  y. The risk as ses sment framework in the laborator  y biosafet  y manual enables\nins t itut ions  to  de ve lop  an d  imple m e nt  lo c ally  re le v ant ,  e ff e c  t i ve  an d  sus t ainab le  (f un dab le  ove r\na longer period) risk control measures to manage biosafet  y risk s as sociated with working with\nbiological agent s. For the development of this laborator  y biosecurit  y guidance, the risk- and\nevidence -based approach is applied to high - consequence research and other ac tivities with\nbiosecurit  y-relevant material, technolog  y and/or information. The guidance addres ses risk s from\nthe point- of-view of laborator  y biosecurit  y at both the ins titutional and national level.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_page_end": 23,
+          "pdf_page_start": 23,
+          "quoted_support": "This guidance follows the principles of the risk- and evidence -based approach for biosafet  y\nint ro duce d  in  WHO’s  Laborator  y  biosafet  y  manual,  four  t h  edit ion              for labor ator   y biose cur it  y (2)           .\nA biosecurit  y risk as ses sment template with an embedded high - consequence decision tree\nwas develope d to identif  y biose cur it  y r isk s , high -  conse quence research and high -  conse quence\nmaterial and implementing biosecurit  y risk control measures to addres s the identif ied\nbios e cur it  y  r isk s .\nThe document provides tools and guidance to manage laborator  y biosecurit  y risk s and outlines\nbes t prac tices at the three ver  tical levels: laborator  y, ins titution and national regulator  y levels.\nIt also outlines bes t prac tices at the horizontal level: for example, sample collec tion, transpor  t,\nproces sing , s torage and, if neces sar  y, des tr uc tion in places such as diagnos tic laboratories (f ixed\nor mobile), re s earch ins titutions , manuf ac turer s and phar maceutic al companie s , among other s .\nOne key to capacit  y and capabilit  y building of biological risk management is to es tablish and/or\ns treng then the ins titutional biosafet  y commit tees (IBC) func tion for review of high - consequence\nresearch and work with high - consequence material. To promote this aspec t, the guidance\ndescribes a t wo -tier s ys tem engaging both IBC s in the f ir s t ins tance and national regulator  y\nbodies in the second. To this end, the document describes in detail the roles and responsibilities\nof both par  ties, with IBC s providing over sight of high - consequence work within their ins titution,\nand then pas sing feedback to national regulator  y bodies who maintain inventor  y lis t s and\ns torage of res tric ted material.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-BIOSEC:BODY:PDF_PAGE_23",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO's 2024 laboratory biosecurity guidance applies a risk- and evidence-based approach to biosecurity, including governance, secure handling, transport/storage and high-consequence research risk management. 2024 guidance biosecurity",
+      "verification_status": "Verified"
+    },
+    {
+      "claim_id": "CLM-036",
+      "claim_type": "risk_assessment_purpose",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Section 1",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "risk_assessment_purpose"
+      ],
+      "section": "Section 1 – Introduction",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 15,
+          "pdf_page_start": 15,
+          "quoted_support": "This new approach is best implemented through risk assessment, a\nsystematic process of gathering information and evaluating risks to support a risk\nmanagement process. The need to select risk control measures, such as training\nand procurement of specific types of PPE, are all influenced by the results of a risk\nassessment. For these reasons, risk assessments must always be carried out in a\nstandardized and systematic way to ensure that they are repeatable and comparable.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE. Section 1 – Introduction risk_assessment_purpose",
+      "verification_status": "Verified against WHO Risk Assessment monograph"
+    },
+    {
+      "claim_id": "CLM-037",
+      "claim_type": "hazard_definition",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Section 1",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "hazard_definition"
+      ],
+      "section": "Section 1 – Introduction",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 15,
+          "pdf_page_start": 15,
+          "quoted_support": "In the context of laboratory biosafety, a hazard\nis a biological agent whose pathogenic characteristics give it the potential to cause\nharm to people, animals and/or the environment.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "In laboratory biosafety, WHO describes a biological hazard as a biological agent whose pathogenic characteristics give it the potential to cause harm to people, animals and/or the environment. Section 1 – Introduction hazard_definition",
+      "verification_status": "Verified against WHO Risk Assessment monograph"
+    },
+    {
+      "claim_id": "CLM-038",
+      "claim_type": "risk_definition",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Section 1",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "risk_definition"
+      ],
+      "section": "Section 1 – Introduction",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 15,
+          "pdf_page_start": 15,
+          "quoted_support": "The risk associated with the hazard\nis defined as the combination of the likelihood of an incident and the severity of the\nharm (consequences) if that incident were to occur. Here, likelihood is the probability\nof an exposure to or release of the hazard occurring during laboratory work, and the\nconsequence is the severity of the outcome if such an incident occurred.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO defines biological risk in context as the combination of the likelihood that an exposure to or release of a biological hazard occurs during laboratory work and the severity of the consequences if that incident occurs. Section 1 – Introduction risk_definition",
+      "verification_status": "Verified against WHO Risk Assessment monograph"
+    },
+    {
+      "claim_id": "CLM-039",
+      "claim_type": "risk_factors",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Section 1",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "risk_factors"
+      ],
+      "section": "Section 1 – Introduction",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 15,
+          "pdf_page_start": 15,
+          "quoted_support": "As such, the\nrisks of manipulating any biological agent depend on many dynamic factors, including\nprocedures to be performed, type of equipment available, inherent pathogenic\nproperties of the biological agent itself, the range of hosts that can be affected and\nwhether the biological agent is endemic in the population, susceptibility of local\npopulations, and the competency of laboratory personnel carrying out the work.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO notes that laboratory biological risk depends on dynamic factors including the procedures performed, equipment available, pathogenic properties of the biological agent, host range, population susceptibility and the competency of laboratory personnel. Section 1 – Introduction risk_factors",
+      "verification_status": "Verified against WHO Risk Assessment monograph"
+    },
+    {
+      "claim_id": "CLM-040",
+      "claim_type": "risk_control_selection",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Risk assessment template / Step 4",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "risk_control_selection"
+      ],
+      "section": "Step 4 – Select and implement risk control measures",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "4.                                   Select and implement risk  §\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          §\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          §\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          §\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          §\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          §\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          §\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          §\tHas approval to conduct the work been granted?\n                                          §\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          §\tHave necessary items been included in the budget and\n                                            purchased?\n                                          §\tAre operational and maintenance procedures in place?\n                                          §\tHave personnel been appropriately trained?",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO risk assessment requires risk control measures to be selected for the specific activity and then considers residual risk and whether the selected measures are available, effective and sustainable. Step 4 – Select and implement risk control measures risk_control_selection",
+      "verification_status": "Verified against WHO Risk Assessment monograph"
+    },
+    {
+      "claim_id": "CLM-041",
+      "claim_type": "activity_specific_controls",
+      "document_id": "KB-WHO-LBM4",
+      "page": "Core document overview / risk assessment framework",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_LABORATORY_BIOSAFETY_TECHNICAL_GUIDANCE",
+        "activity_specific_controls"
+      ],
+      "section": "Core evidence- and risk-based approach",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 19,
+          "pdf_page_start": 19,
+          "quoted_support": "This fourth edition of the manual builds on the risk assessment framework introduced in\nthe third edition. A thorough, evidence-based and transparent assessment of the risks\nallows safety measures to be balanced with the actual risk of working with biological\nagents on a case-by-case basis.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2,
+            3
+          ],
+          "pdf_page_end": 26,
+          "pdf_page_start": 26,
+          "quoted_support": "Any\n                          facility that handles biological agents has an obligation to their personnel and the\n                          community to perform a risk assessment on the work they will conduct and to select\n                          and apply appropriate risk control measures to reduce those risks to an acceptable\n                          risk. The purpose of the risk assessment is to gather information, evaluate it and use it\n                          to inform and justify the implementation of processes, procedures and technologies to\n                          control the risks present.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO LBM4 uses an evidence- and risk-based approach so that safety measures are balanced against the actual risk of work with biological agents on a case-by-case basis; a proper risk assessment should be performed before activities and should inform risk control measures. Core evidence- and risk-based approach activity_specific_controls",
+      "verification_status": "Verified against WHO LBM4 core document"
+    },
+    {
+      "claim_id": "CLM-042",
+      "claim_type": "ppe_role",
+      "document_id": "KB-WHO-LBM4-PPE",
+      "page": "Section 3",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_PERSONAL_PROTECTIVE_EQUIPMENT_TECHNICAL_GUIDANCE",
+        "ppe_role"
+      ],
+      "section": "Section 3 – PPE for core requirements",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2,
+            3
+          ],
+          "pdf_page_end": 29,
+          "pdf_page_start": 29,
+          "quoted_support": "Core requirements are a combination of risk control measures that are both the foun-\ndation for and an integral part of laboratory biosafety. These requirements are defined\nin the fourth edition of the Laboratory biosafety manual (5) and should be applied\nin all laboratory facilities. They reflect international standards and best practice in\nbiosafety that are a set of minimum requirements and considerations for working\nsafely with biological agents, even where the risks are considered minimal. The most\nimportant requirement of any laboratory facility is GMPP. This term covers a code of\npractice applicable to all types of activities with biological agents. It includes general\nbehaviours, best working practices and technical procedures that should be observed\nin the laboratory. These should be carried out in a standardized way so that laboratory\npersonnel and the community are protected from infection, the environment is protect-\ned from contamination and products are protected for work with biological agents.\n\nThe Laboratory biosafety manual (5) suggests the following as PPE core requirements:\n\n\nn laboratory coats,\n\n\nn footwear,\n\n\nn gloves, and\n\n\nn eye protection.\n\nThe use of respiratory protection is not generally required for protection against\nbiological agents as a core requirement. Where a risk assessment indicates that\nrespiratory protection is needed to protect against biological agents, this is considered\na heightened control measure (see section 4 PPE for heightened control measures).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO places PPE within broader laboratory biosafety core requirements rather than treating PPE as a complete safety determination. Core requirements include good microbiological practice and procedure, with PPE such as laboratory coats, footwear, gloves and eye protection used as applicable. Section 3 – PPE for core requirements ppe_role",
+      "verification_status": "Verified against WHO PPE monograph"
+    },
+    {
+      "claim_id": "CLM-043",
+      "claim_type": "ppe_risk_based_selection",
+      "document_id": "KB-WHO-LBM4-PPE",
+      "page": "Section 3",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_PERSONAL_PROTECTIVE_EQUIPMENT_TECHNICAL_GUIDANCE",
+        "ppe_risk_based_selection"
+      ],
+      "section": "Section 3 – PPE for core requirements",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 29,
+          "pdf_page_start": 29,
+          "quoted_support": "Core requirements are a combination of risk control measures that are both the foun-\ndation for and an integral part of laboratory biosafety. These requirements are defined\nin the fourth edition of the Laboratory biosafety manual (5) and should be applied\nin all laboratory facilities. They reflect international standards and best practice in\nbiosafety that are a set of minimum requirements and considerations for working\nsafely with biological agents, even where the risks are considered minimal. The most\nimportant requirement of any laboratory facility is GMPP. This term covers a code of\npractice applicable to all types of activities with biological agents. It includes general\nbehaviours, best working practices and technical procedures that should be observed\nin the laboratory. These should be carried out in a standardized way so that laboratory\npersonnel and the community are protected from infection, the environment is protect-\ned from contamination and products are protected for work with biological agents.\n\nThe Laboratory biosafety manual (5) suggests the following as PPE core requirements:\n\n\nn laboratory coats,\n\n\nn footwear,\n\n\nn gloves, and\n\n\nn eye protection.\n\nThe use of respiratory protection is not generally required for protection against\nbiological agents as a core requirement. Where a risk assessment indicates that\nrespiratory protection is needed to protect against biological agents, this is considered\na heightened control measure (see section 4 PPE for heightened control measures).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 33,
+          "pdf_page_start": 33,
+          "quoted_support": "Where determined by the risk assessment, additional PPE may be required as part of\nthe risk control, over and above those defined as core requirements. These additional\nrequirements are the heightened control measures and maximum containment\nmeasures proposed to address the higher initial risks associated with the performance\nof more specialized work and/or work with more hazardous biological agents.\n\nWhere national regulations exist, there may be compulsory, pre-defined lists of risk\ncontrol measure(s) to be used. Beyond such requirements, the outcomes of the local\nrisk assessment must be used to guide the selection of risk control measures, bearing in\nmind available resources, competency of personnel and practicality of implementation.\nHeightened control measures may include specialized PPE and/or specialized\nprotocols with core requirement PPE that help further reduce identified risks.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3,
+            4
+          ],
+          "pdf_page_end": 35,
+          "pdf_page_start": 35,
+          "quoted_support": "Respiratory protective equipment is a form of PPE designed to protect the wearer\nfrom inhaling particles that contain biological agents that may be present in the air\nor generated during certain laboratory procedures. Respiratory protection can be\nused to protect personnel from aerosols as an alternative or in addition to carrying\nout work in a BSC. However, respiratory protection should only be used after careful\nconsideration of the risks as this equipment only protects the wearer. Therefore, other\nmeasures may be required to ensure that any other laboratory personnel and/or the\nlocal environment at risk of exposure/contamination are also protected.\n\nRespiratory protective equipment must be selected carefully based on the results\nof a risk assessment. It must only be used by trained personnel who know what the\nappropriate equipment for the work is and how to use it correctly.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO indicates that some PPE needs are determined by risk assessment; for example, respiratory protection for biological agents is not a general core requirement and becomes a heightened control measure when the risk assessment indicates it is needed. Section 3 – PPE for core requirements ppe_risk_based_selection",
+      "verification_status": "Verified against WHO PPE monograph"
+    },
+    {
+      "claim_id": "CLM-044",
+      "claim_type": "layered_controls",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Section 1",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "layered_controls"
+      ],
+      "section": "Section 1 / risk assessment framework",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 15,
+          "pdf_page_start": 15,
+          "quoted_support": "The need to select risk control measures, such as training\nand procurement of specific types of PPE, are all influenced by the results of a risk\nassessment.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 11,
+          "pdf_page_start": 11,
+          "quoted_support": "Risk control measure: Use of a combination of tools, which include communication,\nassessment, training, and physical and operational controls, to reduce the risk of an\nincident/event to an acceptable risk. The risk assessment cycle will determine the\nstrategy that should be used to control the risks and the specific types of risk control\nmeasures required to achieve this.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 28,
+          "pdf_page_start": 28,
+          "quoted_support": "Based on the initial risk of the laboratory activity, a risk control measure can be applied\n                           to lower this risk to an acceptable risk (Figure 3.1). In some cases, multiple risk control\n                           measures may be required for the risk to be adequately addressed.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "WHO's risk-based framework does not use PPE alone to establish that an activity is safe: risk assessment determines the control measures needed for the activity, and control selection can include training, PPE, equipment and other containment measures appropriate to the identified risk. Section 1 / risk assessment framework layered_controls",
+      "verification_status": "Verified synthesis of WHO Risk Assessment monograph statements; no new operational procedure added"
+    },
+    {
+      "claim_id": "CLM-045",
+      "claim_type": "risk_assessment_scope",
+      "document_id": "KB-WHO-LBM4-RA",
+      "page": "Sections 1–2",
+      "priority": "critical",
+      "scope": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
+        "risk_assessment_scope"
+      ],
+      "section": "Risk assessment framework",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 15,
+          "pdf_page_start": 15,
+          "quoted_support": "As such, the\nrisks of manipulating any biological agent depend on many dynamic factors, including\nprocedures to be performed, type of equipment available, inherent pathogenic\nproperties of the biological agent itself, the range of hosts that can be affected and\nwhether the biological agent is endemic in the population, susceptibility of local\npopulations, and the competency of laboratory personnel carrying out the work.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "1.                                Gather information                                            §\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         §\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         §\tWhat type(s) of equipment will be used?\n                                                                         §\tWhat type of laboratory facility is available?\n                                                                         §\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         §\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 20,
+          "pdf_page_start": 20,
+          "quoted_support": "2.                                Evaluate the risks§\tHow could an exposure and/or release occur?\n                                                                         §\tWhat is the likelihood of an exposure and/or release?\n                                                                         §\tWhat information gathered influences the likelihood the most?\n                                                                         §\tWhat are the consequences of an exposure and/or release?",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+          "support_type": "DIRECT"
+        }
+      ],
+      "text": "A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences. Risk assessment framework risk_assessment_scope",
+      "verification_status": "Verified synthesis of WHO Risk Assessment monograph"
+    }
+  ],
+  "documents": [
+    {
+      "authority": "Official controlled source",
+      "authority_tier": "Tier 2",
+      "document_id": "KB-MY-CU",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "Malaysia",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "LMO contained-use guidance"
+    },
+    {
+      "authority": "Official controlled source",
+      "authority_tier": "Tier 2",
+      "document_id": "KB-MY-FORME",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "Malaysia",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "User's Guide to the Biosafety Act and Regulations"
+    },
+    {
+      "authority": "Official controlled source",
+      "authority_tier": "Tier 2",
+      "document_id": "KB-MY-GMMRA",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "Malaysia",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "GMM risk-assessment guidance"
+    },
+    {
+      "authority": "Official controlled source",
+      "authority_tier": "Tier 2",
+      "document_id": "KB-MY-IBC",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "Malaysia",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "Institutional Biosafety Committee guidance"
+    },
+    {
+      "authority": "Official controlled source",
+      "authority_tier": "Tier 2",
+      "document_id": "KB-MY-TRANSPORT2023",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "Malaysia",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "Clinical specimen and infectious-substance transport guidance"
+    },
+    {
+      "authority": "World Health Organization",
+      "authority_tier": "Tier 3",
+      "document_id": "KB-WHO-BIOSEC",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "International",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "Front matter"
+    },
+    {
+      "authority": "World Health Organization",
+      "authority_tier": "Tier 3",
+      "document_id": "KB-WHO-LBM4",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "International",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "Front matter"
+    },
+    {
+      "authority": "World Health Organization",
+      "authority_tier": "Tier 3",
+      "document_id": "KB-WHO-LBM4-PPE",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "International",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "Front matter"
+    },
+    {
+      "authority": "World Health Organization",
+      "authority_tier": "Tier 3",
+      "document_id": "KB-WHO-LBM4-RA",
+      "document_type": "Controlled candidate source",
+      "jurisdiction": "International",
+      "source_url": "",
+      "status": "Offline curated candidate; not live activated",
+      "title": "Front matter"
+    }
+  ],
+  "knowledge_base_id": "BioSafe_PhaseC3_Benchmark_KB_v0.1",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "retrieval_rules": [],
+  "source_artifacts": {
+    "component_candidates_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
+    "crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
+    "curated_candidate_kb_sha256": "b48da48c1234ec3f9a7580b1fad9b6893e3d69aac1c7df4702b4d224a85b3b8e"
+  }
+}
