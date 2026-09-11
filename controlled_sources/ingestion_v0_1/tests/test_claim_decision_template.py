@@ -52,6 +52,18 @@ class ClaimDecisionTemplateTests(unittest.TestCase):
         with self.assertRaisesRegex(ValidationError, "not pending"):
             self.build(["CLM-018"])
 
+    def test_non_form_e_worksheet_uses_claim_specific_boundaries(self):
+        _, worksheet = self.build(["CLM-012"])
+        self.assertIn(
+            "Confirmed every claim-specific boundary prompt above was preserved",
+            worksheet,
+        )
+        self.assertIn(
+            "Risk group, organism hazard, procedure-specific risk, and containment level remain distinct.",
+            worksheet,
+        )
+        self.assertNotIn("Confirmed Form E is not described", worksheet)
+
 
 if __name__ == "__main__":
     unittest.main()

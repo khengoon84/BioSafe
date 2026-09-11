@@ -44,7 +44,7 @@ class ClaimReviewBriefTests(unittest.TestCase):
             "2026-09-10",
         )
 
-    def test_exact_pending_set_is_grouped_into_nine_document_briefs(self):
+    def test_exact_pending_set_is_grouped_into_document_briefs(self):
         briefs, index = self.build()
         pending = {
             item["claim_id"]
@@ -57,10 +57,10 @@ class ClaimReviewBriefTests(unittest.TestCase):
             for line in content.splitlines()
             if line.startswith("## CLM-")
         }
-        self.assertEqual(len(briefs), 8)
-        self.assertEqual(len(pending), 28)
+        self.assertEqual(len(briefs), 7)
+        self.assertEqual(len(pending), 24)
         self.assertEqual(rendered, pending)
-        self.assertIn("**28 pending claims across 8 controlled documents.**", index)
+        self.assertIn("**24 pending claims across 7 controlled documents.**", index)
 
     def test_output_is_navigation_only_and_exposes_exact_contract(self):
         briefs, index = self.build()
@@ -121,7 +121,7 @@ class ClaimReviewBriefTests(unittest.TestCase):
                 self.assertEqual(
                     (output / f"review_brief_{document_id}.md").read_text(), expected
                 )
-            self.assertIn("briefs=8 pending_claims=28", result.stdout)
+            self.assertIn("briefs=7 pending_claims=24", result.stdout)
 
 
 if __name__ == "__main__":

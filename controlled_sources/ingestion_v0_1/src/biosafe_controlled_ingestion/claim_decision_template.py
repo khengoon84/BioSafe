@@ -83,8 +83,7 @@ def initialize_decision_template(
             "- [ ] Recorded allowed decisions/actions, limitations, and exclusions",
             "- [ ] Recorded reviewer identity, role, ISO date, and findings",
             "- [ ] Set all required checks to `PASS` and attestations to `true`",
-            "- [ ] Confirmed Form E is not described as approval, submission, permit, or a "
-            "regulatory determination", "",
+            "- [ ] Confirmed every claim-specific boundary prompt above was preserved", "",
         ])
 
     packet = {

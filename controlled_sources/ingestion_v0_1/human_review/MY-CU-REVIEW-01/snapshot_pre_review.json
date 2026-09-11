@@ -432,57 +432,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The guidance identifies a GM-BSL2 laboratory as appropriate for research introducing naked nucleic acids into RG2 microorganisms with moderate potential hazard to personnel, community and the environment.",
-        "The guidance identifies a GM-BSL2 laboratory as appropriate for experiments with LMO and related materials harboring DNA from an RG2 microorganism.",
-        "For a GM-BSL2 laboratory, a hazard warning sign showing the containment level and access restrictions should be displayed on the access door to the laboratory work area.",
-        "GM-BSL2 work practices include Laboratory Supervisor policies and procedures restricting access to people advised of the potential hazard who meet specific entry requirements.",
-        "GM-BSL2 laboratory personnel should receive training on work hazards and exposure-prevention precautions, with annual updates or additional training for procedural or policy changes.",
-        "Solid waste from GM-BSL2 laboratories, including infectious waste, should be decontaminated by the stated autoclaving process.",
-        "Liquid waste generated during GM-BSL2 activities should be decontaminated immediately by mixing it with a suitable disinfectant.",
-        "GM-BSL2 spills and accidents that may cause over-exposure to LMO or originating materials should be reported immediately to the Laboratory Supervisor and IBC.",
-        "For those spills and accidents, the guidance calls for spill management under the institutional biosafety manual and a documented Emergency Response Plan with personnel training that includes spill management and an incident reporting system."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-008",
       "controlled_document_id": "KB-MY-CU",
       "controlled_source_sha256": "164839a62dd6a875b8590307db4f74a4dcebdb4ffbd2e4f34179e8d3279242bf",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
-      "exclusions": [
-        "Do not treat risk group as equivalent to biosafety or containment level.",
-        "Do not use this guidance alone to determine the containment level, controls, or legal pathway for a specific activity.",
-        "Do not represent this guidance or review as an approval, compliance determination, or authorization to begin work.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "PDF page 18 gives two bounded RG2-related examples of activities for which a GM-BSL2 laboratory is appropriate.",
-        "PDF pages 18 and 20 state GM-BSL2 access-signage, access-control, and personnel-training practices.",
-        "PDF pages 20 and 21 state solid- and liquid-waste decontamination practices.",
-        "PDF page 21 states immediate reporting and emergency-response arrangements for specified spills and accidents.",
-        "The historical compound claim is represented as nine independently supported propositions rather than as a universal RG2-to-BSL2 equivalence."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-CU",
-      "limitations": [
-        "The RG2 passages are examples within this LMO contained-use guidance and do not establish that risk group alone determines biosafety level.",
-        "The GM-BSL2 provisions do not establish the correct containment level for an unreviewed activity; procedure-specific risk assessment and applicable institutional or regulatory review remain necessary."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-008",
         "claim_type": "containment",
@@ -494,159 +470,43 @@
         "text": "Contained-use guidance specifies biosafety-level and work-practice expectations, including access restrictions, training, decontamination and incident controls; GM-BSL2 examples include LMO/materials associated with RG2 microorganisms.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 18,
-          "pdf_page_start": 18,
-          "quoted_support": "\u2022                                                       Research      involving      the      introduction      of      naked      nucleic      acids      into      RG\n      2 microorganisms that has moderate potential hazard to personnel,\n      community and the environment",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 18,
-          "pdf_page_start": 18,
-          "quoted_support": "\u2022                                                       Experiments  with  LMO  and  related  materials,  harboring  DNA  from  a\n      RG 2 microorganism.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 18,
-          "pdf_page_start": 18,
-          "quoted_support": "a)                                                          A hazard warning sign incorporating the universal biohazard symbol\n      and the level of containment together with access restrictions should\n      be displayed on the access door to the laboratory work area. The\n      hazard warning sign may also identify the agent and the name and\n      telephone number of the Laboratory Supervisor or other responsible\n      persons.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "a)              The Laboratory Supervisor establishes policies and procedures\n    whereby access is restricted to persons who have been advised of\n    the   potential   hazard   and   who   meet   specific   entry   requirements   (e.g.\n    immunisation).",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "b)          Laboratory personnel should receive appropriate training on\n    the potential hazards associated with the work involved and the\n    necessary precautions to prevent exposures. Personnel should\n    receive annual updates, or additional training as necessary for\n    procedural or policy changes.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            6
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "h)                    All solid wastes from GM-BSL2 laboratories, including infectious\n    wasteshould be decontaminated by autoclaving for at least 30\n    minutes at a pressure of 15 psi and 121 o C.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            7
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "i)       Liquid wastes generated during GM-BSL2 activities are to\n    bedecontaminated immediately by mixing with a suitable\n    disinfectant (refer to Section 12).",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            8
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "k)                  Spills and accidents that may cause over-exposure to LMO and\n    materials originating from these organisms should be immediately\n    reported to the Laboratory Supervisor and the IBC.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            9
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Management\n    of spills should follow biosafety procedures outlined in the\n    institutional biosafety manual. An Emergency Response Plan should\n    be documented and personnel should be trained in these procedures\n    which include, spill management as well as incident reporting\n    system. Medical evaluation, surveillance and treatment are provided\n    as appropriate.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "GM-BSL2 spills and accidents that may cause over-exposure to LMO or materials originating from those organisms should be reported immediately to the Laboratory Supervisor and the IBC.",
-        "Management of those spills should follow biosafety procedures in the institutional biosafety manual.",
-        "An Emergency Response Plan should be documented and personnel trained in procedures that include spill management and an incident reporting system."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-009",
       "controlled_document_id": "KB-MY-CU",
       "controlled_source_sha256": "164839a62dd6a875b8590307db4f74a4dcebdb4ffbd2e4f34179e8d3279242bf",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
-      "exclusions": [
-        "Do not treat risk group as equivalent to biosafety or containment level.",
-        "Do not use this guidance alone to determine the containment level, controls, or legal pathway for a specific activity.",
-        "Do not represent this guidance or review as an approval, compliance determination, or authorization to begin work.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "PDF page 21 directly states the reporting route for the specified spills and accidents.",
-        "The passage separately identifies institutional-manual spill management and documented, trained emergency-response procedures.",
-        "The historical compound claim is split into three propositions to preserve the source qualifier concerning events that may cause over-exposure."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-CU",
-      "limitations": [
-        "The passage applies to the specified GM-BSL2 spills and accidents; it does not establish reporting requirements for every incident type or institution.",
-        "No reporting timeframe beyond immediate reporting for the specified events is inferred."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-009",
         "claim_type": "incident",
@@ -658,90 +518,43 @@
         "text": "Spills/accidents are to be addressed through established reporting and emergency arrangements, with relevant escalation to supervisory/IBC structures.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "k)                  Spills and accidents that may cause over-exposure to LMO and\n    materials originating from these organisms should be immediately\n    reported to the Laboratory Supervisor and the IBC.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Management\n    of spills should follow biosafety procedures outlined in the\n    institutional biosafety manual.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "An Emergency Response Plan should\n    be documented and personnel should be trained in these procedures\n    which include, spill management as well as incident reporting\n    system.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "Within the GM-BSL2 containment-equipment section, work with specimens containing microorganisms transmissible by the respiratory route or work producing a significant aerosol-production risk should be conducted in a Class II biological safety cabinet."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-010",
       "controlled_document_id": "KB-MY-CU",
       "controlled_source_sha256": "164839a62dd6a875b8590307db4f74a4dcebdb4ffbd2e4f34179e8d3279242bf",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_EXACTLY",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
-      "exclusions": [
-        "Do not treat risk group as equivalent to biosafety or containment level.",
-        "Do not use this guidance alone to determine the containment level, controls, or legal pathway for a specific activity.",
-        "Do not represent this guidance or review as an approval, compliance determination, or authorization to begin work.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "PDF page 21 contains the GM-BSL2 containment-equipment section.",
-        "The passage directly connects respiratory-route specimens or significant aerosol-production risk with work in a Class II biological safety cabinet."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-CU",
-      "limitations": [
-        "The passage does not establish GM-BSL2 or any other containment level solely from the presence or use of a biological safety cabinet.",
-        "The passage does not establish that every aerosol-generating procedure requires the same control; activity-specific risk assessment remains necessary."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-010",
         "claim_type": "equipment",
@@ -753,85 +566,43 @@
         "text": "A Class II biological safety cabinet is identified for work presenting respiratory/aerosol risk within the applicable contained-use context.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "\u2022                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "For disposal purposes, the guidance states that GM material should be treated in the same way as infectious and potentially infectious material and that GM waste should be inactivated before leaving the facility.",
-        "The guidance identifies autoclaving as the preferred GM-waste treatment method while noting that incineration or chemical disinfection may be appropriate or necessary in some cases.",
-        "Storage of non-inactivated GM waste is restricted to the generating laboratory, in a closed or covered biowaste container, preferably for no longer than 24 hours before inactivation.",
-        "The guidance contains packing and labelling provisions for biological-waste boxes and bags.",
-        "Biohazardous waste transported outside the laboratory to an autoclave or incinerator should be in a closed, leak-proof bag or container, with bags placed in a leak-proof tray.",
-        "The guidance states that IBC-maintained transport records should track movement of LMO between research facilities, storage facilities and field-trial sites.",
-        "At the destination facility, LMO should be stored to prevent environmental release and mixing with other LMO or conventional materials.",
-        "Multiple stored LMO samples should be separated in sealed, labelled containers and clearly labelled to prevent mixing.",
-        "GM-BSL2 work practices include needle and syringe handling precautions intended to avoid accidental needle-stick injury and aerosol generation.",
-        "The guidance specifies additional GM-BSL2 laboratory-facility features.",
-        "In the GM-BSL2 containment-equipment section, specified respiratory-route or significant aerosol-risk work should be conducted in a Class II biological safety cabinet."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-011",
       "controlled_document_id": "KB-MY-CU",
       "controlled_source_sha256": "164839a62dd6a875b8590307db4f74a4dcebdb4ffbd2e4f34179e8d3279242bf",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE",
-      "exclusions": [
-        "Do not treat risk group as equivalent to biosafety or containment level.",
-        "Do not use this guidance alone to determine the containment level, controls, or legal pathway for a specific activity.",
-        "Do not represent this guidance or review as an approval, compliance determination, or authorization to begin work.",
-        "Do not infer project-specific facts that were not provided and reviewed."
-      ],
-      "findings": [
-        "PDF page 73 contains GM-waste treatment, disposal, inactivation, and pre-inactivation storage provisions.",
-        "PDF pages 77-78 contain biological-waste packing, labelling, and transport provisions.",
-        "PDF page 83 states that transport records should track LMO movement between specified facilities.",
-        "PDF page 84 states environmental-release, separation, and labelling controls for stored LMO and related materials.",
-        "PDF page 21 states GM-BSL2 needle and syringe handling precautions.",
-        "PDF pages 18 and 21 contain GM-BSL2 facility and containment-equipment provisions.",
-        "The historical compound claim is split into eleven source-bounded propositions; the draft does not characterize biological waste as scheduled waste, clinical waste, or SW 404."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-CU",
-      "limitations": [
-        "The handling proposition is limited to the specific GM-BSL2 needle, syringe, and sharps precautions quoted from the source; it is not a universal safe-handling determination.",
-        "The waste provisions are guidance for the waste categories and contexts stated in the source; they do not establish that all biological waste is clinical waste, scheduled waste, or SW 404.",
-        "The transport provisions in this document concern biological waste or LMO in the stated contained-use context and do not replace applicable transport requirements.",
-        "The facility and equipment passages provide specific GM-BSL2 provisions described as additional or containment-equipment provisions; they do not independently determine the minimum controls for a particular project."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-011",
         "claim_type": "waste",
@@ -843,124 +614,12 @@
         "text": "Contained-use guidance covers safe handling, hazardous biological waste treatment, disposal, transfer/transport, storage and minimum facility/equipment requirements.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            2
-          ],
-          "pdf_page_end": 73,
-          "pdf_page_start": 73,
-          "quoted_support": "For disposal purposes, all GM material should be treated in the\n          same way as infectious and potentially infectious material. All\n          GM wastes should be inactivated prior to leaving the facility.\n          The preferred method is autoclaving, although incineration or\n          chemical disinfection (e.g. treatment with household bleach) may\n          be appropriate or necessary in some cases).\n\n     ii)",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 73,
-          "pdf_page_start": 73,
-          "quoted_support": "Storage of all non-inactivated waste in this category is restricted\n          to within the generating laboratory. GM waste should be held in a\n          closed/covered biowaste container and preferably should not be\n          stored longer than 24 hours prior to inactivation.\n\n     iii)",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 77,
-          "pdf_page_start": 77,
-          "quoted_support": "Biowaste Boxes\n\n                                         \u2022                                                       Sturdy     cardboard     biowaste     boxes     displaying     the     biohazard     sign     are\n                                                used as the terminal receptacle. The boxes are lined with a biohazard\n                                                bag.\n\n                                         \u2022                                                       Boxes should not be over-filled.\n\n                                         \u2022                                                       All                 seams                 should                 be                 taped                 and                 labelled                 with                 date,                 Laboratory\n                                                Supervisor\u2019s name and telephone number.\n\n                                         \u2022                                                       Biowaste boxes should not be kept for more than 30 days.\n\n                                         b)                                                       Biohazard Bags\n\n                                         \u2022                                                       Liquids  should   not   be   put   into  the  bags.   The  bags   should  be   labelled\n                                                with date, Laboratory Supervisor\u2019s name and telephone number.\n\n                                         \u2022                                                       Biohazard bags are placed in a biowaste box for disposal.\n\n                                         \u2022                                                       The laboratory should order/supply these bags\n\n                                         c)",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 78,
-          "pdf_page_start": 78,
-          "quoted_support": "Biohazardous   waste   is   transported   outside   of   the   laboratory   (e.g.   to\n      an autoclave or incinerator) in a closed, leak-proof bag or container.\n      Bags should be placed in a leak-proof tray.\n\n\u2022",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            6
-          ],
-          "pdf_page_end": 83,
-          "pdf_page_start": 83,
-          "quoted_support": "Adequate records of the transport of LMO as they move between\n     research          facilities,          storage          facilities          and          field          trial          sites          should          be\n     maintained by IBC to ensure an adequate system is in place for\n     tracking the movement of this material.\n\nf    )",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            7
-          ],
-          "pdf_page_end": 84,
-          "pdf_page_start": 84,
-          "quoted_support": "LMO should be stored at the destination facility in such a way that\n    there is no release of LMO and related materials into the environment\n    so as to avoid mixing with other LMO or conventional materials (e.g.\n    filing cabinet , refrigerator, office, closet , cold room).\n\nb)",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            8
-          ],
-          "pdf_page_end": 84,
-          "pdf_page_start": 84,
-          "quoted_support": "Where a storage area is used to store multiple samples of LMO, each\n    item should be stored separately in a sealed, labelled container\n    such as a primary container for shipment . LMO in storage should be\n    clearly labelled to prevent mixing of materials.\n\nc)",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            9
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Extreme caution should be observed when handling needles and\n    syringes to avoid accidental needle-stick injury and generation\n    of aerosols during use and disposal. Needles should not be bent,\n    sheared, replaced in the needle sheath,guard or removed from the\n    syringe following use. Only needle-locking syringes or disposable\n    syringe-needle units (e.g. needle is integral to the syringe) should\n    be      used      for      injection      or      aspiration      of      fluids      from      LMO      or      materials\n    originating from these organisms. The needle and syringe should be\n    promptly placed in a sharps container. Broken glassware should not\n    be handled directly by hand, but should be removed by mechanical\n    means, such as a brush and dustpan, tongs, or forceps, before\n    discarding into sharps containers.\n\nk)",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            10
-          ],
-          "pdf_page_end": 18,
-          "pdf_page_start": 18,
-          "quoted_support": "Laborator y Facility (GM-BSL2)\nIn                   addition                   to                   the                   facility                   design                   features                   specified                   for                   GM-BSL1,\nfollowing additional features are essential:\n\na)                                                          A hazard warning sign incorporating the universal biohazard symbol\n      and the level of containment together with access restrictions should\n      be displayed on the access door to the laboratory work area. The\n      hazard warning sign may also identify the agent and the name and\n      telephone number of the Laboratory Supervisor or other responsible\n      persons.\n\nb)                                                       The        ceilings,        walls        and        floors        of        the        laboratory        should        be        smooth,\n      easy to clean, impermeable to liquids, and resistant to commonly\n      used reagents and disinfectants. Floors should be coved to walls to\n      facilitate cleaning.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            11
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Containment Equipment (GM-BSL2)\n\u2022                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .\n\n\u2022",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],

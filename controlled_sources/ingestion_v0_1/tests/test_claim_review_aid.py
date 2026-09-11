@@ -31,6 +31,13 @@ from biosafe_controlled_ingestion.contracts import ValidationError  # noqa: E402
 from biosafe_controlled_ingestion.legal_claim_review_draft import LEGAL_CLAIM_IDS  # noqa: E402
 
 
+COMPLETED_NONLEGAL_CLAIM_IDS = {
+    "CLM-008", "CLM-009", "CLM-010", "CLM-011",
+    "CLM-018", "CLM-019", "CLM-020", "CLM-021",
+    "CLM-022", "CLM-023", "CLM-024", "CLM-025",
+}
+
+
 PATHS = {
     "crosswalk": INGESTION / "config/document_identity_crosswalk_v0_1.json",
     "review_map": INGESTION / "config/claim_reconciliation_map_v0_1.json",
@@ -76,8 +83,9 @@ class ClaimReviewAidTests(unittest.TestCase):
         self.assertEqual(self.aid["completed_identity_review_count"], 4)
         self.assertEqual(self.aid["pending_identity_review_count"], 0)
         self.assertEqual(self.aid["claim_review_item_count"], 45)
-        self.assertEqual(self.aid["completed_claim_review_count"], len(LEGAL_CLAIM_IDS) + 8)
-        self.assertEqual(self.aid["pending_claim_review_count"], 45 - len(LEGAL_CLAIM_IDS) - 8)
+        completed_count = len(LEGAL_CLAIM_IDS | COMPLETED_NONLEGAL_CLAIM_IDS)
+        self.assertEqual(self.aid["completed_claim_review_count"], completed_count)
+        self.assertEqual(self.aid["pending_claim_review_count"], 45 - completed_count)
         self.assertEqual(self.aid["claim_use_status"], CLAIM_REVIEW_REQUIRED)
         self.assertEqual(self.aid["live_activation_status"], ACTIVATION_PROHIBITED)
         for item in self.aid["identity_mapping_items"]:

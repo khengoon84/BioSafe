@@ -33,6 +33,7 @@ PATHS = {
     "fallbacks": INGESTION / "reports/semantic_fallbacks_v0_1.json",
     "fallback_reviews": INGESTION / "reports/fallback_human_review_packet_v0_1.json",
 }
+SYNTHETIC_PENDING_CLAIM_ID = "CLM-012"
 
 
 class ClaimDecisionEntryTests(unittest.TestCase):
@@ -42,7 +43,7 @@ class ClaimDecisionEntryTests(unittest.TestCase):
         cls.data = {name: json.loads(value) for name, value in cls.raw.items()}
         review = next(
             item for item in cls.data["map"]["claim_reviews"]
-            if item["claim_id"] == "CLM-008"
+            if item["claim_id"] == SYNTHETIC_PENDING_CLAIM_ID
         )
         candidate = next(
             item for item in cls.data["components"]["candidate_chunks"]
@@ -53,7 +54,7 @@ class ClaimDecisionEntryTests(unittest.TestCase):
     def decision_packet(self):
         quote = self.candidate["text"].splitlines()[0]
         decision = {
-            "claim_id": "CLM-008",
+            "claim_id": SYNTHETIC_PENDING_CLAIM_ID,
             "review_status": "CLAIM_REVIEW_COMPLETE",
             "disposition": "SUPPORTED_EXACTLY",
             "atomic_propositions": ["Synthetic decision-entry contract proposition."],
@@ -83,14 +84,14 @@ class ClaimDecisionEntryTests(unittest.TestCase):
                 key: "PASS"
                 for key in next(
                     item for item in self.data["map"]["claim_reviews"]
-                    if item["claim_id"] == "CLM-008"
+                    if item["claim_id"] == SYNTHETIC_PENDING_CLAIM_ID
                 )["check_results"]
             },
             "attestations": {
                 key: True
                 for key in next(
                     item for item in self.data["map"]["claim_reviews"]
-                    if item["claim_id"] == "CLM-008"
+                    if item["claim_id"] == SYNTHETIC_PENDING_CLAIM_ID
                 )["attestations"]
             },
         }
@@ -99,7 +100,7 @@ class ClaimDecisionEntryTests(unittest.TestCase):
             "human_review_status": HUMAN_REVIEW_COMPLETE,
             "batch_id": "SYNTHETIC-TEST-BATCH",
             "source_review_map_sha256": hashlib.sha256(self.raw["map"]).hexdigest(),
-            "claim_ids": ["CLM-008"],
+            "claim_ids": [SYNTHETIC_PENDING_CLAIM_ID],
             "decisions": [decision],
         }
 
@@ -119,15 +120,21 @@ class ClaimDecisionEntryTests(unittest.TestCase):
 
     def test_applies_exactly_one_pending_claim_and_reports_curation(self):
         result, report = self.apply()
-        changed = next(item for item in result["claim_reviews"] if item["claim_id"] == "CLM-008")
+        changed = next(
+            item for item in result["claim_reviews"]
+            if item["claim_id"] == SYNTHETIC_PENDING_CLAIM_ID
+        )
         original = next(item for item in self.data["map"]["claim_reviews"] if item["claim_id"] == "CLM-009")
         unchanged = next(item for item in result["claim_reviews"] if item["claim_id"] == "CLM-009")
         self.assertEqual(changed["review_status"], "CLAIM_REVIEW_COMPLETE")
         self.assertEqual(unchanged, original)
-        self.assertEqual(report["changed_claim_ids"], ["CLM-008"])
-        self.assertEqual(report["total_completed_review_count"], 18)
-        self.assertEqual(report["total_pending_review_count"], 27)
-        self.assertEqual(report["curated_claim_ids"], ["CLM-008", "CLM-021", "CLM-022", "CLM-023", "CLM-024", "CLM-025"])
+        self.assertEqual(report["changed_claim_ids"], [SYNTHETIC_PENDING_CLAIM_ID])
+        self.assertEqual(report["total_completed_review_count"], 22)
+        self.assertEqual(report["total_pending_review_count"], 23)
+        self.assertEqual(report["curated_claim_ids"], [
+            "CLM-008", "CLM-009", "CLM-010", "CLM-011", "CLM-012",
+            "CLM-021", "CLM-022", "CLM-023", "CLM-024", "CLM-025",
+        ])
         self.assertEqual(report["live_activation_status"], "PROHIBITED_PENDING_PHASE_C_GATES")
 
     def test_result_and_report_are_deterministic(self):
@@ -212,7 +219,7 @@ class ClaimDecisionEntryTests(unittest.TestCase):
             self.assertEqual(snapshot.read_bytes(), self.raw["map"])
             self.assertEqual(output.read_bytes(), canonical_json_bytes(expected_map))
             self.assertEqual(report.read_bytes(), canonical_json_bytes(expected_report))
-            self.assertIn("changed=1 completed=18 curated=6 dry_run=False", process.stdout)
+            self.assertIn("changed=1 completed=22 curated=10 dry_run=False", process.stdout)
 
     def test_public_cli_dry_run_writes_nothing(self):
         decisions = self.decision_packet()

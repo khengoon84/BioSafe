@@ -44,21 +44,21 @@ remnant of the referenced filename is
 alternate-data-stream artifact (25 bytes) whose base `.docx` was never committed. AGENTS.md
 should be updated to point to `Project_Baseline.md` (owner decision).
 
-## Verified current-state anchors (10 September 2026)
+## Verified current-state anchors (updated 11 September 2026)
 
 What does exist and is hash-attested in `controlled_sources/ingestion_v0_1/README.md`:
 
-- Canonical claim map `config/claim_reconciliation_map_v0_1.json` (SHA-256 `092842c6…`):
-  45 claims, 17 completed (9 `CURRENTNESS_UNRESOLVED` + 8 Form E pilot), 28 pending;
+- Canonical claim map `config/claim_reconciliation_map_v0_1.json` (SHA-256 `8e3da62d…`):
+  45 claims, 21 completed (9 `CURRENTNESS_UNRESOLVED` + 8 Form E + 4 contained-use), 24 pending;
   all-pending baseline preserved byte-identically at `reports/claim_reconciliation_map_v0_1_pre_legal_review.json`
   (`1edf2c9a…`).
-- `reports/claim_reconciliation_packet_v0_1.json` (`160911e0…`): 45 required / 17 completed /
-  5 curated (CLM-021, CLM-022, CLM-023, CLM-024, CLM-025), `PROHIBITED_PENDING_PHASE_C_GATES`.
-- `reports/curated_candidate_kb_v0_1.json` (`65e854ab…`): 5 curated claims from Form E pilot.
-- `reports/claim_reconciliation_review_aid_v0_1.json` (`a6d12fe1…`): navigation aid,
-  17 complete / 28 pending.
+- `reports/claim_reconciliation_packet_v0_1.json` (`5dc3f1ae…`): 45 required / 21 completed /
+  9 curated (CLM-008–CLM-011 and CLM-021–CLM-025), `PROHIBITED_PENDING_PHASE_C_GATES`.
+- `reports/curated_candidate_kb_v0_1.json` (`977c9ceb…`): 9 offline curated candidate claims.
+- `reports/claim_reconciliation_review_aid_v0_1.json` (`55d98ff1…`): navigation aid,
+  21 complete / 24 pending across 7 controlled documents.
 - All deterministic test suites in `controlled_sources/ingestion_v0_1/tests/` pass
-  after the Form E pilot review application (run 10 September 2026).
+  after the contained-use review application (run 11 September 2026).
 
 ## Open items
 
@@ -71,7 +71,7 @@ What does exist and is hash-attested in `controlled_sources/ingestion_v0_1/READM
    36/37 and human review found additional unsupported permit/regulatory claims. See
    `docs/UNIFIED2251_LIVE_REVALIDATION_2026-09-10.md`. Unified-2.2.5.1 remains an unpromoted
    candidate; defect remediation requires a separate approved plan.
-3. Navigation-only briefs for all 36 pending claims now exist under
+3. Navigation-only briefs for all 24 pending claims now exist under
    `controlled_sources/ingestion_v0_1/review/`; human review remains open.
 4. Evidence-only bundles for CLM-006, CLM-007, and CLM-030 now exist under
    `controlled_sources/ingestion_v0_1/legal_blocker_evidence/`. The 2019 First/Third Schedule
