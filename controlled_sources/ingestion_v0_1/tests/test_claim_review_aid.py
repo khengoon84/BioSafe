@@ -34,6 +34,7 @@ from biosafe_controlled_ingestion.legal_claim_review_draft import LEGAL_CLAIM_ID
 COMPLETED_NONLEGAL_CLAIM_IDS = {
     "CLM-008", "CLM-009", "CLM-010", "CLM-011",
     "CLM-012", "CLM-013", "CLM-014",
+    "CLM-015", "CLM-016", "CLM-017",
     "CLM-018", "CLM-019", "CLM-020", "CLM-021",
     "CLM-022", "CLM-023", "CLM-024", "CLM-025",
     "CLM-026", "CLM-027", "CLM-028",

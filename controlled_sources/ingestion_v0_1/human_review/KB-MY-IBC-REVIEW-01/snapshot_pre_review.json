@@ -1,9 +1,434 @@
 {
-  "artifact_scope": "ADDITIVE_OFFLINE_CURATED_CANDIDATE_REFERENCE_ONLY",
-  "artifact_version": "BioSafe_Curated_Candidate_KB_v0.1",
-  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "curated_claim_count": 18,
-  "curated_claims": [
+  "claim_reviews": [
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Section 35 states that lack of scientific certainty due to insufficient relevant scientific information and knowledge does not prevent the Board or Minister from taking an appropriate decision under Part III or Part IV."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-001",
+      "controlled_document_id": "KB-MY-ACT678",
+      "controlled_source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-ACT678",
+      "limitations": [
+        "Act amendment and claim-level currentness review remains required.",
+        "The provision is limited to decisions under Part III or Part IV and includes additional source context that must not be omitted if material."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-001",
+        "claim_type": "regulatory_uncertainty",
+        "document_id": "KB-MY-ACT678",
+        "maps_to": "PROP-01; PROP-03",
+        "page": "90\u201391",
+        "priority": "critical",
+        "section": "s.35",
+        "text": "The Act permits decisions to be made despite lack of scientific certainty where relevant scientific information or knowledge is insufficient.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Section 36(1)(a) describes assessment of risks and adverse effects that the relevant LMOs or products will have or are likely to have on human, plant and animal health, the environment and biological diversity.",
+        "Section 36(1)(b) describes proposed measures to prevent, reduce or control those risks and adverse effects."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-002",
+      "controlled_document_id": "KB-MY-ACT678",
+      "controlled_source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-ACT678",
+      "limitations": [
+        "Act amendment and claim-level currentness review remains required.",
+        "The original claim combines assessment subject matter and proposed control measures and should be reviewed as separate propositions."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-002",
+        "claim_type": "risk_assessment",
+        "document_id": "KB-MY-ACT678",
+        "maps_to": "SOP-01; SOP-03; PROP-01; PROP-03",
+        "page": "90\u201391",
+        "priority": "critical",
+        "section": "s.36",
+        "text": "Risk assessment/risk management reporting addresses risks and adverse effects to human, plant and animal health, the environment and biodiversity, together with measures to prevent, reduce or control them.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Section 37(1)(a) states that an emergency response plan shall provide safety measures and procedures for the specified protection against direct or indirect harm or damage caused by relevant LMOs or products.",
+        "Section 37(1)(b) states that an emergency response plan shall provide all necessary measures to be taken in an emergency."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-003",
+      "controlled_document_id": "KB-MY-ACT678",
+      "controlled_source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED"
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-ACT678",
+      "limitations": [
+        "Act amendment and claim-level currentness review remains required.",
+        "The original claim's phrase statutory risk-management framework is interpretive and should not replace the exact section wording."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-003",
+        "claim_type": "emergency_response",
+        "document_id": "KB-MY-ACT678",
+        "maps_to": "SOP-01; SOP-03; PROP-03",
+        "page": "90\u201391",
+        "priority": "major",
+        "section": "s.37",
+        "text": "Emergency response planning is part of the statutory risk-management framework and must provide safety measures/procedures and necessary emergency measures.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Regulation 5(1) states that the Board may direct an organization carrying out modern biotechnology research and development to establish an institutional biosafety committee for the purposes listed in paragraphs (a) to (d).",
+        "Regulation 5(1)(d) includes determining the classes of Biosafety Levels for contained-use modern biotechnology research and development activities conducted in the facility where the committee is established."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-004",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-REG2010",
+      "limitations": [
+        "The 2019 schedule amendment is recorded and requires reconciliation even though this claim concerns Regulation 5.",
+        "The original broad phrase biosafety oversight functions should be checked against each listed statutory purpose rather than treated as an unlimited mandate."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-004",
+        "claim_type": "ibc",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "SOP-03; PROP-01",
+        "page": "20\u201330",
+        "priority": "critical",
+        "section": "Reg. 5",
+        "text": "The Board may direct organisations conducting modern biotechnology R&D to establish an IBC; the IBC has biosafety oversight functions including procedures and BSL determination for contained-use R&D.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Regulation 16(1) states that a person carrying out an activity specified in paragraphs 22(1)(a) to (c) of the Act shall give prior notification to the Board.",
+        "Regulation 16(2) specifies submission routes for notifications required under paragraphs 22(1)(b) and (c), including submission to the Director General and a specified route through an institutional biosafety committee."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-005",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-REG2010",
+      "limitations": [
+        "The exact activity categories depend on section 22(1)(a) to (c) of the Act and cannot be generalized without that context.",
+        "The 2019 schedule amendment remains recorded and requires reconciliation."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-005",
+        "claim_type": "notification",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "SOP-03; PROP-01",
+        "page": "20\u201330",
+        "priority": "critical",
+        "section": "Reg. 16",
+        "text": "Specified activities require prior notification, with submission arrangements involving the Director General and, where applicable, the IBC.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Regulation 17(1) states that a person submitting a notification under Regulation 16(2) shall ensure that it is complete and does not contain an error or unauthorized alteration.",
+        "Regulation 17(2) describes refusal to process a nonconforming notification and requirements to amend or complete and resubmit it, or to submit a new notification.",
+        "Regulation 19 separately addresses rectification to a notification and may direct a fresh notification under Regulation 16."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-006",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-REG2010",
+      "limitations": [
+        "MATERIAL_SECTION_CONTENT_MISMATCH: the original claim cites Regulation 17 but combines Regulation 17 completeness/resubmission content with language that may be confused with Regulation 19 rectification.",
+        "The original word amendment should be checked against the source terms amend, complete, resubmit, and rectification rather than normalized into one concept.",
+        "The 2019 schedule amendment remains recorded and requires reconciliation."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-006",
+        "claim_type": "notification_quality",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "PROP-01",
+        "page": "20\u201330",
+        "priority": "major",
+        "section": "Reg. 17",
+        "text": "Notifications are expected to be complete and without errors; the Director General may require amendment, completion or resubmission.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The base Regulations state that specified techniques and contained-use activities in relation to LMOs in the First Schedule are outside specified application or notification provisions.",
+        "The base First Schedule contains criteria and listed contained-use activities, including an activity involving a host/vector system named in the Host/Vector Systems Not Regulated For Contained Use subject to donor nucleic acid criteria."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-007",
+      "controlled_document_id": "KB-MY-REG2010",
+      "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-REG2010",
+      "limitations": [
+        "CURRENTNESS_BLOCKED: controlled source metadata records that a 2019 schedule amendment must be reconciled, but the amendment instrument text and number are not present in the controlled corpus.",
+        "No current exemption, non-applicability, or no-notification conclusion may be drawn from the base schedule alone.",
+        "A generic low-risk statement is not sufficient to establish that the exact schedule criteria are met."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-007",
+        "claim_type": "exemption",
+        "document_id": "KB-MY-REG2010",
+        "maps_to": "SOP-03; PROP-01",
+        "page": "Schedules",
+        "priority": "critical",
+        "section": "First Schedule",
+        "text": "The First Schedule contains contained-use exemptions with specified host/vector systems and criteria; exemption cannot be inferred merely from a generic 'low risk' statement.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "support_spans": []
+    },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
@@ -869,56 +1294,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The guidance lists assessing and monitoring facilities, procedures, practices, training and personnel expertise involved in LMO/rDNA research as an IBC responsibility.",
-        "The guidance lists assessing, setting and modifying containment levels for LMO/rDNA research as an IBC responsibility.",
-        "The guidance lists assessing whether a proposed field experiment's risk assessment, risk management and emergency response plan are sufficient as an IBC responsibility.",
-        "The guidance lists adopting and implementing an emergency response plan covering accidental spills and personnel contamination resulting from LMO/rDNA research as an IBC responsibility.",
-        "The guidance lists reviewing and reporting significant noncompliance problems and significant research-related accidents or illnesses to the head of the organization and NBB as an IBC responsibility.",
-        "The guidance lists ensuring that information in the relevant approval or notification application form is correct and complete as an IBC responsibility.",
-        "The guidance states that the IBC will inspect laboratories using checklists, with problems reported to the PI for remedial procedures and, if necessary, to a higher relevant authority in the organization."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-015",
       "controlled_document_id": "KB-MY-IBC",
       "controlled_source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
-      "exclusions": [
-        "Do not represent the IBC as Malaysia's regulator or treat institutional IBC review as regulator approval.",
-        "Do not use this guidance alone to determine project-specific containment, approval, compliance, exemption, notification, or permission to begin work.",
-        "Do not treat risk group, organism hazard, procedure-specific risk, and containment level as equivalent.",
-        "Do not infer that 2010 forms, routes, timeframes, agency names, or contact details apply unchanged to a current specific incident; verify current institutional and competent-authority procedures.",
-        "Do not infer project-specific facts or incident classifications that were not provided and reviewed.",
-        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
-      ],
-      "findings": [
-        "PDF page 9 provides a directly enumerated list of IBC responsibilities covering the historical claim's governance subjects.",
-        "PDF page 26 separately states the IBC laboratory-inspection and remedial-reporting process.",
-        "The historical compound claim was split into independently supported governance propositions."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-IBC",
-      "limitations": [
-        "The source describes institutional responsibilities in 2010 Tier 2 guidance; it does not establish that a current IBC has approved a project or assigned an appropriate containment level.",
-        "The guidance's institutional review, approval and rejection terminology must not be represented as a regulator determination.",
-        "Application-form completeness does not establish valid submission, acceptance, approval or compliance."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-015",
         "claim_type": "ibc",
@@ -930,140 +1332,43 @@
         "text": "IBC functions include assessment/monitoring of facilities, procedures, practices, training and expertise, containment-level assessment, form completeness, emergency response and reporting of significant incidents/noncompliance.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 9,
-          "pdf_page_start": 9,
-          "quoted_support": "Assess and monitor the facilities, procedures, practices, training and\n                               expertise of personnel involved in LMO/rDNA research.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 9,
-          "pdf_page_start": 9,
-          "quoted_support": "Assess and set containment levels for LMO/rDNA research and\n                               modify containment levels as necessary.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 9,
-          "pdf_page_start": 9,
-          "quoted_support": "Assess                            field                            experiments                            to                            ensure                            that                            the                            proposed                            risk\n                               assessment, risk management and emergency response plan are\n                               sufficient .",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 9,
-          "pdf_page_start": 9,
-          "quoted_support": "Adopt and implement emergency response plan covering accidental\n                               spills and personnel contamination, resulting from LMO/rDNA\n                               research.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 9,
-          "pdf_page_start": 9,
-          "quoted_support": "Review and report to the Head of the organisation and to the NBB\n                               any       significant       problems       with       non-compliance       of       the       Biosafety       Act\n                               2007         and         Biosafety         (Approval         and         Notification)         Regulations         2010\n                               and any significant research-related accidents or illnesses.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            6
-          ],
-          "pdf_page_end": 9,
-          "pdf_page_start": 9,
-          "quoted_support": "Ensure the information provided in the relevant application form\n                               (Approval/Notification) is correct and complete.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            7
-          ],
-          "pdf_page_end": 26,
-          "pdf_page_start": 26,
-          "quoted_support": "he IBC will inspect laboratories using checklists. Problems are to\n       be reported to the PI for remedial procedures and, if necessary,\nTto the higher relevant authority in the organisation. Inspection\nreports should be maintained on file in the IBC.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The guidance states that the PI is accountable to the IBC.",
-        "The guidance states that the PI is required to comply with appropriate research guidelines and applicable laws related to biosafety.",
-        "For the listed export, import, contained-use and field-experiment activities involving LMO/rDNA materials, the guidance states that the PI shall comply with relevant requirements of the Biosafety Act 2007, the 2010 Regulations and related regulations."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-016",
       "controlled_document_id": "KB-MY-IBC",
       "controlled_source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
-      "exclusions": [
-        "Do not represent the IBC as Malaysia's regulator or treat institutional IBC review as regulator approval.",
-        "Do not use this guidance alone to determine project-specific containment, approval, compliance, exemption, notification, or permission to begin work.",
-        "Do not treat risk group, organism hazard, procedure-specific risk, and containment level as equivalent.",
-        "Do not infer that 2010 forms, routes, timeframes, agency names, or contact details apply unchanged to a current specific incident; verify current institutional and competent-authority procedures.",
-        "Do not infer project-specific facts or incident classifications that were not provided and reviewed.",
-        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
-      ],
-      "findings": [
-        "PDF page 16 directly states PI accountability to the IBC and the associated general compliance duty.",
-        "PDF page 18 supplies bounded activity-specific wording for the referenced legislation and regulations.",
-        "The two concepts in the historical claim were retained as independently supported propositions, with the activity-specific statement separated from the general duty."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-IBC",
-      "limitations": [
-        "The source does not determine which requirements apply to a particular user's activity.",
-        "The source does not establish compliance, noncompliance, approval, exemption, notification status or permission to begin.",
-        "The primary-law propositions referenced by the guidance were not independently verified by this Tier 2 guidance review."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-016",
         "claim_type": "pi_accountability",
@@ -1075,47 +1380,66 @@
         "text": "The PI is accountable to the IBC and must comply with applicable biosafety laws and guidelines.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            2
-          ],
-          "pdf_page_end": 16,
-          "pdf_page_start": 16,
-          "quoted_support": "The PI is accountable to the IBC and is required to comply with the\nappropriate research guidelines and all applicable laws related to\nbiosafety.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 18,
-          "pdf_page_start": 18,
-          "quoted_support": "The      PI      involved      in      export ,      import ,      contained      use      and      field      experiment\nof LMO/rDNA materials shall comply with relevant requirements of the\nBiosafety       Act       2007,       Biosafety       (Approval       and       Notification)       Regulations\n2010 and other related regulations.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-017",
+      "controlled_document_id": "KB-MY-IBC",
+      "controlled_source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-MY-IBC",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-017",
+        "claim_type": "incident",
+        "document_id": "KB-MY-IBC",
+        "maps_to": "SOP-03; PROP-03",
+        "page": "incident-reporting section",
+        "priority": "major",
+        "section": "incident reporting",
+        "text": "The IBC guidance specifies incident-reporting routes and timeframes for relevant incidents/occupational exposures; BioSafe should direct users to the applicable institutional/IBC process rather than invent a response.",
+        "verification_status": "Verified"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
       "atomic_propositions": [
-        "The guidance states that a laboratory research incident in the organization is to be reported by the PI or laboratory personnel to the IBC through the BSO using the incident reporting form within 24 hours.",
-        "For occupational exposure to LMO/rDNA materials, the guidance gives an internal route using the occupational disease/exposure investigation form within 24 hours to OHSC, the head of the organization and the IBC.",
-        "The guidance states that the PI is responsible for submitting the incident reporting form to NBB within 48 hours of the incident after BSO review.",
-        "The guidance states that the occupational disease/exposure investigation form should be submitted to NBB within 24 hours of the incident.",
-        "The annex incident form states that non-injury incidents should be submitted to the IBC within 24 hours and to NBB within 48 hours.",
-        "The annex occupational disease/exposure form states that occupational exposures to LMO/rDNA materials should be submitted to OHSC, IBC and NBB within 24 hours of the accident."
+        "Form E researcher-facing information includes applicant and responsible scientists/personnel qualifications and experience."
       ],
       "attestations": {
         "controlled_source_compared": true,
@@ -1131,108 +1455,166 @@
         "exact_support_adequate": "PASS",
         "limitations_and_exclusions_checked": "PASS"
       },
-      "claim_id": "CLM-017",
-      "controlled_document_id": "KB-MY-IBC",
-      "controlled_source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
+      "claim_id": "CLM-018",
+      "controlled_document_id": "KB-MY-FORME",
+      "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
+      "disposition": "INSUFFICIENT_EVIDENCE",
+      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
       "exclusions": [
-        "Do not represent the IBC as Malaysia's regulator or treat institutional IBC review as regulator approval.",
-        "Do not use this guidance alone to determine project-specific containment, approval, compliance, exemption, notification, or permission to begin work.",
-        "Do not treat risk group, organism hazard, procedure-specific risk, and containment level as equivalent.",
-        "Do not infer that 2010 forms, routes, timeframes, agency names, or contact details apply unchanged to a current specific incident; verify current institutional and competent-authority procedures.",
-        "Do not infer project-specific facts or incident classifications that were not provided and reviewed.",
-        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
+        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
+        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
+        "Do not infer project-specific facts that were not provided and reviewed."
       ],
       "findings": [
-        "PDF page 14 directly states distinct internal and external routes and timeframes for incidents and occupational exposures.",
-        "PDF pages 33 and 36 corroborate the reporting routes and timeframes in the respective annex forms.",
-        "The historical BioSafe product-policy clause was not retained as source evidence and is instead reflected in limitations and exclusions."
+        "Page 202 contains only a page header and appendix label (NBB/N/CU/10/FORM E, NBB REF NO, APPENDIX 5).",
+        "No applicant qualifications, responsible scientist fields, or personnel experience content was found on this page."
       ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
       "jurisdiction": "Malaysia",
-      "legacy_document_id": "KB-MY-IBC",
+      "legacy_document_id": "KB-MY-FORME",
       "limitations": [
-        "The guidance's 2010 routes, timeframes, forms, agency names, and contact details must be verified against current institutional and competent-authority procedures before operational use.",
-        "The source does not determine whether a specific occurrence meets an incident or occupational-exposure definition.",
-        "These reporting statements do not replace immediate emergency response, medical evaluation, or institutional escalation.",
-        "BioSafe should direct users to the current applicable institutional and competent-authority process rather than inventing an incident-specific response."
+        "Page 202 is a page header only and does not contain applicant or personnel qualification content.",
+        "This review assessed only the nominated candidate page; other pages of Form E may contain relevant content."
       ],
       "original_claim": {
-        "claim_id": "CLM-017",
-        "claim_type": "incident",
-        "document_id": "KB-MY-IBC",
-        "maps_to": "SOP-03; PROP-03",
-        "page": "incident-reporting section",
+        "claim_id": "CLM-018",
+        "claim_type": "forme",
+        "document_id": "KB-MY-FORME",
+        "maps_to": "PROP-01",
+        "page": "Form E p.202 area",
         "priority": "major",
-        "section": "incident reporting",
-        "text": "The IBC guidance specifies incident-reporting routes and timeframes for relevant incidents/occupational exposures; BioSafe should direct users to the applicable institutional/IBC process rather than invent a response.",
+        "section": "A1",
+        "text": "Form E researcher-facing information includes applicant and responsible scientists/personnel qualifications and experience.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
+      "review_date": "2026-09-10",
       "review_status": "CLAIM_REVIEW_COMPLETE",
       "reviewer_identity": "BioSafe project owner",
       "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 14,
-          "pdf_page_start": 14,
-          "quoted_support": "It is necessary that any laboratory research incident in the organisation\nbe reported by the PI/laboratory personnel to the IBC through the BSO\nusing the Incident Reporting Form (IBC/IR/10/ANNEX3)                                                    within 24\nhours.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 14,
-          "pdf_page_start": 14,
-          "quoted_support": "If there is any occupational exposure to LMO/rDNA materials, the PI/\nlaboratory personnel will use the Occupational Disease/Exposure\nInvestigation Form (IBC/OD/10/ANNEX4)                                                  to make a formal report\nwithin 24 hours to OHSC, Head of the organisation and IBC.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3,
-            4
-          ],
-          "pdf_page_end": 14,
-          "pdf_page_start": 14,
-          "quoted_support": "PI is responsible for reporting any incident by submitting the Incident\nReporting Form (IBC/IR/10/ANNEX3) to NBB within 48 hours\nfrom the incident. This form should be reviewed by BSO before\nsubmission. If there is any occupational exposure to LMO/rDNA\nmaterials, the Occupational Disease/Exposure Investigation Form (IBC/\nOD/10ANNEX4) should be submitted to NBB within 24 hours from the\nincident .",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 33,
-          "pdf_page_start": 33,
-          "quoted_support": "This form is to be used by the BSO to report all incidents which did not result in injury.\nPlease complete and submit to the IBC within 24 hours and to the NBB within 48\nhours of the incident.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            6
-          ],
-          "pdf_page_end": 36,
-          "pdf_page_start": 36,
-          "quoted_support": "This form is to be used to report all occupational exposure to LMO/rDNA materials and to\ndocument the investigation by the BSO. Please complete and submit to the OHSC, IBC\nand NBB within 24 hours of the accident.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
-          "support_type": "DIRECT"
-        }
-      ]
+      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Form E requires that the applicant provide the name and business address of the applicant, and the name, address and contact details of the responsible scientist."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 2",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-019",
+      "controlled_document_id": "KB-MY-FORME",
+      "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
+      "disposition": "INSUFFICIENT_EVIDENCE",
+      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
+        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
+        "Do not infer project-specific facts that were not provided and reviewed."
+      ],
+      "findings": [
+        "Page 202 contains only a page header and appendix label.",
+        "No applicant name, business address, or responsible scientist contact detail fields were found on this page."
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-FORME",
+      "limitations": [
+        "Page 202 is a page header only and does not contain applicant or responsible scientist fields.",
+        "This review assessed only the nominated candidate page; other pages of Form E may contain relevant content."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-019",
+        "claim_type": "forme",
+        "document_id": "KB-MY-FORME",
+        "maps_to": "PROP-01",
+        "page": "Form E p.202 area",
+        "priority": "critical",
+        "section": "A2",
+        "text": "Form E project information includes title, biosafety level, rationale, objectives, schedule/dates and other project particulars specified by the form.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "Form E requires LMO description including donor/parent organism, vector or method, trait/modified trait, gene identity/function and target information."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 2",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-020",
+      "controlled_document_id": "KB-MY-FORME",
+      "controlled_source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
+      "disposition": "INSUFFICIENT_EVIDENCE",
+      "evidence_role": "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent Form E as an approval, permit, authorization, certificate, submission, or regulatory determination.",
+        "Do not use this claim to determine legal applicability, compliance, non-compliance, or whether work may begin.",
+        "Do not infer project-specific facts that were not provided and reviewed."
+      ],
+      "findings": [
+        "Candidate pages 210-215 were reviewed for LMO description fields (donor/parent organism, vector or method, trait/modified trait, gene identity/function).",
+        "Page 212 contains a trait/modified trait classification table (Box 1) but no donor/parent organism, vector, or gene identity/function fields.",
+        "The specific LMO description fields claimed were not found in the available candidate text."
+      ],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-FORME",
+      "limitations": [
+        "This review assessed only the available candidate pages; other pages of Form E may contain relevant content.",
+        "The trait classification table on page 212 does not constitute the full LMO description claimed."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-020",
+        "claim_type": "forme",
+        "document_id": "KB-MY-FORME",
+        "maps_to": "PROP-01",
+        "page": "Form E p.202 area",
+        "priority": "critical",
+        "section": "A3",
+        "text": "LMO description requires donor/parent organism, vector or method, trait/modified trait, gene identity/function and target information as applicable.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "support_spans": []
     },
     {
       "allowed_actions": [],
@@ -1960,13 +2342,859 @@
           "support_type": "DIRECT"
         }
       ]
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The controlled First Schedule text lists SW 404 as pathogenic wastes, clinical wastes or quarantined materials."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-029",
+      "controlled_document_id": "KB-MY-SW2005",
+      "controlled_source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "currentness_status": "OFFICIAL_SOURCE_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED"
+      ],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-DOE2005",
+      "limitations": [
+        "The controlled source states that it contains amendment P.U. (A) 158/2007, but amendment relationships and possible later amendments remain to be reconciled.",
+        "Classification of a particular material as SW 404 requires case-specific facts; biological material or biological waste is not automatically SW 404."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-029",
+        "claim_type": "waste",
+        "document_id": "KB-MY-DOE2005",
+        "maps_to": "SOP-02; PROP-02; PROP-03",
+        "page": "scheduled-waste list",
+        "priority": "critical",
+        "section": "SW 404",
+        "text": "SW 404 covers pathogenic wastes, clinical wastes or quarantined materials within the scheduled-waste framework.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The Regulations define scheduled waste by reference to waste categories listed in the First Schedule.",
+        "Regulation 4 addresses disposal of scheduled waste.",
+        "Regulation 5 addresses treatment of scheduled waste.",
+        "Regulation 8 addresses responsibilities of a waste generator."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 1",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-030",
+      "controlled_document_id": "KB-MY-SW2005",
+      "controlled_source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "currentness_status": "OFFICIAL_SOURCE_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "disposition": "CURRENTNESS_UNRESOLVED",
+      "evidence_role": "BASE_INSTRUMENT_REVIEW_CURRENTNESS_UNRESOLVED",
+      "exclusions": [
+        "Do not treat this record as proof that the cited provision is current law.",
+        "Do not use this record to determine legal applicability, compliance, non-compliance, approval, notification, exemption, classification, or a prescribed pathway.",
+        "Do not curate or activate this claim while currentness remains unresolved."
+      ],
+      "findings": [
+        "The controlled base-instrument evidence and recorded currentness/supersession metadata were reviewed. The claim is dispositioned CURRENTNESS_UNRESOLVED and is not approved for the curated candidate claim set.",
+        "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED"
+      ],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": "Malaysia",
+      "legacy_document_id": "KB-MY-DOE2005",
+      "limitations": [
+        "COMPOSITE_SOURCE_AND_PROJECT_POLICY: the original claim combines regulatory subject matter with a BioSafe recommendation to identify the applicable waste stream and verify the prescribed pathway.",
+        "Any BioSafe behavior should be represented separately as project policy and not attributed verbatim to the Regulations.",
+        "The exact applicable pathway depends on the classified waste and case facts; generic institutional disposal is not enough to establish a prescribed pathway.",
+        "Amendment relationships and possible later amendments remain to be reconciled."
+      ],
+      "original_claim": {
+        "claim_id": "CLM-030",
+        "claim_type": "waste",
+        "document_id": "KB-MY-DOE2005",
+        "maps_to": "SOP-02; PROP-01; PROP-02; PROP-03",
+        "page": "regulatory framework",
+        "priority": "critical",
+        "section": "waste management",
+        "text": "Scheduled-waste management includes generator, treatment and disposal obligations; BioSafe should identify the applicable waste stream and verify the prescribed pathway rather than accept generic 'institutional disposal'.",
+        "verification_status": "Verified"
+      },
+      "review_date": "2026-09-10",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED",
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-031",
+      "controlled_document_id": "KB-WHO-LBM4",
+      "controlled_source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-LBM4",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-031",
+        "claim_type": "risk_assessment",
+        "document_id": "KB-WHO-LBM4",
+        "maps_to": "All risk-assessment cases",
+        "page": "Section 2 / core",
+        "priority": "major",
+        "section": "core risk approach",
+        "text": "WHO LBM4 uses an evidence- and risk-based approach in which safety measures are balanced against the actual risk of the activity on a case-by-case basis.",
+        "verification_status": "Verified"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-032",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-032",
+        "claim_type": "uncertainty",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "PROP-01; PROP-03; SOP-01",
+        "page": "Section 2.2",
+        "priority": "critical",
+        "section": "information gathering",
+        "text": "Risk assessment requires information on biological hazards, procedures, equipment, facility and human competency; knowledge gaps negatively affect evaluation and control selection.",
+        "verification_status": "Verified"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-033",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-033",
+        "claim_type": "risk_assessment",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "SOP-01; PROP-01; PROP-03",
+        "page": "Section 2.2",
+        "priority": "critical",
+        "section": "risk evaluation",
+        "text": "Risk evaluation considers how exposure/release could occur, likelihood, consequences and whether risks can be controlled to an acceptable level.",
+        "verification_status": "Verified"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-034",
+      "controlled_document_id": "KB-WHO-BIOSEC",
+      "controlled_source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-BIOSEC",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-034",
+        "claim_type": "biosecurity",
+        "document_id": "KB-WHO-BIOSEC",
+        "maps_to": "SOP-03; biosecurity cases",
+        "page": "overview",
+        "priority": "major",
+        "section": "2024 guidance",
+        "text": "WHO's 2024 laboratory biosecurity guidance applies a risk- and evidence-based approach to biosecurity, including governance, secure handling, transport/storage and high-consequence research risk management.",
+        "verification_status": "Verified"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-035",
+      "controlled_document_id": "KB-WHO-LBM4",
+      "controlled_source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-LBM4",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-035",
+        "claim_type": "waste",
+        "document_id": "KB-WHO-LBM4",
+        "maps_to": "SOP-02; PROP-01; PROP-03",
+        "page": "LBM4 monographs",
+        "priority": "major",
+        "section": "decontamination/waste",
+        "text": "WHO LBM4 includes dedicated guidance on decontamination and waste management; BioSafe should use it as authoritative international corroboration where Malaysian requirements do not fully specify technical practice.",
+        "verification_status": "Verified"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-036",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-036",
+        "claim_type": "risk_assessment_purpose",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "BS-001; BS-004; general biosafety risk-assessment cases",
+        "page": "Section 1",
+        "priority": "critical",
+        "section": "Section 1 \u2013 Introduction",
+        "text": "WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE.",
+        "verification_status": "Verified against WHO Risk Assessment monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-037",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-037",
+        "claim_type": "hazard_definition",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "BS-003; general biosafety concepts",
+        "page": "Section 1",
+        "priority": "critical",
+        "section": "Section 1 \u2013 Introduction",
+        "text": "In laboratory biosafety, WHO describes a biological hazard as a biological agent whose pathogenic characteristics give it the potential to cause harm to people, animals and/or the environment.",
+        "verification_status": "Verified against WHO Risk Assessment monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-038",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-038",
+        "claim_type": "risk_definition",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "BS-001; BS-003; general biosafety concepts",
+        "page": "Section 1",
+        "priority": "critical",
+        "section": "Section 1 \u2013 Introduction",
+        "text": "WHO defines biological risk in context as the combination of the likelihood that an exposure to or release of a biological hazard occurs during laboratory work and the severity of the consequences if that incident occurs.",
+        "verification_status": "Verified against WHO Risk Assessment monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-039",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-039",
+        "claim_type": "risk_factors",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "BS-002; general biosafety risk-assessment cases",
+        "page": "Section 1",
+        "priority": "critical",
+        "section": "Section 1 \u2013 Introduction",
+        "text": "WHO notes that laboratory biological risk depends on dynamic factors including the procedures performed, equipment available, pathogenic properties of the biological agent, host range, population susceptibility and the competency of laboratory personnel.",
+        "verification_status": "Verified against WHO Risk Assessment monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-040",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-040",
+        "claim_type": "risk_control_selection",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "BS-004; general biosafety risk-management cases",
+        "page": "Risk assessment template / Step 4",
+        "priority": "critical",
+        "section": "Step 4 \u2013 Select and implement risk control measures",
+        "text": "WHO risk assessment requires risk control measures to be selected for the specific activity and then considers residual risk and whether the selected measures are available, effective and sustainable.",
+        "verification_status": "Verified against WHO Risk Assessment monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-041",
+      "controlled_document_id": "KB-WHO-LBM4",
+      "controlled_source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-LBM4",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-041",
+        "claim_type": "activity_specific_controls",
+        "document_id": "KB-WHO-LBM4",
+        "maps_to": "BS-001; BS-004; BS-005",
+        "page": "Core document overview / risk assessment framework",
+        "priority": "critical",
+        "section": "Core evidence- and risk-based approach",
+        "text": "WHO LBM4 uses an evidence- and risk-based approach so that safety measures are balanced against the actual risk of work with biological agents on a case-by-case basis; a proper risk assessment should be performed before activities and should inform risk control measures.",
+        "verification_status": "Verified against WHO LBM4 core document"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-042",
+      "controlled_document_id": "KB-WHO-LBM4-PPE",
+      "controlled_source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-PPE",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-042",
+        "claim_type": "ppe_role",
+        "document_id": "KB-WHO-PPE",
+        "maps_to": "BS-004; BS-005",
+        "page": "Section 3",
+        "priority": "critical",
+        "section": "Section 3 \u2013 PPE for core requirements",
+        "text": "WHO places PPE within broader laboratory biosafety core requirements rather than treating PPE as a complete safety determination. Core requirements include good microbiological practice and procedure, with PPE such as laboratory coats, footwear, gloves and eye protection used as applicable.",
+        "verification_status": "Verified against WHO PPE monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-043",
+      "controlled_document_id": "KB-WHO-LBM4-PPE",
+      "controlled_source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-PPE",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-043",
+        "claim_type": "ppe_risk_based_selection",
+        "document_id": "KB-WHO-PPE",
+        "maps_to": "BS-004; BS-005",
+        "page": "Section 3",
+        "priority": "critical",
+        "section": "Section 3 \u2013 PPE for core requirements",
+        "text": "WHO indicates that some PPE needs are determined by risk assessment; for example, respiratory protection for biological agents is not a general core requirement and becomes a heightened control measure when the risk assessment indicates it is needed.",
+        "verification_status": "Verified against WHO PPE monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-044",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-044",
+        "claim_type": "layered_controls",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "BS-004; BS-005",
+        "page": "Section 1",
+        "priority": "critical",
+        "section": "Section 1 / risk assessment framework",
+        "text": "WHO's risk-based framework does not use PPE alone to establish that an activity is safe: risk assessment determines the control measures needed for the activity, and control selection can include training, PPE, equipment and other containment measures appropriate to the identified risk.",
+        "verification_status": "Verified synthesis of WHO Risk Assessment monograph statements; no new operational procedure added"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [],
+      "attestations": {
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
+      },
+      "authority_tier": null,
+      "check_results": {
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
+      },
+      "claim_id": "CLM-045",
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
+      "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
+      "jurisdiction": null,
+      "legacy_document_id": "KB-WHO-RA",
+      "limitations": [],
+      "original_claim": {
+        "claim_id": "CLM-045",
+        "claim_type": "risk_assessment_scope",
+        "document_id": "KB-WHO-RA",
+        "maps_to": "BS-001; BS-002; general biosafety risk-assessment cases",
+        "page": "Sections 1\u20132",
+        "priority": "critical",
+        "section": "Risk assessment framework",
+        "text": "A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences.",
+        "verification_status": "Verified synthesis of WHO Risk Assessment monograph"
+      },
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     }
   ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
   "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "reconciliation_map_version": "BioSafe_Claim_Reconciliation_Map_v0.1",
   "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
   "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
   "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",
   "source_fallback_review_packet_sha256": "0747d1795a08eacda0d06fc0698ad2992758e99b331b62947e24c80f8052cfb5",
-  "source_knowledge_base_sha256": "3d68f8154f6952a33395b253925ee44c2842a046c3c11d55f8c12ee9eb386bb4",
-  "source_reconciliation_packet_version": "BioSafe_Claim_Reconciliation_Packet_v0.1"
+  "source_knowledge_base_sha256": "3d68f8154f6952a33395b253925ee44c2842a046c3c11d55f8c12ee9eb386bb4"
 }

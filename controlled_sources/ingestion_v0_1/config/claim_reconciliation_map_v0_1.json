@@ -1294,33 +1294,56 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [],
+      "atomic_propositions": [
+        "The guidance lists assessing and monitoring facilities, procedures, practices, training and personnel expertise involved in LMO/rDNA research as an IBC responsibility.",
+        "The guidance lists assessing, setting and modifying containment levels for LMO/rDNA research as an IBC responsibility.",
+        "The guidance lists assessing whether a proposed field experiment's risk assessment, risk management and emergency response plan are sufficient as an IBC responsibility.",
+        "The guidance lists adopting and implementing an emergency response plan covering accidental spills and personnel contamination resulting from LMO/rDNA research as an IBC responsibility.",
+        "The guidance lists reviewing and reporting significant noncompliance problems and significant research-related accidents or illnesses to the head of the organization and NBB as an IBC responsibility.",
+        "The guidance lists ensuring that information in the relevant approval or notification application form is correct and complete as an IBC responsibility.",
+        "The guidance states that the IBC will inspect laboratories using checklists, with problems reported to the PI for remedial procedures and, if necessary, to a higher relevant authority in the organization."
+      ],
       "attestations": {
-        "controlled_source_compared": false,
-        "historical_verification_not_relied_on": false,
-        "not_live_activation_acknowledged": false
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
       },
-      "authority_tier": null,
+      "authority_tier": "Tier 2",
       "check_results": {
-        "allowed_actions_checked": null,
-        "atomicity_checked": null,
-        "authority_and_jurisdiction_checked": null,
-        "currentness_and_supersession_checked": null,
-        "exact_support_adequate": null,
-        "limitations_and_exclusions_checked": null
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
       },
       "claim_id": "CLM-015",
       "controlled_document_id": "KB-MY-IBC",
       "controlled_source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
-      "currentness_status": null,
-      "disposition": null,
-      "evidence_role": null,
-      "exclusions": [],
-      "findings": [],
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
+      "exclusions": [
+        "Do not represent the IBC as Malaysia's regulator or treat institutional IBC review as regulator approval.",
+        "Do not use this guidance alone to determine project-specific containment, approval, compliance, exemption, notification, or permission to begin work.",
+        "Do not treat risk group, organism hazard, procedure-specific risk, and containment level as equivalent.",
+        "Do not infer that 2010 forms, routes, timeframes, agency names, or contact details apply unchanged to a current specific incident; verify current institutional and competent-authority procedures.",
+        "Do not infer project-specific facts or incident classifications that were not provided and reviewed.",
+        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
+      ],
+      "findings": [
+        "PDF page 9 provides a directly enumerated list of IBC responsibilities covering the historical claim's governance subjects.",
+        "PDF page 26 separately states the IBC laboratory-inspection and remedial-reporting process.",
+        "The historical compound claim was split into independently supported governance propositions."
+      ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": null,
+      "jurisdiction": "Malaysia",
       "legacy_document_id": "KB-MY-IBC",
-      "limitations": [],
+      "limitations": [
+        "The source describes institutional responsibilities in 2010 Tier 2 guidance; it does not establish that a current IBC has approved a project or assigned an appropriate containment level.",
+        "The guidance's institutional review, approval and rejection terminology must not be represented as a regulator determination.",
+        "Application-form completeness does not establish valid submission, acceptance, approval or compliance."
+      ],
       "original_claim": {
         "claim_id": "CLM-015",
         "claim_type": "ibc",
@@ -1332,43 +1355,140 @@
         "text": "IBC functions include assessment/monitoring of facilities, procedures, practices, training and expertise, containment-level assessment, form completeness, emergency response and reporting of significant incidents/noncompliance.",
         "verification_status": "Verified"
       },
-      "review_date": null,
-      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-      "reviewer_identity": null,
-      "reviewer_role": null,
-      "supersession_status": null,
-      "support_spans": []
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Assess and monitor the facilities, procedures, practices, training and\n                               expertise of personnel involved in LMO/rDNA research.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Assess and set containment levels for LMO/rDNA research and\n                               modify containment levels as necessary.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Assess                            field                            experiments                            to                            ensure                            that                            the                            proposed                            risk\n                               assessment, risk management and emergency response plan are\n                               sufficient .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Adopt and implement emergency response plan covering accidental\n                               spills and personnel contamination, resulting from LMO/rDNA\n                               research.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Review and report to the Head of the organisation and to the NBB\n                               any       significant       problems       with       non-compliance       of       the       Biosafety       Act\n                               2007         and         Biosafety         (Approval         and         Notification)         Regulations         2010\n                               and any significant research-related accidents or illnesses.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            6
+          ],
+          "pdf_page_end": 9,
+          "pdf_page_start": 9,
+          "quoted_support": "Ensure the information provided in the relevant application form\n                               (Approval/Notification) is correct and complete.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            7
+          ],
+          "pdf_page_end": 26,
+          "pdf_page_start": 26,
+          "quoted_support": "he IBC will inspect laboratories using checklists. Problems are to\n       be reported to the PI for remedial procedures and, if necessary,\nTto the higher relevant authority in the organisation. Inspection\nreports should be maintained on file in the IBC.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+          "support_type": "DIRECT"
+        }
+      ]
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [],
+      "atomic_propositions": [
+        "The guidance states that the PI is accountable to the IBC.",
+        "The guidance states that the PI is required to comply with appropriate research guidelines and applicable laws related to biosafety.",
+        "For the listed export, import, contained-use and field-experiment activities involving LMO/rDNA materials, the guidance states that the PI shall comply with relevant requirements of the Biosafety Act 2007, the 2010 Regulations and related regulations."
+      ],
       "attestations": {
-        "controlled_source_compared": false,
-        "historical_verification_not_relied_on": false,
-        "not_live_activation_acknowledged": false
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
       },
-      "authority_tier": null,
+      "authority_tier": "Tier 2",
       "check_results": {
-        "allowed_actions_checked": null,
-        "atomicity_checked": null,
-        "authority_and_jurisdiction_checked": null,
-        "currentness_and_supersession_checked": null,
-        "exact_support_adequate": null,
-        "limitations_and_exclusions_checked": null
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
       },
       "claim_id": "CLM-016",
       "controlled_document_id": "KB-MY-IBC",
       "controlled_source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
-      "currentness_status": null,
-      "disposition": null,
-      "evidence_role": null,
-      "exclusions": [],
-      "findings": [],
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
+      "exclusions": [
+        "Do not represent the IBC as Malaysia's regulator or treat institutional IBC review as regulator approval.",
+        "Do not use this guidance alone to determine project-specific containment, approval, compliance, exemption, notification, or permission to begin work.",
+        "Do not treat risk group, organism hazard, procedure-specific risk, and containment level as equivalent.",
+        "Do not infer that 2010 forms, routes, timeframes, agency names, or contact details apply unchanged to a current specific incident; verify current institutional and competent-authority procedures.",
+        "Do not infer project-specific facts or incident classifications that were not provided and reviewed.",
+        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
+      ],
+      "findings": [
+        "PDF page 16 directly states PI accountability to the IBC and the associated general compliance duty.",
+        "PDF page 18 supplies bounded activity-specific wording for the referenced legislation and regulations.",
+        "The two concepts in the historical claim were retained as independently supported propositions, with the activity-specific statement separated from the general duty."
+      ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": null,
+      "jurisdiction": "Malaysia",
       "legacy_document_id": "KB-MY-IBC",
-      "limitations": [],
+      "limitations": [
+        "The source does not determine which requirements apply to a particular user's activity.",
+        "The source does not establish compliance, noncompliance, approval, exemption, notification status or permission to begin.",
+        "The primary-law propositions referenced by the guidance were not independently verified by this Tier 2 guidance review."
+      ],
       "original_claim": {
         "claim_id": "CLM-016",
         "claim_type": "pi_accountability",
@@ -1380,43 +1500,90 @@
         "text": "The PI is accountable to the IBC and must comply with applicable biosafety laws and guidelines.",
         "verification_status": "Verified"
       },
-      "review_date": null,
-      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-      "reviewer_identity": null,
-      "reviewer_role": null,
-      "supersession_status": null,
-      "support_spans": []
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 16,
+          "pdf_page_start": 16,
+          "quoted_support": "The PI is accountable to the IBC and is required to comply with the\nappropriate research guidelines and all applicable laws related to\nbiosafety.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 18,
+          "pdf_page_start": 18,
+          "quoted_support": "The      PI      involved      in      export ,      import ,      contained      use      and      field      experiment\nof LMO/rDNA materials shall comply with relevant requirements of the\nBiosafety       Act       2007,       Biosafety       (Approval       and       Notification)       Regulations\n2010 and other related regulations.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+          "support_type": "DIRECT"
+        }
+      ]
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [],
+      "atomic_propositions": [
+        "The guidance states that a laboratory research incident in the organization is to be reported by the PI or laboratory personnel to the IBC through the BSO using the incident reporting form within 24 hours.",
+        "For occupational exposure to LMO/rDNA materials, the guidance gives an internal route using the occupational disease/exposure investigation form within 24 hours to OHSC, the head of the organization and the IBC.",
+        "The guidance states that the PI is responsible for submitting the incident reporting form to NBB within 48 hours of the incident after BSO review.",
+        "The guidance states that the occupational disease/exposure investigation form should be submitted to NBB within 24 hours of the incident.",
+        "The annex incident form states that non-injury incidents should be submitted to the IBC within 24 hours and to NBB within 48 hours.",
+        "The annex occupational disease/exposure form states that occupational exposures to LMO/rDNA materials should be submitted to OHSC, IBC and NBB within 24 hours of the accident."
+      ],
       "attestations": {
-        "controlled_source_compared": false,
-        "historical_verification_not_relied_on": false,
-        "not_live_activation_acknowledged": false
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
       },
-      "authority_tier": null,
+      "authority_tier": "Tier 2",
       "check_results": {
-        "allowed_actions_checked": null,
-        "atomicity_checked": null,
-        "authority_and_jurisdiction_checked": null,
-        "currentness_and_supersession_checked": null,
-        "exact_support_adequate": null,
-        "limitations_and_exclusions_checked": null
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
       },
       "claim_id": "CLM-017",
       "controlled_document_id": "KB-MY-IBC",
       "controlled_source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
-      "currentness_status": null,
-      "disposition": null,
-      "evidence_role": null,
-      "exclusions": [],
-      "findings": [],
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE",
+      "exclusions": [
+        "Do not represent the IBC as Malaysia's regulator or treat institutional IBC review as regulator approval.",
+        "Do not use this guidance alone to determine project-specific containment, approval, compliance, exemption, notification, or permission to begin work.",
+        "Do not treat risk group, organism hazard, procedure-specific risk, and containment level as equivalent.",
+        "Do not infer that 2010 forms, routes, timeframes, agency names, or contact details apply unchanged to a current specific incident; verify current institutional and competent-authority procedures.",
+        "Do not infer project-specific facts or incident classifications that were not provided and reviewed.",
+        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
+      ],
+      "findings": [
+        "PDF page 14 directly states distinct internal and external routes and timeframes for incidents and occupational exposures.",
+        "PDF pages 33 and 36 corroborate the reporting routes and timeframes in the respective annex forms.",
+        "The historical BioSafe product-policy clause was not retained as source evidence and is instead reflected in limitations and exclusions."
+      ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": null,
+      "jurisdiction": "Malaysia",
       "legacy_document_id": "KB-MY-IBC",
-      "limitations": [],
+      "limitations": [
+        "The guidance's 2010 routes, timeframes, forms, agency names, and contact details must be verified against current institutional and competent-authority procedures before operational use.",
+        "The source does not determine whether a specific occurrence meets an incident or occupational-exposure definition.",
+        "These reporting statements do not replace immediate emergency response, medical evaluation, or institutional escalation.",
+        "BioSafe should direct users to the current applicable institutional and competent-authority process rather than inventing an incident-specific response."
+      ],
       "original_claim": {
         "claim_id": "CLM-017",
         "claim_type": "incident",
@@ -1428,12 +1595,69 @@
         "text": "The IBC guidance specifies incident-reporting routes and timeframes for relevant incidents/occupational exposures; BioSafe should direct users to the applicable institutional/IBC process rather than invent a response.",
         "verification_status": "Verified"
       },
-      "review_date": null,
-      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-      "reviewer_identity": null,
-      "reviewer_role": null,
-      "supersession_status": null,
-      "support_spans": []
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 14,
+          "pdf_page_start": 14,
+          "quoted_support": "It is necessary that any laboratory research incident in the organisation\nbe reported by the PI/laboratory personnel to the IBC through the BSO\nusing the Incident Reporting Form (IBC/IR/10/ANNEX3)                                                    within 24\nhours.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 14,
+          "pdf_page_start": 14,
+          "quoted_support": "If there is any occupational exposure to LMO/rDNA materials, the PI/\nlaboratory personnel will use the Occupational Disease/Exposure\nInvestigation Form (IBC/OD/10/ANNEX4)                                                  to make a formal report\nwithin 24 hours to OHSC, Head of the organisation and IBC.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3,
+            4
+          ],
+          "pdf_page_end": 14,
+          "pdf_page_start": 14,
+          "quoted_support": "PI is responsible for reporting any incident by submitting the Incident\nReporting Form (IBC/IR/10/ANNEX3) to NBB within 48 hours\nfrom the incident. This form should be reviewed by BSO before\nsubmission. If there is any occupational exposure to LMO/rDNA\nmaterials, the Occupational Disease/Exposure Investigation Form (IBC/\nOD/10ANNEX4) should be submitted to NBB within 24 hours from the\nincident .",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 33,
+          "pdf_page_start": 33,
+          "quoted_support": "This form is to be used by the BSO to report all incidents which did not result in injury.\nPlease complete and submit to the IBC within 24 hours and to the NBB within 48\nhours of the incident.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            6
+          ],
+          "pdf_page_end": 36,
+          "pdf_page_start": 36,
+          "quoted_support": "This form is to be used to report all occupational exposure to LMO/rDNA materials and to\ndocument the investigation by the BSO. Please complete and submit to the OHSC, IBC\nand NBB within 24 hours of the accident.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36",
+          "support_type": "DIRECT"
+        }
+      ]
     },
     {
       "allowed_actions": [],

@@ -129,10 +129,11 @@ class ClaimDecisionEntryTests(unittest.TestCase):
         self.assertEqual(changed["review_status"], "CLAIM_REVIEW_COMPLETE")
         self.assertEqual(unchanged, original)
         self.assertEqual(report["changed_claim_ids"], [SYNTHETIC_PENDING_CLAIM_ID])
-        self.assertEqual(report["total_completed_review_count"], 28)
-        self.assertEqual(report["total_pending_review_count"], 17)
+        self.assertEqual(report["total_completed_review_count"], 31)
+        self.assertEqual(report["total_pending_review_count"], 14)
         self.assertEqual(report["curated_claim_ids"], [
             "CLM-008", "CLM-009", "CLM-010", "CLM-011", "CLM-012", "CLM-013", "CLM-014",
+            "CLM-015", "CLM-016", "CLM-017",
             "CLM-021", "CLM-022", "CLM-023", "CLM-024", "CLM-025",
             "CLM-026", "CLM-027", "CLM-028", "CLM-032",
         ])
@@ -220,7 +221,7 @@ class ClaimDecisionEntryTests(unittest.TestCase):
             self.assertEqual(snapshot.read_bytes(), self.raw["map"])
             self.assertEqual(output.read_bytes(), canonical_json_bytes(expected_map))
             self.assertEqual(report.read_bytes(), canonical_json_bytes(expected_report))
-            self.assertIn("changed=1 completed=28 curated=16 dry_run=False", process.stdout)
+            self.assertIn("changed=1 completed=31 curated=19 dry_run=False", process.stdout)
 
     def test_public_cli_dry_run_writes_nothing(self):
         decisions = self.decision_packet()
