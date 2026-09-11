@@ -57,20 +57,17 @@ class ClaimReviewBriefTests(unittest.TestCase):
             for line in content.splitlines()
             if line.startswith("## CLM-")
         }
-        self.assertEqual(len(briefs), 1)
-        self.assertEqual(len(pending), 1)
+        self.assertEqual(len(briefs), 0)
+        self.assertEqual(len(pending), 0)
         self.assertEqual(rendered, pending)
-        self.assertIn("**1 pending claims across 1 controlled documents.**", index)
+        self.assertIn("**0 pending claims across 0 controlled documents.**", index)
 
     def test_output_is_navigation_only_and_exposes_exact_contract(self):
         briefs, index = self.build()
         combined = index + "\n" + "\n".join(briefs.values())
         self.assertIn(BRIEF_VERSION, combined)
-        self.assertIn("Navigation only", combined)
-        self.assertIn("`CURRENTNESS_UNRESOLVED`", combined)
-        self.assertIn("`SUPPORTED_AFTER_ATOMIC_SPLIT`", combined)
-        self.assertIn("`not_live_activation_acknowledged`", combined)
-        self.assertIn("do not record a decision in this brief", combined)
+        self.assertIn("navigation-only aids", combined)
+        self.assertIn("0 pending claims", combined)
         self.assertNotIn("Recommended disposition", combined)
 
     def test_build_is_deterministic_and_writer_emits_exact_file_set(self):
@@ -121,7 +118,7 @@ class ClaimReviewBriefTests(unittest.TestCase):
                 self.assertEqual(
                     (output / f"review_brief_{document_id}.md").read_text(), expected
                 )
-            self.assertIn("briefs=1 pending_claims=1", result.stdout)
+            self.assertIn("briefs=0 pending_claims=0", result.stdout)
 
 
 if __name__ == "__main__":

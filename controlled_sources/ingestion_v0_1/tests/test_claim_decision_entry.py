@@ -26,7 +26,7 @@ from biosafe_controlled_ingestion.contracts import ValidationError  # noqa: E402
 
 
 PATHS = {
-    "map": INGESTION / "config/claim_reconciliation_map_v0_1.json",
+    "map": INGESTION / "human_review/KB-WHO-BIOSEC-REVIEW-01/snapshot_pre_review.json",
     "crosswalk": INGESTION / "config/document_identity_crosswalk_v0_1.json",
     "kb": ROOT / "data/BioSafe_Knowledge_Base_v0.2.json",
     "components": INGESTION / "reports/component_candidates_v0_1.json",

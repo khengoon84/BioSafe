@@ -2963,33 +2963,55 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [],
+      "atomic_propositions": [
+        "The 2024 revision applies a risk- and evidence-based approach to laboratory biosecurity.",
+        "The guidance applies that approach to high-consequence research and other activities involving biosecurity-relevant material, technology, and/or information.",
+        "The guidance states that it provides tools and best practices at laboratory, institution, and national-regulatory levels, and at a horizontal level that includes sample collection, transport, processing, storage, and, if necessary, destruction.",
+        "The guidance describes a two-tier system involving institutional biosafety committees first and national regulatory bodies second for review and oversight of high-consequence research and work with high-consequence material."
+      ],
       "attestations": {
-        "controlled_source_compared": false,
-        "historical_verification_not_relied_on": false,
-        "not_live_activation_acknowledged": false
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
       },
-      "authority_tier": null,
+      "authority_tier": "Tier 3",
       "check_results": {
-        "allowed_actions_checked": null,
-        "atomicity_checked": null,
-        "authority_and_jurisdiction_checked": null,
-        "currentness_and_supersession_checked": null,
-        "exact_support_adequate": null,
-        "limitations_and_exclusions_checked": null
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
       },
       "claim_id": "CLM-034",
       "controlled_document_id": "KB-WHO-BIOSEC",
       "controlled_source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f",
-      "currentness_status": null,
-      "disposition": null,
-      "evidence_role": null,
-      "exclusions": [],
-      "findings": [],
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "WHO_INTERNATIONAL_LABORATORY_BIOSECURITY_TECHNICAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
+        "Do not infer that any specific material, information, technology, research, or activity is biosecurity-relevant or high-consequence.",
+        "Do not infer project-specific governance, oversight, access, inventory, handling, transport, storage, destruction, reporting, control, approval, compliance, or authorization requirements.",
+        "Do not represent the historical phrase \u201csecure handling\u201d as direct wording from these support passages; retain the source\u2019s narrower stated scope and examples.",
+        "Do not treat institutional committee review or oversight described in international guidance as Malaysian regulator approval.",
+        "Do not activate these propositions for live retrieval or claim use."
+      ],
+      "findings": [
+        "PDF page 21 directly supports application of a risk- and evidence-based approach to laboratory biosecurity and high-consequence research or other activities involving biosecurity-relevant material, technology, or information.",
+        "PDF page 23 directly supports the three vertical levels, horizontal lifecycle examples, systematic risk-control tools, and two-tier high-consequence review/oversight model.",
+        "The historical compound claim is split into four draft propositions.",
+        "The broad historical wording \u201cgovernance\u201d is narrowed to the source\u2019s stated levels, tools, committee function, and two-tier model; \u201csecure handling\u201d is not retained as attributed source wording."
+      ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": null,
+      "jurisdiction": "International",
       "legacy_document_id": "KB-WHO-BIOSEC",
-      "limitations": [],
+      "limitations": [
+        "This WHO publication is Tier 3 international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
+        "The passages describe the scope and general approach of the guidance; they do not identify project-specific biosecurity risks, high-consequence status, controls, governance arrangements, transport/storage requirements, or permission for an activity.",
+        "The source\u2019s references to national regulatory bodies do not establish the identity, position, requirement, or authority of any Malaysian regulator.",
+        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels."
+      ],
       "original_claim": {
         "claim_id": "CLM-034",
         "claim_type": "biosecurity",
@@ -3001,12 +3023,39 @@
         "text": "WHO's 2024 laboratory biosecurity guidance applies a risk- and evidence-based approach to biosecurity, including governance, secure handling, transport/storage and high-consequence research risk management.",
         "verification_status": "Verified"
       },
-      "review_date": null,
-      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-      "reviewer_identity": null,
-      "reviewer_role": null,
-      "supersession_status": null,
-      "support_spans": []
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "COMPLETE_2024_REVISION_OF_2006_FIRST_EDITION",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": "This edition of the\nLaborator  y biosecurit  y guidance is a complete revision of the 1s t edition published in 20 0 6. The\nmajor advancement s are the adjus tment to the LBM4 with applying the risk- and evidence -based\napproach also to laborator  y biosecurit  y, the emphasis of under s tanding laborator  y biosecurit  y\nand biosafet  y as a continuum, the inclusion of new development s in science and technolog  y\nand to addres s laborator  y biosecurit  y on all three levels: the laborator  y, the ins titution and the\nnational regulator   y body.\nLaborator  y biosecurit  y is inseparable from biosafet  y (Fig. 1.1), and both areas complement each\nother to ensure safe and secure laborator  y operations. The term biological risk management\ndescribes the continuum of biosafet  y and biosecurit  y at the ins titutional and national levels.\nIn 2020, the World Health Organization (WHO) published the four  th edition of the Laborator  y\nbiosafet  y  manual,  four  t h  edit ion  (2)               (LBM4) which promotes a r isk- and evidence  - base d approach\nto biosafet  y. The risk as ses sment framework in the laborator  y biosafet  y manual enables\nins t itut ions  to  de ve lop  an d  imple m e nt  lo c ally  re le v ant ,  e ff e c  t i ve  an d  sus t ainab le  (f un dab le  ove r\na longer period) risk control measures to manage biosafet  y risk s as sociated with working with\nbiological agent s. For the development of this laborator  y biosecurit  y guidance, the risk- and\nevidence -based approach is applied to high - consequence research and other ac tivities with\nbiosecurit  y-relevant material, technolog  y and/or information. The guidance addres ses risk s from\nthe point- of-view of laborator  y biosecurit  y at both the ins titutional and national level.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "pdf_page_end": 23,
+          "pdf_page_start": 23,
+          "quoted_support": "This guidance follows the principles of the risk- and evidence -based approach for biosafet  y\nint ro duce d  in  WHO\u2019s  Laborator  y  biosafet  y  manual,  four  t h  edit ion              for labor ator   y biose cur it  y (2)           .\nA biosecurit  y risk as ses sment template with an embedded high - consequence decision tree\nwas develope d to identif  y biose cur it  y r isk s , high -  conse quence research and high -  conse quence\nmaterial and implementing biosecurit  y risk control measures to addres s the identif ied\nbios e cur it  y  r isk s .\nThe document provides tools and guidance to manage laborator  y biosecurit  y risk s and outlines\nbes t prac tices at the three ver  tical levels: laborator  y, ins titution and national regulator  y levels.\nIt also outlines bes t prac tices at the horizontal level: for example, sample collec tion, transpor  t,\nproces sing , s torage and, if neces sar  y, des tr uc tion in places such as diagnos tic laboratories (f ixed\nor mobile), re s earch ins titutions , manuf ac turer s and phar maceutic al companie s , among other s .\nOne key to capacit  y and capabilit  y building of biological risk management is to es tablish and/or\ns treng then the ins titutional biosafet  y commit tees (IBC) func tion for review of high - consequence\nresearch and work with high - consequence material. To promote this aspec t, the guidance\ndescribes a t wo -tier s ys tem engaging both IBC s in the f ir s t ins tance and national regulator  y\nbodies in the second. To this end, the document describes in detail the roles and responsibilities\nof both par  ties, with IBC s providing over sight of high - consequence work within their ins titution,\nand then pas sing feedback to national regulator  y bodies who maintain inventor  y lis t s and\ns torage of res tric ted material.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-BIOSEC:BODY:PDF_PAGE_23",
+          "support_type": "DIRECT"
+        }
+      ]
     },
     {
       "allowed_actions": [],

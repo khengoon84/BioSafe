@@ -33,6 +33,7 @@ from biosafe_controlled_ingestion.legal_claim_review_draft import LEGAL_CLAIM_ID
 CROSSWALK = INGESTION / "config/document_identity_crosswalk_v0_1.json"
 REVIEW_MAP = INGESTION / "config/claim_reconciliation_map_v0_1.json"
 PRE_LEGAL_REVIEW_MAP = INGESTION / "reports/claim_reconciliation_map_v0_1_pre_legal_review.json"
+PRE_FINAL_REVIEW_MAP = INGESTION / "human_review/KB-WHO-BIOSEC-REVIEW-01/snapshot_pre_review.json"
 KB = ROOT / "data/BioSafe_Knowledge_Base_v0.2.json"
 COMPONENTS = INGESTION / "reports/component_candidates_v0_1.json"
 FALLBACKS = INGESTION / "reports/semantic_fallbacks_v0_1.json"
@@ -51,10 +52,12 @@ WHO_RA_CLAIM_IDS = {
 }
 WHO_LBM4_CORE_CLAIM_IDS = {"CLM-031", "CLM-035", "CLM-041"}
 WHO_LBM4_PPE_CLAIM_IDS = {"CLM-042", "CLM-043"}
+WHO_BIOSEC_CLAIM_IDS = {"CLM-034"}
 COMPLETED_NONLEGAL_CLAIM_IDS = (
     FORM_E_CLAIM_IDS | CONTAINED_USE_CLAIM_IDS | GMMRA_CLAIM_IDS
     | TRANSPORT_CLAIM_IDS | IBC_CLAIM_IDS | WHO_RA_CLAIM_IDS | WHO_LBM4_CORE_CLAIM_IDS
     | WHO_LBM4_PPE_CLAIM_IDS
+    | WHO_BIOSEC_CLAIM_IDS
 )
 CURATED_CLAIM_IDS = {
     "CLM-008", "CLM-009", "CLM-010", "CLM-011",
@@ -63,7 +66,7 @@ CURATED_CLAIM_IDS = {
     "CLM-021", "CLM-022", "CLM-023", "CLM-024", "CLM-025",
     "CLM-026", "CLM-027", "CLM-028",
     "CLM-031",
-    "CLM-032", "CLM-033", "CLM-036", "CLM-037", "CLM-038",
+    "CLM-032", "CLM-033", "CLM-034", "CLM-036", "CLM-037", "CLM-038",
     "CLM-039", "CLM-040", "CLM-041", "CLM-042", "CLM-043", "CLM-044", "CLM-045",
 }
 
@@ -205,7 +208,7 @@ class ClaimReconciliationTests(unittest.TestCase):
             )
 
     def _complete_first_direct_claim(self):
-        changed = json.loads(json.dumps(self.review_map))
+        changed = json.loads(PRE_FINAL_REVIEW_MAP.read_text(encoding="utf-8"))
         review = next(
             item for item in changed["claim_reviews"]
             if item["review_status"] == CLAIM_REVIEW_REQUIRED
@@ -251,9 +254,9 @@ class ClaimReconciliationTests(unittest.TestCase):
         packet, curated = self.build(changed)
         self.assertEqual(
             packet["completed_review_count"],
-            len(LEGAL_CLAIM_IDS | COMPLETED_NONLEGAL_CLAIM_IDS) + 1,
+            len(LEGAL_CLAIM_IDS | COMPLETED_NONLEGAL_CLAIM_IDS),
         )
-        self.assertEqual(curated["curated_claim_count"], len(CURATED_CLAIM_IDS) + 1)
+        self.assertEqual(curated["curated_claim_count"], len(CURATED_CLAIM_IDS))
         self.assertIn(review["claim_id"], [c["claim_id"] for c in curated["curated_claims"]])
         self.assertEqual(curated["claim_use_status"], CLAIM_REVIEW_REQUIRED)
         self.assertEqual(curated["live_activation_status"], ACTIVATION_PROHIBITED)
@@ -293,11 +296,11 @@ class ClaimReconciliationTests(unittest.TestCase):
         packet, curated = self.build(changed)
         self.assertEqual(
             packet["completed_review_count"],
-            len(LEGAL_CLAIM_IDS | COMPLETED_NONLEGAL_CLAIM_IDS) + 1,
+            len(LEGAL_CLAIM_IDS | COMPLETED_NONLEGAL_CLAIM_IDS),
         )
         self.assertEqual(
             {item["claim_id"] for item in curated["curated_claims"]},
-            CURATED_CLAIM_IDS,
+            CURATED_CLAIM_IDS - {"CLM-034"},
         )
 
     def test_supported_disposition_requires_exact_support(self):

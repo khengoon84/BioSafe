@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import subprocess
 import sys
@@ -22,9 +23,10 @@ from biosafe_controlled_ingestion.claim_decision_template import (  # noqa: E402
     initialize_decision_template,
 )
 from biosafe_controlled_ingestion.contracts import ValidationError  # noqa: E402
+from biosafe_controlled_ingestion.components import CLAIM_REVIEW_REQUIRED  # noqa: E402
 
 
-MAP = INGESTION / "config/claim_reconciliation_map_v0_1.json"
+MAP = INGESTION / "human_review/KB-WHO-BIOSEC-REVIEW-01/snapshot_pre_review.json"
 AID = INGESTION / "reports/claim_reconciliation_review_aid_v0_1.json"
 CLAIM_IDS = ["CLM-018", "CLM-019", "CLM-024", "CLM-025"]
 
@@ -36,6 +38,16 @@ class ClaimDecisionTemplateTests(unittest.TestCase):
         cls.aid_bytes = AID.read_bytes()
         cls.review_map = json.loads(cls.map_bytes)
         cls.aid = json.loads(cls.aid_bytes)
+        cls.aid["source_claim_reconciliation_map_sha256"] = hashlib.sha256(
+            cls.map_bytes
+        ).hexdigest()
+        cls.aid["completed_claim_review_count"] = 44
+        cls.aid["pending_claim_review_count"] = 1
+        next(
+            item for item in cls.aid["claim_review_items"]
+            if item["claim_id"] == "CLM-034"
+        )["claim_review_status"] = CLAIM_REVIEW_REQUIRED
+        cls.aid_bytes = (json.dumps(cls.aid, indent=2, sort_keys=True) + "\n").encode("utf-8")
 
     def build(self, claim_ids=None, map_bytes=None):
         return initialize_decision_template(
