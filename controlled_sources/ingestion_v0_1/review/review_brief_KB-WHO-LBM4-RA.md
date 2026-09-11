@@ -2,8 +2,8 @@
 
 Version: `BioSafe_Pending_Claim_Review_Briefs_v0.1`. **Navigation only; 9 pending claims.**
 
-Generated 2026-09-11 from `controlled_sources/ingestion_v0_1/reports/claim_reconciliation_review_aid_v0_1.json` (SHA-256 `55d98ff18750fec9a10dba7ffca8ae8d9617a5b1aced4094283165d323cccf0d`).
-Canonical map: `controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json` (SHA-256 `8e3da62d9eb1cb04ae351b00d39bd2028bf3d4774bbfc3601cdc90f920f0fa34`).
+Generated 2026-09-11 from `controlled_sources/ingestion_v0_1/reports/claim_reconciliation_review_aid_v0_1.json` (SHA-256 `2e125f56ded71072fe7da2d1a3a4e0137c6efdfe949a846f99b6e70dc3ebf28e`).
+Canonical map: `controlled_sources/ingestion_v0_1/config/claim_reconciliation_map_v0_1.json` (SHA-256 `b7d3a90148bf88838453c5af09758dd1999d43d1a63b8ff1be7b5227ecda7228`).
 
 Controlled source SHA-256: `2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198`.
 

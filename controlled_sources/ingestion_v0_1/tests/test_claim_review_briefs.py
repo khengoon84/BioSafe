@@ -57,10 +57,10 @@ class ClaimReviewBriefTests(unittest.TestCase):
             for line in content.splitlines()
             if line.startswith("## CLM-")
         }
-        self.assertEqual(len(briefs), 7)
-        self.assertEqual(len(pending), 24)
+        self.assertEqual(len(briefs), 6)
+        self.assertEqual(len(pending), 21)
         self.assertEqual(rendered, pending)
-        self.assertIn("**24 pending claims across 7 controlled documents.**", index)
+        self.assertIn("**21 pending claims across 6 controlled documents.**", index)
 
     def test_output_is_navigation_only_and_exposes_exact_contract(self):
         briefs, index = self.build()
@@ -121,7 +121,7 @@ class ClaimReviewBriefTests(unittest.TestCase):
                 self.assertEqual(
                     (output / f"review_brief_{document_id}.md").read_text(), expected
                 )
-            self.assertIn("briefs=7 pending_claims=24", result.stdout)
+            self.assertIn("briefs=6 pending_claims=21", result.stdout)
 
 
 if __name__ == "__main__":

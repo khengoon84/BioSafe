@@ -965,53 +965,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The guidance recommends assessing the risks that the intended GMM may pose to human health and the environment.",
-        "For human-health risk assessment, the guidance recommends identifying potential mechanisms of harm and considering potential severity, likelihood of occurrence, and uncertainty.",
-        "For environmental risk assessment, the guidance includes risks to plant health, animal health, and biological diversity and recommends considering potential severity and likelihood of occurrence.",
-        "The guidance recommends reviewing procedures and control measures and implementing additional controls where necessary to safeguard human health and the environment.",
-        "The recommended risk-assessment model includes assigning a GM-BSL containment class."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-012",
       "controlled_document_id": "KB-MY-GMMRA",
       "controlled_source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_GMM_RISK_ASSESSMENT_GUIDANCE",
-      "exclusions": [
-        "Do not treat risk group, organism hazard, procedure-specific risk, and biosafety or containment level as equivalent.",
-        "Do not use this guidance alone to determine the containment level, controls, regulatory pathway, or permission for a specific activity.",
-        "Do not represent this guidance or review as an approval, compliance determination, or authorization to begin work.",
-        "Do not infer project-specific facts that were not provided and reviewed.",
-        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
-      ],
-      "findings": [
-        "PDF page 21 labels the procedures as a recommended, non-prescriptive model for GMM risk assessment.",
-        "PDF page 21 directly addresses human-health and environmental endpoints, including plant health, animal health, biological diversity, severity, likelihood, uncertainty, controls, and GM-BSL assignment.",
-        "The historical compound claim was split so that each retained proposition has direct exact support."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-GMMRA",
-      "limitations": [
-        "The source describes a recommended model and expressly says it is not intended to be prescriptive.",
-        "The cited passages do not independently establish exposure or release facts for a particular activity.",
-        "GM-BSL assignment remains the outcome of activity-specific risk assessment and is not inferred from organism risk group alone."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-012",
         "claim_type": "risk_assessment",
@@ -1023,117 +1003,43 @@
         "text": "GMM risk assessment considers hazards, exposure/release, risk controls and BSL assignment, and addresses relevant human, animal, plant and environmental risks.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "The following procedures represent a\n                recommended model for risk assessments\n                of GMM, although it is not intended to be\n                prescriptive:\ni.                                 Overall nature of the intended GMM. Assessment of the risks it\n     may pose to human health and the environment .",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Risk assessment for human health.               Identification               of               potential\n     mechanisms by which the GMM might pose a hazard to human\n     health; Assessment of the potential severity, likelihood of occurrence\n     and considerations of uncertainty. Establishment of a BSL that is\n     sufficient to safeguard human health.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Risk assessment for the environment. Assessment of the risks\n     it may pose to the environment (includes plant, animal health and\n     biological               diversity),               consideration               of               the               potential               severity               and\n     likelihood of occurrence. Establishment of a BSL that is necessary to\n     protect the environment .",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Review of procedures and control measures. Implementation of\n     any additional control measures necessary to safeguard both human\n     health and the environment .",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "Assignment of Biosafety Levels (GM-BSL) of containment LMO",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The final risk assessment must contain enough background and detail for a reviewer with limited understanding of the precise work to comprehend the nature of any hazards without requiring further information.",
-        "Potential hazards should be acknowledged, and information should be based on established scientific knowledge wherever possible.",
-        "A lack of scientific evidence that a particular hazard is legitimate should not automatically be taken to mean that the hazard does not exist.",
-        "Uncertainty should be taken into consideration in the risk assessment."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-013",
       "controlled_document_id": "KB-MY-GMMRA",
       "controlled_source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_GMM_RISK_ASSESSMENT_GUIDANCE",
-      "exclusions": [
-        "Do not treat risk group, organism hazard, procedure-specific risk, and biosafety or containment level as equivalent.",
-        "Do not use this guidance alone to determine the containment level, controls, regulatory pathway, or permission for a specific activity.",
-        "Do not represent this guidance or review as an approval, compliance determination, or authorization to begin work.",
-        "Do not infer project-specific facts that were not provided and reviewed.",
-        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
-      ],
-      "findings": [
-        "PDF page 22 directly states the expected background and detail for reviewer comprehension.",
-        "PDF pages 22\u201323 directly address acknowledging potential hazards, use of established scientific knowledge, absence of evidence, and uncertainty.",
-        "The historical evaluative word \u201cdefensible\u201d was not retained because the source does not define or use it in the cited passage."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-GMMRA",
-      "limitations": [
-        "The guidance does not establish that background, detail, or uncertainty treatment alone makes a particular assessment legally sufficient or acceptable.",
-        "The amount and kind of evidence remain dependent on the activity, hazards, and available scientific knowledge."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-013",
         "claim_type": "uncertainty",
@@ -1145,109 +1051,43 @@
         "text": "A defensible risk assessment should contain enough background and detail for reviewers to understand hazards; potential hazards should be acknowledged and uncertainty considered.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 22,
-          "pdf_page_start": 22,
-          "quoted_support": "The final risk assessment must contain enough\n                 background and detail to ensure that a\n                 reviewer with a limited understanding of the\n                 precise nature of the work will not require\n                 fur ther infor mation to comprehend the nature\n                 of any hazards.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 22,
-          "pdf_page_start": 22,
-          "quoted_support": "All potential hazards should be acknowledged and information should\nbe               based               upon               established               scientific               knowledge               wherever               possible.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 22,
-          "pdf_page_start": 22,
-          "quoted_support": "The     lack      of     scientific     evidence     for     a      particular      hazard     being     legitimate",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3,
-            4
-          ],
-          "pdf_page_end": 23,
-          "pdf_page_start": 23,
-          "quoted_support": "should not be automatically taken to mean that it does not exist. Any\nuncertainty should be taken into consideration in the risk assessment .",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "Genetic-modification risk assessments should be reviewed regularly.",
-        "Genetic-modification risk assessments should be updated in light of new scientific knowledge.",
-        "Genetic-modification risk assessments should be updated when the nature of the activity changes, including a change in scale or new procedures or containment measures.",
-        "If a GMM is ultimately intended as a therapeutic product, its assessment will require updating as the product moves among basic laboratory research, upstream development, preclinical, and clinical phases."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-014",
       "controlled_document_id": "KB-MY-GMMRA",
       "controlled_source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
-      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_LMO_GMM_RISK_ASSESSMENT_GUIDANCE",
-      "exclusions": [
-        "Do not treat risk group, organism hazard, procedure-specific risk, and biosafety or containment level as equivalent.",
-        "Do not use this guidance alone to determine the containment level, controls, regulatory pathway, or permission for a specific activity.",
-        "Do not represent this guidance or review as an approval, compliance determination, or authorization to begin work.",
-        "Do not infer project-specific facts that were not provided and reviewed.",
-        "Do not treat statements in this Tier 2 guidance about legislation or regulatory requirements as independently verified legal propositions."
-      ],
-      "findings": [
-        "PDF page 23 explicitly calls for regular review and updating for new scientific knowledge or changes in the nature of the activity.",
-        "PDF page 23 identifies scale, new procedures, and containment measures as examples of relevant activity changes.",
-        "PDF page 23 supplies a bounded therapeutic-product example of updating across development phases.",
-        "The unsupported historical editorial phrase \u201cone-time unsupported conclusion\u201d was not retained as a source proposition."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-GMMRA",
-      "limitations": [
-        "The cited text does not prescribe a numeric review interval.",
-        "The therapeutic-product proposition is an example and must not be generalized to every GMM activity.",
-        "Review or updating does not itself constitute institutional or regulatory approval."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-014",
         "claim_type": "risk_review",
@@ -1259,37 +1099,12 @@
         "text": "Risk assessment should be reviewed and updated as appropriate rather than treated as a one-time unsupported conclusion.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            2,
-            3
-          ],
-          "pdf_page_end": 23,
-          "pdf_page_start": 23,
-          "quoted_support": "All genetic modification risk assessments\n               should be reviewed regularly and be updated\n               in the light of new scientific knowledge or\n               where there has been a change in the nature\n               of the activity (including a change in scale\n               or any new procedures and containment\n               measures).",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 23,
-          "pdf_page_start": 23,
-          "quoted_support": "For example, if the GMM is ultimately intended to be a therapeutic\nproduct then the assessment will require updating as the product moves\nbetween basic laboratory research, upstream development, preclinical\nand clinical phases.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],

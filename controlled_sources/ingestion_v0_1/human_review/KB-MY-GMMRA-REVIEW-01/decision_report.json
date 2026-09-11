@@ -1,0 +1,37 @@
+{
+  "applied_date": "2026-09-11",
+  "batch_id": "KB-MY-GMMRA-REVIEW-01",
+  "changed_claim_count": 3,
+  "changed_claim_ids": [
+    "CLM-012",
+    "CLM-013",
+    "CLM-014"
+  ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "curated_claim_ids": [
+    "CLM-008",
+    "CLM-009",
+    "CLM-010",
+    "CLM-011",
+    "CLM-012",
+    "CLM-013",
+    "CLM-014",
+    "CLM-021",
+    "CLM-022",
+    "CLM-023",
+    "CLM-024",
+    "CLM-025"
+  ],
+  "decision_report_version": "BioSafe_Claim_Review_Decision_Report_v0.1",
+  "disposition_counts": {
+    "SUPPORTED_AFTER_ATOMIC_SPLIT": 3
+  },
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "result_review_map_sha256": "b7d3a90148bf88838453c5af09758dd1999d43d1a63b8ff1be7b5227ecda7228",
+  "snapshot_sha256": "8e3da62d9eb1cb04ae351b00d39bd2028bf3d4774bbfc3601cdc90f920f0fa34",
+  "source_decision_packet_sha256": "3b53b1a5b05dfb73983228f9287ea9de637cd7fa62238d3a001582f1ce1bc7c4",
+  "source_review_map_sha256": "8e3da62d9eb1cb04ae351b00d39bd2028bf3d4774bbfc3601cdc90f920f0fa34",
+  "total_completed_review_count": 24,
+  "total_curated_claim_count": 12,
+  "total_pending_review_count": 21
+}
