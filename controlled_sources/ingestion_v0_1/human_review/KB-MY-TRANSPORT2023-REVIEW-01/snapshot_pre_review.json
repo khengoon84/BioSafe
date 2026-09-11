@@ -1986,54 +1986,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The guideline provides practical guidance to ensure safe and secure packaging and transportation of clinical specimens and infectious substances within the country and abroad.",
-        "To determine appropriate packaging for transport, specimens need to be classified according to the guide as in Appendix 1.",
-        "Basic triple packaging can be used to transport clinical specimens by all modes of transportation.",
-        "Additional requirements apply to transporting infectious specimens or substances classified under Category A or Category B to ensure safe containment in various modes of transport.",
-        "Specimens should be marked and labelled adequately to convey essential information, including content of package, nature of the hazard, and the packaging standards applied."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-026",
       "controlled_document_id": "KB-MY-TRANSPORT2023",
       "controlled_source_sha256": "5556604a5812a2f1a2b7a30600bf097c9d40d588e449b46ef643ff8aad727088",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_CLINICAL_SPECIMEN_TRANSPORT_GUIDELINE",
-      "exclusions": [
-        "Do not use this transport guideline to determine laboratory containment, biosafety levels, or clinical-waste classification or management.",
-        "Do not represent this guidance or review as an approval, compliance determination, export permission, or authorization to ship a specific material.",
-        "Do not treat statements in this Tier 2 technical guideline as Malaysian law or as an LMO regulatory determination.",
-        "Do not infer project-specific facts that were not provided and reviewed.",
-        "Do not treat a UN number, proper shipping name, or packing instruction mention as a determination that a specific shipment is classified, compliant, or approved."
-      ],
-      "findings": [
-        "PDF page 11 states the guideline's purpose and coverage for clinical specimens and infectious substances within the country and abroad.",
-        "PDF page 17 requires classification according to Appendix 1 before determining appropriate packaging and describes basic triple packaging and Category A/B additional requirements.",
-        "PDF page 32 opens the marking and labelling section and states what marking and labelling must convey.",
-        "The table of contents on PDF page 9 lists dedicated PACKAGING and MARKING & LABELLING sections."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-MOH2023",
-      "limitations": [
-        "The guideline is a transport packaging and documentation guideline, not a laboratory containment or waste-management guideline.",
-        "The classification described is a transport classification; it is not a risk group or biosafety-level determination.",
-        "Sender duties such as confirming export legality with national authorities are sender responsibilities and do not establish general export permission."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-026",
         "claim_type": "transport",
@@ -2045,120 +2024,43 @@
         "text": "The 2023 MOH guideline covers safe transport of clinical specimens and infectious substances, including classification and packaging/labelling/marking requirements.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 11,
-          "pdf_page_start": 11,
-          "quoted_support": "to ensure safe and   secure   packa                                                                       ging and transportation                         of\n          clinical specimens and infectious substances within the country and abroad.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 17,
-          "pdf_page_start": 17,
-          "quoted_support": "To determine appropriate packaging for transport, specimens need to be classified\naccording to the guide as in Appendix 1.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 17,
-          "pdf_page_start": 17,
-          "quoted_support": "Basic triple packaging can be used to transport clinical specimens by all modes                of\ntransportation.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 17,
-          "pdf_page_start": 17,
-          "quoted_support": "Additional requirement is required for transporting infectious specimens                 /                 substances\n(Classified under Category A, Category B). This is to ensure safe containment in various\nmodes of transport.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 32,
-          "pdf_page_start": 32,
-          "quoted_support": "Specimens should be marked and labelled adequately to provide essential\n                            information to convey to    all parties involved in transportation and handling\n                            of specimens.\n\n               7.1.2                              Information should include c                                                                                   ontent of package, nature of the hazar d and t he\n                            packaging standards applied.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The basic triple packaging system consists of three layers: a primary receptacle, a secondary receptacle to enclose and protect the primary receptacle, and a third outer layer of packaging.",
-        "An infectious substance can be classified into two transport categories; Category A covers substances that, when exposure occurs, could cause permanent disability, or life-threatening or fatal illness in otherwise healthy humans or animals.",
-        "Infectious substances are subclassified as Category B when they contain biological agents capable of causing infection in humans or animals but do not meet the Category A criteria.",
-        "The guideline assigns Packing Instruction P620 to Category A infectious substances and describes the packaging requirements P620 sets for Category A.",
-        "The guideline assigns Packing Instruction P650 to Category B infectious substances assigned to UN 3373 and describes P650 as a more detailed set of triple packaging requirements than the basic system."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-027",
       "controlled_document_id": "KB-MY-TRANSPORT2023",
       "controlled_source_sha256": "5556604a5812a2f1a2b7a30600bf097c9d40d588e449b46ef643ff8aad727088",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_CLINICAL_SPECIMEN_TRANSPORT_GUIDELINE",
-      "exclusions": [
-        "Do not use this transport guideline to determine laboratory containment, biosafety levels, or clinical-waste classification or management.",
-        "Do not represent this guidance or review as an approval, compliance determination, export permission, or authorization to ship a specific material.",
-        "Do not treat statements in this Tier 2 technical guideline as Malaysian law or as an LMO regulatory determination.",
-        "Do not infer project-specific facts that were not provided and reviewed.",
-        "Do not treat a UN number, proper shipping name, or packing instruction mention as a determination that a specific shipment is classified, compliant, or approved."
-      ],
-      "findings": [
-        "PDF page 18 defines the basic triple packaging system as three layers.",
-        "PDF pages 22 and 26 define the Category A and Category B transport classifications.",
-        "PDF page 17 maps P620 to Category A and P650 to Category B assigned to UN 3373, and notes additional dry-ice requirements under PI 954.",
-        "PDF pages 24 and 26 present the P620 and P650 packing-instruction sections."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-MOH2023",
-      "limitations": [
-        "Category A and Category B here are transport classifications and must not be treated as risk groups or biosafety levels.",
-        "The P620 passage references packaging \u201capproval\u201d in the UN model-regulation sense; it does not establish that any specific shipment, facility, or activity is approved.",
-        "The dry-ice coolant reference (PI 954) is noted but was not separately propositioned."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-027",
         "claim_type": "transport",
@@ -2170,138 +2072,43 @@
         "text": "Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 18,
-          "pdf_page_start": 18,
-          "quoted_support": "6.1                                 Basic Triple Packaging\n\n         This system consists of three layers:\n         i.                                                  Primary receptacle.\n         ii.                                            Secondary receptacle to enclose and protect the primary receptacle.\n         iii.                                  Third outer layer of packaging.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 22,
-          "pdf_page_start": 22,
-          "quoted_support": "6.2.2                               Packaging for Infectious Substances\n          An infectious su                      bstance can be classified int o 2 categories:\n\n\n          6.2.2.1 Category                       A\n                     The substance belongs to Category A if it is transported in a form that, when\n                     exposure to it occurs, could cause permanent disability, or life-                  threatening or\n                     fatal illness in otherwise healthy                                             humans or animals.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 26,
-          "pdf_page_start": 26,
-          "quoted_support": "6.2.2.2 Category B\n\n                      Infectious substances are subclassified as Category B when they cont ain\n                      biological agents capable of c                                                                                ausing infection in humans or animals, but NOT\n                      meeting the criteria for Category A; that is, the consequences of an infection\n                      are not considered severely disabling or life-                      threatening.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 17,
-          "pdf_page_start": 17,
-          "quoted_support": "i.                                            P620 for Category A infectious substances.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            4
-          ],
-          "pdf_page_end": 24,
-          "pdf_page_start": 24,
-          "quoted_support": "Packing instruction P620 outlines the requir eme                                          nts and special packaging                                                                                           provisions that\nmust be met for \u201capproval\u201d for use with Category A infectious substances.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 17,
-          "pdf_page_start": 17,
-          "quoted_support": "ii.                                P650 for Category B infectious substances assigned to UN 3373; and   i                                                                     f dr y ice\n                    is used as coolant, additional requirements are also needed as  in  PI                                                                                                                                                                                 954.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            5
-          ],
-          "pdf_page_end": 26,
-          "pdf_page_start": 26,
-          "quoted_support": "Packing instruction P650 provides a slightly more detailed set of triple packaging\nrequirements than is the case for the basic trip                                                                le packaging system.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The guideline's stated purpose is to ensure safe and secure packaging and transportation of clinical specimens and infectious substances within the country and abroad.",
-        "The guideline states that it does not describe the packaging and transportation of blood products, stem cell products, clinical waste and chemical waste."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 2",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-028",
       "controlled_document_id": "KB-MY-TRANSPORT2023",
       "controlled_source_sha256": "5556604a5812a2f1a2b7a30600bf097c9d40d588e449b46ef643ff8aad727088",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "MALAYSIAN_OFFICIAL_CLINICAL_SPECIMEN_TRANSPORT_GUIDELINE",
-      "exclusions": [
-        "Do not use this transport guideline to determine laboratory containment, biosafety levels, or clinical-waste classification or management.",
-        "Do not represent this guidance or review as an approval, compliance determination, export permission, or authorization to ship a specific material.",
-        "Do not treat statements in this Tier 2 technical guideline as Malaysian law or as an LMO regulatory determination.",
-        "Do not infer project-specific facts that were not provided and reviewed.",
-        "Do not treat a UN number, proper shipping name, or packing instruction mention as a determination that a specific shipment is classified, compliant, or approved."
-      ],
-      "findings": [
-        "PDF page 11 contains the guideline's own scope and exclusion statement.",
-        "PDF page 26 mentions \u201cClinical waste, unspecified, NOS\u201d only as one possible UN 3291 proper shipping name for Category B infectious clinical or medical waste; that shipping-name mention does not bring general clinical-waste management within the guideline's described scope.",
-        "The historical editorial phrase \u201cdoes not serve as the clinical-waste guideline\u201d was not retained as a source proposition; the retained proposition uses the guideline's own wording."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "Malaysia",
+      "jurisdiction": null,
       "legacy_document_id": "KB-MY-MOH2023",
-      "limitations": [
-        "The \u201cdoes not describe\u201d statement is the guideline's own scope statement and was not strengthened into a broader categorical or legal exclusion.",
-        "The guideline does not establish laboratory containment or waste-classification requirements.",
-        "Infectious clinical or medical waste assigned to Category B under UN 3291 remains subject to the transport provisions the guideline quotes."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-028",
         "claim_type": "transport_scope",
@@ -2313,35 +2120,12 @@
         "text": "The MOH clinical-specimen transport guideline does not serve as the clinical-waste guideline; clinical waste and chemical waste are outside its scope.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 11,
-          "pdf_page_start": 11,
-          "quoted_support": "to ensure safe and   secure   packa                                                                       ging and transportation                         of\n          clinical specimens and infectious substances within the country and abroad.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 11,
-          "pdf_page_start": 11,
-          "quoted_support": "This guideline, however, does not describe the packaging and transportation of blood\n          products,  st em  cell products, clinical waste and chemical waste.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],

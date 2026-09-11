@@ -53,13 +53,13 @@ class ClaimDecisionTemplateTests(unittest.TestCase):
             self.build(["CLM-018"])
 
     def test_non_form_e_worksheet_uses_claim_specific_boundaries(self):
-        _, worksheet = self.build(["CLM-026"])
+        _, worksheet = self.build(["CLM-032"])
         self.assertIn(
             "Confirmed every claim-specific boundary prompt above was preserved",
             worksheet,
         )
         self.assertIn(
-            "Transport guidance does not establish laboratory containment or clinical-waste requirements.",
+            "WHO material is international guidance, not Malaysian law or regulatory proof.",
             worksheet,
         )
         self.assertNotIn("Confirmed Form E is not described", worksheet)

@@ -1,0 +1,40 @@
+{
+  "applied_date": "2026-09-11",
+  "batch_id": "KB-MY-TRANSPORT2023-REVIEW-01",
+  "changed_claim_count": 3,
+  "changed_claim_ids": [
+    "CLM-026",
+    "CLM-027",
+    "CLM-028"
+  ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "curated_claim_ids": [
+    "CLM-008",
+    "CLM-009",
+    "CLM-010",
+    "CLM-011",
+    "CLM-012",
+    "CLM-013",
+    "CLM-014",
+    "CLM-021",
+    "CLM-022",
+    "CLM-023",
+    "CLM-024",
+    "CLM-025",
+    "CLM-026",
+    "CLM-027",
+    "CLM-028"
+  ],
+  "decision_report_version": "BioSafe_Claim_Review_Decision_Report_v0.1",
+  "disposition_counts": {
+    "SUPPORTED_AFTER_ATOMIC_SPLIT": 3
+  },
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "result_review_map_sha256": "5fc3216a25411219c0c1ba83e38ea86cbeefbaaf45c9cd5894402f78deee757f",
+  "snapshot_sha256": "b7d3a90148bf88838453c5af09758dd1999d43d1a63b8ff1be7b5227ecda7228",
+  "source_decision_packet_sha256": "c912175393c83e5a87b930107c034aa2abb7137e580b94e69de6b945bbc5d7f2",
+  "source_review_map_sha256": "b7d3a90148bf88838453c5af09758dd1999d43d1a63b8ff1be7b5227ecda7228",
+  "total_completed_review_count": 27,
+  "total_curated_claim_count": 15,
+  "total_pending_review_count": 18
+}

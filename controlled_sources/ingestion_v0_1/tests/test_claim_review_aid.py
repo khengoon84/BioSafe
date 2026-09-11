@@ -36,6 +36,7 @@ COMPLETED_NONLEGAL_CLAIM_IDS = {
     "CLM-012", "CLM-013", "CLM-014",
     "CLM-018", "CLM-019", "CLM-020", "CLM-021",
     "CLM-022", "CLM-023", "CLM-024", "CLM-025",
+    "CLM-026", "CLM-027", "CLM-028",
 }
 
 
@@ -113,7 +114,7 @@ class ClaimReviewAidTests(unittest.TestCase):
         for claim_id in (LEGAL_CLAIM_IDS & {"CLM-026", "CLM-029", "CLM-042", "CLM-045"}):
             self.assertEqual(by_id[claim_id]["identity_review_status"], "HUMAN_IDENTITY_REVIEW_COMPLETE")
             self.assertEqual(by_id[claim_id]["claim_review_status"], CLAIM_REVIEW_COMPLETE)
-        for claim_id in ({"CLM-026", "CLM-029", "CLM-042", "CLM-045"} - LEGAL_CLAIM_IDS):
+        for claim_id in ({"CLM-043", "CLM-029", "CLM-042", "CLM-045"} - LEGAL_CLAIM_IDS):
             self.assertEqual(by_id[claim_id]["identity_review_status"], "HUMAN_IDENTITY_REVIEW_COMPLETE")
             self.assertEqual(by_id[claim_id]["claim_review_status"], CLAIM_REVIEW_REQUIRED)
 
