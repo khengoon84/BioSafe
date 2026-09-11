@@ -53,7 +53,7 @@ class ClaimDecisionTemplateTests(unittest.TestCase):
             self.build(["CLM-018"])
 
     def test_non_form_e_worksheet_uses_claim_specific_boundaries(self):
-        _, worksheet = self.build(["CLM-031"])
+        _, worksheet = self.build(["CLM-034"])
         self.assertIn(
             "Confirmed every claim-specific boundary prompt above was preserved",
             worksheet,

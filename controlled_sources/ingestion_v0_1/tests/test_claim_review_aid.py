@@ -38,8 +38,9 @@ COMPLETED_NONLEGAL_CLAIM_IDS = {
     "CLM-018", "CLM-019", "CLM-020", "CLM-021",
     "CLM-022", "CLM-023", "CLM-024", "CLM-025",
     "CLM-026", "CLM-027", "CLM-028",
+    "CLM-031", "CLM-035",
     "CLM-032", "CLM-033", "CLM-036", "CLM-037", "CLM-038",
-    "CLM-039", "CLM-040", "CLM-044", "CLM-045",
+    "CLM-039", "CLM-040", "CLM-041", "CLM-044", "CLM-045",
 }
 
 

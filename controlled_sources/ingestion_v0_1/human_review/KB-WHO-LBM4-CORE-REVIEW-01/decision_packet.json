@@ -1,0 +1,225 @@
+{
+  "batch_id": "KB-WHO-LBM4-CORE-REVIEW-01",
+  "claim_ids": [
+    "CLM-031",
+    "CLM-035",
+    "CLM-041"
+  ],
+  "decision_packet_version": "BioSafe_Claim_Review_Decision_Packet_v0.1",
+  "decisions": [
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The fourth edition of the manual adopts a risk- and evidence-based approach to biosafety rather than a prescriptive approach.",
+        "The manual states that a thorough, evidence-based and transparent assessment of risks allows safety measures to be balanced with the actual risk of working with biological agents on a case-by-case basis."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 3",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-031",
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "WHO_INTERNATIONAL_LABORATORY_BIOSAFETY_TECHNICAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
+        "Do not represent this draft, a risk assessment, or selected controls as approval, compliance, or proof an activity is safe.",
+        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or authorization to begin work.",
+        "Do not activate these propositions for live retrieval or claim use."
+      ],
+      "findings": [
+        "PDF page 22 directly states the risk- and evidence-based rather than prescriptive approach.",
+        "PDF page 19 directly supports balancing safety measures with actual risk on a case-by-case basis.",
+        "The historical claim is split into two draft propositions."
+      ],
+      "jurisdiction": "International",
+      "limitations": [
+        "This WHO publication is Tier 3 international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
+        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
+        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels."
+      ],
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "FOURTH_EDITION",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 22,
+          "pdf_page_start": 22,
+          "quoted_support": "This fourth edition of the WHO Laboratory biosafety manual (LBM4) adopts a risk- and\n                          evidence-based approach to biosafety rather than a prescriptive approach in order\n                          to ensure that laboratory facilities, safety equipment and work practices are locally\n                          relevant, proportionate and sustainable.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 19,
+          "pdf_page_start": 19,
+          "quoted_support": "This fourth edition of the manual builds on the risk assessment framework introduced in\nthe third edition. A thorough, evidence-based and transparent assessment of the risks\nallows safety measures to be balanced with the actual risk of working with biological\nagents on a case-by-case basis.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19",
+          "support_type": "DIRECT"
+        }
+      ]
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The core manual lists \u201cdecontamination and waste management\u201d among its associated monographs that may be referred to when more detailed information is required."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 3",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-035",
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "disposition": "PARTIALLY_SUPPORTED",
+      "evidence_role": "WHO_INTERNATIONAL_LABORATORY_BIOSAFETY_TECHNICAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
+        "Do not represent this draft, a risk assessment, or selected controls as approval, compliance, or proof an activity is safe.",
+        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or authorization to begin work.",
+        "Do not activate these propositions for live retrieval or claim use.",
+        "Do not represent the historical phrase \u201cBioSafe should use it as authoritative international corroboration\u201d as WHO wording or source evidence.",
+        "Do not borrow detailed support from KB-WHO-LBM4-DECON while this claim remains identity-bound to KB-WHO-LBM4.",
+        "Do not infer Malaysian clinical-waste, scheduled-waste, transport, or disposal requirements."
+      ],
+      "findings": [
+        "PDF page 23 directly lists the associated decontamination and waste management monograph.",
+        "The historical BioSafe product-policy wording is excluded; it is not WHO source evidence.",
+        "Detailed technical practice from the separately controlled KB-WHO-LBM4-DECON monograph is not borrowed because this claim is identity-bound to KB-WHO-LBM4."
+      ],
+      "jurisdiction": "International",
+      "limitations": [
+        "This WHO publication is Tier 3 international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
+        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
+        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
+        "This core-manual passage establishes only the existence of an associated monograph; it does not itself establish detailed decontamination or waste-management practice."
+      ],
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "FOURTH_EDITION",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 23,
+          "pdf_page_start": 23,
+          "quoted_support": "3\n\n\nSuch broad application of the guidance outlined in the LBM4 facilitates a\ncomprehensive, integrated approach to laboratory biosafety and biosecurity and\npromotes responsible laboratory use of biological agents and materials. Guidance\ndocuments and international best practice should be consulted for additional\ninformation in these areas (16).\n\n1 . 2 How to use the Laboratory biosafety manual\n\nThis manual should complement any national regulation and oversight mechanisms\nthat may be in place, and be used to assess, control and review risks at the local level.\nTherefore, the document covers the following areas:\n\n\nn risk assessment, control and review,\n\n\nn core requirements for biosafety,\n\n\nn options for heightened control measures,\n\n\nn maximum containment measures for very high-risk operations,\n\n\nn transfer and transportation of infectious substances,\n\n\nn biosafety programme management,\n\n\nn laboratory biosecurity, and\n\n\nn national and international biosafety oversight.\n\nAssociated monographs have also been produced to provide more detailed informa-\ntion and help implement systems and strategies on specialized topics. It is anticipated\nthat this core document will be read first and the associated monographs can be\nreferred to when more detailed information is required. The monographs include:\n\n\nn biosafety programme management (17),\n\n\nn risk assessment (18),\n\n\nn biological safety cabinets and other primary containment devices (19),\n\n\nn personal protective equipment (20),\n\n\nn laboratory design and maintenance (21),\n\n\nn decontamination and waste management (22), and\n\n\nn outbreak preparedness and resilience (23).",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:BODY:PDF_PAGE_23",
+          "support_type": "DIRECT"
+        }
+      ]
+    },
+    {
+      "allowed_actions": [],
+      "allowed_decision_types": [],
+      "atomic_propositions": [
+        "The manual states that a thorough, evidence-based and transparent assessment of risks allows safety measures to be balanced with the actual risk of working with biological agents on a case-by-case basis.",
+        "The manual states that a facility handling biological agents has an obligation to perform a risk assessment on the work it will conduct and to select and apply appropriate risk control measures to reduce risks to an acceptable risk.",
+        "The manual states that the purpose of risk assessment is to gather information, evaluate it, and use it to inform and justify implementation of processes, procedures, and technologies to control the risks present."
+      ],
+      "attestations": {
+        "controlled_source_compared": true,
+        "historical_verification_not_relied_on": true,
+        "not_live_activation_acknowledged": true
+      },
+      "authority_tier": "Tier 3",
+      "check_results": {
+        "allowed_actions_checked": "PASS",
+        "atomicity_checked": "PASS",
+        "authority_and_jurisdiction_checked": "PASS",
+        "currentness_and_supersession_checked": "PASS",
+        "exact_support_adequate": "PASS",
+        "limitations_and_exclusions_checked": "PASS"
+      },
+      "claim_id": "CLM-041",
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
+      "evidence_role": "WHO_INTERNATIONAL_LABORATORY_BIOSAFETY_TECHNICAL_GUIDANCE",
+      "exclusions": [
+        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
+        "Do not represent this draft, a risk assessment, or selected controls as approval, compliance, or proof an activity is safe.",
+        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or authorization to begin work.",
+        "Do not activate these propositions for live retrieval or claim use.",
+        "Do not treat the source\u2019s general framework statement as a project-specific determination that a particular activity may proceed."
+      ],
+      "findings": [
+        "PDF page 19 directly supports the framework-level actual-risk/case-by-case proposition.",
+        "PDF page 26 directly supports assessment of work, selection/application of controls, and the stated purpose of assessment.",
+        "The historical compound claim is split into three draft propositions; \u201cproper\u201d is not retained as a source-evidence qualifier."
+      ],
+      "jurisdiction": "International",
+      "limitations": [
+        "This WHO publication is Tier 3 international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
+        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
+        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels."
+      ],
+      "review_date": "2026-09-11",
+      "review_status": "CLAIM_REVIEW_COMPLETE",
+      "reviewer_identity": "BioSafe project owner",
+      "reviewer_role": "Claim reconciliation reviewer",
+      "supersession_status": "FOURTH_EDITION",
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 19,
+          "pdf_page_start": 19,
+          "quoted_support": "This fourth edition of the manual builds on the risk assessment framework introduced in\nthe third edition. A thorough, evidence-based and transparent assessment of the risks\nallows safety measures to be balanced with the actual risk of working with biological\nagents on a case-by-case basis.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2,
+            3
+          ],
+          "pdf_page_end": 26,
+          "pdf_page_start": 26,
+          "quoted_support": "Any\n                          facility that handles biological agents has an obligation to their personnel and the\n                          community to perform a risk assessment on the work they will conduct and to select\n                          and apply appropriate risk control measures to reduce those risks to an acceptable\n                          risk. The purpose of the risk assessment is to gather information, evaluate it and use it\n                          to inform and justify the implementation of processes, procedures and technologies to\n                          control the risks present.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+          "support_type": "DIRECT"
+        }
+      ]
+    }
+  ],
+  "human_review_status": "HUMAN_REVIEW_COMPLETE",
+  "source_review_aid_sha256": "1d0feb7f9b50869e17077bf38550f71f029fd3af2b26d72ce2dc7639c14cdb02",
+  "source_review_map_sha256": "e5787962d750f8a66964416a9ec422900f3714c733933a44c8f155bed82a9b07"
+}
