@@ -4826,7 +4826,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-032",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -4942,7 +4942,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-033",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -5294,7 +5294,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-036",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -5410,7 +5410,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-037",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -5526,7 +5526,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-038",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -5642,7 +5642,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-039",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -5758,7 +5758,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-040",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -6231,7 +6231,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-044",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -6347,7 +6347,7 @@
         "WHO material is international guidance, not Malaysian law or regulatory proof."
       ],
       "claim_id": "CLM-045",
-      "claim_review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "claim_review_status": "CLAIM_REVIEW_COMPLETE",
       "component_navigation": [
         {
           "candidate_excluded_pages": [],
@@ -6456,7 +6456,7 @@
     }
   ],
   "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "completed_claim_review_count": 30,
+  "completed_claim_review_count": 39,
   "completed_identity_review_count": 4,
   "identity_mapping_item_count": 4,
   "identity_mapping_items": [
@@ -6860,10 +6860,10 @@
     }
   ],
   "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
-  "pending_claim_review_count": 15,
+  "pending_claim_review_count": 6,
   "pending_identity_review_count": 0,
   "review_aid_version": "BioSafe_Claim_Reconciliation_Review_Aid_v0.1",
-  "source_claim_reconciliation_map_sha256": "59faa516a251b01e89804f7ed74358070c5d1905a4497744bb1cad6bf434f296",
+  "source_claim_reconciliation_map_sha256": "e5787962d750f8a66964416a9ec422900f3714c733933a44c8f155bed82a9b07",
   "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
   "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
   "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",

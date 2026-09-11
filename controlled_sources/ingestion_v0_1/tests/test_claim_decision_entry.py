@@ -33,7 +33,7 @@ PATHS = {
     "fallbacks": INGESTION / "reports/semantic_fallbacks_v0_1.json",
     "fallback_reviews": INGESTION / "reports/fallback_human_review_packet_v0_1.json",
 }
-SYNTHETIC_PENDING_CLAIM_ID = "CLM-032"
+SYNTHETIC_PENDING_CLAIM_ID = "CLM-031"
 
 
 class ClaimDecisionEntryTests(unittest.TestCase):
@@ -129,13 +129,14 @@ class ClaimDecisionEntryTests(unittest.TestCase):
         self.assertEqual(changed["review_status"], "CLAIM_REVIEW_COMPLETE")
         self.assertEqual(unchanged, original)
         self.assertEqual(report["changed_claim_ids"], [SYNTHETIC_PENDING_CLAIM_ID])
-        self.assertEqual(report["total_completed_review_count"], 31)
-        self.assertEqual(report["total_pending_review_count"], 14)
+        self.assertEqual(report["total_completed_review_count"], 40)
+        self.assertEqual(report["total_pending_review_count"], 5)
         self.assertEqual(report["curated_claim_ids"], [
             "CLM-008", "CLM-009", "CLM-010", "CLM-011", "CLM-012", "CLM-013", "CLM-014",
             "CLM-015", "CLM-016", "CLM-017",
             "CLM-021", "CLM-022", "CLM-023", "CLM-024", "CLM-025",
-            "CLM-026", "CLM-027", "CLM-028", "CLM-032",
+            "CLM-026", "CLM-027", "CLM-028", "CLM-031", "CLM-032", "CLM-033",
+            "CLM-036", "CLM-037", "CLM-038", "CLM-039", "CLM-040", "CLM-044", "CLM-045",
         ])
         self.assertEqual(report["live_activation_status"], "PROHIBITED_PENDING_PHASE_C_GATES")
 
@@ -221,7 +222,7 @@ class ClaimDecisionEntryTests(unittest.TestCase):
             self.assertEqual(snapshot.read_bytes(), self.raw["map"])
             self.assertEqual(output.read_bytes(), canonical_json_bytes(expected_map))
             self.assertEqual(report.read_bytes(), canonical_json_bytes(expected_report))
-            self.assertIn("changed=1 completed=31 curated=19 dry_run=False", process.stdout)
+            self.assertIn("changed=1 completed=40 curated=28 dry_run=False", process.stdout)
 
     def test_public_cli_dry_run_writes_nothing(self):
         decisions = self.decision_packet()

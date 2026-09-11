@@ -1,11 +1,5 @@
 {
-  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "completed_review_count": 39,
-  "curated_claim_count": 27,
-  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
-  "required_review_count": 45,
-  "review_completion_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
-  "review_items": [
+  "claim_reviews": [
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
@@ -2749,51 +2743,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The risk assessment team must gather information about hazards associated with the biological agent and laboratory processes under consideration.",
-        "The framework lists biological-agent characteristics, laboratory work or procedures, equipment, facility, and human factors such as personnel competency among Step 1 information-gathering considerations.",
-        "The monograph states that missing information in Step 1, described as knowledge gaps, will negatively affect evaluation of the risks and subsequent selection of risk control measures."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-032",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use."
-      ],
-      "findings": [
-        "PDF page 20 (printed page 6) directly supports the information-gathering categories and effect of knowledge gaps.",
-        "The historical compound claim is split into three draft propositions."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "The source uses the broader category \u201chuman factors,\u201d with personnel competency as an example."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-032",
         "claim_type": "uncertainty",
@@ -2805,86 +2781,43 @@
         "text": "Risk assessment requires information on biological hazards, procedures, equipment, facility and human competency; knowledge gaps negatively affect evaluation and control selection.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            3
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "The team must gather information about the hazards\n                              associated with the biological agent and laboratory process(es) under consideration.\n                              This information should be collected from all relevant personnel through interviews,\n                              and relevant published material should be consulted as necessary. This information-\n                              gathering step is essential to the biological risk assessment because it influences all steps\n                              that follow. Missing pieces of information in this step (knowledge gaps) will negatively\n                              affect the evaluation of all the risks and the subsequent selection of risk control measures.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "1.                                Gather information                                            \u00a7\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         \u00a7\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         \u00a7\tWhat type(s) of equipment will be used?\n                                                                         \u00a7\tWhat type of laboratory facility is available?\n                                                                         \u00a7\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         \u00a7\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "Step 2 asks how exposure and/or release could occur, its likelihood, and its consequences.",
-        "Step 2 also asks what risk is acceptable, which risks are unacceptable, and whether unacceptable risks can be controlled or the work should not proceed.",
-        "Step 4 asks for the residual risk after risk control measures have been applied and whether it is acceptable."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-033",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use.",
-        "Do not treat \u201cacceptable risk\u201d as universal or as a BioSafe determination that work may proceed."
-      ],
-      "findings": [
-        "PDF pages 20\u201321 (printed pages 6\u20137) directly support the Step 2 and Step 4 draft propositions.",
-        "The historical wording compresses evaluation and post-control residual-risk stages."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "WHO states on PDF pages 27\u201328 that acceptable risk varies and institutions should use a strategy meeting their unique needs."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-033",
         "claim_type": "risk_assessment",
@@ -2896,36 +2829,12 @@
         "text": "Risk evaluation considers how exposure/release could occur, likelihood, consequences and whether risks can be controlled to an acceptable level.",
         "verification_status": "Verified"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            2
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "2.                                Evaluate the risks\u00a7\tHow could an exposure and/or release occur?\n                                                                         \u00a7\tWhat is the likelihood of an exposure and/or release?\n                                                                         \u00a7\tWhat information gathered influences the likelihood the most?\n                                                                         \u00a7\tWhat are the consequences of an exposure and/or release?\n                                                                         \u00a7\tWhich information gathered influences the consequences\n                                                                           the most?\n                                                                         \u00a7 What is the overall initial risk of the activities?\n                                                                         \u00a7\tWhat is the acceptable risk?\n                                                                         \u00a7\tWhich risks are unacceptable?\n                                                                         \u00a7\tCan the unacceptable risks be controlled, or should the\n                                                                           work not proceed at all?",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "4.                                   Select and implement risk  \u00a7\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          \u00a7\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          \u00a7\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          \u00a7\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          \u00a7\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          \u00a7\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          \u00a7\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          \u00a7\tHas approval to conduct the work been granted?\n                                          \u00a7\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          \u00a7\tHave necessary items been included in the budget and\n                                            purchased?\n                                          \u00a7\tAre operational and maintenance procedures in place?\n                                          \u00a7\tHave personnel been appropriately trained?",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
@@ -3026,50 +2935,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The monograph describes risk assessment as a systematic process of gathering information and evaluating risks to support a risk management process.",
-        "It states that selection of risk control measures, including training and procurement of specific types of PPE, is influenced by risk-assessment results."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-036",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use.",
-        "Do not convert training and specific PPE examples into a project-specific recommendation."
-      ],
-      "findings": [
-        "PDF page 15 (printed page 1) provides adjacent direct support for both draft propositions."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "Training and procurement of specific PPE are examples; the passage does not identify controls for an unreviewed activity."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-036",
         "claim_type": "risk_assessment_purpose",
@@ -3081,71 +2973,43 @@
         "text": "WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            2
-          ],
-          "pdf_page_end": 15,
-          "pdf_page_start": 15,
-          "quoted_support": "This new approach is best implemented through risk assessment, a\nsystematic process of gathering information and evaluating risks to support a risk\nmanagement process. The need to select risk control measures, such as training\nand procurement of specific types of PPE, are all influenced by the results of a risk\nassessment. For these reasons, risk assessments must always be carried out in a\nstandardized and systematic way to ensure that they are repeatable and comparable.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "In the context of laboratory biosafety, the monograph describes a hazard as a biological agent whose pathogenic characteristics give it the potential to cause harm to people, animals and/or the environment."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-037",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_EXACTLY",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use."
-      ],
-      "findings": [
-        "PDF page 15 (printed page 1) contains direct definitional wording."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "This context-specific description is not a legal, risk-group, or containment classification."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-037",
         "claim_type": "hazard_definition",
@@ -3157,71 +3021,43 @@
         "text": "In laboratory biosafety, WHO describes a biological hazard as a biological agent whose pathogenic characteristics give it the potential to cause harm to people, animals and/or the environment.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 15,
-          "pdf_page_start": 15,
-          "quoted_support": "In the context of laboratory biosafety, a hazard\nis a biological agent whose pathogenic characteristics give it the potential to cause\nharm to people, animals and/or the environment.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The monograph defines risk associated with a hazard as the combination of the likelihood of an incident and the severity of the harm if the incident occurred.",
-        "Likelihood is the probability of exposure to or release of the hazard during laboratory work, and consequence is the severity of the outcome if the incident occurred."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-038",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use."
-      ],
-      "findings": [
-        "PDF page 15 (printed page 1) directly supports both draft propositions."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "The definition supplies no likelihood, consequence, or risk value for a particular activity."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-038",
         "claim_type": "risk_definition",
@@ -3233,71 +3069,43 @@
         "text": "WHO defines biological risk in context as the combination of the likelihood that an exposure to or release of a biological hazard occurs during laboratory work and the severity of the consequences if that incident occurs.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            2
-          ],
-          "pdf_page_end": 15,
-          "pdf_page_start": 15,
-          "quoted_support": "The risk associated with the hazard\nis defined as the combination of the likelihood of an incident and the severity of the\nharm (consequences) if that incident were to occur. Here, likelihood is the probability\nof an exposure to or release of the hazard occurring during laboratory work, and the\nconsequence is the severity of the outcome if such an incident occurred.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The monograph states that risks of manipulating a biological agent depend on dynamic factors including procedures, equipment, agent pathogenic properties, host range and endemicity, local-population susceptibility, and competency of personnel carrying out the work."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-039",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_EXACTLY",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use."
-      ],
-      "findings": [
-        "PDF page 15 (printed page 1) contains the enumerated dynamic-factor passage."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "The factors are contextual and dynamic; no single factor is made determinative."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-039",
         "claim_type": "risk_factors",
@@ -3309,75 +3117,43 @@
         "text": "WHO notes that laboratory biological risk depends on dynamic factors including the procedures performed, equipment available, pathogenic properties of the biological agent, host range, population susceptibility and the competency of laboratory personnel.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 15,
-          "pdf_page_start": 15,
-          "quoted_support": "As such, the\nrisks of manipulating any biological agent depend on many dynamic factors, including\nprocedures to be performed, type of equipment available, inherent pathogenic\nproperties of the biological agent itself, the range of hosts that can be affected and\nwhether the biological agent is endemic in the population, susceptibility of local\npopulations, and the competency of laboratory personnel carrying out the work.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "Step 4 of the framework is to select and implement risk control measures.",
-        "Step 4 considers whether controls are locally available and sustainable, adequately efficient, or should be combined to enhance efficacy.",
-        "Step 4 considers residual risk after controls are applied and whether it is acceptable.",
-        "Step 4 also considers resources, regulatory alignment, approval, communication, budgeting, operational and maintenance procedures, and personnel training."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-040",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use.",
-        "Do not transform questions about regulation or approval into evidence that a requirement applies or approval exists."
-      ],
-      "findings": [
-        "PDF page 21 (printed page 7) contains the Step 4 considerations.",
-        "The draft does not claim any specific control is effective, sustainable, approved, or sufficient."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "The table poses considerations and does not answer them for a particular activity."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-040",
         "claim_type": "risk_control_selection",
@@ -3389,27 +3165,12 @@
         "text": "WHO risk assessment requires risk control measures to be selected for the specific activity and then considers residual risk and whether the selected measures are available, effective and sustainable.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1,
-            2,
-            3,
-            4
-          ],
-          "pdf_page_end": 21,
-          "pdf_page_start": 21,
-          "quoted_support": "4.                                   Select and implement risk  \u00a7\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          \u00a7\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          \u00a7\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          \u00a7\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          \u00a7\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          \u00a7\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          \u00a7\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          \u00a7\tHas approval to conduct the work been granted?\n                                          \u00a7\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          \u00a7\tHave necessary items been included in the budget and\n                                            purchased?\n                                          \u00a7\tAre operational and maintenance procedures in place?\n                                          \u00a7\tHave personnel been appropriately trained?",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
@@ -3558,52 +3319,33 @@
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The monograph states that selection of risk controls such as training and procurement of specific PPE is influenced by risk-assessment results.",
-        "It defines a risk control measure as using a combination of tools, including communication, assessment, training, and physical and operational controls, to reduce risk to an acceptable risk.",
-        "It states that multiple risk control measures may sometimes be required for a risk to be adequately addressed."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-044",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use.",
-        "Do not retain the historical categorical \u201cPPE alone\u201d clause as source evidence."
-      ],
-      "findings": [
-        "PDF pages 11, 15, and 28 directly support risk-informed training/PPE selection, combined control types, and possible multiple controls.",
-        "The historical categorical \u201cPPE alone\u201d phrase was not found as direct wording and is excluded from the draft propositions."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "The passages do not establish a universal rule that PPE is never sufficient or that any combination makes an activity safe."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-044",
         "claim_type": "layered_controls",
@@ -3615,96 +3357,43 @@
         "text": "WHO's risk-based framework does not use PPE alone to establish that an activity is safe: risk assessment determines the control measures needed for the activity, and control selection can include training, PPE, equipment and other containment measures appropriate to the identified risk.",
         "verification_status": "Verified synthesis of WHO Risk Assessment monograph statements; no new operational procedure added"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 15,
-          "pdf_page_start": 15,
-          "quoted_support": "The need to select risk control measures, such as training\nand procurement of specific types of PPE, are all influenced by the results of a risk\nassessment.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 11,
-          "pdf_page_start": 11,
-          "quoted_support": "Risk control measure: Use of a combination of tools, which include communication,\nassessment, training, and physical and operational controls, to reduce the risk of an\nincident/event to an acceptable risk. The risk assessment cycle will determine the\nstrategy that should be used to control the risks and the specific types of risk control\nmeasures required to achieve this.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 28,
-          "pdf_page_start": 28,
-          "quoted_support": "Based on the initial risk of the laboratory activity, a risk control measure can be applied\n                           to lower this risk to an acceptable risk (Figure 3.1). In some cases, multiple risk control\n                           measures may be required for the risk to be adequately addressed.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     },
     {
       "allowed_actions": [],
       "allowed_decision_types": [],
-      "atomic_propositions": [
-        "The monograph states that risk from manipulating a biological agent depends on dynamic factors including procedures, equipment, agent properties, host and population factors, and personnel competency.",
-        "Step 1 considers biological-agent characteristics, laboratory work or procedures, equipment, facility, human factors, and other factors affecting laboratory operations.",
-        "Step 2 evaluates how exposure and/or release could occur, likelihood, and consequences."
-      ],
+      "atomic_propositions": [],
       "attestations": {
-        "controlled_source_compared": true,
-        "historical_verification_not_relied_on": true,
-        "not_live_activation_acknowledged": true
+        "controlled_source_compared": false,
+        "historical_verification_not_relied_on": false,
+        "not_live_activation_acknowledged": false
       },
-      "authority_tier": "Tier 3",
+      "authority_tier": null,
       "check_results": {
-        "allowed_actions_checked": "PASS",
-        "atomicity_checked": "PASS",
-        "authority_and_jurisdiction_checked": "PASS",
-        "currentness_and_supersession_checked": "PASS",
-        "exact_support_adequate": "PASS",
-        "limitations_and_exclusions_checked": "PASS"
+        "allowed_actions_checked": null,
+        "atomicity_checked": null,
+        "authority_and_jurisdiction_checked": null,
+        "currentness_and_supersession_checked": null,
+        "exact_support_adequate": null,
+        "limitations_and_exclusions_checked": null
       },
       "claim_id": "CLM-045",
       "controlled_document_id": "KB-WHO-LBM4-RA",
       "controlled_source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
-      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
-      "disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "evidence_role": "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE",
-      "exclusions": [
-        "Do not represent WHO guidance as Malaysian law or regulatory proof.",
-        "Do not assign a risk group or containment level, or equate risk group, hazard, activity risk, and containment level.",
-        "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
-        "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
-        "Do not activate these propositions for live retrieval or claim use.",
-        "Do not treat consideration of listed factors as proof an assessment is complete, adequate, approved, or sufficient."
-      ],
-      "findings": [
-        "PDF pages 15 and 20 (printed pages 1 and 6) support separate parts of the broad historical synthesis.",
-        "The draft avoids concluding that an assessment is comprehensive or adequate."
-      ],
+      "currentness_status": null,
+      "disposition": null,
+      "evidence_role": null,
+      "exclusions": [],
+      "findings": [],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
-      "jurisdiction": "International",
+      "jurisdiction": null,
       "legacy_document_id": "KB-WHO-RA",
-      "limitations": [
-        "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
-        "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
-        "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "\u201cComprehensive\u201d does not establish completeness or adequacy for a specific activity."
-      ],
+      "limitations": [],
       "original_claim": {
         "claim_id": "CLM-045",
         "claim_type": "risk_assessment_scope",
@@ -3716,50 +3405,17 @@
         "text": "A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences.",
         "verification_status": "Verified synthesis of WHO Risk Assessment monograph"
       },
-      "review_date": "2026-09-11",
-      "review_status": "CLAIM_REVIEW_COMPLETE",
-      "reviewer_identity": "BioSafe project owner",
-      "reviewer_role": "Claim reconciliation reviewer",
-      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
-      "support_spans": [
-        {
-          "atomic_proposition_indexes": [
-            1
-          ],
-          "pdf_page_end": 15,
-          "pdf_page_start": 15,
-          "quoted_support": "As such, the\nrisks of manipulating any biological agent depend on many dynamic factors, including\nprocedures to be performed, type of equipment available, inherent pathogenic\nproperties of the biological agent itself, the range of hosts that can be affected and\nwhether the biological agent is endemic in the population, susceptibility of local\npopulations, and the competency of laboratory personnel carrying out the work.",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            2
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "1.                                Gather information                                            \u00a7\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         \u00a7\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         \u00a7\tWhat type(s) of equipment will be used?\n                                                                         \u00a7\tWhat type of laboratory facility is available?\n                                                                         \u00a7\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         \u00a7\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        },
-        {
-          "atomic_proposition_indexes": [
-            3
-          ],
-          "pdf_page_end": 20,
-          "pdf_page_start": 20,
-          "quoted_support": "2.                                Evaluate the risks\u00a7\tHow could an exposure and/or release occur?\n                                                                         \u00a7\tWhat is the likelihood of an exposure and/or release?\n                                                                         \u00a7\tWhat information gathered influences the likelihood the most?\n                                                                         \u00a7\tWhat are the consequences of an exposure and/or release?",
-          "source_kind": "NATIVE_CANDIDATE",
-          "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
-          "support_type": "DIRECT"
-        }
-      ]
+      "review_date": null,
+      "review_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "reviewer_identity": null,
+      "reviewer_role": null,
+      "supersession_status": null,
+      "support_spans": []
     }
   ],
-  "review_packet_version": "BioSafe_Claim_Reconciliation_Packet_v0.1",
-  "review_scope": "CLAIM_TO_CONTROLLED_SOURCE_RECONCILIATION_ONLY",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "reconciliation_map_version": "BioSafe_Claim_Reconciliation_Map_v0.1",
   "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
   "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
   "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",
