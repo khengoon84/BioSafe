@@ -28,10 +28,22 @@
       "candidate_polarity": null,
       "currentness": "UNRESOLVED",
       "document_id": "KB-MY-REG2010",
-      "human_review_status": "PENDING_CLAIM_LEVEL_REVIEW",
+      "human_review_status": "HUMAN_REVIEW_ACCEPTED_DRAFT",
       "jurisdiction": null,
       "material_or_technology_trigger": null,
       "promotion_status": "NOT_PROMOTED",
+      "proposed_interpretation": {
+        "candidate_concept": "NOTIFICATION",
+        "candidate_normative_force": "MANDATORY",
+        "candidate_polarity": "REQUIRED",
+        "jurisdiction": "Malaysia",
+        "material_or_technology_trigger": "living modified organism",
+        "specific_activity": [
+          "export of living modified organism",
+          "contained use involving living modified organism",
+          "import of living modified organism for contained use"
+        ]
+      },
       "queue_id": "AUTH-REVIEW-CLM-005",
       "source_claim_id": "CLM-005",
       "source_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
@@ -56,10 +68,18 @@
       "candidate_polarity": null,
       "currentness": "UNRESOLVED",
       "document_id": "KB-MY-REG2010",
-      "human_review_status": "PENDING_CLAIM_LEVEL_REVIEW",
+      "human_review_status": "HUMAN_REVIEW_ACCEPTED_DRAFT",
       "jurisdiction": null,
       "material_or_technology_trigger": null,
       "promotion_status": "NOT_PROMOTED",
+      "proposed_interpretation": {
+        "candidate_concept": "NOTIFICATION",
+        "candidate_normative_force": "CONDITIONAL",
+        "candidate_polarity": "CONDITIONAL_EXEMPTION",
+        "jurisdiction": "Malaysia",
+        "material_or_technology_trigger": "specific LMO/genetic-modification technique or host/vector system",
+        "specific_activity": "specific contained-use activity satisfying the applicable First Schedule criteria"
+      },
       "queue_id": "AUTH-REVIEW-CLM-007",
       "source_claim_id": "CLM-007",
       "source_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
@@ -72,6 +92,17 @@
       "support_spans": []
     }
   ],
+  "review_decision_record": {
+    "promotion_status": "NOT_PROMOTED",
+    "recorded_at": "2026-09-13",
+    "remaining_blockers": [
+      "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "CASE_SPECIFIC_APPLICABILITY_REQUIRES_STRUCTURED_FACTS",
+      "CLAIM_LEVEL_SUPPORT_SPANS_AND_CURRENTNESS_REVIEW_REQUIRED"
+    ],
+    "reviewer_action": "ACCEPTED_CONSERVATIVE_DRAFT_INTERPRETATIONS"
+  },
+  "review_status": "HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION",
   "source_level_follow_up": [
     {
       "document_id": "KB-MY-ACT678",

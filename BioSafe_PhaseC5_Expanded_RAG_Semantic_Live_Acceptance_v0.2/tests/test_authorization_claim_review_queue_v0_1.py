@@ -17,6 +17,14 @@ class AuthorizationClaimReviewQueueTests(unittest.TestCase):
         self.assertTrue(queue["queue_entries"])
         self.assertTrue(all(item["promotion_status"]=="NOT_PROMOTED" for item in queue["queue_entries"]))
 
+    def test_accepted_drafts_remain_blocked_from_promotion(self):
+        packet=json.loads((HERE/"reports/authorization_claim_source_extraction_packet_v0_1.json").read_text())
+        self.assertEqual(packet["review_status"],"HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION")
+        self.assertEqual(packet["promotion_status"],"NOT_PROMOTED")
+        for entry in packet["entries"]:
+            self.assertEqual(entry["human_review_status"],"HUMAN_REVIEW_ACCEPTED_DRAFT")
+            self.assertIn("2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",entry["blocking_reasons"])
+
     def test_source_backed_candidates_have_unresolved_decision_fields(self):
         queue=build_review_queue()
         ids={item["source_claim_id"] for item in queue["queue_entries"]}

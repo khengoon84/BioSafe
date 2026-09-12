@@ -37,9 +37,9 @@
     "result": "NO_REVIEWED_AUTHORIZATION_CLAIMS"
   },
   "files": {
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/README.md": "dadf5d301e60c5f2f2861abc8caa0b77c5a1563ee075da4aefacec078be65e18",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/authorization_claim_review_queue_v0_1.json": "c588b671d4a81de58bdce91604101640440fcb37c2acfc35777b9f872612277b",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/authorization_claim_source_extraction_packet_v0_1.json": "7d4f11f5291f279e52db39fb801e9db277d1f47e7944b1b9e564f99b4ee45d78",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/README.md": "0f29ca7fa873d1bb0b0dfb1c0c3b73a1122f2acf425e59955c719a7659f6f3f0",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/authorization_claim_review_queue_v0_1.json": "0ad511d9f6d70c231311bf88d12fdd33abebadd5d9d1392f830152d6aafacc1b",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/authorization_claim_source_extraction_packet_v0_1.json": "d9362c81954f2b4850cac0802ce83b2288b292a509c74baa1c3c3825315d317f",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/authorization_evidence_readiness_v0_1.json": "cc7f10e37bc63086e9afb1e0a704a1ce348aff111e7d9a2eeb8064facdc64123",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/scripts/run_c5_live_ab_v0_1.py": "9beb4de7b5bd41cc94a46b4c47d191fffabf1b88a36ebc7171dc631b1535c756",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_claim_review_queue_v0_1.py": "ffd7db72f0b91138f658746bf7eff0696e6e023b08e853c73b16d39effe7fa97",
@@ -49,11 +49,22 @@
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_verifier_v0_2.py": "0ba2cb5171e91f26caba41ec79a5db7c8073604799ea2321dd50ca60c16367c5",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_inference_service_v0_1.py": "71a02363b78bec592851834a631eed622e4dd1f6a6eb080f90edc71608985dee",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_service_v0_1.py": "3c62a22e8e72df6798b3082f7b00d70b6049db5aa7a297308315614228c49e39",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_claim_review_queue_v0_1.py": "4af03dc20de75a2a348bc99fd7813d417b73202105cf1e487d17c5afcd24f1a1",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_claim_source_extraction_packet_v0_1.py": "055e8975c199f065073314635704e81adbb207c4042ef360375d6ff33a859423",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_claim_review_queue_v0_1.py": "e17368308216cd252d577e8ef839f4f41d146b8aa41aac8dfac9d64ef22370bc",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_claim_source_extraction_packet_v0_1.py": "8c9029cd291356d30d87db1dd8e4571b4b9fca006d5b4fde2fa2a81d9a4ca801",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_evidence_readiness_v0_1.py": "514d57998b35e9a1969e100f9b47df2fe716412a7b132a1fb5d5e10f1a98cb9c",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_verifier_v0_2.py": "bbe576cd575c183bebed4d7fa22c72768a9e07c767bb8b3604c35cabdf7f656b",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_environment_preflight_v0_1.py": "038eb4d4f32ebcd0a9ecb8cc09ae131168d0c8dea7d507012e0b00720ed3c523"
+  },
+  "human_review_update": {
+    "active_kb_modified": false,
+    "entries": [
+      "CLM-005",
+      "CLM-007"
+    ],
+    "promotion_status": "NOT_PROMOTED",
+    "recorded_at": "2026-09-13T00:20:09+0800",
+    "reviewer_action": "ACCEPTED_CONSERVATIVE_DRAFT_INTERPRETATIONS",
+    "status": "HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION"
   },
   "live_adversarial_validation": {
     "artifact": "reports/c5_typed_authorization_adversarial_live_v0_1.jsonl",

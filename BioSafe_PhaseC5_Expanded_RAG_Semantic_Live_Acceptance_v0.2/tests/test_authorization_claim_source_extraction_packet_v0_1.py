@@ -12,7 +12,7 @@ class AuthorizationClaimSourceExtractionPacketTests(unittest.TestCase):
         packet=json.loads(PACKET.read_text(encoding="utf-8"))
         self.assertFalse(packet["live_retrieval_connected"])
         self.assertEqual(packet["promotion_status"],"NOT_PROMOTED")
-        self.assertEqual(packet["review_status"],"PENDING_CLAIM_LEVEL_REVIEW")
+        self.assertEqual(packet["review_status"],"HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION")
 
     def test_only_queued_source_claims_are_extracted(self):
         packet=json.loads(PACKET.read_text(encoding="utf-8"))
