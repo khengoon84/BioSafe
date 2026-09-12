@@ -1,0 +1,292 @@
+{
+  "cases": [
+    {
+      "acceptable_claim_ids": [
+        "CLM-008"
+      ],
+      "case_id": "C34-H-CLM-008",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Contained-use source material specifies biosafety-level and work-practice expectations, including access restrictions, training, decontamination and incident controls; GM-BSL2 examples include LMO/materials associated with RG2 microorganisms. GM-BSL2 / work practices containment"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-009"
+      ],
+      "case_id": "C34-H-CLM-009",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Spills/accidents are to be addressed through established reporting and emergency arrangements, with relevant escalation to supervisory/IBC structures. GM-BSL2 work practices incident"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-010"
+      ],
+      "case_id": "C34-H-CLM-010",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: A Class II biological safety cabinet is identified for work presenting respiratory/aerosol risk within the applicable contained-use context. GM-BSL2 work practices equipment"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-011"
+      ],
+      "case_id": "C34-H-CLM-011",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Contained-use source material covers safe handling, hazardous biological waste treatment, disposal, transfer/transport, storage and minimum facility/equipment requirements. contained-use scope waste"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-012"
+      ],
+      "case_id": "C34-H-CLM-012",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: GMM risk assessment considers hazards, exposure/release, risk controls and BSL assignment, and addresses relevant human, animal, plant and environmental risks. risk-assessment framework risk_assessment"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-013"
+      ],
+      "case_id": "C34-H-CLM-013",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: A defensible risk assessment is expected to contain enough background and detail for reviewers to understand hazards; potential hazards is expected to be acknowledged and uncertainty considered. risk-assessment detail uncertainty"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-014"
+      ],
+      "case_id": "C34-H-CLM-014",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Risk assessment is expected to be reviewed and updated as appropriate rather than treated as a one-time unsupported conclusion. review/update risk_review"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-015"
+      ],
+      "case_id": "C34-H-CLM-015",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: IBC functions include assessment/monitoring of facilities, procedures, practices, training and expertise, containment-level assessment, form completeness, emergency response and reporting of significant incidents/noncompliance. IBC functions ibc"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-016"
+      ],
+      "case_id": "C34-H-CLM-016",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: The PI is accountable to the IBC and must comply with applicable biosafety laws and guidelines. PI responsibilities pi_accountability"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-017"
+      ],
+      "case_id": "C34-H-CLM-017",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: The IBC source material specifies incident-reporting routes and timeframes for relevant incidents/occupational exposures; BioSafe is expected to direct users to the applicable institutional/IBC process rather than invent a response. incident reporting incident"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-021"
+      ],
+      "case_id": "C34-H-CLM-021",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Form E asks for activity-related human-health risks, hazards, likelihood/consequence and risks from unintentional release to human health/environment. A4.1 risk_assessment"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-022"
+      ],
+      "case_id": "C34-H-CLM-022",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures. A4.2–A4.3 risk_management"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-023"
+      ],
+      "case_id": "C34-H-CLM-023",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Form E includes premises/facility details such as name/type/BSL and relevant inspection/certification/contact/BSO information. Premises/facility facility"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-024"
+      ],
+      "case_id": "C34-H-CLM-024",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Form E provides for confidential business information claims and justification where applicable. CBI forme_cbi"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-025"
+      ],
+      "case_id": "C34-H-CLM-025",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring. IBC Assessment Report scope_boundary"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-026"
+      ],
+      "case_id": "C34-H-CLM-026",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: The 2023 MOH guideline covers safe transport of clinical specimens and infectious substances, including classification and packaging/labelling/marking requirements. scope/classification transport"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-027"
+      ],
+      "case_id": "C34-H-CLM-027",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts. triple packaging transport"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-028"
+      ],
+      "case_id": "C34-H-CLM-028",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "Malaysia",
+      "query": "Which reviewed source addresses this issue: The MOH clinical-specimen transport guideline does not serve as the clinical-waste guideline; clinical waste and chemical waste are outside its scope. scope exclusion transport_scope"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-031"
+      ],
+      "case_id": "C34-H-CLM-031",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO LBM4 uses an evidence- and risk-based approach in which safety measures are balanced against the actual risk of the activity on a case-by-case basis. core risk approach risk_assessment"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-032"
+      ],
+      "case_id": "C34-H-CLM-032",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: Risk assessment requires information on biological hazards, procedures, equipment, facility and human competency; knowledge gaps negatively affect evaluation and control selection. information gathering uncertainty"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-033"
+      ],
+      "case_id": "C34-H-CLM-033",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: Risk evaluation considers how exposure/release could occur, likelihood, consequences and whether risks can be controlled to an acceptable level. risk evaluation risk_assessment"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-034"
+      ],
+      "case_id": "C34-H-CLM-034",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO's 2024 laboratory biosecurity source material applies a risk- and evidence-based approach to biosecurity, including governance, secure handling, transport/storage and high-consequence research risk management. 2024 source material biosecurity"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-036"
+      ],
+      "case_id": "C34-H-CLM-036",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE. Section 1 – Introduction risk_assessment_purpose"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-037"
+      ],
+      "case_id": "C34-H-CLM-037",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: In laboratory biosafety, WHO describes a biological hazard as a biological agent whose pathogenic characteristics give it the potential to cause harm to people, animals and/or the environment. Section 1 – Introduction hazard_definition"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-038"
+      ],
+      "case_id": "C34-H-CLM-038",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO defines biological risk in context as the combination of the likelihood that an exposure to or release of a biological hazard occurs during laboratory work and the severity of the consequences if that incident occurs. Section 1 – Introduction risk_definition"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-039"
+      ],
+      "case_id": "C34-H-CLM-039",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO notes that laboratory biological risk depends on dynamic factors including the procedures performed, equipment available, pathogenic properties of the biological agent, host range, population susceptibility and the competency of laboratory personnel. Section 1 – Introduction risk_factors"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-040"
+      ],
+      "case_id": "C34-H-CLM-040",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO risk assessment requires risk control measures to be selected for the specific activity and then considers residual risk and whether the selected measures are available, effective and sustainable. Step 4 – Select and implement risk control measures risk_control_selection"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-041"
+      ],
+      "case_id": "C34-H-CLM-041",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO LBM4 uses an evidence- and risk-based approach so that safety measures are balanced against the actual risk of work with biological agents on a case-by-case basis; a proper risk assessment is expected to be performed before activities and is expected to inform risk control measures. Core evidence- and risk-based approach activity_specific_controls"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-042"
+      ],
+      "case_id": "C34-H-CLM-042",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO places PPE within broader laboratory biosafety core requirements rather than treating PPE as a complete safety determination. Core requirements include good microbiological practice and procedure, with PPE such as laboratory coats, footwear, gloves and eye protection used as applicable. Section 3 – PPE for core requirements ppe_role"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-043"
+      ],
+      "case_id": "C34-H-CLM-043",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO indicates that some PPE needs are determined by risk assessment; for example, respiratory protection for biological agents is not a general core requirement and becomes a heightened control measure when the risk assessment indicates it is needed. Section 3 – PPE for core requirements ppe_risk_based_selection"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-044"
+      ],
+      "case_id": "C34-H-CLM-044",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: WHO's risk-based framework does not use PPE alone to establish that an activity is safe: risk assessment determines the control measures needed for the activity, and control selection can include training, PPE, equipment and other containment measures appropriate to the identified risk. Section 1 / risk assessment framework layered_controls"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-045"
+      ],
+      "case_id": "C34-H-CLM-045",
+      "case_type": "heldout_claim",
+      "expected_jurisdiction": "International",
+      "query": "Which reviewed source addresses this issue: A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences. Risk assessment framework risk_assessment_scope"
+    }
+  ]
+}

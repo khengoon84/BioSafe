@@ -1,0 +1,4042 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_4_Metadata_Generalization_Report_v0.1",
+  "benchmark_mode": "C3_4_HELDOUT_AND_ONBOARDING_GATE_REVIEW",
+  "cases": {
+    "C34_METADATA_CFG01": {
+      "metadata_off": [
+        {
+          "case_id": "C34-H-CLM-008",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-008",
+            "CLM-009",
+            "CLM-010",
+            "CLM-015",
+            "CLM-011",
+            "CLM-017",
+            "CLM-012",
+            "CLM-022",
+            "CLM-016",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-009",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-009",
+            "CLM-008",
+            "CLM-010",
+            "CLM-017",
+            "CLM-016",
+            "CLM-015",
+            "CLM-012",
+            "CLM-014",
+            "CLM-025",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-010",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-REG",
+            "intent": "IBC/containment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "notification",
+              "contained use",
+              "GM-BSL",
+              "containment"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-010",
+            "CLM-008",
+            "CLM-009",
+            "CLM-011",
+            "CLM-015",
+            "CLM-017",
+            "CLM-012",
+            "CLM-014",
+            "CLM-016",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-011",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WASTE",
+            "intent": "waste",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "scheduled waste",
+              "SW 404",
+              "storage",
+              "treatment",
+              "disposal"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-011",
+            "CLM-010",
+            "CLM-026",
+            "CLM-028",
+            "CLM-022",
+            "CLM-008",
+            "CLM-009",
+            "CLM-023",
+            "CLM-012",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-012",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-RA",
+            "intent": "risk_assessment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "risk assessment",
+              "uncertainty",
+              "GMM"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-012",
+            "CLM-013",
+            "CLM-021",
+            "CLM-014",
+            "CLM-023",
+            "CLM-008",
+            "CLM-025",
+            "CLM-015",
+            "CLM-009",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-013",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-013",
+            "CLM-012",
+            "CLM-014",
+            "CLM-025",
+            "CLM-021",
+            "CLM-009",
+            "CLM-016",
+            "CLM-010",
+            "CLM-024",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-014",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-014",
+            "CLM-012",
+            "CLM-013",
+            "CLM-017",
+            "CLM-009",
+            "CLM-025",
+            "CLM-023",
+            "CLM-016",
+            "CLM-028",
+            "CLM-010"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-015",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-015",
+            "CLM-017",
+            "CLM-009",
+            "CLM-008",
+            "CLM-025",
+            "CLM-012",
+            "CLM-014",
+            "CLM-016",
+            "CLM-022",
+            "CLM-013"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-016",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-016",
+            "CLM-025",
+            "CLM-017",
+            "CLM-024",
+            "CLM-015",
+            "CLM-021",
+            "CLM-009",
+            "CLM-012",
+            "CLM-022",
+            "CLM-023"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-017",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-017",
+            "CLM-015",
+            "CLM-025",
+            "CLM-009",
+            "CLM-016",
+            "CLM-014",
+            "CLM-024",
+            "CLM-010",
+            "CLM-008",
+            "CLM-012"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-021",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-021",
+            "CLM-012",
+            "CLM-022",
+            "CLM-024",
+            "CLM-023",
+            "CLM-013",
+            "CLM-014",
+            "CLM-009",
+            "CLM-008",
+            "CLM-010"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-022",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-022",
+            "CLM-021",
+            "CLM-023",
+            "CLM-024",
+            "CLM-011",
+            "CLM-026",
+            "CLM-008",
+            "CLM-028",
+            "CLM-012",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-023",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-023",
+            "CLM-022",
+            "CLM-024",
+            "CLM-021",
+            "CLM-012",
+            "CLM-014",
+            "CLM-011",
+            "CLM-009",
+            "CLM-008",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-024",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-024",
+            "CLM-023",
+            "CLM-021",
+            "CLM-022",
+            "CLM-010",
+            "CLM-012",
+            "CLM-014",
+            "CLM-008",
+            "CLM-017",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-025",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "scope_gate",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-025",
+            "CLM-016",
+            "CLM-015",
+            "CLM-017",
+            "CLM-024",
+            "CLM-021",
+            "CLM-022",
+            "CLM-023",
+            "CLM-012",
+            "CLM-028"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-026",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-026",
+            "CLM-027",
+            "CLM-028",
+            "CLM-011",
+            "CLM-022",
+            "CLM-012",
+            "CLM-014",
+            "CLM-015",
+            "CLM-008",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-027",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-027",
+            "CLM-026",
+            "CLM-028",
+            "CLM-022",
+            "CLM-011",
+            "CLM-012",
+            "CLM-009",
+            "CLM-014",
+            "CLM-008",
+            "CLM-017"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-028",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport_scope",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "packaging",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-028",
+            "CLM-026",
+            "CLM-027",
+            "CLM-011",
+            "CLM-022",
+            "CLM-014",
+            "CLM-012",
+            "CLM-025",
+            "CLM-023",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-031",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-031",
+            "CLM-041",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-010",
+            "CLM-022",
+            "CLM-025",
+            "CLM-013",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-032",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-032",
+            "CLM-013",
+            "CLM-012",
+            "CLM-023",
+            "CLM-014",
+            "CLM-021",
+            "CLM-011",
+            "CLM-024",
+            "CLM-010",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-033",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-033",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-013",
+            "CLM-009",
+            "CLM-015",
+            "CLM-008",
+            "CLM-024",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-034",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WHO-BIOSEC",
+            "intent": "biosecurity",
+            "jurisdiction": "International",
+            "preferred_tier": "Tier 3",
+            "safety_sensitive": false,
+            "scope": [
+              "biosecurity",
+              "access",
+              "inventory",
+              "secure handling",
+              "governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-034",
+            "CLM-031",
+            "CLM-041",
+            "FIX-001",
+            "CLM-036",
+            "CLM-040",
+            "CLM-039",
+            "CLM-044",
+            "CLM-045",
+            "CLM-038"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-036",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-036",
+            "CLM-012",
+            "CLM-014",
+            "CLM-015",
+            "CLM-013",
+            "CLM-022",
+            "CLM-021",
+            "CLM-025",
+            "CLM-026",
+            "CLM-023"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-037",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-037",
+            "CLM-021",
+            "CLM-014",
+            "CLM-016",
+            "CLM-023",
+            "CLM-013",
+            "CLM-012",
+            "CLM-024",
+            "CLM-025",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-038",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-038",
+            "CLM-015",
+            "CLM-012",
+            "CLM-010",
+            "CLM-014",
+            "CLM-009",
+            "CLM-017",
+            "CLM-021",
+            "CLM-028",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-039",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-039",
+            "CLM-012",
+            "CLM-010",
+            "CLM-015",
+            "CLM-014",
+            "CLM-026",
+            "CLM-011",
+            "CLM-022",
+            "CLM-027",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-040",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-040",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-009",
+            "CLM-021",
+            "CLM-022",
+            "CLM-025",
+            "CLM-024",
+            "CLM-028"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-041",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-041",
+            "CLM-031",
+            "CLM-012",
+            "CLM-025",
+            "CLM-014",
+            "CLM-009",
+            "CLM-013",
+            "CLM-010",
+            "CLM-016",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-042",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-042",
+            "CLM-014",
+            "CLM-023",
+            "CLM-017",
+            "CLM-010",
+            "CLM-008",
+            "CLM-016",
+            "CLM-024",
+            "CLM-026",
+            "CLM-011"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-043",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-043",
+            "CLM-025",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-010",
+            "CLM-016",
+            "CLM-028",
+            "CLM-024",
+            "CLM-011"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-044",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-044",
+            "CLM-012",
+            "CLM-014",
+            "CLM-013",
+            "CLM-010",
+            "CLM-025",
+            "CLM-008",
+            "CLM-021",
+            "CLM-015",
+            "CLM-028"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-045",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-045",
+            "CLM-012",
+            "CLM-010",
+            "CLM-023",
+            "CLM-014",
+            "CLM-013",
+            "CLM-025",
+            "CLM-016",
+            "CLM-009",
+            "CLM-011"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-FIX-001",
+          "case_type": "new_document_fixture",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "FIX-001",
+            "CLM-016",
+            "CLM-015",
+            "CLM-008",
+            "CLM-025",
+            "CLM-024",
+            "CLM-017",
+            "CLM-021",
+            "CLM-023",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        }
+      ],
+      "metadata_on": [
+        {
+          "case_id": "C34-H-CLM-008",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-008",
+            "CLM-009",
+            "CLM-010",
+            "CLM-015",
+            "CLM-011",
+            "CLM-017",
+            "CLM-016",
+            "CLM-012",
+            "CLM-022",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-009",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-009",
+            "CLM-017",
+            "CLM-016",
+            "CLM-015",
+            "CLM-008",
+            "CLM-010",
+            "CLM-012",
+            "CLM-014",
+            "CLM-025",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-010",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-REG",
+            "intent": "IBC/containment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "notification",
+              "contained use",
+              "GM-BSL",
+              "containment"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-010",
+            "CLM-008",
+            "CLM-009",
+            "CLM-011",
+            "CLM-015",
+            "CLM-017",
+            "CLM-012",
+            "CLM-014",
+            "CLM-016",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-011",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WASTE",
+            "intent": "waste",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "scheduled waste",
+              "SW 404",
+              "storage",
+              "treatment",
+              "disposal"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-011",
+            "CLM-010",
+            "CLM-008",
+            "CLM-009",
+            "CLM-026",
+            "CLM-028",
+            "CLM-022",
+            "CLM-023",
+            "CLM-012",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-012",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-RA",
+            "intent": "risk_assessment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "risk assessment",
+              "uncertainty",
+              "GMM"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-012",
+            "CLM-013",
+            "CLM-021",
+            "CLM-014",
+            "CLM-023",
+            "CLM-008",
+            "CLM-025",
+            "CLM-015",
+            "CLM-009",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-013",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-013",
+            "CLM-012",
+            "CLM-014",
+            "CLM-025",
+            "CLM-021",
+            "CLM-009",
+            "CLM-016",
+            "CLM-010",
+            "CLM-024",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-014",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-014",
+            "CLM-012",
+            "CLM-013",
+            "CLM-017",
+            "CLM-009",
+            "CLM-025",
+            "CLM-023",
+            "CLM-016",
+            "CLM-028",
+            "CLM-010"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-015",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-015",
+            "CLM-017",
+            "CLM-009",
+            "CLM-008",
+            "CLM-016",
+            "CLM-010",
+            "CLM-011",
+            "CLM-025",
+            "CLM-012",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-016",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-016",
+            "CLM-017",
+            "CLM-015",
+            "CLM-025",
+            "CLM-024",
+            "CLM-021",
+            "CLM-009",
+            "CLM-012",
+            "CLM-022",
+            "CLM-023"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-017",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-017",
+            "CLM-015",
+            "CLM-009",
+            "CLM-016",
+            "CLM-010",
+            "CLM-008",
+            "CLM-011",
+            "CLM-025",
+            "CLM-014",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-021",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-021",
+            "CLM-022",
+            "CLM-024",
+            "CLM-023",
+            "CLM-025",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-009",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-022",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-022",
+            "CLM-021",
+            "CLM-023",
+            "CLM-024",
+            "CLM-025",
+            "CLM-011",
+            "CLM-026",
+            "CLM-008",
+            "CLM-028",
+            "CLM-012"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-023",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-023",
+            "CLM-022",
+            "CLM-024",
+            "CLM-021",
+            "CLM-025",
+            "CLM-012",
+            "CLM-014",
+            "CLM-011",
+            "CLM-009",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-024",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-024",
+            "CLM-023",
+            "CLM-021",
+            "CLM-022",
+            "CLM-025",
+            "CLM-010",
+            "CLM-012",
+            "CLM-014",
+            "CLM-008",
+            "CLM-017"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-025",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "scope_gate",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-025",
+            "CLM-024",
+            "CLM-021",
+            "CLM-022",
+            "CLM-023",
+            "CLM-016",
+            "CLM-015",
+            "CLM-017",
+            "CLM-012",
+            "CLM-028"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-026",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-026",
+            "CLM-027",
+            "CLM-028",
+            "CLM-011",
+            "CLM-022",
+            "CLM-012",
+            "CLM-014",
+            "CLM-015",
+            "CLM-008",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-027",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-027",
+            "CLM-026",
+            "CLM-028",
+            "CLM-022",
+            "CLM-011",
+            "CLM-012",
+            "CLM-009",
+            "CLM-014",
+            "CLM-008",
+            "CLM-017"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-028",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport_scope",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "packaging",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-028",
+            "CLM-026",
+            "CLM-027",
+            "CLM-011",
+            "CLM-022",
+            "CLM-014",
+            "CLM-012",
+            "CLM-025",
+            "CLM-023",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-031",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-031",
+            "CLM-041",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-010",
+            "CLM-022",
+            "CLM-025",
+            "CLM-013",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-032",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-032",
+            "CLM-013",
+            "CLM-012",
+            "CLM-023",
+            "CLM-014",
+            "CLM-045",
+            "CLM-021",
+            "CLM-011",
+            "CLM-024",
+            "CLM-010"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-033",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-033",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-013",
+            "CLM-009",
+            "CLM-015",
+            "CLM-008",
+            "CLM-024",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-034",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WHO-BIOSEC",
+            "intent": "biosecurity",
+            "jurisdiction": "International",
+            "preferred_tier": "Tier 3",
+            "safety_sensitive": false,
+            "scope": [
+              "biosecurity",
+              "access",
+              "inventory",
+              "secure handling",
+              "governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-034",
+            "CLM-031",
+            "CLM-041",
+            "CLM-036",
+            "CLM-040",
+            "CLM-039",
+            "CLM-044",
+            "CLM-045",
+            "CLM-038",
+            "CLM-037"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-036",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-036",
+            "CLM-012",
+            "CLM-014",
+            "CLM-015",
+            "CLM-013",
+            "CLM-022",
+            "CLM-044",
+            "CLM-021",
+            "CLM-025",
+            "CLM-026"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-037",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-037",
+            "CLM-021",
+            "CLM-014",
+            "CLM-038",
+            "CLM-016",
+            "CLM-023",
+            "CLM-013",
+            "CLM-012",
+            "CLM-024",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-038",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-038",
+            "CLM-015",
+            "CLM-010",
+            "CLM-009",
+            "CLM-017",
+            "CLM-008",
+            "CLM-016",
+            "CLM-011",
+            "CLM-012",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-039",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-039",
+            "CLM-038",
+            "CLM-012",
+            "CLM-010",
+            "CLM-015",
+            "CLM-014",
+            "CLM-026",
+            "CLM-011",
+            "CLM-022",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-040",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-040",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-044",
+            "CLM-009",
+            "CLM-021",
+            "CLM-022",
+            "CLM-025",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-041",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-041",
+            "CLM-031",
+            "CLM-012",
+            "CLM-025",
+            "CLM-014",
+            "CLM-009",
+            "CLM-013",
+            "CLM-010",
+            "CLM-016",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-042",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-042",
+            "CLM-043",
+            "CLM-014",
+            "CLM-023",
+            "CLM-017",
+            "CLM-010",
+            "CLM-008",
+            "CLM-016",
+            "CLM-024",
+            "CLM-026"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-043",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-043",
+            "CLM-025",
+            "CLM-042",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-010",
+            "CLM-016",
+            "CLM-028",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-044",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-044",
+            "CLM-012",
+            "CLM-014",
+            "CLM-013",
+            "CLM-010",
+            "CLM-025",
+            "CLM-040",
+            "CLM-008",
+            "CLM-021",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-045",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-045",
+            "CLM-012",
+            "CLM-010",
+            "CLM-023",
+            "CLM-014",
+            "CLM-013",
+            "CLM-025",
+            "CLM-038",
+            "CLM-016",
+            "CLM-009"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-FIX-001",
+          "case_type": "new_document_fixture",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "FIX-001",
+            "CLM-016",
+            "CLM-015",
+            "CLM-008",
+            "CLM-025",
+            "CLM-024",
+            "CLM-017",
+            "CLM-021",
+            "CLM-023",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        }
+      ]
+    },
+    "C34_METADATA_CFG02": {
+      "metadata_off": [
+        {
+          "case_id": "C34-H-CLM-008",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-008",
+            "CLM-010",
+            "CLM-009",
+            "CLM-015",
+            "CLM-011",
+            "CLM-022",
+            "CLM-027",
+            "CLM-012",
+            "CLM-014",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-009",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-009",
+            "CLM-008",
+            "CLM-010",
+            "CLM-017",
+            "CLM-027",
+            "CLM-012",
+            "CLM-015",
+            "CLM-025",
+            "CLM-016",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-010",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-REG",
+            "intent": "IBC/containment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "notification",
+              "contained use",
+              "GM-BSL",
+              "containment"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-010",
+            "CLM-008",
+            "CLM-009",
+            "CLM-011",
+            "CLM-016",
+            "CLM-024",
+            "CLM-014",
+            "CLM-015",
+            "CLM-012",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-011",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WASTE",
+            "intent": "waste",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "scheduled waste",
+              "SW 404",
+              "storage",
+              "treatment",
+              "disposal"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-011",
+            "CLM-028",
+            "CLM-010",
+            "CLM-026",
+            "CLM-008",
+            "CLM-022",
+            "CLM-009",
+            "CLM-012",
+            "CLM-023",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-012",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-RA",
+            "intent": "risk_assessment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "risk assessment",
+              "uncertainty",
+              "GMM"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-012",
+            "CLM-013",
+            "CLM-021",
+            "CLM-014",
+            "CLM-045",
+            "CLM-009",
+            "CLM-023",
+            "CLM-027",
+            "CLM-015",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-013",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-013",
+            "CLM-012",
+            "CLM-014",
+            "CLM-025",
+            "CLM-009",
+            "CLM-021",
+            "CLM-010",
+            "CLM-016",
+            "CLM-015",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-014",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-014",
+            "CLM-013",
+            "CLM-012",
+            "CLM-017",
+            "CLM-025",
+            "CLM-028",
+            "CLM-023",
+            "CLM-009",
+            "CLM-010",
+            "CLM-021"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-015",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-015",
+            "CLM-008",
+            "CLM-017",
+            "CLM-025",
+            "CLM-009",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-026",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-016",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-016",
+            "CLM-025",
+            "CLM-017",
+            "CLM-010",
+            "CLM-024",
+            "CLM-015",
+            "CLM-023",
+            "CLM-014",
+            "CLM-012",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-017",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-017",
+            "CLM-015",
+            "CLM-009",
+            "CLM-016",
+            "CLM-025",
+            "CLM-014",
+            "CLM-024",
+            "CLM-012",
+            "CLM-021",
+            "CLM-010"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-021",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-021",
+            "CLM-012",
+            "CLM-022",
+            "CLM-024",
+            "CLM-023",
+            "CLM-014",
+            "CLM-010",
+            "CLM-008",
+            "CLM-013",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-022",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-022",
+            "CLM-023",
+            "CLM-021",
+            "CLM-024",
+            "CLM-011",
+            "CLM-008",
+            "CLM-026",
+            "CLM-028",
+            "CLM-027",
+            "CLM-012"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-023",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-023",
+            "CLM-022",
+            "CLM-024",
+            "CLM-021",
+            "CLM-012",
+            "CLM-014",
+            "CLM-011",
+            "CLM-009",
+            "CLM-008",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-024",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-024",
+            "CLM-023",
+            "CLM-022",
+            "CLM-021",
+            "CLM-010",
+            "CLM-008",
+            "CLM-017",
+            "CLM-014",
+            "CLM-012",
+            "CLM-026"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-025",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "scope_gate",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-025",
+            "CLM-016",
+            "CLM-015",
+            "CLM-021",
+            "CLM-017",
+            "CLM-024",
+            "CLM-028",
+            "CLM-023",
+            "CLM-022",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-026",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-026",
+            "CLM-027",
+            "CLM-028",
+            "CLM-011",
+            "CLM-022",
+            "CLM-015",
+            "CLM-024",
+            "CLM-012",
+            "CLM-014",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-027",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-027",
+            "CLM-026",
+            "CLM-028",
+            "CLM-009",
+            "CLM-022",
+            "CLM-012",
+            "CLM-008",
+            "CLM-023",
+            "CLM-010",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-028",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport_scope",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "packaging",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-028",
+            "CLM-026",
+            "CLM-027",
+            "CLM-011",
+            "CLM-022",
+            "CLM-014",
+            "CLM-025",
+            "CLM-017",
+            "CLM-012",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-031",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-031",
+            "CLM-041",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-013",
+            "CLM-010",
+            "CLM-025",
+            "CLM-022",
+            "CLM-009"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-032",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-032",
+            "CLM-013",
+            "CLM-023",
+            "CLM-012",
+            "CLM-021",
+            "CLM-011",
+            "CLM-010",
+            "CLM-014",
+            "CLM-015",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-033",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-033",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-013",
+            "CLM-008",
+            "CLM-015",
+            "CLM-009",
+            "CLM-016",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-034",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WHO-BIOSEC",
+            "intent": "biosecurity",
+            "jurisdiction": "International",
+            "preferred_tier": "Tier 3",
+            "safety_sensitive": false,
+            "scope": [
+              "biosecurity",
+              "access",
+              "inventory",
+              "secure handling",
+              "governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-034",
+            "CLM-031",
+            "CLM-041",
+            "FIX-001",
+            "CLM-036",
+            "CLM-044",
+            "CLM-039",
+            "CLM-038",
+            "CLM-042",
+            "CLM-033"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-036",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-036",
+            "CLM-014",
+            "CLM-012",
+            "CLM-015",
+            "CLM-022",
+            "CLM-025",
+            "CLM-008",
+            "CLM-026",
+            "CLM-027",
+            "CLM-021"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-037",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-037",
+            "CLM-012",
+            "CLM-013",
+            "CLM-021",
+            "CLM-011",
+            "CLM-023",
+            "CLM-016",
+            "CLM-024",
+            "CLM-025",
+            "CLM-009"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-038",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-038",
+            "CLM-017",
+            "CLM-015",
+            "CLM-010",
+            "CLM-028",
+            "CLM-021",
+            "CLM-009",
+            "CLM-014",
+            "CLM-008",
+            "CLM-013"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-039",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-039",
+            "CLM-010",
+            "CLM-015",
+            "CLM-014",
+            "CLM-027",
+            "CLM-022",
+            "CLM-012",
+            "CLM-026",
+            "CLM-016",
+            "CLM-011"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-040",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-040",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-009",
+            "CLM-021",
+            "CLM-025",
+            "CLM-017",
+            "CLM-022",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-041",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-041",
+            "CLM-031",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-010",
+            "CLM-009",
+            "CLM-025",
+            "CLM-008",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-042",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-042",
+            "CLM-043",
+            "CLM-014",
+            "CLM-010",
+            "CLM-023",
+            "CLM-017",
+            "CLM-008",
+            "CLM-011",
+            "CLM-026",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-043",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-043",
+            "CLM-042",
+            "CLM-025",
+            "CLM-012",
+            "CLM-013",
+            "CLM-010",
+            "CLM-014",
+            "CLM-022",
+            "CLM-026",
+            "CLM-011"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-044",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-044",
+            "CLM-012",
+            "CLM-010",
+            "CLM-014",
+            "CLM-008",
+            "CLM-013",
+            "CLM-028",
+            "CLM-021",
+            "CLM-015",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-045",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-045",
+            "CLM-012",
+            "CLM-010",
+            "CLM-023",
+            "CLM-025",
+            "CLM-013",
+            "CLM-014",
+            "CLM-011",
+            "CLM-009",
+            "CLM-017"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-FIX-001",
+          "case_type": "new_document_fixture",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "FIX-001",
+            "CLM-008",
+            "CLM-015",
+            "CLM-016",
+            "CLM-025",
+            "CLM-017",
+            "CLM-024",
+            "CLM-021",
+            "CLM-023",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        }
+      ],
+      "metadata_on": [
+        {
+          "case_id": "C34-H-CLM-008",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-008",
+            "CLM-010",
+            "CLM-009",
+            "CLM-015",
+            "CLM-011",
+            "CLM-016",
+            "CLM-017",
+            "CLM-022",
+            "CLM-027",
+            "CLM-012"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-009",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-009",
+            "CLM-017",
+            "CLM-008",
+            "CLM-010",
+            "CLM-015",
+            "CLM-016",
+            "CLM-027",
+            "CLM-012",
+            "CLM-025",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-010",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-REG",
+            "intent": "IBC/containment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "notification",
+              "contained use",
+              "GM-BSL",
+              "containment"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-010",
+            "CLM-008",
+            "CLM-009",
+            "CLM-011",
+            "CLM-016",
+            "CLM-024",
+            "CLM-014",
+            "CLM-015",
+            "CLM-012",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-011",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WASTE",
+            "intent": "waste",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "scheduled waste",
+              "SW 404",
+              "storage",
+              "treatment",
+              "disposal"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-011",
+            "CLM-010",
+            "CLM-008",
+            "CLM-009",
+            "CLM-028",
+            "CLM-026",
+            "CLM-022",
+            "CLM-012",
+            "CLM-023",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-012",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-RA",
+            "intent": "risk_assessment",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "risk assessment",
+              "uncertainty",
+              "GMM"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-012",
+            "CLM-013",
+            "CLM-021",
+            "CLM-014",
+            "CLM-009",
+            "CLM-023",
+            "CLM-027",
+            "CLM-015",
+            "CLM-008",
+            "CLM-017"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-013",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-013",
+            "CLM-012",
+            "CLM-014",
+            "CLM-025",
+            "CLM-032",
+            "CLM-009",
+            "CLM-021",
+            "CLM-010",
+            "CLM-016",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-014",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-014",
+            "CLM-013",
+            "CLM-012",
+            "CLM-017",
+            "CLM-025",
+            "CLM-028",
+            "CLM-023",
+            "CLM-009",
+            "CLM-010",
+            "CLM-021"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-015",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-015",
+            "CLM-008",
+            "CLM-017",
+            "CLM-009",
+            "CLM-016",
+            "CLM-011",
+            "CLM-010",
+            "CLM-025",
+            "CLM-012",
+            "CLM-013"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-016",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-IBC",
+            "intent": "governance",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "PI responsibilities",
+              "IBC governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-016",
+            "CLM-017",
+            "CLM-015",
+            "CLM-025",
+            "CLM-010",
+            "CLM-024",
+            "CLM-023",
+            "CLM-014",
+            "CLM-012",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-017",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-017",
+            "CLM-015",
+            "CLM-009",
+            "CLM-016",
+            "CLM-010",
+            "CLM-008",
+            "CLM-011",
+            "CLM-025",
+            "CLM-014",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-021",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-021",
+            "CLM-022",
+            "CLM-024",
+            "CLM-023",
+            "CLM-025",
+            "CLM-012",
+            "CLM-014",
+            "CLM-010",
+            "CLM-008",
+            "CLM-013"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-022",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-022",
+            "CLM-023",
+            "CLM-021",
+            "CLM-024",
+            "CLM-025",
+            "CLM-011",
+            "CLM-008",
+            "CLM-026",
+            "CLM-028",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-023",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-023",
+            "CLM-022",
+            "CLM-024",
+            "CLM-021",
+            "CLM-025",
+            "CLM-012",
+            "CLM-014",
+            "CLM-011",
+            "CLM-009",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-024",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "Form E",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-024",
+            "CLM-023",
+            "CLM-022",
+            "CLM-021",
+            "CLM-025",
+            "CLM-010",
+            "CLM-008",
+            "CLM-017",
+            "CLM-014",
+            "CLM-012"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-025",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-FORME",
+            "intent": "scope_gate",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "Form E",
+              "LMO description",
+              "IBC boundary"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-025",
+            "CLM-021",
+            "CLM-024",
+            "CLM-023",
+            "CLM-022",
+            "CLM-016",
+            "CLM-015",
+            "CLM-017",
+            "CLM-028",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-026",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-026",
+            "CLM-027",
+            "CLM-028",
+            "CLM-011",
+            "CLM-022",
+            "CLM-015",
+            "CLM-024",
+            "CLM-012",
+            "CLM-014",
+            "CLM-008"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-027",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "Category A/B",
+              "packaging",
+              "labelling",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-027",
+            "CLM-026",
+            "CLM-028",
+            "CLM-009",
+            "CLM-022",
+            "CLM-012",
+            "CLM-008",
+            "CLM-023",
+            "CLM-010",
+            "CLM-014"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-028",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "TRANSPORT",
+            "intent": "transport_scope",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 2",
+            "safety_sensitive": false,
+            "scope": [
+              "specimen classification",
+              "packaging",
+              "transport"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-028",
+            "CLM-026",
+            "CLM-027",
+            "CLM-011",
+            "CLM-022",
+            "CLM-014",
+            "CLM-025",
+            "CLM-017",
+            "CLM-012",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-031",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-031",
+            "CLM-041",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-013",
+            "CLM-010",
+            "CLM-025",
+            "CLM-022",
+            "CLM-009"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-032",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-032",
+            "CLM-013",
+            "CLM-045",
+            "CLM-023",
+            "CLM-012",
+            "CLM-021",
+            "CLM-011",
+            "CLM-010",
+            "CLM-014",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-033",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-033",
+            "CLM-012",
+            "CLM-021",
+            "CLM-014",
+            "CLM-045",
+            "CLM-013",
+            "CLM-008",
+            "CLM-015",
+            "CLM-009",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-034",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "WHO-BIOSEC",
+            "intent": "biosecurity",
+            "jurisdiction": "International",
+            "preferred_tier": "Tier 3",
+            "safety_sensitive": false,
+            "scope": [
+              "biosecurity",
+              "access",
+              "inventory",
+              "secure handling",
+              "governance"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-034",
+            "CLM-031",
+            "CLM-041",
+            "CLM-036",
+            "CLM-044",
+            "CLM-039",
+            "CLM-038",
+            "CLM-042",
+            "CLM-033",
+            "CLM-040"
+          ],
+          "recall_at_10": 1,
+          "route_ok": true
+        },
+        {
+          "case_id": "C34-H-CLM-036",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-036",
+            "CLM-014",
+            "CLM-012",
+            "CLM-015",
+            "CLM-022",
+            "CLM-037",
+            "CLM-025",
+            "CLM-008",
+            "CLM-026",
+            "CLM-027"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-037",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-037",
+            "CLM-038",
+            "CLM-012",
+            "CLM-013",
+            "CLM-021",
+            "CLM-011",
+            "CLM-023",
+            "CLM-016",
+            "CLM-024",
+            "CLM-025"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-038",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "MY-INCIDENT",
+            "intent": "incident",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [
+              "emergency response",
+              "incident response"
+            ],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-038",
+            "CLM-017",
+            "CLM-015",
+            "CLM-010",
+            "CLM-009",
+            "CLM-008",
+            "CLM-016",
+            "CLM-011",
+            "CLM-028",
+            "CLM-021"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-039",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-039",
+            "CLM-045",
+            "CLM-010",
+            "CLM-015",
+            "CLM-014",
+            "CLM-027",
+            "CLM-022",
+            "CLM-012",
+            "CLM-026",
+            "CLM-016"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-040",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-040",
+            "CLM-012",
+            "CLM-013",
+            "CLM-044",
+            "CLM-014",
+            "CLM-009",
+            "CLM-021",
+            "CLM-025",
+            "CLM-017",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-041",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-041",
+            "CLM-031",
+            "CLM-012",
+            "CLM-013",
+            "CLM-014",
+            "CLM-010",
+            "CLM-009",
+            "CLM-025",
+            "CLM-008",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-042",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-042",
+            "CLM-043",
+            "CLM-014",
+            "CLM-010",
+            "CLM-023",
+            "CLM-017",
+            "CLM-008",
+            "CLM-011",
+            "CLM-026",
+            "CLM-024"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-043",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-043",
+            "CLM-042",
+            "CLM-025",
+            "CLM-012",
+            "CLM-013",
+            "CLM-010",
+            "CLM-014",
+            "CLM-022",
+            "CLM-026",
+            "CLM-011"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-044",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-044",
+            "CLM-012",
+            "CLM-010",
+            "CLM-014",
+            "CLM-008",
+            "CLM-013",
+            "CLM-040",
+            "CLM-028",
+            "CLM-021",
+            "CLM-015"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-H-CLM-045",
+          "case_type": "heldout_claim",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "CLM-045",
+            "CLM-012",
+            "CLM-010",
+            "CLM-023",
+            "CLM-025",
+            "CLM-039",
+            "CLM-013",
+            "CLM-014",
+            "CLM-011",
+            "CLM-009"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        },
+        {
+          "case_id": "C34-FIX-001",
+          "case_type": "new_document_fixture",
+          "first_acceptable_rank": 1,
+          "query_profile": {
+            "domain": "GENERAL",
+            "intent": "general",
+            "jurisdiction": "Malaysia",
+            "preferred_tier": "Tier 1+2",
+            "safety_sensitive": false,
+            "scope": [],
+            "uncertainty_sensitive": false
+          },
+          "ranked_claim_ids": [
+            "FIX-001",
+            "CLM-008",
+            "CLM-015",
+            "CLM-016",
+            "CLM-025",
+            "CLM-017",
+            "CLM-024",
+            "CLM-021",
+            "CLM-023",
+            "CLM-022"
+          ],
+          "recall_at_10": 1,
+          "route_ok": false
+        }
+      ]
+    }
+  },
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "gate_result": "BLOCKED_PENDING_OWNER_REVIEW",
+  "heldout_case_count": 32,
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "new_document_fixture": {
+    "acceptable_claim_ids": [
+      "FIX-001"
+    ],
+    "case_id": "C34-FIX-001",
+    "case_type": "new_document_fixture",
+    "expected_jurisdiction": "International",
+    "query": "The synthetic fixture source describes a documented biosafety training record."
+  },
+  "policy_hash": "0af5a195995c34fd1b6891a54d6cd7ae47981d221f6c0caad664332150f26232",
+  "summary": {
+    "C34_METADATA_CFG01": {
+      "heldout_recall_at_10": 1.0,
+      "heldout_route_accuracy": 0.59375,
+      "metadata_layer_changed_rankings": true,
+      "new_document_recall_at_10": 1
+    },
+    "C34_METADATA_CFG02": {
+      "heldout_recall_at_10": 1.0,
+      "heldout_route_accuracy": 0.59375,
+      "metadata_layer_changed_rankings": true,
+      "new_document_recall_at_10": 1
+    }
+  }
+}
