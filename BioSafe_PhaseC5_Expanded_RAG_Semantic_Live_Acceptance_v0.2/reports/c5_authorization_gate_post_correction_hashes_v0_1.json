@@ -1,0 +1,18 @@
+{
+  "files": {
+    "README.md": "34cf49ece212cd9c349835ce0f70a38cdf082e31db81fe65d1f6c0e1e560c91a",
+    "reports/archive/c5_live_ab_runs_v0_3_checks_misapplied_archive.jsonl": "59c527326fdb66e2e8ef29841074aea00d4f921e987c01e7a147675baa5c9da5",
+    "reports/c5_live_ab_report_v0_3.json": "aa441c43a6f9acffc428fc36224e489ed0f3f5211cc2214a3078e93febebf57c",
+    "scripts/run_c5_live_ab_v0_1.py": "43e2ca9db1045ec3454e2b636fa6e572a7128b84a959914b5a6619cf4858a921",
+    "src/authorization_backstop_v0_1.py": "fb3602106fcad69505d4f8005bb04d7a259a0d70d336ac667b1db044f9466083",
+    "src/authorization_gate_v0_1.py": "ff43bbd37a5fe081e8c7741799dfdd64fdaa344a78fd797fa93ed675ad486d0f",
+    "src/authorization_vocabulary_v0_1.json": "06d7a896185f8aa17be5f7340bb1f270eb3991e9ed8aa0bea2e6bb0f091e0d5c",
+    "src/candidate_inference_service_v0_1.py": "44b18e79cde96da39a8d5c166675fb02347536623b51971f86f6620d4fef2bf3",
+    "tests/test_authorization_backstop_v0_1.py": "b83b0cc29ae06f91aad0cc4afef95de0e607e4baa130dab6c163d213ebc67588",
+    "tests/test_authorization_gate_v0_1.py": "e771151f3419864727ee810d6b1ac6206380beb3ceac2e78306c75836090b3e6",
+    "tests/test_c5_live_ab_contract_v0_1.py": "2b888c9ddf200988b616622c7e61eb9cc18b5f0596b80f99887687046a8bc55c"
+  },
+  "pre_correction_hashes": "/tmp/pre_correction_hashes.txt (evidence artifacts recorded before correction)",
+  "purpose": "post-correction hashes for the C5-only GRD-02 authorization gate correction (additive, candidate path only)",
+  "recorded_at": "2026-09-12T20:47:05+0800"
+}

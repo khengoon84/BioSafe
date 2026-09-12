@@ -1,0 +1,178 @@
+{
+  "artifact_version": "BioSafe_Phase5_C5_Live_Smoke_AB_Report_v0.2",
+  "automated_flags": [],
+  "baseline": {
+    "health": {
+      "frozen_core_modified": false,
+      "port": 8777,
+      "semantic_provenance_gate": true,
+      "stage": "Unified-2.2.5.1 v0.1",
+      "status": "ok"
+    },
+    "http_status": 200,
+    "response": {
+      "_evidence_plan": {
+        "authority_scope": "international_or_foundational",
+        "intent": "educational_answer",
+        "max_evidence": 2,
+        "rationale": "Foundational explanation may use concise authoritative guidance; regulatory sources are not activated by default.",
+        "retrieval_mode": "general_guidance",
+        "retrieval_required": true
+      },
+      "_normalized_intent": "definition",
+      "applicable_authority": [],
+      "direct_answer": "Biosafety is the set of principles, technologies, and practices used to prevent unintentional exposure to biological agents or their accidental release.\n\nThis covers things like hand hygiene, personal protective equipment, safe injection practices, proper waste decontamination, biological safety cabinets, and containment equipment. The specific controls should always be selected through a context-specific risk assessment that considers the agent, the procedures being performed, and the laboratory setting.",
+      "evidence": [],
+      "limitations": [],
+      "missing_information": [],
+      "recommended_next_step": [],
+      "safety": {
+        "classification": "normal",
+        "reason": "General educational answer from curated, non-regulatory concept knowledge.",
+        "response_mode": "answer"
+      },
+      "session_id": "unified-0511666ef588"
+    }
+  },
+  "candidate": {
+    "health": {
+      "active_kb_modified": false,
+      "candidate": "C37_METADATA_CFG02:metadata_off",
+      "candidate_evidence_origin": "C5_REVIEWED_CANDIDATE",
+      "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+      "control_path": "ACTIVE_KB_V0.2_FROZEN_PATH",
+      "frozen_core_modified": false,
+      "hash_errors": [],
+      "inference_enabled": true,
+      "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+      "ollama_call_enabled": true,
+      "stage": "BioSafe C5 candidate inference v0.1",
+      "status": "ok"
+    },
+    "http_status": 200,
+    "response": {
+      "_decision_semantics": {
+        "audit": []
+      },
+      "_evidence_plan": {
+        "authority_scope": "international_or_foundational",
+        "intent": "educational_answer",
+        "max_evidence": 2,
+        "rationale": "Foundational explanation may use concise authoritative guidance; regulatory sources are not activated by default.",
+        "retrieval_mode": "general_guidance",
+        "retrieval_required": true
+      },
+      "_meta": {
+        "boundary_validation": {
+          "decision": "PASS",
+          "issues": [],
+          "warnings": []
+        },
+        "candidate_inference_bridge": true,
+        "candidate_path_id": "C37_METADATA_CFG02:metadata_off",
+        "document_count": 0,
+        "done_reason": "stop",
+        "evidence_origin": "C5_REVIEWED_CANDIDATE",
+        "frozen_core_modified": false,
+        "model": "qwen3.5:0.8b",
+        "model_called": true,
+        "output_validation": {
+          "checks": {
+            "citations_valid": true,
+            "contradiction_check_pass": true,
+            "json_valid": true,
+            "safety_valid": true,
+            "schema_valid": true
+          },
+          "decision": "PASS_WITH_WARNING",
+          "issues": [],
+          "warnings": [
+            "grounding:low_support_recommendation:1"
+          ]
+        },
+        "policy_mode": "STANDARD",
+        "route_reasons": [],
+        "valid_json_first_pass": true,
+        "workflow": "ask"
+      },
+      "_normalized_intent": "educational_answer",
+      "_response_contract": {
+        "audit": [
+          "cleared_missing_information",
+          "cleared_recommended_next_step",
+          "cleared_educational_boilerplate",
+          "normalized_educational_safety"
+        ],
+        "intent": "educational_answer"
+      },
+      "_safety_rationale": {
+        "audit": []
+      },
+      "_scope_audit": {
+        "kept_ids": [
+          "CLM-036",
+          "CLM-045",
+          "CLM-044"
+        ],
+        "removed_ids": []
+      },
+      "_semantic_verifier": {
+        "audit": [],
+        "scoped_evidence_ids": [
+          "CLM-036",
+          "CLM-045",
+          "CLM-044"
+        ]
+      },
+      "_subject_coverage": {
+        "audit": [
+          {
+            "action": "coverage_satisfied_by_structured_evidence",
+            "candidate_path_id": "C37_METADATA_CFG02:metadata_off",
+            "facet": "purpose",
+            "subject": "a biosafety risk assessment",
+            "supporting_evidence_ids": [
+              "CLM-036",
+              "CLM-045",
+              "CLM-044"
+            ]
+          }
+        ]
+      },
+      "applicable_authority": [
+        "World Health Organization"
+      ],
+      "conclusion": "A biosafety risk assessment is a systematic process to gather information and evaluate risks to support risk management. It determines control measures (including training and PPE) by evaluating biological hazard, procedures, equipment, facility, personnel competency, and other factors to assess exposure/likelihood/consequences.",
+      "evidence": [
+        {
+          "evidence_id": "CLM-036",
+          "statement": "WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE. Section 1 – Introduction risk_assessment_purpose"
+        },
+        {
+          "evidence_id": "CLM-045",
+          "statement": "A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences. Risk assessment framework risk_assessment_scope"
+        },
+        {
+          "evidence_id": "CLM-044",
+          "statement": "WHO's risk-based framework does not use PPE alone to establish that an activity is safe: risk assessment determines the control measures needed for the activity, and control selection can include training, PPE, equipment and other containment measures appropriate to the identified risk. Section 1 / risk assessment framework layered_controls"
+        }
+      ],
+      "limitations": [],
+      "missing_information": [],
+      "recommended_next_step": [],
+      "safety": {
+        "classification": "normal",
+        "reason": "",
+        "response_mode": "answer"
+      },
+      "session_id": "unified-c71a40cd8d13"
+    }
+  },
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "query": "What is the purpose of a biosafety risk assessment?",
+  "request_payload": {
+    "query": "What is the purpose of a biosafety risk assessment?"
+  },
+  "result": "READY_FOR_C5_FULL_LIVE_SEMANTIC_SUITE"
+}

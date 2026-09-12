@@ -1,0 +1,26 @@
+{
+  "artifact_version": "BioSafe_Phase5_Environment_Preflight_v0.1",
+  "candidate_service_inference_enabled": true,
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "errors": [],
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "live_execution_performed": false,
+  "models": {
+    "qwen3.5:0.8b": {
+      "digest": "f3817196d142eaf72ce79dfebe53dcb20bd21da87ce13e138a8f8e10a866b3a4",
+      "present": true
+    },
+    "qwen3.5:2b": {
+      "digest": "324d162be6ca5629ae4517c8710434d0bd2d665bc94dbad46e9af8fbf8a2f0df",
+      "present": true
+    }
+  },
+  "ollama_endpoint": "http://127.0.0.1:11434",
+  "ollama_version": "0.34.0",
+  "ports_available": {
+    "8777": true,
+    "8779": true
+  },
+  "reason": "The additive candidate inference bridge is implemented, but live semantic acceptance still requires candidate-service launch, baseline-service verification, and complete semantic/provenance review.",
+  "result": "READY_FOR_C5_LIVE_SERVICE_PREFLIGHT"
+}

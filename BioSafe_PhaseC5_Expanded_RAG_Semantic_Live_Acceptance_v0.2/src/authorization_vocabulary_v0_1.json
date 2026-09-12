@@ -1,0 +1,107 @@
+{
+  "artifact_version": "BioSafe_C5_Authorization_Vocabulary_v0.1",
+  "high_stakes_terms": [
+    "permit",
+    "permits",
+    "approval",
+    "approvals",
+    "authorization",
+    "authorisation",
+    "licence",
+    "license",
+    "exemption",
+    "notification",
+    "permission",
+    "submission requirement",
+    "can i proceed",
+    "can i begin",
+    "can i start",
+    "what do i need to obtain",
+    "biosafety permit",
+    "permit level",
+    "legal to proceed",
+    "am i allowed",
+    "regulatory clearance",
+    "legal",
+    "compliant",
+    "compliance",
+    "requirement",
+    "requirements"
+  ],
+  "educational_terms": [
+    "define",
+    "what is",
+    "what are",
+    "meaning of",
+    "explain",
+    "describe",
+    "what does"
+  ],
+  "project_specific_markers": [
+    "my",
+    "this",
+    "our",
+    "specific project",
+    "described activity"
+  ],
+  "jurisdiction_terms": [
+    "malaysia",
+    "malaysian",
+    "who",
+    "world health organization",
+    "international",
+    "ministry of health"
+  ],
+  "material_triggers": [
+    "lmo",
+    "gmm",
+    "living modified organism",
+    "genetically modified",
+    "contained use",
+    "transport",
+    "clinical specimen",
+    "bsc",
+    "genetic modification",
+    "pathogen",
+    "infectious substance"
+  ],
+  "activity_verbs": [
+    "use",
+    "transfer",
+    "dispose",
+    "conduct",
+    "research",
+    "ship",
+    "transport",
+    "release",
+    "import",
+    "export",
+    "store"
+  ],
+  "authorization_claim_support_types": {
+    "permit": [
+      "permit_requirement"
+    ],
+    "approval": [
+      "approval_requirement"
+    ],
+    "authorization": [
+      "authorization_requirement"
+    ],
+    "authorisation": [
+      "authorization_requirement"
+    ],
+    "licence": [
+      "licence_requirement"
+    ],
+    "license": [
+      "licence_requirement"
+    ],
+    "exemption": [
+      "exemption_requirement"
+    ],
+    "notification": [
+      "notification_requirement"
+    ]
+  }
+}

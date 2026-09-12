@@ -1,0 +1,8 @@
+{
+  "artifact_version": "BioSafe_Phase5_C5_Live_AB_Progress_v0.2",
+  "completed_requests": 2,
+  "expected_requests": 2,
+  "last_case_id": "GRD-02",
+  "last_path": "candidate",
+  "started_at": "2026-09-12T11:52:51.602148+00:00"
+}

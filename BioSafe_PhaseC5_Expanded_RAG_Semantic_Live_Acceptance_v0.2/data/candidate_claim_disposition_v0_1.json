@@ -1,0 +1,12 @@
+{
+  "artifact_version": "BioSafe_Phase5_Candidate_Claim_Disposition_v0.1",
+  "candidate": "C37_METADATA_CFG02:metadata_off",
+  "disposition_rule": "Reviewed 32-claim candidate is evaluated separately; active-only claims are not silently merged.",
+  "active_only_claim_ids": ["CLM-001","CLM-002","CLM-003","CLM-004","CLM-005","CLM-006","CLM-007","CLM-018","CLM-019","CLM-020","CLM-029","CLM-030","CLM-035"],
+  "overlap_claim_count": 32,
+  "candidate_claim_count": 32,
+  "active_claim_count": 45,
+  "active_only_disposition": "RETAIN_FROZEN_ONLY_PENDING_EXPLICIT_REVIEW",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES"
+}

@@ -1,0 +1,14 @@
+{
+  "artifact_version": "BioSafe_Phase5_Frozen_Hash_Manifest_v0.1",
+  "active_kb": {"path": "data/BioSafe_Knowledge_Base_v0.2.json", "sha256": "3d68f8154f6952a33395b253925ee44c2842a046c3c11d55f8c12ee9eb386bb4"},
+  "active_manifest": {"path": "data/BioSafe_Knowledge_Pack_Manifest_v0.1.json", "sha256": "199145afd64b1fb41f38921aba90ac214193f199dda4eb29f649c10eadf11031"},
+  "frozen_components": {
+    "unified_v1/src/biosafe_unified2251/guards.py": "ce7e73346ada291bb8c5323604efc1e779038a2535dee7f5c1e10958261dbb51",
+    "unified_v1/src/biosafe_unified2251/service.py": "b12de53b4547d6a20a25acb1f0acc9abcee22b977e8a3b0434a061df409d33f7",
+    "unified_v1/src/biosafe_unified2251/server.py": "422e9b7a9f1e2ff0afbf59bb81e7cfb91a3875a60cc56d8e24f13b2d10c818fd",
+    "src/full_inference_service_v0_1.py": "57c2406f87c899c92369cc69aa432bd2b90c287f7c20828d05b336565dfdf306",
+    "src/biosafe_pipeline_v0_3_2.py": "a50946bab135666944fd18c338c10d62fc45d1ce8c9870eca6670b77aaa18762",
+    "src/retriever_base.py": "1fb66971c1db9d851645906ea7f7a1f8d02e120d575e894575e265977cce246e",
+    "src/retriever_cfg02_base.py": "5ca5ffee481ded645ec304ab602dc76878e77fde69eabf48e9318a8e9aa260c9"
+  }
+}
