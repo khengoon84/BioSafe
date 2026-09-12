@@ -16,6 +16,7 @@ from candidate_inference_service_v0_1 import CandidateInferenceServiceV01
 from phase_c3_7 import C37CFG02, build_artifacts, retrieval_policy
 from retriever_cfg02_base import BioSafeCFG02
 from biosafe_unified2.core import UnifiedOrchestrator
+from authorization_evidence_readiness_v0_1 import evaluate_evidence_readiness
 
 
 class CandidateRetrievalService:
@@ -26,7 +27,7 @@ class CandidateRetrievalService:
         self.inference=None
 
     def health(self) -> dict[str,Any]:
-        return {"status":"ok","stage":"BioSafe C5 candidate inference v0.1","candidate":"C37_METADATA_CFG02:metadata_off","candidate_evidence_origin":"C5_REVIEWED_CANDIDATE","control_path":"ACTIVE_KB_V0.2_FROZEN_PATH","frozen_core_modified":False,"active_kb_modified":False,"claim_use_status":"REVIEW_REQUIRED_BEFORE_CLAIM_USE","live_activation_status":"PROHIBITED_PENDING_PHASE_C_GATES","inference_enabled":True,"ollama_call_enabled":True,"evaluation_only_serialized_service":True,"hash_errors":validate_hashes()}
+        return {"status":"ok","stage":"BioSafe C5 candidate inference v0.1","candidate":"C37_METADATA_CFG02:metadata_off","candidate_evidence_origin":"C5_REVIEWED_CANDIDATE","control_path":"ACTIVE_KB_V0.2_FROZEN_PATH","frozen_core_modified":False,"active_kb_modified":False,"claim_use_status":"REVIEW_REQUIRED_BEFORE_CLAIM_USE","live_activation_status":"PROHIBITED_PENDING_PHASE_C_GATES","inference_enabled":True,"ollama_call_enabled":True,"evaluation_only_serialized_service":True,"hash_errors":validate_hashes(),"authorization_evidence_readiness":evaluate_evidence_readiness(self.candidate.get("claims",[]))}
 
     def inspect(self, query: str) -> dict[str,Any]:
         case={"case_id":"C5-ADHOC","query":query,"acceptable_claim_ids":[]}

@@ -108,3 +108,13 @@ responses that did not contain a normative authorization claim were recorded
 as `NO_CLAIM`, not treated as evidence of a positive or negative determination.
 The report is diagnostic evidence, not production acceptance; human semantic
 review remains required.
+
+### Authorization evidence readiness
+
+`reports/authorization_evidence_readiness_v0_1.json` is generated from the
+active candidate claim set without mutating it. Its current result is
+`NO_REVIEWED_AUTHORIZATION_CLAIMS`: no positive or negative authorization
+determination is renderable. Candidate health reports this readiness state, and
+the live runner hashes the ontology, typed contracts, verifier, readiness
+checker, and candidate service. Existing generic `notification`, `exemption`,
+and Form E records are not reinterpreted as authorization-requirement evidence.

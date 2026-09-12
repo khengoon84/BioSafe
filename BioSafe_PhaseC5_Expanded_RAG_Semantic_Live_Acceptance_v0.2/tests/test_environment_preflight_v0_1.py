@@ -21,6 +21,10 @@ class EnvironmentPreflightTests(unittest.TestCase):
         if report["models"]["qwen3.5:0.8b"]["present"]:
             self.assertEqual(report["models"]["qwen3.5:0.8b"]["digest"],"f3817196d142eaf72ce79dfebe53dcb20bd21da87ce13e138a8f8e10a866b3a4")
 
+    def test_authorization_evidence_readiness_is_fail_closed_until_reviewed_claims_exist(self):
+        report=evaluate()
+        self.assertFalse(report["live_execution_performed"])
+
 
 if __name__=="__main__":
     unittest.main()

@@ -1,0 +1,24 @@
+{
+  "artifact_version": "BioSafe_C5_Authorization_Evidence_Readiness_v0.1",
+  "authorization_claim_count": 0,
+  "authorization_claim_types": [],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "metadata_complete_count": 0,
+  "missing_required_metadata": {
+    "authority_status": 0,
+    "claim_type": 0,
+    "currentness": 0,
+    "evidence_id": 0,
+    "jurisdiction": 0,
+    "material_or_technology_trigger": 0,
+    "normative_force": 0,
+    "polarity": 0,
+    "specific_activity": 0
+  },
+  "negative_claims_renderable": false,
+  "negative_support_count": 0,
+  "positive_claims_renderable": false,
+  "positive_support_count": 0,
+  "result": "NO_REVIEWED_AUTHORIZATION_CLAIMS"
+}

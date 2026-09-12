@@ -62,7 +62,6 @@ def wait(base):
 def run_provenance():
     import hashlib,sys
     sys.path.insert(0,str(ROOT/"src"))
-    from full_inference_service_v0_1 import OLLAMA_URL
     from full_inference_service_v0_1 import OLLAMA_URL,ComplexityEscalationRouterV01
     # Model tags are read from the frozen router class the engine actually uses;
     # several package copies share this module name, so the class attribute is
@@ -83,6 +82,11 @@ def run_provenance():
             "frozen_hash_manifest":sha(here/"data/frozen_hash_manifest_v0_1.json"),
             "candidate_claim_disposition":sha(here/"data/candidate_claim_disposition_v0_1.json"),
             "authorization_vocabulary":sha(here/"src/authorization_vocabulary_v0_1.json"),
+            "authorization_ontology":sha(here/"src/authorization_ontology_v0_2.json"),
+            "authorization_contracts":sha(here/"src/authorization_contracts_v0_2.py"),
+            "authorization_verifier":sha(here/"src/authorization_verifier_v0_2.py"),
+            "authorization_readiness":sha(here/"src/authorization_evidence_readiness_v0_1.py"),
+            "candidate_inference_service":sha(here/"src/candidate_inference_service_v0_1.py"),
         },
     }
 
