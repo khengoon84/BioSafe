@@ -8,7 +8,7 @@ sys.path.insert(0,str(HERE/"src"))
 from authorization_contracts_v0_2 import FactStatus
 from authorization_verifier_v0_2 import (
     FAIL_CLOSED_MESSAGE, apply_universal_authorization_verifier, load_ontology,
-    verify_authorization_claims,
+    verify_authorization_claims, verify_structured_claims,
 )
 
 
@@ -58,6 +58,32 @@ class AuthorizationVerifierTests(unittest.TestCase):
         self.assertTrue(result.renderable)
         self.assertEqual(result.supported_evidence_ids,("E1",))
 
+    def test_structured_claim_requires_exact_evidence_id_when_declared(self):
+        result=verify_structured_claims([
+            {"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT","polarity":"REQUIRED",
+             "sentence":"A permit is required.","evidence_ids":["E9"]}],
+            [{"evidence_id":"E1","claim_type":"permit_requirement"}],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+        self.assertFalse(result.renderable)
+
+    def test_structured_supported_claim_is_deterministically_rendered(self):
+        response={"conclusion":"The evidence was reviewed.","evidence":[]}
+        claims=[{"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT","polarity":"REQUIRED",
+                 "sentence":"A permit is required.","evidence_ids":["E1"]}]
+        guarded,audit=apply_universal_authorization_verifier(
+            response,[{"evidence_id":"E1","claim_type":"permit_requirement"}],self.CASE,claims)
+        self.assertEqual(guarded["conclusion"],"The reviewed evidence supports that a permit requirement applies to this case.")
+        self.assertEqual(guarded["authorization_assessment"]["status"],"VERIFIED")
+        self.assertEqual(audit,[])
+
+    def test_invalid_structured_claims_fail_closed_even_without_prose_claim(self):
+        response={"conclusion":"The evidence was reviewed.","evidence":[]}
+        guarded,audit=apply_universal_authorization_verifier(
+            response,[],self.CASE,{"kind":"AUTHORIZATION_REQUIREMENT"})
+        self.assertEqual(guarded["authorization_assessment"]["status"],"INSUFFICIENT_EVIDENCE")
+        self.assertFalse(guarded["authorization_assessment"]["renderable"])
+        self.assertEqual(guarded["conclusion"],FAIL_CLOSED_MESSAGE)
+
     def test_definitional_sentence_is_not_a_claim(self):
         guarded,audit=apply_universal_authorization_verifier(
             {"conclusion":"A permit is a legal instrument that authorizes an activity."},[],self.CASE)
@@ -91,6 +117,19 @@ class AuthorizationVerifierTests(unittest.TestCase):
             self.assertEqual(guarded["conclusion"],FAIL_CLOSED_MESSAGE)
         finally:
             service.close()
+
+    def test_candidate_generation_contract_exposes_untrusted_optional_channel(self):
+        from candidate_inference_service_v0_1 import augment_candidate_generation_message
+        message={"role":"user","content":json.dumps({
+            "user_query":"What permit do I need?",
+            "response_schema":{"type":"object","properties":{"conclusion":{"type":"string"}}},
+            "response_contract":"Generate JSON only.",
+        })}
+        payload=json.loads(augment_candidate_generation_message(message)["content"])
+        contract=payload["authorization_claim_contract"]
+        self.assertFalse(contract["required"])
+        self.assertIn("authorization_claim_candidates",payload["response_schema"]["properties"])
+        self.assertIn("never authorizes a conclusion",payload["response_contract"])
 
 
 if __name__=="__main__":

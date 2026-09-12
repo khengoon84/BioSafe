@@ -85,6 +85,15 @@ the source of regulatory truth. Future concepts should be added to this
 ontology and adversarial corpus rather than isolated policy lists in multiple
 services. Unified-225 and Unified-2251 are not migrated in this change.
 
+The candidate-only generation payload also exposes an optional
+`authorization_claim_candidates` array. This is an untrusted structured claim
+channel, not an authority channel: each item must declare `kind`, `concept`,
+`polarity`, `sentence`, and `evidence_ids`, and the verifier checks those IDs
+against compatible scoped evidence before any deterministic rendering. Invalid,
+unknown, unsupported, or absent evidence remains fail-closed. The frozen
+assembler is not modified; C5 preserves this optional field through a runtime
+adapter and then verifies it.
+
 ### Targeted live adversarial evidence
 
 `reports/c5_typed_authorization_adversarial_live_v0_1.jsonl` records a fresh

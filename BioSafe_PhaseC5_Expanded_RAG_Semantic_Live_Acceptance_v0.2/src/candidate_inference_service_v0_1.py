@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import tempfile
 from threading import RLock
 from pathlib import Path
@@ -20,6 +21,41 @@ MISSING_FACT_LABELS={
     "material_or_technology_trigger":"The biological material, organism, or technology involved.",
     "specific_activity":"The specific activity, such as contained use, transport, import, export, or disposal.",
 }
+
+
+def augment_candidate_generation_message(message: dict[str,Any]) -> dict[str,Any]:
+    """Add the optional, untrusted structured-claim contract to a user message."""
+    item=dict(message)
+    if item.get("role")!="user":
+        return item
+    try:
+        payload=json.loads(item.get("content") or "{}")
+    except (TypeError,ValueError):
+        return item
+    payload["authorization_claim_contract"]={
+        "field":"authorization_claim_candidates",
+        "type":"array",
+        "required":False,
+        "instruction":"Emit only untrusted candidate claims; never infer authority from this field. Omit the field when there is no authorization claim candidate.",
+        "item_fields":["kind","concept","polarity","sentence","evidence_ids"],
+    }
+    response_schema=payload.get("response_schema")
+    if isinstance(response_schema,dict):
+        schema=json.loads(json.dumps(response_schema))
+        properties=dict(schema.get("properties") or {})
+        properties["authorization_claim_candidates"]={
+            "type":"array",
+            "items":{"type":"object","required":["kind","concept","polarity","sentence","evidence_ids"],
+                     "properties":{"kind":{"type":"string"},"concept":{"type":["string","null"]},
+                                    "polarity":{"type":"string"},"sentence":{"type":"string"},
+                                    "evidence_ids":{"type":"array","items":{"type":"string"}}}},
+        }
+        schema["properties"]=properties
+        payload["response_schema"]=schema
+    contract=str(payload.get("response_contract") or "")
+    payload["response_contract"]=(contract+"\nOptional authorization_claim_candidates is an untrusted candidate list; omit it when empty. It never authorizes a conclusion. Each candidate must include kind, concept, polarity, sentence, and evidence_ids.").strip()
+    item["content"]=json.dumps(payload,ensure_ascii=False,indent=2)
+    return item
 
 
 class CandidateInferenceServiceV01:
@@ -111,6 +147,7 @@ class CandidateInferenceServiceV01:
         if hasattr(self.service.coverage,"set_plan"):
             self.service.coverage.set_plan(plan.__dict__)
         original_compact=frozen._compact_messages
+        original_assembler=frozen.assemble_biosafe_response
         original_vetted=candidate_service_module.vetted_direct_answer
         original_render=candidate_service_module.render_concept_answer
 
@@ -125,18 +162,29 @@ class CandidateInferenceServiceV01:
                         payload["candidate_path_id"]="C37_METADATA_CFG02:metadata_off"
                         payload["evidence_origin"]="C5_REVIEWED_CANDIDATE"
                         item["content"]=__import__("json").dumps(payload,ensure_ascii=False,indent=2)
+                        item=augment_candidate_generation_message(item)
                     except (TypeError, ValueError, KeyError):
                         pass
                 patched.append(item)
             return patched
 
+        def assemble_with_claim_channel(compact_model_output,*args,**kwargs):
+            assembled=original_assembler(compact_model_output,*args,**kwargs)
+            if isinstance(assembled,dict) and isinstance(compact_model_output,dict):
+                claims=compact_model_output.get("authorization_claim_candidates")
+                if claims is not None:
+                    assembled["authorization_claim_candidates"]=claims
+            return assembled
+
         frozen._compact_messages=compact_with_candidate if plan.retrieval_required else original_compact
+        frozen.assemble_biosafe_response=assemble_with_claim_channel
         candidate_service_module.vetted_direct_answer=(lambda query: None) if plan.retrieval_required else original_vetted
         candidate_service_module.render_concept_answer=(lambda *args, **kwargs: None) if plan.retrieval_required else original_render
         try:
             out=self.service.infer(prepared,documents=documents or [])
         finally:
             frozen._compact_messages=original_compact
+            frozen.assemble_biosafe_response=original_assembler
             candidate_service_module.vetted_direct_answer=original_vetted
             candidate_service_module.render_concept_answer=original_render
         if isinstance(out,dict):
@@ -145,7 +193,8 @@ class CandidateInferenceServiceV01:
             # must not be able to bypass the final authorization screen.
             out,verifier_audit=apply_universal_authorization_verifier(
                 out, evidence=list(out.get("evidence") or []),
-                case_state=prepared.get("case_state") or {})
+                case_state=prepared.get("case_state") or {},
+                structured_claims=out.get("authorization_claim_candidates"))
             if auth.high_stakes:
                 out,backstop_audit=apply_authorization_backstop(out)
             meta=dict(out.get("_meta") or {})

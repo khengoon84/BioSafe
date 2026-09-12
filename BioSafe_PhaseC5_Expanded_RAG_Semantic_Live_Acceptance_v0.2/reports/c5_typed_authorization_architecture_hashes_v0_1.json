@@ -1,13 +1,11 @@
 {
   "files": {
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/README.md": "f6b2cff1115fb34304cc9cfb4c07212b6b2b19122afc7223741d66dd06bef904",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/c5_typed_authorization_adversarial_live_v0_1.jsonl": "a7893f888f50908a89ba14cf5421e65055f548575b9bd50ceee07690bfb4d2e9",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_contracts_v0_2.py": "7bf72c2127207a2175330141518e313be6f09e224a7c2bd9de7bdaf7f7b7b59f",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_ontology_v0_2.json": "7b0b11a58582b45bcd0e0823d31b0bfca91fd3d4de03f43499c0e9c0bc9ed680",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_verifier_v0_2.py": "18b5bd23e769cc54698f3d0b9990a61929ca452b06296252dbe2645158487ed1",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_inference_service_v0_1.py": "653b9ac756fa7d8c1e57591a544602af0b42f89a47abbb4f1a05f92dd72ef092",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/README.md": "afa29540d73f766d7cbfe8a30a8edb8a03ff1e4f5b2f12be5edc38f397123421",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_contracts_v0_2.py": "8ade42df1128dd93b8c37569166b5fe2d6e6703b3f643b91b11f9015d50db0bb",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_verifier_v0_2.py": "0cfb53b8a4004c4e21403289922fa5ab35d3eacbb1a30dfb81855217c39558e0",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_inference_service_v0_1.py": "89a5a03fe95ef4e3bb8fee7a1e9868e50b9f9655aa29aae1e7e6f89c4d83d8a0",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_gate_v0_1.py": "48eb97f62c66189c71bb74040d786e6e269e5c8ac35001fe5c38fa043e823ece",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_verifier_v0_2.py": "b70edbc8eb03c4af035ed21b1469f663217386378ec732dae33ab58fa7cc12d7"
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_verifier_v0_2.py": "bba12654210c3d838617e6dc6950471dfc6ad3e7186292484a7840343afb06ed"
   },
   "live_adversarial_validation": {
     "artifact": "reports/c5_typed_authorization_adversarial_live_v0_1.jsonl",
@@ -26,6 +24,13 @@
   },
   "purpose": "C5 additive typed authorization verification architecture increment",
   "recorded_at": "2026-09-12T22:37:28+0800",
+  "structured_claim_channel": {
+    "field": "authorization_claim_candidates",
+    "live_targeted_validation": "prior adversarial report retained; no new live run required after prompt-only contract extension",
+    "recorded_at": "2026-09-12T23:00:10+0800",
+    "status": "optional_untrusted",
+    "validation": "typed candidate + explicit evidence IDs + deterministic renderer"
+  },
   "validation": {
     "c5_deterministic": "49 tests OK",
     "live": "not run for this increment; prior live authorization probe remains documented separately",

@@ -84,9 +84,70 @@ def _evidence_supports(candidate: AuthorizationClaimCandidate, evidence: list[di
     allowed=set(_ontology()["authorization_concepts"][candidate.concept]["support_claim_types"])
     matched=[]
     for item in evidence:
-        if str(item.get("claim_type") or "").lower() in allowed:
+        if str(item.get("claim_type") or "").lower() in allowed and not item.get("claim_type") in _ontology().get("excluded_support_claim_types",[]):
             matched.append(str(item.get("evidence_id") or ""))
     return bool(matched), tuple(x for x in matched if x)
+
+
+def parse_structured_claims(value: Any) -> tuple[AuthorizationClaimCandidate, ...] | None:
+    """Parse the untrusted model claim channel without granting it authority."""
+    if value is None:
+        return ()
+    if not isinstance(value,list):
+        return None
+    parsed=[]
+    for item in value:
+        candidate=AuthorizationClaimCandidate.from_mapping(item)
+        if candidate is None:
+            return None
+        parsed.append(candidate)
+    return tuple(parsed)
+
+
+def verify_structured_claims(value: Any, evidence: list[dict[str, Any]] | None=None,
+                             case_state: dict[str, Any] | None=None) -> AuthorizationVerification:
+    parsed=parse_structured_claims(value)
+    if parsed is None:
+        return AuthorizationVerification(AuthorizationVerificationStatus.INSUFFICIENT_EVIDENCE,False,
+            ("INVALID_STRUCTURED_AUTHORIZATION_CLAIMS",))
+    if not parsed:
+        return AuthorizationVerification(AuthorizationVerificationStatus.VERIFIED,True,())
+    unknown=tuple(item for item in parsed if item.kind is AuthorizationClaimKind.UNKNOWN_REGULATORY_REQUIREMENT
+                  or item.concept not in _ontology()["authorization_concepts"])
+    if unknown:
+        return AuthorizationVerification(AuthorizationVerificationStatus.UNKNOWN_REGULATORY_REQUIREMENT,False,
+            ("UNKNOWN_AUTHORIZATION_CONCEPT",),unknown)
+    if not _facts_complete(case_state):
+        return AuthorizationVerification(AuthorizationVerificationStatus.INSUFFICIENT_FACTS,False,
+            ("AUTHORIZATION_FACTS_NOT_VERIFIED",),parsed)
+    supported=[]
+    for candidate in parsed:
+        ok,ids=_evidence_supports(candidate,evidence or [])
+        requested=set(candidate.evidence_ids)
+        if requested and not requested.issubset(set(ids)):
+            ok=False
+        if not ok:
+            return AuthorizationVerification(AuthorizationVerificationStatus.INSUFFICIENT_EVIDENCE,False,
+                ("NO_COMPATIBLE_TYPED_EVIDENCE",),parsed,tuple(supported))
+        supported.extend(ids)
+    return AuthorizationVerification(AuthorizationVerificationStatus.VERIFIED,True,(),parsed,tuple(supported))
+
+
+def render_verified_authorization_claims(verification: AuthorizationVerification) -> str:
+    """Render only claims that passed structured evidence verification."""
+    if not verification.renderable or not verification.candidates:
+        return ""
+    labels={"PERMIT":"permit","LICENCE":"licence","APPROVAL":"approval",
+            "AUTHORIZATION":"authorization","EXEMPTION":"exemption","NOTIFICATION":"notification",
+            "REGISTRATION":"registration","CLEARANCE":"clearance","CONSENT":"consent","CERTIFICATE":"certificate"}
+    rendered=[]
+    for candidate in verification.candidates:
+        noun=labels.get(candidate.concept or "",(candidate.concept or "authorization").lower())
+        if candidate.polarity is AuthorizationPolarity.NOT_REQUIRED:
+            rendered.append(f"The reviewed evidence supports that no specific {noun} requirement applies to this case.")
+        else:
+            rendered.append(f"The reviewed evidence supports that a {noun} requirement applies to this case.")
+    return " ".join(rendered)
 
 
 def _facts_complete(case_state: dict[str, Any] | None) -> bool:
@@ -139,18 +200,34 @@ def _case_state_for_verification(case_state: dict[str, Any] | None) -> dict[str,
 
 def apply_universal_authorization_verifier(response: dict[str, Any],
                                            evidence: list[dict[str, Any]] | None=None,
-                                           case_state: dict[str, Any] | None=None) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+                                           case_state: dict[str, Any] | None=None,
+                                           structured_claims: Any=None) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     """Universal final screen. Prose can create candidates, never authority."""
     out=deepcopy(response); evidence=evidence if evidence is not None else list(out.get("evidence") or [])
     audit=[]
     verifications=[]
+    structured_verification=verify_structured_claims(structured_claims,evidence,case_state) if structured_claims is not None else None
+    if structured_verification is not None:
+        verifications.append(structured_verification)
+        if not structured_verification.renderable:
+            out["conclusion"]=FAIL_CLOSED_MESSAGE
+            audit.append({"action":"withhold_invalid_or_unverified_structured_authorization_claims",
+                          "field":"authorization_claim_candidates",
+                          "status":structured_verification.status.value,
+                          "reason_codes":list(structured_verification.reason_codes),
+                          "claims":[candidate.sentence for candidate in structured_verification.candidates]})
     for field in TEXT_FIELDS:
         value=out.get(field)
         if not isinstance(value,str) or not value.strip():
             continue
-        verification=verify_authorization_claims(value,evidence,_case_state_for_verification(case_state))
+        verification=(structured_verification if structured_verification is not None and structured_verification.candidates
+                      else verify_authorization_claims(value,evidence,_case_state_for_verification(case_state)))
         verifications.append(verification)
         if verification.renderable:
+            if structured_verification is not None and structured_verification.candidates:
+                rendered=render_verified_authorization_claims(verification)
+                if rendered:
+                    out[field]=rendered
             continue
         out[field]=FAIL_CLOSED_MESSAGE
         audit.append({"action":"withhold_unverified_authorization_claim","field":field,
@@ -176,8 +253,10 @@ def apply_universal_authorization_verifier(response: dict[str, Any],
     if verifications:
         chosen=next((item for item in verifications if not item.renderable),verifications[0])
         has_candidates=any(item.candidates for item in verifications)
+        structured_invalid=(structured_verification is not None and
+                            not structured_verification.renderable)
         out["authorization_assessment"]={
-            "status":chosen.status.value if has_candidates else "NO_CLAIM",
+            "status":chosen.status.value if (has_candidates or structured_invalid) else "NO_CLAIM",
             "renderable":chosen.renderable,
             "reason_codes":list(chosen.reason_codes),
             "candidate_count":sum(len(item.candidates) for item in verifications),
