@@ -1,0 +1,60 @@
+{
+  "artifact_version": "BioSafe_C5_Authorization_Ontology_v0.2",
+  "authorization_concepts": {
+    "PERMIT": {
+      "surface_terms": ["permit", "permits"],
+      "support_claim_types": ["permit_requirement"]
+    },
+    "LICENCE": {
+      "surface_terms": ["licence", "license", "licences", "licenses"],
+      "support_claim_types": ["licence_requirement"]
+    },
+    "APPROVAL": {
+      "surface_terms": ["approval", "approvals"],
+      "support_claim_types": ["approval_requirement"]
+    },
+    "AUTHORIZATION": {
+      "surface_terms": ["authorization", "authorisation", "authorizations", "authorisations"],
+      "support_claim_types": ["authorization_requirement"]
+    },
+    "EXEMPTION": {
+      "surface_terms": ["exemption", "exemptions"],
+      "support_claim_types": ["exemption_requirement"]
+    },
+    "NOTIFICATION": {
+      "surface_terms": ["notification", "notifications"],
+      "support_claim_types": ["notification_requirement"]
+    },
+    "REGISTRATION": {
+      "surface_terms": ["registration", "register", "registered"],
+      "support_claim_types": ["registration_requirement"]
+    },
+    "CLEARANCE": {
+      "surface_terms": ["clearance", "clearances"],
+      "support_claim_types": ["clearance_requirement"]
+    },
+    "CONSENT": {
+      "surface_terms": ["consent"],
+      "support_claim_types": ["consent_requirement"]
+    },
+    "CERTIFICATE": {
+      "surface_terms": ["certificate", "certification"],
+      "support_claim_types": ["certificate_requirement"]
+    }
+  },
+  "normative_force_terms": [
+    "must", "need to", "needs to", "need a", "need an", "required", "requires", "shall",
+    "necessary", "precondition", "prerequisite", "may only", "cannot proceed",
+    "cannot start", "before starting", "before commencing", "prior to"
+  ],
+  "governance_action_terms": [
+    "submit", "obtain", "apply", "notify", "register", "seek", "request",
+    "secure", "receive", "file", "report", "clearance"
+  ],
+  "governance_actor_terms": [
+    "authority", "department", "ministry", "regulator", "committee",
+    "director general", "biosafety", "government", "institution"
+  ],
+  "excluded_support_claim_types": ["forme", "forme_cbi"],
+  "required_fact_names": ["jurisdiction", "material_or_technology_trigger", "specific_activity"]
+}

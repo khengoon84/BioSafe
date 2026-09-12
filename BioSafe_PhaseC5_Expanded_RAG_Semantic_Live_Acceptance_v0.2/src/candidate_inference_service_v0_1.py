@@ -12,6 +12,7 @@ from phase_c3_7 import C37CFG02
 from evidence_aware_subject_coverage_v0_2 import EvidenceAwareSubjectCoverageGuard
 from authorization_gate_v0_1 import AuthorizationDecision, evaluate_authorization_decision, decision_summary
 from authorization_backstop_v0_1 import FAIL_CLOSED_MESSAGE, apply_authorization_backstop
+from authorization_verifier_v0_2 import apply_universal_authorization_verifier
 
 
 MISSING_FACT_LABELS={
@@ -133,6 +134,11 @@ class CandidateInferenceServiceV01:
             candidate_service_module.render_concept_answer=original_render
         if isinstance(out,dict):
             backstop_audit: list[dict[str,Any]]=[]
+            # The structured verifier is universal: input intent classification
+            # must not be able to bypass the final authorization screen.
+            out,verifier_audit=apply_universal_authorization_verifier(
+                out, evidence=list(out.get("evidence") or []),
+                case_state=prepared.get("case_state") or {})
             if auth.high_stakes:
                 out,backstop_audit=apply_authorization_backstop(out)
             meta=dict(out.get("_meta") or {})
@@ -140,6 +146,8 @@ class CandidateInferenceServiceV01:
             meta["authorization_gate"]=decision_summary(auth)
             if backstop_audit:
                 meta.setdefault("authorization_backstop",backstop_audit)
+            if verifier_audit:
+                meta.setdefault("authorization_verifier",verifier_audit)
             out["_meta"]=meta
         return out
 

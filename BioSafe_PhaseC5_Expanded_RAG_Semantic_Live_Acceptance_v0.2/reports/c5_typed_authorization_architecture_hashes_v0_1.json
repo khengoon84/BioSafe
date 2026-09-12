@@ -1,0 +1,18 @@
+{
+  "files": {
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/README.md": "34a3f28fdb96d8369c49032d426604306a7361dd7b5b5166860a35f5d3df1f99",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_contracts_v0_2.py": "7bf72c2127207a2175330141518e313be6f09e224a7c2bd9de7bdaf7f7b7b59f",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_ontology_v0_2.json": "7b0b11a58582b45bcd0e0823d31b0bfca91fd3d4de03f43499c0e9c0bc9ed680",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_verifier_v0_2.py": "18b5bd23e769cc54698f3d0b9990a61929ca452b06296252dbe2645158487ed1",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_inference_service_v0_1.py": "45f9d8d57717161beef3494bcb54ee93ee34d1f49211c5207a278373988b914d",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_verifier_v0_2.py": "b70edbc8eb03c4af035ed21b1469f663217386378ec732dae33ab58fa7cc12d7"
+  },
+  "purpose": "C5 additive typed authorization verification architecture increment",
+  "recorded_at": "2026-09-12T22:37:28+0800",
+  "validation": {
+    "c5_deterministic": "49 tests OK",
+    "live": "not run for this increment; prior live authorization probe remains documented separately",
+    "pip_check": "clean",
+    "regressions": "CRA3/CRA4/C3.1/C3.6/C3.7/cra_v1 green"
+  }
+}

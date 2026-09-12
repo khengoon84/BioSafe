@@ -56,3 +56,31 @@ The current package intentionally stops at deterministic bridge readiness. Live
 WSL2/Ollama acceptance of the remaining C5 cases is blocked until the candidate
 service bridge and runtime environment are separately verified. Claim use and
 live activation remain prohibited.
+
+## Typed authorization verification (C5 v0.2 additive architecture)
+
+The candidate path also includes a universal final verifier. It does not decide
+regulatory truth from model prose: generated text is an untrusted claim
+candidate and is withheld unless a typed authorization concept, structured case
+facts, and compatible scoped evidence support it.
+
+- `src/authorization_ontology_v0_2.json` is the canonical C5 ontology for
+  authorization concepts, synonyms, normative force, governance actions and
+  actors, evidence claim types, and explicit Form E exclusions.
+- `src/authorization_contracts_v0_2.py` defines provenance-sensitive facts,
+  claim candidates, and verification statuses (`VERIFIED`, `INSUFFICIENT_FACTS`,
+  `INSUFFICIENT_EVIDENCE`, `UNKNOWN_REGULATORY_REQUIREMENT`, and
+  `CONFLICTING_EVIDENCE`).
+- `src/authorization_verifier_v0_2.py` performs candidate detection, typed
+  evidence matching, fail-closed unknown-concept handling, and deterministic
+  assessment metadata. It runs for every generated candidate response, even
+  when the input gate classified the query as `NONE` or educational.
+
+High-stakes conclusions are renderable only for verified typed claims. Query
+text marked `EXTRACTED_UNVERIFIED`, missing facts, conflicting facts,
+unsupported concepts, incompatible claim types, and absent evidence cannot
+authorize a positive or negative determination. The existing regex backstop
+and Unified-225/2251 guards remain compatibility defense-in-depth layers, not
+the source of regulatory truth. Future concepts should be added to this
+ontology and adversarial corpus rather than isolated policy lists in multiple
+services. Unified-225 and Unified-2251 are not migrated in this change.
