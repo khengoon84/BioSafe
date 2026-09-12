@@ -1,0 +1,1499 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_2_Gold_Cases_v0.1",
+  "case_count": 71,
+  "cases": [
+    {
+      "case_id": "C32-P-CLM-008",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-008"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        18,
+        20,
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Contained-use guidance specifies biosafety-level and work-practice expectations, including access restrictions, training, decontamination and incident controls; GM-BSL2 examples include LMO/materials associated with RG2 microorganisms. GM-BSL2 / work practices containment"
+    },
+    {
+      "case_id": "C32-Q-CLM-008",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-008"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        18,
+        20,
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Within Malaysian LMO contained-use guidance, what GM-BSL2 work-practice examples address access, training, waste, and incidents?"
+    },
+    {
+      "case_id": "C32-P-CLM-009",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-009"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Spills/accidents are to be addressed through established reporting and emergency arrangements, with relevant escalation to supervisory/IBC structures. GM-BSL2 work practices incident"
+    },
+    {
+      "case_id": "C32-Q-CLM-009",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-009"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "For a GM-BSL2 spill that may expose people to LMO material, who must be notified and what emergency process applies?"
+    },
+    {
+      "case_id": "C32-P-CLM-010",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-010"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "A Class II biological safety cabinet is identified for work presenting respiratory/aerosol risk within the applicable contained-use context. GM-BSL2 work practices equipment"
+    },
+    {
+      "case_id": "C32-Q-CLM-010",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-010"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "When contained-use work presents an aerosol or respiratory risk, what equipment does the Malaysian guidance identify?"
+    },
+    {
+      "case_id": "C32-P-CLM-011",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-011"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        18,
+        21,
+        73,
+        77,
+        78,
+        83,
+        84
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Contained-use guidance covers safe handling, hazardous biological waste treatment, disposal, transfer/transport, storage and minimum facility/equipment requirements. contained-use scope waste"
+    },
+    {
+      "case_id": "C32-Q-CLM-011",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-011"
+      ],
+      "expected_document_ids": [
+        "KB-MY-CU"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        18,
+        21,
+        73,
+        77,
+        78,
+        83,
+        84
+      ],
+      "expected_source_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What does the Malaysian contained-use guidance cover for biological waste handling, disposal, transfer, storage, and facility needs?"
+    },
+    {
+      "case_id": "C32-P-CLM-012",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-012"
+      ],
+      "expected_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "GMM risk assessment considers hazards, exposure/release, risk controls and BSL assignment, and addresses relevant human, animal, plant and environmental risks. risk-assessment framework risk_assessment"
+    },
+    {
+      "case_id": "C32-Q-CLM-012",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-012"
+      ],
+      "expected_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "For a Malaysian GMM, which hazards, exposure or release routes, controls, and BSL considerations belong in risk assessment?"
+    },
+    {
+      "case_id": "C32-P-CLM-013",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-013"
+      ],
+      "expected_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        22,
+        23
+      ],
+      "expected_source_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "A defensible risk assessment should contain enough background and detail for reviewers to understand hazards; potential hazards should be acknowledged and uncertainty considered. risk-assessment detail uncertainty"
+    },
+    {
+      "case_id": "C32-Q-CLM-013",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-013"
+      ],
+      "expected_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        22,
+        23
+      ],
+      "expected_source_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What background detail and treatment of uncertainty should reviewers see in a defensible Malaysian GMM assessment?"
+    },
+    {
+      "case_id": "C32-P-CLM-014",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-014"
+      ],
+      "expected_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        23
+      ],
+      "expected_source_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Risk assessment should be reviewed and updated as appropriate rather than treated as a one-time unsupported conclusion. review/update risk_review"
+    },
+    {
+      "case_id": "C32-Q-CLM-014",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-014"
+      ],
+      "expected_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        23
+      ],
+      "expected_source_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Should a Malaysian GMM risk assessment be revisited over time rather than treated as final?"
+    },
+    {
+      "case_id": "C32-P-CLM-015",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-015"
+      ],
+      "expected_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        9,
+        26
+      ],
+      "expected_source_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "IBC functions include assessment/monitoring of facilities, procedures, practices, training and expertise, containment-level assessment, form completeness, emergency response and reporting of significant incidents/noncompliance. IBC functions ibc"
+    },
+    {
+      "case_id": "C32-Q-CLM-015",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-015"
+      ],
+      "expected_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        9,
+        26
+      ],
+      "expected_source_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What facilities, procedures, training, containment, forms, incidents, and emergency matters fall within Malaysian IBC functions?"
+    },
+    {
+      "case_id": "C32-P-CLM-016",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-016"
+      ],
+      "expected_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        16,
+        18
+      ],
+      "expected_source_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "The PI is accountable to the IBC and must comply with applicable biosafety laws and guidelines. PI responsibilities pi_accountability"
+    },
+    {
+      "case_id": "C32-Q-CLM-016",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-016"
+      ],
+      "expected_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        16,
+        18
+      ],
+      "expected_source_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What is the principal investigator's accountability relationship to the Malaysian IBC and biosafety rules?"
+    },
+    {
+      "case_id": "C32-P-CLM-017",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-017"
+      ],
+      "expected_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        14,
+        33,
+        36
+      ],
+      "expected_source_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "The IBC guidance specifies incident-reporting routes and timeframes for relevant incidents/occupational exposures; BioSafe should direct users to the applicable institutional/IBC process rather than invent a response. incident reporting incident"
+    },
+    {
+      "case_id": "C32-Q-CLM-017",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-017"
+      ],
+      "expected_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        14,
+        33,
+        36
+      ],
+      "expected_source_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Where should a relevant incident or occupational exposure be reported under the Malaysian IBC guidance?"
+    },
+    {
+      "case_id": "C32-P-CLM-021",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-021"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        213
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Form E asks for activity-related human-health risks, hazards, likelihood/consequence and risks from unintentional release to human health/environment. A4.1 risk_assessment"
+    },
+    {
+      "case_id": "C32-Q-CLM-021",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-021"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        213
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Which human-health and unintentional-release risks does the Form E risk section ask applicants to describe?"
+    },
+    {
+      "case_id": "C32-P-CLM-022",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-022"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        214
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures. A4.2–A4.3 risk_management"
+    },
+    {
+      "case_id": "C32-Q-CLM-022",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-022"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        214
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "In Form E, what precautions concern off-site transport, decontamination, disposal, isolation, and contingencies?"
+    },
+    {
+      "case_id": "C32-P-CLM-023",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-023"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        215
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Form E includes premises/facility details such as name/type/BSL and relevant inspection/certification/contact/BSO information. Premises/facility facility"
+    },
+    {
+      "case_id": "C32-Q-CLM-023",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-023"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        215
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What premises and facility identification, BSL, inspection, certification, and BSO details does Form E request?"
+    },
+    {
+      "case_id": "C32-P-CLM-024",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-024"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        204
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Form E provides for confidential business information claims and justification where applicable. CBI forme_cbi"
+    },
+    {
+      "case_id": "C32-Q-CLM-024",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-024"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        204
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "How does Form E address confidential business information and the justification for keeping it confidential?"
+    },
+    {
+      "case_id": "C32-P-CLM-025",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-025"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        208
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring. IBC Assessment Report scope_boundary"
+    },
+    {
+      "case_id": "C32-Q-CLM-025",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-025"
+      ],
+      "expected_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        208
+      ],
+      "expected_source_ids": [
+        "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Who completes the IBC Assessment Report in the Form E process, and is it a researcher field?"
+    },
+    {
+      "case_id": "C32-P-CLM-026",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-026"
+      ],
+      "expected_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        11,
+        17,
+        32
+      ],
+      "expected_source_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "The 2023 MOH guideline covers safe transport of clinical specimens and infectious substances, including classification and packaging/labelling/marking requirements. scope/classification transport"
+    },
+    {
+      "case_id": "C32-Q-CLM-026",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-026"
+      ],
+      "expected_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        11,
+        17,
+        32
+      ],
+      "expected_source_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "According to Malaysia's 2023 MOH document, how are clinical specimens and infectious substances classified and packaged for transport?"
+    },
+    {
+      "case_id": "C32-P-CLM-027",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-027"
+      ],
+      "expected_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        17,
+        18,
+        22,
+        24,
+        26
+      ],
+      "expected_source_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts. triple packaging transport"
+    },
+    {
+      "case_id": "C32-Q-CLM-027",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-027"
+      ],
+      "expected_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        17,
+        18,
+        22,
+        24,
+        26
+      ],
+      "expected_source_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What triple-packaging practice does the 2023 Malaysian clinical-specimen transport guideline describe?"
+    },
+    {
+      "case_id": "C32-P-CLM-028",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-028"
+      ],
+      "expected_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        11
+      ],
+      "expected_source_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "The MOH clinical-specimen transport guideline does not serve as the clinical-waste guideline; clinical waste and chemical waste are outside its scope. scope exclusion transport_scope"
+    },
+    {
+      "case_id": "C32-Q-CLM-028",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-028"
+      ],
+      "expected_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "expected_jurisdiction": "Malaysia",
+      "expected_pages": [
+        11
+      ],
+      "expected_source_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What is the scope boundary between the Malaysian clinical-specimen transport guidance and waste disposal rules?"
+    },
+    {
+      "case_id": "C32-P-CLM-031",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-031"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        19,
+        22
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO LBM4 uses an evidence- and risk-based approach in which safety measures are balanced against the actual risk of the activity on a case-by-case basis. core risk approach risk_assessment"
+    },
+    {
+      "case_id": "C32-Q-CLM-031",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-031"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        19,
+        22
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "How does WHO LBM4 balance biosafety measures against the actual activity risk on a case-by-case basis?"
+    },
+    {
+      "case_id": "C32-P-CLM-032",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-032"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        20
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Risk assessment requires information on biological hazards, procedures, equipment, facility and human competency; knowledge gaps negatively affect evaluation and control selection. information gathering uncertainty"
+    },
+    {
+      "case_id": "C32-Q-CLM-032",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-032"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        20
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "In WHO LBM4 risk assessment, how do missing information about hazards, procedures, equipment, facility, or competence affect evaluation?"
+    },
+    {
+      "case_id": "C32-P-CLM-033",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-033"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        20,
+        21
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Risk evaluation considers how exposure/release could occur, likelihood, consequences and whether risks can be controlled to an acceptable level. risk evaluation risk_assessment"
+    },
+    {
+      "case_id": "C32-Q-CLM-033",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-033"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        20,
+        21
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "How does WHO evaluate exposure or release likelihood, consequences, and whether laboratory risk can be controlled?"
+    },
+    {
+      "case_id": "C32-P-CLM-034",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-034"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-BIOSEC"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        21,
+        23
+      ],
+      "expected_source_ids": [
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_23"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO's 2024 laboratory biosecurity guidance applies a risk- and evidence-based approach to biosecurity, including governance, secure handling, transport/storage and high-consequence research risk management. 2024 guidance biosecurity"
+    },
+    {
+      "case_id": "C32-Q-CLM-034",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-034"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-BIOSEC"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        21,
+        23
+      ],
+      "expected_source_ids": [
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_23"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What risk-based governance and secure-handling topics does WHO's 2024 laboratory biosecurity guidance cover?"
+    },
+    {
+      "case_id": "C32-P-CLM-036",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-036"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE. Section 1 – Introduction risk_assessment_purpose"
+    },
+    {
+      "case_id": "C32-Q-CLM-036",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-036"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What is the purpose of WHO biological risk assessment and how do its results inform controls, training, and PPE?"
+    },
+    {
+      "case_id": "C32-P-CLM-037",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-037"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "In laboratory biosafety, WHO describes a biological hazard as a biological agent whose pathogenic characteristics give it the potential to cause harm to people, animals and/or the environment. Section 1 – Introduction hazard_definition"
+    },
+    {
+      "case_id": "C32-Q-CLM-037",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-037"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "How does WHO define a biological hazard in laboratory biosafety?"
+    },
+    {
+      "case_id": "C32-P-CLM-038",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-038"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO defines biological risk in context as the combination of the likelihood that an exposure to or release of a biological hazard occurs during laboratory work and the severity of the consequences if that incident occurs. Section 1 – Introduction risk_definition"
+    },
+    {
+      "case_id": "C32-Q-CLM-038",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-038"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "How does WHO define biological risk using likelihood of exposure or release and consequence severity?"
+    },
+    {
+      "case_id": "C32-P-CLM-039",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-039"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO notes that laboratory biological risk depends on dynamic factors including the procedures performed, equipment available, pathogenic properties of the biological agent, host range, population susceptibility and the competency of laboratory personnel. Section 1 – Introduction risk_factors"
+    },
+    {
+      "case_id": "C32-Q-CLM-039",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-039"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Which procedure, equipment, agent, host, population, and personnel factors affect WHO's laboratory biological risk?"
+    },
+    {
+      "case_id": "C32-P-CLM-040",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-040"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO risk assessment requires risk control measures to be selected for the specific activity and then considers residual risk and whether the selected measures are available, effective and sustainable. Step 4 – Select and implement risk control measures risk_control_selection"
+    },
+    {
+      "case_id": "C32-Q-CLM-040",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-040"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        21
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "How should WHO risk controls be selected for a specific activity and checked for residual risk, effectiveness, and sustainability?"
+    },
+    {
+      "case_id": "C32-P-CLM-041",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-041"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        19,
+        26
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO LBM4 uses an evidence- and risk-based approach so that safety measures are balanced against the actual risk of work with biological agents on a case-by-case basis; a proper risk assessment should be performed before activities and should inform risk control measures. Core evidence- and risk-based approach activity_specific_controls"
+    },
+    {
+      "case_id": "C32-Q-CLM-041",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-041"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        19,
+        26
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Before laboratory work begins, how does WHO LBM4 say risk assessment should inform activity-specific controls?"
+    },
+    {
+      "case_id": "C32-P-CLM-042",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-042"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        29
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO places PPE within broader laboratory biosafety core requirements rather than treating PPE as a complete safety determination. Core requirements include good microbiological practice and procedure, with PPE such as laboratory coats, footwear, gloves and eye protection used as applicable. Section 3 – PPE for core requirements ppe_role"
+    },
+    {
+      "case_id": "C32-Q-CLM-042",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-042"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        29
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What place does laboratory clothing, gloves, eye protection, and other PPE have within WHO core biosafety requirements?"
+    },
+    {
+      "case_id": "C32-P-CLM-043",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-043"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        29,
+        33,
+        35
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO indicates that some PPE needs are determined by risk assessment; for example, respiratory protection for biological agents is not a general core requirement and becomes a heightened control measure when the risk assessment indicates it is needed. Section 3 – PPE for core requirements ppe_risk_based_selection"
+    },
+    {
+      "case_id": "C32-Q-CLM-043",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-043"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        29,
+        33,
+        35
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "When does WHO indicate that respiratory protection may be needed beyond general core PPE requirements?"
+    },
+    {
+      "case_id": "C32-P-CLM-044",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-044"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        11,
+        15,
+        28
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
+        "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "WHO's risk-based framework does not use PPE alone to establish that an activity is safe: risk assessment determines the control measures needed for the activity, and control selection can include training, PPE, equipment and other containment measures appropriate to the identified risk. Section 1 / risk assessment framework layered_controls"
+    },
+    {
+      "case_id": "C32-Q-CLM-044",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-044"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        11,
+        15,
+        28
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
+        "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "Why does WHO not treat PPE alone as sufficient to establish that a laboratory activity is safe?"
+    },
+    {
+      "case_id": "C32-P-CLM-045",
+      "case_type": "positive",
+      "expected_claim_ids": [
+        "CLM-045"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15,
+        20
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences. Risk assessment framework risk_assessment_scope"
+    },
+    {
+      "case_id": "C32-Q-CLM-045",
+      "case_type": "paraphrase",
+      "expected_claim_ids": [
+        "CLM-045"
+      ],
+      "expected_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "expected_jurisdiction": "International",
+      "expected_pages": [
+        15,
+        20
+      ],
+      "expected_source_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [],
+      "query": "What biological hazard, work procedure, equipment, facility, competence, exposure, likelihood, and consequence factors belong in a comprehensive WHO assessment?"
+    },
+    {
+      "case_id": "C32-B-WHO-not-Malaysian-law",
+      "case_type": "boundary_control",
+      "expected_claim_ids": [],
+      "expected_document_ids": [],
+      "expected_jurisdiction": "System",
+      "expected_pages": [],
+      "expected_source_ids": [],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [
+        "KB-MY-ACT678",
+        "KB-MY-REG2010"
+      ],
+      "query": "Is WHO laboratory biosafety guidance Malaysian law?"
+    },
+    {
+      "case_id": "C32-B-handling-not-transport",
+      "case_type": "boundary_control",
+      "expected_claim_ids": [],
+      "expected_document_ids": [],
+      "expected_jurisdiction": "System",
+      "expected_pages": [],
+      "expected_source_ids": [],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "query": "Does laboratory handling guidance establish clinical specimen transport requirements?"
+    },
+    {
+      "case_id": "C32-B-transport-not-containment",
+      "case_type": "boundary_control",
+      "expected_claim_ids": [],
+      "expected_document_ids": [],
+      "expected_jurisdiction": "System",
+      "expected_pages": [],
+      "expected_source_ids": [],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [
+        "KB-MY-CU"
+      ],
+      "query": "Does a clinical specimen transport guideline establish laboratory containment level?"
+    },
+    {
+      "case_id": "C32-B-generic-GM-not-LMO",
+      "case_type": "boundary_control",
+      "expected_claim_ids": [],
+      "expected_document_ids": [],
+      "expected_jurisdiction": "System",
+      "expected_pages": [],
+      "expected_source_ids": [],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [
+        "KB-MY-CU"
+      ],
+      "query": "Does generic genetic modification by itself establish LMO status?"
+    },
+    {
+      "case_id": "C32-B-biological-waste-not-SW404",
+      "case_type": "boundary_control",
+      "expected_claim_ids": [],
+      "expected_document_ids": [],
+      "expected_jurisdiction": "System",
+      "expected_pages": [],
+      "expected_source_ids": [],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [
+        "KB-MY-SW2005"
+      ],
+      "query": "Is all biological laboratory waste automatically SW 404 scheduled waste?"
+    },
+    {
+      "case_id": "C32-B-BSC-not-level",
+      "case_type": "boundary_control",
+      "expected_claim_ids": [],
+      "expected_document_ids": [],
+      "expected_jurisdiction": "System",
+      "expected_pages": [],
+      "expected_source_ids": [],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [
+        "KB-MY-CU"
+      ],
+      "query": "Does a Class II biological safety cabinet by itself establish the biosafety level?"
+    },
+    {
+      "case_id": "C32-B-Form-E-not-approval",
+      "case_type": "boundary_control",
+      "expected_claim_ids": [],
+      "expected_document_ids": [],
+      "expected_jurisdiction": "System",
+      "expected_pages": [],
+      "expected_source_ids": [],
+      "forbidden_claim_ids": [],
+      "forbidden_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "query": "Does Form E itself constitute approval to begin work?"
+    }
+  ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES"
+}

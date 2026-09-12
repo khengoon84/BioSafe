@@ -1,0 +1,71 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_Benchmark_Manifest_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "records": [
+    {
+      "authority_tier": 2,
+      "must_cite": true,
+      "record_id": "KB-MY-CU",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 2,
+      "must_cite": true,
+      "record_id": "KB-MY-FORME",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 2,
+      "must_cite": true,
+      "record_id": "KB-MY-GMMRA",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 2,
+      "must_cite": true,
+      "record_id": "KB-MY-IBC",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 2,
+      "must_cite": true,
+      "record_id": "KB-MY-TRANSPORT2023",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 3,
+      "must_cite": true,
+      "record_id": "KB-WHO-BIOSEC",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 3,
+      "must_cite": true,
+      "record_id": "KB-WHO-LBM4",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 3,
+      "must_cite": true,
+      "record_id": "KB-WHO-LBM4-PPE",
+      "retrieval_priority": 90,
+      "scope": []
+    },
+    {
+      "authority_tier": 3,
+      "must_cite": true,
+      "record_id": "KB-WHO-LBM4-RA",
+      "retrieval_priority": 90,
+      "scope": []
+    }
+  ],
+  "version": "C3-v0.1"
+}
