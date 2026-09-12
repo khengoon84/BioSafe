@@ -126,3 +126,10 @@ scope, authority, or currentness fields. Current entries are CLM-005 and
 CLM-007; CLM-006 is explicitly excluded because notification quality is not
 authorization-requirement evidence. The queue also records that Act 678
 amendment/currentness review and the 2019 Schedule reconciliation remain open.
+
+Offline extraction packet: `reports/authorization_claim_source_extraction_packet_v0_1.json`.
+This preserves source excerpts from the staged `KB-MY-REG2010` PDF for
+Regulation 16 and Regulation 2/First Schedule, with PDF page indices and the
+verified staged-file SHA-256. The packet is review material only: CLM-005 and
+CLM-007 remain unapproved, their polarity/scope/currentness fields remain
+unresolved, and no excerpt is connected to live retrieval.
