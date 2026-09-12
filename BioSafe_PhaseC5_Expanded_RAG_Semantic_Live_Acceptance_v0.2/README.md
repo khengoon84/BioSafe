@@ -118,3 +118,11 @@ determination is renderable. Candidate health reports this readiness state, and
 the live runner hashes the ontology, typed contracts, verifier, readiness
 checker, and candidate service. Existing generic `notification`, `exemption`,
 and Form E records are not reinterpreted as authorization-requirement evidence.
+
+The offline queue in `reports/authorization_claim_review_queue_v0_1.json`
+contains only source-backed candidates for human claim-level review. It does
+not promote claims, connect to live retrieval, or fill unresolved polarity,
+scope, authority, or currentness fields. Current entries are CLM-005 and
+CLM-007; CLM-006 is explicitly excluded because notification quality is not
+authorization-requirement evidence. The queue also records that Act 678
+amendment/currentness review and the 2019 Schedule reconciliation remain open.

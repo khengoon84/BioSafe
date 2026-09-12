@@ -37,15 +37,18 @@
     "result": "NO_REVIEWED_AUTHORIZATION_CLAIMS"
   },
   "files": {
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/README.md": "ab1f8896632252309a0ed35436e979190a7eb1a20aee54e9f216e5eba9e95c3e",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/README.md": "367441be4060d865479f347bbd60dd0cab46a16db3b94d6d9c5dc68254273502",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/authorization_claim_review_queue_v0_1.json": "c588b671d4a81de58bdce91604101640440fcb37c2acfc35777b9f872612277b",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/reports/authorization_evidence_readiness_v0_1.json": "cc7f10e37bc63086e9afb1e0a704a1ce348aff111e7d9a2eeb8064facdc64123",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/scripts/run_c5_live_ab_v0_1.py": "8e4fe6fddd1eae576a2ca0045da5f6f1a199ef04c652d612d83be6f94e496a34",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/scripts/run_c5_live_ab_v0_1.py": "9beb4de7b5bd41cc94a46b4c47d191fffabf1b88a36ebc7171dc631b1535c756",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_claim_review_queue_v0_1.py": "ffd7db72f0b91138f658746bf7eff0696e6e023b08e853c73b16d39effe7fa97",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_contracts_v0_2.py": "3f04848b14aff678eb63077fbe8fab2b44c02ac14913e9caefce1b5b9d910063",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_evidence_readiness_v0_1.py": "e9bec9df394a93eef6268101ca0d7603eceddd0054d03bae3f8daba9b4c44501",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_ontology_v0_2.json": "7331a03b0febed436240bde083b341a536eefc82e26e46543bb8874c208fe14f",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_verifier_v0_2.py": "0ba2cb5171e91f26caba41ec79a5db7c8073604799ea2321dd50ca60c16367c5",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_inference_service_v0_1.py": "71a02363b78bec592851834a631eed622e4dd1f6a6eb080f90edc71608985dee",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_service_v0_1.py": "3c62a22e8e72df6798b3082f7b00d70b6049db5aa7a297308315614228c49e39",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_claim_review_queue_v0_1.py": "4af03dc20de75a2a348bc99fd7813d417b73202105cf1e487d17c5afcd24f1a1",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_evidence_readiness_v0_1.py": "514d57998b35e9a1969e100f9b47df2fe716412a7b132a1fb5d5e10f1a98cb9c",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_verifier_v0_2.py": "bbe576cd575c183bebed4d7fa22c72768a9e07c767bb8b3604c35cabdf7f656b",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_environment_preflight_v0_1.py": "038eb4d4f32ebcd0a9ecb8cc09ae131168d0c8dea7d507012e0b00720ed3c523"
@@ -64,6 +67,20 @@
     ],
     "recorded_at": "2026-09-12T22:47:15+0800",
     "result": "authorization safety cases fail-closed; no positive authorization claim emitted"
+  },
+  "offline_claim_review_queue": {
+    "artifact": "reports/authorization_claim_review_queue_v0_1.json",
+    "entries": [
+      "CLM-005",
+      "CLM-007"
+    ],
+    "excluded": [
+      "CLM-006"
+    ],
+    "live_retrieval_connected": false,
+    "promotion": "NOT_PROMOTED",
+    "recorded_at": "2026-09-12T23:48:17+0800",
+    "result": "PENDING_CLAIM_LEVEL_REVIEW"
   },
   "purpose": "C5 additive typed authorization verification architecture increment",
   "recorded_at": "2026-09-12T22:37:28+0800",

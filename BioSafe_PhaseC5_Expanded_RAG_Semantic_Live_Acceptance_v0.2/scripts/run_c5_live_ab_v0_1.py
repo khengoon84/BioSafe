@@ -86,6 +86,8 @@ def run_provenance():
             "authorization_contracts":sha(here/"src/authorization_contracts_v0_2.py"),
             "authorization_verifier":sha(here/"src/authorization_verifier_v0_2.py"),
             "authorization_readiness":sha(here/"src/authorization_evidence_readiness_v0_1.py"),
+            "authorization_claim_review_queue":sha(here/"src/authorization_claim_review_queue_v0_1.py"),
+            "authorization_claim_review_queue_report":sha(here/"reports/authorization_claim_review_queue_v0_1.json"),
             "candidate_inference_service":sha(here/"src/candidate_inference_service_v0_1.py"),
         },
     }

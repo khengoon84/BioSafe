@@ -1,0 +1,87 @@
+{
+  "active_kb_modified": false,
+  "artifact_version": "BioSafe_C5_Authorization_Claim_Review_Queue_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "excluded_related_claims": [
+    {
+      "claim_type": "notification_quality",
+      "document_id": "KB-MY-REG2010",
+      "promotion_status": "EXCLUDED_FROM_AUTHORIZATION_QUEUE",
+      "reason": "Procedural/quality statement is not by itself evidence of an authorization requirement.",
+      "source_claim_id": "CLM-006"
+    }
+  ],
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "live_retrieval_connected": false,
+  "purpose": "Offline human-review queue only; no claim in this artifact is approved, authoritative, or connected to live retrieval.",
+  "queue_entries": [
+    {
+      "authority_status": null,
+      "blocking_reasons": [
+        "CONCEPT_AND_POLARITY_REQUIRE_ATOMIC_REVIEW",
+        "CASE_SCOPE_NOT_ESTABLISHED_BY_SOURCE_CLAIM_ALONE",
+        "CURRENTNESS_OR_AMENDMENT_RECONCILIATION_REQUIRED",
+        "REQUIRED_TYPED_EVIDENCE_METADATA_NOT_YET_APPROVED"
+      ],
+      "candidate_concept": null,
+      "candidate_normative_force": null,
+      "candidate_polarity": null,
+      "currentness": "UNRESOLVED",
+      "document_id": "KB-MY-REG2010",
+      "human_review_status": "PENDING_CLAIM_LEVEL_REVIEW",
+      "jurisdiction": null,
+      "material_or_technology_trigger": null,
+      "promotion_status": "NOT_PROMOTED",
+      "queue_id": "AUTH-REVIEW-CLM-005",
+      "source_claim_id": "CLM-005",
+      "source_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "source_page": "20–30",
+      "source_section": "Reg. 16",
+      "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "source_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "source_text": "Specified activities require prior notification, with submission arrangements involving the Director General and, where applicable, the IBC.",
+      "specific_activity": null,
+      "support_spans": []
+    },
+    {
+      "authority_status": null,
+      "blocking_reasons": [
+        "CONCEPT_AND_POLARITY_REQUIRE_ATOMIC_REVIEW",
+        "CASE_SCOPE_NOT_ESTABLISHED_BY_SOURCE_CLAIM_ALONE",
+        "CURRENTNESS_OR_AMENDMENT_RECONCILIATION_REQUIRED",
+        "REQUIRED_TYPED_EVIDENCE_METADATA_NOT_YET_APPROVED"
+      ],
+      "candidate_concept": null,
+      "candidate_normative_force": null,
+      "candidate_polarity": null,
+      "currentness": "UNRESOLVED",
+      "document_id": "KB-MY-REG2010",
+      "human_review_status": "PENDING_CLAIM_LEVEL_REVIEW",
+      "jurisdiction": null,
+      "material_or_technology_trigger": null,
+      "promotion_status": "NOT_PROMOTED",
+      "queue_id": "AUTH-REVIEW-CLM-007",
+      "source_claim_id": "CLM-007",
+      "source_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "source_page": "Schedules",
+      "source_section": "First Schedule",
+      "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "source_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "source_text": "The First Schedule contains contained-use exemptions with specified host/vector systems and criteria; exemption cannot be inferred merely from a generic 'low risk' statement.",
+      "specific_activity": null,
+      "support_spans": []
+    }
+  ],
+  "source_level_follow_up": [
+    {
+      "document_id": "KB-MY-ACT678",
+      "status": "NOT_STARTED",
+      "task": "Extract and reconcile candidate authorization provisions from the owner-designated canonical source."
+    },
+    {
+      "document_id": "KB-MY-REG2010",
+      "status": "BLOCKED_PENDING_AMENDMENT_RECONCILIATION",
+      "task": "Reconcile the 2019 Schedule amendment before any notification/approval claim can be considered."
+    }
+  ]
+}
