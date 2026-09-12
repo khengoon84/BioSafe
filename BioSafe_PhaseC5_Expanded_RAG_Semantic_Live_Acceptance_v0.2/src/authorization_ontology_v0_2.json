@@ -3,43 +3,63 @@
   "authorization_concepts": {
     "PERMIT": {
       "surface_terms": ["permit", "permits"],
-      "support_claim_types": ["permit_requirement"]
+      "support_claim_types": ["permit_requirement"],
+      "positive_support_claim_types": ["permit_requirement"],
+      "negative_support_claim_types": ["permit_not_required", "permit_exemption"]
     },
     "LICENCE": {
       "surface_terms": ["licence", "license", "licences", "licenses"],
-      "support_claim_types": ["licence_requirement"]
+      "support_claim_types": ["licence_requirement"],
+      "positive_support_claim_types": ["licence_requirement"],
+      "negative_support_claim_types": ["licence_not_required", "licence_exemption"]
     },
     "APPROVAL": {
       "surface_terms": ["approval", "approvals"],
-      "support_claim_types": ["approval_requirement"]
+      "support_claim_types": ["approval_requirement"],
+      "positive_support_claim_types": ["approval_requirement"],
+      "negative_support_claim_types": ["approval_not_required", "approval_exemption"]
     },
     "AUTHORIZATION": {
       "surface_terms": ["authorization", "authorisation", "authorizations", "authorisations"],
-      "support_claim_types": ["authorization_requirement"]
+      "support_claim_types": ["authorization_requirement"],
+      "positive_support_claim_types": ["authorization_requirement"],
+      "negative_support_claim_types": ["authorization_not_required", "authorization_exemption"]
     },
     "EXEMPTION": {
       "surface_terms": ["exemption", "exemptions"],
-      "support_claim_types": ["exemption_requirement"]
+      "support_claim_types": ["exemption_requirement"],
+      "positive_support_claim_types": ["exemption_requirement"],
+      "negative_support_claim_types": ["exemption_not_required"]
     },
     "NOTIFICATION": {
       "surface_terms": ["notification", "notifications"],
-      "support_claim_types": ["notification_requirement"]
+      "support_claim_types": ["notification_requirement"],
+      "positive_support_claim_types": ["notification_requirement"],
+      "negative_support_claim_types": ["notification_not_required", "notification_exemption"]
     },
     "REGISTRATION": {
       "surface_terms": ["registration", "register", "registered"],
-      "support_claim_types": ["registration_requirement"]
+      "support_claim_types": ["registration_requirement"],
+      "positive_support_claim_types": ["registration_requirement"],
+      "negative_support_claim_types": ["registration_not_required", "registration_exemption"]
     },
     "CLEARANCE": {
       "surface_terms": ["clearance", "clearances"],
-      "support_claim_types": ["clearance_requirement"]
+      "support_claim_types": ["clearance_requirement"],
+      "positive_support_claim_types": ["clearance_requirement"],
+      "negative_support_claim_types": ["clearance_not_required", "clearance_exemption"]
     },
     "CONSENT": {
       "surface_terms": ["consent"],
-      "support_claim_types": ["consent_requirement"]
+      "support_claim_types": ["consent_requirement"],
+      "positive_support_claim_types": ["consent_requirement"],
+      "negative_support_claim_types": ["consent_not_required", "consent_exemption"]
     },
     "CERTIFICATE": {
       "surface_terms": ["certificate", "certification"],
-      "support_claim_types": ["certificate_requirement"]
+      "support_claim_types": ["certificate_requirement"],
+      "positive_support_claim_types": ["certificate_requirement"],
+      "negative_support_claim_types": ["certificate_not_required", "certificate_exemption"]
     }
   },
   "normative_force_terms": [
@@ -56,5 +76,10 @@
     "director general", "biosafety", "government", "institution"
   ],
   "excluded_support_claim_types": ["forme", "forme_cbi"],
-  "required_fact_names": ["jurisdiction", "material_or_technology_trigger", "specific_activity"]
+  "required_fact_names": ["jurisdiction", "material_or_technology_trigger", "specific_activity"],
+  "required_evidence_fields": [
+    "evidence_id", "claim_type", "jurisdiction", "material_or_technology_trigger",
+    "specific_activity", "authority_status", "currentness", "polarity", "normative_force"
+  ],
+  "allowed_evidence_polarities": ["REQUIRED", "NOT_REQUIRED", "APPLICABLE", "EXEMPT"]
 }

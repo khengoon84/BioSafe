@@ -38,6 +38,10 @@ class AuthorizationClaimCandidate:
     polarity: AuthorizationPolarity
     sentence: str
     evidence_ids: tuple[str, ...] = ()
+    normative_force: str | None = None
+    jurisdiction: str | None = None
+    material_or_technology_trigger: str | None = None
+    specific_activity: str | None = None
 
     @staticmethod
     def from_mapping(value: Any, sentence: str = "") -> "AuthorizationClaimCandidate | None":
@@ -52,11 +56,15 @@ class AuthorizationClaimCandidate:
             return None
         concept=value.get("concept")
         concept=str(concept).upper() if concept is not None else None
-        ids=value.get("evidence_ids") or []
-        if not isinstance(ids,list) or not all(isinstance(item,str) for item in ids):
+        ids=value.get("evidence_ids")
+        if not isinstance(ids,list) or not ids or not all(isinstance(item,str) and item.strip() for item in ids):
             return None
         return AuthorizationClaimCandidate(kind,concept,polarity,
-            str(value.get("sentence") or sentence),tuple(ids))
+            str(value.get("sentence") or sentence),tuple(ids),
+            str(value.get("normative_force") or "").strip() or None,
+            str(value.get("jurisdiction") or "").strip() or None,
+            str(value.get("material_or_technology_trigger") or "").strip() or None,
+            str(value.get("specific_activity") or "").strip() or None)
 
 
 class AuthorizationVerificationStatus(str, Enum):

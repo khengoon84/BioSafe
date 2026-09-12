@@ -25,7 +25,8 @@ SENTENCE_SPLIT=re.compile(r"(?<=[.!?])\s+")
 def load_ontology(path: Path=ONTOLOGY_PATH) -> dict[str, Any]:
     data=json.loads(path.read_text(encoding="utf-8"))
     required=("authorization_concepts","normative_force_terms","governance_action_terms",
-              "governance_actor_terms","required_fact_names")
+              "governance_actor_terms","required_fact_names","required_evidence_fields",
+              "allowed_evidence_polarities")
     missing=[key for key in required if not data.get(key)]
     if missing:
         raise ValueError(f"authorization ontology missing keys: {sorted(missing)}")
@@ -78,15 +79,64 @@ def _candidate(sentence: str) -> AuthorizationClaimCandidate | None:
     return None
 
 
-def _evidence_supports(candidate: AuthorizationClaimCandidate, evidence: list[dict[str, Any]]) -> tuple[bool, tuple[str, ...]]:
+def _fact_value(case_state: dict[str, Any], name: str) -> str:
+    value=(case_state or {}).get(name)
+    if not isinstance(value,dict):
+        return ""
+    return str(value.get("value") or "").strip().lower()
+
+
+def _scope_matches(candidate: AuthorizationClaimCandidate, item: dict[str, Any], case_state: dict[str, Any]) -> bool:
+    pairs=(("jurisdiction",candidate.jurisdiction or _fact_value(case_state,"jurisdiction"),item.get("jurisdiction")),
+           ("material_or_technology_trigger",candidate.material_or_technology_trigger or _fact_value(case_state,"material_or_technology_trigger"),item.get("material_or_technology_trigger")),
+           ("specific_activity",candidate.specific_activity or _fact_value(case_state,"specific_activity"),item.get("specific_activity")))
+    for _,expected,actual in pairs:
+        expected=str(expected or "").strip().lower(); actual=str(actual or "").strip().lower()
+        if not expected or not actual or expected not in actual and actual not in expected:
+            return False
+    return True
+
+
+def _evidence_metadata_valid(item: dict[str, Any]) -> bool:
+    required=_ontology()["required_evidence_fields"]
+    if any(not str(item.get(field) or "").strip() for field in required):
+        return False
+    if str(item.get("authority_status")).lower() not in {"verified","authoritative"}:
+        return False
+    if str(item.get("currentness")).lower() not in {"current","verified"}:
+        return False
+    return True
+
+
+def _evidence_supports(candidate: AuthorizationClaimCandidate, evidence: list[dict[str, Any]], case_state: dict[str, Any]) -> tuple[bool, tuple[str, ...]]:
     if candidate.concept is None:
         return False, ()
-    allowed=set(_ontology()["authorization_concepts"][candidate.concept]["support_claim_types"])
+    spec=_ontology()["authorization_concepts"][candidate.concept]
+    allowed=set(spec.get("positive_support_claim_types",[]) if candidate.polarity is AuthorizationPolarity.REQUIRED
+                else spec.get("negative_support_claim_types",[]))
     matched=[]
     for item in evidence:
-        if str(item.get("claim_type") or "").lower() in allowed and not item.get("claim_type") in _ontology().get("excluded_support_claim_types",[]):
+        if (_evidence_metadata_valid(item)
+                and str(item.get("claim_type") or "").lower() in allowed
+                and str(item.get("polarity") or "").upper() in _ontology()["allowed_evidence_polarities"]
+                and str(item.get("polarity") or "").upper() in ({"REQUIRED"} if candidate.polarity is AuthorizationPolarity.REQUIRED else {"NOT_REQUIRED","EXEMPT"})
+                and str(item.get("authority_status") or "").lower() in {"verified","authoritative","current"}
+                and str(item.get("currentness") or "").lower() in {"current","verified","unknown"}
+                and not item.get("claim_type") in _ontology().get("excluded_support_claim_types",[])
+                and _scope_matches(candidate,item,case_state)):
             matched.append(str(item.get("evidence_id") or ""))
     return bool(matched), tuple(x for x in matched if x)
+
+
+def _evidence_conflicts(candidate: AuthorizationClaimCandidate, evidence: list[dict[str, Any]], case_state: dict[str, Any]) -> bool:
+    """Detect opposite supported polarity for the same scoped authorization."""
+    opposite=(AuthorizationPolarity.NOT_REQUIRED if candidate.polarity is AuthorizationPolarity.REQUIRED
+              else AuthorizationPolarity.REQUIRED)
+    probe=AuthorizationClaimCandidate(candidate.kind,candidate.concept,opposite,candidate.sentence,
+        candidate.evidence_ids,candidate.normative_force,candidate.jurisdiction,
+        candidate.material_or_technology_trigger,candidate.specific_activity)
+    ok,_=_evidence_supports(probe,evidence,case_state)
+    return ok
 
 
 def parse_structured_claims(value: Any) -> tuple[AuthorizationClaimCandidate, ...] | None:
@@ -117,12 +167,20 @@ def verify_structured_claims(value: Any, evidence: list[dict[str, Any]] | None=N
     if unknown:
         return AuthorizationVerification(AuthorizationVerificationStatus.UNKNOWN_REGULATORY_REQUIREMENT,False,
             ("UNKNOWN_AUTHORIZATION_CONCEPT",),unknown)
+    non_atomic=tuple(item for item in parsed if len(_concepts(item.sentence)) != 1
+                     or item.concept not in _concepts(item.sentence))
+    if non_atomic:
+        return AuthorizationVerification(AuthorizationVerificationStatus.INSUFFICIENT_EVIDENCE,False,
+            ("NON_ATOMIC_AUTHORIZATION_CLAIM",),non_atomic)
     if not _facts_complete(case_state):
         return AuthorizationVerification(AuthorizationVerificationStatus.INSUFFICIENT_FACTS,False,
             ("AUTHORIZATION_FACTS_NOT_VERIFIED",),parsed)
     supported=[]
     for candidate in parsed:
-        ok,ids=_evidence_supports(candidate,evidence or [])
+        ok,ids=_evidence_supports(candidate,evidence or [],case_state or {})
+        if ok and _evidence_conflicts(candidate,evidence or [],case_state or {}):
+            return AuthorizationVerification(AuthorizationVerificationStatus.CONFLICTING_EVIDENCE,False,
+                ("OPPOSING_TYPED_EVIDENCE",),parsed,tuple(supported))
         requested=set(candidate.evidence_ids)
         if requested and not requested.issubset(set(ids)):
             ok=False
@@ -182,7 +240,7 @@ def verify_authorization_claims(text: str, evidence: list[dict[str, Any]] | None
             ("AUTHORIZATION_FACTS_NOT_VERIFIED",),candidates)
     supported=[]
     for candidate in candidates:
-        ok,ids=_evidence_supports(candidate,evidence)
+        ok,ids=_evidence_supports(candidate,evidence,case_state or {})
         if not ok:
             status=(AuthorizationVerificationStatus.UNKNOWN_REGULATORY_REQUIREMENT
                     if candidate.kind is AuthorizationClaimKind.UNKNOWN_REGULATORY_REQUIREMENT

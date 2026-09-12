@@ -88,9 +88,13 @@ services. Unified-225 and Unified-2251 are not migrated in this change.
 The candidate-only generation payload also exposes an optional
 `authorization_claim_candidates` array. This is an untrusted structured claim
 channel, not an authority channel: each item must declare `kind`, `concept`,
-`polarity`, `sentence`, and `evidence_ids`, and the verifier checks those IDs
-against compatible scoped evidence before any deterministic rendering. Invalid,
-unknown, unsupported, or absent evidence remains fail-closed. The frozen
+`polarity`, `normative_force`, jurisdiction, material/technology trigger,
+specific activity, `sentence`, and non-empty `evidence_ids`. The verifier checks
+those IDs against evidence with required concept, polarity, scope, authority,
+and currentness metadata before deterministic rendering. Positive claims need
+positive requirement evidence; negative claims need explicit non-requirement or
+exemption evidence. Conflicting evidence, unknown concepts, incompatible
+scope, missing metadata, and absent evidence remain fail-closed. The frozen
 assembler is not modified; C5 preserves this optional field through a runtime
 adapter and then verifies it.
 

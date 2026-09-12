@@ -16,6 +16,10 @@ class AuthorizationVerifierTests(unittest.TestCase):
     CASE={"jurisdiction":{"value":"Malaysia","status":FactStatus.USER_ASSERTED.value},
           "material_or_technology_trigger":{"value":"LMO","status":"USER_ASSERTED"},
           "specific_activity":{"value":"contained use","status":"USER_ASSERTED"}}
+    EVIDENCE={"evidence_id":"E1","claim_type":"permit_requirement","jurisdiction":"Malaysia",
+              "material_or_technology_trigger":"LMO","specific_activity":"contained use",
+              "authority_status":"verified","currentness":"current","polarity":"REQUIRED",
+              "normative_force":"required"}
 
     def test_canonical_ontology_loads_unknown_concepts_are_explicit(self):
         ontology=load_ontology()
@@ -53,7 +57,7 @@ class AuthorizationVerifierTests(unittest.TestCase):
     def test_supported_typed_claim_is_renderable(self):
         result=verify_authorization_claims(
             "A permit is required for this activity.",
-            [{"evidence_id":"E1","claim_type":"permit_requirement"}],self.CASE)
+            [self.EVIDENCE],self.CASE)
         self.assertEqual(result.status.value,"VERIFIED")
         self.assertTrue(result.renderable)
         self.assertEqual(result.supported_evidence_ids,("E1",))
@@ -62,7 +66,7 @@ class AuthorizationVerifierTests(unittest.TestCase):
         result=verify_structured_claims([
             {"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT","polarity":"REQUIRED",
              "sentence":"A permit is required.","evidence_ids":["E9"]}],
-            [{"evidence_id":"E1","claim_type":"permit_requirement"}],self.CASE)
+            [self.EVIDENCE],self.CASE)
         self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
         self.assertFalse(result.renderable)
 
@@ -71,7 +75,7 @@ class AuthorizationVerifierTests(unittest.TestCase):
         claims=[{"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT","polarity":"REQUIRED",
                  "sentence":"A permit is required.","evidence_ids":["E1"]}]
         guarded,audit=apply_universal_authorization_verifier(
-            response,[{"evidence_id":"E1","claim_type":"permit_requirement"}],self.CASE,claims)
+            response,[self.EVIDENCE],self.CASE,claims)
         self.assertEqual(guarded["conclusion"],"The reviewed evidence supports that a permit requirement applies to this case.")
         self.assertEqual(guarded["authorization_assessment"]["status"],"VERIFIED")
         self.assertEqual(audit,[])
@@ -90,6 +94,57 @@ class AuthorizationVerifierTests(unittest.TestCase):
         self.assertEqual(guarded["conclusion"],"A permit is a legal instrument that authorizes an activity.")
         self.assertEqual(audit,[])
         self.assertEqual(guarded["authorization_assessment"]["status"],"NO_CLAIM")
+
+    def test_wrong_jurisdiction_is_insufficient_evidence(self):
+        evidence=dict(self.EVIDENCE,jurisdiction="Singapore")
+        result=verify_structured_claims([{"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT",
+            "polarity":"REQUIRED","sentence":"A permit is required.","evidence_ids":["E1"]}],[evidence],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+
+    def test_explicit_claim_scope_must_match_case(self):
+        claim={"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT","polarity":"REQUIRED",
+               "jurisdiction":"Singapore","material_or_technology_trigger":"LMO",
+               "specific_activity":"contained use","sentence":"A permit is required.","evidence_ids":["E1"]}
+        result=verify_structured_claims([claim],[self.EVIDENCE],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+
+    def test_wrong_activity_is_insufficient_evidence(self):
+        evidence=dict(self.EVIDENCE,specific_activity="transport")
+        result=verify_structured_claims([{"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT",
+            "polarity":"REQUIRED","sentence":"A permit is required.","evidence_ids":["E1"]}],[evidence],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+
+    def test_positive_claim_cannot_use_negative_evidence(self):
+        evidence=dict(self.EVIDENCE,claim_type="permit_not_required",polarity="NOT_REQUIRED")
+        result=verify_structured_claims([{"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT",
+            "polarity":"REQUIRED","sentence":"A permit is required.","evidence_ids":["E1"]}],[evidence],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+
+    def test_empty_evidence_ids_are_invalid(self):
+        claim={"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT","polarity":"REQUIRED",
+               "sentence":"A permit is required.","evidence_ids":[]}
+        result=verify_structured_claims([claim],[self.EVIDENCE],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+
+    def test_required_evidence_metadata_is_enforced(self):
+        incomplete={"evidence_id":"E1","claim_type":"permit_requirement"}
+        result=verify_structured_claims([{"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT",
+            "polarity":"REQUIRED","sentence":"A permit is required.","evidence_ids":["E1"]}],
+            [incomplete],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+
+    def test_multi_concept_structured_candidate_is_not_atomic(self):
+        claim={"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT","polarity":"REQUIRED",
+               "sentence":"A permit and clearance are required.","evidence_ids":["E1"]}
+        result=verify_structured_claims([claim],[self.EVIDENCE],self.CASE)
+        self.assertEqual(result.status.value,"INSUFFICIENT_EVIDENCE")
+
+    def test_conflicting_typed_evidence_fails_closed(self):
+        negative=dict(self.EVIDENCE,claim_type="permit_not_required",polarity="NOT_REQUIRED")
+        result=verify_structured_claims([{"kind":"AUTHORIZATION_REQUIREMENT","concept":"PERMIT",
+            "polarity":"REQUIRED","sentence":"A permit is required.","evidence_ids":["E1"]}],
+            [self.EVIDENCE,negative],self.CASE)
+        self.assertEqual(result.status.value,"CONFLICTING_EVIDENCE")
 
     def test_conflicting_or_missing_facts_fail_closed(self):
         result=verify_authorization_claims("A permit is required for this activity.",[],

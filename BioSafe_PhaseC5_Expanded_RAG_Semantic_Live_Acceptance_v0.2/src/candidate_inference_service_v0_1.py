@@ -37,7 +37,7 @@ def augment_candidate_generation_message(message: dict[str,Any]) -> dict[str,Any
         "type":"array",
         "required":False,
         "instruction":"Emit only untrusted candidate claims; never infer authority from this field. Omit the field when there is no authorization claim candidate.",
-        "item_fields":["kind","concept","polarity","sentence","evidence_ids"],
+                            "item_fields":["kind","concept","polarity","normative_force","jurisdiction","material_or_technology_trigger","specific_activity","sentence","evidence_ids"],
     }
     response_schema=payload.get("response_schema")
     if isinstance(response_schema,dict):
@@ -45,9 +45,11 @@ def augment_candidate_generation_message(message: dict[str,Any]) -> dict[str,Any
         properties=dict(schema.get("properties") or {})
         properties["authorization_claim_candidates"]={
             "type":"array",
-            "items":{"type":"object","required":["kind","concept","polarity","sentence","evidence_ids"],
+            "items":{"type":"object","required":["kind","concept","polarity","normative_force","jurisdiction","material_or_technology_trigger","specific_activity","sentence","evidence_ids"],
                      "properties":{"kind":{"type":"string"},"concept":{"type":["string","null"]},
-                                    "polarity":{"type":"string"},"sentence":{"type":"string"},
+                                    "polarity":{"type":"string"},"normative_force":{"type":"string"},
+                                    "jurisdiction":{"type":"string"},"material_or_technology_trigger":{"type":"string"},
+                                    "specific_activity":{"type":"string"},"sentence":{"type":"string"},
                                     "evidence_ids":{"type":"array","items":{"type":"string"}}}},
         }
         schema["properties"]=properties
