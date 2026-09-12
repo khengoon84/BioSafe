@@ -1,0 +1,11 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_5_Query_Profile_Config_v0.1",
+  "profiles": [
+    {"id":"WHO_RISK","jurisdiction":"International","domain":"WHO-RA","intent":"risk_assessment","terms":["who","world health organization","lbm4","laboratory biosafety manual","biological risk","biosafety risk","risk assessment","malaysian law"]},
+    {"id":"MY_TRANSPORT","jurisdiction":"Malaysia","domain":"TRANSPORT","intent":"transport","terms":["malaysia","ministry of health","clinical specimen","infectious substance","triple packaging","patient sample"]},
+    {"id":"MY_CONTAINED","jurisdiction":"Malaysia","domain":"MY-REG","intent":"contained_use","terms":["malaysia","malaysian","lmo","gmm","contained use","form e","biosafety act","ibc"]},
+    {"id":"MY_WASTE","jurisdiction":"Malaysia","domain":"WASTE","intent":"waste","terms":["scheduled waste","sw 404","malaysia","biological waste"]},
+    {"id":"FIXTURE_TRAINING","jurisdiction":"International","domain":"training","intent":"training_record","terms":["training record","documented biosafety training","training documentation"]},
+    {"id":"UNKNOWN","jurisdiction":"Unspecified","domain":"UNKNOWN","intent":"unknown","terms":[],"unknown_terms":["exact permit exemption","future organism","facility not yet described","jurisdiction not identified","proves that this particular project is safe","safe to start"]}
+  ]
+}

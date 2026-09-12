@@ -1,0 +1,598 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_4_Retrieval_Policy_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "component_map_version": "BioSafe_Component_Map_v0.1",
+  "crosswalk_version": "BioSafe_Document_Identity_Crosswalk_v0.1",
+  "documents": [
+    {
+      "allowed_domains": [
+        "malaysia_lmo_regulatory",
+        "regulatory_uncertainty",
+        "risk_management"
+      ],
+      "authority_tier": 1,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-MY-ACT678",
+      "curated_claim_count": 0,
+      "currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "document_type": "Primary legislation",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "clinical_specimen_transport",
+        "general_lab_biosafety",
+        "scheduled_waste"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-ACT678"
+      ],
+      "publication_date": "2007",
+      "publisher": "Department of Biosafety Malaysia",
+      "source_sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "title": "Biosafety Act 2007 (Act 678)"
+    },
+    {
+      "allowed_domains": [
+        "lmo_contained_use",
+        "lmo_containment",
+        "lmo_incident_response"
+      ],
+      "authority_tier": "Tier 2",
+      "boundary_tags": [
+        "NOT_ACTIVITY_SPECIFIC_CONTAINMENT_DETERMINATION",
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "RISK_GROUP_NOT_CONTAINMENT_LEVEL",
+        "TRANSPORT_SCOPE_LIMITATION"
+      ],
+      "claim_types": [
+        "containment",
+        "equipment",
+        "incident",
+        "waste"
+      ],
+      "controlled_document_id": "KB-MY-CU",
+      "curated_claim_count": 4,
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
+      "document_type": "Official LMO contained-use guidance",
+      "evidence_roles": [
+        "MALAYSIAN_OFFICIAL_LMO_CONTAINED_USE_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "clinical_specimen_transport",
+        "general_lab_biosafety",
+        "scheduled_waste"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-CU"
+      ],
+      "publication_date": "2010",
+      "publisher": "Department of Biosafety Malaysia",
+      "source_sha256": "164839a62dd6a875b8590307db4f74a4dcebdb4ffbd2e4f34179e8d3279242bf",
+      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
+      "title": "Biosafety Guidelines for Contained Use Activity of Living Modified Organism (LMO)"
+    },
+    {
+      "allowed_domains": [
+        "form_e_researcher_assistance",
+        "lmo_contained_use"
+      ],
+      "authority_tier": "Tier 2",
+      "boundary_tags": [
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "NOT_COMPLIANCE_DETERMINATION"
+      ],
+      "claim_types": [
+        "facility",
+        "forme_cbi",
+        "risk_assessment",
+        "risk_management",
+        "scope_boundary"
+      ],
+      "controlled_document_id": "KB-MY-FORME",
+      "curated_claim_count": 5,
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_PROCEDURAL_RECONCILIATION_REQUIRED",
+      "document_type": "Official LMO user guide and form guidance",
+      "evidence_roles": [
+        "MALAYSIAN_OFFICIAL_FORM_AND_PROCEDURAL_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "approval_determination",
+        "general_lab_biosafety",
+        "permit_determination",
+        "researcher_facing_ibc_assessment"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "publication_date": "2010",
+      "publisher": "Department of Biosafety Malaysia",
+      "source_sha256": "f1108b15d10b374f4fd65b11decddbdc70c3b537145255ecb183b62ecd2bd4e3",
+      "supersession_status": "NO_SUPERSEDING_FILE_ESTABLISHED",
+      "title": "Biosafety User's Guide / Form E (NBB/N/CU/10/FORM E)"
+    },
+    {
+      "allowed_domains": [
+        "contained_use",
+        "lmo_gmm_risk_assessment"
+      ],
+      "authority_tier": "Tier 2",
+      "boundary_tags": [
+        "NOT_ACTIVITY_SPECIFIC_CONTAINMENT_DETERMINATION",
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "RISK_GROUP_NOT_CONTAINMENT_LEVEL"
+      ],
+      "claim_types": [
+        "risk_assessment",
+        "risk_review",
+        "uncertainty"
+      ],
+      "controlled_document_id": "KB-MY-GMMRA",
+      "curated_claim_count": 3,
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
+      "document_type": "Official LMO/GMM guidance",
+      "evidence_roles": [
+        "MALAYSIAN_OFFICIAL_LMO_GMM_RISK_ASSESSMENT_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "clinical_specimen_transport",
+        "general_lab_biosafety",
+        "scheduled_waste"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "publication_date": "2012",
+      "publisher": "Department of Biosafety Malaysia",
+      "source_sha256": "73bf243e09780e6b4b71319b4b4e8b53ed5247112bb8ee179c737897d9f489e6",
+      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
+      "title": "Biosafety Guidelines: Risk Assessment of Genetically Modified Microorganisms"
+    },
+    {
+      "allowed_domains": [
+        "lmo_contained_use",
+        "lmo_ibc_governance"
+      ],
+      "authority_tier": "Tier 2",
+      "boundary_tags": [
+        "NOT_ACTIVITY_SPECIFIC_CONTAINMENT_DETERMINATION",
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "RISK_GROUP_NOT_CONTAINMENT_LEVEL"
+      ],
+      "claim_types": [
+        "ibc",
+        "incident",
+        "pi_accountability"
+      ],
+      "controlled_document_id": "KB-MY-IBC",
+      "curated_claim_count": 3,
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED",
+      "document_type": "Official LMO governance guidance",
+      "evidence_roles": [
+        "MALAYSIAN_OFFICIAL_LMO_IBC_GOVERNANCE_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "clinical_specimen_transport",
+        "general_lab_biosafety",
+        "researcher_facing_ibc_assessment",
+        "scheduled_waste"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "publication_date": "2010",
+      "publisher": "Department of Biosafety Malaysia",
+      "source_sha256": "e1950823f5430b111d5527c65a127a626bb91872a7a5141ff13dc08c946ec61d",
+      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
+      "title": "Biosafety Guidelines for Institutional Biosafety Committees (IBC)"
+    },
+    {
+      "allowed_domains": [
+        "approval_notification",
+        "contained_use",
+        "malaysia_lmo_regulatory"
+      ],
+      "authority_tier": 1,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-MY-REG2010",
+      "curated_claim_count": 0,
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "document_type": "Primary regulation",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "clinical_specimen_transport",
+        "general_lab_biosafety",
+        "scheduled_waste"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-REG2010"
+      ],
+      "publication_date": "2010",
+      "publisher": "Department of Biosafety Malaysia",
+      "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "title": "Biosafety (Approval and Notification) Regulations 2010"
+    },
+    {
+      "allowed_domains": [
+        "malaysia_scheduled_waste",
+        "scheduled_waste_management"
+      ],
+      "authority_tier": 1,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-MY-SW2005",
+      "curated_claim_count": 0,
+      "currentness_status": "OFFICIAL_SOURCE_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "document_type": "Malaysian subsidiary legislation",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "clinical_specimen_transport",
+        "generic_biological_waste_classification",
+        "laboratory_containment"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-DOE2005"
+      ],
+      "publication_date": "2005",
+      "publisher": "Department of Environment Malaysia",
+      "source_sha256": "3dca6afa777def71708edc1db9ef56fc543a1007176e4c327a9ebe6c4172a5d0",
+      "supersession_status": "AMENDMENT_RELATIONSHIPS_NOT_FULLY_RECONCILED",
+      "title": "Environmental Quality (Scheduled Wastes) Regulations 2005"
+    },
+    {
+      "allowed_domains": [
+        "clinical_specimen_transport",
+        "infectious_substance_transport",
+        "transport_packaging"
+      ],
+      "authority_tier": "Tier 2",
+      "boundary_tags": [
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "RISK_GROUP_NOT_CONTAINMENT_LEVEL",
+        "TRANSPORT_SCOPE_LIMITATION",
+        "WHO_GUIDANCE_NOT_MALAYSIAN_LAW"
+      ],
+      "claim_types": [
+        "transport",
+        "transport_scope"
+      ],
+      "controlled_document_id": "KB-MY-TRANSPORT2023",
+      "curated_claim_count": 2,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "Malaysian government technical guideline",
+      "evidence_roles": [
+        "MALAYSIAN_OFFICIAL_CLINICAL_SPECIMEN_TRANSPORT_GUIDELINE"
+      ],
+      "excluded_domains": [
+        "clinical_waste",
+        "laboratory_containment",
+        "malaysia_lmo_determination"
+      ],
+      "jurisdiction": "Malaysia",
+      "legacy_document_ids": [
+        "KB-MY-MOH2023"
+      ],
+      "publication_date": "2023",
+      "publisher": "Ministry of Health Malaysia",
+      "source_sha256": "5556604a5812a2f1a2b7a30600bf097c9d40d588e449b46ef643ff8aad727088",
+      "supersession_status": "NO_SUPERSEDING_GUIDELINE_ESTABLISHED",
+      "title": "Guidelines For The Safe Transport Of Clinical Specimens And Infectious Substances In Malaysia 2023"
+    },
+    {
+      "allowed_domains": [
+        "biosecurity_risk_management",
+        "information_security",
+        "laboratory_biosecurity"
+      ],
+      "authority_tier": "Tier 3",
+      "boundary_tags": [
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "TRANSPORT_SCOPE_LIMITATION",
+        "WHO_GUIDANCE_NOT_MALAYSIAN_LAW"
+      ],
+      "claim_types": [
+        "biosecurity"
+      ],
+      "controlled_document_id": "KB-WHO-BIOSEC",
+      "curated_claim_count": 1,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO normative guidance",
+      "evidence_roles": [
+        "WHO_INTERNATIONAL_LABORATORY_BIOSECURITY_TECHNICAL_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "laboratory_containment_determination",
+        "malaysia_law",
+        "malaysia_lmo_determination"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-BIOSEC"
+      ],
+      "publication_date": "2024-06-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "0be0952e29286d6d527d557cca8ef1b20d7cf3d299adf3cd008611bd01f32b2f",
+      "supersession_status": "COMPLETE_2024_REVISION_OF_2006_FIRST_EDITION",
+      "title": "Laboratory biosecurity guidance"
+    },
+    {
+      "allowed_domains": [
+        "biosafety_programme",
+        "general_lab_biosafety",
+        "risk_based_biosafety"
+      ],
+      "authority_tier": "Tier 3",
+      "boundary_tags": [
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "WHO_GUIDANCE_NOT_MALAYSIAN_LAW"
+      ],
+      "claim_types": [
+        "activity_specific_controls",
+        "risk_assessment"
+      ],
+      "controlled_document_id": "KB-WHO-LBM4",
+      "curated_claim_count": 2,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO technical guidance",
+      "evidence_roles": [
+        "WHO_INTERNATIONAL_LABORATORY_BIOSAFETY_TECHNICAL_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "malaysia_law",
+        "malaysia_lmo_determination",
+        "malaysia_scheduled_waste"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "dc0dfd4e65a0dc87410aa73280fe12bfe412df3affd97bd27dc8a4e733379fba",
+      "supersession_status": "FOURTH_EDITION",
+      "title": "Laboratory biosafety manual, 4th edition"
+    },
+    {
+      "allowed_domains": [
+        "biological_safety_cabinets",
+        "general_lab_biosafety",
+        "primary_containment"
+      ],
+      "authority_tier": 3,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-WHO-LBM4-BSC",
+      "curated_claim_count": 0,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO subject-specific technical guidance",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "biosafety_level_determination",
+        "chemical_fume_hood_equivalence",
+        "malaysia_law"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-LBM4-BSC"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "6fbddf6ff65d3e9b0f3ed2189b70ce17fa8bf6977a764a227422dc4cc8bdc5d7",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "title": "Laboratory biosafety manual, 4th edition: Biological safety cabinets and other primary containment devices"
+    },
+    {
+      "allowed_domains": [
+        "biological_waste_management",
+        "decontamination",
+        "general_lab_biosafety"
+      ],
+      "authority_tier": 3,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-WHO-LBM4-DECON",
+      "curated_claim_count": 0,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO subject-specific technical guidance",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "malaysia_law",
+        "malaysia_scheduled_waste_classification",
+        "waste_compliance_determination"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-LBM4-DECON"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "213dc79b68d07c4b301b3288a7881e4dfeccba5222a1ee2a400bc0a6870b2ee2",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "title": "Laboratory biosafety manual, 4th edition: Decontamination and waste management"
+    },
+    {
+      "allowed_domains": [
+        "general_lab_biosafety",
+        "laboratory_design",
+        "laboratory_maintenance"
+      ],
+      "authority_tier": 3,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-WHO-LBM4-DESIGN",
+      "curated_claim_count": 0,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO subject-specific technical guidance",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "containment_level_determination",
+        "malaysia_law",
+        "prescriptive_facility_approval"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-LBM4-DESIGN"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "4b04317d76b4671ed0b8a53bc701585bceafce63ea80e3118c7f5d535dbc4c1b",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "title": "Laboratory biosafety manual, 4th edition: Laboratory design and maintenance"
+    },
+    {
+      "allowed_domains": [
+        "emergency_planning",
+        "laboratory_resilience",
+        "outbreak_preparedness"
+      ],
+      "authority_tier": 3,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-WHO-LBM4-OUTBREAK",
+      "curated_claim_count": 0,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO subject-specific technical guidance",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "emergency_authorization_determination",
+        "malaysia_law"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-LBM4-OUTBREAK"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "08612743929b289a38c43c0bcc6b8563be9c032a3337704beb190e86c2ac35ac",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "title": "Laboratory biosafety manual, 4th edition: Outbreak preparedness and resilience"
+    },
+    {
+      "allowed_domains": [
+        "general_lab_biosafety",
+        "personal_protective_equipment",
+        "risk_controls"
+      ],
+      "authority_tier": "Tier 3",
+      "boundary_tags": [
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "WHO_GUIDANCE_NOT_MALAYSIAN_LAW"
+      ],
+      "claim_types": [
+        "ppe_risk_based_selection",
+        "ppe_role"
+      ],
+      "controlled_document_id": "KB-WHO-LBM4-PPE",
+      "curated_claim_count": 2,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO subject-specific technical guidance",
+      "evidence_roles": [
+        "WHO_INTERNATIONAL_PERSONAL_PROTECTIVE_EQUIPMENT_TECHNICAL_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "activity_safe_determination",
+        "containment_level_determination",
+        "malaysia_law"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-PPE"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "016a46c280a7d0801c69fa5f44bfa350b8217f1a1eff608ac26678d97129cf55",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "title": "Laboratory biosafety manual, 4th edition: Personal protective equipment"
+    },
+    {
+      "allowed_domains": [
+        "biosafety_programme",
+        "safety_culture",
+        "training_competence"
+      ],
+      "authority_tier": 3,
+      "boundary_tags": [],
+      "claim_types": [],
+      "controlled_document_id": "KB-WHO-LBM4-PROG",
+      "curated_claim_count": 0,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO subject-specific technical guidance",
+      "evidence_roles": [],
+      "excluded_domains": [
+        "institutional_approval_determination",
+        "malaysia_law"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-LBM4-PROG"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "4c76c350e0835b8274ac3651fc40de65e6b2481be302c7b3c0d012aac248ef65",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "title": "Laboratory biosafety manual, 4th edition: Biosafety programme management"
+    },
+    {
+      "allowed_domains": [
+        "general_risk_assessment",
+        "risk_based_biosafety"
+      ],
+      "authority_tier": "Tier 3",
+      "boundary_tags": [
+        "NOT_APPROVAL_OR_AUTHORIZATION",
+        "RISK_GROUP_NOT_CONTAINMENT_LEVEL",
+        "WHO_GUIDANCE_NOT_MALAYSIAN_LAW"
+      ],
+      "claim_types": [
+        "hazard_definition",
+        "layered_controls",
+        "risk_assessment",
+        "risk_assessment_purpose",
+        "risk_assessment_scope",
+        "risk_control_selection",
+        "risk_definition",
+        "risk_factors",
+        "uncertainty"
+      ],
+      "controlled_document_id": "KB-WHO-LBM4-RA",
+      "curated_claim_count": 9,
+      "currentness_status": "CURRENT_OFFICIAL_PUBLICATION_PAGE_VERIFIED",
+      "document_type": "WHO subject-specific technical guidance",
+      "evidence_roles": [
+        "WHO_INTERNATIONAL_RISK_ASSESSMENT_TECHNICAL_GUIDANCE"
+      ],
+      "excluded_domains": [
+        "containment_level_determination",
+        "malaysia_law",
+        "risk_group_assignment"
+      ],
+      "jurisdiction": "International",
+      "legacy_document_ids": [
+        "KB-WHO-RA"
+      ],
+      "publication_date": "2020-12-21",
+      "publisher": "World Health Organization",
+      "source_sha256": "2bb1506804cd9b621c3307caa1e7f44174610dbdba440d50f94620a83280c198",
+      "supersession_status": "LBM4_ASSOCIATED_MONOGRAPH",
+      "title": "Laboratory biosafety manual, 4th edition: Risk assessment"
+    }
+  ],
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "policy_scope": "ADDITIVE_OFFLINE_METADATA_POLICY_REFERENCE_ONLY",
+  "source_hashes": {
+    "component_map": "87d66bdb32154e062cc6fd5b12b61c749fe4a8bf6422ee6cf71fd915d724897e",
+    "crosswalk": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
+    "curated": "b48da48c1234ec3f9a7580b1fad9b6893e3d69aac1c7df4702b4d224a85b3b8e",
+    "source_policy": "930e64a121b0c256f789ea36f59d850023134ac983d668e1f2bc416137583a54"
+  },
+  "source_policy_version": "BioSafe_Source_Policy_v0.1"
+}
