@@ -12,6 +12,10 @@ POS = [
  r"\byou need to (?:submit|obtain|apply for)\b",
  r"\byou must (?:submit|obtain|apply for)\b",
  r"\bis required to (?:submit|obtain|apply for)\b",
+ # 2026-09-12 live A/B gap: "you need a/an ... permit" forms were not
+ # classified as authorization claims and passed unguarded with no evidence.
+ r"\byou need (?:a|an) [^.]{0,120}?(?:biosafety )?(?:permit|approval|notification|authori[sz]ation|licence|license)\b",
+ r"\b(?:biosafety )?(?:permit|approval|notification|authori[sz]ation|licence|license)[^.]{0,80}?(?:is|are) required\b",
 ]
 COMP = [
  r"\b(?:your|this|the) (?:project|activity|work) is (?:not )?(?:legally )?compliant\b",

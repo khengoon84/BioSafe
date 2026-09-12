@@ -45,6 +45,32 @@ class TestUnified225Contract(unittest.TestCase):
         self.assertIn("obtain a permit",o["conclusion"].lower())
         self.assertFalse([x for x in a if x["action"]=="downgrade_to_insufficient"])
 
+    def test_you_need_a_permit_form_downgraded_without_evidence(self):
+        # Regression (2026-09-12 live A/B gap): "you need a ... permit" forms
+        # were not classified as authorization claims and passed unguarded.
+        o,a=self.g.apply({"conclusion":"You need a Biosafety Permit (BP) for the described activity."},
+                         "What permit do I need?",{},[])
+        self.assertIn("insufficient",o["conclusion"].lower())
+        self.assertNotIn("you need a biosafety permit",o["conclusion"].lower())
+        self.assertTrue(o.get("missing_information"))
+
+    def test_you_need_a_permit_form_kept_with_support(self):
+        cs={"jurisdiction":"malaysia","lmo":True,"activity":"research"}
+        ev=[{"text":"A biosafety permit is required prior to research use of an LMO."}]
+        o,a=self.g.apply({"conclusion":"You need a biosafety permit for the described activity."},
+                         "What permit do I need for my LMO research in Malaysia?",cs,ev)
+        self.assertIn("biosafety permit",o["conclusion"].lower())
+
+    def test_permit_levels_requirement_downgraded_without_evidence(self):
+        o,a=self.g.apply({"conclusion":"Biosafety permit levels 1 to 4 are required for handling infectious agents."},
+                         "What are the permit levels?",{},[])
+        self.assertIn("insufficient",o["conclusion"].lower())
+
+    def test_definitional_permit_mention_kept(self):
+        o,a=self.g.apply({"conclusion":"A permit is a legal instrument that authorizes an activity."},
+                         "What is a permit?",{},[])
+        self.assertIn("legal instrument",o["conclusion"].lower())
+
     def test_missing_subject_explicit(self):
         c=RequestedSubjectCoverageGuard()
         o,a=c.apply({"conclusion":"PI is responsible for the project."},"What is PI and IBC?",

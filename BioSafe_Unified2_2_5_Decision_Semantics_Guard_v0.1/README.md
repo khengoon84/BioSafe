@@ -55,21 +55,22 @@ CRA3–CRA8 regression suites were re-run to confirm no fallout.
 
 ## Live validation result (2026-09-12, honest status)
 
-Live A/B hard assertions: **28/32 PASS** against the corrected module
-(pre-change run with the stale pre-correction module: 29/32; the corrected
-deterministic contract is 8/8). The 4 live failures are pre-existing and not
-introduced by this correction:
+Live A/B hard assertions: **29/32 PASS** against the corrected module
+(28/32 before the POS-pattern extension; 29/32 with the stale pre-correction
+module). The authorization-claim classification gap that left a positive
+permit claim live is closed:
 
-- `insufficient_present` (permit_unknown): the model/retrieval sentence
-  "You need a Biosafety Permit (BP) for the described activity." still passes
-  the guard because 225's `POS` patterns do not classify "you need a ... permit"
-  as an authorization claim. Closing this requires extending the frozen `POS`
-  pattern list — a further approved frozen-layer change, not done here.
-- `pi_expanded` / `ibc_expanded`: model-output-dependent subject expansion;
-  the coverage guard correctly fail-closed ("not enough scoped evidence to
-  expand ... confidently") when the model output lacked the spelled-out
-  expansion this run.
-- `safety_reason`: the model gave an "ambiguous query" rationale instead of an
-  "incomplete" one, so `SafetyRationaleGuard`'s trigger condition did not match.
+- `insufficient_present` (permit_unknown): **PASS.** B now downgrades
+  "You need a Biosafety Permit (BP) for the described activity." to the
+  insufficient decision while the frozen 2242 baseline (8775) still emits the
+  unsupported positive claim.
+- Remaining 3 failures are model-output-dependent and not authorization
+  claims: `pi_expanded`/`ibc_expanded` (the coverage guard correctly fail-closed
+  with "not enough scoped evidence to expand ... confidently" when the model
+  output lacked the spelled-out expansion) and `safety_reason` (the model gave
+  an "ambiguous query" rationale, so `SafetyRationaleGuard`'s "incomplete"
+  trigger did not match). No recipe, expansion, or claim was invented.
 
-Sidecars were stopped after validation; no live service left running.
+Deterministic contract: 12 unittest cases, all green. The 2242 baseline was
+not modified. Sidecars were stopped after validation; no live service left
+running.

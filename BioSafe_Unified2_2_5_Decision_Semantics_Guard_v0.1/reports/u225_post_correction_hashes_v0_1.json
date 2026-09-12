@@ -5,6 +5,18 @@
     "unified_v1/src/biosafe_unified225/guards.py": "67fdcfb52bfcc063ce2312937ffc90ed9003449323887774175531bb67addcfd",
     "unified_v1/tests/test_unified225_contract_v0_1.py": "5c77e4b7ef16ce964efd9c8618b1e4792ba88cd22fc6111cb7970108cf83ef6d"
   },
+  "pos_pattern_extension": {
+    "files": {
+      "BioSafe_Unified2_2_5_Decision_Semantics_Guard_v0.1/README.md": "d639217bfff59fa2595d935f7513c37143afee26f6a043cbf14d6ee3e4c990b4",
+      "BioSafe_Unified2_2_5_Decision_Semantics_Guard_v0.1/reports/u225_post_correction_hashes_v0_1.json": "949fde268e4e897bf2b6e43c9cae47e6c11997252e7c2b221b9e24d705f27762",
+      "BioSafe_Unified2_2_5_Decision_Semantics_Guard_v0.1/src/biosafe_unified225/guards.py": "e675febcc5a233194bc1406ce6b66ce710bc392778d4186eca657d8bccbf7fc0",
+      "BioSafe_Unified2_2_5_Decision_Semantics_Guard_v0.1/tests/test_unified225_contract_v0_1.py": "b04fb031ee25b59fd04e7139cce41fdfecc865efff02aef81037dcd96cc8c396",
+      "unified_v1/src/biosafe_unified225/guards.py": "e675febcc5a233194bc1406ce6b66ce710bc392778d4186eca657d8bccbf7fc0",
+      "unified_v1/tests/test_unified225_contract_v0_1.py": "b04fb031ee25b59fd04e7139cce41fdfecc865efff02aef81037dcd96cc8c396"
+    },
+    "live_ab": "29/32 PASS (insufficient_present now PASS; 3 remaining FAILs model-dependent, documented in README)",
+    "recorded_at": "2026-09-12T21:43:16+0800"
+  },
   "purpose": "post-correction hashes for the Unified-2.2.5 DecisionSemanticsGuard frozen-layer correction",
   "recorded_at": "2026-09-12T21:30:12+0800"
 }
