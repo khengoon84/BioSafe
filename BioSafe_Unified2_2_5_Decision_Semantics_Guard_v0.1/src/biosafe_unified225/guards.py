@@ -40,6 +40,25 @@ class DecisionSemanticsGuard:
         ml=meta.lower()
         return all(c.lower() in ml for c in cites)
 
+    @staticmethod
+    def _auth_supported(sentence,evidence):
+        # Modeled on the 2251 successor contract: an authorization claim is
+        # supported only when the subject of the claim AND its normative force
+        # both appear in the scoped evidence. Absence of evidence is never
+        # support, regardless of keyword prerequisites.
+        claim=sentence.lower()
+        source=" ".join(" ".join(str(e.get(k) or "") for k in ("text","statement","conclusion","section","subsection","regulation","article","citation"))
+                        for e in (evidence or [])).lower()
+        subjects={"permit":("permit","licence","license"),
+                  "approval":("approval","approve"),
+                  "notification":("notification","notify"),
+                  "authorization":("authorization","authorisation","authorize","authorise")}
+        requested=[name for name,terms in subjects.items() if any(t in claim for t in terms)]
+        if not requested:return False
+        subject_supported=all(any(t in source for t in subjects[name]) for name in requested)
+        normative_supported=any(t in source for t in ("required","requires","must","shall","prior notification"))
+        return subject_supported and normative_supported
+
     def apply(self,response,query="",case_state=None,evidence=None):
         out=deepcopy(response); evidence=evidence or []
         key="conclusion" if "conclusion" in out else "direct_answer"
@@ -50,13 +69,19 @@ class DecisionSemanticsGuard:
         for s in sentences:
             if any(re.search(p,s,re.I) for p in COMP):
                 audit.append({"action":"remove_compliance_verdict","sentence":s}); continue
+            if any(re.search(p,s,re.I) for p in NEG+POS):
+                # Prerequisites gate which facts are still needed; they never
+                # authorize a positive or negative determination on their own.
+                # An authorization claim survives only when the scoped evidence
+                # supports the exact claim.
+                if not prereq or not self._auth_supported(s,evidence):
+                    repl=("The available information is insufficient to determine whether a permit, approval, "
+                          "notification, or other regulatory authorization is required.")
+                    kept.append(repl)
+                    audit.append({"action":"downgrade_to_insufficient","original":s,"replacement":repl}); continue
+                kept.append(s); continue
             if not self._citation_supported(s,evidence):
                 audit.append({"action":"remove_unsupported_exact_citation","sentence":s}); continue
-            if any(re.search(p,s,re.I) for p in NEG+POS) and not prereq:
-                repl=("The available information is insufficient to determine whether a permit, approval, "
-                      "notification, or other regulatory authorization is required.")
-                kept.append(repl)
-                audit.append({"action":"downgrade_to_insufficient","original":s,"replacement":repl}); continue
             kept.append(s)
         clean=" ".join(x for x in kept if x.strip()).strip()
         if not clean and text:
@@ -72,11 +97,25 @@ class DecisionSemanticsGuard:
 
 class RequestedSubjectCoverageGuard:
     WHAT=re.compile(r"^\s*(?:what is|what are|define|meaning of|explain)\s+(.+?)[?.!]*\s*$",re.I)
+    _IMAGE_SUBJECTS=re.compile(
+        r"\b(?:this image|the image|this photo|the photo|this picture|the picture|"
+        r"this screenshot|the screenshot|this attachment|the attachment|"
+        r"what is in the (?:image|photo|picture)|image about)\b",
+        re.I,
+    )
+    _CONTINUATION=re.compile(
+        r"\b(?:elaborate|explain more|explain further|more detail|go deeper|"
+        r"i just want to (?:understand|learn|know)|i need to (?:learn|understand)|"
+        r"tell me more)\b",
+        re.I,
+    )
     def requested(self,q):
         m=self.WHAT.match(q or "")
         if not m:return []
         body=m.group(1)
         if "difference between" in body.lower():return []
+        if self._IMAGE_SUBJECTS.search(body):return []
+        if self._CONTINUATION.search(q or ""):return []
         return [p.strip(" ?.") for p in re.split(r"\s*(?:,|/|\band\b)\s*",body,flags=re.I)
                 if p.strip(" ?.")][:5]
     @staticmethod

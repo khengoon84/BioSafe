@@ -1,0 +1,10 @@
+{
+  "files": {
+    "BioSafe_Unified2_2_5_Decision_Semantics_Guard_v0.1/README.md": "9f05b7422130638e7fd784b4073b19de575cd784cb023dcb2dcb00d8834bb838",
+    "BioSafe_Unified2_2_5_Decision_Semantics_Guard_v0.1/tests/test_unified225_contract_v0_1.py": "5c77e4b7ef16ce964efd9c8618b1e4792ba88cd22fc6111cb7970108cf83ef6d",
+    "unified_v1/src/biosafe_unified225/guards.py": "67fdcfb52bfcc063ce2312937ffc90ed9003449323887774175531bb67addcfd",
+    "unified_v1/tests/test_unified225_contract_v0_1.py": "5c77e4b7ef16ce964efd9c8618b1e4792ba88cd22fc6111cb7970108cf83ef6d"
+  },
+  "purpose": "post-correction hashes for the Unified-2.2.5 DecisionSemanticsGuard frozen-layer correction",
+  "recorded_at": "2026-09-12T21:30:12+0800"
+}
