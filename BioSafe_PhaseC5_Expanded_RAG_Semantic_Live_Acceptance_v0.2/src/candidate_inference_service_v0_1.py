@@ -81,6 +81,13 @@ class CandidateInferenceServiceV01:
                 "reason_codes":reason_codes,
             },
             "authorization_gate":{**decision_summary(auth),"model_called":False},
+            "authorization_assessment":{
+                "status":"INSUFFICIENT_FACTS" if auth.missing_facts else "INSUFFICIENT_EVIDENCE",
+                "renderable":False,
+                "reason_codes":list(auth.reason_codes),
+                "candidate_count":0,
+                "supported_evidence_ids":[],
+            },
             "_meta":{
                 "candidate_path_id":"C37_METADATA_CFG02:metadata_off",
                 "evidence_origin":"C5_REVIEWED_CANDIDATE",

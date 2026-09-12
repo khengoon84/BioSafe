@@ -84,3 +84,14 @@ and Unified-225/2251 guards remain compatibility defense-in-depth layers, not
 the source of regulatory truth. Future concepts should be added to this
 ontology and adversarial corpus rather than isolated policy lists in multiple
 services. Unified-225 and Unified-2251 are not migrated in this change.
+
+### Targeted live adversarial evidence
+
+`reports/c5_typed_authorization_adversarial_live_v0_1.jsonl` records a fresh
+candidate-service probe using the configured local Ollama runtime. Clearance
+and registration claims were withheld with `FAIL_CLOSED`; the incomplete
+permit query was rejected before any model call. Educational/model-dependent
+responses that did not contain a normative authorization claim were recorded
+as `NO_CLAIM`, not treated as evidence of a positive or negative determination.
+The report is diagnostic evidence, not production acceptance; human semantic
+review remains required.

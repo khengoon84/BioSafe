@@ -114,6 +114,8 @@ class ServiceFailClosedTests(unittest.TestCase):
         self.assertEqual(gate["missing_facts"],["jurisdiction","material_or_technology_trigger","specific_activity"])
         self.assertIs(response["_meta"]["model_called"],False)
         self.assertEqual(response["safety"]["status"],"FAIL_CLOSED")
+        self.assertEqual(response["authorization_assessment"]["status"],"INSUFFICIENT_FACTS")
+        self.assertFalse(response["authorization_assessment"]["renderable"])
         self.assertIn("cannot determine",response["conclusion"].lower())
         self.assertFalse(POSITIVE_PERMIT_PATTERN.search(response["conclusion"]))
         self.assertTrue(response["missing_information"])
