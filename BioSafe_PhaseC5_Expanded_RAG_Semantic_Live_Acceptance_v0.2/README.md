@@ -127,9 +127,10 @@ CLM-007; CLM-006 is explicitly excluded because notification quality is not
 authorization-requirement evidence. The queue also records that Act 678
 amendment/currentness review and the 2019 Schedule reconciliation remain open.
 
-The reviewer has accepted conservative draft interpretations for CLM-005 and
-CLM-007. This is recorded as `HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION`;
-it is not approval for claim use. The proposed CLM-005 interpretation is a
+The reviewer has accepted guarded source-level support for CLM-005 and
+CLM-007. This is recorded as
+`HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT_CURRENTNESS_UNRESOLVED`; it is not
+approval for claim use. The proposed CLM-005 interpretation is a
 notification requirement limited to the Act 678 export/contained-use/import
 activity categories. The proposed CLM-007 interpretation is a conditional
 notification exemption, not a general finding that notification is unnecessary.

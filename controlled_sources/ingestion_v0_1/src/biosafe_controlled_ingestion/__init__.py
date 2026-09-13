@@ -62,6 +62,11 @@ from .legal_claim_review_draft import (
     build_legal_claim_review_draft,
     write_legal_claim_review_draft,
 )
+from .currentness_review import (
+    accept_currentness_review,
+    build_currentness_evidence_packet,
+    write_currentness_evidence_packet,
+)
 
 __all__ = [
     "ChunkRecord",
@@ -111,6 +116,9 @@ __all__ = [
     "LEGAL_CLAIM_IDS",
     "build_legal_claim_review_draft",
     "write_legal_claim_review_draft",
+    "accept_currentness_review",
+    "build_currentness_evidence_packet",
+    "write_currentness_evidence_packet",
     "detect_extraction_backend",
     "load_source_register",
     "run_preflight",

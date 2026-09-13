@@ -4,7 +4,7 @@ Version: `BioSafe_Legal_Blocker_Evidence_Bundle_v0.1`. **Evidence-only human rev
 
 - Generated: 2026-09-13
 - Legal draft SHA-256: `a54107bc4e9b6ab2c99b93082676b6a7dc95d278b0cde66501bc6199496aef1c`
-- Canonical review map SHA-256: `57e507ff970b756b50818a06eafd96d49e037d8565a911d40b8103c72ed2f0b3`
+- Canonical review map SHA-256: `9a3eba570b9d3d6802dbf5376236fcfb808188cb4820edee60252ebe7d79ed13`
 - Component artifact SHA-256: `7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c`
 - Source policy SHA-256: `ed6541a59660b30da1780763ec2bb2e0050dd20827bde06a3d13bc055dfdb065`
 - Source register SHA-256: `a69aeb3c5caacf45d8ec695aac0f42586332d794458ba8f0ad4e464d41e02b5e`

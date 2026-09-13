@@ -14,6 +14,7 @@ if str(SRC) not in sys.path:
 
 from biosafe_controlled_ingestion.contracts import ValidationError  # noqa: E402
 from biosafe_controlled_ingestion.currentness_review import (  # noqa: E402
+    accept_currentness_review,
     build_currentness_evidence_packet,
 )
 
@@ -80,6 +81,29 @@ class CurrentnessReviewTests(unittest.TestCase):
             packet["amendment_scope"]["non_target_instrument"],
             "Biosafety (Approval and Notification) Regulations 2010 [P.U. (A) 367/2010]",
         )
+
+    def test_guarded_acceptance_completes_review_but_retains_unresolved_outcomes(self):
+        accepted = accept_currentness_review(
+            self.build(),
+            reviewer_identity="BioSafe project owner",
+            reviewer_role="Claim reconciliation reviewer",
+            review_date="2026-09-13",
+        )
+        self.assertEqual(accepted["human_review_status"], "HUMAN_REVIEW_COMPLETE")
+        self.assertEqual(accepted["review_decision"]["decision"], "ACCEPT_CURRENTNESS_REVIEW_WITH_UNRESOLVED_OUTCOMES")
+        self.assertTrue(all(item["currentness_outcome"] == "CURRENTNESS_UNRESOLVED" for item in accepted["provisions"]))
+        self.assertEqual(accepted["promotion_status"], "NOT_PROMOTED")
+
+    def test_guarded_acceptance_rejects_verified_outcome_without_evidence(self):
+        changed = self.build()
+        changed["provisions"][0]["currentness_outcome"] = "CURRENTNESS_VERIFIED_FOR_EXACT_PROVISION"
+        with self.assertRaisesRegex(ValidationError, "requires every currentness outcome"):
+            accept_currentness_review(
+                changed,
+                reviewer_identity="BioSafe project owner",
+                reviewer_role="Claim reconciliation reviewer",
+                review_date="2026-09-13",
+            )
 
 
 if __name__ == "__main__":

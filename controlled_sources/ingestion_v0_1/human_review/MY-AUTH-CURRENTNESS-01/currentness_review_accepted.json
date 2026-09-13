@@ -1,0 +1,139 @@
+{
+  "amendment_artifact_sha256": "ba34706c2bfd3ead77f1d001c5e1b126ac83a1d75637876b8acf3efa82a9ed88",
+  "amendment_scope": {
+    "accepted_transcription": true,
+    "impact_on_claims": "The accepted Order transcription does not visibly amend the provisions reviewed for CLM-005 or CLM-007.",
+    "non_target_instrument": "Biosafety (Approval and Notification) Regulations 2010 [P.U. (A) 367/2010]",
+    "target_instrument": "Biosafety Act 2007 [Act 678]"
+  },
+  "artifact_version": "BioSafe_Targeted_Currentness_Evidence_Packet_v0.1",
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "exact_support_artifact_sha256": "b75651248ef033449c9b53da4a5adc92a8263f0cbb4642286e44422d6396a231",
+  "human_review_status": "HUMAN_REVIEW_COMPLETE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "promotion_status": "NOT_PROMOTED",
+  "provisions": [
+    {
+      "amendment_assessment": "NO_VISIBLE_2019_ORDER_OPERATION_ON_SECTION_22",
+      "claim_ids": [
+        "CLM-005"
+      ],
+      "currentness_outcome": "CURRENTNESS_UNRESOLVED",
+      "evidence": [
+        "Owner-designated Act 678 PDF is hash-bound and contains the section 22(1)(a)–(c) text on PDF pages 83–84.",
+        "The accepted 2019 Order targets Act 678 First and Third Schedules and does not identify section 22 as an amended provision."
+      ],
+      "instrument": "Biosafety Act 2007 [Act 678]",
+      "provision": "section 22(1)(a)–(c)",
+      "provision_id": "ACT678-S22-1-A-C",
+      "source_id": "KB-MY-ACT678",
+      "source_pages": [
+        83,
+        84
+      ],
+      "uncertainty": "The controlled corpus does not establish a complete amendment/revocation/supersession inventory for section 22."
+    },
+    {
+      "amendment_assessment": "NO_VISIBLE_2019_ORDER_OPERATION_ON_REGULATION_16",
+      "claim_ids": [
+        "CLM-005"
+      ],
+      "currentness_outcome": "CURRENTNESS_UNRESOLVED",
+      "evidence": [
+        "The official-equivalence-verified Regulations PDF is hash-bound and contains Regulation 16(1)–(2) on PDF page 27.",
+        "The accepted 2019 Order targets Act 678 schedules, not Regulation 16 or P.U. (A) 367/2010."
+      ],
+      "instrument": "Biosafety (Approval and Notification) Regulations 2010 [P.U. (A) 367/2010]",
+      "provision": "Regulation 16(1)–(2)",
+      "provision_id": "REG2010-REG16-1-2",
+      "source_id": "KB-MY-REG2010",
+      "source_pages": [
+        27
+      ],
+      "uncertainty": "The controlled corpus does not establish a complete amendment/revocation/supersession inventory for Regulation 16."
+    },
+    {
+      "amendment_assessment": "NO_VISIBLE_2019_ORDER_OPERATION_ON_REGULATIONS_FIRST_SCHEDULE",
+      "claim_ids": [
+        "CLM-007"
+      ],
+      "currentness_outcome": "CURRENTNESS_UNRESOLVED",
+      "evidence": [
+        "The official-equivalence-verified Regulations PDF is hash-bound and contains Regulation 2(b) on PDF page 21 and the reviewed First Schedule range on PDF pages 30–34.",
+        "The accepted 2019 Order targets Act 678 schedules, not the First Schedule to P.U. (A) 367/2010."
+      ],
+      "instrument": "Biosafety (Approval and Notification) Regulations 2010 [P.U. (A) 367/2010]",
+      "provision": "Regulation 2(b) and First Schedule",
+      "provision_id": "REG2010-REG2B-FIRST-SCHEDULE",
+      "source_id": "KB-MY-REG2010",
+      "source_pages": [
+        21,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "uncertainty": "The controlled corpus does not establish a complete amendment/revocation/supersession inventory for Regulation 2(b) or the First Schedule."
+    }
+  ],
+  "required_review_actions": [
+    "Obtain authoritative evidence for the complete amendment, commencement, revocation, replacement, and supersession history of each exact provision.",
+    "Keep each provision CURRENTNESS_UNRESOLVED unless exact-provision currentness is affirmatively established.",
+    "Do not promote CLM-005 or CLM-007 or use this packet for a case-level authorization determination."
+  ],
+  "review_decision": {
+    "attestations": {
+      "case_level_authorization_prohibited": true,
+      "currentness_uncertainty_retained": true,
+      "exact_provision_boundaries_reviewed": true,
+      "live_activation_prohibited": true,
+      "source_identity_and_hashes_reviewed": true
+    },
+    "decision": "ACCEPT_CURRENTNESS_REVIEW_WITH_UNRESOLVED_OUTCOMES",
+    "findings": [
+      "The source identities, hashes, provision boundaries, and recorded evidence were reviewed.",
+      "The available packet does not establish a complete authoritative amendment, commencement, revocation, replacement, or supersession history for the exact provisions.",
+      "All exact-provision currentness outcomes therefore remain CURRENTNESS_UNRESOLVED.",
+      "Acceptance does not establish current law, applicability, approval, notification, exemption, compliance, or permission to begin work."
+    ],
+    "review_date": "2026-09-13",
+    "reviewer_identity": "BioSafe project owner",
+    "reviewer_role": "Claim reconciliation reviewer"
+  },
+  "review_scope": "TARGETED_EXACT_PROVISION_CURRENTNESS_EVIDENCE_ONLY",
+  "source_policy_sha256": "ed6541a59660b30da1780763ec2bb2e0050dd20827bde06a3d13bc055dfdb065",
+  "source_records": {
+    "KB-MY-ACT678": {
+      "currentness_status": "OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE_AMENDMENT_REVIEW_REQUIRED",
+      "direct_download_url": "https://www.biosafety.gov.my/assets/document/akta-dan-peraturan/1-akta-biokeselamatan-2007-akta-678.pdf",
+      "identifier": "Act 678",
+      "official_landing_page": "https://www.biosafety.gov.my/",
+      "sha256": "8c2badc2db503906b92a42b905736653b868ee3c7bc6fb79719e0081cf25e8cc",
+      "status": "STAGED_OWNER_DESIGNATED_SOLE_CANONICAL_BIOSAFE_SOURCE",
+      "supersession_status": "AMENDMENT_AND_CLAIM_LEVEL_CURRENTNESS_REVIEW_REQUIRED",
+      "title": "Biosafety Act 2007 (Act 678)"
+    },
+    "KB-MY-AMEND2019": {
+      "currentness_status": "OFFICIAL_IDENTITY_VERIFIED_VISUAL_TRANSCRIPTION_ACCEPTED",
+      "direct_download_url": "https://www.biosafety.gov.my/assets/document/akta-dan-peraturan/3-perintah-biokeselamatan-pindaan-jadual-pertama-dan-jadual-ketiga-2019.pdf",
+      "identifier": "2019 amendment order",
+      "official_landing_page": "https://www.biosafety.gov.my/",
+      "sha256": "afcba3598e4188c6aafc452544d2dd4a4505d8f8785b4a251b6c922444d2523c",
+      "status": "STAGED_OFFICIAL_DOWNLOAD_VISUALLY_TRANSCRIBED_REVIEW_ACCEPTED",
+      "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
+      "title": "Perintah Biokeselamatan (Pindaan Jadual Pertama dan Jadual Ketiga) 2019"
+    },
+    "KB-MY-REG2010": {
+      "currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
+      "direct_download_url": "https://www.biosafety.gov.my/assets/document/akta-dan-peraturan/2-peraturan-biokeselamatan-kelulusan-dan-pemberitahuan.pdf",
+      "identifier": "P.U. (A) 367/2010",
+      "official_landing_page": "https://www.biosafety.gov.my/",
+      "sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
+      "status": "STAGED_OFFICIAL_EQUIVALENCE_VERIFIED_CURRENT_LISTING_REVIEWED",
+      "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
+      "title": "Biosafety (Approval and Notification) Regulations 2010"
+    }
+  },
+  "source_register_sha256": "a69aeb3c5caacf45d8ec695aac0f42586332d794458ba8f0ad4e464d41e02b5e"
+}

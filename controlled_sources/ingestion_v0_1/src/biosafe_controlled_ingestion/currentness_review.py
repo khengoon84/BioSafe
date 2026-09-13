@@ -11,6 +11,7 @@ from .contracts import ValidationError
 
 ARTIFACT_VERSION = "BioSafe_Targeted_Currentness_Evidence_Packet_v0.1"
 REVIEW_REQUIRED = "HUMAN_REVIEW_REQUIRED"
+REVIEW_COMPLETE = "HUMAN_REVIEW_COMPLETE"
 OUTCOMES = {
     "CURRENTNESS_VERIFIED_FOR_EXACT_PROVISION",
     "CURRENTNESS_UNRESOLVED",
@@ -154,3 +155,51 @@ def build_currentness_evidence_packet(
 def write_currentness_evidence_packet(packet: dict[str, Any], output: Path) -> None:
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(packet, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+
+
+def accept_currentness_review(
+    packet: dict[str, Any], *, reviewer_identity: str, reviewer_role: str, review_date: str
+) -> dict[str, Any]:
+    """Record review of the evidence packet without asserting current law."""
+    if packet.get("human_review_status") != REVIEW_REQUIRED:
+        raise ValidationError("currentness packet is not awaiting human review")
+    if packet.get("promotion_status") != "NOT_PROMOTED":
+        raise ValidationError("currentness review cannot accept a promoted packet")
+    if packet.get("claim_use_status") != CLAIM_REVIEW_REQUIRED:
+        raise ValidationError("currentness packet must require claim review")
+    if packet.get("live_activation_status") != ACTIVATION_PROHIBITED:
+        raise ValidationError("currentness packet must prohibit live activation")
+    if not reviewer_identity.strip() or not reviewer_role.strip():
+        raise ValidationError("reviewer identity and role are required")
+    provisions = packet.get("provisions")
+    if not isinstance(provisions, list) or not provisions:
+        raise ValidationError("currentness packet must contain provisions")
+    if any(item.get("currentness_outcome") != "CURRENTNESS_UNRESOLVED" for item in provisions):
+        raise ValidationError("this guarded acceptance requires every currentness outcome to remain unresolved")
+    result = json.loads(json.dumps(packet))
+    result["human_review_status"] = REVIEW_COMPLETE
+    result["review_decision"] = {
+        "decision": "ACCEPT_CURRENTNESS_REVIEW_WITH_UNRESOLVED_OUTCOMES",
+        "reviewer_identity": reviewer_identity,
+        "reviewer_role": reviewer_role,
+        "review_date": review_date,
+        "findings": [
+            "The source identities, hashes, provision boundaries, and recorded evidence were reviewed.",
+            "The available packet does not establish a complete authoritative amendment, commencement, revocation, replacement, or supersession history for the exact provisions.",
+            "All exact-provision currentness outcomes therefore remain CURRENTNESS_UNRESOLVED.",
+            "Acceptance does not establish current law, applicability, approval, notification, exemption, compliance, or permission to begin work.",
+        ],
+        "attestations": {
+            "source_identity_and_hashes_reviewed": True,
+            "exact_provision_boundaries_reviewed": True,
+            "currentness_uncertainty_retained": True,
+            "case_level_authorization_prohibited": True,
+            "live_activation_prohibited": True,
+        },
+    }
+    result["required_review_actions"] = [
+        "Obtain authoritative evidence for the complete amendment, commencement, revocation, replacement, and supersession history of each exact provision.",
+        "Keep each provision CURRENTNESS_UNRESOLVED unless exact-provision currentness is affirmatively established.",
+        "Do not promote CLM-005 or CLM-007 or use this packet for a case-level authorization determination.",
+    ]
+    return result

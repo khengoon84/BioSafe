@@ -47,7 +47,7 @@
         "claim_type": "regulatory_uncertainty",
         "document_id": "KB-MY-ACT678",
         "maps_to": "PROP-01; PROP-03",
-        "page": "90\u201391",
+        "page": "90–91",
         "priority": "critical",
         "section": "s.35",
         "text": "The Act permits decisions to be made despite lack of scientific certainty where relevant scientific information or knowledge is insufficient.",
@@ -108,7 +108,7 @@
         "claim_type": "risk_assessment",
         "document_id": "KB-MY-ACT678",
         "maps_to": "SOP-01; SOP-03; PROP-01; PROP-03",
-        "page": "90\u201391",
+        "page": "90–91",
         "priority": "critical",
         "section": "s.36",
         "text": "Risk assessment/risk management reporting addresses risks and adverse effects to human, plant and animal health, the environment and biodiversity, together with measures to prevent, reduce or control them.",
@@ -169,7 +169,7 @@
         "claim_type": "emergency_response",
         "document_id": "KB-MY-ACT678",
         "maps_to": "SOP-01; SOP-03; PROP-03",
-        "page": "90\u201391",
+        "page": "90–91",
         "priority": "major",
         "section": "s.37",
         "text": "Emergency response planning is part of the statutory risk-management framework and must provide safety measures/procedures and necessary emergency measures.",
@@ -230,7 +230,7 @@
         "claim_type": "ibc",
         "document_id": "KB-MY-REG2010",
         "maps_to": "SOP-03; PROP-01",
-        "page": "20\u201330",
+        "page": "20–30",
         "priority": "critical",
         "section": "Reg. 5",
         "text": "The Board may direct organisations conducting modern biotechnology R&D to establish an IBC; the IBC has biosafety oversight functions including procedures and BSL determination for contained-use R&D.",
@@ -278,7 +278,7 @@
           "relationship": "CROSS_DOCUMENT_SCOPE_DEPENDENCY",
           "required_for_interpretation": true,
           "source_document_id": "KB-MY-ACT678",
-          "source_provision": "section 22(1)(a)\u2013(c)"
+          "source_provision": "section 22(1)(a)–(c)"
         }
       ],
       "currentness_status": "CURRENTNESS_UNRESOLVED",
@@ -351,14 +351,14 @@
       "legacy_document_id": "KB-MY-REG2010",
       "limitations": [
         "The exact activity categories depend on section 22(1)(a) to (c) of the Act and cannot be generalized without that context.",
-        "The 2019 schedule amendment remains recorded and requires reconciliation."
+        "The accepted 2019 Order was reconciled as an Act 678 schedule amendment; complete exact-provision currentness evidence remains required."
       ],
       "original_claim": {
         "claim_id": "CLM-005",
         "claim_type": "notification",
         "document_id": "KB-MY-REG2010",
         "maps_to": "SOP-03; PROP-01",
-        "page": "20\u201330",
+        "page": "20–30",
         "priority": "critical",
         "section": "Reg. 16",
         "text": "Specified activities require prior notification, with submission arrangements involving the Director General and, where applicable, the IBC.",
@@ -388,11 +388,11 @@
           "normative_force": "CONTEXT_ONLY",
           "polarity": "CONTEXT_ONLY",
           "semantic_unit_id": "CLM-005-ACT-678-CONTEXT",
-          "source_activity_scope": "Act 678 section 22(1)(a)\u2013(c); not direct canonical support for the Regulations claim record."
+          "source_activity_scope": "Act 678 section 22(1)(a)–(c); not direct canonical support for the Regulations claim record."
         }
       ],
       "source_support_disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "support_review_artifact_sha256": "b75651248ef033449c9b53da4a5adc92a8263f0cbb4642286e44422d6396a231",
       "support_review_status": "ACCEPTED_AS_SOURCE_SUPPORT",
       "support_spans": [
@@ -413,7 +413,7 @@
           ],
           "pdf_page_end": 27,
           "pdf_page_start": 27,
-          "quoted_support": "                         (2)       The notification required under paragraphs 22(1)(b)    and    (c) of the Act\nshall be submitted\u2014",
+          "quoted_support": "                         (2)       The notification required under paragraphs 22(1)(b)    and    (c) of the Act\nshall be submitted—",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
           "support_type": "DIRECT"
@@ -503,7 +503,7 @@
         "claim_type": "notification_quality",
         "document_id": "KB-MY-REG2010",
         "maps_to": "PROP-01",
-        "page": "20\u201330",
+        "page": "20–30",
         "priority": "major",
         "section": "Reg. 17",
         "text": "Notifications are expected to be complete and without errors; the Director General may require amendment, completion or resubmission.",
@@ -526,7 +526,7 @@
         "First Schedule item 2 contains conditions for an activity involving an organism into which genetically modified somatic cells have been introduced.",
         "First Schedule item 3 concerns a host/vector system listed in the host/vector schedule and imposes donor-nucleic-acid conditions.",
         "The host/vector schedule is source material that must be retained when reviewing the host/vector criteria.",
-        "The First Schedule\u2019s later text states that a commercially available Host-Vector System is included only when fulfilling the criteria specified under item 1."
+        "The First Schedule’s later text states that a commercially available Host-Vector System is included only when fulfilling the criteria specified under item 1."
       ],
       "attestations": {
         "controlled_source_compared": true,
@@ -603,7 +603,7 @@
         }
       ],
       "source_support_disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "support_review_artifact_sha256": "b75651248ef033449c9b53da4a5adc92a8263f0cbb4642286e44422d6396a231",
       "support_review_status": "ACCEPTED_AS_SOURCE_SUPPORT",
       "support_spans": [
@@ -745,7 +745,7 @@
         "claim_type": "containment",
         "document_id": "KB-MY-CU",
         "maps_to": "SOP-03; PROP-01",
-        "page": "16\u201323",
+        "page": "16–23",
         "priority": "critical",
         "section": "GM-BSL2 / work practices",
         "text": "Contained-use guidance specifies biosafety-level and work-practice expectations, including access restrictions, training, decontamination and incident controls; GM-BSL2 examples include LMO/materials associated with RG2 microorganisms.",
@@ -763,7 +763,7 @@
           ],
           "pdf_page_end": 18,
           "pdf_page_start": 18,
-          "quoted_support": "\u2022                                                       Research      involving      the      introduction      of      naked      nucleic      acids      into      RG\n      2 microorganisms that has moderate potential hazard to personnel,\n      community and the environment",
+          "quoted_support": "•                                                       Research      involving      the      introduction      of      naked      nucleic      acids      into      RG\n      2 microorganisms that has moderate potential hazard to personnel,\n      community and the environment",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
           "support_type": "DIRECT"
@@ -774,7 +774,7 @@
           ],
           "pdf_page_end": 18,
           "pdf_page_start": 18,
-          "quoted_support": "\u2022                                                       Experiments  with  LMO  and  related  materials,  harboring  DNA  from  a\n      RG 2 microorganism.",
+          "quoted_support": "•                                                       Experiments  with  LMO  and  related  materials,  harboring  DNA  from  a\n      RG 2 microorganism.",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
           "support_type": "DIRECT"
@@ -909,7 +909,7 @@
         "claim_type": "incident",
         "document_id": "KB-MY-CU",
         "maps_to": "SOP-03; SOP-01",
-        "page": "16\u201323",
+        "page": "16–23",
         "priority": "major",
         "section": "GM-BSL2 work practices",
         "text": "Spills/accidents are to be addressed through established reporting and emergency arrangements, with relevant escalation to supervisory/IBC structures.",
@@ -1004,7 +1004,7 @@
         "claim_type": "equipment",
         "document_id": "KB-MY-CU",
         "maps_to": "SOP-03; PROP-01",
-        "page": "16\u201323",
+        "page": "16–23",
         "priority": "major",
         "section": "GM-BSL2 work practices",
         "text": "A Class II biological safety cabinet is identified for work presenting respiratory/aerosol risk within the applicable contained-use context.",
@@ -1022,7 +1022,7 @@
           ],
           "pdf_page_end": 21,
           "pdf_page_start": 21,
-          "quoted_support": "\u2022                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .",
+          "quoted_support": "•                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
           "support_type": "DIRECT"
@@ -1135,7 +1135,7 @@
           ],
           "pdf_page_end": 77,
           "pdf_page_start": 77,
-          "quoted_support": "Biowaste Boxes\n\n                                         \u2022                                                       Sturdy     cardboard     biowaste     boxes     displaying     the     biohazard     sign     are\n                                                used as the terminal receptacle. The boxes are lined with a biohazard\n                                                bag.\n\n                                         \u2022                                                       Boxes should not be over-filled.\n\n                                         \u2022                                                       All                 seams                 should                 be                 taped                 and                 labelled                 with                 date,                 Laboratory\n                                                Supervisor\u2019s name and telephone number.\n\n                                         \u2022                                                       Biowaste boxes should not be kept for more than 30 days.\n\n                                         b)                                                       Biohazard Bags\n\n                                         \u2022                                                       Liquids  should   not   be   put   into  the  bags.   The  bags   should  be   labelled\n                                                with date, Laboratory Supervisor\u2019s name and telephone number.\n\n                                         \u2022                                                       Biohazard bags are placed in a biowaste box for disposal.\n\n                                         \u2022                                                       The laboratory should order/supply these bags\n\n                                         c)",
+          "quoted_support": "Biowaste Boxes\n\n                                         •                                                       Sturdy     cardboard     biowaste     boxes     displaying     the     biohazard     sign     are\n                                                used as the terminal receptacle. The boxes are lined with a biohazard\n                                                bag.\n\n                                         •                                                       Boxes should not be over-filled.\n\n                                         •                                                       All                 seams                 should                 be                 taped                 and                 labelled                 with                 date,                 Laboratory\n                                                Supervisor’s name and telephone number.\n\n                                         •                                                       Biowaste boxes should not be kept for more than 30 days.\n\n                                         b)                                                       Biohazard Bags\n\n                                         •                                                       Liquids  should   not   be   put   into  the  bags.   The  bags   should  be   labelled\n                                                with date, Laboratory Supervisor’s name and telephone number.\n\n                                         •                                                       Biohazard bags are placed in a biowaste box for disposal.\n\n                                         •                                                       The laboratory should order/supply these bags\n\n                                         c)",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
           "support_type": "DIRECT"
@@ -1146,7 +1146,7 @@
           ],
           "pdf_page_end": 78,
           "pdf_page_start": 78,
-          "quoted_support": "Biohazardous   waste   is   transported   outside   of   the   laboratory   (e.g.   to\n      an autoclave or incinerator) in a closed, leak-proof bag or container.\n      Bags should be placed in a leak-proof tray.\n\n\u2022",
+          "quoted_support": "Biohazardous   waste   is   transported   outside   of   the   laboratory   (e.g.   to\n      an autoclave or incinerator) in a closed, leak-proof bag or container.\n      Bags should be placed in a leak-proof tray.\n\n•",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
           "support_type": "DIRECT"
@@ -1212,7 +1212,7 @@
           ],
           "pdf_page_end": 21,
           "pdf_page_start": 21,
-          "quoted_support": "Containment Equipment (GM-BSL2)\n\u2022                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .\n\n\u2022",
+          "quoted_support": "Containment Equipment (GM-BSL2)\n•                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .\n\n•",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
           "support_type": "DIRECT"
@@ -1274,7 +1274,7 @@
         "claim_type": "risk_assessment",
         "document_id": "KB-MY-GMMRA",
         "maps_to": "SOP-01; SOP-03; PROP-01; PROP-03",
-        "page": "20\u201323",
+        "page": "20–23",
         "priority": "critical",
         "section": "risk-assessment framework",
         "text": "GMM risk assessment considers hazards, exposure/release, risk controls and BSL assignment, and addresses relevant human, animal, plant and environmental risks.",
@@ -1381,8 +1381,8 @@
       ],
       "findings": [
         "PDF page 22 directly states the expected background and detail for reviewer comprehension.",
-        "PDF pages 22\u201323 directly address acknowledging potential hazards, use of established scientific knowledge, absence of evidence, and uncertainty.",
-        "The historical evaluative word \u201cdefensible\u201d was not retained because the source does not define or use it in the cited passage."
+        "PDF pages 22–23 directly address acknowledging potential hazards, use of established scientific knowledge, absence of evidence, and uncertainty.",
+        "The historical evaluative word “defensible” was not retained because the source does not define or use it in the cited passage."
       ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
       "jurisdiction": "Malaysia",
@@ -1396,7 +1396,7 @@
         "claim_type": "uncertainty",
         "document_id": "KB-MY-GMMRA",
         "maps_to": "SOP-01; PROP-01; PROP-03",
-        "page": "20\u201323",
+        "page": "20–23",
         "priority": "critical",
         "section": "risk-assessment detail",
         "text": "A defensible risk assessment should contain enough background and detail for reviewers to understand hazards; potential hazards should be acknowledged and uncertainty considered.",
@@ -1495,7 +1495,7 @@
         "PDF page 23 explicitly calls for regular review and updating for new scientific knowledge or changes in the nature of the activity.",
         "PDF page 23 identifies scale, new procedures, and containment measures as examples of relevant activity changes.",
         "PDF page 23 supplies a bounded therapeutic-product example of updating across development phases.",
-        "The unsupported historical editorial phrase \u201cone-time unsupported conclusion\u201d was not retained as a source proposition."
+        "The unsupported historical editorial phrase “one-time unsupported conclusion” was not retained as a source proposition."
       ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
       "jurisdiction": "Malaysia",
@@ -1510,7 +1510,7 @@
         "claim_type": "risk_review",
         "document_id": "KB-MY-GMMRA",
         "maps_to": "SOP-03; PROP-03",
-        "page": "20\u201323",
+        "page": "20–23",
         "priority": "major",
         "section": "review/update",
         "text": "Risk assessment should be reviewed and updated as appropriate rather than treated as a one-time unsupported conclusion.",
@@ -2221,9 +2221,9 @@
         "claim_type": "risk_management",
         "document_id": "KB-MY-FORME",
         "maps_to": "PROP-01",
-        "page": "Form E pp.203\u2013204 area",
+        "page": "Form E pp.203–204 area",
         "priority": "major",
-        "section": "A4.2\u2013A4.3",
+        "section": "A4.2–A4.3",
         "text": "Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures.",
         "verification_status": "Verified"
       },
@@ -2385,7 +2385,7 @@
           ],
           "pdf_page_end": 204,
           "pdf_page_start": 204,
-          "quoted_support": "Any information within this notification which is to be treated as CBI, as described in the\nBiosafety Act 2007 in section 59(3) should be clearly marked \u201cCBI\u201d in the relevant parts\nof      the      notification      by      providing      the      justification      for      the      request      for      CBI.",
+          "quoted_support": "Any information within this notification which is to be treated as CBI, as described in the\nBiosafety Act 2007 in section 59(3) should be clearly marked “CBI” in the relevant parts\nof      the      notification      by      providing      the      justification      for      the      request      for      CBI.",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204",
           "support_type": "DIRECT"
@@ -2439,7 +2439,7 @@
         "claim_type": "scope_boundary",
         "document_id": "KB-MY-FORME",
         "maps_to": "PROP-01",
-        "page": "Form E pp.207\u2013208",
+        "page": "Form E pp.207–208",
         "priority": "critical",
         "section": "IBC Assessment Report",
         "text": "The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring.",
@@ -2457,7 +2457,7 @@
           ],
           "pdf_page_end": 208,
           "pdf_page_start": 208,
-          "quoted_support": "This must be completed by the registered IBC of the Applicant\u2019s organization",
+          "quoted_support": "This must be completed by the registered IBC of the Applicant’s organization",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
           "support_type": "DIRECT"
@@ -2520,7 +2520,7 @@
         "claim_type": "transport",
         "document_id": "KB-MY-MOH2023",
         "maps_to": "SOP-01; PROP-02; PROP-03",
-        "page": "pp.9\u201325",
+        "page": "pp.9–25",
         "priority": "critical",
         "section": "scope/classification",
         "text": "The 2023 MOH guideline covers safe transport of clinical specimens and infectious substances, including classification and packaging/labelling/marking requirements.",
@@ -2637,7 +2637,7 @@
       "legacy_document_id": "KB-MY-MOH2023",
       "limitations": [
         "Category A and Category B here are transport classifications and must not be treated as risk groups or biosafety levels.",
-        "The P620 passage references packaging \u201capproval\u201d in the UN model-regulation sense; it does not establish that any specific shipment, facility, or activity is approved.",
+        "The P620 passage references packaging “approval” in the UN model-regulation sense; it does not establish that any specific shipment, facility, or activity is approved.",
         "The dry-ice coolant reference (PI 954) is noted but was not separately propositioned."
       ],
       "original_claim": {
@@ -2645,7 +2645,7 @@
         "claim_type": "transport",
         "document_id": "KB-MY-MOH2023",
         "maps_to": "SOP-01; PROP-02; PROP-03",
-        "page": "pp.9\u201325",
+        "page": "pp.9–25",
         "priority": "major",
         "section": "triple packaging",
         "text": "Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts.",
@@ -2707,7 +2707,7 @@
           ],
           "pdf_page_end": 24,
           "pdf_page_start": 24,
-          "quoted_support": "Packing instruction P620 outlines the requir eme                                          nts and special packaging                                                                                           provisions that\nmust be met for \u201capproval\u201d for use with Category A infectious substances.",
+          "quoted_support": "Packing instruction P620 outlines the requir eme                                          nts and special packaging                                                                                           provisions that\nmust be met for “approval” for use with Category A infectious substances.",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
           "support_type": "DIRECT"
@@ -2772,14 +2772,14 @@
       ],
       "findings": [
         "PDF page 11 contains the guideline's own scope and exclusion statement.",
-        "PDF page 26 mentions \u201cClinical waste, unspecified, NOS\u201d only as one possible UN 3291 proper shipping name for Category B infectious clinical or medical waste; that shipping-name mention does not bring general clinical-waste management within the guideline's described scope.",
-        "The historical editorial phrase \u201cdoes not serve as the clinical-waste guideline\u201d was not retained as a source proposition; the retained proposition uses the guideline's own wording."
+        "PDF page 26 mentions “Clinical waste, unspecified, NOS” only as one possible UN 3291 proper shipping name for Category B infectious clinical or medical waste; that shipping-name mention does not bring general clinical-waste management within the guideline's described scope.",
+        "The historical editorial phrase “does not serve as the clinical-waste guideline” was not retained as a source proposition; the retained proposition uses the guideline's own wording."
       ],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
       "jurisdiction": "Malaysia",
       "legacy_document_id": "KB-MY-MOH2023",
       "limitations": [
-        "The \u201cdoes not describe\u201d statement is the guideline's own scope statement and was not strengthened into a broader categorical or legal exclusion.",
+        "The “does not describe” statement is the guideline's own scope statement and was not strengthened into a broader categorical or legal exclusion.",
         "The guideline does not establish laboratory containment or waste-classification requirements.",
         "Infectious clinical or medical waste assigned to Category B under UN 3291 remains subject to the transport provisions the guideline quotes."
       ],
@@ -3082,7 +3082,7 @@
         "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
         "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
         "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "The source uses the broader category \u201chuman factors,\u201d with personnel competency as an example."
+        "The source uses the broader category “human factors,” with personnel competency as an example."
       ],
       "original_claim": {
         "claim_id": "CLM-032",
@@ -3119,7 +3119,7 @@
           ],
           "pdf_page_end": 20,
           "pdf_page_start": 20,
-          "quoted_support": "1.                                Gather information                                            \u00a7\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         \u00a7\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         \u00a7\tWhat type(s) of equipment will be used?\n                                                                         \u00a7\tWhat type of laboratory facility is available?\n                                                                         \u00a7\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         \u00a7\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
+          "quoted_support": "1.                                Gather information                                            §\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         §\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         §\tWhat type(s) of equipment will be used?\n                                                                         §\tWhat type of laboratory facility is available?\n                                                                         §\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         §\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
           "support_type": "DIRECT"
@@ -3160,10 +3160,10 @@
         "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
         "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
         "Do not activate these propositions for live retrieval or claim use.",
-        "Do not treat \u201cacceptable risk\u201d as universal or as a BioSafe determination that work may proceed."
+        "Do not treat “acceptable risk” as universal or as a BioSafe determination that work may proceed."
       ],
       "findings": [
-        "PDF pages 20\u201321 (printed pages 6\u20137) directly support the Step 2 and Step 4 draft propositions.",
+        "PDF pages 20–21 (printed pages 6–7) directly support the Step 2 and Step 4 draft propositions.",
         "The historical wording compresses evaluation and post-control residual-risk stages."
       ],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
@@ -3173,7 +3173,7 @@
         "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
         "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
         "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "WHO states on PDF pages 27\u201328 that acceptable risk varies and institutions should use a strategy meeting their unique needs."
+        "WHO states on PDF pages 27–28 that acceptable risk varies and institutions should use a strategy meeting their unique needs."
       ],
       "original_claim": {
         "claim_id": "CLM-033",
@@ -3199,7 +3199,7 @@
           ],
           "pdf_page_end": 20,
           "pdf_page_start": 20,
-          "quoted_support": "2.                                Evaluate the risks\u00a7\tHow could an exposure and/or release occur?\n                                                                         \u00a7\tWhat is the likelihood of an exposure and/or release?\n                                                                         \u00a7\tWhat information gathered influences the likelihood the most?\n                                                                         \u00a7\tWhat are the consequences of an exposure and/or release?\n                                                                         \u00a7\tWhich information gathered influences the consequences\n                                                                           the most?\n                                                                         \u00a7 What is the overall initial risk of the activities?\n                                                                         \u00a7\tWhat is the acceptable risk?\n                                                                         \u00a7\tWhich risks are unacceptable?\n                                                                         \u00a7\tCan the unacceptable risks be controlled, or should the\n                                                                           work not proceed at all?",
+          "quoted_support": "2.                                Evaluate the risks§\tHow could an exposure and/or release occur?\n                                                                         §\tWhat is the likelihood of an exposure and/or release?\n                                                                         §\tWhat information gathered influences the likelihood the most?\n                                                                         §\tWhat are the consequences of an exposure and/or release?\n                                                                         §\tWhich information gathered influences the consequences\n                                                                           the most?\n                                                                         § What is the overall initial risk of the activities?\n                                                                         §\tWhat is the acceptable risk?\n                                                                         §\tWhich risks are unacceptable?\n                                                                         §\tCan the unacceptable risks be controlled, or should the\n                                                                           work not proceed at all?",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
           "support_type": "DIRECT"
@@ -3210,7 +3210,7 @@
           ],
           "pdf_page_end": 21,
           "pdf_page_start": 21,
-          "quoted_support": "4.                                   Select and implement risk  \u00a7\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          \u00a7\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          \u00a7\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          \u00a7\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          \u00a7\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          \u00a7\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          \u00a7\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          \u00a7\tHas approval to conduct the work been granted?\n                                          \u00a7\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          \u00a7\tHave necessary items been included in the budget and\n                                            purchased?\n                                          \u00a7\tAre operational and maintenance procedures in place?\n                                          \u00a7\tHave personnel been appropriately trained?",
+          "quoted_support": "4.                                   Select and implement risk  §\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          §\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          §\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          §\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          §\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          §\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          §\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          §\tHas approval to conduct the work been granted?\n                                          §\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          §\tHave necessary items been included in the budget and\n                                            purchased?\n                                          §\tAre operational and maintenance procedures in place?\n                                          §\tHave personnel been appropriately trained?",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21",
           "support_type": "DIRECT"
@@ -3250,7 +3250,7 @@
         "Do not represent WHO guidance as Malaysian law or regulatory proof.",
         "Do not infer that any specific material, information, technology, research, or activity is biosecurity-relevant or high-consequence.",
         "Do not infer project-specific governance, oversight, access, inventory, handling, transport, storage, destruction, reporting, control, approval, compliance, or authorization requirements.",
-        "Do not represent the historical phrase \u201csecure handling\u201d as direct wording from these support passages; retain the source\u2019s narrower stated scope and examples.",
+        "Do not represent the historical phrase “secure handling” as direct wording from these support passages; retain the source’s narrower stated scope and examples.",
         "Do not treat institutional committee review or oversight described in international guidance as Malaysian regulator approval.",
         "Do not activate these propositions for live retrieval or claim use."
       ],
@@ -3258,7 +3258,7 @@
         "PDF page 21 directly supports application of a risk- and evidence-based approach to laboratory biosecurity and high-consequence research or other activities involving biosecurity-relevant material, technology, or information.",
         "PDF page 23 directly supports the three vertical levels, horizontal lifecycle examples, systematic risk-control tools, and two-tier high-consequence review/oversight model.",
         "The historical compound claim is split into four draft propositions.",
-        "The broad historical wording \u201cgovernance\u201d is narrowed to the source\u2019s stated levels, tools, committee function, and two-tier model; \u201csecure handling\u201d is not retained as attributed source wording."
+        "The broad historical wording “governance” is narrowed to the source’s stated levels, tools, committee function, and two-tier model; “secure handling” is not retained as attributed source wording."
       ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
       "jurisdiction": "International",
@@ -3266,7 +3266,7 @@
       "limitations": [
         "This WHO publication is Tier 3 international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
         "The passages describe the scope and general approach of the guidance; they do not identify project-specific biosecurity risks, high-consequence status, controls, governance arrangements, transport/storage requirements, or permission for an activity.",
-        "The source\u2019s references to national regulatory bodies do not establish the identity, position, requirement, or authority of any Malaysian regulator.",
+        "The source’s references to national regulatory bodies do not establish the identity, position, requirement, or authority of any Malaysian regulator.",
         "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels."
       ],
       "original_claim": {
@@ -3307,7 +3307,7 @@
           ],
           "pdf_page_end": 23,
           "pdf_page_start": 23,
-          "quoted_support": "This guidance follows the principles of the risk- and evidence -based approach for biosafet  y\nint ro duce d  in  WHO\u2019s  Laborator  y  biosafet  y  manual,  four  t h  edit ion              for labor ator   y biose cur it  y (2)           .\nA biosecurit  y risk as ses sment template with an embedded high - consequence decision tree\nwas develope d to identif  y biose cur it  y r isk s , high -  conse quence research and high -  conse quence\nmaterial and implementing biosecurit  y risk control measures to addres s the identif ied\nbios e cur it  y  r isk s .\nThe document provides tools and guidance to manage laborator  y biosecurit  y risk s and outlines\nbes t prac tices at the three ver  tical levels: laborator  y, ins titution and national regulator  y levels.\nIt also outlines bes t prac tices at the horizontal level: for example, sample collec tion, transpor  t,\nproces sing , s torage and, if neces sar  y, des tr uc tion in places such as diagnos tic laboratories (f ixed\nor mobile), re s earch ins titutions , manuf ac turer s and phar maceutic al companie s , among other s .\nOne key to capacit  y and capabilit  y building of biological risk management is to es tablish and/or\ns treng then the ins titutional biosafet  y commit tees (IBC) func tion for review of high - consequence\nresearch and work with high - consequence material. To promote this aspec t, the guidance\ndescribes a t wo -tier s ys tem engaging both IBC s in the f ir s t ins tance and national regulator  y\nbodies in the second. To this end, the document describes in detail the roles and responsibilities\nof both par  ties, with IBC s providing over sight of high - consequence work within their ins titution,\nand then pas sing feedback to national regulator  y bodies who maintain inventor  y lis t s and\ns torage of res tric ted material.",
+          "quoted_support": "This guidance follows the principles of the risk- and evidence -based approach for biosafet  y\nint ro duce d  in  WHO’s  Laborator  y  biosafet  y  manual,  four  t h  edit ion              for labor ator   y biose cur it  y (2)           .\nA biosecurit  y risk as ses sment template with an embedded high - consequence decision tree\nwas develope d to identif  y biose cur it  y r isk s , high -  conse quence research and high -  conse quence\nmaterial and implementing biosecurit  y risk control measures to addres s the identif ied\nbios e cur it  y  r isk s .\nThe document provides tools and guidance to manage laborator  y biosecurit  y risk s and outlines\nbes t prac tices at the three ver  tical levels: laborator  y, ins titution and national regulator  y levels.\nIt also outlines bes t prac tices at the horizontal level: for example, sample collec tion, transpor  t,\nproces sing , s torage and, if neces sar  y, des tr uc tion in places such as diagnos tic laboratories (f ixed\nor mobile), re s earch ins titutions , manuf ac turer s and phar maceutic al companie s , among other s .\nOne key to capacit  y and capabilit  y building of biological risk management is to es tablish and/or\ns treng then the ins titutional biosafet  y commit tees (IBC) func tion for review of high - consequence\nresearch and work with high - consequence material. To promote this aspec t, the guidance\ndescribes a t wo -tier s ys tem engaging both IBC s in the f ir s t ins tance and national regulator  y\nbodies in the second. To this end, the document describes in detail the roles and responsibilities\nof both par  ties, with IBC s providing over sight of high - consequence work within their ins titution,\nand then pas sing feedback to national regulator  y bodies who maintain inventor  y lis t s and\ns torage of res tric ted material.",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-BIOSEC:BODY:PDF_PAGE_23",
           "support_type": "DIRECT"
@@ -3318,7 +3318,7 @@
       "allowed_actions": [],
       "allowed_decision_types": [],
       "atomic_propositions": [
-        "The core manual lists \u201cdecontamination and waste management\u201d among its associated monographs that may be referred to when more detailed information is required."
+        "The core manual lists “decontamination and waste management” among its associated monographs that may be referred to when more detailed information is required."
       ],
       "attestations": {
         "controlled_source_compared": true,
@@ -3345,7 +3345,7 @@
         "Do not represent this draft, a risk assessment, or selected controls as approval, compliance, or proof an activity is safe.",
         "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or authorization to begin work.",
         "Do not activate these propositions for live retrieval or claim use.",
-        "Do not represent the historical phrase \u201cBioSafe should use it as authoritative international corroboration\u201d as WHO wording or source evidence.",
+        "Do not represent the historical phrase “BioSafe should use it as authoritative international corroboration” as WHO wording or source evidence.",
         "Do not borrow detailed support from KB-WHO-LBM4-DECON while this claim remains identity-bound to KB-WHO-LBM4.",
         "Do not infer Malaysian clinical-waste, scheduled-waste, transport, or disposal requirements."
       ],
@@ -3447,7 +3447,7 @@
         "maps_to": "BS-001; BS-004; general biosafety risk-assessment cases",
         "page": "Section 1",
         "priority": "critical",
-        "section": "Section 1 \u2013 Introduction",
+        "section": "Section 1 – Introduction",
         "text": "WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
@@ -3523,7 +3523,7 @@
         "maps_to": "BS-003; general biosafety concepts",
         "page": "Section 1",
         "priority": "critical",
-        "section": "Section 1 \u2013 Introduction",
+        "section": "Section 1 – Introduction",
         "text": "In laboratory biosafety, WHO describes a biological hazard as a biological agent whose pathogenic characteristics give it the potential to cause harm to people, animals and/or the environment.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
@@ -3599,7 +3599,7 @@
         "maps_to": "BS-001; BS-003; general biosafety concepts",
         "page": "Section 1",
         "priority": "critical",
-        "section": "Section 1 \u2013 Introduction",
+        "section": "Section 1 – Introduction",
         "text": "WHO defines biological risk in context as the combination of the likelihood that an exposure to or release of a biological hazard occurs during laboratory work and the severity of the consequences if that incident occurs.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
@@ -3675,7 +3675,7 @@
         "maps_to": "BS-002; general biosafety risk-assessment cases",
         "page": "Section 1",
         "priority": "critical",
-        "section": "Section 1 \u2013 Introduction",
+        "section": "Section 1 – Introduction",
         "text": "WHO notes that laboratory biological risk depends on dynamic factors including the procedures performed, equipment available, pathogenic properties of the biological agent, host range, population susceptibility and the competency of laboratory personnel.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
@@ -3755,7 +3755,7 @@
         "maps_to": "BS-004; general biosafety risk-management cases",
         "page": "Risk assessment template / Step 4",
         "priority": "critical",
-        "section": "Step 4 \u2013 Select and implement risk control measures",
+        "section": "Step 4 – Select and implement risk control measures",
         "text": "WHO risk assessment requires risk control measures to be selected for the specific activity and then considers residual risk and whether the selected measures are available, effective and sustainable.",
         "verification_status": "Verified against WHO Risk Assessment monograph"
       },
@@ -3774,7 +3774,7 @@
           ],
           "pdf_page_end": 21,
           "pdf_page_start": 21,
-          "quoted_support": "4.                                   Select and implement risk  \u00a7\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          \u00a7\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          \u00a7\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          \u00a7\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          \u00a7\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          \u00a7\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          \u00a7\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          \u00a7\tHas approval to conduct the work been granted?\n                                          \u00a7\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          \u00a7\tHave necessary items been included in the budget and\n                                            purchased?\n                                          \u00a7\tAre operational and maintenance procedures in place?\n                                          \u00a7\tHave personnel been appropriately trained?",
+          "quoted_support": "4.                                   Select and implement risk  §\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          §\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          §\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          §\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          §\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          §\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          §\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          §\tHas approval to conduct the work been granted?\n                                          §\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          §\tHave necessary items been included in the budget and\n                                            purchased?\n                                          §\tAre operational and maintenance procedures in place?\n                                          §\tHave personnel been appropriately trained?",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21",
           "support_type": "DIRECT"
@@ -3814,12 +3814,12 @@
         "Do not represent this draft, a risk assessment, or selected controls as approval, compliance, or proof an activity is safe.",
         "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or authorization to begin work.",
         "Do not activate these propositions for live retrieval or claim use.",
-        "Do not treat the source\u2019s general framework statement as a project-specific determination that a particular activity may proceed."
+        "Do not treat the source’s general framework statement as a project-specific determination that a particular activity may proceed."
       ],
       "findings": [
         "PDF page 19 directly supports the framework-level actual-risk/case-by-case proposition.",
         "PDF page 26 directly supports assessment of work, selection/application of controls, and the stated purpose of assessment.",
-        "The historical compound claim is split into three draft propositions; \u201cproper\u201d is not retained as a source-evidence qualifier."
+        "The historical compound claim is split into three draft propositions; “proper” is not retained as a source-evidence qualifier."
       ],
       "identity_review_status": "IDENTIFIER_MATCH_VALIDATED",
       "jurisdiction": "International",
@@ -3904,7 +3904,7 @@
         "Do not represent this draft, PPE, or selected controls as approval, compliance, or proof an activity is safe.",
         "Do not infer project-specific PPE, respiratory protection, control, safety, containment, facility suitability, or authorization to begin work.",
         "Do not activate these propositions for live retrieval or claim use.",
-        "Do not represent \u201cPPE is not a complete safety determination\u201d as direct WHO wording; preserve it only as a BioSafe boundary against unsupported safety conclusions."
+        "Do not represent “PPE is not a complete safety determination” as direct WHO wording; preserve it only as a BioSafe boundary against unsupported safety conclusions."
       ],
       "findings": [
         "PDF page 29 directly supports the core-requirements, GMPP, and listed-PPE propositions.",
@@ -3926,7 +3926,7 @@
         "maps_to": "BS-004; BS-005",
         "page": "Section 3",
         "priority": "critical",
-        "section": "Section 3 \u2013 PPE for core requirements",
+        "section": "Section 3 – PPE for core requirements",
         "text": "WHO places PPE within broader laboratory biosafety core requirements rather than treating PPE as a complete safety determination. Core requirements include good microbiological practice and procedure, with PPE such as laboratory coats, footwear, gloves and eye protection used as applicable.",
         "verification_status": "Verified against WHO PPE monograph"
       },
@@ -4008,7 +4008,7 @@
         "maps_to": "BS-004; BS-005",
         "page": "Section 3",
         "priority": "critical",
-        "section": "Section 3 \u2013 PPE for core requirements",
+        "section": "Section 3 – PPE for core requirements",
         "text": "WHO indicates that some PPE needs are determined by risk assessment; for example, respiratory protection for biological agents is not a general core requirement and becomes a heightened control measure when the risk assessment indicates it is needed.",
         "verification_status": "Verified against WHO PPE monograph"
       },
@@ -4088,11 +4088,11 @@
         "Do not represent this draft, an assessment, or selected controls as approval, compliance, or proof an activity is safe.",
         "Do not infer project-specific hazards, likelihood, consequences, acceptable risk, controls, PPE, training, facility suitability, or approvals.",
         "Do not activate these propositions for live retrieval or claim use.",
-        "Do not retain the historical categorical \u201cPPE alone\u201d clause as source evidence."
+        "Do not retain the historical categorical “PPE alone” clause as source evidence."
       ],
       "findings": [
         "PDF pages 11, 15, and 28 directly support risk-informed training/PPE selection, combined control types, and possible multiple controls.",
-        "The historical categorical \u201cPPE alone\u201d phrase was not found as direct wording and is excluded from the draft propositions."
+        "The historical categorical “PPE alone” phrase was not found as direct wording and is excluded from the draft propositions."
       ],
       "identity_review_status": "HUMAN_IDENTITY_REVIEW_COMPLETE",
       "jurisdiction": "International",
@@ -4202,14 +4202,14 @@
         "This WHO monograph is international technical guidance and does not establish Malaysian law, regulatory applicability, approval, compliance, or authorization to begin work.",
         "The passages describe a general framework; they do not determine risk, acceptable risk, controls, facility suitability, or permission for a specific activity.",
         "Extracted text must be compared with the immutable staged PDF; PDF page numbers are distinct from printed page labels.",
-        "\u201cComprehensive\u201d does not establish completeness or adequacy for a specific activity."
+        "“Comprehensive” does not establish completeness or adequacy for a specific activity."
       ],
       "original_claim": {
         "claim_id": "CLM-045",
         "claim_type": "risk_assessment_scope",
         "document_id": "KB-WHO-RA",
         "maps_to": "BS-001; BS-002; general biosafety risk-assessment cases",
-        "page": "Sections 1\u20132",
+        "page": "Sections 1–2",
         "priority": "critical",
         "section": "Risk assessment framework",
         "text": "A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences.",
@@ -4238,7 +4238,7 @@
           ],
           "pdf_page_end": 20,
           "pdf_page_start": 20,
-          "quoted_support": "1.                                Gather information                                            \u00a7\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         \u00a7\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         \u00a7\tWhat type(s) of equipment will be used?\n                                                                         \u00a7\tWhat type of laboratory facility is available?\n                                                                         \u00a7\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         \u00a7\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
+          "quoted_support": "1.                                Gather information                                            §\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         §\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         §\tWhat type(s) of equipment will be used?\n                                                                         §\tWhat type of laboratory facility is available?\n                                                                         §\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         §\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
           "support_type": "DIRECT"
@@ -4249,7 +4249,7 @@
           ],
           "pdf_page_end": 20,
           "pdf_page_start": 20,
-          "quoted_support": "2.                                Evaluate the risks\u00a7\tHow could an exposure and/or release occur?\n                                                                         \u00a7\tWhat is the likelihood of an exposure and/or release?\n                                                                         \u00a7\tWhat information gathered influences the likelihood the most?\n                                                                         \u00a7\tWhat are the consequences of an exposure and/or release?",
+          "quoted_support": "2.                                Evaluate the risks§\tHow could an exposure and/or release occur?\n                                                                         §\tWhat is the likelihood of an exposure and/or release?\n                                                                         §\tWhat information gathered influences the likelihood the most?\n                                                                         §\tWhat are the consequences of an exposure and/or release?",
           "source_kind": "NATIVE_CANDIDATE",
           "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
           "support_type": "DIRECT"

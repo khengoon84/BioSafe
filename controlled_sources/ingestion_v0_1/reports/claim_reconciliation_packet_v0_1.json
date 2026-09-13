@@ -357,7 +357,7 @@
       "legacy_document_id": "KB-MY-REG2010",
       "limitations": [
         "The exact activity categories depend on section 22(1)(a) to (c) of the Act and cannot be generalized without that context.",
-        "The 2019 schedule amendment remains recorded and requires reconciliation."
+        "The accepted 2019 Order was reconciled as an Act 678 schedule amendment; complete exact-provision currentness evidence remains required."
       ],
       "original_claim": {
         "claim_id": "CLM-005",
@@ -398,7 +398,7 @@
         }
       ],
       "source_support_disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "support_review_artifact_sha256": "b75651248ef033449c9b53da4a5adc92a8263f0cbb4642286e44422d6396a231",
       "support_review_status": "ACCEPTED_AS_SOURCE_SUPPORT",
       "support_spans": [
@@ -609,7 +609,7 @@
         }
       ],
       "source_support_disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
-      "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "support_review_artifact_sha256": "b75651248ef033449c9b53da4a5adc92a8263f0cbb4642286e44422d6396a231",
       "support_review_status": "ACCEPTED_AS_SOURCE_SUPPORT",
       "support_spans": [

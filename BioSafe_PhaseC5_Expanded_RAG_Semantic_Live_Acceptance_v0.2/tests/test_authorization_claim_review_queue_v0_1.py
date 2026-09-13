@@ -1,4 +1,5 @@
 import json
+import hashlib
 import sys
 import unittest
 from pathlib import Path
@@ -19,10 +20,10 @@ class AuthorizationClaimReviewQueueTests(unittest.TestCase):
 
     def test_accepted_drafts_remain_blocked_from_promotion(self):
         packet=json.loads((HERE/"reports/authorization_claim_source_extraction_packet_v0_1.json").read_text())
-        self.assertEqual(packet["review_status"],"HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION")
+        self.assertEqual(packet["review_status"],"HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT_CURRENTNESS_UNRESOLVED")
         self.assertEqual(packet["promotion_status"],"NOT_PROMOTED")
         for entry in packet["entries"]:
-            self.assertEqual(entry["human_review_status"],"HUMAN_REVIEW_ACCEPTED_DRAFT")
+            self.assertEqual(entry["human_review_status"],"HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT")
             self.assertIn("COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",entry["blocking_reasons"])
 
     def test_source_backed_candidates_have_unresolved_decision_fields(self):
@@ -30,11 +31,11 @@ class AuthorizationClaimReviewQueueTests(unittest.TestCase):
         ids={item["source_claim_id"] for item in queue["queue_entries"]}
         self.assertEqual(ids,{"CLM-005","CLM-007"})
         for item in queue["queue_entries"]:
-            self.assertIsNone(item["candidate_concept"])
-            self.assertIsNone(item["candidate_polarity"])
-            self.assertIsNone(item["jurisdiction"])
-            self.assertEqual(item["human_review_status"],"PENDING_CLAIM_LEVEL_REVIEW")
-            self.assertEqual(item["currentness"],"UNRESOLVED")
+            self.assertTrue(item["support_spans"])
+            self.assertEqual(item["human_review_status"],"HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT")
+            self.assertEqual(item["currentness"],"CURRENTNESS_UNRESOLVED")
+            self.assertEqual(item["source_support_disposition"],"SUPPORTED_AFTER_ATOMIC_SPLIT")
+            self.assertIn("EXACT_PROVISION_CURRENTNESS_UNRESOLVED",item["blocking_reasons"])
 
     def test_notification_quality_is_not_reinterpreted_as_authorization(self):
         queue=build_review_queue()
@@ -44,6 +45,14 @@ class AuthorizationClaimReviewQueueTests(unittest.TestCase):
 
     def test_queue_round_trips_as_json(self):
         json.dumps(build_review_queue())
+
+    def test_architecture_manifest_hashes_match_current_files(self):
+        manifest=json.loads((HERE/"reports/c5_typed_authorization_architecture_hashes_v0_1.json").read_text())
+        for relative, expected in manifest["files"].items():
+            path=HERE.parent/relative
+            self.assertTrue(path.exists(), relative)
+            actual=hashlib.sha256(path.read_bytes()).hexdigest()
+            self.assertEqual(actual, expected, relative)
 
 
 if __name__=="__main__":

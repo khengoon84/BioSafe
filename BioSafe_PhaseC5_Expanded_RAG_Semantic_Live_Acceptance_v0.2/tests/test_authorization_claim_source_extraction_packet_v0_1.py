@@ -12,7 +12,7 @@ class AuthorizationClaimSourceExtractionPacketTests(unittest.TestCase):
         packet=json.loads(PACKET.read_text(encoding="utf-8"))
         self.assertFalse(packet["live_retrieval_connected"])
         self.assertEqual(packet["promotion_status"],"NOT_PROMOTED")
-        self.assertEqual(packet["review_status"],"HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION")
+        self.assertEqual(packet["review_status"],"HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT_CURRENTNESS_UNRESOLVED")
 
     def test_only_queued_source_claims_are_extracted(self):
         packet=json.loads(PACKET.read_text(encoding="utf-8"))
@@ -24,8 +24,8 @@ class AuthorizationClaimSourceExtractionPacketTests(unittest.TestCase):
         for entry in packet["entries"]:
             self.assertIsNone(entry["candidate_concept"])
             self.assertIsNone(entry["candidate_polarity"])
-            self.assertEqual(entry["currentness"],"UNRESOLVED")
-            self.assertEqual(entry["support_spans"],[])
+            self.assertEqual(entry["currentness"],"CURRENTNESS_UNRESOLVED")
+            self.assertTrue(entry["support_spans"])
             self.assertTrue(entry["blocking_reasons"])
 
     def test_exemption_is_not_general_non_requirement(self):

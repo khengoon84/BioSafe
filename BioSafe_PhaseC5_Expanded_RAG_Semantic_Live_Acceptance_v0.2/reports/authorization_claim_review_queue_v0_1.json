@@ -18,18 +18,63 @@
     {
       "authority_status": null,
       "blocking_reasons": [
-        "CONCEPT_AND_POLARITY_REQUIRE_ATOMIC_REVIEW",
         "CASE_SCOPE_NOT_ESTABLISHED_BY_SOURCE_CLAIM_ALONE",
-        "CURRENTNESS_OR_AMENDMENT_RECONCILIATION_REQUIRED",
-        "REQUIRED_TYPED_EVIDENCE_METADATA_NOT_YET_APPROVED"
+        "EXACT_PROVISION_CURRENTNESS_UNRESOLVED",
+        "CASE_LEVEL_AUTHORIZATION_CONTRACT_NOT_APPROVED"
       ],
       "candidate_concept": null,
       "candidate_normative_force": null,
       "candidate_polarity": null,
-      "currentness": "UNRESOLVED",
+      "currentness": "CURRENTNESS_UNRESOLVED",
+      "dependency_support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 83,
+          "pdf_page_start": 83,
+          "quoted_support": "22.                   (1)                           No   person  shall undertake any   of         the following activities\nwithout         giving       prior        notification          to        the       Board:",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_83",
+          "support_type": "CONTEXT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 83,
+          "pdf_page_start": 83,
+          "quoted_support": "           (a) exportation           of         living        modified        organisms;",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_83",
+          "support_type": "CONTEXT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 84,
+          "pdf_page_start": 84,
+          "quoted_support": "          (b)         contained         use        involving       living       modified         organisms;",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_84",
+          "support_type": "CONTEXT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 84,
+          "pdf_page_start": 84,
+          "quoted_support": "          (c) importation of  living  modified  organisms for purposes of\n                  undertaking      a      contained          use        activity.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-ACT678:SELECTED_LOCAL_ACT_TEXT:PDF_PAGE_84",
+          "support_type": "CONTEXT"
+        }
+      ],
       "document_id": "KB-MY-REG2010",
-      "human_review_status": "HUMAN_REVIEW_ACCEPTED_DRAFT",
-      "jurisdiction": null,
+      "human_review_status": "HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT",
+      "jurisdiction": "Malaysia",
       "material_or_technology_trigger": null,
       "promotion_status": "NOT_PROMOTED",
       "proposed_interpretation": {
@@ -45,31 +90,110 @@
         ]
       },
       "queue_id": "AUTH-REVIEW-CLM-005",
+      "semantic_units": [
+        {
+          "concept": "NOTIFICATION",
+          "evidence_role": "DIRECT_REGULATION_16_SUPPORT",
+          "normative_force": "MANDATORY",
+          "polarity": "REQUIRED",
+          "semantic_unit_id": "CLM-005-REGULATION-16",
+          "source_activity_scope": [
+            "exportation of living modified organisms",
+            "contained use involving living modified organisms",
+            "importation of living modified organisms for purposes of undertaking a contained-use activity"
+          ]
+        },
+        {
+          "concept": "REFERENCED_ACTIVITY_SCOPE",
+          "evidence_role": "SECTION_22_REFERENCED_ACTIVITY_SCOPE",
+          "normative_force": "CONTEXT_ONLY",
+          "polarity": "CONTEXT_ONLY",
+          "semantic_unit_id": "CLM-005-ACT-678-CONTEXT",
+          "source_activity_scope": "Act 678 section 22(1)(a)–(c); not direct canonical support for the Regulations claim record."
+        }
+      ],
       "source_claim_id": "CLM-005",
       "source_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
       "source_page": "20–30",
       "source_section": "Reg. 16",
       "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
       "source_supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
+      "source_support_disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
       "source_text": "Specified activities require prior notification, with submission arrangements involving the Director General and, where applicable, the IBC.",
       "specific_activity": null,
-      "support_spans": []
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 27,
+          "pdf_page_start": 27,
+          "quoted_support": "16.                                  (1)   A person undertaking any activity as specified in paragraphs 22(1)\n(a)      to      (c) of the Act shall give prior notification to the Board.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 27,
+          "pdf_page_start": 27,
+          "quoted_support": "                         (2)       The notification required under paragraphs 22(1)(b)    and    (c) of the Act\nshall be submitted—",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 27,
+          "pdf_page_start": 27,
+          "quoted_support": "                                                                              (a)      to the Director General; or",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 27,
+          "pdf_page_start": 27,
+          "quoted_support": " (b) for the purpose in accordance with the establishment of an institutional\n               biosafety committee under subregulation 5(1), to the Director General\n               through an institutional biosafety committee,",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 27,
+          "pdf_page_start": 27,
+          "quoted_support": "and shall be accompanied by a prescribed fee.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_27",
+          "support_type": "DIRECT"
+        }
+      ]
     },
     {
       "authority_status": null,
       "blocking_reasons": [
-        "CONCEPT_AND_POLARITY_REQUIRE_ATOMIC_REVIEW",
         "CASE_SCOPE_NOT_ESTABLISHED_BY_SOURCE_CLAIM_ALONE",
-        "CURRENTNESS_OR_AMENDMENT_RECONCILIATION_REQUIRED",
-        "REQUIRED_TYPED_EVIDENCE_METADATA_NOT_YET_APPROVED"
+        "EXACT_PROVISION_CURRENTNESS_UNRESOLVED",
+        "CASE_LEVEL_AUTHORIZATION_CONTRACT_NOT_APPROVED"
       ],
       "candidate_concept": null,
       "candidate_normative_force": null,
       "candidate_polarity": null,
-      "currentness": "UNRESOLVED",
+      "currentness": "CURRENTNESS_UNRESOLVED",
+      "dependency_support_spans": [],
       "document_id": "KB-MY-REG2010",
-      "human_review_status": "HUMAN_REVIEW_ACCEPTED_DRAFT",
-      "jurisdiction": null,
+      "human_review_status": "HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT",
+      "jurisdiction": "Malaysia",
       "material_or_technology_trigger": null,
       "promotion_status": "NOT_PROMOTED",
       "proposed_interpretation": {
@@ -81,15 +205,112 @@
         "specific_activity": "specific contained-use activity satisfying the applicable First Schedule criteria"
       },
       "queue_id": "AUTH-REVIEW-CLM-007",
+      "semantic_units": [
+        {
+          "concept": "REGULATORY_APPLICABILITY",
+          "evidence_role": "DIRECT_REGULATION_2B_SUPPORT",
+          "normative_force": "CONDITIONAL",
+          "polarity": "CONDITIONAL_NON_APPLICATION",
+          "semantic_unit_id": "CLM-007-REGULATION-2B",
+          "source_activity_scope": "Techniques and contained-use activities in relation to LMOs specified in the First Schedule."
+        },
+        {
+          "concept": "NOTIFICATION",
+          "evidence_role": "DIRECT_FIRST_SCHEDULE_SUPPORT",
+          "normative_force": "CONDITIONAL",
+          "polarity": "CONDITIONAL_EXEMPTION",
+          "semantic_unit_id": "CLM-007-FIRST-SCHEDULE-EXEMPTION",
+          "source_activity_scope": "First Schedule contained-use activity criteria, including item-specific conditions and host/vector/donor-nucleic-acid conditions."
+        }
+      ],
       "source_claim_id": "CLM-007",
       "source_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
       "source_page": "Schedules",
       "source_section": "First Schedule",
       "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
       "source_supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
+      "source_support_disposition": "SUPPORTED_AFTER_ATOMIC_SPLIT",
       "source_text": "The First Schedule contains contained-use exemptions with specified host/vector systems and criteria; exemption cannot be inferred merely from a generic 'low risk' statement.",
       "specific_activity": null,
-      "support_spans": []
+      "support_spans": [
+        {
+          "atomic_proposition_indexes": [
+            1
+          ],
+          "pdf_page_end": 21,
+          "pdf_page_start": 21,
+          "quoted_support": " (b) techniques and contained use activities in relation to living modified\n              organisms as specified in the First Schedule.",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_21",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            2
+          ],
+          "pdf_page_end": 30,
+          "pdf_page_start": 30,
+          "quoted_support": "               CONTAINED USE ACTIVITIES WHICH ARE EXEMPTED FROM NOTIFICATION",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_30",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            3
+          ],
+          "pdf_page_end": 30,
+          "pdf_page_start": 30,
+          "quoted_support": "                     1.                                                                                                                                                    An activity with genetically modified Caenorhabditis elegans and Arabidopsis,",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_30",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            4
+          ],
+          "pdf_page_end": 31,
+          "pdf_page_start": 31,
+          "quoted_support": "             2.                                                                                     An activity with an organism into which genetically modified somatic cells",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_31",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            5
+          ],
+          "pdf_page_end": 31,
+          "pdf_page_start": 31,
+          "quoted_support": "             3.                                                              An activity involving a host/vector system mentioned in the Host/Vector",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_31",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            6
+          ],
+          "pdf_page_end": 32,
+          "pdf_page_start": 32,
+          "quoted_support": "Item                                                                                           Class                                                                                                                                                                                                                                                                                              Host                                                                                                                                                                                                                                                                                                                                                                                                      Vector",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_32",
+          "support_type": "DIRECT"
+        },
+        {
+          "atomic_proposition_indexes": [
+            7
+          ],
+          "pdf_page_end": 34,
+          "pdf_page_start": 34,
+          "quoted_support": "       2.                                The exemption list for Notification includes any commercially available Host-Vector System",
+          "source_kind": "NATIVE_CANDIDATE",
+          "source_record_id": "KB-MY-REG2010:PUA367:PDF_PAGE_34",
+          "support_type": "DIRECT"
+        }
+      ]
     }
   ],
   "review_decision_record": {
@@ -98,21 +319,21 @@
     "remaining_blockers": [
       "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "CASE_SPECIFIC_APPLICABILITY_REQUIRES_STRUCTURED_FACTS",
-      "CLAIM_LEVEL_SUPPORT_SPANS_AND_CURRENTNESS_REVIEW_REQUIRED"
+      "CASE_LEVEL_AUTHORIZATION_CONTRACT_NOT_APPROVED"
     ],
     "reviewer_action": "ACCEPTED_CONSERVATIVE_DRAFT_INTERPRETATIONS"
   },
-  "review_status": "HUMAN_REVIEW_ACCEPTED_DRAFT_PENDING_SOURCE_RECONCILIATION",
+  "review_status": "HUMAN_REVIEW_COMPLETE_SOURCE_SUPPORT_CURRENTNESS_UNRESOLVED",
   "source_level_follow_up": [
     {
       "document_id": "KB-MY-ACT678",
-      "status": "NOT_STARTED",
-      "task": "Extract and reconcile candidate authorization provisions from the owner-designated canonical source."
+      "status": "REVIEWED_SCOPE_DEPENDENCY_CURRENTNESS_UNRESOLVED",
+      "task": "Maintain the reviewed Act 678 section 22(1)(a)–(c) scope dependency for CLM-005; exact-provision currentness remains unresolved."
     },
     {
       "document_id": "KB-MY-REG2010",
-      "status": "BLOCKED_PENDING_AMENDMENT_RECONCILIATION",
-      "task": "Reconcile the 2019 Schedule amendment before any notification/approval claim can be considered."
+      "status": "SOURCE_SUPPORT_REVIEWED_CURRENTNESS_UNRESOLVED",
+      "task": "Maintain the reviewed Regulation 16, Regulation 2(b), and First Schedule source support; exact-provision currentness remains unresolved."
     }
   ]
 }
