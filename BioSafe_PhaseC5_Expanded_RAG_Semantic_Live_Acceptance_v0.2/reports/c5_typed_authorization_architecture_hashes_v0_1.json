@@ -47,12 +47,12 @@
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_evidence_readiness_v0_1.py": "e9bec9df394a93eef6268101ca0d7603eceddd0054d03bae3f8daba9b4c44501",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_ontology_v0_2.json": "7331a03b0febed436240bde083b341a536eefc82e26e46543bb8874c208fe14f",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/authorization_verifier_v0_2.py": "0ba2cb5171e91f26caba41ec79a5db7c8073604799ea2321dd50ca60c16367c5",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_inference_service_v0_1.py": "71a02363b78bec592851834a631eed622e4dd1f6a6eb080f90edc71608985dee",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_inference_service_v0_1.py": "aa1aa5fa4a6d233e61265dbce0cb74e6c00e679d99fb9f308b4909867a95fc8d",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/src/candidate_service_v0_1.py": "3c62a22e8e72df6798b3082f7b00d70b6049db5aa7a297308315614228c49e39",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_claim_review_queue_v0_1.py": "374d4e471999df4ee777c9b5ba85c91877b88cb6b3e512a5e25cbf3cabd4fee6",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_claim_source_extraction_packet_v0_1.py": "9dc0ebabde1630fc5ad48b8bf992f40b302c30cca320831592d72980ac7daf20",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_evidence_readiness_v0_1.py": "514d57998b35e9a1969e100f9b47df2fe716412a7b132a1fb5d5e10f1a98cb9c",
-    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_verifier_v0_2.py": "bbe576cd575c183bebed4d7fa22c72768a9e07c767bb8b3604c35cabdf7f656b",
+    "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_authorization_verifier_v0_2.py": "7d145c355ee8e66f9d63d93154fb7c6827b1080fe7f0ab7a76e9e6a4acfdf9f3",
     "BioSafe_PhaseC5_Expanded_RAG_Semantic_Live_Acceptance_v0.2/tests/test_environment_preflight_v0_1.py": "038eb4d4f32ebcd0a9ecb8cc09ae131168d0c8dea7d507012e0b00720ed3c523"
   },
   "human_review_update": {

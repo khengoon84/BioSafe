@@ -127,6 +127,13 @@ class ServiceFailClosedTests(unittest.TestCase):
         second=json.dumps(self.service.infer({"query":"What permit do I need?"}),sort_keys=True)
         self.assertEqual(first,second)
 
+    def test_start_work_missing_facts_explicitly_cannot_authorize(self):
+        response=self.service.infer({"query":"Can I start work now?"})
+        self.assertIn("cannot authorize starting the work",response["conclusion"].lower())
+        self.assertFalse(response["authorization_gate"]["positive_determination_allowed"])
+        self.assertFalse(response["authorization_gate"]["negative_determination_allowed"])
+        self.assertIs(response["_meta"]["model_called"],False)
+
 
 class EndpointFailClosedTests(unittest.TestCase):
     """/api/ask integration: the gate guards the HTTP surface without Ollama."""

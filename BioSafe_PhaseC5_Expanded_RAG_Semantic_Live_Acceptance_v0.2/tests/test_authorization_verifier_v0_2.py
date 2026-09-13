@@ -166,7 +166,7 @@ class AuthorizationVerifierTests(unittest.TestCase):
                 "conclusion":"You have to obtain a mandate from the department before starting work.",
                 "evidence":[],
             }
-            guarded=service.infer({"query":"Explain a general biosafety concept."})
+            guarded=service.infer({"query":"Explain a general regulatory requirement."})
             self.assertEqual(guarded["authorization_assessment"]["status"],
                              "UNKNOWN_REGULATORY_REQUIREMENT")
             self.assertEqual(guarded["conclusion"],FAIL_CLOSED_MESSAGE)

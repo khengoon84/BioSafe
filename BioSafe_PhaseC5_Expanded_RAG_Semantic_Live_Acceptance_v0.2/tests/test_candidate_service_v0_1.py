@@ -1,3 +1,4 @@
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -59,6 +60,37 @@ class CandidateServiceTests(unittest.TestCase):
             response=self.client.post("/api/ask",json={"query":"What is the purpose of a biosafety risk assessment?","intent":"simple_answer","model":"wrong","candidate_path_id":"wrong"})
             self.assertEqual(response.status_code,200)
             self.assertEqual(response.get_json()["_meta"]["ignored_protected_request_fields"],["candidate_path_id","intent","model"])
+        finally:
+            frozen._ollama=original
+
+    def test_generic_educational_concepts_are_deterministic_and_complete(self):
+        import full_inference_service_v0_1 as frozen
+        original=frozen._ollama
+        def forbidden(*args, **kwargs):
+            raise AssertionError("Ollama was called for a deterministic educational concept")
+        frozen._ollama=forbidden
+        try:
+            biosafety=self.client.post("/api/ask",json={"query":"What is biosafety?"}).get_json()
+            risk_group=self.client.post("/api/ask",json={"query":"What is a biological risk group?"}).get_json()
+            self.assertIn("accidental release",biosafety["direct_answer"].lower())
+            self.assertIn("does not by itself determine the biosafety level",risk_group["direct_answer"].lower())
+            self.assertIs(biosafety["_meta"]["model_called"],False)
+            self.assertIs(risk_group["_meta"]["model_called"],False)
+        finally:
+            frozen._ollama=original
+
+    def test_named_legal_instrument_is_not_replaced_by_generic_definition(self):
+        import full_inference_service_v0_1 as frozen
+        original=frozen._ollama
+        def forbidden(*args, **kwargs):
+            raise AssertionError("Ollama was called for an unverified named instrument")
+        frozen._ollama=forbidden
+        try:
+            body=self.client.post("/api/ask",json={"query":"What does the Imaginary Biosecurity Act 2042 require?"}).get_json()
+            self.assertIn("could not verify",body["conclusion"].lower())
+            visible_answer=(body.get("conclusion") or "")+" "+(body.get("direct_answer") or "")
+            self.assertNotIn("does not exist",visible_answer.lower())
+            self.assertIs(body["_meta"]["model_called"],False)
         finally:
             frozen._ollama=original
 

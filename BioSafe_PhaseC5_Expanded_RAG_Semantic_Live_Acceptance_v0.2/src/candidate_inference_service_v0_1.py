@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import tempfile
 from threading import RLock
 from pathlib import Path
@@ -21,6 +22,16 @@ MISSING_FACT_LABELS={
     "material_or_technology_trigger":"The biological material, organism, or technology involved.",
     "specific_activity":"The specific activity, such as contained use, transport, import, export, or disposal.",
 }
+
+_LEGAL_INSTRUMENT_QUERY = re.compile(
+    r"\b(?:act|law|regulation|regulations|order|ordinance|statute|section|provision)\b"
+    r"|\b\d{4}\b",
+    re.I,
+)
+_LEGAL_REQUEST_TERM = re.compile(
+    r"\b(?:require|required|requirements|applies?|applicable|effective|current|section|provision|says?)\b",
+    re.I,
+)
 
 
 def augment_candidate_generation_message(message: dict[str,Any]) -> dict[str,Any]:
@@ -94,7 +105,10 @@ class CandidateInferenceServiceV01:
     def _fail_closed_response(self, query: str, auth: AuthorizationDecision, extra_reason_codes: list[str] | None=None) -> dict[str,Any]:
         """Deterministic fail-closed response; never calls the model."""
         missing=list(auth.missing_facts)
-        if missing:
+        if auth.intent.value == "START_WORK_READINESS":
+            conclusion=("BioSafe cannot authorize starting the work and cannot determine that the "
+                        "activity is ready to begin from the available information.")
+        elif missing:
             conclusion=("BioSafe cannot determine whether a permit or approval is required for the described "
                         "activity without sufficient project-specific facts and reviewed regulatory evidence.")
         else:
@@ -135,9 +149,92 @@ class CandidateInferenceServiceV01:
             },
         }
 
+    @staticmethod
+    def _is_named_legal_instrument_query(query: str) -> bool:
+        """Recognize legal-instrument lookups without asserting instrument status."""
+        text=(query or "").strip()
+        return bool(_LEGAL_INSTRUMENT_QUERY.search(text) and _LEGAL_REQUEST_TERM.search(text))
+
+    def _unverified_instrument_response(self, query: str) -> dict[str,Any]:
+        return {
+            "conclusion": "I could not verify the named law or instrument from the authoritative sources currently available to BioSafe.",
+            "direct_answer": None,
+            "applicable_authority": [],
+            "evidence": [],
+            "missing_information": [
+                "The jurisdiction and exact official title or identifier of the named law or instrument.",
+            ],
+            "recommended_next_step": [
+                "Provide the jurisdiction and, if available, the official title, identifier, or authoritative URL for the named instrument.",
+            ],
+            "limitations": [
+                "BioSafe has not determined that the named law or instrument does not exist or is not in force.",
+            ],
+            "safety": {
+                "classification": "caution",
+                "response_mode": "ask_before_concluding",
+                "reason": "The named legal instrument could not be verified from the currently available authoritative sources.",
+            },
+            "authorization_assessment": {
+                "status": "UNVERIFIED_INSTRUMENT",
+                "renderable": False,
+                "reason_codes": ["NAMED_INSTRUMENT_NOT_VERIFIED"],
+                "candidate_count": 0,
+                "supported_evidence_ids": [],
+            },
+            "_meta": {
+                "candidate_path_id": "C37_METADATA_CFG02:metadata_off",
+                "evidence_origin": "C5_REVIEWED_CANDIDATE",
+                "frozen_core_modified": False,
+                "candidate_inference_bridge": True,
+                "model_called": False,
+            },
+        }
+
+    def _deterministic_educational_response(self, prepared: dict[str,Any], documents: list[dict[str,Any]]) -> dict[str,Any] | None:
+        """Use the vetted concept table for generic educational questions only."""
+        query=str(prepared.get("query") or "")
+        if self._is_named_legal_instrument_query(query):
+            return None
+        act=self.service.acts(prepared, documents)
+        allowed={"biosafety", "biosecurity", "biosafety_vs_biosecurity", "risk_group"}
+        if act.get("act") not in {"definition", "difference", "elaboration"} or act.get("concept") not in allowed:
+            return None
+        answer=self.service.concept_table.get(act["concept"])
+        if not answer:
+            return None
+        from biosafe_unified226 import render_concept_answer
+        mode="elaborate" if act.get("act")=="elaboration" else "full"
+        result=render_concept_answer(act["concept"], self.service.concept_table, mode=mode)
+        if result is None:
+            return None
+        result["_normalized_intent"]=act["act"]
+        result["_evidence_plan"]=self.service.plan(prepared).__dict__
+        result["_meta"]={
+            "candidate_path_id":"C37_METADATA_CFG02:metadata_off",
+            "evidence_origin":"C5_REVIEWED_CANDIDATE",
+            "frozen_core_modified":False,
+            "candidate_inference_bridge":True,
+            "model_called":False,
+        }
+        result["authorization_assessment"]={
+            "status":"NO_CLAIM",
+            "renderable":True,
+            "reason_codes":[],
+            "candidate_count":0,
+            "supported_evidence_ids":[],
+        }
+        return result
+
     def _infer_locked(self, prepared: dict[str,Any], documents: list[dict[str,Any]] | None = None) -> dict[str,Any]:
         query=str(prepared.get("query") or "")
         auth=evaluate_authorization_decision(query)
+        if self._is_named_legal_instrument_query(query):
+            return self._unverified_instrument_response(query)
+        if not auth.high_stakes:
+            educational=self._deterministic_educational_response(prepared, documents or [])
+            if educational is not None:
+                return educational
         import full_inference_service_v0_1 as frozen
         import biosafe_unified2251.service as candidate_service_module
         plan=self.service.plan(prepared)
@@ -180,8 +277,8 @@ class CandidateInferenceServiceV01:
 
         frozen._compact_messages=compact_with_candidate if plan.retrieval_required else original_compact
         frozen.assemble_biosafe_response=assemble_with_claim_channel
-        candidate_service_module.vetted_direct_answer=(lambda query: None) if plan.retrieval_required else original_vetted
-        candidate_service_module.render_concept_answer=(lambda *args, **kwargs: None) if plan.retrieval_required else original_render
+        candidate_service_module.vetted_direct_answer=original_vetted
+        candidate_service_module.render_concept_answer=original_render
         try:
             out=self.service.infer(prepared,documents=documents or [])
         finally:
