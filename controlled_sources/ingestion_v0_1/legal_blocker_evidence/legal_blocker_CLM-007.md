@@ -2,12 +2,12 @@
 
 Version: `BioSafe_Legal_Blocker_Evidence_Bundle_v0.1`. **Evidence-only human review aid.**
 
-- Generated: 2026-09-10
-- Legal draft SHA-256: `8e7ace043a83c3faea525fe935a6e31e8daa4fd0c1f2019cc293e7040e358e55`
-- Canonical review map SHA-256: `a228e64397a2366072277a220d3a07778642f1b33e3a10180625c83804e67363`
+- Generated: 2026-09-13
+- Legal draft SHA-256: `a54107bc4e9b6ab2c99b93082676b6a7dc95d278b0cde66501bc6199496aef1c`
+- Canonical review map SHA-256: `57e507ff970b756b50818a06eafd96d49e037d8565a911d40b8103c72ed2f0b3`
 - Component artifact SHA-256: `7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c`
-- Source policy SHA-256: `930e64a121b0c256f789ea36f59d850023134ac983d668e1f2bc416137583a54`
-- Source register SHA-256: `2ed74090030e8f4971cc32f40558db10b5bd60f68a9b9b105c6a74773937bd59`
+- Source policy SHA-256: `ed6541a59660b30da1780763ec2bb2e0050dd20827bde06a3d13bc055dfdb065`
+- Source register SHA-256: `a69aeb3c5caacf45d8ec695aac0f42586332d794458ba8f0ad4e464d41e02b5e`
 
 This bundle does not establish current law, applicability, exemption, approval, notification, classification, compliance, non-compliance, or a prescribed pathway. It does not change the claim disposition or authorize curation or activation.
 
@@ -18,14 +18,15 @@ This bundle does not establish current law, applicability, exemption, approval, 
 - Controlled document: `KB-MY-REG2010`
 - Controlled source SHA-256: `6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756`
 - Currentness status: `CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED`
-- Supersession status: `2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED`
+- Supersession status: `COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED`
 - Current review status: `CLAIM_REVIEW_COMPLETE`
 - Current disposition in canonical map: `CURRENTNESS_UNRESOLVED`
-- Current support spans: none
+- Current direct support spans: 7
+- Source-support disposition: `SUPPORTED_AFTER_ATOMIC_SPLIT` (currentness remains unresolved)
 
 ## Recorded review issues
 
-- CURRENTNESS_BLOCKED: controlled source metadata records that a 2019 schedule amendment must be reconciled, but the amendment instrument text and number are not present in the controlled corpus.
+- CURRENTNESS_BLOCKED: the 2019 Act 678 schedule amendment has been transcribed and accepted, but complete amendment/currentness review for the Regulations and claim remains required.
 - No current exemption, non-applicability, or no-notification conclusion may be drawn from the base schedule alone.
 - A generic low-risk statement is not sufficient to establish that the exact schedule criteria are met.
 
@@ -36,7 +37,7 @@ This bundle does not establish current law, applicability, exemption, approval, 
 - Register `official_landing_page`: `https://www.biosafety.gov.my/`
 - Register `direct_download_url`: `https://www.biosafety.gov.my/assets/document/akta-dan-peraturan/2-peraturan-biokeselamatan-kelulusan-dan-pemberitahuan.pdf`
 - Register `currentness_status`: `CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED`
-- Register `supersession_status`: `2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED`
+- Register `supersession_status`: `COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED`
 - Register `live_activation_status`: `PROHIBITED_PENDING_PHASE_C_GATES`
 
 ## Exact controlled candidate passages

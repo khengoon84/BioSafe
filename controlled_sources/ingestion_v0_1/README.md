@@ -284,7 +284,7 @@ report paths must be distinct. No Form E pilot decision has been applied yet.
 
 `config/legal_claim_review_draft_map_v0_1.json` and `reports/legal_claim_review_draft_v0_1.json` provide a separate navigation and atomization aid for the nine existing claims tied to Act 678, the Biosafety (Approval and Notification) Regulations 2010, and the Environmental Quality (Scheduled Wastes) Regulations 2005. The artifact embeds exact controlled candidate text and source hashes, validates locator phrases, carries the controlled currentness/supersession blockers, and proposes editable atomic statements. It cannot update `config/claim_reconciliation_map_v0_1.json`, assign a disposition, provide reviewer identity, or produce attestations.
 
-The draft highlights three material issues for human review: `CLM-006` combines Regulation 17 completeness/resubmission content with terminology that may be confused with the separate Regulation 19 rectification provision; `CLM-007` cannot support a current First Schedule conclusion while `2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED`; and `CLM-030` combines source propositions with BioSafe project policy. Scheduled Wastes source text identifies amendment `P.U. (A) 158/2007`, but the controlled policy still records amendment relationships as not fully reconciled. No current-law, exemption, applicability, classification, compliance, or prescribed-pathway conclusion is approved by this draft.
+The draft highlights three material issues for human review: `CLM-006` combines Regulation 17 completeness/resubmission content with terminology that may be confused with the separate Regulation 19 rectification provision; `CLM-007` cannot support a current First Schedule conclusion while complete amendment/currentness review remains required; and `CLM-030` combines source propositions with BioSafe project policy. Scheduled Wastes source text identifies amendment `P.U. (A) 158/2007`, but the controlled policy still records amendment relationships as not fully reconciled. No current-law, exemption, applicability, classification, compliance, or prescribed-pathway conclusion is approved by this draft.
 
 Build the deterministic legal review draft with:
 
@@ -333,7 +333,7 @@ PYTHONPATH=controlled_sources/ingestion_v0_1/src \
 The generator validates source-policy/component provenance, the source-register hash and
 document identities, and the canonical `CLAIM_REVIEW_COMPLETE` /
 `CURRENTNESS_UNRESOLVED` / empty-support state for CLM-006, CLM-007, and CLM-030. It also
-fails closed if a 2019 amendment record is later added to the controlled source register,
+accepts only the known reviewed staged 2019 amendment record and fails closed for unexpected amendment records.
 because the current controlled-corpus-gap statement would then require human revision.
 The outputs reproduce source-bound passages and component review gates only; they do not
 resolve currentness or establish applicability, exemption, approval, notification,

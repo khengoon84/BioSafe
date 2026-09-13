@@ -127,7 +127,11 @@ class ClaimReconciliationTests(unittest.TestCase):
             completed = canonical_by_id[claim_id]
             self.assertEqual(completed["review_status"], CLAIM_REVIEW_COMPLETE)
             self.assertEqual(completed["disposition"], "CURRENTNESS_UNRESOLVED")
-            self.assertEqual(completed["support_spans"], [])
+            if claim_id in {"CLM-005", "CLM-007"}:
+                self.assertTrue(completed["support_spans"])
+                self.assertEqual(completed["source_support_disposition"], "SUPPORTED_AFTER_ATOMIC_SPLIT")
+            else:
+                self.assertEqual(completed["support_spans"], [])
         for claim_id in COMPLETED_NONLEGAL_CLAIM_IDS:
             completed = canonical_by_id[claim_id]
             self.assertEqual(completed["review_status"], CLAIM_REVIEW_COMPLETE)

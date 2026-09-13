@@ -50,7 +50,7 @@
       "source_page": "20–30",
       "source_section": "Reg. 16",
       "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
-      "source_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "source_supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "source_text": "Specified activities require prior notification, with submission arrangements involving the Director General and, where applicable, the IBC.",
       "specific_activity": null,
       "support_spans": []
@@ -86,7 +86,7 @@
       "source_page": "Schedules",
       "source_section": "First Schedule",
       "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
-      "source_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "source_supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "source_text": "The First Schedule contains contained-use exemptions with specified host/vector systems and criteria; exemption cannot be inferred merely from a generic 'low risk' statement.",
       "specific_activity": null,
       "support_spans": []
@@ -96,7 +96,7 @@
     "promotion_status": "NOT_PROMOTED",
     "recorded_at": "2026-09-13",
     "remaining_blockers": [
-      "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "CASE_SPECIFIC_APPLICABILITY_REQUIRES_STRUCTURED_FACTS",
       "CLAIM_LEVEL_SUPPORT_SPANS_AND_CURRENTNESS_REVIEW_REQUIRED"
     ],

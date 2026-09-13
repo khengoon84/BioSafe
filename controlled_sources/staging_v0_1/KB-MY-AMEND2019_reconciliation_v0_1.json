@@ -1,0 +1,48 @@
+{
+  "artifact_version": "BioSafe_Amendment_Reconciliation_v0.1",
+  "amendment_document_id": "KB-MY-AMEND2019",
+  "amendment_sha256": "afcba3598e4188c6aafc452544d2dd4a4505d8f8785b4a251b6c922444d2523c",
+  "official_source_url": "https://www.biosafety.gov.my/assets/document/akta-dan-peraturan/3-perintah-biokeselamatan-pindaan-jadual-pertama-dan-jadual-ketiga-2019.pdf",
+  "instrument": {
+    "title": "Biosafety (Amendment of First and Third Schedules) Order 2019",
+    "made_date": "2019-01-31",
+    "target_instrument": "Biosafety Act 2007 [Act 678]",
+    "non_target_instrument": "Biosafety (Approval and Notification) Regulations 2010 [P.U. (A) 367/2010]"
+  },
+  "page_provenance": [
+    {"pdf_pages": [1, 4], "language": "cover material", "role": "duplicate cover", "method": "visual review", "review_status": "VISUAL_REVIEW_COMPLETE", "uncertainty": "No operative amendment text relied upon."},
+    {"pdf_pages": [2, 5], "language": "Malay", "role": "operative text duplicate", "method": "visual correspondence review", "review_status": "VISUAL_REVIEW_COMPLETE", "uncertainty": "Not used to infer English wording."},
+    {"pdf_pages": [3, 6], "language": "English", "role": "operative text", "method": "visual transcription; no OCR", "review_status": "ACCEPT_AS_TRANSCRIBED", "reviewer_identity": "BioSafe project owner", "reviewer_role": "Amendment transcription reviewer", "review_date": "2026-09-13", "uncertainty": "Image-only source; no native text spans."}
+  ],
+  "operations": [
+    {
+      "target": "First Schedule, subparagraph 13(2)",
+      "pdf_pages": [3, 6],
+      "operation": "substitution",
+      "before": "Lembaga Biokeselamatan Negara",
+      "after": "Lembaga Biokeselamatan Kebangsaan",
+      "support_method": "visual transcription",
+      "support_status": "ACCEPT_AS_TRANSCRIBED",
+      "reviewer_identity": "BioSafe project owner",
+      "review_date": "2026-09-13"
+    },
+    {
+      "target": "Third Schedule, after paragraph 8",
+      "pdf_pages": [3, 6],
+      "operation": "insertion",
+      "before_boundary": "Existing Third Schedule list ends at paragraph 8; Act 678 staged PDF page 118.",
+      "inserted_text": "9. Any enforcement officer as defined in section 3 of the Malaysian Quarantine and Inspection Services Act 2011 [Act 728].",
+      "support_method": "visual transcription and staged Act schedule-boundary comparison",
+      "support_status": "ACCEPT_AS_TRANSCRIBED",
+      "reviewer_identity": "BioSafe project owner",
+      "review_date": "2026-09-13"
+    }
+  ],
+  "claim_impact": {
+    "CLM-005": "Does not visibly amend Regulation 16; claim remains unresolved and not promoted.",
+    "CLM-007": "Does not visibly amend the 2010 Regulations First Schedule criteria; claim remains unresolved and not promoted.",
+    "new_claim_from_third_schedule_paragraph_9": false
+  },
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES"
+}

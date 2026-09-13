@@ -349,7 +349,7 @@
         "official_landing_page": "https://www.biosafety.gov.my/",
         "publication_date": "2010",
         "publisher": "Department of Biosafety Malaysia",
-        "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+        "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
         "title": "Biosafety (Approval and Notification) Regulations 2010"
       },
       "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
@@ -519,7 +519,7 @@
         "official_landing_page": "https://www.biosafety.gov.my/",
         "publication_date": "2010",
         "publisher": "Department of Biosafety Malaysia",
-        "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+        "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
         "title": "Biosafety (Approval and Notification) Regulations 2010"
       },
       "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
@@ -689,7 +689,7 @@
         "official_landing_page": "https://www.biosafety.gov.my/",
         "publication_date": "2010",
         "publisher": "Department of Biosafety Malaysia",
-        "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+        "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
         "title": "Biosafety (Approval and Notification) Regulations 2010"
       },
       "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
@@ -859,7 +859,7 @@
         "official_landing_page": "https://www.biosafety.gov.my/",
         "publication_date": "2010",
         "publisher": "Department of Biosafety Malaysia",
-        "supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+        "supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
         "title": "Biosafety (Approval and Notification) Regulations 2010"
       },
       "controlled_source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
@@ -6863,12 +6863,12 @@
   "pending_claim_review_count": 0,
   "pending_identity_review_count": 0,
   "review_aid_version": "BioSafe_Claim_Reconciliation_Review_Aid_v0.1",
-  "source_claim_reconciliation_map_sha256": "928473f4c6e3fdd47721afc59107c15bd832d310a435f12dbd8fa5a53a8c7bb9",
+  "source_claim_reconciliation_map_sha256": "57e507ff970b756b50818a06eafd96d49e037d8565a911d40b8103c72ed2f0b3",
   "source_component_artifact_sha256": "7e1bfcde1ddbdfd07039147ebe25ef787ad3ce1dca1eefcab58149585756422c",
   "source_document_identity_crosswalk_sha256": "516788b2aea9978ce7265af7288f2c07e4ef07efa55eb73e4be65548d9e81aae",
   "source_fallback_artifact_sha256": "9e138862768d28fb1673cce83f3dcd0fb0b34e01b567a2a0f2085e5cc031b347",
   "source_fallback_review_packet_sha256": "0747d1795a08eacda0d06fc0698ad2992758e99b331b62947e24c80f8052cfb5",
   "source_knowledge_base_sha256": "3d68f8154f6952a33395b253925ee44c2842a046c3c11d55f8c12ee9eb386bb4",
-  "source_policy_sha256": "930e64a121b0c256f789ea36f59d850023134ac983d668e1f2bc416137583a54",
-  "source_register_sha256": "2ed74090030e8f4971cc32f40558db10b5bd60f68a9b9b105c6a74773937bd59"
+  "source_policy_sha256": "ed6541a59660b30da1780763ec2bb2e0050dd20827bde06a3d13bc055dfdb065",
+  "source_register_sha256": "a69aeb3c5caacf45d8ec695aac0f42586332d794458ba8f0ad4e464d41e02b5e"
 }

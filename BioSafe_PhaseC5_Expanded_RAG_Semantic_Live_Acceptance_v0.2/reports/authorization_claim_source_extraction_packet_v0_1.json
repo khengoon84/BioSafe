@@ -5,7 +5,7 @@
       "authority_status": null,
       "blocking_reasons": [
         "ACT_678_PARAGRAPH_22_SCOPE_MUST_BE_EXTRACTED_AND_RECONCILED",
-        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+        "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
         "CASE_SPECIFIC_MATERIAL_AND_ACTIVITY_SCOPE_NOT_ESTABLISHED",
         "POLARITY_AND_NORMATIVE_FORCE_REQUIRE_CLAIM_LEVEL_REVIEW",
         "NO_PROMOTION_WITHOUT_HUMAN_REVIEW"
@@ -44,7 +44,7 @@
       "authority_status": null,
       "blocking_reasons": [
         "EXEMPTION_CRITERIA_MUST_BE_ATOMICALLY_EXTRACTED",
-        "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+        "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
         "EXEMPTION_APPLICABILITY_REQUIRES_EXACT_MATERIAL_AND_ACTIVITY_FACTS",
         "EXEMPTION_IS_NOT_A_GENERAL_NO_NOTIFICATION_DETERMINATION",
         "NO_PROMOTION_WITHOUT_HUMAN_REVIEW"
@@ -88,6 +88,14 @@
           "text": "Item Activity 2. An activity with an organism into which genetically modified somatic cells have been introduced, if— (a) the somatic cells are not capable of giving rise to infectious agents as a result of the genetic modification; and (b) the animal is not infected with a virus that is capable of recombining with the genetically modified nucleic acid in the somatic cells. 3. An activity involving a host/vector system mentioned in the Host/Vector Systems Not Regulated For Contained Use where the donor nucleic acid— (a) must be characterized and not known to alter the host range or mode of transmission, or increase the virulence, pathogenicity or transmissibility of the host or vector; ..."
         },
         {
+          "pdf_page": 32,
+          "text": "First Schedule continuation page reviewed as part of the complete source range; no independent claim proposition is created from this page without exact support review."
+        },
+        {
+          "pdf_page": 33,
+          "text": "First Schedule continuation page reviewed as part of the complete source range; no independent claim proposition is created from this page without exact support review."
+        },
+        {
           "pdf_page": 34,
           "text": "The exemption list for Notification includes any commercially available Host-Vector System fulfilling the criteria as specified under item 1. SECOND SCHEDULE (regulation 3) CLASSES OF ACTIVITIES INVOLVING MODERN BIOTECHNOLOGY ..."
         }
@@ -111,7 +119,7 @@
     "promotion_status": "NOT_PROMOTED",
     "recorded_at": "2026-09-13",
     "remaining_blockers": [
-      "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+      "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
       "CASE_SPECIFIC_APPLICABILITY_REQUIRES_STRUCTURED_FACTS",
       "CLAIM_LEVEL_SUPPORT_SPANS_AND_CURRENTNESS_REVIEW_REQUIRED"
     ],
@@ -125,7 +133,7 @@
     "pdf_page_count": 45,
     "publisher": "Department of Biosafety Malaysia",
     "source_register_currentness_status": "CURRENT_OFFICIAL_LISTING_VERIFIED_AMENDMENT_REVIEW_REQUIRED",
-    "source_register_supersession_status": "2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",
+    "source_register_supersession_status": "COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",
     "source_sha256": "6e8364d8e7015738863ed9194a62d16ec62f18c85f338e438a533ed98d83a756",
     "staged_filename": "KB-MY-REG2010_Approval_and_Notification_Regulations_2010.pdf",
     "title": "Biosafety (Approval and Notification) Regulations 2010"

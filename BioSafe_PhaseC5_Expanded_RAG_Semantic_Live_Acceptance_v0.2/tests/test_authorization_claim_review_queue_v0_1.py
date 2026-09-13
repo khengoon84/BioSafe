@@ -23,7 +23,7 @@ class AuthorizationClaimReviewQueueTests(unittest.TestCase):
         self.assertEqual(packet["promotion_status"],"NOT_PROMOTED")
         for entry in packet["entries"]:
             self.assertEqual(entry["human_review_status"],"HUMAN_REVIEW_ACCEPTED_DRAFT")
-            self.assertIn("2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED",entry["blocking_reasons"])
+            self.assertIn("COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED",entry["blocking_reasons"])
 
     def test_source_backed_candidates_have_unresolved_decision_fields(self):
         queue=build_review_queue()

@@ -33,32 +33,32 @@
       "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_22"],
       "locator_phrases": ["Establishment of an institutional biosafety committee", "The Board may", "determining the classes of Biosafety Levels"],
       "draft_atomic_propositions": ["Regulation 5(1) states that the Board may direct an organization carrying out modern biotechnology research and development to establish an institutional biosafety committee for the purposes listed in paragraphs (a) to (d).", "Regulation 5(1)(d) includes determining the classes of Biosafety Levels for contained-use modern biotechnology research and development activities conducted in the facility where the committee is established."],
-      "review_issues": ["The 2019 schedule amendment is recorded and requires reconciliation even though this claim concerns Regulation 5.", "The original broad phrase biosafety oversight functions should be checked against each listed statutory purpose rather than treated as an unlimited mandate."],
-      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+      "review_issues": ["The 2019 Act 678 schedule amendment has been transcribed and accepted, but complete amendment/currentness review for the Regulations and claim remains required even though this claim concerns Regulation 5.", "The original broad phrase biosafety oversight functions should be checked against each listed statutory purpose rather than treated as an unlimited mandate."],
+      "currentness_blockers": ["COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED"]
     },
     {
       "claim_id": "CLM-005",
       "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_27"],
       "locator_phrases": ["Notification of activities", "prior notification to the Board", "to the Director General"],
       "draft_atomic_propositions": ["Regulation 16(1) states that a person carrying out an activity specified in paragraphs 22(1)(a) to (c) of the Act shall give prior notification to the Board.", "Regulation 16(2) specifies submission routes for notifications required under paragraphs 22(1)(b) and (c), including submission to the Director General and a specified route through an institutional biosafety committee."],
-      "review_issues": ["The exact activity categories depend on section 22(1)(a) to (c) of the Act and cannot be generalized without that context.", "The 2019 schedule amendment remains recorded and requires reconciliation."],
-      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+      "review_issues": ["The exact activity categories depend on section 22(1)(a) to (c) of the Act and cannot be generalized without that context.", "The 2019 Act 678 schedule amendment has been transcribed and accepted, but complete amendment/currentness review for the Regulations and claim remains required."],
+      "currentness_blockers": ["COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED"]
     },
     {
       "claim_id": "CLM-006",
       "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_27", "KB-MY-REG2010:PUA367:PDF_PAGE_28"],
       "locator_phrases": ["Withdrawal of notification", "complete", "does not contain any error", "Rectification to notification", "direct a fresh notification to be submitted"],
       "draft_atomic_propositions": ["Regulation 17(1) states that a person submitting a notification under Regulation 16(2) shall ensure that it is complete and does not contain an error or unauthorized alteration.", "Regulation 17(2) describes refusal to process a nonconforming notification and requirements to amend or complete and resubmit it, or to submit a new notification.", "Regulation 19 separately addresses rectification to a notification and may direct a fresh notification under Regulation 16."],
-      "review_issues": ["MATERIAL_SECTION_CONTENT_MISMATCH: the original claim cites Regulation 17 but combines Regulation 17 completeness/resubmission content with language that may be confused with Regulation 19 rectification.", "The original word amendment should be checked against the source terms amend, complete, resubmit, and rectification rather than normalized into one concept.", "The 2019 schedule amendment remains recorded and requires reconciliation."],
-      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+      "review_issues": ["MATERIAL_SECTION_CONTENT_MISMATCH: the original claim cites Regulation 17 but combines Regulation 17 completeness/resubmission content with language that may be confused with the separate Regulation 19 rectification provision.", "The original word amendment should be checked against the source terms amend, complete, resubmit, and rectification rather than normalized into one concept.", "The 2019 Act 678 schedule amendment has been transcribed and accepted, but complete amendment/currentness review for the Regulations and claim remains required."],
+      "currentness_blockers": ["COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED"]
     },
     {
       "claim_id": "CLM-007",
       "candidate_chunk_ids": ["KB-MY-REG2010:PUA367:PDF_PAGE_21", "KB-MY-REG2010:PUA367:PDF_PAGE_30", "KB-MY-REG2010:PUA367:PDF_PAGE_31", "KB-MY-REG2010:PUA367:PDF_PAGE_32", "KB-MY-REG2010:PUA367:PDF_PAGE_33", "KB-MY-REG2010:PUA367:PDF_PAGE_34"],
       "locator_phrases": ["specified in the First Schedule", "TECHNIQUES IN RELATION TO LIVING MODIFIED ORGANISMS TO WHICH THESE REGULATIONS ARE NOT APPLICABLE", "CONTAINED USE ACTIVITIES WHICH ARE EXEMPTED FROM NOTIFICATION", "Host/Vector Systems Not Regulated For Contained Use"],
       "draft_atomic_propositions": ["The base Regulations state that specified techniques and contained-use activities in relation to LMOs in the First Schedule are outside specified application or notification provisions.", "The base First Schedule contains criteria and listed contained-use activities, including an activity involving a host/vector system named in the Host/Vector Systems Not Regulated For Contained Use subject to donor nucleic acid criteria."],
-      "review_issues": ["CURRENTNESS_BLOCKED: controlled source metadata records that a 2019 schedule amendment must be reconciled, but the amendment instrument text and number are not present in the controlled corpus.", "No current exemption, non-applicability, or no-notification conclusion may be drawn from the base schedule alone.", "A generic low-risk statement is not sufficient to establish that the exact schedule criteria are met."],
-      "currentness_blockers": ["2019_SCHEDULE_AMENDMENT_MUST_BE_RECONCILED"]
+      "review_issues": ["CURRENTNESS_BLOCKED: the 2019 Act 678 schedule amendment has been transcribed and accepted, but complete amendment/currentness review for the Regulations and claim remains required.", "No current exemption, non-applicability, or no-notification conclusion may be drawn from the base schedule alone.", "A generic low-risk statement is not sufficient to establish that the exact schedule criteria are met."],
+      "currentness_blockers": ["COMPLETE_AMENDMENT_AND_CLAIM_CURRENTNESS_REVIEW_REQUIRED"]
     },
     {
       "claim_id": "CLM-029",

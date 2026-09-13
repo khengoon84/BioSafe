@@ -57,7 +57,7 @@ class LegalBlockerEvidenceTests(unittest.TestCase):
     def test_exact_three_claims_and_safety_boundary(self):
         bundles, index = self.build()
         self.assertEqual(set(bundles), TARGET_CLAIMS)
-        self.assertIn("does not contain the separately listed 2019", index)
+        self.assertIn("visually transcribed as an Act 678 amendment", index)
         for claim_id, content in bundles.items():
             self.assertIn(f"# Legal blocker evidence — {claim_id}", content)
             self.assertIn("Current disposition in canonical map: `CURRENTNESS_UNRESOLVED`", content)
@@ -97,13 +97,13 @@ class LegalBlockerEvidenceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValidationError, "canonical blocker disposition"):
             self.build(map=changed)
 
-    def test_new_2019_amendment_register_record_fails_closed(self):
+    def test_unexpected_2019_amendment_register_record_fails_closed(self):
         changed = json.loads(json.dumps(self.data["register"]))
         record = dict(changed[0])
         record["candidate_id"] = "KB-MY-REG2019-AMENDMENT"
         record["title"] = "2019 First and Third Schedule amendment"
         changed.append(record)
-        with self.assertRaisesRegex(ValidationError, "2019 amendment is now present"):
+        with self.assertRaisesRegex(ValidationError, "unexpected 2019 amendment record"):
             self.build(register=changed)
 
 

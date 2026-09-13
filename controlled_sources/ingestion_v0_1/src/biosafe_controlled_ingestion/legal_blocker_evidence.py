@@ -61,22 +61,31 @@ def build_legal_blocker_evidence(
         if (
             review.get("review_status") != "CLAIM_REVIEW_COMPLETE"
             or review.get("disposition") != "CURRENTNESS_UNRESOLVED"
-            or review.get("support_spans") != []
+            or (
+                claim_id == "CLM-007"
+                and review.get("source_support_disposition") != "SUPPORTED_AFTER_ATOMIC_SPLIT"
+            )
         ):
             raise ValidationError(f"canonical blocker disposition is invalid for {claim_id}")
     chunks = {item["candidate_chunk_id"]: item for item in components["candidate_chunks"]}
     component_records = {item["component_id"]: item for item in components["components"]}
     register = {item["candidate_id"]: item for item in source_register}
     policies = source_policy.get("sources", {})
+    amendment_register_record = None
     for record in source_register:
         searchable = " ".join(
             record.get(field, "")
             for field in ("candidate_id", "staged_filename", "title", "instrument_identifier")
         ).lower()
         if "2019" in searchable and ("amend" in searchable or "pindaan" in searchable):
-            raise ValidationError(
-                "2019 amendment is now present; controlled-corpus gap logic must be reviewed"
-            )
+            if record.get("candidate_id") == "KB-MY-AMEND2019":
+                amendment_register_record = record
+            else:
+                raise ValidationError("unexpected 2019 amendment record; controlled-corpus binding must be reviewed")
+    if amendment_register_record is None:
+        raise ValidationError("reviewed 2019 amendment register record is required")
+    if amendment_register_record.get("status") != "STAGED_OFFICIAL_DOWNLOAD_VISUALLY_TRANSCRIBED_REVIEW_ACCEPTED":
+        raise ValidationError("2019 amendment register record is not in the reviewed staging state")
 
     provenance = [
         f"Generated: {generated_date}",
@@ -126,7 +135,14 @@ def build_legal_blocker_evidence(
             f"- Supersession status: `{draft['controlled_supersession_status']}`",
             f"- Current review status: `{reviews[claim_id]['review_status']}`",
             f"- Current disposition in canonical map: `{reviews[claim_id]['disposition']}`",
-            "- Current support spans: none", "",
+            (
+                f"- Current direct support spans: {len(reviews[claim_id]['support_spans'])}"
+                if claim_id == "CLM-007" else "- Current support spans: none"
+            ),
+            (
+                "- Source-support disposition: `SUPPORTED_AFTER_ATOMIC_SPLIT` (currentness remains unresolved)"
+                if claim_id == "CLM-007" else ""
+            ), "",
             "## Recorded review issues", "",
         ]
         lines.extend(f"- {issue}" for issue in draft["review_issues"])
@@ -171,9 +187,10 @@ def build_legal_blocker_evidence(
         )
     index.extend([
         "", "## Controlled-corpus gap", "",
-        "The staged collection contains the Regulations 2010 base instrument but does not contain "
-        "the separately listed 2019 First/Third Schedule amending instrument. CLM-007 therefore "
-        "remains unresolved from the controlled collection. No source was downloaded by this step.",
+        "The separately staged 2019 First/Third Schedule amending instrument has been visually "
+        "transcribed as an Act 678 amendment. It does not resolve currentness or applicability of "
+        "the Regulations 2010 claims; CLM-007 therefore remains unresolved. No claim disposition "
+        "or live-retrieval status changes through this evidence bundle.",
         "",
     ])
     return outputs, "\n".join(index)
