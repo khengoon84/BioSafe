@@ -1,0 +1,1857 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_7_Gold_Cases_v0.2",
+  "case_count": 78,
+  "cases": [
+    {
+      "acceptable_claim_ids": [
+        "CLM-008"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-008-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which Malaysian contained-use examples combine GM-BSL2 access, training, decontamination and incident controls?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-008"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-008-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "For LMO work at GM-BSL2, what practical laboratory safeguards are described?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-009"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-009-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "After a GM-BSL2 spill, which local people or bodies should receive an immediate report?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-009"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-009-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What response and escalation arrangements apply when contained-use work causes an over-exposure risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-010"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-010-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What primary-containment equipment is identified for aerosol-generating contained-use work?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-010"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-010-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which cabinet is associated with respiratory exposure risk in the Malaysian contained-use material?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-011"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-011-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which subjects are included in the Malaysian contained-use guidance, from waste through facilities?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-011"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-I-CLM-011-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+        "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Does the contained-use source address treatment, storage, transfer and disposal as well as handling?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-012"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "case_id": "C37-I-CLM-012-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "For a Malaysian GMM assessment, which hazards and possible releases are considered?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-012"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "case_id": "C37-I-CLM-012-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How does the Malaysian microorganism guidance connect risk assessment with BSL and human, animal, plant and environmental effects?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-013"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "case_id": "C37-I-CLM-013-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What makes a GMM risk submission sufficiently informative for reviewers when uncertainty remains?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-013"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "case_id": "C37-I-CLM-013-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How should missing background or unresolved hazards be handled in the risk assessment?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-014"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "case_id": "C37-I-CLM-014-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "When should a GMM risk assessment be revisited rather than left unchanged?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-014"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "case_id": "C37-I-CLM-014-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Is the Malaysian risk assessment treated as a one-off exercise or something updated when circumstances change?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-015"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "case_id": "C37-I-CLM-015-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What does a Malaysian IBC examine about facilities, procedures and staff competence?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-015"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "case_id": "C37-I-CLM-015-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_9"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which oversight tasks are assigned to the institutional biosafety committee?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-016"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "case_id": "C37-I-CLM-016-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What is the principal investigator's accountability to the IBC under the Malaysian source?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-016"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "case_id": "C37-I-CLM-016-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Who must comply with applicable biosafety requirements in relation to the IBC?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-017"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "case_id": "C37-I-CLM-017-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What reporting timing and route does Malaysian IBC material give for incidents or occupational exposure?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-017"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-IBC"
+      ],
+      "case_id": "C37-I-CLM-017-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_14",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_33",
+        "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_36"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Where should a contained-use incident be reported according to the IBC source?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-021"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-021-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which human-health and accidental-release issues does Malaysia's Form E risk section ask applicants to address?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-021"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-021-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_213"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What risk dimensions are requested in Form E for the proposed activity and an unintended release?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-022"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-022-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What does Form E ask about off-site movement, cleanup, protection and contingency arrangements?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-022"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-022-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which transport, decontamination and disposal precautions appear in the Form E risk-management fields?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-023"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-023-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which premises and laboratory details are requested in Form E, including BSL and inspection information?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-023"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-023-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_215"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What facility and biosafety-officer information does the Form E section seek?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-024"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-024-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How can confidential business information be identified in Form E?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-024"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-024-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_INSTRUCTIONS:PDF_PAGE_204"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What does the Malaysian form say about claiming confidentiality for business information?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-025"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-025-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Who completes the IBC Assessment Report, and is it a field for the researcher?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-025"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-I-CLM-025-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Is the IBC Assessment Report something the PI fills in for BioSafe's scoring?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-026"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-I-CLM-026-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What does Malaysia's health-ministry guidance cover when sending clinical samples or infectious substances?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-026"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-I-CLM-026-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_32"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which specimen classification and package-marking topics are within the 2023 Malaysian transport guidance?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-027"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-I-CLM-027-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How should a clinical sample be packaged for transport under the Malaysian guidance, including Category A or B distinctions?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-027"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-I-CLM-027-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What three-layer packaging approach and P620/P650 contexts are described for infectious substances?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-028"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-I-CLM-028-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Does the Malaysian specimen-transport document also decide clinical-waste rules or laboratory containment?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-028"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-I-CLM-028-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What important subjects fall outside the scope of the clinical-specimen transport guideline?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-031"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "case_id": "C37-I-CLM-031-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How does WHO LBM4 balance precautions against the work being performed?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-031"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "case_id": "C37-I-CLM-031-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What general evidence-led approach does WHO use when selecting laboratory biosafety measures?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-032"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-032-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which facts about the agent, procedure, facility and people are needed for a laboratory risk assessment?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-032"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-032-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What information should be assembled before evaluating biological risk in a WHO laboratory setting?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-033"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-033-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How does WHO evaluate the chance and consequences of exposure or release?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-033"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-033-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What questions about likelihood, consequences and residual risk belong in WHO risk evaluation?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-034"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-BIOSEC"
+      ],
+      "case_id": "C37-I-CLM-034-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_23"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What risk-and-evidence approach does WHO apply to laboratory biosecurity and high-consequence work?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-034"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-BIOSEC"
+      ],
+      "case_id": "C37-I-CLM-034-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+        "KB-WHO-BIOSEC:BODY:PDF_PAGE_23"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which levels of oversight and lifecycle activities are covered by the WHO biosecurity guidance?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-036"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-036-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What is the purpose of carrying out a biological risk assessment according to WHO?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-036"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-036-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How does WHO describe the process of collecting information and evaluating laboratory risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-037"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-037-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "In WHO laboratory terminology, what makes a biological agent a hazard?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-037"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-037-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How is biological hazard described in the WHO biosafety material?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-038"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-038-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "In a laboratory context, how does WHO define biological risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-038"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-038-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What two ideas are combined in WHO's definition of biological risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-039"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-039-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which changing features of an activity can alter laboratory biological risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-039"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-039-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Why does WHO say procedure, equipment and context can change the risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-040"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-040-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How should control measures be chosen and checked for a particular laboratory activity under WHO's framework?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-040"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-040-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What does WHO require after selecting activity-specific risk controls?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-041"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "case_id": "C37-I-CLM-041-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Why does WHO use a risk-based approach instead of one fixed control package for every activity?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-041"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4"
+      ],
+      "case_id": "C37-I-CLM-041-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4:BODY:PDF_PAGE_26",
+        "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How are laboratory safeguards matched to the specific work in WHO LBM4?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-042"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "case_id": "C37-I-CLM-042-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Where does PPE fit within WHO's broader laboratory biosafety requirements?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-042"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "case_id": "C37-I-CLM-042-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Does WHO treat protective clothing and equipment as the whole biosafety programme?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-043"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "case_id": "C37-I-CLM-043-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "When might respiratory protection be selected on the basis of laboratory risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-043"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-PPE"
+      ],
+      "case_id": "C37-I-CLM-043-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+        "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Which PPE needs does WHO say depend on the assessed exposure risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-044"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-044-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
+        "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "Why cannot PPE alone demonstrate that a laboratory activity is safe under WHO's framework?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-044"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-044-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_28",
+        "KB-WHO-LBM4-RA:FRONT_MATTER:PDF_PAGE_11"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What other controls must be considered alongside PPE in a WHO risk assessment?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-045"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-045-1",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "What elements besides the organism itself belong in a comprehensive WHO biological risk assessment?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-045"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-I-CLM-045-2",
+      "case_type": "independent_claim",
+      "expected_jurisdiction": "Unspecified",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span",
+        "leakage",
+        "diversity",
+        "duplicates"
+      ],
+      "partition": "development",
+      "query": "How should work practices, people, equipment and facility context be combined when assessing risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-031",
+        "CLM-032",
+        "CLM-033"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4",
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-B-WHO_NOT_LAW",
+      "case_type": "boundary",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route",
+        "boundary",
+        "support_span",
+        "leakage"
+      ],
+      "query": "Is WHO laboratory biosafety guidance Malaysian law?",
+      "required_boundary": "WHO_GUIDANCE_NOT_MALAYSIAN_LAW"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-011"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-B-HANDLING_NOT_TRANSPORT",
+      "case_type": "boundary",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route",
+        "boundary",
+        "support_span",
+        "leakage"
+      ],
+      "query": "Does Malaysian contained-use handling guidance establish clinical specimen transport requirements?",
+      "required_boundary": "HANDLING_DOES_NOT_ESTABLISH_TRANSPORT"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-028"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-B-TRANSPORT_NOT_CONTAINMENT",
+      "case_type": "boundary",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route",
+        "boundary",
+        "support_span",
+        "leakage"
+      ],
+      "query": "Does a Malaysian clinical specimen transport document determine laboratory containment?",
+      "required_boundary": "TRANSPORT_DOES_NOT_ESTABLISH_CONTAINMENT"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-012"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-GMMRA"
+      ],
+      "case_id": "C37-B-GM_NOT_LMO",
+      "case_type": "boundary",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route",
+        "boundary",
+        "support_span",
+        "leakage"
+      ],
+      "query": "Does Malaysian generic genetic modification by itself establish LMO status?",
+      "required_boundary": "GENERIC_GM_DOES_NOT_ESTABLISH_LMO"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-011"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-B-WASTE_NOT_SW404",
+      "case_type": "boundary",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route",
+        "boundary",
+        "support_span",
+        "leakage"
+      ],
+      "query": "Is all Malaysian biological laboratory waste automatically SW 404 scheduled waste?",
+      "required_boundary": "BIOLOGICAL_WASTE_NOT_AUTOMATIC_SW404"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-010"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU"
+      ],
+      "case_id": "C37-B-BSC_NOT_LEVEL",
+      "case_type": "boundary",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route",
+        "boundary",
+        "support_span",
+        "leakage"
+      ],
+      "query": "Does a Class II biological safety cabinet by itself establish the Malaysian biosafety level?",
+      "required_boundary": "BSC_DOES_NOT_ESTABLISH_LEVEL"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-025"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-FORME"
+      ],
+      "case_id": "C37-B-FORM_E_NOT_APPROVAL",
+      "case_type": "boundary",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route",
+        "boundary",
+        "support_span",
+        "leakage"
+      ],
+      "query": "Does Malaysia's Form E itself approve the work?",
+      "required_boundary": "FORM_E_IS_NOT_APPROVAL"
+    },
+    {
+      "acceptable_claim_ids": [],
+      "acceptable_document_ids": [],
+      "case_id": "C37-U-001",
+      "case_type": "unknown_evidence",
+      "expected_jurisdiction": "Malaysia",
+      "metrics": [
+        "unknown"
+      ],
+      "query": "What exact Malaysian permit exemption applies to an unclassified future organism in a facility not yet described?",
+      "retrieval_must_be_empty": true
+    },
+    {
+      "acceptable_claim_ids": [],
+      "acceptable_document_ids": [],
+      "case_id": "C37-U-002",
+      "case_type": "currentness",
+      "expected_jurisdiction": "Unspecified",
+      "metrics": [
+        "unknown",
+        "currentness"
+      ],
+      "query": "What is the current legal requirement for a jurisdiction not identified by the question?",
+      "retrieval_must_be_empty": true
+    },
+    {
+      "acceptable_claim_ids": [],
+      "acceptable_document_ids": [],
+      "case_id": "C37-U-003",
+      "case_type": "unknown_evidence",
+      "expected_jurisdiction": "Unspecified",
+      "metrics": [
+        "unknown"
+      ],
+      "query": "Which reviewed source proves that this particular project is safe to start?",
+      "retrieval_must_be_empty": true
+    },
+    {
+      "acceptable_claim_ids": [],
+      "acceptable_document_ids": [],
+      "case_id": "C37-C-001",
+      "case_type": "conflict",
+      "expected_jurisdiction": "Unspecified",
+      "metrics": [
+        "unknown",
+        "conflict"
+      ],
+      "query": "Two unverified sources conflict about whether an unidentified project needs approval; decide which is legally correct.",
+      "retrieval_must_be_empty": true
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-038"
+      ],
+      "acceptable_document_ids": [
+        "KB-WHO-LBM4-RA"
+      ],
+      "case_id": "C37-M-001",
+      "case_type": "minimal_pair",
+      "expected_jurisdiction": "International",
+      "expected_source_record_ids": [
+        "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15"
+      ],
+      "metrics": [
+        "retrieval",
+        "route",
+        "support_span"
+      ],
+      "query": "How does WHO define biological risk?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-009",
+        "CLM-017"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-CU",
+        "KB-MY-IBC"
+      ],
+      "case_id": "C37-M-002",
+      "case_type": "minimal_pair",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route"
+      ],
+      "query": "How should a Malaysian contained-use incident be reported?"
+    },
+    {
+      "acceptable_claim_ids": [
+        "CLM-026",
+        "CLM-027"
+      ],
+      "acceptable_document_ids": [
+        "KB-MY-TRANSPORT2023"
+      ],
+      "case_id": "C37-M-003",
+      "case_type": "minimal_pair",
+      "expected_jurisdiction": "Malaysia",
+      "expected_source_record_ids": [],
+      "metrics": [
+        "retrieval",
+        "route"
+      ],
+      "query": "What packaging is used for a Malaysian clinical specimen?"
+    }
+  ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES"
+}

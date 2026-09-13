@@ -1,0 +1,21 @@
+{
+  "active_kb_sha256": "3d68f8154f6952a33395b253925ee44c2842a046c3c11d55f8c12ee9eb386bb4",
+  "active_manifest_sha256": "199145afd64b1fb41f38921aba90ac214193f199dda4eb29f649c10eadf11031",
+  "artifact_version": "BioSafe_Phase4_Additive_Retrieval_Integration_Report_v0.1",
+  "candidate": "C37_METADATA_CFG02:metadata_off",
+  "candidate_case_count": 78,
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "control_path": "ACTIVE_KB_V0.2_FROZEN_PATH",
+  "limitations": [
+    "Deterministic wiring/A-B readiness only; C5 semantic and live WSL2/Ollama acceptance is required.",
+    "No independent holdout was completed."
+  ],
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "result": "READY_FOR_C5_SEMANTIC_LIVE_ACCEPTANCE",
+  "rollback": {
+    "automatic_reopen_on_failure": true,
+    "path": "ACTIVE_KB_V0.2_FROZEN_PATH",
+    "status": "AVAILABLE"
+  },
+  "synthetic_fixture_excluded": true
+}

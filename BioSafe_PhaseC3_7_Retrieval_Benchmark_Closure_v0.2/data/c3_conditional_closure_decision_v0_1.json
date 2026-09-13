@@ -1,0 +1,26 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_Conditional_Closure_Decision_v0.1",
+  "decision_date": "2026-09-12",
+  "decision_owner": "BioSafe project owner",
+  "closure_status": "CLOSED_BY_OWNER_RISK_ACCEPTANCE_FOR_ADDITIVE_C4_EVALUATION",
+  "authorization_scope": "ADDITIVE_REVERSIBLE_C4_EVALUATION_ONLY",
+  "selected_candidate": "C37_METADATA_CFG02:metadata_off",
+  "c3_report_sha256": "a023e2619486f7596491df5e8df81dfb0ce0beacb610f45f66d9352dc263a480",
+  "provisional_stress_report_sha256": "db9ebd929ef61028b255dcbdb708d3a4852466626f8a0baaa48fdbc3d85e5a3c",
+  "provisional_owner_packet_sha256": "975c95cadf71aced83932cbe41c6d185a5665e780e06e53125653eb6587ec854",
+  "independent_holdout_completed": false,
+  "not_production_validation": true,
+  "not_claim_use_approval": true,
+  "not_live_activation_approval": true,
+  "automatic_reopen_triggers": [
+    "safety_boundary_failure",
+    "provenance_or_source_identity_failure",
+    "wrong_domain_or_jurisdiction_evidence",
+    "unknown_or_conflicting_information_converted_to_certainty",
+    "material_regression_against_frozen_baseline",
+    "rollback_failure",
+    "candidate_or_configuration_mismatch"
+  ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES"
+}

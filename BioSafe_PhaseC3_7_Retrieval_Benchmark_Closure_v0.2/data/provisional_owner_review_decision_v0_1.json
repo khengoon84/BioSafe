@@ -1,0 +1,16 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_7_Provisional_Owner_Review_Decision_v0.1",
+  "reviewer_identity": "BioSafe project owner",
+  "reviewer_role": "Project owner and provisional-result reviewer",
+  "review_date": "2026-09-12",
+  "overall_disposition": "ACCEPT_PROVISIONAL_RESULT",
+  "finding": "The results are suitable as provisional evidence only.",
+  "scope_acknowledgements": {
+    "non_independent_agent_authorship_acknowledged": true,
+    "not_c3_closure_acknowledged": true,
+    "independent_holdout_still_required": true,
+    "not_c4_authorization_acknowledged": true,
+    "not_claim_approval_acknowledged": true,
+    "not_live_activation_acknowledged": true
+  }
+}

@@ -1,0 +1,2660 @@
+{
+  "artifact_version": "BioSafe_PhaseC3_7_Provisional_Owner_Review_Packet_v0.1",
+  "cases": [
+    {
+      "case_id": "C37-PS-001",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-016"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Who is accountable to the Malaysian IBC for following applicable biosafety requirements?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-001",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.5,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-REG",
+          "insufficient_evidence": false,
+          "intent": "contained_use",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "lmo",
+            "gmm",
+            "contained use",
+            "form e",
+            "ibc",
+            "risk assessment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-016",
+          "CLM-025",
+          "CLM-017",
+          "CLM-024",
+          "CLM-021",
+          "CLM-010",
+          "CLM-015",
+          "CLM-008",
+          "CLM-023",
+          "CLM-022"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-IBC",
+          "KB-MY-FORME",
+          "KB-MY-IBC",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-CU",
+          "KB-MY-IBC",
+          "KB-MY-CU",
+          "KB-MY-FORME",
+          "KB-MY-FORME"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 3,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-016",
+          "document_id": "KB-MY-IBC",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1,
+                2
+              ],
+              "pdf_page_end": 16,
+              "pdf_page_start": 16,
+              "quoted_support": "The PI is accountable to the IBC and is required to comply with the\nappropriate research guidelines and all applicable laws related to\nbiosafety.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_16",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 18,
+              "pdf_page_start": 18,
+              "quoted_support": "The      PI      involved      in      export ,      import ,      contained      use      and      field      experiment\nof LMO/rDNA materials shall comply with relevant requirements of the\nBiosafety       Act       2007,       Biosafety       (Approval       and       Notification)       Regulations\n2010 and other related regulations.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-IBC:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "The PI is accountable to the IBC and must comply with applicable biosafety laws and guidelines. PI responsibilities pi_accountability"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-002",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-043"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "International",
+        "query": "Under WHO guidance, when can respiratory protection be chosen following assessment of exposure risk?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-002",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.6,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "WHO-PPE",
+          "insufficient_evidence": false,
+          "intent": "ppe",
+          "jurisdiction": "International",
+          "preferred_tier": "Tier 3",
+          "safety_sensitive": false,
+          "scope": [
+            "ppe",
+            "respiratory protection",
+            "risk controls"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-043",
+          "CLM-033",
+          "CLM-044",
+          "CLM-042",
+          "CLM-036",
+          "CLM-045",
+          "CLM-038",
+          "CLM-040",
+          "CLM-041",
+          "CLM-031"
+        ],
+        "ranked_document_ids": [
+          "KB-WHO-LBM4-PPE",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-PPE",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4",
+          "KB-WHO-LBM4"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 3,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-043",
+          "document_id": "KB-WHO-LBM4-PPE",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 29,
+              "pdf_page_start": 29,
+              "quoted_support": "Core requirements are a combination of risk control measures that are both the foun-\ndation for and an integral part of laboratory biosafety. These requirements are defined\nin the fourth edition of the Laboratory biosafety manual (5) and should be applied\nin all laboratory facilities. They reflect international standards and best practice in\nbiosafety that are a set of minimum requirements and considerations for working\nsafely with biological agents, even where the risks are considered minimal. The most\nimportant requirement of any laboratory facility is GMPP. This term covers a code of\npractice applicable to all types of activities with biological agents. It includes general\nbehaviours, best working practices and technical procedures that should be observed\nin the laboratory. These should be carried out in a standardized way so that laboratory\npersonnel and the community are protected from infection, the environment is protect-\ned from contamination and products are protected for work with biological agents.\n\nThe Laboratory biosafety manual (5) suggests the following as PPE core requirements:\n\n\nn laboratory coats,\n\n\nn footwear,\n\n\nn gloves, and\n\n\nn eye protection.\n\nThe use of respiratory protection is not generally required for protection against\nbiological agents as a core requirement. Where a risk assessment indicates that\nrespiratory protection is needed to protect against biological agents, this is considered\na heightened control measure (see section 4 PPE for heightened control measures).",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_29",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 33,
+              "pdf_page_start": 33,
+              "quoted_support": "Where determined by the risk assessment, additional PPE may be required as part of\nthe risk control, over and above those defined as core requirements. These additional\nrequirements are the heightened control measures and maximum containment\nmeasures proposed to address the higher initial risks associated with the performance\nof more specialized work and/or work with more hazardous biological agents.\n\nWhere national regulations exist, there may be compulsory, pre-defined lists of risk\ncontrol measure(s) to be used. Beyond such requirements, the outcomes of the local\nrisk assessment must be used to guide the selection of risk control measures, bearing in\nmind available resources, competency of personnel and practicality of implementation.\nHeightened control measures may include specialized PPE and/or specialized\nprotocols with core requirement PPE that help further reduce identified risks.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_33",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3,
+                4
+              ],
+              "pdf_page_end": 35,
+              "pdf_page_start": 35,
+              "quoted_support": "Respiratory protective equipment is a form of PPE designed to protect the wearer\nfrom inhaling particles that contain biological agents that may be present in the air\nor generated during certain laboratory procedures. Respiratory protection can be\nused to protect personnel from aerosols as an alternative or in addition to carrying\nout work in a BSC. However, respiratory protection should only be used after careful\nconsideration of the risks as this equipment only protects the wearer. Therefore, other\nmeasures may be required to ensure that any other laboratory personnel and/or the\nlocal environment at risk of exposure/contamination are also protected.\n\nRespiratory protective equipment must be selected carefully based on the results\nof a risk assessment. It must only be used by trained personnel who know what the\nappropriate equipment for the work is and how to use it correctly.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-PPE:BODY:PDF_PAGE_35",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "WHO indicates that some PPE needs are determined by risk assessment; for example, respiratory protection for biological agents is not a general core requirement and becomes a heightened control measure when the risk assessment indicates it is needed. Section 3 – PPE for core requirements ppe_risk_based_selection"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-003",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-009"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "Unspecified",
+        "query": "For a spill with possible over-exposure, where does the reviewed evidence direct immediate escalation?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-003",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.3,
+        "first_acceptable_rank": 5,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "GENERAL",
+          "insufficient_evidence": false,
+          "intent": "educational",
+          "jurisdiction": "Unspecified",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-017",
+          "CLM-014",
+          "CLM-024",
+          "CLM-041",
+          "CLM-009",
+          "CLM-031",
+          "CLM-045",
+          "CLM-044",
+          "CLM-038",
+          "CLM-010"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-IBC",
+          "KB-MY-GMMRA",
+          "KB-MY-FORME",
+          "KB-WHO-LBM4",
+          "KB-MY-CU",
+          "KB-WHO-LBM4",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-MY-CU"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 0,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 6,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-009",
+          "document_id": "KB-MY-CU",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "k)                  Spills and accidents that may cause over-exposure to LMO and\n    materials originating from these organisms should be immediately\n    reported to the Laboratory Supervisor and the IBC.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Management\n    of spills should follow biosafety procedures outlined in the\n    institutional biosafety manual.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "An Emergency Response Plan should\n    be documented and personnel should be trained in these procedures\n    which include, spill management as well as incident reporting\n    system.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "Spills/accidents are to be addressed through established reporting and emergency arrangements, with relevant escalation to supervisory/IBC structures. GM-BSL2 work practices incident"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-004",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-027"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "Malaysia",
+        "query": "How do Malaysia's Category A and Category B specimen shipments differ in packaging context?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-004",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 1.0,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "TRANSPORT",
+          "insufficient_evidence": false,
+          "intent": "transport",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "clinical specimen",
+            "infectious substance",
+            "transport"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-027",
+          "CLM-026",
+          "CLM-028"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-TRANSPORT2023"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 1,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-027",
+          "document_id": "KB-MY-TRANSPORT2023",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 18,
+              "pdf_page_start": 18,
+              "quoted_support": "6.1                                 Basic Triple Packaging\n\n         This system consists of three layers:\n         i.                                                  Primary receptacle.\n         ii.                                            Secondary receptacle to enclose and protect the primary receptacle.\n         iii.                                  Third outer layer of packaging.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 22,
+              "pdf_page_start": 22,
+              "quoted_support": "6.2.2                               Packaging for Infectious Substances\n          An infectious su                      bstance can be classified int o 2 categories:\n\n\n          6.2.2.1 Category                       A\n                     The substance belongs to Category A if it is transported in a form that, when\n                     exposure to it occurs, could cause permanent disability, or life-                  threatening or\n                     fatal illness in otherwise healthy                                             humans or animals.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 26,
+              "pdf_page_start": 26,
+              "quoted_support": "6.2.2.2 Category B\n\n                      Infectious substances are subclassified as Category B when they cont ain\n                      biological agents capable of c                                                                                ausing infection in humans or animals, but NOT\n                      meeting the criteria for Category A; that is, the consequences of an infection\n                      are not considered severely disabling or life-                      threatening.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                4
+              ],
+              "pdf_page_end": 17,
+              "pdf_page_start": 17,
+              "quoted_support": "i.                                            P620 for Category A infectious substances.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                4
+              ],
+              "pdf_page_end": 24,
+              "pdf_page_start": 24,
+              "quoted_support": "Packing instruction P620 outlines the requir eme                                          nts and special packaging                                                                                           provisions that\nmust be met for “approval” for use with Category A infectious substances.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_24",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                5
+              ],
+              "pdf_page_end": 17,
+              "pdf_page_start": 17,
+              "quoted_support": "ii.                                P650 for Category B infectious substances assigned to UN 3373; and   i                                                                     f dr y ice\n                    is used as coolant, additional requirements are also needed as  in  PI                                                                                                                                                                                 954.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_17",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                5
+              ],
+              "pdf_page_end": 26,
+              "pdf_page_start": 26,
+              "quoted_support": "Packing instruction P650 provides a slightly more detailed set of triple packaging\nrequirements than is the case for the basic trip                                                                le packaging system.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_26",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "Basic transport practice uses a triple-packaging concept; the guideline distinguishes relevant Category A/B infectious-substance packaging arrangements including P620/P650 contexts. triple packaging transport"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-005",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-034"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "International",
+        "query": "What lifecycle activities does WHO's laboratory biosecurity guidance discuss?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-005",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 1.0,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "WHO-BIOSEC",
+          "insufficient_evidence": false,
+          "intent": "biosecurity",
+          "jurisdiction": "International",
+          "preferred_tier": "Tier 3",
+          "safety_sensitive": false,
+          "scope": [
+            "biosecurity",
+            "governance",
+            "lifecycle"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-034"
+        ],
+        "ranked_document_ids": [
+          "KB-WHO-BIOSEC"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 1,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-034",
+          "document_id": "KB-WHO-BIOSEC",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1,
+                2
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "This edition of the\nLaborator  y biosecurit  y guidance is a complete revision of the 1s t edition published in 20 0 6. The\nmajor advancement s are the adjus tment to the LBM4 with applying the risk- and evidence -based\napproach also to laborator  y biosecurit  y, the emphasis of under s tanding laborator  y biosecurit  y\nand biosafet  y as a continuum, the inclusion of new development s in science and technolog  y\nand to addres s laborator  y biosecurit  y on all three levels: the laborator  y, the ins titution and the\nnational regulator   y body.\nLaborator  y biosecurit  y is inseparable from biosafet  y (Fig. 1.1), and both areas complement each\nother to ensure safe and secure laborator  y operations. The term biological risk management\ndescribes the continuum of biosafet  y and biosecurit  y at the ins titutional and national levels.\nIn 2020, the World Health Organization (WHO) published the four  th edition of the Laborator  y\nbiosafet  y  manual,  four  t h  edit ion  (2)               (LBM4) which promotes a r isk- and evidence  - base d approach\nto biosafet  y. The risk as ses sment framework in the laborator  y biosafet  y manual enables\nins t itut ions  to  de ve lop  an d  imple m e nt  lo c ally  re le v ant ,  e ff e c  t i ve  an d  sus t ainab le  (f un dab le  ove r\na longer period) risk control measures to manage biosafet  y risk s as sociated with working with\nbiological agent s. For the development of this laborator  y biosecurit  y guidance, the risk- and\nevidence -based approach is applied to high - consequence research and other ac tivities with\nbiosecurit  y-relevant material, technolog  y and/or information. The guidance addres ses risk s from\nthe point- of-view of laborator  y biosecurit  y at both the ins titutional and national level.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-BIOSEC:BODY:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "pdf_page_end": 23,
+              "pdf_page_start": 23,
+              "quoted_support": "This guidance follows the principles of the risk- and evidence -based approach for biosafet  y\nint ro duce d  in  WHO’s  Laborator  y  biosafet  y  manual,  four  t h  edit ion              for labor ator   y biose cur it  y (2)           .\nA biosecurit  y risk as ses sment template with an embedded high - consequence decision tree\nwas develope d to identif  y biose cur it  y r isk s , high -  conse quence research and high -  conse quence\nmaterial and implementing biosecurit  y risk control measures to addres s the identif ied\nbios e cur it  y  r isk s .\nThe document provides tools and guidance to manage laborator  y biosecurit  y risk s and outlines\nbes t prac tices at the three ver  tical levels: laborator  y, ins titution and national regulator  y levels.\nIt also outlines bes t prac tices at the horizontal level: for example, sample collec tion, transpor  t,\nproces sing , s torage and, if neces sar  y, des tr uc tion in places such as diagnos tic laboratories (f ixed\nor mobile), re s earch ins titutions , manuf ac turer s and phar maceutic al companie s , among other s .\nOne key to capacit  y and capabilit  y building of biological risk management is to es tablish and/or\ns treng then the ins titutional biosafet  y commit tees (IBC) func tion for review of high - consequence\nresearch and work with high - consequence material. To promote this aspec t, the guidance\ndescribes a t wo -tier s ys tem engaging both IBC s in the f ir s t ins tance and national regulator  y\nbodies in the second. To this end, the document describes in detail the roles and responsibilities\nof both par  ties, with IBC s providing over sight of high - consequence work within their ins titution,\nand then pas sing feedback to national regulator  y bodies who maintain inventor  y lis t s and\ns torage of res tric ted material.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-BIOSEC:BODY:PDF_PAGE_23",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "WHO's 2024 laboratory biosecurity guidance applies a risk- and evidence-based approach to biosecurity, including governance, secure handling, transport/storage and high-consequence research risk management. 2024 guidance biosecurity"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-006",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-013"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "Malaysia",
+        "query": "For a Malaysian GMM assessment, how should uncertainty and absent scientific background be disclosed?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-006",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.3,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-REG",
+          "insufficient_evidence": false,
+          "intent": "contained_use",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "lmo",
+            "gmm",
+            "contained use",
+            "form e",
+            "ibc",
+            "risk assessment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-013",
+          "CLM-012",
+          "CLM-014",
+          "CLM-021",
+          "CLM-025",
+          "CLM-008",
+          "CLM-017",
+          "CLM-015",
+          "CLM-024",
+          "CLM-009"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-GMMRA",
+          "KB-MY-GMMRA",
+          "KB-MY-GMMRA",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-CU",
+          "KB-MY-IBC",
+          "KB-MY-IBC",
+          "KB-MY-FORME",
+          "KB-MY-CU"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 4,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-013",
+          "document_id": "KB-MY-GMMRA",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 22,
+              "pdf_page_start": 22,
+              "quoted_support": "The final risk assessment must contain enough\n                 background and detail to ensure that a\n                 reviewer with a limited understanding of the\n                 precise nature of the work will not require\n                 fur ther infor mation to comprehend the nature\n                 of any hazards.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 22,
+              "pdf_page_start": 22,
+              "quoted_support": "All potential hazards should be acknowledged and information should\nbe               based               upon               established               scientific               knowledge               wherever               possible.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 22,
+              "pdf_page_start": 22,
+              "quoted_support": "The     lack      of     scientific     evidence     for     a      particular      hazard     being     legitimate",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_22",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3,
+                4
+              ],
+              "pdf_page_end": 23,
+              "pdf_page_start": 23,
+              "quoted_support": "should not be automatically taken to mean that it does not exist. Any\nuncertainty should be taken into consideration in the risk assessment .",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_23",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "A defensible risk assessment should contain enough background and detail for reviewers to understand hazards; potential hazards should be acknowledged and uncertainty considered. risk-assessment detail uncertainty"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-007",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-036"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "International",
+        "query": "What layered measures can reduce laboratory exposure or release risk according to reviewed WHO evidence?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-007",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.7,
+        "first_acceptable_rank": 9,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "WHO-RA",
+          "insufficient_evidence": false,
+          "intent": "risk_assessment",
+          "jurisdiction": "International",
+          "preferred_tier": "Tier 3",
+          "safety_sensitive": false,
+          "scope": [
+            "who",
+            "risk assessment",
+            "biosafety"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-038",
+          "CLM-044",
+          "CLM-041",
+          "CLM-045",
+          "CLM-031",
+          "CLM-033",
+          "CLM-040",
+          "CLM-037",
+          "CLM-036",
+          "CLM-043"
+        ],
+        "ranked_document_ids": [
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-PPE"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 0,
+          "5": 0
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 3,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-036",
+          "document_id": "KB-WHO-LBM4-RA",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1,
+                2
+              ],
+              "pdf_page_end": 15,
+              "pdf_page_start": 15,
+              "quoted_support": "This new approach is best implemented through risk assessment, a\nsystematic process of gathering information and evaluating risks to support a risk\nmanagement process. The need to select risk control measures, such as training\nand procurement of specific types of PPE, are all influenced by the results of a risk\nassessment. For these reasons, risk assessments must always be carried out in a\nstandardized and systematic way to ensure that they are repeatable and comparable.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "WHO describes biological risk assessment as a systematic process of gathering information and evaluating risks to support risk management. The results of the assessment inform selection of risk control measures, including training and appropriate PPE. Section 1 – Introduction risk_assessment_purpose"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-008",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-022"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Which Form E fields concern movement outside the site, cleanup, disposal and contingency precautions?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-008",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.625,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-FORME",
+          "insufficient_evidence": false,
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "form e",
+            "ibc boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-022",
+          "CLM-024",
+          "CLM-023",
+          "CLM-021",
+          "CLM-025",
+          "CLM-013",
+          "CLM-012",
+          "CLM-014"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-GMMRA",
+          "KB-MY-GMMRA",
+          "KB-MY-GMMRA"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 2,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-022",
+          "document_id": "KB-MY-FORME",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 214,
+              "pdf_page_start": 214,
+              "quoted_support": "20.                                                                          How will the LMO be disposed of?\n\n21.                                                                          What               are               the               procedures               for               decontaminating               equipments               used               during               the\n                proposed activities in order to render any LMO unviable?\n\nA4.3                                                                          Emergency Response Plan\n\n22.                                                                          Plans  for  protecting  human  health  and  the  environment  in  case  of  the  occurrence\n                of an undesirable effect observed during contained use activities.\n\n23.                                                                          Methods for removal of the LMO in the affected areas in the case of an unintentional\n                release.\n\n24.                                                                           Methods    for    disposal    of    other    plants,    animals    and    any    other    organisms    exposed\n                during the unintentional release.\n\n25.                                                                          Methods for isolation of the area affected by the unintentional release.\n\n26.                                                                           Details          of          any          other          contingency          measure          that          will          be          in          place          to          rectify          any\n                unintended              consequences              if              an              adverse              effect              becomes              evident              during              the\n                contained use activities or when an unintentional release occurs.\n\n\n                                                                                                                                2  1  3",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-FORME:FORM_E_APPLICANT_PART_A:PDF_PAGE_214",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "Form E covers transport outside premises and precautions, disposal/decontamination, protection, removal/disposal of exposed organisms, isolation and contingency measures. A4.2–A4.3 risk_management"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-009",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-039",
+          "CLM-045"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "Unspecified",
+        "query": "What factors beyond an organism's identity affect biological risk during laboratory work?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-009",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.6,
+        "first_acceptable_rank": 2,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "GENERAL",
+          "insufficient_evidence": false,
+          "intent": "educational",
+          "jurisdiction": "Unspecified",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-038",
+          "CLM-039",
+          "CLM-045",
+          "CLM-010",
+          "CLM-037",
+          "CLM-032",
+          "CLM-041",
+          "CLM-036",
+          "CLM-042",
+          "CLM-008"
+        ],
+        "ranked_document_ids": [
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-MY-CU",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-PPE",
+          "KB-MY-CU"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 4,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-039",
+          "document_id": "KB-WHO-LBM4-RA",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 15,
+              "pdf_page_start": 15,
+              "quoted_support": "As such, the\nrisks of manipulating any biological agent depend on many dynamic factors, including\nprocedures to be performed, type of equipment available, inherent pathogenic\nproperties of the biological agent itself, the range of hosts that can be affected and\nwhether the biological agent is endemic in the population, susceptibility of local\npopulations, and the competency of laboratory personnel carrying out the work.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "WHO notes that laboratory biological risk depends on dynamic factors including the procedures performed, equipment available, pathogenic properties of the biological agent, host range, population susceptibility and the competency of laboratory personnel. Section 1 – Introduction risk_factors"
+        },
+        {
+          "claim_id": "CLM-045",
+          "document_id": "KB-WHO-LBM4-RA",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 15,
+              "pdf_page_start": 15,
+              "quoted_support": "As such, the\nrisks of manipulating any biological agent depend on many dynamic factors, including\nprocedures to be performed, type of equipment available, inherent pathogenic\nproperties of the biological agent itself, the range of hosts that can be affected and\nwhether the biological agent is endemic in the population, susceptibility of local\npopulations, and the competency of laboratory personnel carrying out the work.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_15",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 20,
+              "pdf_page_start": 20,
+              "quoted_support": "1.                                Gather information                                            §\tWhat biological agents will be handled and what are their\n                                                                 (hazard identification)              pathogenic characteristics?\n                                                                         §\tWhat type of laboratory work and/or procedures will be\n                                                                         conducted?\n                                                                         §\tWhat type(s) of equipment will be used?\n                                                                         §\tWhat type of laboratory facility is available?\n                                                                         §\tWhat human factors exist (for example, what is the level of\n                                                                           competency of personnel)?\n                                                                         §\tWhat other factors exist that might affect laboratory\n                                                                           operations (for example, legal, cultural, socioeconomic,\n                                                                                       public perception)?",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 20,
+              "pdf_page_start": 20,
+              "quoted_support": "2.                                Evaluate the risks§\tHow could an exposure and/or release occur?\n                                                                         §\tWhat is the likelihood of an exposure and/or release?\n                                                                         §\tWhat information gathered influences the likelihood the most?\n                                                                         §\tWhat are the consequences of an exposure and/or release?",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "A comprehensive biological risk assessment considers the biological hazard together with how work is performed and the context in which it is performed; relevant information includes procedures, equipment, facility and personnel competency, and the assessment evaluates exposure or release, likelihood and consequences. Risk assessment framework risk_assessment_scope"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-010",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-008"
+        ],
+        "boundary_contract_documents": [],
+        "case_type": "stress_claim",
+        "expected_jurisdiction": "Unspecified",
+        "query": "Which reviewed evidence describes annual or change-driven training updates for GM-BSL2 personnel?",
+        "required_boundary": null,
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-010",
+        "case_type": "stress_claim",
+        "citation_completeness_at_10": 1.0,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.3,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-REG",
+          "insufficient_evidence": false,
+          "intent": "contained_use",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "lmo",
+            "gmm",
+            "contained use",
+            "form e",
+            "ibc",
+            "risk assessment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-008",
+          "CLM-010",
+          "CLM-009",
+          "CLM-014",
+          "CLM-012",
+          "CLM-021",
+          "CLM-013",
+          "CLM-015",
+          "CLM-017",
+          "CLM-024"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-GMMRA",
+          "KB-MY-GMMRA",
+          "KB-MY-FORME",
+          "KB-MY-GMMRA",
+          "KB-MY-IBC",
+          "KB-MY-IBC",
+          "KB-MY-FORME"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": false,
+        "source_diversity_at_10": 4,
+        "support_span_status": "COMPLETE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-008",
+          "document_id": "KB-MY-CU",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 18,
+              "pdf_page_start": 18,
+              "quoted_support": "•                                                       Research      involving      the      introduction      of      naked      nucleic      acids      into      RG\n      2 microorganisms that has moderate potential hazard to personnel,\n      community and the environment",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 18,
+              "pdf_page_start": 18,
+              "quoted_support": "•                                                       Experiments  with  LMO  and  related  materials,  harboring  DNA  from  a\n      RG 2 microorganism.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 18,
+              "pdf_page_start": 18,
+              "quoted_support": "a)                                                          A hazard warning sign incorporating the universal biohazard symbol\n      and the level of containment together with access restrictions should\n      be displayed on the access door to the laboratory work area. The\n      hazard warning sign may also identify the agent and the name and\n      telephone number of the Laboratory Supervisor or other responsible\n      persons.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                4
+              ],
+              "pdf_page_end": 20,
+              "pdf_page_start": 20,
+              "quoted_support": "a)              The Laboratory Supervisor establishes policies and procedures\n    whereby access is restricted to persons who have been advised of\n    the   potential   hazard   and   who   meet   specific   entry   requirements   (e.g.\n    immunisation).",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                5
+              ],
+              "pdf_page_end": 20,
+              "pdf_page_start": 20,
+              "quoted_support": "b)          Laboratory personnel should receive appropriate training on\n    the potential hazards associated with the work involved and the\n    necessary precautions to prevent exposures. Personnel should\n    receive annual updates, or additional training as necessary for\n    procedural or policy changes.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                6
+              ],
+              "pdf_page_end": 20,
+              "pdf_page_start": 20,
+              "quoted_support": "h)                    All solid wastes from GM-BSL2 laboratories, including infectious\n    wasteshould be decontaminated by autoclaving for at least 30\n    minutes at a pressure of 15 psi and 121 o C.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_20",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                7
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "i)       Liquid wastes generated during GM-BSL2 activities are to\n    bedecontaminated immediately by mixing with a suitable\n    disinfectant (refer to Section 12).",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                8
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "k)                  Spills and accidents that may cause over-exposure to LMO and\n    materials originating from these organisms should be immediately\n    reported to the Laboratory Supervisor and the IBC.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                9
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Management\n    of spills should follow biosafety procedures outlined in the\n    institutional biosafety manual. An Emergency Response Plan should\n    be documented and personnel should be trained in these procedures\n    which include, spill management as well as incident reporting\n    system. Medical evaluation, surveillance and treatment are provided\n    as appropriate.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "Contained-use guidance specifies biosafety-level and work-practice expectations, including access restrictions, training, decontamination and incident controls; GM-BSL2 examples include LMO/materials associated with RG2 microorganisms. GM-BSL2 / work practices containment"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-B01",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-031",
+          "CLM-032",
+          "CLM-033"
+        ],
+        "boundary_contract_documents": [
+          "KB-WHO-LBM4",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-PPE"
+        ],
+        "case_type": "boundary",
+        "expected_jurisdiction": "International",
+        "query": "Can WHO biosafety guidance be cited as though it were a Malaysian statutory rule?",
+        "required_boundary": "WHO_GUIDANCE_NOT_MALAYSIAN_LAW",
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": true,
+        "case_id": "C37-PS-B01",
+        "case_type": "boundary",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.6,
+        "first_acceptable_rank": 9,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "WHO-RA",
+          "insufficient_evidence": false,
+          "intent": "risk_assessment",
+          "jurisdiction": "International",
+          "preferred_tier": "Tier 3",
+          "safety_sensitive": false,
+          "scope": [
+            "who",
+            "risk assessment",
+            "biosafety"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-037",
+          "CLM-042",
+          "CLM-043",
+          "CLM-041",
+          "CLM-040",
+          "CLM-036",
+          "CLM-044",
+          "CLM-038",
+          "CLM-033",
+          "CLM-031"
+        ],
+        "ranked_document_ids": [
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-PPE",
+          "KB-WHO-LBM4-PPE",
+          "KB-WHO-LBM4",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4-RA",
+          "KB-WHO-LBM4"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 0,
+          "5": 0
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 3,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-033",
+          "document_id": "KB-WHO-LBM4-RA",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1,
+                2
+              ],
+              "pdf_page_end": 20,
+              "pdf_page_start": 20,
+              "quoted_support": "2.                                Evaluate the risks§\tHow could an exposure and/or release occur?\n                                                                         §\tWhat is the likelihood of an exposure and/or release?\n                                                                         §\tWhat information gathered influences the likelihood the most?\n                                                                         §\tWhat are the consequences of an exposure and/or release?\n                                                                         §\tWhich information gathered influences the consequences\n                                                                           the most?\n                                                                         § What is the overall initial risk of the activities?\n                                                                         §\tWhat is the acceptable risk?\n                                                                         §\tWhich risks are unacceptable?\n                                                                         §\tCan the unacceptable risks be controlled, or should the\n                                                                           work not proceed at all?",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_20",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "4.                                   Select and implement risk  §\tAre there any national/international regulations requiring\n                                  control measuresprescribed risk control measures?\n                                          §\tWhat risk control measures are locally available and\n                                            sustainable?\n                                          §\tAre available risk control measures adequately efficient, or\n                                            should multiple risk control measures be used in combination\n                                            to enhance efficacy?\n                                          §\tDo selected risk control measures align with the risk control\n                                            strategy?\n                                          §\tWhat is the level of residual risk after risk control measures\n                                            have been applied and is it now acceptable?\n                                          §\tAre additional resources required and available for the\n                                            implementation of risk control measures?\n                                          §\tAre the selected risk control measures compliant with\n                                            national/international regulations?\n                                          §\tHas approval to conduct the work been granted?\n                                          §\tHave the risk control strategies been communicated to\n                                            relevant personnel?\n                                          §\tHave necessary items been included in the budget and\n                                            purchased?\n                                          §\tAre operational and maintenance procedures in place?\n                                          §\tHave personnel been appropriately trained?",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4-RA:BODY:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "Risk evaluation considers how exposure/release could occur, likelihood, consequences and whether risks can be controlled to an acceptable level. risk evaluation risk_assessment"
+        },
+        {
+          "claim_id": "CLM-031",
+          "document_id": "KB-WHO-LBM4",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 22,
+              "pdf_page_start": 22,
+              "quoted_support": "This fourth edition of the WHO Laboratory biosafety manual (LBM4) adopts a risk- and\n                          evidence-based approach to biosafety rather than a prescriptive approach in order\n                          to ensure that laboratory facilities, safety equipment and work practices are locally\n                          relevant, proportionate and sustainable.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4:BODY:PDF_PAGE_22",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 19,
+              "pdf_page_start": 19,
+              "quoted_support": "This fourth edition of the manual builds on the risk assessment framework introduced in\nthe third edition. A thorough, evidence-based and transparent assessment of the risks\nallows safety measures to be balanced with the actual risk of working with biological\nagents on a case-by-case basis.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-WHO-LBM4:FRONT_MATTER:PDF_PAGE_19",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "WHO LBM4 uses an evidence- and risk-based approach in which safety measures are balanced against the actual risk of the activity on a case-by-case basis. core risk approach risk_assessment"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-B02",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-011"
+        ],
+        "boundary_contract_documents": [
+          "KB-MY-CU"
+        ],
+        "case_type": "boundary",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Does Malaysian contained-use handling guidance by itself set clinical-sample shipping requirements?",
+        "required_boundary": "HANDLING_DOES_NOT_ESTABLISH_TRANSPORT",
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": true,
+        "case_id": "C37-PS-B02",
+        "case_type": "boundary",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.4,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-REG",
+          "insufficient_evidence": false,
+          "intent": "scope_boundary",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "contained use",
+            "handling",
+            "transport boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-011",
+          "CLM-010",
+          "CLM-008",
+          "CLM-028",
+          "CLM-026",
+          "CLM-009",
+          "CLM-027",
+          "CLM-015",
+          "CLM-025",
+          "CLM-017"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-CU",
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-IBC",
+          "KB-MY-FORME",
+          "KB-MY-IBC"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 4,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-011",
+          "document_id": "KB-MY-CU",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1,
+                2
+              ],
+              "pdf_page_end": 73,
+              "pdf_page_start": 73,
+              "quoted_support": "For disposal purposes, all GM material should be treated in the\n          same way as infectious and potentially infectious material. All\n          GM wastes should be inactivated prior to leaving the facility.\n          The preferred method is autoclaving, although incineration or\n          chemical disinfection (e.g. treatment with household bleach) may\n          be appropriate or necessary in some cases).\n\n     ii)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 73,
+              "pdf_page_start": 73,
+              "quoted_support": "Storage of all non-inactivated waste in this category is restricted\n          to within the generating laboratory. GM waste should be held in a\n          closed/covered biowaste container and preferably should not be\n          stored longer than 24 hours prior to inactivation.\n\n     iii)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                4
+              ],
+              "pdf_page_end": 77,
+              "pdf_page_start": 77,
+              "quoted_support": "Biowaste Boxes\n\n                                         •                                                       Sturdy     cardboard     biowaste     boxes     displaying     the     biohazard     sign     are\n                                                used as the terminal receptacle. The boxes are lined with a biohazard\n                                                bag.\n\n                                         •                                                       Boxes should not be over-filled.\n\n                                         •                                                       All                 seams                 should                 be                 taped                 and                 labelled                 with                 date,                 Laboratory\n                                                Supervisor’s name and telephone number.\n\n                                         •                                                       Biowaste boxes should not be kept for more than 30 days.\n\n                                         b)                                                       Biohazard Bags\n\n                                         •                                                       Liquids  should   not   be   put   into  the  bags.   The  bags   should  be   labelled\n                                                with date, Laboratory Supervisor’s name and telephone number.\n\n                                         •                                                       Biohazard bags are placed in a biowaste box for disposal.\n\n                                         •                                                       The laboratory should order/supply these bags\n\n                                         c)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                5
+              ],
+              "pdf_page_end": 78,
+              "pdf_page_start": 78,
+              "quoted_support": "Biohazardous   waste   is   transported   outside   of   the   laboratory   (e.g.   to\n      an autoclave or incinerator) in a closed, leak-proof bag or container.\n      Bags should be placed in a leak-proof tray.\n\n•",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                6
+              ],
+              "pdf_page_end": 83,
+              "pdf_page_start": 83,
+              "quoted_support": "Adequate records of the transport of LMO as they move between\n     research          facilities,          storage          facilities          and          field          trial          sites          should          be\n     maintained by IBC to ensure an adequate system is in place for\n     tracking the movement of this material.\n\nf    )",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                7
+              ],
+              "pdf_page_end": 84,
+              "pdf_page_start": 84,
+              "quoted_support": "LMO should be stored at the destination facility in such a way that\n    there is no release of LMO and related materials into the environment\n    so as to avoid mixing with other LMO or conventional materials (e.g.\n    filing cabinet , refrigerator, office, closet , cold room).\n\nb)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                8
+              ],
+              "pdf_page_end": 84,
+              "pdf_page_start": 84,
+              "quoted_support": "Where a storage area is used to store multiple samples of LMO, each\n    item should be stored separately in a sealed, labelled container\n    such as a primary container for shipment . LMO in storage should be\n    clearly labelled to prevent mixing of materials.\n\nc)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                9
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Extreme caution should be observed when handling needles and\n    syringes to avoid accidental needle-stick injury and generation\n    of aerosols during use and disposal. Needles should not be bent,\n    sheared, replaced in the needle sheath,guard or removed from the\n    syringe following use. Only needle-locking syringes or disposable\n    syringe-needle units (e.g. needle is integral to the syringe) should\n    be      used      for      injection      or      aspiration      of      fluids      from      LMO      or      materials\n    originating from these organisms. The needle and syringe should be\n    promptly placed in a sharps container. Broken glassware should not\n    be handled directly by hand, but should be removed by mechanical\n    means, such as a brush and dustpan, tongs, or forceps, before\n    discarding into sharps containers.\n\nk)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                10
+              ],
+              "pdf_page_end": 18,
+              "pdf_page_start": 18,
+              "quoted_support": "Laborator y Facility (GM-BSL2)\nIn                   addition                   to                   the                   facility                   design                   features                   specified                   for                   GM-BSL1,\nfollowing additional features are essential:\n\na)                                                          A hazard warning sign incorporating the universal biohazard symbol\n      and the level of containment together with access restrictions should\n      be displayed on the access door to the laboratory work area. The\n      hazard warning sign may also identify the agent and the name and\n      telephone number of the Laboratory Supervisor or other responsible\n      persons.\n\nb)                                                       The        ceilings,        walls        and        floors        of        the        laboratory        should        be        smooth,\n      easy to clean, impermeable to liquids, and resistant to commonly\n      used reagents and disinfectants. Floors should be coved to walls to\n      facilitate cleaning.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                11
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Containment Equipment (GM-BSL2)\n•                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .\n\n•",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "Contained-use guidance covers safe handling, hazardous biological waste treatment, disposal, transfer/transport, storage and minimum facility/equipment requirements. contained-use scope waste"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-B03",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-028"
+        ],
+        "boundary_contract_documents": [
+          "KB-MY-TRANSPORT2023"
+        ],
+        "case_type": "boundary",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Can Malaysia's specimen-shipping guideline determine the containment level inside a laboratory?",
+        "required_boundary": "TRANSPORT_DOES_NOT_ESTABLISH_CONTAINMENT",
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": true,
+        "case_id": "C37-PS-B03",
+        "case_type": "boundary",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.3,
+        "first_acceptable_rank": 3,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-REG",
+          "insufficient_evidence": false,
+          "intent": "contained_use",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "lmo",
+            "gmm",
+            "contained use",
+            "form e",
+            "ibc",
+            "risk assessment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-008",
+          "CLM-015",
+          "CLM-028",
+          "CLM-026",
+          "CLM-027",
+          "CLM-021",
+          "CLM-010",
+          "CLM-012",
+          "CLM-011",
+          "CLM-016"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-CU",
+          "KB-MY-IBC",
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-TRANSPORT2023",
+          "KB-MY-FORME",
+          "KB-MY-CU",
+          "KB-MY-GMMRA",
+          "KB-MY-CU",
+          "KB-MY-IBC"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 5,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-028",
+          "document_id": "KB-MY-TRANSPORT2023",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 11,
+              "pdf_page_start": 11,
+              "quoted_support": "to ensure safe and   secure   packa                                                                       ging and transportation                         of\n          clinical specimens and infectious substances within the country and abroad.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 11,
+              "pdf_page_start": 11,
+              "quoted_support": "This guideline, however, does not describe the packaging and transportation of blood\n          products,  st em  cell products, clinical waste and chemical waste.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-TRANSPORT2023:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_11",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "The MOH clinical-specimen transport guideline does not serve as the clinical-waste guideline; clinical waste and chemical waste are outside its scope. scope exclusion transport_scope"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-B04",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-012"
+        ],
+        "boundary_contract_documents": [
+          "KB-MY-GMMRA"
+        ],
+        "case_type": "boundary",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Is any genetic modification automatically enough to classify material as an LMO in Malaysia?",
+        "required_boundary": "GENERIC_GM_DOES_NOT_ESTABLISH_LMO",
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": true,
+        "case_id": "C37-PS-B04",
+        "case_type": "boundary",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.4,
+        "first_acceptable_rank": 8,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-REG",
+          "insufficient_evidence": false,
+          "intent": "contained_use",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "lmo",
+            "gmm",
+            "contained use",
+            "form e",
+            "ibc",
+            "risk assessment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-008",
+          "CLM-010",
+          "CLM-013",
+          "CLM-009",
+          "CLM-025",
+          "CLM-024",
+          "CLM-023",
+          "CLM-012",
+          "CLM-011",
+          "CLM-021"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-GMMRA",
+          "KB-MY-CU",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-GMMRA",
+          "KB-MY-CU",
+          "KB-MY-FORME"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 0,
+          "5": 0
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 3,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-012",
+          "document_id": "KB-MY-GMMRA",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "The following procedures represent a\n                recommended model for risk assessments\n                of GMM, although it is not intended to be\n                prescriptive:\ni.                                 Overall nature of the intended GMM. Assessment of the risks it\n     may pose to human health and the environment .",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                2
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Risk assessment for human health.               Identification               of               potential\n     mechanisms by which the GMM might pose a hazard to human\n     health; Assessment of the potential severity, likelihood of occurrence\n     and considerations of uncertainty. Establishment of a BSL that is\n     sufficient to safeguard human health.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Risk assessment for the environment. Assessment of the risks\n     it may pose to the environment (includes plant, animal health and\n     biological               diversity),               consideration               of               the               potential               severity               and\n     likelihood of occurrence. Establishment of a BSL that is necessary to\n     protect the environment .",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                4
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Review of procedures and control measures. Implementation of\n     any additional control measures necessary to safeguard both human\n     health and the environment .",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                5
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Assignment of Biosafety Levels (GM-BSL) of containment LMO",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-GMMRA:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "GMM risk assessment considers hazards, exposure/release, risk controls and BSL assignment, and addresses relevant human, animal, plant and environmental risks. risk-assessment framework risk_assessment"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-B05",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-011"
+        ],
+        "boundary_contract_documents": [
+          "KB-MY-CU"
+        ],
+        "case_type": "boundary",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Must every Malaysian biological laboratory discard be classified as SW 404?",
+        "required_boundary": "BIOLOGICAL_WASTE_NOT_AUTOMATIC_SW404",
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": true,
+        "case_id": "C37-PS-B05",
+        "case_type": "boundary",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 1.0,
+        "first_acceptable_rank": 2,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "WASTE",
+          "insufficient_evidence": false,
+          "intent": "waste",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "scheduled waste",
+            "sw 404"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-010",
+          "CLM-011",
+          "CLM-008",
+          "CLM-009"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-CU"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 1,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-011",
+          "document_id": "KB-MY-CU",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1,
+                2
+              ],
+              "pdf_page_end": 73,
+              "pdf_page_start": 73,
+              "quoted_support": "For disposal purposes, all GM material should be treated in the\n          same way as infectious and potentially infectious material. All\n          GM wastes should be inactivated prior to leaving the facility.\n          The preferred method is autoclaving, although incineration or\n          chemical disinfection (e.g. treatment with household bleach) may\n          be appropriate or necessary in some cases).\n\n     ii)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                3
+              ],
+              "pdf_page_end": 73,
+              "pdf_page_start": 73,
+              "quoted_support": "Storage of all non-inactivated waste in this category is restricted\n          to within the generating laboratory. GM waste should be held in a\n          closed/covered biowaste container and preferably should not be\n          stored longer than 24 hours prior to inactivation.\n\n     iii)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_73",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                4
+              ],
+              "pdf_page_end": 77,
+              "pdf_page_start": 77,
+              "quoted_support": "Biowaste Boxes\n\n                                         •                                                       Sturdy     cardboard     biowaste     boxes     displaying     the     biohazard     sign     are\n                                                used as the terminal receptacle. The boxes are lined with a biohazard\n                                                bag.\n\n                                         •                                                       Boxes should not be over-filled.\n\n                                         •                                                       All                 seams                 should                 be                 taped                 and                 labelled                 with                 date,                 Laboratory\n                                                Supervisor’s name and telephone number.\n\n                                         •                                                       Biowaste boxes should not be kept for more than 30 days.\n\n                                         b)                                                       Biohazard Bags\n\n                                         •                                                       Liquids  should   not   be   put   into  the  bags.   The  bags   should  be   labelled\n                                                with date, Laboratory Supervisor’s name and telephone number.\n\n                                         •                                                       Biohazard bags are placed in a biowaste box for disposal.\n\n                                         •                                                       The laboratory should order/supply these bags\n\n                                         c)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_77",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                5
+              ],
+              "pdf_page_end": 78,
+              "pdf_page_start": 78,
+              "quoted_support": "Biohazardous   waste   is   transported   outside   of   the   laboratory   (e.g.   to\n      an autoclave or incinerator) in a closed, leak-proof bag or container.\n      Bags should be placed in a leak-proof tray.\n\n•",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_78",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                6
+              ],
+              "pdf_page_end": 83,
+              "pdf_page_start": 83,
+              "quoted_support": "Adequate records of the transport of LMO as they move between\n     research          facilities,          storage          facilities          and          field          trial          sites          should          be\n     maintained by IBC to ensure an adequate system is in place for\n     tracking the movement of this material.\n\nf    )",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_83",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                7
+              ],
+              "pdf_page_end": 84,
+              "pdf_page_start": 84,
+              "quoted_support": "LMO should be stored at the destination facility in such a way that\n    there is no release of LMO and related materials into the environment\n    so as to avoid mixing with other LMO or conventional materials (e.g.\n    filing cabinet , refrigerator, office, closet , cold room).\n\nb)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                8
+              ],
+              "pdf_page_end": 84,
+              "pdf_page_start": 84,
+              "quoted_support": "Where a storage area is used to store multiple samples of LMO, each\n    item should be stored separately in a sealed, labelled container\n    such as a primary container for shipment . LMO in storage should be\n    clearly labelled to prevent mixing of materials.\n\nc)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_84",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                9
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Extreme caution should be observed when handling needles and\n    syringes to avoid accidental needle-stick injury and generation\n    of aerosols during use and disposal. Needles should not be bent,\n    sheared, replaced in the needle sheath,guard or removed from the\n    syringe following use. Only needle-locking syringes or disposable\n    syringe-needle units (e.g. needle is integral to the syringe) should\n    be      used      for      injection      or      aspiration      of      fluids      from      LMO      or      materials\n    originating from these organisms. The needle and syringe should be\n    promptly placed in a sharps container. Broken glassware should not\n    be handled directly by hand, but should be removed by mechanical\n    means, such as a brush and dustpan, tongs, or forceps, before\n    discarding into sharps containers.\n\nk)",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                10
+              ],
+              "pdf_page_end": 18,
+              "pdf_page_start": 18,
+              "quoted_support": "Laborator y Facility (GM-BSL2)\nIn                   addition                   to                   the                   facility                   design                   features                   specified                   for                   GM-BSL1,\nfollowing additional features are essential:\n\na)                                                          A hazard warning sign incorporating the universal biohazard symbol\n      and the level of containment together with access restrictions should\n      be displayed on the access door to the laboratory work area. The\n      hazard warning sign may also identify the agent and the name and\n      telephone number of the Laboratory Supervisor or other responsible\n      persons.\n\nb)                                                       The        ceilings,        walls        and        floors        of        the        laboratory        should        be        smooth,\n      easy to clean, impermeable to liquids, and resistant to commonly\n      used reagents and disinfectants. Floors should be coved to walls to\n      facilitate cleaning.",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_18",
+              "support_type": "DIRECT"
+            },
+            {
+              "atomic_proposition_indexes": [
+                11
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "Containment Equipment (GM-BSL2)\n•                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .\n\n•",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "Contained-use guidance covers safe handling, hazardous biological waste treatment, disposal, transfer/transport, storage and minimum facility/equipment requirements. contained-use scope waste"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-B06",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-010"
+        ],
+        "boundary_contract_documents": [
+          "KB-MY-CU"
+        ],
+        "case_type": "boundary",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Does selecting a Class II BSC prove the biosafety level for Malaysian work?",
+        "required_boundary": "BSC_DOES_NOT_ESTABLISH_LEVEL",
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": true,
+        "case_id": "C37-PS-B06",
+        "case_type": "boundary",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.4,
+        "first_acceptable_rank": 1,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-REG",
+          "insufficient_evidence": false,
+          "intent": "contained_use",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "lmo",
+            "gmm",
+            "contained use",
+            "form e",
+            "ibc",
+            "risk assessment"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-010",
+          "CLM-008",
+          "CLM-024",
+          "CLM-021",
+          "CLM-009",
+          "CLM-025",
+          "CLM-015",
+          "CLM-016",
+          "CLM-017",
+          "CLM-023"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-CU",
+          "KB-MY-CU",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-CU",
+          "KB-MY-FORME",
+          "KB-MY-IBC",
+          "KB-MY-IBC",
+          "KB-MY-IBC",
+          "KB-MY-FORME"
+        ],
+        "recall_at": {
+          "1": 1,
+          "10": 1,
+          "3": 1,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 3,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-010",
+          "document_id": "KB-MY-CU",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 21,
+              "pdf_page_start": 21,
+              "quoted_support": "•                                                       Work                    with                    specimens                    containing                    microorganisms                    transmissible\n    by       the       respiratory       route       or       work       producing       a       significant       risk       from\n    aerosol production should be conducted in a Class II biological safety\n    cabinet .",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-CU:WHOLE_DOCUMENT_REVIEW_UNIT:PDF_PAGE_21",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "A Class II biological safety cabinet is identified for work presenting respiratory/aerosol risk within the applicable contained-use context. GM-BSL2 work practices equipment"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-B07",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [
+          "CLM-025"
+        ],
+        "boundary_contract_documents": [
+          "KB-MY-FORME"
+        ],
+        "case_type": "boundary",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Does completing Malaysia's Form E amount to approval of the proposed work?",
+        "required_boundary": "FORM_E_IS_NOT_APPROVAL",
+        "retrieval_must_be_empty": false
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": true,
+        "case_id": "C37-PS-B07",
+        "case_type": "boundary",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.625,
+        "first_acceptable_rank": 5,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "MY-FORME",
+          "insufficient_evidence": false,
+          "intent": "Form E",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [
+            "form e",
+            "ibc boundary"
+          ],
+          "uncertainty_sensitive": false
+        },
+        "ranked_claim_ids": [
+          "CLM-024",
+          "CLM-022",
+          "CLM-023",
+          "CLM-021",
+          "CLM-025",
+          "CLM-013",
+          "CLM-014",
+          "CLM-012"
+        ],
+        "ranked_document_ids": [
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-FORME",
+          "KB-MY-GMMRA",
+          "KB-MY-GMMRA",
+          "KB-MY-GMMRA"
+        ],
+        "recall_at": {
+          "1": 0,
+          "10": 1,
+          "3": 0,
+          "5": 1
+        },
+        "retrieval_ok": true,
+        "route_ok": true,
+        "source_diversity_at_10": 2,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": null
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [
+        {
+          "claim_id": "CLM-025",
+          "document_id": "KB-MY-FORME",
+          "support_spans": [
+            {
+              "atomic_proposition_indexes": [
+                1
+              ],
+              "pdf_page_end": 208,
+              "pdf_page_start": 208,
+              "quoted_support": "This must be completed by the registered IBC of the Applicant’s organization",
+              "source_kind": "NATIVE_CANDIDATE",
+              "source_record_id": "KB-MY-FORME:FORM_E_IBC_ASSESSMENT:PDF_PAGE_208",
+              "support_type": "DIRECT"
+            }
+          ],
+          "text": "The IBC Assessment Report is explicitly completed by the registered IBC and is not a researcher/PI field for BioSafe scoring. IBC Assessment Report scope_boundary"
+        }
+      ],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-U01",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [],
+        "boundary_contract_documents": [],
+        "case_type": "unknown_evidence",
+        "expected_jurisdiction": "Malaysia",
+        "query": "Confirm the exact permit exemption for my undescribed organism and facility in Malaysia.",
+        "required_boundary": null,
+        "retrieval_must_be_empty": true
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-U01",
+        "case_type": "unknown_evidence",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.0,
+        "first_acceptable_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "UNKNOWN",
+          "insufficient_evidence": true,
+          "intent": "unknown",
+          "jurisdiction": "Malaysia",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": true
+        },
+        "ranked_claim_ids": [],
+        "ranked_document_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieval_ok": true,
+        "route_ok": null,
+        "source_diversity_at_10": 0,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": true
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-U02",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [],
+        "boundary_contract_documents": [],
+        "case_type": "unknown_evidence",
+        "expected_jurisdiction": "Unspecified",
+        "query": "Use the reviewed guidance to certify that this particular activity is safe to begin.",
+        "required_boundary": null,
+        "retrieval_must_be_empty": true
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-U02",
+        "case_type": "unknown_evidence",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.0,
+        "first_acceptable_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "UNKNOWN",
+          "insufficient_evidence": true,
+          "intent": "unknown",
+          "jurisdiction": "Unspecified",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": true
+        },
+        "ranked_claim_ids": [],
+        "ranked_document_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieval_ok": true,
+        "route_ok": null,
+        "source_diversity_at_10": 0,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": true
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-U03",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [],
+        "boundary_contract_documents": [],
+        "case_type": "currentness",
+        "expected_jurisdiction": "Unspecified",
+        "query": "Give the current binding rule, but the country and governing authority are not identified.",
+        "required_boundary": null,
+        "retrieval_must_be_empty": true
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-U03",
+        "case_type": "currentness",
+        "citation_completeness_at_10": null,
+        "conflict_ok": null,
+        "currentness_ok": true,
+        "duplicate_domination_at_10": 0.0,
+        "first_acceptable_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "UNKNOWN",
+          "insufficient_evidence": true,
+          "intent": "unknown",
+          "jurisdiction": "Unspecified",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": true
+        },
+        "ranked_claim_ids": [],
+        "ranked_document_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieval_ok": true,
+        "route_ok": null,
+        "source_diversity_at_10": 0,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": true
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    },
+    {
+      "case_id": "C37-PS-U04",
+      "checks": {
+        "boundary_is_preserved": null,
+        "provenance_is_adequate": null,
+        "query_contract_is_valid": null,
+        "retrieved_claim_is_responsive": null,
+        "route_is_semantically_correct": null,
+        "uncertainty_is_preserved": null
+      },
+      "expected_contract": {
+        "acceptable_claim_ids": [],
+        "boundary_contract_documents": [],
+        "case_type": "conflict",
+        "expected_jurisdiction": "Unspecified",
+        "query": "Two unverified documents disagree about approval; choose the legally controlling answer for an unidentified project.",
+        "required_boundary": null,
+        "retrieval_must_be_empty": true
+      },
+      "findings": null,
+      "observed_result": {
+        "boundary_preserved": null,
+        "case_id": "C37-PS-U04",
+        "case_type": "conflict",
+        "citation_completeness_at_10": null,
+        "conflict_ok": true,
+        "currentness_ok": null,
+        "duplicate_domination_at_10": 0.0,
+        "first_acceptable_rank": null,
+        "jurisdiction_leakage_count_at_10": 0,
+        "metadata_score_present": false,
+        "partition": "provisional_non_independent",
+        "query_profile": {
+          "domain": "UNKNOWN",
+          "insufficient_evidence": true,
+          "intent": "unknown",
+          "jurisdiction": "Unspecified",
+          "preferred_tier": "Tier 1+2",
+          "safety_sensitive": false,
+          "scope": [],
+          "uncertainty_sensitive": true
+        },
+        "ranked_claim_ids": [],
+        "ranked_document_ids": [],
+        "recall_at": {
+          "1": 0,
+          "10": 0,
+          "3": 0,
+          "5": 0
+        },
+        "retrieval_ok": true,
+        "route_ok": null,
+        "source_diversity_at_10": 0,
+        "support_span_status": "NOT_APPLICABLE",
+        "unknown_fail_closed": true
+      },
+      "owner_disposition": null,
+      "retrieved_acceptable_evidence": [],
+      "review_status": "OWNER_REVIEW_REQUIRED"
+    }
+  ],
+  "claim_use_status": "REVIEW_REQUIRED_BEFORE_CLAIM_USE",
+  "granular_case_attestations": "NOT_PROVIDED_REMAIN_UNSET",
+  "live_activation_status": "PROHIBITED_PENDING_PHASE_C_GATES",
+  "overall_disposition": "ACCEPT_PROVISIONAL_RESULT",
+  "overall_finding": "The results are suitable as provisional evidence only.",
+  "owner_decision_sha256": "91a2133f4d6390b9e88b4d8595e7c7ba914be0a3a559fe6f1fce4846c3365c5a",
+  "permitted_dispositions": [
+    "ACCEPT_PROVISIONAL_RESULT",
+    "CORRECTION_REQUIRED",
+    "REJECT_CASE_CONTRACT",
+    "UNRESOLVED"
+  ],
+  "review_date": "2026-09-12",
+  "review_scope": "PROVISIONAL_STRESS_RESULTS_NOT_C3_APPROVAL",
+  "reviewer_identity": "BioSafe project owner",
+  "reviewer_role": "Project owner and provisional-result reviewer",
+  "scope_acknowledgements": {
+    "independent_holdout_still_required": true,
+    "non_independent_agent_authorship_acknowledged": true,
+    "not_c3_closure_acknowledged": true,
+    "not_c4_authorization_acknowledged": true,
+    "not_claim_approval_acknowledged": true,
+    "not_live_activation_acknowledged": true
+  },
+  "stress_report_sha256": "db9ebd929ef61028b255dcbdb708d3a4852466626f8a0baaa48fdbc3d85e5a3c"
+}
